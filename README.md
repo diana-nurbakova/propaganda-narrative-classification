@@ -377,6 +377,18 @@ python ensemble_ablation_report.py \
 
 Evaluates Agora experiments with varying numbers of agents (1, 3, 5, 7) on a single model and language, producing narrative- and subnarrative-level metrics with pairwise significance tests. Used to determine the optimal ensemble size for the multi-agent voting framework.
 
+### Voting Failure Analysis
+
+```bash
+cd src/analysis
+python voting_failure_analysis.py \
+    --experiments-dir ../../results/experiments/ \
+    --ground-truth-dir ../../data/dev-documents_4_December/ \
+    --output ../../results/analysis/voting_failure_report.md
+```
+
+Diagnoses failure modes in multi-agent voting: per-document error classification (false positives, false negatives, "Other" inflation), cross-run consensus to identify systematic failures across seeds, cross-aggregation comparison (intersection vs majority vs union on the same model), and cross-model consensus to surface inherently hard documents. When vote-level data is available, also analyses unanimous-wrong votes, agreement entropy, and per-agent reliability.
+
 ### Dataset Statistics
 
 ```bash
