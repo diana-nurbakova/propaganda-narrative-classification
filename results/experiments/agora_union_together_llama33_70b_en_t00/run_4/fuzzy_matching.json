@@ -1,0 +1,39 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_union_together_llama33_70b_en_t00",
+    "run_id": 4
+  },
+  "narrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "narrative_matches": [],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Controversy about green technologies: Renewable energy is not the focus, but rather the WEF's approach to reducing waste",
+      "matched_label": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 94.57364341085271,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u2019s history",
+      "matched_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u00e2\u20ac\u2122s history",
+      "score": 96.36363636363636,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Experiment Configuration
+# Model: mDeBERTa v3 base (fine-tuned)
+# Method: Fine-tuned mDeBERTa Baseline
+# Strategy: Hierarchical multi-head classification
+# Language: RU
+# Temperature: N/A (deterministic)
+# Runs: 5
+# Variance: MC Dropout (dropout active during inference)
+#
+# Fine-tuned on unified training annotations (all languages combined)
+# Threshold optimized during training
+
+model_name: mdeberta:microsoft/mdeberta-v3-base
+input_folder: data/dev-documents_4_December/RU/subtask-2-documents/
+output_file: results/experiments/mdeberta_baseline_ru_t00/run_1/results.txt
+temperature: 0.0
+top_p: 1.0
+max_tokens: 512
+hierarchical_strategy: multi_head
+num_narrative_agents: 1
+num_subnarrative_agents: 1
+narrative_aggregation_method: single
+subnarrative_aggregation_method: single
+enable_validation: false
+enable_narrative_validation: false
+enable_subnarrative_validation: false
+enable_retrieval: false
+enable_cleaning: false
+enable_text_cleaning: false
+max_concurrency: 1
+enable_cost_tracking: false
+threshold: 0.55

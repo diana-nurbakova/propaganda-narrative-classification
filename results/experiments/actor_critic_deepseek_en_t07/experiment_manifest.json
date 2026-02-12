@@ -1,0 +1,71 @@
+{
+  "experiment_id": "actor_critic_deepseek_en_t07",
+  "base_config": "configs/experiments/generated/core/actor_critic_deepseek_en_t07.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-04T21:34:42.179072",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T21:34:42.179072",
+      "completed_at": "2026-02-04T21:39:39.181352",
+      "duration_seconds": 297.00228
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T21:39:39.183397",
+      "completed_at": "2026-02-04T21:44:24.388730",
+      "duration_seconds": 285.205333
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T21:44:24.395894",
+      "completed_at": "2026-02-04T21:48:59.471650",
+      "duration_seconds": 275.075756
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T21:48:59.480896",
+      "completed_at": "2026-02-04T21:53:30.159251",
+      "duration_seconds": 270.678355
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_deepseek_en_t07\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T21:53:30.160754",
+      "completed_at": "2026-02-04T21:58:12.335675",
+      "duration_seconds": 282.174921
+    }
+  ],
+  "completed_at": "2026-02-04T21:58:12.342460",
+  "total_duration_seconds": 1410.136645,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

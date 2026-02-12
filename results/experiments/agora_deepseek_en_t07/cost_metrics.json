@@ -1,0 +1,17 @@
+{
+  "experiment_id": "agora_deepseek_en_t07",
+  "config_name": "agora_deepseek_en_t07",
+  "model_name": "deepseek:deepseek-chat",
+  "total_documents": 41,
+  "total_api_calls": 205,
+  "total_input_tokens": 410000,
+  "total_output_tokens": 102500,
+  "total_cost_usd": 0.0861,
+  "total_latency_ms": 60436.703,
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "intersection",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": 0.1836
+}

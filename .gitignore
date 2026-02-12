@@ -1,0 +1,44 @@
+# Environment & secrets
+.env*
+.venv/
+api_keys.env
+
+# Data — exclude documents/archives, keep taxonomy definitions
+data/*/
+data/*.zip
+data/*.tsv
+!data/narrative_definitions.csv
+!data/subnarrative_definitions.csv
+!data/taxonomy.json
+devset/**
+testset/
+
+# Model weights (hosted on Zenodo)
+models/
+
+# Build/cache artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Archive (local only)
+.archive/
+
+# IDE & tool metadata
+.claude/
+.vscode/
+*.swp
+*.swo
+
+# Logs & temp
+logs/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Legacy
+unsloth*/
+src_old/
+narrative_model_artifacts/

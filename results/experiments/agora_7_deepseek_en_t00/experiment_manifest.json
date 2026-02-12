@@ -1,0 +1,27 @@
+{
+  "experiment_id": "agora_7_deepseek_en_t00",
+  "base_config": "configs/experiments/generated/core/agora_7_deepseek_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-12T01:21:49.792199",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_7_deepseek_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_7_deepseek_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-12T01:21:49.793203",
+      "completed_at": "2026-02-12T01:42:27.446991",
+      "duration_seconds": 1237.653788
+    }
+  ]
+}

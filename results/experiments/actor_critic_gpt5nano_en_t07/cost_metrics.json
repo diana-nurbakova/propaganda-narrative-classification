@@ -1,0 +1,17 @@
+{
+  "experiment_id": "actor_critic_gpt5nano_en_t07",
+  "config_name": "actor_critic_gpt5nano_en_t07",
+  "model_name": "openai:gpt-5-nano",
+  "total_documents": 41,
+  "total_api_calls": 205,
+  "total_input_tokens": 410000,
+  "total_output_tokens": 102500,
+  "total_cost_usd": 0.082,
+  "total_latency_ms": 5969724.396,
+  "num_narrative_agents": 1,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": true,
+  "enable_retrieval": false,
+  "f1_samples": 0.2415
+}

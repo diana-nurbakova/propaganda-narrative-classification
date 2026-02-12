@@ -1,0 +1,1718 @@
+[Logging] Output will be saved to: results\experiments\actor_critic_deepseek_en_t00_evidence\experiment_actor_critic_deepseek_en_t00_evidence_20260210_132127.log
+
+============================================================
+MULTI-RUN EXPERIMENT: actor_critic_deepseek_en_t00_evidence
+============================================================
+Base config: configs/experiments/generated/core/actor_critic_deepseek_en_t00.yaml
+Number of runs: 1
+Base seed: 42
+Output directory: results/experiments/actor_critic_deepseek_en_t00_evidence/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_actor_critic_deepseek_en_t00_evidence_en38rtnx\run_1_config.yaml
+[Run 1] Output: results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_actor_critic_deepseek_en_t00_evidence_en38rtnx\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/EN/subtask-2-documents/
+  Output: results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+  Global Validation: True
+  Narrative Validation: True
+  Subnarrative Validation: True
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=actor_critic_deepseek_en_t00_evidence, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding narrative validation node
+[GraphBuilder] Adding subnarrative validation node
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: True
+  - Subnarrative validation: True
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/EN/subtask-2-documents/
+[utils] Output file results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt does not exist, processing all files
+[utils] Total files: 41, Already processed: 0, To process: 41
+[utils] Files to process: EN_CC_200030.txt, EN_CC_200033.txt, EN_CC_200034.txt, EN_CC_200035.txt, EN_CC_200036.txt...
+[Main] Processing 41 files...
+[Main] Output will be appended to: results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: No narratives to validate. Approving.
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200030.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Questioning the measurements and science', 'CC: Criticism of climate policies', 'CC: Controversy about green technologies']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Questioning the measurements and science', 'CC: Criticism of climate policies', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] CRITIC: Validation failed.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Questioning the measurements and science', 'CC: Criticism of climate policies', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200033.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200040.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Climate change is beneficial', 'CC: Downplaying climate change', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Green policies are geopolitical instruments']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200035.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Questioning the measurements and science', 'CC: Criticism of climate policies', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Downplaying climate change', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of institutions and authorities', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Climate change is beneficial', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Climate change is beneficial', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200036.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200034.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...c subnarrative claim."}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...c subnarrative claim."}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Climate change is beneficial', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: No subnarratives to validate. Approving.
+[graph] No subnarratives to clean. Skipping.
+[graph] Writing results for file EN_CC_200053.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_CC_200054.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: No narratives to validate. Approving.
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200060.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_CC_200063.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Climate change is beneficial', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200049.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Questioning the measurements and science', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement', 'CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200047.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Questioning the measurements and science', 'CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200046.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200050.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Hidden plots by secret schemes of powerful groups', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Amplifying Climate Fears', 'CC: Controversy about green technologies']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200064.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_CC_200077.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: No narratives to validate. Approving.
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200078.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Green policies are geopolitical instruments']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Controversy about green technologies', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200070.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200065.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200069.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: No narratives to validate. Approving.
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200085.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of institutions and authorities']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category CC
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Praise of Russia', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Praise of Russia', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200079.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200071.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Praise of Russia', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200081.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West']
+[graph] CRITIC: Validating classified narratives...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100003.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Praise of Russia', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Blaming the war on others rather than the invader', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100004.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Blaming the war on others rather than the invader', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: No narratives to validate. Approving.
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_UA_DEV_100019.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_UA_DEV_100026.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100002.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: No narratives to validate. Approving.
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_UA_DEV_100029.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100005.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100012.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100034.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100036.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Discrediting Ukraine', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Discrediting Ukraine', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader', 'URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_20.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Discrediting Ukraine', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100033.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine']
+[graph] CRITIC: Validating classified narratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Discrediting Ukraine', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] CRITIC: Validating classified narratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] CRITIC: Validating classified narratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100013.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_214.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_213.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Failed to validate JSON against schema: 2 validation errors for ValidationResult
+is_valid
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+feedback
+  Field required [type=missing, input_value={'description': 'The verd...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_215.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] CRITIC: Validating classified subnarratives...
+[graph] CRITIC: Validation failed.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_22.txt
+[graph] Results written to results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\actor_critic_deepseek_en_t00_evidence\run_1\cost_metrics.json
+[Main] Cost summary: 41 calls, $0.0861, 1606.23s
+
+============================================================
+EXPERIMENT COMPLETED: actor_critic_deepseek_en_t00_evidence
+============================================================
+Total runs: 1
+Successful: 1
+Failed: 0
+Total duration: 1617.62 seconds
+Manifest saved to: results\experiments\actor_critic_deepseek_en_t00_evidence\experiment_manifest.json
+============================================================
+

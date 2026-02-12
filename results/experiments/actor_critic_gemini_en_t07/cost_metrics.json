@@ -1,0 +1,17 @@
+{
+  "experiment_id": "actor_critic_gemini_en_t07",
+  "config_name": "actor_critic_gemini_en_t07",
+  "model_name": "google_genai:gemini-2.5-flash",
+  "total_documents": 39,
+  "total_api_calls": 195,
+  "total_input_tokens": 390000,
+  "total_output_tokens": 97500,
+  "total_cost_usd": 0.058499999999999996,
+  "total_latency_ms": 423552.099,
+  "num_narrative_agents": 1,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": true,
+  "enable_retrieval": false,
+  "f1_samples": 0.2059
+}

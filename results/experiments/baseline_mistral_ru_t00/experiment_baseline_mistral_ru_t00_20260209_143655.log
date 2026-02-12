@@ -1,0 +1,2026 @@
+[Logging] Output will be saved to: results\experiments\baseline_mistral_ru_t00\experiment_baseline_mistral_ru_t00_20260209_143655.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_mistral_ru_t00
+============================================================
+Base config: configs/experiments/generated/core/baseline_mistral_ru_t00.yaml
+Number of runs: 5
+Base seed: 42
+Output directory: results/experiments/baseline_mistral_ru_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943, 1051802512, 958682846]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_ktqy_z18\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_ktqy_z18\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=baseline_mistral_ru_t00, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_ru_t00\run_1\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Overpraising the West', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Overpraising the West', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[structured_output] Warning: Could not extract JSON from response, using defaults
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_ru_t00\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_ru_t00\run_1\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.6720, 469.72s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_ru_t00\run_1\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 4/4 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 2/2 matched (100.0%)
+
+[Multi-Run] Waiting 30s before run 2 to avoid rate limits...
+
+[Run 2] Starting with seed=107420369
+[Run 2] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_upwemhs6\run_2_config.yaml
+[Run 2] Output: results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_upwemhs6\run_2_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=107420369
+  Experiment: id=baseline_mistral_ru_t00, run=2
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_ru_t00\run_2\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Praise of Russia', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_ru_t00\run_2\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_ru_t00\run_2\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.6720, 477.96s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_ru_t00\run_2\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 8/8 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 1/1 matched (100.0%)
+
+[Multi-Run] Waiting 30s before run 3 to avoid rate limits...
+
+[Run 3] Starting with seed=1181241943
+[Run 3] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_vtewxlwh\run_3_config.yaml
+[Run 3] Output: results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_vtewxlwh\run_3_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=1181241943
+  Experiment: id=baseline_mistral_ru_t00, run=3
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_ru_t00\run_3\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Discrediting the West, Diplomacy: The West is divided' -> 'URW: Discrediting the West, Diplomacy: The EU is divided' (score: 97.0)
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Overpraising the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Overpraising the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Praise of Russia', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Discrediting the West, Diplomacy: The West is divided' -> 'URW: Discrediting the West, Diplomacy: The EU is divided' (score: 97.0)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_ru_t00\run_3\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_ru_t00\run_3\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.6720, 513.34s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_ru_t00\run_3\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 8/8 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 4/4 matched (100.0%)
+
+[Multi-Run] Waiting 30s before run 4 to avoid rate limits...
+
+[Run 4] Starting with seed=1051802512
+[Run 4] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_9zzkla4m\run_4_config.yaml
+[Run 4] Output: results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_9zzkla4m\run_4_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=1051802512
+  Experiment: id=baseline_mistral_ru_t00, run=4
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_ru_t00\run_4\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Praise of Russia', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Discrediting the West, Diplomacy: The West is divided' -> 'URW: Discrediting the West, Diplomacy: The EU is divided' (score: 97.0)
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_ru_t00\run_4\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_ru_t00\run_4\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.6720, 462.83s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_ru_t00\run_4\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 5/5 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 2/2 matched (100.0%)
+
+[Multi-Run] Waiting 30s before run 5 to avoid rate limits...
+
+[Run 5] Starting with seed=958682846
+[Run 5] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_grmq16di\run_5_config.yaml
+[Run 5] Output: results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_ru_t00_grmq16di\run_5_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=958682846
+  Experiment: id=baseline_mistral_ru_t00, run=5
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_ru_t00\run_5\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Discrediting Ukraine' -> 'URW: Discrediting Ukraine' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Overpraising the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Overpraising the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Praise of Russia', 'Praise of Russia', 'Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Praise of Russia' -> 'URW: Praise of Russia' (score: 100.0)
+[graph] Fuzzy matched 'Speculating war outcomes' -> 'URW: Speculating war outcomes' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other' -> 'URW: Speculating war outcomes: Other' (score: 100.0)
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_ru_t00\run_5\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_ru_t00\run_5\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.6720, 481.04s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_ru_t00\run_5\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 8/8 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 2/2 matched (100.0%)
+
+============================================================
+EXPERIMENT COMPLETED: baseline_mistral_ru_t00
+============================================================
+Total runs: 5
+Successful: 5
+Failed: 0
+Total duration: 2406.89 seconds
+Manifest saved to: results\experiments\baseline_mistral_ru_t00\experiment_manifest.json
+============================================================
+

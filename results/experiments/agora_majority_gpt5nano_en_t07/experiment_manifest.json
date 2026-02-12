@@ -1,0 +1,71 @@
+{
+  "experiment_id": "agora_majority_gpt5nano_en_t07",
+  "base_config": "configs/experiments/generated/core/agora_majority_gpt5nano_en_t07.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-09T15:01:37.802846",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T15:01:37.802846",
+      "completed_at": "2026-02-09T16:14:00.914502",
+      "duration_seconds": 4343.111656
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T16:14:30.937861",
+      "completed_at": "2026-02-09T17:15:43.194063",
+      "duration_seconds": 3672.256202
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T17:16:13.205839",
+      "completed_at": "2026-02-09T18:33:42.953063",
+      "duration_seconds": 4649.747224
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T18:34:12.974978",
+      "completed_at": "2026-02-09T19:44:39.499014",
+      "duration_seconds": 4226.524036
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_gpt5nano_en_t07\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T19:45:09.513443",
+      "completed_at": "2026-02-09T20:50:21.883204",
+      "duration_seconds": 3912.369761
+    }
+  ],
+  "completed_at": "2026-02-09T20:50:21.888194",
+  "total_duration_seconds": 20804.008879,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

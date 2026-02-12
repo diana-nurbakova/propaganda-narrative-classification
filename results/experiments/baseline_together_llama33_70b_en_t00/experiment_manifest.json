@@ -1,0 +1,71 @@
+{
+  "experiment_id": "baseline_together_llama33_70b_en_t00",
+  "base_config": "configs/experiments/generated/core/baseline_together_llama33_70b_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-08T19:15:50.497001",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T19:15:50.497001",
+      "completed_at": "2026-02-08T19:19:49.389456",
+      "duration_seconds": 238.892455
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T19:20:19.396109",
+      "completed_at": "2026-02-08T19:23:25.897401",
+      "duration_seconds": 186.501292
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T19:23:55.907224",
+      "completed_at": "2026-02-08T19:26:45.697879",
+      "duration_seconds": 169.790655
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T19:27:15.714743",
+      "completed_at": "2026-02-08T19:32:34.811154",
+      "duration_seconds": 319.096411
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_together_llama33_70b_en_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T19:33:04.819936",
+      "completed_at": "2026-02-08T19:37:18.565286",
+      "duration_seconds": 253.74535
+    }
+  ],
+  "completed_at": "2026-02-08T19:37:18.566317",
+  "total_duration_seconds": 1168.026163,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

@@ -1,0 +1,63 @@
+{
+  "config": {
+    "model_name": "mistralai:mistral-large-latest",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_mistral_hi_t00",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 5,
+    "matched": 5,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "HI_143.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Discrediting the West, Diplomacy",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "subnarrative_matches": []
+}

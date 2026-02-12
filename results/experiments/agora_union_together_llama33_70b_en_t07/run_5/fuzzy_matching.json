@@ -1,0 +1,56 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_union_together_llama33_70b_en_t07",
+    "run_id": 5
+  },
+  "narrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 3,
+    "matched": 3,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of capitalist system as a whole",
+      "matched_label": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 77.41935483870968,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science: Other",
+      "score": 92.63157894736842,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100004.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military![](https://example.com/image.png)",
+      "matched_label": "URW: Discrediting Ukraine: Other",
+      "score": 89.65517241379311,
+      "matched": true
+    }
+  ]
+}

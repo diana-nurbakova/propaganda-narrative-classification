@@ -1,0 +1,885 @@
+{
+  "experiment_id": "actor_critic_mistral_ru_t00",
+  "config_name": "run_3_config",
+  "model_name": "mistralai:mistral-large-latest",
+  "start_time": "2026-02-09T10:08:58.142796",
+  "end_time": "2026-02-09T10:43:32.980561",
+  "total_documents": 32,
+  "total_api_calls": 32,
+  "total_input_tokens": 320000,
+  "total_output_tokens": 80000,
+  "total_cost_usd": 1.1200000000000003,
+  "total_latency_ms": 2074826.6470003873,
+  "documents": [
+    {
+      "file_id": "RU-URW-1004.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1014.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1023.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1032.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1043.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1053.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1061.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1069.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1073.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1077.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1085.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1089.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1090.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1093.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1101.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1102.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1110.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1118.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1120.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1127.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1133.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1135.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1139.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1146.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1147.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1152.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1166.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1168.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1170.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1171.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1174.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "RU-URW-1184.txt",
+      "start_time": "2026-02-09T10:43:32.980561",
+      "end_time": "2026-02-09T10:43:32.980561",
+      "total_latency_ms": 64838.3327187621,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.035,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-09T10:43:32.980561",
+          "model": "mistralai:mistral-large-latest",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 64838.3327187621,
+          "cost_usd": 0.035,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    }
+  ],
+  "num_narrative_agents": 1,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": true,
+  "enable_retrieval": false,
+  "f1_samples": null
+}

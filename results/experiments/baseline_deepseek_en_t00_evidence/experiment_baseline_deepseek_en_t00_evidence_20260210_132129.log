@@ -1,0 +1,490 @@
+[Logging] Output will be saved to: results\experiments\baseline_deepseek_en_t00_evidence\experiment_baseline_deepseek_en_t00_evidence_20260210_132129.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_deepseek_en_t00_evidence
+============================================================
+Base config: configs/experiments/generated/core/baseline_deepseek_en_t00.yaml
+Number of runs: 1
+Base seed: 42
+Output directory: results/experiments/baseline_deepseek_en_t00_evidence/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_deepseek_en_t00_evidence_w9wf67so\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_deepseek_en_t00_evidence_w9wf67so\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/EN/subtask-2-documents/
+  Output: results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=baseline_deepseek_en_t00_evidence, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/EN/subtask-2-documents/
+[utils] Output file results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt does not exist, processing all files
+[utils] Total files: 41, Already processed: 0, To process: 41
+[utils] Files to process: EN_CC_200030.txt, EN_CC_200033.txt, EN_CC_200034.txt, EN_CC_200035.txt, EN_CC_200036.txt...
+[Main] Processing 41 files...
+[Main] Output will be appended to: results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200030.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Hidden plots by secret schemes of powerful groups']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Criticism of climate policies', 'CC: Questioning the measurements and science']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Downplaying climate change', 'CC: Criticism of climate policies', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Questioning the measurements and science', 'CC: Green policies are geopolitical instruments']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Questioning the measurements and science', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200035.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200033.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200040.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Climate change is beneficial', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Climate change is beneficial', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200034.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Green policies are geopolitical instruments']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200046.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200036.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_CC_200054.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200049.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200060.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_CC_200063.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate movement', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200053.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Questioning the measurements and science', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement', 'CC: Criticism of climate movement', 'CC: Downplaying climate change']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Questioning the measurements and science', 'CC: Questioning the measurements and science', 'CC: Criticism of climate movement', 'CC: Criticism of climate movement', 'CC: Downplaying climate change']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Downplaying climate change']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200064.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200047.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200050.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies', 'CC: Criticism of climate movement']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200069.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200078.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200065.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200070.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_CC_200085.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of institutions and authorities']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200071.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Praise of Russia', 'URW: Distrust towards Media', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200077.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200079.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_CC_200081.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100003.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100002.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_UA_DEV_100019.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file EN_UA_DEV_100026.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_UA_DEV_100029.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100004.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Overpraising the West', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100012.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file EN_UA_DEV_100036.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100005.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100034.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_20.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100033.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_100013.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_215.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_213.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_214.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file EN_UA_DEV_22.txt
+[graph] Results written to results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_deepseek_en_t00_evidence\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_deepseek_en_t00_evidence\run_1\cost_metrics.json
+[Main] Cost summary: 41 calls, $0.0517, 464.76s
+
+============================================================
+EXPERIMENT COMPLETED: baseline_deepseek_en_t00_evidence
+============================================================
+Total runs: 1
+Successful: 1
+Failed: 0
+Total duration: 476.25 seconds
+Manifest saved to: results\experiments\baseline_deepseek_en_t00_evidence\experiment_manifest.json
+============================================================
+

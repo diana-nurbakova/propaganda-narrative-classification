@@ -1,0 +1,17 @@
+{
+  "experiment_id": "agora_mistral_bg_t00",
+  "config_name": "agora_mistral_bg_t00",
+  "model_name": "mistralai:mistral-large-latest",
+  "total_documents": 34,
+  "total_api_calls": 170,
+  "total_input_tokens": 340000,
+  "total_output_tokens": 85000,
+  "total_cost_usd": 1.19,
+  "total_latency_ms": 179676.955,
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "intersection",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": 0.2571
+}

@@ -1,0 +1,17 @@
+{
+  "experiment_id": "actor_critic_mistral_pt_t00",
+  "config_name": "actor_critic_mistral_pt_t00",
+  "model_name": "mistralai:mistral-large-latest",
+  "total_documents": 35,
+  "total_api_calls": 175,
+  "total_input_tokens": 350000,
+  "total_output_tokens": 87500,
+  "total_cost_usd": 1.2249999999999999,
+  "total_latency_ms": 1289049.967,
+  "num_narrative_agents": 1,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": true,
+  "enable_retrieval": false,
+  "f1_samples": 0.1923
+}

@@ -1,0 +1,1072 @@
+{
+  "summary": {
+    "total_quotes": 143,
+    "exact": 101,
+    "near_exact": 19,
+    "fuzzy": 11,
+    "hallucination": 2,
+    "empty": 10,
+    "faithfulness_rate": 0.9161
+  },
+  "per_document": {
+    "HI_10.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "यह यात्रा किसी भारतीय प्रधानमंत्री की पहली यूक्रेन यात्रा होगी। इसे व्यापक रूप से चल रहे रूस-यूक्रेन...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "अगर प्रधानमंत्री मोदी यूक्रेन जाते हैं तो यह यात्रा किसी भारतीय प्रधानमंत्री की पहली यूक्रेन यात्रा ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_107.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "\"इसका अंदाजा सभी को है कि अगर ऐसा होता है तो यह पूर्ण पैमाने पर तीसरे विश्व युद्ध से बस एक कदम दूर ह...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "\"परमाणु युद्ध का हर किसी को है अंदाजा\"",
+          "category": "fuzzy",
+          "ratio": 0.947
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "इसका अंदाजा सभी को है कि अगर ऐसा होता है तो यह पूर्ण पैमाने पर तीसरे विश्व युद्ध से बस एक कदम दूर हो...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+          "quote": "र रूस और नाटो के बीच सीधा टकराव तीसरे विश्व युद्ध की तरफ पहला कदम होगा.",
+          "category": "near_exact",
+          "ratio": 0.972
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "परमाणु युद्ध का हर किसी को है अंदाजा",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+          "quote": "नाटो के जवान पहले से ही यूक्रेन में तैनात थे.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "इस मॉडर्न दुनिया में कुछ भी मुमकिन है.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_11.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "इसके बाद लेबनान और इज़रायल में बड़ी जंग छिड़ने के आसार हैं.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "कुल मिलाकर दुनिया बारूद के ढेर पर बैठी है.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "कभी इस लड़ाई में इजरायल लीड लेता दिखता है. तो कभी दूसरा वर्चस्व की जंग में जीतने के लिए तोपखाने और आ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+          "quote": "नाटो की फौजें रूस को चुनौती दे रही हैं.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "कुल मिलाकर दुनिया बारूद के ढेर पर बैठी है.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_110.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "यूक्रेन आक्रामक मूड में है.",
+          "category": "near_exact",
+          "ratio": 0.963
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "इस हालात में रूस कर सकता है परमाणु हमले",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "अमेरिका और ब्रिटेन पर होगा परमाणु हमला",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+          "quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "इस हालात में रूस कर सकता है परमाणु हमले",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "इस हालात में रूस कर सकता है परमाणु हमले",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Russia will also attack other countries",
+          "quote": "अगर ये देश यूक्रेन को रूस पर हमला करने देंगे तो वे उन देशों पर हमला कर देंगे.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_114.txt": {
+      "narratives": [
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "अगर रूस ने ताकत दिखाई और यूक्रेन ने कहा तो फ्रांस अपनी जमीनी सेना उतार देगा",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+          "quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+          "quote": "अगर रूस ने ताकत दिखाई और यूक्रेन ने कहा तो फ्रांस अपनी जमीनी सेना उतार देगा.",
+          "category": "near_exact",
+          "ratio": 0.961
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "रूस पर यूक्रेनी सैनिकों पर रासायनिक गैस का इस्तेमाल करने का आरोप लगाया गया है।",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "रussia की इस हरकत से छिड़ जाएगा विश्व युद्ध? आगबबूला हुआ अमेरिका; फ्रांस ने भी कहा- अब खैर नहीं",
+          "category": "fuzzy",
+          "ratio": 0.947
+        }
+      ]
+    },
+    "HI_12.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_125.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "जर्मनी अभी भी रूस के खिलाफ कड़े प्रतिबंध लगाने से बच रहा है. उसे अपने देश की अर्थव्यवस्था की ज्यादा ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "उसे डर लग रहा है कि रूस पर प्रतिबंध लगाने से जर्मनी को बड़ा आर्थिक नुकसान हो जाएगा.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "उसे अपने देश की अर्थव्यवस्था की ज्यादा चिंता है. उसे डर लग रहा है कि रूस पर प्रतिबंध लगाने से जर्मनी...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "बातचीत से कोई रास्ता नहीं निकला है",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+          "quote": "उस डर लग रहा है कि रूस पर प्रतिबंध लगाने से जर्मनी को बड़ा आर्थिक नुकसान हो जाएगा",
+          "category": "near_exact",
+          "ratio": 0.975
+        }
+      ]
+    },
+    "HI_126.txt": {
+      "narratives": [],
+      "subnarratives": []
+    },
+    "HI_134.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "गायब सा हो गया बसंत का मौसम",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "कई भारतीयों का कहना है कि बसंत का मौसम जैसा गायब सा हो गया है.",
+          "category": "near_exact",
+          "ratio": 0.968
+        }
+      ]
+    },
+    "HI_139.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ]
+    },
+    "HI_140.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "यदि वर्तमान उत्सर्जन दरें जारी रहें और तापमान 4 डिग्री सेल्सियस से अधिक बढ़ने पर सदी के अंत तक वैश्व...",
+          "category": "fuzzy",
+          "ratio": 0.938
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_143.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "जलवायु परिवर्तन से महिलाओं, दिव्यांगों और मूल निवासियों के लिए खतरा बढ़ रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "जलवायु परिवर्तन से महिलाओं, दिव्यांगों और मूल निवासियों के लिए खतरा बढ़ रहा है. ऐसे में सभी लोगों को...",
+          "category": "hallucination",
+          "ratio": 0.618
+        }
+      ]
+    },
+    "HI_151.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_152.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "क्योंकि अमेरिका और साउथ कोरिया उसके सबसे बड़े दुश्मन हैं। सब जानते हैं, अमेरिका यूक्रेन के पाले में ...",
+          "category": "hallucination",
+          "ratio": 0.787
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "सब जानते हैं, अमेरिका यूक्रेन के पाले में खड़ा है और रूस को परास्त करने के सपने दे रहा है।",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_154.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "क्या वाकई तीसरी जंग हो सकती है?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "बड़े इंटरनेशनल संगठन, जो आमतौर पर शांति की बात करते हैं, वे कमजोर हो जाएंगे.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "महामारी के तबाही मचाने के दौर में भी वैक्सीन का बराबर बंटवारा नहीं हुआ, जिसने बहुत से कमजोर देशों को...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "यूक्रेन ने खुद को नाटो में शामिल करने की अपील की.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "तीसरा विश्व युद्ध छिड़ा तो 3 टुकड़ों में बंट जाएगी दुनिया! जानिए, किस तरफ हो ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "तीसरा विश्व युद्ध छिड़ा तो 3 टुकड़ों में बंट जाएगी दुनिया! जानिए, किस तरफ हो ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is weak",
+          "quote": "बड़े इंटरनेशनल संगठन, जो आमतौर पर शांति की बात करते हैं, वे कमजोर हो जाएंगे.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "इनकी बजाए क्षेत्रीय संगठन, जो किसी एक देश के लिए काम करते हों, ज्यादा मजूबत हो सकते हैं.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: The conflict will increase the Ukrainian refugee flows to Europe",
+          "quote": "लगभग 7 मिलियन लोग अपना देश छोड़कर दूसरी जगहों पर पनाह लिए हुए हैं.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "यूनाइटेड नेशन्स की अपनी कोई आवाज नहीं बचेगी और न ही ऑर्गेनाइजेशन फॉर सिक्योरेशन एंड कोऑपरेशन इन यूरो...",
+          "category": "fuzzy",
+          "ratio": 0.944
+        }
+      ]
+    },
+    "HI_156.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "अगर रूस 'अस्तित्व से जुड़े खतरे' का सामना करता है, तो ही वह परमाणु हथियारों का इस्तेमाल करेगा।",
+          "category": "fuzzy",
+          "ratio": 0.894
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "रूस-यूक्रेन युद्ध में परमाणु हथियारों के इस्तेमाल की संभावनाओं को लेकर चिंताएं जारी हैं।",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "अगर रूस 'अस्तित्व से जुड़े खतरे' का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा।",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "अगर रूस 'अस्तित्व से जुड़े खतरे' का सामना करता है, तो ही वह परमाणु हथियारों का इस्तेमाल करेगा।",
+          "category": "fuzzy",
+          "ratio": 0.894
+        },
+        {
+          "label": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+          "quote": "अगर अमेरिका और NATO सहयोगी यूक्रेन को लड़ाकू विमान मुहैया कराते हैं, तो वह युद्ध को तेज और इसका विस्...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "पुतिन पश्चिमी देशों को यूक्रेन आक्रमण से दूर रखने के लिए परमाणु 'ब्लैकमेल' का इस्तेमाल कर रहे हैं।",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_158.txt": {
+      "narratives": [
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "अब युद्ध रूस में वापस आ रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "दुश्मन को निश्चित रूप से एक योग्य प्रतिक्रिया मिलेगी, और हमारे सामने आने वाले सभी लक्ष्य, बिना किसी ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+          "quote": "यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "दुश्मन को निश्चित रूप से एक योग्य प्रतिक्रिया मिलेगी, और हमारे सामने आने वाले सभी लक्ष्य, बिना किसी ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_159.txt": {
+      "narratives": [
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "रूस की सेना ने लगातार अपने कब्जे वाले क्षेत्रों पर मजबूत पकड़ बनाते हुए यूक्रेन की सेना को पीछे खदेड...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Praise of Russia: Praise of Russian military might",
+          "quote": "यूक्रेन के सीमावर्ती गांव अवदीवका से शुरुआत करते हुए, रूस ने कहा कि उसने पूर्वी यूक्रेन में दर्जनों ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_160.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_17.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "यूक्रेन के अलावा ‘‘युद्ध खत्म होना तीन वैश्विक महाशक्तियों... अमेरिका, यूरोपीय संघ और चीन के निर्णय ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "यूक्रेन के अलावा ‘‘युद्ध खत्म होना तीन वैश्विक महाशक्तियों... अमेरिका, यूरोपीय संघ और चीन के निर्णय ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_19.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_26.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_28.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "यह मामला एक अंतरराष्ट्रीय मिसाल भी कायम कर सकता है कि पत्रकारों को भू-राजनीतिक सौदेबाज़ी के साधन के ...",
+          "category": "near_exact",
+          "ratio": 0.977
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "लेकिन यह सौदा इस बात की भी अधिक संभावना बनाता है कि भविष्य में पत्रकारों और अन्य नागरिकों को पकड़ा ज...",
+          "category": "near_exact",
+          "ratio": 0.976
+        },
+        {
+          "label": "URW: Overpraising the West",
+          "quote": "बाइडेन प्रशासन सौदे पर बातचीत के दौरान की गई मेहनत के लिए श्रेय का हकदार है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "वे आम तौर पर हाई-प्रोफाइल होते हैं, जो अपनी सरकारों पर सौदे करने के लिए दबाव डालने की क्षमता वाली कं...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "लेकिन यह सौदा इस बात की भी अधिक संभावना बनाता है कि भविष्य में पत्रकारों और अन्य नागरिकों को पकड़ा ज...",
+          "category": "near_exact",
+          "ratio": 0.976
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "लेकिन यह सौदा इस बात की भी अधिक संभावना बनाता है कि भविष्य में पत्रकारों और अन्य नागरिकों को पकड़ा ज...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Overpraising the West: The West belongs in the right side of history",
+          "quote": "बाइडेन प्रशासन सौदे पर बातचीत के दौरान की गई मेहनत के लिए श्रेय का हकदार है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "लेकिन यह मामला एक अंतरराष्ट्रीय मिसाल भी कायम कर सकता है कि पत्रकारों को भू-राजनीतिक सौदेबाज़ी के सा...",
+          "category": "near_exact",
+          "ratio": 0.964
+        }
+      ]
+    },
+    "HI_31.txt": {
+      "narratives": [
+        {
+          "label": "URW: Hidden plots by secret schemes of powerful groups",
+          "quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों न...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Hidden plots by secret schemes of powerful groups: Other",
+          "quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों न...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_34.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "यूक्रेन के सशस्त्र बलों ने 10,000 किलोमीटर किलेबंदी करने की योजना बनाई है",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "यूक्रेन को लगता है कि किलेबंदी से रूसी सेना को कुछ दिन रोकने में कामयाबी मिल सकती है।",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_35.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ]
+    },
+    "HI_38.txt": {
+      "narratives": [
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है...",
+          "category": "fuzzy",
+          "ratio": 0.815
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Praise of Russia: Praise of Russian military might",
+          "quote": "साथ ही रूस भारत को सबसे अधिक हथियार सप्लाई करने वाले देशों में भी शामिल है",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_4.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "इस योजना के साथ रूस और यूक्रेन के बीच संकट को टाला जा सकता है या पूरी तरह से जंग खत्म की जा सकती है",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "इस योजना के साथ रूस और यूक्रेन के बीच संकट को टाला जा सकता है या पूरी तरह से जंग खत्म की जा सकती है।",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+          "quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_5.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "आने वाले दिनों में यूक्रेन मोर्चे पर तनाव और बढ़ जाने की आशंका है।",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "इससे रूस-यूक्रेन युद्ध एक बार फिर भड़क सकता है।",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "फिर भड़क सकता है रूस-यूक्रेन युद्ध",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "पुतिन ने रूसी संप्रभुता के खतरे में आने पर परमाणु हथियारों के इस्तेमाल से भी इनकार नहीं किया है",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_51.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "यूक्रेन में युद्ध के दो साल बाद, रूस ने यूक्रेन के कुछ हिस्सों पर कब्ज़ा कर लिया है, जो इसके पश्चिमी...",
+          "category": "near_exact",
+          "ratio": 0.987
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "यूक्रेन बनाम गाजा में नागरिकों की हत्या, अस्पतालों और स्कूलों पर बमबारी पर अमेरिका और यूरोप के दोहरे...",
+          "category": "near_exact",
+          "ratio": 0.982
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "इसे उलटना असंभव लगता है",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "यूक्रेन बनाम गाजा में नागरिकों की हत्या, अस्पतालों और स्कूलों पर बमबारी पर अमेरिका और यूरोप के दोहरे...",
+          "category": "near_exact",
+          "ratio": 0.982
+        }
+      ]
+    },
+    "HI_71.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "रूस ने यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्...",
+          "category": "near_exact",
+          "ratio": 0.966
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "रूस ने यूक्रेन और यूक्रेन के लोगों के खिलाफ युद्ध शुरू नहीं किया, बल्कि यूक्रेन से पश्चिमी देशों की ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "▫️Russia did not wage a war against Ukraine and its people, but a special military operation aimed a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "रूस की सेना बेहद संयम बरत रही है और आम लोगों और यूक्रेन के शहरों पर हमला नहीं कर रही है. रूस की सेना...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "इन तथ्यों के उलट सारी जानकारियां पूर्वाग्रहों से ग्रसित और भ्रामक हैं.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+          "quote": "रूस ने यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्...",
+          "category": "near_exact",
+          "ratio": 0.966
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "रूस ने यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्...",
+          "category": "near_exact",
+          "ratio": 0.966
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "रूस ने यूक्रेन और यूक्रेन के लोगों के खिलाफ युद्ध शुरू नहीं किया, बल्कि यूक्रेन से पश्चिमी देशों की ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्वारा जा...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+          "quote": "रूस ने यूक्रेन और यूक्रेन के लोगों के खिलाफ युद्ध शुरू नहीं किया, बल्कि यूक्रेन से पश्चिमी देशों की ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Russia is the Victim: UA is anti-RU extremists",
+          "quote": "रूस ने यूक्रेन और यूक्रेन के लोगों के खिलाफ युद्ध शुरू नहीं किया, बल्कि यूक्रेन से पश्चिमी देशों की ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Praise of Russian military might",
+          "quote": "रूस की सेना बेहद संयम बरत रही है और आम लोगों और यूक्रेन के शहरों पर हमला नहीं कर रही है. रूस की सेना...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "▫️Russia did not wage a war against Ukraine and its people, but a special military operation aimed a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "इन तथ्यों के उलट सारी जानकारियां पूर्वाग्रहों से ग्रस्त और भ्रामक हैं.",
+          "category": "fuzzy",
+          "ratio": 0.943
+        }
+      ]
+    },
+    "HI_75.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "HI_76.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "युद्धविराम की कोई संभावना नजर नहीं आती.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "यूरोप में ऊर्जा संकट पैदा हुई.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "यूक्रेन में मिलिट्री इक्वीपमेंट्स की खरीद-फरोख्त में बड़ी धांधली हुई है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "हालाँकि, फिर भी वे व्लादिमिर पुतिन को रोक पाने में विफल रहे और आज यह बात जहजाहिर है कि पश्चिमी और यू...",
+          "category": "near_exact",
+          "ratio": 0.967
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Russian army is collapsing",
+          "quote": "रूसी सेना दो साल में भी यूक्रेन को 'निपटा' पाने में विफल रही.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "ऊर्जा सुरक्षा: रूस यूक्रेन युद्ध की वजह से 2022 में यूरोप में ऊर्जा संकट पैदा हुई.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "यूक्रेन इस मामले में पूरी तरह से पश्चिमी देशों पर निर्भर है",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "युद्ध के दरमियान हथियारों की बड़ी मात्रा में खरीद-फरोख्त की जाती है. इसमें भ्रष्टाचार भी देखा जाता ह...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "पश्चिमी देशों में एक आत्ममुग्धता का भाव था, जिससे वे यह समझकर चल रहे थे कि पूरी दुनिया पुतिन पर दबाव...",
+          "category": "near_exact",
+          "ratio": 0.967
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is weak",
+          "quote": "आज यह बात जहजाहिर है कि पश्चिमी और यूरोपीय प्रतिबंधों का रूस पर ज्यादा कुछ असर नहीं हुआ.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_95.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "अगर नाटो ने सीधा हमला किया तो जंग रूस और नाटो की होगी.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "परमाणु युद्ध टाला नहीं जा सकता.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "अगर यूक्रेन इसी तरह से हमला करता रहा तो अगले साल मार्च-अप्रैल तक ये बेहद कमजोर हो जाएगा.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "अगर रूस इन केबल्स को काटता है तो इसका असर पश्चिमी देशों समेत कई देशों की अर्थव्यवस्था पर पड़ेगा.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "यह असंभव है. क्योंकि यूक्रेन के पास लंबी दूरी का हमला करने की तकनीक और विज्ञान नहीं है.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "अगर नाटो ने सीधा हमला किया तो जंग रूस और नाटो की होगी.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "अगर नाटो यूक्रेन के समर्थन में उसके शहरों पर हमला करता है तो परमाणु युद्ध टाला नहीं जा सकता.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+          "quote": "अगर नाटो ने सीधा हमला किया तो जंग रूस और नाटो की होगी.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+          "quote": "하지만 नाटो कर सकता है.",
+          "category": "fuzzy",
+          "ratio": 0.889
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "इजरायल और ईरान के बीच बढ़ते तनाव ने मध्य पूर्व में तनाव बढ़ा दिया है.",
+          "category": "fuzzy",
+          "ratio": 0.899
+        },
+        {
+          "label": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+          "quote": "अगर यूक्रेन इसी तरह से हमला करता रहा तो अगले साल मार्च-अप्रैल तक ये बेहद कमजोर हो जाएगा.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "अगर नाटो ने सीधा हमला किया तो जंग रूस और नाटो की होगी.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "अगर नाटो ने सीधा हमला किया तो जंग रूस और नाटो की होगी.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "यह असंभव है. क्योंकि यूक्रेन के पास लंबी दूरी का हमला करने की तकनीक और विज्ञान नहीं है.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "रूस ने कहा कि यूक्रेन के सहारे अगर नाटो रूस के शहरों पर हमला करने की हिमाकत करता है, तो ये बेवकूफी ह...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "HI_97.txt": {
+      "narratives": [
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "इन वजहों से रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+          "category": "fuzzy",
+          "ratio": 0.9
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Russia is the Victim: Other",
+          "quote": "इन वजहों से रूस की हालत खस्ता हुई है, जबकि वह दुनिया का दूसरा शक्तिशाली देश माना जाता रहा है.",
+          "category": "near_exact",
+          "ratio": 0.978
+        }
+      ]
+    }
+  }
+}

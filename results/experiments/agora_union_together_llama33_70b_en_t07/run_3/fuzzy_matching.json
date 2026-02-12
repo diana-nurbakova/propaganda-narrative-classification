@@ -1,0 +1,80 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_union_together_llama33_70b_en_t07",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 5,
+    "matched": 5,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Blaming the war on others rather than the invader",
+      "matched_label": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Blaming the war on others rather than the invader",
+      "matched_label": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is used as a pretext",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Controversy about green technologies: Renewable energy is not climate friendly",
+      "matched_label": "CC: Controversy about green technologies: Nuclear energy is not climate friendly",
+      "score": 94.73684210526315,
+      "matched": true
+    }
+  ]
+}

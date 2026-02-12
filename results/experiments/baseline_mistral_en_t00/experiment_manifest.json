@@ -1,0 +1,71 @@
+{
+  "experiment_id": "baseline_mistral_en_t00",
+  "base_config": "configs/experiments/generated/core/baseline_mistral_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-06T19:46:57.625192",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\baseline_mistral_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_mistral_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-06T19:46:57.625192",
+      "completed_at": "2026-02-06T19:49:02.455043",
+      "duration_seconds": 124.829851
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\baseline_mistral_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_mistral_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-06T19:49:32.469822",
+      "completed_at": "2026-02-06T19:51:36.125421",
+      "duration_seconds": 123.655599
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\baseline_mistral_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_mistral_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-06T19:52:06.141433",
+      "completed_at": "2026-02-06T19:53:53.051516",
+      "duration_seconds": 106.910083
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\baseline_mistral_en_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_mistral_en_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-06T19:54:23.061250",
+      "completed_at": "2026-02-06T19:56:18.713590",
+      "duration_seconds": 115.65234
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\baseline_mistral_en_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_mistral_en_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-06T19:56:48.719049",
+      "completed_at": "2026-02-06T19:58:45.308567",
+      "duration_seconds": 116.589518
+    }
+  ],
+  "completed_at": "2026-02-06T19:58:45.309942",
+  "total_duration_seconds": 587.637391,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

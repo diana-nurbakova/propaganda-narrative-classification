@@ -1,0 +1,655 @@
+{
+  "experiment_dir": "results/experiments/actor_critic_gpt5nano_en_t00/",
+  "num_runs": 5,
+  "agreement": {
+    "num_documents": 41,
+    "num_runs": 5,
+    "narrative_agreement": {
+      "mean": 0.7034620596205962,
+      "std": 0.21665097296747562,
+      "min": 0.3,
+      "max": 1.0
+    },
+    "subnarrative_agreement": {
+      "mean": 0.5005336074691582,
+      "std": 0.24542632398212155,
+      "min": 0.19238095238095235,
+      "max": 1.0
+    }
+  },
+  "label_variance": {
+    "num_runs": 5,
+    "total_unique_narratives": 22,
+    "total_unique_subnarratives": 81,
+    "label_stability": {
+      "CC: Amplifying Climate Fears": {
+        "total_appearances": 67,
+        "mean_consistency": 0.788235294117647,
+        "std_consistency": 0.2422501209644,
+        "type": "narrative"
+      },
+      "CC: Criticism of institutions and authorities": {
+        "total_appearances": 62,
+        "mean_consistency": 0.6888888888888889,
+        "std_consistency": 0.268512132746546,
+        "type": "narrative"
+      },
+      "URW: Speculating war outcomes": {
+        "total_appearances": 59,
+        "mean_consistency": 0.8428571428571429,
+        "std_consistency": 0.2638026473231341,
+        "type": "narrative"
+      },
+      "CC: Criticism of climate policies": {
+        "total_appearances": 48,
+        "mean_consistency": 0.7384615384615384,
+        "std_consistency": 0.26468693129361925,
+        "type": "narrative"
+      },
+      "CC: Criticism of climate movement": {
+        "total_appearances": 47,
+        "mean_consistency": 0.7230769230769231,
+        "std_consistency": 0.288640969835288,
+        "type": "narrative"
+      },
+      "URW: Discrediting the West, Diplomacy": {
+        "total_appearances": 40,
+        "mean_consistency": 0.7272727272727273,
+        "std_consistency": 0.3106910452842739,
+        "type": "narrative"
+      },
+      "CC: Controversy about green technologies": {
+        "total_appearances": 38,
+        "mean_consistency": 0.8444444444444446,
+        "std_consistency": 0.15713484026367724,
+        "type": "narrative"
+      },
+      "URW: Discrediting Ukraine": {
+        "total_appearances": 38,
+        "mean_consistency": 0.76,
+        "std_consistency": 0.332264954516723,
+        "type": "narrative"
+      },
+      "URW: Amplifying war-related fears": {
+        "total_appearances": 38,
+        "mean_consistency": 0.6909090909090909,
+        "std_consistency": 0.29986222731764806,
+        "type": "narrative"
+      },
+      "URW: Blaming the war on others rather than the invader": {
+        "total_appearances": 31,
+        "mean_consistency": 0.775,
+        "std_consistency": 0.23318447632722036,
+        "type": "narrative"
+      },
+      "URW: Distrust towards Media": {
+        "total_appearances": 30,
+        "mean_consistency": 0.8571428571428571,
+        "std_consistency": 0.27701027756664737,
+        "type": "narrative"
+      },
+      "Other": {
+        "total_appearances": 28,
+        "mean_consistency": 0.509090909090909,
+        "std_consistency": 0.37526849891909625,
+        "type": "subnarrative"
+      },
+      "CC: Questioning the measurements and science": {
+        "total_appearances": 24,
+        "mean_consistency": 0.6857142857142857,
+        "std_consistency": 0.3681171064778607,
+        "type": "narrative"
+      },
+      "URW: Negative Consequences for the West": {
+        "total_appearances": 19,
+        "mean_consistency": 0.6333333333333334,
+        "std_consistency": 0.21343747458109497,
+        "type": "narrative"
+      },
+      "URW: Praise of Russia": {
+        "total_appearances": 17,
+        "mean_consistency": 0.6799999999999999,
+        "std_consistency": 0.2712931993250107,
+        "type": "narrative"
+      },
+      "CC: Green policies are geopolitical instruments": {
+        "total_appearances": 15,
+        "mean_consistency": 0.42857142857142866,
+        "std_consistency": 0.29137254363387344,
+        "type": "narrative"
+      },
+      "CC: Downplaying climate change": {
+        "total_appearances": 15,
+        "mean_consistency": 0.75,
+        "std_consistency": 0.32787192621510003,
+        "type": "narrative"
+      },
+      "URW: Hidden plots by secret schemes of powerful groups": {
+        "total_appearances": 11,
+        "mean_consistency": 0.55,
+        "std_consistency": 0.2179449471770337,
+        "type": "narrative"
+      },
+      "CC: Hidden plots by secret schemes of powerful groups": {
+        "total_appearances": 8,
+        "mean_consistency": 0.39999999999999997,
+        "std_consistency": 0.34641016151377546,
+        "type": "narrative"
+      },
+      "URW: Russia is the Victim": {
+        "total_appearances": 6,
+        "mean_consistency": 0.4000000000000001,
+        "std_consistency": 0.28284271247461906,
+        "type": "narrative"
+      },
+      "CC: Climate change is beneficial": {
+        "total_appearances": 5,
+        "mean_consistency": 1.0,
+        "std_consistency": 0.0,
+        "type": "narrative"
+      },
+      "URW: Overpraising the West": {
+        "total_appearances": 5,
+        "mean_consistency": 0.5,
+        "std_consistency": 0.30000000000000004,
+        "type": "narrative"
+      },
+      "URW: Speculating war outcomes: Other": {
+        "total_appearances": 50,
+        "mean_consistency": 0.7692307692307694,
+        "std_consistency": 0.24615384615384614,
+        "type": "subnarrative"
+      },
+      "CC: Amplifying Climate Fears: Amplifying existing fears of global warming": {
+        "total_appearances": 49,
+        "mean_consistency": 0.6533333333333334,
+        "std_consistency": 0.3138293945583952,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate policies: Other": {
+        "total_appearances": 41,
+        "mean_consistency": 0.6833333333333332,
+        "std_consistency": 0.20749832663314552,
+        "type": "subnarrative"
+      },
+      "CC: Amplifying Climate Fears: Other": {
+        "total_appearances": 36,
+        "mean_consistency": 0.48000000000000004,
+        "std_consistency": 0.26127890589687236,
+        "type": "subnarrative"
+      },
+      "CC: Controversy about green technologies: Other": {
+        "total_appearances": 35,
+        "mean_consistency": 0.7777777777777779,
+        "std_consistency": 0.19876159799998128,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of institutions and authorities: Criticism of political organizations and figures": {
+        "total_appearances": 35,
+        "mean_consistency": 0.5833333333333333,
+        "std_consistency": 0.2881936077631764,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate movement: Other": {
+        "total_appearances": 35,
+        "mean_consistency": 0.5833333333333334,
+        "std_consistency": 0.29953667926019045,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies": {
+        "total_appearances": 31,
+        "mean_consistency": 0.6888888888888889,
+        "std_consistency": 0.32810717911629783,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate movement: Climate movement is alarmist": {
+        "total_appearances": 29,
+        "mean_consistency": 0.58,
+        "std_consistency": 0.20880613017821104,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of institutions and authorities: Other": {
+        "total_appearances": 29,
+        "mean_consistency": 0.4833333333333334,
+        "std_consistency": 0.23746344747958342,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of institutions and authorities: Criticism of national governments": {
+        "total_appearances": 28,
+        "mean_consistency": 0.7,
+        "std_consistency": 0.14142135623730953,
+        "type": "subnarrative"
+      },
+      "URW: Amplifying war-related fears: Other": {
+        "total_appearances": 28,
+        "mean_consistency": 0.5090909090909091,
+        "std_consistency": 0.27453943400984543,
+        "type": "subnarrative"
+      },
+      "CC: Amplifying Climate Fears: Doomsday scenarios for humans": {
+        "total_appearances": 27,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.3126943839882287,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate policies: Climate policies have negative impact on the economy": {
+        "total_appearances": 27,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.23094010767585033,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of institutions and authorities: Criticism of international entities": {
+        "total_appearances": 27,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.28284271247461906,
+        "type": "subnarrative"
+      },
+      "URW: Blaming the war on others rather than the invader: The West are the aggressors": {
+        "total_appearances": 25,
+        "mean_consistency": 0.7142857142857143,
+        "std_consistency": 0.258725289661069,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: Other": {
+        "total_appearances": 22,
+        "mean_consistency": 0.48888888888888893,
+        "std_consistency": 0.1911627837120584,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests": {
+        "total_appearances": 22,
+        "mean_consistency": 0.55,
+        "std_consistency": 0.2598076211353316,
+        "type": "subnarrative"
+      },
+      "URW: Blaming the war on others rather than the invader: Other": {
+        "total_appearances": 18,
+        "mean_consistency": 0.5142857142857143,
+        "std_consistency": 0.25872528966106906,
+        "type": "subnarrative"
+      },
+      "URW: Distrust towards Media: Other": {
+        "total_appearances": 17,
+        "mean_consistency": 0.5666666666666667,
+        "std_consistency": 0.21343747458109497,
+        "type": "subnarrative"
+      },
+      "URW: Distrust towards Media: Western media is an instrument of propaganda": {
+        "total_appearances": 17,
+        "mean_consistency": 0.5666666666666667,
+        "std_consistency": 0.334995854037363,
+        "type": "subnarrative"
+      },
+      "URW: Negative Consequences for the West: Other": {
+        "total_appearances": 17,
+        "mean_consistency": 0.6799999999999999,
+        "std_consistency": 0.16,
+        "type": "subnarrative"
+      },
+      "CC: Questioning the measurements and science: Other": {
+        "total_appearances": 15,
+        "mean_consistency": 0.42857142857142855,
+        "std_consistency": 0.2490799396308956,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate movement: Ad hominem attacks on key activists": {
+        "total_appearances": 14,
+        "mean_consistency": 0.7000000000000001,
+        "std_consistency": 0.22360679774997896,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Ukraine is a puppet of the West": {
+        "total_appearances": 14,
+        "mean_consistency": 0.46666666666666673,
+        "std_consistency": 0.2981423969999719,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Ukraine is associated with nazism": {
+        "total_appearances": 14,
+        "mean_consistency": 0.9333333333333332,
+        "std_consistency": 0.09428090415820632,
+        "type": "subnarrative"
+      },
+      "CC: Controversy about green technologies: Renewable energy is costly": {
+        "total_appearances": 13,
+        "mean_consistency": 0.65,
+        "std_consistency": 0.3570714214271425,
+        "type": "subnarrative"
+      },
+      "CC: Downplaying climate change: Other": {
+        "total_appearances": 12,
+        "mean_consistency": 0.6000000000000001,
+        "std_consistency": 0.39999999999999997,
+        "type": "subnarrative"
+      },
+      "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed": {
+        "total_appearances": 12,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.24494897427831783,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate policies: Climate policies are ineffective": {
+        "total_appearances": 11,
+        "mean_consistency": 0.36666666666666664,
+        "std_consistency": 0.17950549357115012,
+        "type": "subnarrative"
+      },
+      "URW: Praise of Russia: Other": {
+        "total_appearances": 11,
+        "mean_consistency": 0.5499999999999999,
+        "std_consistency": 0.16583123951777,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Discrediting Ukrainian military": {
+        "total_appearances": 11,
+        "mean_consistency": 0.55,
+        "std_consistency": 0.2958039891549808,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: The West is weak": {
+        "total_appearances": 11,
+        "mean_consistency": 0.44000000000000006,
+        "std_consistency": 0.233238075793812,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: The West is overreacting": {
+        "total_appearances": 10,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.21908902300206645,
+        "type": "subnarrative"
+      },
+      "URW: Hidden plots by secret schemes of powerful groups: Other": {
+        "total_appearances": 10,
+        "mean_consistency": 0.6666666666666666,
+        "std_consistency": 0.09428090415820638,
+        "type": "subnarrative"
+      },
+      "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative": {
+        "total_appearances": 9,
+        "mean_consistency": 0.36,
+        "std_consistency": 0.23323807579381203,
+        "type": "subnarrative"
+      },
+      "CC: Controversy about green technologies: Renewable energy is unreliable": {
+        "total_appearances": 9,
+        "mean_consistency": 0.9,
+        "std_consistency": 0.09999999999999998,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate movement: Climate movement is corrupt": {
+        "total_appearances": 9,
+        "mean_consistency": 0.45000000000000007,
+        "std_consistency": 0.16583123951776998,
+        "type": "subnarrative"
+      },
+      "CC: Controversy about green technologies: Renewable energy is dangerous": {
+        "total_appearances": 9,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.32659863237109044,
+        "type": "subnarrative"
+      },
+      "CC: Questioning the measurements and science: Scientific community is unreliable": {
+        "total_appearances": 9,
+        "mean_consistency": 0.44999999999999996,
+        "std_consistency": 0.16583123951776998,
+        "type": "subnarrative"
+      },
+      "CC: Green policies are geopolitical instruments: Other": {
+        "total_appearances": 8,
+        "mean_consistency": 0.31999999999999995,
+        "std_consistency": 0.09797958971132713,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society": {
+        "total_appearances": 8,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.24494897427831783,
+        "type": "subnarrative"
+      },
+      "URW: Amplifying war-related fears: By continuing the war we risk WWIII": {
+        "total_appearances": 8,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.24494897427831783,
+        "type": "subnarrative"
+      },
+      "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives": {
+        "total_appearances": 7,
+        "mean_consistency": 0.4666666666666666,
+        "std_consistency": 0.37712361663282534,
+        "type": "subnarrative"
+      },
+      "URW: Praise of Russia: Praise of Russian military might": {
+        "total_appearances": 7,
+        "mean_consistency": 0.35,
+        "std_consistency": 0.16583123951776998,
+        "type": "subnarrative"
+      },
+      "URW: Amplifying war-related fears: NATO should/will directly intervene": {
+        "total_appearances": 7,
+        "mean_consistency": 0.4666666666666666,
+        "std_consistency": 0.09428090415820632,
+        "type": "subnarrative"
+      },
+      "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty": {
+        "total_appearances": 6,
+        "mean_consistency": 0.4000000000000001,
+        "std_consistency": 0.28284271247461906,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Situation in Ukraine is hopeless": {
+        "total_appearances": 6,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.4,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Other": {
+        "total_appearances": 6,
+        "mean_consistency": 0.6000000000000001,
+        "std_consistency": 0.2,
+        "type": "subnarrative"
+      },
+      "CC: Questioning the measurements and science: Greenhouse effect/carbon dioxide do not drive climate change": {
+        "total_appearances": 5,
+        "mean_consistency": 1.0,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Downplaying climate change: Human activities do not impact climate change": {
+        "total_appearances": 5,
+        "mean_consistency": 0.5,
+        "std_consistency": 0.30000000000000004,
+        "type": "subnarrative"
+      },
+      "URW: Speculating war outcomes: Ukrainian army is collapsing": {
+        "total_appearances": 5,
+        "mean_consistency": 0.5,
+        "std_consistency": 0.09999999999999998,
+        "type": "subnarrative"
+      },
+      "CC: Climate change is beneficial: CO2 is beneficial": {
+        "total_appearances": 4,
+        "mean_consistency": 0.8,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Downplaying climate change: Temperature increase does not have significant impact": {
+        "total_appearances": 4,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.19999999999999998,
+        "type": "subnarrative"
+      },
+      "CC: Criticism of climate policies: Climate policies are only for profit": {
+        "total_appearances": 4,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.19999999999999998,
+        "type": "subnarrative"
+      },
+      "URW: Praise of Russia: Praise of Russian President Vladimir Putin": {
+        "total_appearances": 4,
+        "mean_consistency": 0.8,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work": {
+        "total_appearances": 4,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Russia is the Victim: Other": {
+        "total_appearances": 4,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.19999999999999998,
+        "type": "subnarrative"
+      },
+      "CC: Downplaying climate change: CO2 concentrations are too small to have an impact": {
+        "total_appearances": 3,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites": {
+        "total_appearances": 3,
+        "mean_consistency": 0.20000000000000004,
+        "std_consistency": 2.7755575615628914e-17,
+        "type": "subnarrative"
+      },
+      "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism": {
+        "total_appearances": 3,
+        "mean_consistency": 0.30000000000000004,
+        "std_consistency": 0.1,
+        "type": "subnarrative"
+      },
+      "URW: Speculating war outcomes: Russian army is collapsing": {
+        "total_appearances": 3,
+        "mean_consistency": 0.30000000000000004,
+        "std_consistency": 0.1,
+        "type": "subnarrative"
+      },
+      "URW: Overpraising the West: The West belongs in the right side of history": {
+        "total_appearances": 3,
+        "mean_consistency": 0.6,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Downplaying climate change: Weather suggests the trend is global cooling": {
+        "total_appearances": 2,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Overpraising the West: Other": {
+        "total_appearances": 2,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire": {
+        "total_appearances": 2,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Russia is the Victim: The West is russophobic": {
+        "total_appearances": 2,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Hidden plots by secret schemes of powerful groups: Other": {
+        "total_appearances": 2,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Overpraising the West: The West has the strongest international support": {
+        "total_appearances": 2,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor": {
+        "total_appearances": 2,
+        "mean_consistency": 0.4,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Amplifying Climate Fears: Earth will be uninhabitable soon": {
+        "total_appearances": 2,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Speculating war outcomes: Russian army will lose all the occupied territories": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Downplaying climate change: Ice is not melting": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Russia is the Victim: UA is anti-RU extremists": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting Ukraine: Rewriting Ukraine\u00e2\u20ac\u2122s history": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Amplifying war-related fears: Russia will also attack other countries": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "CC: Questioning the measurements and science: Data shows no temperature increase": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: The EU is divided": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Praise of Russia: Russian invasion has strong national support": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      },
+      "URW: Discrediting the West, Diplomacy: West is tired of Ukraine": {
+        "total_appearances": 1,
+        "mean_consistency": 0.2,
+        "std_consistency": 0.0,
+        "type": "subnarrative"
+      }
+    }
+  },
+  "fleiss_kappa": {
+    "narrative_kappa": -0.5677464208466373,
+    "subnarrative_kappa": -0.35005731876448015,
+    "num_raters": 5,
+    "num_documents": 41,
+    "num_narrative_labels": 22,
+    "num_subnarrative_labels": 81
+  },
+  "summary": {
+    "single_agent_std_narrative": 0.21665097296747562,
+    "single_agent_std_subnarrative": 0.24542632398212155,
+    "mean_agreement_narrative": 0.7034620596205962,
+    "mean_agreement_subnarrative": 0.5005336074691582,
+    "fleiss_kappa_narrative": -0.5677464208466373,
+    "fleiss_kappa_subnarrative": -0.35005731876448015
+  }
+}

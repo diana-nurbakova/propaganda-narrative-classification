@@ -1,0 +1,71 @@
+{
+  "experiment_id": "agora_union_mistral_en_t07",
+  "base_config": "configs/experiments/generated/core/agora_union_mistral_en_t07.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-08T17:50:54.381708",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_union_mistral_en_t07\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_union_mistral_en_t07\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T17:50:54.381708",
+      "completed_at": "2026-02-08T18:05:17.843893",
+      "duration_seconds": 863.462185
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_union_mistral_en_t07\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_union_mistral_en_t07\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T18:05:47.855787",
+      "completed_at": "2026-02-08T18:21:32.328775",
+      "duration_seconds": 944.472988
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_union_mistral_en_t07\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_union_mistral_en_t07\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T18:22:02.346353",
+      "completed_at": "2026-02-08T18:36:37.811519",
+      "duration_seconds": 875.465166
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\agora_union_mistral_en_t07\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_union_mistral_en_t07\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T18:37:07.814582",
+      "completed_at": "2026-02-08T18:52:30.190040",
+      "duration_seconds": 922.375458
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\agora_union_mistral_en_t07\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_union_mistral_en_t07\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T18:53:00.195927",
+      "completed_at": "2026-02-08T19:07:55.901701",
+      "duration_seconds": 895.705774
+    }
+  ],
+  "completed_at": "2026-02-08T19:07:55.902701",
+  "total_duration_seconds": 4501.481571,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

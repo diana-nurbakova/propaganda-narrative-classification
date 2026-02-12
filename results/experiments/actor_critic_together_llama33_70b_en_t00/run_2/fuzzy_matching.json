@@ -1,0 +1,80 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t00",
+    "run_id": 2
+  },
+  "narrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_100005.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 6,
+    "matched": 6,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200065.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Downplaying climate change: Questioning the measurements and science: Data shows no temperature increase",
+      "matched_label": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100005.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched_label": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u2019s history",
+      "matched_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u00e2\u20ac\u2122s history",
+      "score": 96.36363636363636,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not mentioned as weak in this context, but rather Russia's military is; however, this can be seen as a form of discrediting the West's opponent, thus fitting the parent narrative. The closest subnarrative is: URW: Discrediting the West, Diplomacy: The West is overreacting is not applicable, but the narrative of Russia's failure can be seen as a way to discredit their actions, thus we can consider 'Other'",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100033.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 93.91304347826087,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_22.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Blaming the war on others rather than the invader: The West is responsible",
+      "matched_label": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 94.44444444444444,
+      "matched": true
+    }
+  ]
+}

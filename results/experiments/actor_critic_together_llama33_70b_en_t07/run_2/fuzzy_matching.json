@@ -1,0 +1,168 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t07",
+    "run_id": 2
+  },
+  "narrative_matching": {
+    "total": 6,
+    "matched": 6,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100005.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100033.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 12,
+    "matched": 12,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200065.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Downplaying climate change: Questioning the measurements and science",
+      "matched_label": "CC: Downplaying climate change: Other",
+      "score": 91.17647058823529,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine's military capabilities",
+      "matched_label": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 72.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine's military capabilities",
+      "matched_label": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 72.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 81.08108108108108,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine's military capabilities",
+      "matched_label": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 72.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes: Ukraine will prevail",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 90.9090909090909,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine's military capabilities",
+      "matched_label": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 72.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Blaming the war on others rather than the invader: Russia is the aggressor is implied by highlighting their struggles",
+      "matched_label": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 94.44444444444444,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising the West",
+      "matched_label": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West: The West does not care about Ukraine, only about its interests",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 96.1038961038961,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Russia",
+      "matched_label": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Distrust towards Media",
+      "matched_label": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "score": 100.0,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "config": {
+    "model_name": "mistralai:mistral-large-latest",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_mistral_hi_t00",
+    "run_id": 2
+  },
+  "narrative_matching": {
+    "total": 12,
+    "matched": 12,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "HI_125.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "HI_125.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "HI_134.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_134.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_134.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_143.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_143.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Discrediting the West, Diplomacy",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Distrust towards Media",
+      "matched_label": "URW: Distrust towards Media",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "subnarrative_matches": []
+}
