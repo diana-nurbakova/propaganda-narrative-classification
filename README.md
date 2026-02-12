@@ -360,6 +360,23 @@ Auto-discovers all experiments (including mDeBERTa baseline), evaluates all runs
 - Cross-method and cross-model comparisons
 - Pairwise significance tests (Wilcoxon + paired t-test)
 
+### Ensemble Size Ablation Study
+
+```bash
+cd src/analysis
+python ensemble_ablation_report.py \
+    --experiments-dir ../../results/experiments/ \
+    --output ../../results/analysis/ensemble_ablation.md
+
+# Restrict to a specific temperature
+python ensemble_ablation_report.py \
+    --experiments-dir ../../results/experiments/ \
+    --temps 0.7 \
+    --output ../../results/analysis/ensemble_ablation_t07.md
+```
+
+Evaluates Agora experiments with varying numbers of agents (1, 3, 5, 7) on a single model and language, producing narrative- and subnarrative-level metrics with pairwise significance tests. Used to determine the optimal ensemble size for the multi-agent voting framework.
+
 ### Dataset Statistics
 
 ```bash
