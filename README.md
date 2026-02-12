@@ -13,9 +13,9 @@ Once obtained, extract the data into the `data/` directory following the structu
 
 ## Model Weights
 
-The fine-tuned mDeBERTa v3 model weights (~1.1 GB) are hosted on Zenodo:
+The fine-tuned mDeBERTa v3 model weights (~1.1 GB) will be made available upon paper acceptance via Zenodo with a permanent DOI. During the review period, the weights can be downloaded from:
 
-> **DOI**: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+> **[Download model weights](https://example.com/PLACEHOLDER)**
 
 To use the pre-trained model, download and extract the weights into:
 
