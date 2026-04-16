@@ -1,0 +1,113 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 7,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a negative perception of Ukraine's mental health system, framing it as a legacy of Soviet-era oppression and as ineffective, which undermines the legitimacy and functionality of a key societal institution in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement emphasizes the ongoing and seemingly endless nature of the war, evoking anxiety and fear about the future and the prolonged psychological trauma faced by Ukrainians."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "This quote highlights a negative perception of Ukraine's mental health infrastructure, framing it as a legacy of a repressive Soviet system. It discredits the current state of Ukrainian institutions by associating them with historical oppression and portraying them as ineffective and prison-like, which undermines confidence in the nation's ability to handle the crisis."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement amplifies fear and anxiety by emphasizing the war's magnification of societal issues, the deep psychological impact on the population, and the explicit claim that there is 'no end in sight' for the conflict. It evokes a sense of hopelessness and prolonged suffering."
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A common narrative among these men and women is the departure of their spouses and children to safer locations abroad. Over time, these families often adapt to life in their new countries, with children assimilating and over time, they no longer identify Ukraine as their home anymore.",
+        "reasoning": "This quote undermines Ukrainian national identity and societal cohesion by suggesting that families are permanently leaving and children are losing their Ukrainian identity, which attacks the resilience and unity of the nation."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement makes a speculative prediction about the indefinite continuation of the war and its long-term psychological consequences, fitting the narrative of speculating on war outcomes."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 6,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 7,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

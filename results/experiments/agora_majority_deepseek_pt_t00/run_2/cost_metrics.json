@@ -1,0 +1,966 @@
+{
+  "experiment_id": "agora_majority_deepseek_pt_t00",
+  "config_name": "run_2_config",
+  "model_name": "deepseek:deepseek-chat",
+  "start_time": "2026-02-11T03:42:33.992842",
+  "end_time": "2026-02-11T03:51:48.091610",
+  "total_documents": 35,
+  "total_api_calls": 35,
+  "total_input_tokens": 350000,
+  "total_output_tokens": 87500,
+  "total_cost_usd": 0.07350000000000001,
+  "total_latency_ms": 554083.7718998083,
+  "documents": [
+    {
+      "file_id": "PT_201.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_202.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_203.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_204.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_205.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_206.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_207.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_208.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_209.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_210.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_211.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_213.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_216.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_217.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_220.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_221.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_224.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_225.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_226.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_228.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_229.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_230.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_232.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_233.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_234.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_237.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_239.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_241.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_244.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_245.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_249.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_250.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_253.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_254.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "PT_259.txt",
+      "start_time": "2026-02-11T03:51:48.091610",
+      "end_time": "2026-02-11T03:51:48.091610",
+      "total_latency_ms": 15830.96491142309,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-11T03:51:48.091610",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 15830.96491142309,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    }
+  ],
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "majority",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": null
+}

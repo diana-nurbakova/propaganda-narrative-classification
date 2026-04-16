@@ -1,0 +1,71 @@
+{
+  "file_id": "EN_UA_DEV_100019.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Russia-linked accounts are disseminating divisive content aimed at U.S. audiences, including criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The text describes a Russian influence campaign that includes criticizing U.S. support for Ukraine, which aligns with the narrative of discrediting Western (specifically U.S.) foreign policy and diplomatic actions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Russia-linked accounts are disseminating divisive content aimed at U.S. audiences, including criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The described Russian campaign criticizes American support for Ukraine, implying that external (Western) involvement is a negative factor, which serves to shift blame away from Russia as the invader."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

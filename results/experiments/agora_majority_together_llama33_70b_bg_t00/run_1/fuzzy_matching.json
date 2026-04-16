@@ -1,0 +1,120 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_majority_together_llama33_70b_bg_t00",
+    "run_id": 1
+  },
+  "narrative_matching": {
+    "total": 11,
+    "matched": 11,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "A9_BG_2961.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "A9_BG_3819.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "BG_1146.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_1455.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_73.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_73.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_877.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_877.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_63.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_63.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "BG_950.txt",
+      "label_type": "narrative",
+      "original_label": "CC: Criticism of green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 77.19298245614036,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "A9_BG_3964.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is responsible for the actions of others",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    }
+  ]
+}

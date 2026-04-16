@@ -1,0 +1,71 @@
+{
+  "experiment_id": "agora_7_deepseek_en_t07",
+  "base_config": "configs/experiments/generated/core/agora_7_deepseek_en_t07.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-12T17:18:28.240249",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-12T17:18:28.240249",
+      "completed_at": "2026-02-12T17:48:05.854257",
+      "duration_seconds": 1777.614008
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-12T17:48:35.870833",
+      "completed_at": "2026-02-12T18:15:09.692638",
+      "duration_seconds": 1593.821805
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-12T18:15:39.704109",
+      "completed_at": "2026-02-12T18:44:55.764675",
+      "duration_seconds": 1756.060566
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-12T18:45:25.773063",
+      "completed_at": "2026-02-12T19:12:47.604038",
+      "duration_seconds": 1641.830975
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_7_deepseek_en_t07\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-12T19:13:17.616012",
+      "completed_at": "2026-02-12T19:42:08.522426",
+      "duration_seconds": 1730.906414
+    }
+  ],
+  "completed_at": "2026-02-12T19:42:08.522426",
+  "total_duration_seconds": 8500.233768,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

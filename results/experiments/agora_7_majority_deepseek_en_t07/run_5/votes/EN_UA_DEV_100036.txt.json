@@ -1,0 +1,85 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 7,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "This quote highlights a systemic flaw within Ukraine's own society and healthcare system, framing it as a legacy of the Soviet era. It discredits Ukraine by presenting its mental health infrastructure as inherently oppressive and ineffective, undermining the state's capacity to care for its citizens."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement emphasizes the profound and enduring psychological trauma, suggesting a hopeless, open-ended conflict with no resolution in sight. It amplifies fear by focusing on the pervasive, long-term mental health crisis and the societal breakdown it causes."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 6,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 7,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

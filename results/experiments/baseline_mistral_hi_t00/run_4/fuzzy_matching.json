@@ -1,0 +1,184 @@
+{
+  "config": {
+    "model_name": "mistralai:mistral-large-latest",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_mistral_hi_t00",
+    "run_id": 4
+  },
+  "narrative_matching": {
+    "total": 19,
+    "matched": 19,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "HI_125.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_134.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_134.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_134.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_139.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_139.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_139.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_140.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_143.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_143.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Discrediting the West, Diplomacy",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_19.txt",
+      "label_type": "narrative",
+      "original_label": "Distrust towards Media",
+      "matched_label": "URW: Distrust towards Media",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_28.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "HI_35.txt",
+      "label_type": "narrative",
+      "original_label": "Distrust towards Media",
+      "matched_label": "URW: Distrust towards Media",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_35.txt",
+      "label_type": "narrative",
+      "original_label": "Russia is the Victim",
+      "matched_label": "URW: Russia is the Victim",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "HI_35.txt",
+      "label_type": "narrative",
+      "original_label": "Discrediting the West, Diplomacy",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "HI_35.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Russia: Russia has strong national support for its actions",
+      "matched_label": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 88.57142857142857,
+      "matched": true
+    }
+  ]
+}

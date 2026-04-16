@@ -1,0 +1,27 @@
+{
+  "experiment_id": "agora_majority_mistral_en_t00_evidence",
+  "base_config": "configs/experiments/generated/core/agora_majority_mistral_en_t00.yaml",
+  "n_runs": 1,
+  "base_seed": 42,
+  "seeds": [
+    478163327
+  ],
+  "sequential": true,
+  "started_at": "2026-02-10T20:54:43.008941",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_majority_mistral_en_t00_evidence\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_mistral_en_t00_evidence\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T20:54:43.008941",
+      "completed_at": "2026-02-10T21:08:58.246558",
+      "duration_seconds": 855.237617
+    }
+  ],
+  "completed_at": "2026-02-10T21:08:58.246558",
+  "total_duration_seconds": 855.237617,
+  "successful_runs": 1,
+  "failed_runs": 0
+}

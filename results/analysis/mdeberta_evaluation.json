@@ -1,0 +1,676 @@
+{
+  "generated_at": "2026-02-12T10:07:27.256345",
+  "n_experiments": 5,
+  "experiments": [
+    {
+      "experiment_id": "mdeberta_baseline_bg_t00",
+      "meta": {
+        "method": "mdeberta_baseline",
+        "method_display": "mDeBERTa (fine-tuned)",
+        "model_key": "mdeberta:microsoft/mdeberta-v3-base",
+        "model_display": "mDeBERTa v3 (fine-tuned)",
+        "language": "BG",
+        "temperature": "0.0",
+        "num_narrative_agents": "1",
+        "num_subnarrative_agents": "1",
+        "narrative_aggregation": "single",
+        "subnarrative_aggregation": "single",
+        "hierarchical_strategy": "multi_head",
+        "enable_validation": false,
+        "max_tokens": "512"
+      },
+      "n_successful_runs": 5,
+      "n_total_runs": 5,
+      "metrics": {
+        "narratives_f1_macro": {
+          "mean": 0.1487124268899479,
+          "std": 0.04908572839094517,
+          "ci_lower": 0.11535579037569307,
+          "ci_upper": 0.19126633096087983,
+          "n_runs": 5,
+          "scores": [
+            0.10954,
+            0.113134,
+            0.228668,
+            0.160789,
+            0.131432
+          ]
+        },
+        "narratives_f1_micro": {
+          "mean": 0.3296825531351407,
+          "std": 0.05812625092707458,
+          "ci_lower": 0.2868550599376197,
+          "ci_upper": 0.37526540681027265,
+          "n_runs": 5,
+          "scores": [
+            0.288462,
+            0.282609,
+            0.404255,
+            0.380952,
+            0.292135
+          ]
+        },
+        "narratives_f1_samples": {
+          "mean": 0.38625850340136053,
+          "std": 0.0626087604759395,
+          "ci_lower": 0.3379251700680272,
+          "ci_upper": 0.4345918367346938,
+          "n_runs": 5,
+          "scores": [
+            0.338776,
+            0.322109,
+            0.467347,
+            0.435204,
+            0.367857
+          ]
+        },
+        "narratives_f1_samples_manual": {
+          "mean": 0.3862585034013605,
+          "std": 0.06260876047593948,
+          "ci_lower": 0.3379251700680273,
+          "ci_upper": 0.43459183673469387,
+          "n_runs": 5,
+          "scores": [
+            0.338776,
+            0.322109,
+            0.467347,
+            0.435204,
+            0.367857
+          ]
+        },
+        "subnarratives_f1_macro": {
+          "mean": 0.07385681216931216,
+          "std": 0.037592842402994445,
+          "ci_lower": 0.04424338624338624,
+          "ci_upper": 0.10347023809523807,
+          "n_runs": 5,
+          "scores": [
+            0.038333,
+            0.070476,
+            0.102865,
+            0.120573,
+            0.037037
+          ]
+        },
+        "subnarratives_f1_micro": {
+          "mean": 0.17117300790976148,
+          "std": 0.04501456185124375,
+          "ci_lower": 0.13678765678765678,
+          "ci_upper": 0.2055583590318662,
+          "n_runs": 5,
+          "scores": [
+            0.121212,
+            0.195122,
+            0.177778,
+            0.229885,
+            0.131868
+          ]
+        },
+        "subnarratives_f1_samples": {
+          "mean": 0.2220408163265306,
+          "std": 0.03690958149036483,
+          "ci_lower": 0.19214285714285717,
+          "ci_upper": 0.25037414965986393,
+          "n_runs": 5,
+          "scores": [
+            0.172619,
+            0.238776,
+            0.22619,
+            0.270238,
+            0.202381
+          ]
+        },
+        "subnarratives_f1_samples_manual": {
+          "mean": 0.2220408163265306,
+          "std": 0.03690958149036483,
+          "ci_lower": 0.19214285714285717,
+          "ci_upper": 0.25037414965986393,
+          "n_runs": 5,
+          "scores": [
+            0.172619,
+            0.238776,
+            0.22619,
+            0.270238,
+            0.202381
+          ]
+        }
+      }
+    },
+    {
+      "experiment_id": "mdeberta_baseline_en_t00",
+      "meta": {
+        "method": "mdeberta_baseline",
+        "method_display": "mDeBERTa (fine-tuned)",
+        "model_key": "mdeberta:microsoft/mdeberta-v3-base",
+        "model_display": "mDeBERTa v3 (fine-tuned)",
+        "language": "EN",
+        "temperature": "0.0",
+        "num_narrative_agents": "1",
+        "num_subnarrative_agents": "1",
+        "narrative_aggregation": "single",
+        "subnarrative_aggregation": "single",
+        "hierarchical_strategy": "multi_head",
+        "enable_validation": false,
+        "max_tokens": "512"
+      },
+      "n_successful_runs": 5,
+      "n_total_runs": 5,
+      "metrics": {
+        "narratives_f1_macro": {
+          "mean": 0.12506368271759694,
+          "std": 0.019236840932675664,
+          "ci_lower": 0.10893001660648723,
+          "ci_upper": 0.13937527769460545,
+          "n_runs": 5,
+          "scores": [
+            0.113376,
+            0.100267,
+            0.130193,
+            0.130474,
+            0.151009
+          ]
+        },
+        "narratives_f1_micro": {
+          "mean": 0.20509840399228096,
+          "std": 0.023380714484742066,
+          "ci_lower": 0.18643507030603806,
+          "ci_upper": 0.22275159409884265,
+          "n_runs": 5,
+          "scores": [
+            0.209677,
+            0.17094,
+            0.235294,
+            0.198198,
+            0.211382
+          ]
+        },
+        "narratives_f1_samples": {
+          "mean": 0.2066031746031746,
+          "std": 0.042621242295181654,
+          "ci_lower": 0.1759365079365079,
+          "ci_upper": 0.2422222222222222,
+          "n_runs": 5,
+          "scores": [
+            0.202222,
+            0.158413,
+            0.273889,
+            0.187222,
+            0.21127
+          ]
+        },
+        "narratives_f1_samples_manual": {
+          "mean": 0.2066031746031746,
+          "std": 0.042621242295181654,
+          "ci_lower": 0.17593650793650792,
+          "ci_upper": 0.2422222222222222,
+          "n_runs": 5,
+          "scores": [
+            0.202222,
+            0.158413,
+            0.273889,
+            0.187222,
+            0.21127
+          ]
+        },
+        "subnarratives_f1_macro": {
+          "mean": 0.050617248275389784,
+          "std": 0.021219086596283653,
+          "ci_lower": 0.032739939073272405,
+          "ci_upper": 0.06605032995484827,
+          "n_runs": 5,
+          "scores": [
+            0.073913,
+            0.064198,
+            0.054031,
+            0.041667,
+            0.019278
+          ]
+        },
+        "subnarratives_f1_micro": {
+          "mean": 0.0744021503799018,
+          "std": 0.013227119045835557,
+          "ci_lower": 0.062392496011706974,
+          "ci_upper": 0.08184790066911114,
+          "n_runs": 5,
+          "scores": [
+            0.082645,
+            0.080645,
+            0.081967,
+            0.075472,
+            0.051282
+          ]
+        },
+        "subnarratives_f1_samples": {
+          "mean": 0.06434920634920635,
+          "std": 0.015172477768402005,
+          "ci_lower": 0.05600000000000001,
+          "ci_upper": 0.07777777777777779,
+          "n_runs": 5,
+          "scores": [
+            0.061746,
+            0.055556,
+            0.091111,
+            0.055556,
+            0.057778
+          ]
+        },
+        "subnarratives_f1_samples_manual": {
+          "mean": 0.06434920634920635,
+          "std": 0.015172477768402007,
+          "ci_lower": 0.05600000000000001,
+          "ci_upper": 0.07777777777777779,
+          "n_runs": 5,
+          "scores": [
+            0.061746,
+            0.055556,
+            0.091111,
+            0.055556,
+            0.057778
+          ]
+        }
+      }
+    },
+    {
+      "experiment_id": "mdeberta_baseline_hi_t00",
+      "meta": {
+        "method": "mdeberta_baseline",
+        "method_display": "mDeBERTa (fine-tuned)",
+        "model_key": "mdeberta:microsoft/mdeberta-v3-base",
+        "model_display": "mDeBERTa v3 (fine-tuned)",
+        "language": "HI",
+        "temperature": "0.0",
+        "num_narrative_agents": "1",
+        "num_subnarrative_agents": "1",
+        "narrative_aggregation": "single",
+        "subnarrative_aggregation": "single",
+        "hierarchical_strategy": "multi_head",
+        "enable_validation": false,
+        "max_tokens": "512"
+      },
+      "n_successful_runs": 5,
+      "n_total_runs": 5,
+      "metrics": {
+        "narratives_f1_macro": {
+          "mean": 0.1606614167369646,
+          "std": 0.019328347777522785,
+          "ci_lower": 0.14611177472192466,
+          "ci_upper": 0.1755747520453403,
+          "n_runs": 5,
+          "scores": [
+            0.136865,
+            0.166013,
+            0.164193,
+            0.187812,
+            0.148424
+          ]
+        },
+        "narratives_f1_micro": {
+          "mean": 0.3187635570896539,
+          "std": 0.03546201569969077,
+          "ci_lower": 0.2881100917431193,
+          "ci_upper": 0.3414297393042057,
+          "n_runs": 5,
+          "scores": [
+            0.26,
+            0.336634,
+            0.348624,
+            0.336634,
+            0.311927
+          ]
+        },
+        "narratives_f1_samples": {
+          "mean": 0.3094581280788178,
+          "std": 0.03472869525865214,
+          "ci_lower": 0.28197044334975374,
+          "ci_upper": 0.3335960591133006,
+          "n_runs": 5,
+          "scores": [
+            0.257471,
+            0.312151,
+            0.351724,
+            0.325287,
+            0.300657
+          ]
+        },
+        "narratives_f1_samples_manual": {
+          "mean": 0.3094581280788178,
+          "std": 0.03472869525865216,
+          "ci_lower": 0.2819704433497537,
+          "ci_upper": 0.3335960591133006,
+          "n_runs": 5,
+          "scores": [
+            0.257471,
+            0.312151,
+            0.351724,
+            0.325287,
+            0.300657
+          ]
+        },
+        "subnarratives_f1_macro": {
+          "mean": 0.07088647205949258,
+          "std": 0.024604318028671746,
+          "ci_lower": 0.05339148306890242,
+          "ci_upper": 0.0900684609189008,
+          "n_runs": 5,
+          "scores": [
+            0.045118,
+            0.108993,
+            0.076959,
+            0.068717,
+            0.054645
+          ]
+        },
+        "subnarratives_f1_micro": {
+          "mean": 0.18301315705571025,
+          "std": 0.039558664097955186,
+          "ci_lower": 0.15333333333333332,
+          "ci_upper": 0.21475191475191474,
+          "n_runs": 5,
+          "scores": [
+            0.133333,
+            0.241758,
+            0.181818,
+            0.191489,
+            0.166667
+          ]
+        },
+        "subnarratives_f1_samples": {
+          "mean": 0.18165845648604267,
+          "std": 0.029646915623134484,
+          "ci_lower": 0.1590968801313629,
+          "ci_upper": 0.2031527093596059,
+          "n_runs": 5,
+          "scores": [
+            0.137931,
+            0.208621,
+            0.209852,
+            0.173071,
+            0.178818
+          ]
+        },
+        "subnarratives_f1_samples_manual": {
+          "mean": 0.18855500821018062,
+          "std": 0.04003562225391767,
+          "ci_lower": 0.1590968801313629,
+          "ci_upper": 0.21812807881773394,
+          "n_runs": 5,
+          "scores": [
+            0.137931,
+            0.208621,
+            0.244335,
+            0.173071,
+            0.178818
+          ]
+        }
+      }
+    },
+    {
+      "experiment_id": "mdeberta_baseline_pt_t00",
+      "meta": {
+        "method": "mdeberta_baseline",
+        "method_display": "mDeBERTa (fine-tuned)",
+        "model_key": "mdeberta:microsoft/mdeberta-v3-base",
+        "model_display": "mDeBERTa v3 (fine-tuned)",
+        "language": "PT",
+        "temperature": "0.0",
+        "num_narrative_agents": "1",
+        "num_subnarrative_agents": "1",
+        "narrative_aggregation": "single",
+        "subnarrative_aggregation": "single",
+        "hierarchical_strategy": "multi_head",
+        "enable_validation": false,
+        "max_tokens": "512"
+      },
+      "n_successful_runs": 5,
+      "n_total_runs": 5,
+      "metrics": {
+        "narratives_f1_macro": {
+          "mean": 0.16608437873357226,
+          "std": 0.01077979004486302,
+          "ci_lower": 0.15762538402457754,
+          "ci_upper": 0.1735695511179382,
+          "n_runs": 5,
+          "scores": [
+            0.150149,
+            0.179101,
+            0.171966,
+            0.163492,
+            0.165714
+          ]
+        },
+        "narratives_f1_micro": {
+          "mean": 0.42822021573482916,
+          "std": 0.018802941686813204,
+          "ci_lower": 0.41266164670473754,
+          "ci_upper": 0.44206896551724145,
+          "n_runs": 5,
+          "scores": [
+            0.436782,
+            0.413043,
+            0.436782,
+            0.45,
+            0.404494
+          ]
+        },
+        "narratives_f1_samples": {
+          "mean": 0.46188571428571423,
+          "std": 0.005817480889545448,
+          "ci_lower": 0.4570857142857143,
+          "ci_upper": 0.4661714285714285,
+          "n_runs": 5,
+          "scores": [
+            0.465333,
+            0.454,
+            0.457333,
+            0.466667,
+            0.466095
+          ]
+        },
+        "narratives_f1_samples_manual": {
+          "mean": 0.46188571428571423,
+          "std": 0.005817480889545448,
+          "ci_lower": 0.4570857142857143,
+          "ci_upper": 0.4661714285714285,
+          "n_runs": 5,
+          "scores": [
+            0.465333,
+            0.454,
+            0.457333,
+            0.466667,
+            0.466095
+          ]
+        },
+        "subnarratives_f1_macro": {
+          "mean": 0.05853931048375492,
+          "std": 0.014389786966184056,
+          "ci_lower": 0.04690836940836941,
+          "ci_upper": 0.06858273413828969,
+          "n_runs": 5,
+          "scores": [
+            0.068313,
+            0.072421,
+            0.035802,
+            0.054714,
+            0.061447
+          ]
+        },
+        "subnarratives_f1_micro": {
+          "mean": 0.15130657531672653,
+          "std": 0.022648885297196202,
+          "ci_lower": 0.1354859636251303,
+          "ci_upper": 0.17067478803059927,
+          "n_runs": 5,
+          "scores": [
+            0.137931,
+            0.157303,
+            0.126316,
+            0.186047,
+            0.148936
+          ]
+        },
+        "subnarratives_f1_samples": {
+          "mean": 0.14082597402597402,
+          "std": 0.023165967313409076,
+          "ci_lower": 0.12335930735930736,
+          "ci_upper": 0.15967619047619047,
+          "n_runs": 5,
+          "scores": [
+            0.124762,
+            0.129939,
+            0.118667,
+            0.171429,
+            0.159333
+          ]
+        },
+        "subnarratives_f1_samples_manual": {
+          "mean": 0.14082597402597402,
+          "std": 0.02316596731340908,
+          "ci_lower": 0.12335930735930736,
+          "ci_upper": 0.15967619047619047,
+          "n_runs": 5,
+          "scores": [
+            0.124762,
+            0.129939,
+            0.118667,
+            0.171429,
+            0.159333
+          ]
+        }
+      }
+    },
+    {
+      "experiment_id": "mdeberta_baseline_ru_t00",
+      "meta": {
+        "method": "mdeberta_baseline",
+        "method_display": "mDeBERTa (fine-tuned)",
+        "model_key": "mdeberta:microsoft/mdeberta-v3-base",
+        "model_display": "mDeBERTa v3 (fine-tuned)",
+        "language": "RU",
+        "temperature": "0.0",
+        "num_narrative_agents": "1",
+        "num_subnarrative_agents": "1",
+        "narrative_aggregation": "single",
+        "subnarrative_aggregation": "single",
+        "hierarchical_strategy": "multi_head",
+        "enable_validation": false,
+        "max_tokens": "512"
+      },
+      "n_successful_runs": 5,
+      "n_total_runs": 5,
+      "metrics": {
+        "narratives_f1_macro": {
+          "mean": 0.11293612498130028,
+          "std": 0.02764148066841729,
+          "ci_lower": 0.09351500040575669,
+          "ci_upper": 0.13596367529247855,
+          "n_runs": 5,
+          "scores": [
+            0.095997,
+            0.099924,
+            0.155529,
+            0.125402,
+            0.087829
+          ]
+        },
+        "narratives_f1_micro": {
+          "mean": 0.24138110481275624,
+          "std": 0.05059669882236973,
+          "ci_lower": 0.20093457943925236,
+          "ci_upper": 0.27983277591973243,
+          "n_runs": 5,
+          "scores": [
+            0.254902,
+            0.226087,
+            0.307692,
+            0.25,
+            0.168224
+          ]
+        },
+        "narratives_f1_samples": {
+          "mean": 0.23328231292517007,
+          "std": 0.05403634243594652,
+          "ci_lower": 0.1953061224489796,
+          "ci_upper": 0.2754251700680272,
+          "n_runs": 5,
+          "scores": [
+            0.235714,
+            0.201871,
+            0.31318,
+            0.246599,
+            0.169048
+          ]
+        },
+        "narratives_f1_samples_manual": {
+          "mean": 0.23328231292517007,
+          "std": 0.05403634243594655,
+          "ci_lower": 0.1953061224489796,
+          "ci_upper": 0.27542517006802725,
+          "n_runs": 5,
+          "scores": [
+            0.235714,
+            0.201871,
+            0.31318,
+            0.246599,
+            0.169048
+          ]
+        },
+        "subnarratives_f1_macro": {
+          "mean": 0.05970655726982201,
+          "std": 0.016853193503192667,
+          "ci_lower": 0.04640454079970209,
+          "ci_upper": 0.07137507283224748,
+          "n_runs": 5,
+          "scores": [
+            0.071685,
+            0.033144,
+            0.0763,
+            0.060906,
+            0.056498
+          ]
+        },
+        "subnarratives_f1_micro": {
+          "mean": 0.12740853777594724,
+          "std": 0.03543464130182501,
+          "ci_lower": 0.09988979582892411,
+          "ci_upper": 0.15423162754905734,
+          "n_runs": 5,
+          "scores": [
+            0.16,
+            0.08547,
+            0.156522,
+            0.141593,
+            0.093458
+          ]
+        },
+        "subnarratives_f1_samples": {
+          "mean": 0.12487528344671199,
+          "std": 0.027748272079922625,
+          "ci_lower": 0.10148526077097504,
+          "ci_upper": 0.14291383219954648,
+          "n_runs": 5,
+          "scores": [
+            0.128061,
+            0.079762,
+            0.153175,
+            0.140079,
+            0.123299
+          ]
+        },
+        "subnarratives_f1_samples_manual": {
+          "mean": 0.12487528344671199,
+          "std": 0.027748272079922625,
+          "ci_lower": 0.10148526077097504,
+          "ci_upper": 0.14291383219954648,
+          "n_runs": 5,
+          "scores": [
+            0.128061,
+            0.079762,
+            0.153175,
+            0.140079,
+            0.123299
+          ]
+        }
+      }
+    }
+  ]
+}

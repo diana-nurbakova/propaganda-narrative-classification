@@ -1,0 +1,105 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    [],
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a systemic flaw within Ukraine's own healthcare system, specifically its mental health services, by framing them as oppressive and ineffective. This undermines the legitimacy and capability of Ukrainian institutions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Over time, these families often adapt to life in their new countries, with children assimilating and over time, they no longer identify Ukraine as their home anymore.",
+        "reasoning": "This statement suggests a weakening of Ukrainian national identity and societal cohesion, implying that the war is causing the dissolution of the Ukrainian family unit and the loss of cultural connection for future generations."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The impact of the war extends beyond physical damage, as it profoundly traumatizes Ukrainian society and threatens to affect future generations.",
+        "reasoning": "This statement evokes fear and anxiety by predicting long-term, intergenerational psychological damage to Ukrainian society, emphasizing severe and lasting consequences beyond the immediate conflict."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Without robust mental healthcare services, there is widespread worry about the challenges these veterans may face in reintegrating into their communities and dealing with PTSD from the war.",
+        "reasoning": "This quote amplifies fears about the post-war period, specifically predicting social instability and personal suffering for veterans, which contributes to a narrative of inevitable negative outcomes and societal breakdown."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement makes a speculative prediction about the war's duration ('no end in sight') and its long-term psychological consequences on the population, framing the future as bleak and uncertain."
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear by emphasizing the indefinite nature of the war and its paralyzing psychological impact, discouraging long-term hope and planning."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes fear and anxiety about the ongoing and seemingly endless nature of the war, highlighting its severe psychological impact and the uncertainty it creates, which aligns with the narrative of amplifying war-related fears."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

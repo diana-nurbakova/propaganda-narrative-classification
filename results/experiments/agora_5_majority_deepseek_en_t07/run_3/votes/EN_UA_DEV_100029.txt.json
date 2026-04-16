@@ -1,0 +1,77 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "“The severely undertrained, poorly led, poorly equipped Russian forces are conducting mindless frontal attacks and sacrificing hundreds per day… It’s obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war,”",
+        "reasoning": "The quote directly undermines the competence and effectiveness of the Russian military, portraying them as incompetent and suffering heavy losses, which aligns with the narrative of discrediting a nation's military actions and leadership."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "“That will be critical to Ukraine's ability to continue the fight,” Milley said, noting that long range fires would challenge Russia's ability to command and control, protect, and sustain their forces.",
+        "reasoning": "The statement praises the military support from Western countries (nine countries pledging tanks) as decisive and critical, highlighting the superiority and effectiveness of Western-provided aid in countering Russia, which fits the definition of excessively lauding Western contributions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "“It’s obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war,”",
+        "reasoning": "This is a direct prediction about the potential result of the conflict, stating that Russia's strategic objectives are unachievable, which constitutes speculation on the war's outcome."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

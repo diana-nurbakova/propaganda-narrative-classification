@@ -1,0 +1,77 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukrainian precision munitions continued to target the logistics and communication systems of Russians who lack effective small unit leaders and proper equipment.",
+        "reasoning": "This quote directly attributes negative characteristics (lack of effective leaders, improper equipment) to Russian forces, which serves to undermine and discredit the military capabilities and actions of Russia's adversary, Ukraine, by portraying Russian forces as incompetent and poorly equipped in the face of Ukrainian actions."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "nine countries pledged to send over 150 Leopard tanks to Ukraine. The Group that met today discussed air defense, regular artillery, rocket artillery, armor, and ammunition contributions. “That will be critical to Ukraine's ability to continue the fight,”",
+        "reasoning": "This statement highlights and praises the collective military support from Western and allied nations, framing it as decisive and critical for Ukraine's survival, which aligns with the narrative of excessively lauding Western actions and virtues in the context of the conflict."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "“It’s obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war,”",
+        "reasoning": "This is a direct prediction about the potential result of the conflict, stating that Russia's strategic objectives are no longer achievable, which fits the definition of speculating on war outcomes."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

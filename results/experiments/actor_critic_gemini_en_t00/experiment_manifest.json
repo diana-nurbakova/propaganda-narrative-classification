@@ -1,0 +1,71 @@
+{
+  "experiment_id": "actor_critic_gemini_en_t00",
+  "base_config": "configs/experiments/generated/core/actor_critic_gemini_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-04T11:18:42.341533",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:18:42.341533",
+      "completed_at": "2026-02-04T11:25:19.291293",
+      "duration_seconds": 396.94976
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:25:19.294639",
+      "completed_at": "2026-02-04T11:33:44.530006",
+      "duration_seconds": 505.235367
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:33:44.530006",
+      "completed_at": "2026-02-04T11:40:13.399314",
+      "duration_seconds": 388.869308
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:40:13.402370",
+      "completed_at": "2026-02-04T11:46:29.110531",
+      "duration_seconds": 375.708161
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gemini_en_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:46:29.110531",
+      "completed_at": "2026-02-04T11:53:30.545054",
+      "duration_seconds": 421.434523
+    }
+  ],
+  "completed_at": "2026-02-04T11:53:30.545054",
+  "total_duration_seconds": 2088.197119,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

@@ -1,0 +1,152 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t00",
+    "run_id": 1
+  },
+  "narrative_matching": {
+    "total": 4,
+    "matched": 4,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_100003.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100005.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100033.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 12,
+    "matched": 12,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of institutions and authorities: Criticism of the SEC",
+      "matched_label": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 97.19626168224299,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of institutions and authorities: Criticism of the SEC",
+      "matched_label": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 97.19626168224299,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of institutions and authorities: Criticism of the SEC",
+      "matched_label": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 97.19626168224299,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of climate movement: Other",
+      "score": 91.89189189189189,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is disruptive",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is disruptive",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is disruptive",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Ukraine is associated with nationalism",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 94.4,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_215.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is tired of Ukraine",
+      "matched_label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_215.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Corruption",
+      "matched_label": "URW: Discrediting Ukraine: Other",
+      "score": 89.65517241379311,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_215.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Corruption",
+      "matched_label": "URW: Discrediting Ukraine: Other",
+      "score": 89.65517241379311,
+      "matched": true
+    }
+  ]
+}

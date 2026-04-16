@@ -1,0 +1,116 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear by emphasizing the indefinite, ongoing nature of the war and its paralyzing psychological impact, discouraging hope for a near-term resolution."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear by emphasizing the indefinite nature of the war and its paralyzing psychological impact, discouraging long-term hope and planning."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "This quote undermines the legitimacy and effectiveness of Ukraine's healthcare system, specifically its mental health services, by portraying them as oppressive and unfit for purpose, which aligns with discrediting the nation's institutions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a negative perception of Ukraine's mental health system, framing it as a legacy of Soviet-era oppression and as ineffective, which undermines the legitimacy and functionality of a key societal institution in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement emphasizes the profound and ongoing psychological trauma, the lack of a foreseeable end to the war, and the magnification of societal issues, which collectively evoke fear and anxiety about the future stability and recovery of Ukrainian society."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

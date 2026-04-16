@@ -1,0 +1,91 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 7,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a systemic failure and negative perception of Ukraine's own healthcare infrastructure, specifically its mental health services, framing them as oppressive and ineffective. This undermines the legitimacy and capability of Ukrainian institutions."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The impact of the war extends beyond physical damage, as it profoundly traumatizes Ukrainian society and threatens to affect future generations.",
+        "reasoning": "This statement evokes fear and anxiety by emphasizing the severe, long-term, and intergenerational psychological consequences of the war, focusing on societal trauma with no clear resolution in sight."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In having conversations with ordinary Ukrainians, many have expressed concern about the post-war period, especially regarding the return of veterans. Without robust mental healthcare services, there is widespread worry about the challenges these veterans may face in reintegrating into their communities and dealing with PTSD from the war.",
+        "reasoning": "This passage speculates about negative future outcomes and societal challenges in a post-war Ukraine, predicting difficulties with veteran reintegration and mental health crises due to a lack of services."
+      }
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 6,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 7,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

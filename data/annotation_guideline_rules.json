@@ -1,0 +1,249 @@
+{
+  "general_principles": [
+    "This is a MULTI-LABEL task: a document may contain multiple narratives from the same domain. Assign ALL that apply.",
+    "Classify based SOLELY on information in the document. Do not use external knowledge or personal opinions about the topics.",
+    "A narrative is present only if the text ACTIVELY PROMOTES or PRESENTS it — merely mentioning a topic is NOT sufficient for assigning the label.",
+    "If a coarse narrative is present but no specific sub-narrative fits, assign the coarse narrative with sub-narrative 'Other'.",
+    "If no narrative from the taxonomy applies to the document, return an empty list."
+  ],
+  "narrative_rules": {
+    "URW": {
+      "Blaming the war on others rather than the invader": "Look for direct or implied statements that shift blame away from Russia. Consider who is being held responsible for negative events or situations.",
+      "Discrediting Ukraine": "Look for direct or implied statements that attack some aspect of the Ukrainian society.",
+      "Russia is the Victim": "Look for narratives that depict Russia as suffering unjust consequences. Focus on language that evokes sympathy for Russia's position.",
+      "Praise of Russia": "Identify expressions of admiration, support, or positive evaluation of Russia. Consider both explicit praise and subtle commendation.",
+      "Discrediting the West, Diplomacy": "Look for criticism or negative portrayals of Western governments, leaders, or policies. Pay attention to language that suggests incompetence, hypocrisy, or malice.",
+      "Negative Consequences for the West": "Identify predictions or reports of negative impacts on Western nations. Consider both current and future consequences mentioned.",
+      "Distrust towards Media": "Look for language that undermines confidence in media sources. Pay attention to claims of bias, misinformation, or manipulation.",
+      "Amplifying war-related fears": "Identify language designed to elicit fear or concern about severe consequences. Consider both direct and implied threats mentioned.",
+      "Hidden plots by secret schemes of powerful groups": "Look for narratives involving clandestine activities, secret agendas, or unproven allegations. Focus on claims that lack credible evidence and suggest hidden motives."
+    },
+    "CC": {}
+  },
+  "subnarrative_rules": {
+    "URW": {
+      "Blaming the war on others rather than the invader": {
+        "The West are the aggressors": "Look for direct or implied statements that mention that this conflict was a direct consequence of actions taken by the West. Consider who is being held responsible for negative events or situations."
+      },
+      "Discrediting Ukraine": {
+        "Discrediting Ukrainian nation and society": "Use this only in case that the subject of the attack is the PEOPLE of Ukraine, or in case of generalizations about Ukrainian society.",
+        "Discrediting Ukrainian government and officials and policies": "Use this only in case that the subject of the attack is the LEADERS of Ukraine or some of their specific policy decisions.",
+        "Ukraine is a puppet of the West": "Prefer this sub-narrative over 'The West does not care about Ukraine, only about its interests' (under 'Discrediting the West, Diplomacy'), when the focus of the text revolves around Ukraine and its legitimacy is questioned.",
+        "Ukraine is associated with nazism": "This can go with 'Discrediting Ukrainian nation and society', but should be used with ANY mention or hint of sympathy or association with (neo-)Nazism, historical or not."
+      },
+      "Praise of Russia": {
+        "Russian invasion has strong national support": "Use this only when there is mention of the Russian population or the segment of the population in Ukraine that supports Russia. For international support, use 'Russia has international support from a number of countries and people' instead."
+      },
+      "Amplifying war-related fears": {
+        "There is a real possibility that nuclear weapons will be employed": "This narrative can potentially go in two directions: either claiming that the West should not anger Russia (fear-based), or that Russia should be stopped before they use nuclear weapons (urgency-based). Both directions qualify."
+      }
+    },
+    "CC": {}
+  },
+  "confused_pairs": [
+    {
+      "domain": "URW",
+      "type": "same_mechanism",
+      "labels": [
+        "Hidden plots by secret schemes of powerful groups",
+        "Discrediting the West, Diplomacy"
+      ],
+      "decision_rule": "COGNITIVE CONFUSION (both epistemic — both erode trust in Western actors). Key distinction: 'Hidden plots' invokes SECRET AGENTS with CONCEALED MOTIVES (elites, shadow governments, covert agendas behind the war). 'Discrediting the West' attacks VISIBLE ACTORS for OBSERVABLE FAILURES (EU division, Western weakness, diplomatic incompetence, war fatigue). Test: Does the text claim something is being HIDDEN or SECRETLY orchestrated? → Hidden plots. Does it criticise openly known Western actions or policies? → Discrediting the West. BOTH may apply if the text both alleges hidden agendas AND criticises visible failures.",
+      "bis_mass": 0.8084165886377721,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.808)",
+      "tom_note": "Both target trust in who controls events, but 'Hidden plots' replaces the reader's causal model with a conspiratorial one, while 'Discrediting the West' works within the reader's existing causal model by highlighting failures."
+    },
+    {
+      "domain": "URW",
+      "type": "cross_mechanism",
+      "labels": [
+        "Speculating war outcomes",
+        "Russia is the Victim"
+      ],
+      "decision_rule": "THEMATIC CO-OCCURRENCE (epistemic + emotional — complementary propaganda functions). Key distinction: 'Speculating war outcomes' makes PREDICTIONS about military results (army collapsing, territory lost/gained, inevitable victory/defeat). 'Russia is the Victim' frames Russia as UNFAIRLY TREATED (unjust sanctions, Western persecution, russophobia, forced self-defence). Test: Does the text PREDICT what will happen militarily? → Speculating outcomes. Does the text claim Russia is being TREATED UNFAIRLY? → Russia is the Victim. These commonly co-occur: articles predicting Russian victory often also frame Russia as unfairly provoked. Assign BOTH if both elements are genuinely present.",
+      "bis_mass": 0.7137997136921735,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.714)",
+      "tom_note": "Complementary propaganda functions: 'Russia will win' (epistemic prediction) is reinforced by 'Russia was forced to fight' (emotional sympathy). They co-occur because both serve the same propaganda goal (legitimising Russia's position)."
+    },
+    {
+      "domain": "URW",
+      "type": "same_mechanism",
+      "labels": [
+        "Negative Consequences for the West",
+        "Amplifying war-related fears"
+      ],
+      "decision_rule": "COGNITIVE CONFUSION (both emotional — both trigger fear about consequences). Key distinction: 'Negative Consequences' focuses on ECONOMIC/SOCIAL harm to Western countries (sanctions backfiring, energy prices, refugee flows, inflation). 'Amplifying war fears' focuses on MILITARY/EXISTENTIAL threats (WWIII, nuclear weapons, NATO-Russia confrontation, war spreading). Test: Is the feared consequence ECONOMIC or SOCIAL (jobs, prices, refugees)? → Negative Consequences. Is the feared consequence MILITARY or EXISTENTIAL (war escalation, nuclear strike)? → Amplifying fears. BOTH may apply if the text argues both economic harm AND military escalation.",
+      "bis_mass": 0.5462640361859261,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.546)",
+      "tom_note": "Both exploit fear/anxiety, but target different fear registers: economic self-interest vs. existential survival."
+    },
+    {
+      "domain": "URW",
+      "type": "cross_mechanism",
+      "labels": [
+        "Overpraising the West",
+        "Amplifying war-related fears"
+      ],
+      "decision_rule": "THEMATIC CO-OCCURRENCE (identity + emotional — same topic, different angles). Key distinction: 'Overpraising the West' GLORIFIES Western/NATO capabilities (NATO will destroy Russia, West is on the right side of history, strongest support). 'Amplifying war fears' emphasises DANGERS of escalation (risk of WWIII, nuclear weapons, NATO direct intervention expanding the conflict). Test: Does the text frame Western military strength as POSITIVE and reassuring? → Overpraising. Does the text frame military dynamics as THREATENING and frightening? → Amplifying fears. These co-occur because NATO intervention articles simultaneously praise NATO capability AND warn about escalation risk. Assign BOTH when the text glorifies Western strength while also warning about what that strength might trigger.",
+      "bis_mass": 0.5357533391531093,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.536)",
+      "tom_note": "Same topic (Western military posture) processed through different cognitive channels: pride/identity vs. fear/anxiety. The sub-narrative 'NATO will destroy Russia' sits at the exact boundary — it's praise AND implicit threat."
+    },
+    {
+      "domain": "URW",
+      "type": "same_mechanism",
+      "labels": [
+        "Blaming the war on others rather than the invader",
+        "Distrust towards Media"
+      ],
+      "decision_rule": "COGNITIVE CONFUSION (both epistemic — both redirect blame toward Western actors). Key distinction: 'Blaming the war on others' attributes CAUSALITY for the conflict to Ukraine or the West (NATO expansion provoked Russia, Ukraine was the aggressor). 'Distrust towards Media' attacks the INFORMATION SOURCES that report on the conflict (Western media is propaganda, Ukrainian media lies about events). Test: Does the text claim someone other than Russia CAUSED or PROVOKED the war? → Blaming others. Does the text claim media outlets are LYING or BIASED about the war? → Distrust Media. These often co-occur because blame-shifting articles also discredit the media that attributes blame to Russia.",
+      "bis_mass": 0.524698380245996,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.525)",
+      "tom_note": "Both are epistemic attacks on Western-aligned narratives, but 'Blaming' targets causal beliefs about the war's origin while 'Distrust Media' targets trust in the information ecosystem itself (meta-epistemic)."
+    },
+    {
+      "domain": "CC",
+      "type": "cross_mechanism",
+      "labels": [
+        "Criticism of climate movement",
+        "Amplifying Climate Fears"
+      ],
+      "decision_rule": "THEMATIC CO-OCCURRENCE (moral + emotional — mirror images of the same phenomenon). Key distinction: 'Criticism of climate movement' ATTACKS the people and organisations who raise climate alarms (activists are alarmist, corrupt, hypocritical; ad hominem on key figures). 'Amplifying Climate Fears' AMPLIFIES climate anxiety beyond scientific support (Earth uninhabitable soon, doomsday scenarios, too late to act). Test: Does the text attack the MESSENGERS (activists, movement, specific people)? → Criticism of movement. Does the text present CATASTROPHIC SCENARIOS about climate itself? → Amplifying fears. These co-occur as mirror images: an article may present alarming claims AND then criticise the movement for making them. Assign BOTH if the text both amplifies fears AND attacks those who raise them (paradoxical but common in climate discourse).",
+      "bis_mass": 0.5235768337081056,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.524)",
+      "tom_note": "These are genuinely entangled in climate discourse: calling activists 'alarmist' simultaneously characterises the movement (moral attack) and invokes the alarm itself (emotional content). The annotation guidelines acknowledge this by using the same example text for 'alarmist' and 'corrupt' sub-narratives."
+    },
+    {
+      "domain": "CC",
+      "type": "same_mechanism",
+      "labels": [
+        "Hidden plots by secret schemes of powerful groups",
+        "Criticism of institutions and authorities"
+      ],
+      "decision_rule": "COGNITIVE CONFUSION (both epistemic — both undermine trust in institutions). Key distinction: 'Hidden plots' invokes SECRET CONSPIRACIES — climate action is a cover for elite profit, depopulation, or world domination. 'Criticism of institutions' attacks VISIBLE INSTITUTIONAL FAILURES — the EU imposes arbitrary rules, the IPCC is ideological, governments are incompetent. Test: Does the text allege a HIDDEN AGENDA or SECRET MOTIVE behind climate institutions? → Hidden plots. Does the text criticise institutions for OBSERVABLE incompetence, overreach, or bias? → Criticism of institutions. BOTH may apply if the text claims institutions are both incompetent AND secretly motivated.",
+      "bis_mass": 0.5097435585565547,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.510)",
+      "tom_note": "Identical cognitive structure to the URW pair (Hidden plots ↔ Discrediting the West). Both domains show the same pattern: conspiratorial framing vs. institutional critique are confused because both erode institutional trust, but through different epistemic pathways."
+    },
+    {
+      "domain": "CC",
+      "type": "cross_mechanism",
+      "labels": [
+        "Climate change is beneficial",
+        "Amplifying Climate Fears"
+      ],
+      "decision_rule": "THEMATIC CO-OCCURRENCE (epistemic + emotional — opposing claims in the same texts). Key distinction: 'Climate change is beneficial' argues that climate effects are POSITIVE (CO2 helps plants, longer growing seasons, warmer temperatures are good). 'Amplifying Climate Fears' argues that climate consequences are CATASTROPHIC (Earth uninhabitable, mass extinction, doomsday, too late to act). Test: Does the text claim climate change has POSITIVE effects? → Climate beneficial. Does the text present CATASTROPHIC consequences? → Amplifying fears. These seem contradictory but co-occur when denial articles CONTRAST their 'benefits' claims against the 'alarmist' catastrophic scenarios they are rebutting — quoting alarming claims to debunk them.",
+      "bis_mass": 0.5078947970821438,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.508)",
+      "tom_note": "The co-occurrence paradox: denial texts often quote alarming claims (triggering the 'Amplifying Fears' detector) before rebutting them with 'beneficial' counter-claims. Multi-label annotation should capture both when genuinely present."
+    },
+    {
+      "domain": "CC",
+      "type": "same_mechanism",
+      "labels": [
+        "Questioning the measurements and science",
+        "Climate change is beneficial"
+      ],
+      "decision_rule": "COGNITIVE CONFUSION (both epistemic — both challenge scientific consensus). Key distinction: 'Questioning measurements/science' attacks the METHODS and DATA (faulty instruments, unreliable metrics, biased scientists, fabricated records). 'Climate change is beneficial' accepts that changes are occurring but claims the EFFECTS are positive (CO2 helps plants, warmer temperatures benefit agriculture). Test: Does the text claim the SCIENCE or DATA is wrong, biased, or fabricated? → Questioning science. Does the text claim climate effects are GOOD or have hidden BENEFITS? → Climate beneficial. These often co-occur because articles that question science also present 'positive' counter-evidence.",
+      "bis_mass": 0.505755153113928,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.506)",
+      "tom_note": "Both produce false beliefs about climate science, but 'Questioning' attacks the knowledge-production process (meta-epistemic) while 'Beneficial' accepts the phenomenon but reverses its valence."
+    },
+    {
+      "domain": "URW",
+      "type": "cross_mechanism",
+      "labels": [
+        "Discrediting the West, Diplomacy",
+        "Praise of Russia"
+      ],
+      "decision_rule": "THEMATIC CO-OCCURRENCE (epistemic + identity — two sides of the same coin). Key distinction: 'Discrediting the West' attacks the ADVERSARY's competence and motives (West is weak, divided, hypocritical, tired of Ukraine, self-interested). 'Praise of Russia' glorifies OWN SIDE's strength and legitimacy (military might, Putin's leadership, international support, peace guarantor). Test: Does the text ATTACK Western institutions, policies, or leaders? → Discrediting the West. Does the text PRAISE Russian actors, capabilities, or values? → Praise of Russia. These are the most natural co-occurrence in propaganda: discrediting the enemy while praising your side. Almost always assign BOTH when either is present — check if the complementary narrative is also supported.",
+      "bis_mass": 0.49958502645575986,
+      "source": "bis(TCM) empirical analysis (bis_mass=0.500)",
+      "tom_note": "The fundamental propaganda dyad: tear down the adversary (epistemic trust erosion) while building up your side (identity construction). These serve complementary functions in the same persuasive strategy and should typically be assigned together when either appears."
+    },
+    {
+      "domain": "URW",
+      "type": "confusion",
+      "labels": [
+        "Ukraine is a puppet of the West",
+        "The West does not care about Ukraine, only about its interests"
+      ],
+      "parent_narratives": [
+        "Discrediting Ukraine",
+        "Discrediting the West, Diplomacy"
+      ],
+      "decision_rule": "If the text's focus is on UKRAINE and its legitimacy/sovereignty is questioned (portrayed as controlled by Western powers), use 'Ukraine is a puppet of the West'. If the focus is on the WEST and their self-interested motivations (exploiting Ukraine for their own benefit), use 'The West does not care about Ukraine, only about its interests'. Both may apply if the text argues both points.",
+      "source": "Annotation guidelines §11 Lessons Learned + §6.1 sub-narrative 2e Instructions to Annotators"
+    },
+    {
+      "domain": "URW",
+      "type": "overlap",
+      "labels": [
+        "Discrediting Ukrainian military",
+        "Praise of Russian military might"
+      ],
+      "parent_narratives": [
+        "Discrediting Ukraine",
+        "Praise of Russia"
+      ],
+      "decision_rule": "These two often co-occur legitimately — a text may simultaneously discredit Ukraine's military AND praise Russia's. Assign BOTH if both are supported by the text. They are not mutually exclusive.",
+      "source": "Annotation guidelines §11 Lessons Learned"
+    },
+    {
+      "domain": "URW",
+      "type": "overlap",
+      "labels": [
+        "Discrediting Ukrainian nation and society",
+        "Ukraine is associated with nazism"
+      ],
+      "parent_narratives": [
+        "Discrediting Ukraine",
+        "Discrediting Ukraine"
+      ],
+      "decision_rule": "Nazism association can co-occur with general nation/society discrediting. Always assign 'Ukraine is associated with nazism' when there is ANY mention or hint of (neo-)Nazism, even if 'Discrediting Ukrainian nation and society' also applies.",
+      "source": "Annotation guidelines §6.1 sub-narrative 2g Instructions to Annotators"
+    },
+    {
+      "domain": "CC",
+      "type": "overlap",
+      "labels": [
+        "Methodologies/metrics used are unreliable/faulty",
+        "Data shows no temperature increase"
+      ],
+      "parent_narratives": [
+        "Questioning the measurements and science",
+        "Questioning the measurements and science"
+      ],
+      "decision_rule": "These often co-occur — a text may attack both the methodology AND claim the data shows no warming. Assign both if both arguments are present. They represent different aspects of science denial (process vs. outcome).",
+      "source": "Annotation guidelines §11 Lessons Learned"
+    },
+    {
+      "domain": "URW",
+      "type": "confusion",
+      "labels": [
+        "Russia has international support from a number of countries and people",
+        "Russian invasion has strong national support"
+      ],
+      "parent_narratives": [
+        "Praise of Russia",
+        "Praise of Russia"
+      ],
+      "decision_rule": "If the text mentions support from the RUSSIAN POPULATION or Russian-speaking populations in Ukraine, use 'Russian invasion has strong national support'. If the text mentions support from OTHER COUNTRIES or international community, use 'Russia has international support'.",
+      "source": "Annotation guidelines §6.1 sub-narrative 4e Instructions to Annotators"
+    },
+    {
+      "domain": "CC",
+      "type": "confusion",
+      "labels": [
+        "Climate movement is alarmist",
+        "Climate movement is corrupt"
+      ],
+      "parent_narratives": [
+        "Criticism of climate movement",
+        "Criticism of climate movement"
+      ],
+      "decision_rule": "If the text claims activists EXAGGERATE severity for dramatic effect, use 'alarmist'. If the text claims activists are driven by ULTERIOR MOTIVES, corruption, or unethical practices, use 'corrupt'. Note: the annotation guidelines use the same example text for both, suggesting genuine ambiguity.",
+      "source": "Annotation guidelines §7.1 narrative 6 (same example used for 6a and 6b)"
+    }
+  ]
+}

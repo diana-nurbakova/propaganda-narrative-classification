@@ -1,0 +1,27 @@
+{
+  "experiment_id": "actor_critic_mistral_en_t00_evidence",
+  "base_config": "configs/experiments/generated/core/actor_critic_mistral_en_t00.yaml",
+  "n_runs": 1,
+  "base_seed": 42,
+  "seeds": [
+    478163327
+  ],
+  "sequential": true,
+  "started_at": "2026-02-10T14:36:28.459419",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\actor_critic_mistral_en_t00_evidence\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_mistral_en_t00_evidence\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T14:36:28.459419",
+      "completed_at": "2026-02-10T15:20:19.875864",
+      "duration_seconds": 2631.416445
+    }
+  ],
+  "completed_at": "2026-02-10T15:20:19.877859",
+  "total_duration_seconds": 2631.416445,
+  "successful_runs": 1,
+  "failed_runs": 0
+}

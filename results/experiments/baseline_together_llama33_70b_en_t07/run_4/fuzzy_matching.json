@@ -1,0 +1,63 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_together_llama33_70b_en_t07",
+    "run_id": 4
+  },
+  "narrative_matching": {
+    "total": 5,
+    "matched": 5,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Discrediting Ukraine",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "subnarrative_matches": []
+}

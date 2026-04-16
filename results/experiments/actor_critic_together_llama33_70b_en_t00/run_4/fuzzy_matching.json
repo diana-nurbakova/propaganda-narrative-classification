@@ -1,0 +1,232 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t00",
+    "run_id": 4
+  },
+  "narrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_100003.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 24,
+    "matched": 14,
+    "unmatched": 10,
+    "match_rate": 0.5833333333333334
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Downplaying climate change: Climate policies have negative impact on the economy",
+      "matched_label": "CC: Downplaying climate change: Other",
+      "score": 91.17647058823529,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of institutions and authorities: Criticism of the SEC",
+      "matched_label": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 97.19626168224299,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Ineffective military tactics",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 73.2394366197183,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes: Ukrainian army is strong",
+      "matched_label": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+      "score": 93.20388349514563,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Military weakness",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 75.36231884057972,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Overpraising Ukraine: Military strength",
+      "matched_label": null,
+      "score": 64.28571428571428,
+      "matched": false
+    }
+  ]
+}

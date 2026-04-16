@@ -1,0 +1,179 @@
+{
+  "file_id": "EN_UA_DEV_100004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces reportedly hit the Mirgorod airfield in the Poltava region, from where Ukrainian aircraft armed with Storm Shadow missiles are taking off to attack Russian rear areas.",
+        "reasoning": "The quote highlights a successful, precise Russian strike on a strategic Ukrainian military target, framing Russian military actions as effective and justified in countering Ukrainian capabilities."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The local sources are hiding any information about the damage, but some supposed that another facility used for accommodation of Ukrainian servicemen was hit.",
+        "reasoning": "This statement implies Ukrainian authorities are deceitful and secretive about military losses, undermining their credibility and transparency."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Avdeevka, which was turned into a large stronghold by the Ukrainian military during the war in Donbass.",
+        "reasoning": "The phrasing frames Avdiivka's fortification as an aggressive act by Ukraine during the 'war in Donbass', implicitly justifying the subsequent Russian offensive against it."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "The Russian army is developing its offensive in Avdeevka... Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant.",
+        "reasoning": "This describes Russian military progress in positive, operational terms, emphasizing successful advances and capture of key terrain, which serves to glorify Russian military effectiveness."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces reportedly hit the Mirgorod airfield in the Poltava region, from where Ukrainian aircraft armed with Storm Shadow missiles are taking off to attack Russian rear areas.",
+        "reasoning": "The text highlights the effectiveness and strategic targeting of Russian strikes, framing them as successful counter-measures against Ukrainian capabilities, which aligns with praising Russia's military actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The local sources are hiding any information about the damage, but some supposed that another facility used for accommodation of Ukrainian servicemen was hit.",
+        "reasoning": "This statement implies Ukrainian authorities are secretive and dishonest about military losses, undermining their credibility and transparency."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Avdeevka, which was turned into a large stronghold by the Ukrainian military during the war in Donbass.",
+        "reasoning": "Referring to the 'war in Donbass' instead of Russia's invasion frames Ukrainian defensive preparations as part of a longer conflict, subtly discrediting Ukraine's role and positioning."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "The text makes a predictive statement about potential future Russian military successes and negative consequences for Ukrainian forces, which fits the narrative of speculating on war outcomes."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "According to preliminary reports from the front, Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant. They reportedly captured water treatment facilities located there.",
+        "reasoning": "The quote highlights successful Russian military actions, specifically capturing key facilities, which positively frames Russia's operational effectiveness and battlefield prowess."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The local sources are hiding any information about the damage, but some supposed that another facility used for accommodation of Ukrainian servicemen was hit.",
+        "reasoning": "This statement implies Ukrainian authorities are being secretive and deceptive about military losses, undermining their credibility and transparency."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "In their turn, Ukrainian forces attempted to reach Russian territory with UAVs. Overnight, two Ukrainian drones were destroyed over the Bryansk region, three more over the Black Sea off the coast of Crimea, the Russian Defense Ministry said.",
+        "reasoning": "The phrasing 'attempted to reach' and the report of all drones being destroyed frames Ukrainian military actions as ineffective and unsuccessful, discrediting their operational capabilities."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This is a speculative statement predicting a potential negative outcome for Ukrainian forces, forecasting a future tactical disadvantage."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting Ukraine",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Speculating war outcomes: Ukrainian army is collapsing",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

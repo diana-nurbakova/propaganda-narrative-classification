@@ -1,0 +1,71 @@
+{
+  "experiment_id": "actor_critic_mistral_bg_t00",
+  "base_config": "configs/experiments/generated/core/actor_critic_mistral_bg_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-08T23:16:26.769122",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T23:16:26.769122",
+      "completed_at": "2026-02-08T23:58:00.840321",
+      "duration_seconds": 2494.071199
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T23:58:30.855168",
+      "completed_at": "2026-02-09T00:37:39.705804",
+      "duration_seconds": 2348.850636
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T00:38:09.713863",
+      "completed_at": "2026-02-09T01:19:08.382397",
+      "duration_seconds": 2458.668534
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T01:19:38.389877",
+      "completed_at": "2026-02-09T02:01:01.353945",
+      "duration_seconds": 2482.964068
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_mistral_bg_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-09T02:01:31.365818",
+      "completed_at": "2026-02-09T02:45:23.928176",
+      "duration_seconds": 2632.562358
+    }
+  ],
+  "completed_at": "2026-02-09T02:45:23.929950",
+  "total_duration_seconds": 12417.116794999998,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

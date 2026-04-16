@@ -8,11 +8,12 @@ from transformers import AutoTokenizer
 from tqdm.auto import tqdm
 
 # Configuration
-ANNOTATION_FILE = 'data/all-texts-unified/unified-annotations.tsv'
+ANNOTATION_FILE = os.environ.get('MDEBERTA_ANNOTATION_FILE', 'data/all-texts-unified/unified-annotations.tsv')
 TEXT_FILE_DIR = 'data/all-texts-unified/texts'
 BASE_MODEL = 'microsoft/mdeberta-v3-base'
 MAX_LENGTH = 512
-ARTIFACTS_DIR = 'mdeberta_artifacts_hierarchical'
+MAX_POS_WEIGHT = 10.0  # Cap pos_weights to prevent "always predict 1" behavior
+ARTIFACTS_DIR = os.environ.get('MDEBERTA_ARTIFACTS_DIR', 'mdeberta_artifacts_hierarchical')
 DATASET_OUTPUT_PATH = os.path.join(ARTIFACTS_DIR, 'tokenized_dataset_hierarchical')
 
 # --------------------------------------------------------------------------------------
@@ -146,7 +147,7 @@ for _, row in tqdm(df_clean.iterrows(), total=len(df_clean)):
                 label_vectors[col_name][idx] = 1
                 
     file_path = os.path.join(TEXT_FILE_DIR, row['filename'])
-    with open(file_path, 'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         text = f.read().strip()
         
     data_rows.append({'text': text, **label_vectors})
@@ -170,8 +171,12 @@ for col in label_columns:
         
     positive_counts = np.sum(label_matrix, axis=0)
     negative_counts = label_matrix.shape[0] - positive_counts
-    
-    pos_weights = (negative_counts + epsilon) / (positive_counts + epsilon)
+
+    uncapped_weights = (negative_counts + epsilon) / (positive_counts + epsilon)
+    pos_weights = np.minimum(uncapped_weights, MAX_POS_WEIGHT)
+    n_capped = int(np.sum(uncapped_weights > MAX_POS_WEIGHT))
+    if n_capped > 0:
+        print(f"  [INFO] Capped {n_capped}/{len(uncapped_weights)} weights (max was {uncapped_weights.max():.1f})")
     pos_weights_tensor = torch.tensor(pos_weights, dtype=torch.float)
     pos_weights_dict[col] = pos_weights_tensor
     print(f"Positional weights for {col}: {pos_weights_tensor.numpy()}")

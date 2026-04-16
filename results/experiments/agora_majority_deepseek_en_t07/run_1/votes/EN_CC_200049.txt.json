@@ -1,0 +1,188 @@
+{
+  "file_id": "EN_CC_200049.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Criticism of climate movement",
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This quote directly challenges the severity of a climate change impact (heat-related deaths) by presenting alternative data to minimize the claimed threat, fitting the definition of minimizing the significance or impact of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text uses specific data to counter the scientific claim (from Science Alert) about heat being the leading cause of weather-related deaths, thereby raising doubts about the supporting data and consensus on climate change impacts."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The term 'Alarmists' in the headline is a pejorative label that challenges the motives and credibility of those raising climate concerns, fitting the narrative of criticizing the climate movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This quote directly challenges the severity of a climate change impact (heat-related deaths) by presenting alternative data to minimize its significance, aligning with the definition of downplaying climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text uses selective data (from EPA and a Lancet study) to cast doubt on the scientific claim about heat being the leading weather-related cause of death, thereby questioning the validity of the measurements and science presented by 'alarmists'."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The term 'Alarmists' in the headline is a pejorative label that challenges the credibility and motives of those raising climate concerns, fitting the narrative of criticizing the climate movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This quote directly challenges the significance of heat-related mortality linked to climate change by presenting alternative data (cold-related deaths) to minimize the perceived impact and urgency of the climate issue."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text uses selective data from an official agency (EPA) to cast doubt on the scientific claim that heat-related deaths are the leading weather-related cause, thereby questioning the evidence base for climate change impacts."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The term 'Alarmists' in the headline is a pejorative label that challenges the credibility and motives of those raising concerns about climate change, fitting the narrative of criticizing the climate movement."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "“Extreme heat events are also increasing in their intensity and duration, bringing along greater fire danger too,” it contends, arguing that “millions are at risk” from the intense heat.",
+        "reasoning": "This quoted statement, though presented by the text as part of the 'alarmist' warning, is included in the article and explicitly describes escalating dangers (intensity, duration, fire risk, millions at risk), which serves to amplify fears about climate consequences, even if the overall article aims to downplay them."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Questioning the measurements and science",
+    "CC: Criticism of climate movement"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other",
+    "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+    "CC: Questioning the measurements and science: Data shows no temperature increase",
+    "CC: Questioning the measurements and science: Scientific community is unreliable",
+    "CC: Questioning the measurements and science: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "matched": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "matched": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "matched": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Other",
+      "matched": "CC: Questioning the measurements and science: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

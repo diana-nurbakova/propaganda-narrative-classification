@@ -1,0 +1,803 @@
+{
+  "_meta": {
+    "description": "Theory of Mind taxonomy for SemEval-2025 Task 10. NARRATIVE level: multi-class mechanisms (a narrative may span multiple cognitive mechanisms). SUB-NARRATIVE level: single-class mechanism (each concrete claim has one primary cognitive function).",
+    "version": "0.3 — complete with sub-narratives and grounding",
+    "status": "Pre-filled from literature, requires domain expert validation",
+    "mechanisms": {
+      "epistemic": "Changing what the reader believes is TRUE — targeting factual beliefs, trust in sources, causal models. Grounding: Harris (2023) types a/b.",
+      "emotional": "Triggering fear, hope, sympathy, outrage, anxiety, or despair to bypass rational evaluation. Grounding: Wilbur (2025), Petty & Cacioppo ELM.",
+      "identity": "Reinforcing in-group / out-group affiliation, us-vs-them framing. Grounding: Kahan et al. (2007), Feygina et al. (2010).",
+      "moral": "Framing actors as good / evil, hero / villain, competent / incompetent. Grounding: Entity Framing ST1 taxonomy, Haidt moral foundations."
+    },
+    "grounding_key": {
+      "Harris_2023": "Three disinformation effects: (a) false beliefs, (b) prevent true beliefs, (c) sub-doxastic",
+      "Cook_2020": "FLICC→psychology mapping; CARDS negates 5 climate beliefs (Ding 2011)",
+      "Wilbur_2025": "Rhetorical structure → cognitive bias on 260 Russian disinfo texts",
+      "Maillat_Oswald_2009": "Context Selection Constraint model of manipulation",
+      "Stanley_2015": "Propaganda via not-at-issue (presupposed) content",
+      "ReflexiveControl": "Soviet framework: making target 'independently' decide in controller's favour",
+      "Campbell_Kay_2014": "Solution aversion — denying problem to avoid threatening solutions",
+      "Kahan_2007": "Identity-protective cognition",
+      "Pauli_2022": "Propaganda techniques as misuse of ethos/pathos/logos",
+      "ARTT_2022": "7 manipulation concepts by psychological mechanism",
+      "Bondarenko_2020": "3 cognitive mechanism groups for propaganda",
+      "EntityFramingST1": "SemEval-2025 protagonist/antagonist/innocent roles",
+      "Sperber_2010": "Epistemic vigilance mechanisms",
+      "Feygina_2010": "System justification theory"
+    }
+  },
+  "URW": {
+    "Blaming the war on others rather than the invader": {
+      "mechanisms": [
+        "epistemic"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may hold Russia partially responsible for initiating the conflict",
+      "target_belief_change": "Responsibility for the war lies with Ukraine or the West, not Russia",
+      "persuasive_strategy": "Causal reattribution — shifting perceived agency and blame",
+      "grounding": "Harris_2023 type-a (false causal beliefs); ReflexiveControl; Pauli_2022 misuse of logos",
+      "tom_note_for_prompt": "This narrative re-attributes causality. Look for language shifting blame away from Russia toward Ukraine, NATO, or the West.",
+      "sub_narratives": {
+        "Ukraine is the aggressor": {
+          "mechanism": "epistemic",
+          "tom_note": "Reverses aggressor role — claims Ukraine provoked or started the conflict",
+          "grounding": "Harris_2023 type-a: producing false belief about who attacked whom; ReflexiveControl: making audience conclude Russia was provoked"
+        },
+        "The West are the aggressors": {
+          "mechanism": "epistemic",
+          "tom_note": "Attributes causality to Western actions (NATO expansion, Minsk sabotage)",
+          "grounding": "Harris_2023 type-a: false causal attribution; Maillat_Oswald_2009: redirecting contextual assumptions about agency"
+        }
+      }
+    },
+    "Discrediting Ukraine": {
+      "mechanisms": [
+        "moral",
+        "epistemic",
+        "identity",
+        "emotional"
+      ],
+      "primary_mechanism": "moral",
+      "presupposed_reader_belief": "Reader may have baseline sympathy or respect for Ukraine",
+      "target_belief_change": "Ukraine is unworthy of support — corrupt, criminal, extremist, or illegitimate",
+      "persuasive_strategy": "Character assassination — undermining moral standing through multiple attack vectors",
+      "grounding": "EntityFramingST1 (Ukraine as Antagonist); Pauli_2022 misuse of ethos; Maillat_Oswald_2009",
+      "tom_note_for_prompt": "This narrative attacks Ukraine's moral standing through diverse sub-claims. Each sub-narrative uses a different cognitive lever.",
+      "sub_narratives": {
+        "Rewriting Ukraine's history": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets factual beliefs about Ukrainian nationhood and historical legitimacy",
+          "grounding": "Harris_2023 type-a: producing false historical beliefs; Stanley_2015: manipulating presuppositions about national identity"
+        },
+        "Discrediting Ukrainian nation and society": {
+          "mechanism": "moral",
+          "tom_note": "Attacks the moral character of Ukrainian people as a whole — corruption, cultural deficiency",
+          "grounding": "EntityFramingST1: casting Ukrainian people as Antagonist (Corrupt, Bigot); Pauli_2022: misuse of ethos (character attack on collective)"
+        },
+        "Discrediting Ukrainian military": {
+          "mechanism": "moral",
+          "tom_note": "Attacks the competence and conduct of Ukrainian armed forces",
+          "grounding": "EntityFramingST1: Ukrainian military as Antagonist (Incompetent, Terrorist); annotation guidelines: often overlaps with 'Praise of Russian military might'"
+        },
+        "Discrediting Ukrainian government and officials and policies": {
+          "mechanism": "moral",
+          "tom_note": "Attacks the legitimacy, competence, or integrity of Ukraine's leadership",
+          "grounding": "EntityFramingST1: Zelensky/officials as Antagonist (Tyrant, Corrupt, Deceiver); Pauli_2022: misuse of ethos"
+        },
+        "Ukraine is a puppet of the West": {
+          "mechanism": "epistemic",
+          "tom_note": "Claims Ukraine lacks sovereignty — targets beliefs about Ukraine's agency and decision-making autonomy",
+          "grounding": "Harris_2023 type-a: false belief about power dynamics; ReflexiveControl; annotation guidelines: prefer over 'West doesn't care' when focus is on Ukraine's legitimacy"
+        },
+        "Ukraine is a hub for criminal activities": {
+          "mechanism": "moral",
+          "tom_note": "Frames Ukraine as morally corrupt through association with criminality",
+          "grounding": "EntityFramingST1: Ukraine as Antagonist (Corrupt); moral contamination through criminal association"
+        },
+        "Ukraine is associated with nazism": {
+          "mechanism": "identity",
+          "tom_note": "Triggers deep identity-based rejection through association with the most extreme out-group marker",
+          "grounding": "Kahan_2007: identity-protective cognition — nazism as ultimate out-group marker; annotation guidelines: 'should be used with ANY mention of (neo-)Nazism, historical or not'"
+        },
+        "Situation in Ukraine is hopeless": {
+          "mechanism": "emotional",
+          "tom_note": "Induces despair and futility about Ukraine's future to undermine support",
+          "grounding": "Wilbur_2025: loss aversion — framing Ukraine's situation as irreversible loss; ARTT_2022: evoking emotion (despair)"
+        }
+      }
+    },
+    "Russia is the Victim": {
+      "mechanisms": [
+        "emotional",
+        "identity",
+        "epistemic"
+      ],
+      "primary_mechanism": "emotional",
+      "presupposed_reader_belief": "Reader may view Russia as the aggressor",
+      "target_belief_change": "Russia is unfairly treated and deserves sympathy",
+      "persuasive_strategy": "Victimhood reversal — inverting aggressor/victim roles",
+      "grounding": "EntityFramingST1 (Russia as Innocent/Victim); Wilbur_2025 emotional contagion; Bondarenko_2020 emotional appeals",
+      "tom_note_for_prompt": "This narrative inverts the aggressor/victim frame. Look for language evoking sympathy for Russia or framing Western responses as persecution.",
+      "sub_narratives": {
+        "The West is russophobic": {
+          "mechanism": "identity",
+          "tom_note": "Reframes criticism of Russia's actions as cultural prejudice against Russians as a group",
+          "grounding": "Kahan_2007: identity-protective cognition — frames anti-Russia sentiment as identity-based prejudice rather than policy response; Stanley_2015: exploiting identity presuppositions"
+        },
+        "Russia actions in Ukraine are only self-defence": {
+          "mechanism": "epistemic",
+          "tom_note": "Reframes invasion as legitimate defensive action — targets factual beliefs about causality and legality",
+          "grounding": "Harris_2023 type-a: false belief about the nature of Russia's military action; ReflexiveControl: making audience conclude Russia had no choice"
+        },
+        "UA is anti-RU extremists": {
+          "mechanism": "identity",
+          "tom_note": "Frames Ukraine as comprising extremist elements hostile to Russians — activates in-group/out-group dynamics",
+          "grounding": "Kahan_2007: identity-protective cognition; EntityFramingST1: Ukraine as Antagonist (Terrorist, Bigot)"
+        }
+      }
+    },
+    "Praise of Russia": {
+      "mechanisms": [
+        "identity",
+        "moral",
+        "epistemic"
+      ],
+      "primary_mechanism": "identity",
+      "presupposed_reader_belief": "Reader may view Russia negatively or be uncertain about its strength and legitimacy",
+      "target_belief_change": "Russia is strong, admirable, internationally supported, and a legitimate alternative to Western hegemony",
+      "persuasive_strategy": "Positive identity construction — building in-group pride and projecting strength",
+      "grounding": "Kahan_2007 identity alignment; EntityFramingST1 (Russia as Protagonist); ReflexiveControl: projecting strength",
+      "tom_note_for_prompt": "This narrative constructs a positive image of Russia. Look for glorification of military, leadership, diplomacy, or international standing.",
+      "sub_narratives": {
+        "Praise of Russian military might": {
+          "mechanism": "identity",
+          "tom_note": "Projects military strength to inspire alignment with the powerful side",
+          "grounding": "Kahan_2007: aligning with the 'winning' side; EntityFramingST1: Russian military as Protagonist (Guardian); annotation guidelines: often overlaps with 'Discrediting Ukrainian military'"
+        },
+        "Praise of Russian President Vladimir Putin": {
+          "mechanism": "moral",
+          "tom_note": "Frames Putin as a strong, decisive, admirable leader — hero/great-man narrative",
+          "grounding": "EntityFramingST1: Putin as Protagonist (Guardian, Virtuous); Pauli_2022: appeal to ethos through leader glorification"
+        },
+        "Russia is a guarantor of peace and prosperity": {
+          "mechanism": "moral",
+          "tom_note": "Frames Russia as a benevolent protector — hero/guardian moral framing",
+          "grounding": "EntityFramingST1: Russia as Protagonist (Guardian, Peacemaker); contrasts with Western antagonist framing"
+        },
+        "Russia has international support from a number of countries and people": {
+          "mechanism": "epistemic",
+          "tom_note": "Factual claim about breadth of international support — targets beliefs about Russia's isolation",
+          "grounding": "Harris_2023 type-a: producing (possibly exaggerated) beliefs about support levels; Wilbur_2025: bandwagon effect"
+        },
+        "Russian invasion has strong national support": {
+          "mechanism": "identity",
+          "tom_note": "Emphasises in-group solidarity within Russia — 'the people support it'",
+          "grounding": "Kahan_2007: in-group solidarity signalling; annotation guidelines: 'Use only when there is mention of the Russian population'"
+        }
+      }
+    },
+    "Overpraising the West": {
+      "mechanisms": [
+        "identity",
+        "moral",
+        "emotional"
+      ],
+      "primary_mechanism": "identity",
+      "presupposed_reader_belief": "Reader may be sceptical of Western motives or effectiveness",
+      "target_belief_change": "Western nations are morally superior, militarily dominant, and historically justified",
+      "persuasive_strategy": "In-group glorification — excessive lauding of Western values and capabilities",
+      "grounding": "Feygina_2010 system justification; Kahan_2007; Pauli_2022 flag-waving",
+      "tom_note_for_prompt": "This narrative excessively praises Western actions and moral standing. Can function as counter-propaganda or genuine overconfidence.",
+      "sub_narratives": {
+        "NATO will destroy Russia": {
+          "mechanism": "emotional",
+          "tom_note": "Combines glorification with implied threat — triggers confidence or fear of escalation depending on reader",
+          "grounding": "Wilbur_2025: anchoring bias (inflated military capability claims); dual reading: reassurance for Western audience / threat for Russian audience"
+        },
+        "The West belongs in the right side of history": {
+          "mechanism": "moral",
+          "tom_note": "Claims moral superiority and historical inevitability for Western values",
+          "grounding": "Feygina_2010: system justification — defending Western-led order as morally correct; Stanley_2015: ideological common ground"
+        },
+        "The West has the strongest international support": {
+          "mechanism": "epistemic",
+          "tom_note": "Factual claim about breadth of international backing for Western position",
+          "grounding": "Harris_2023 type-a: producing (possibly exaggerated) beliefs about support; mirrors 'Russia has international support' from opposite side"
+        }
+      }
+    },
+    "Speculating war outcomes": {
+      "mechanisms": [
+        "epistemic"
+      ],
+      "primary_mechanism": "emotional",
+      "presupposed_reader_belief": "Reader is uncertain about how the war will develop",
+      "target_belief_change": "One side is inevitably winning/losing — the outcome is predetermined",
+      "persuasive_strategy": "Deterministic framing — creating inevitability narratives to shape expectations and morale",
+      "grounding": "Wilbur_2025 anchoring bias; Bondarenko_2020 information restructuring; ARTT_2022 manufacturing doubt",
+      "tom_note_for_prompt": "This narrative speculates about military outcomes. Look for predictions of collapse, inevitable victory/defeat, or deterministic framing.",
+      "sub_narratives": {
+        "Russian army is collapsing": {
+          "mechanism": "epistemic",
+          "tom_note": "Presents speculative military assessment as factual — targets beliefs about Russian military capability",
+          "grounding": "Harris_2023 type-a: producing false beliefs about military status; Wilbur_2025: anchoring on dramatic claims"
+        },
+        "Russian army will lose all the occupied territories": {
+          "mechanism": "epistemic",
+          "tom_note": "Predictive claim about territorial outcomes — targets beliefs about war trajectory",
+          "grounding": "Harris_2023 type-a: speculative prediction presented as inevitable outcome"
+        },
+        "Ukrainian army is collapsing": {
+          "mechanism": "epistemic",
+          "tom_note": "Presents speculative military assessment of Ukrainian forces as factual — targets beliefs about military viability",
+          "grounding": "Harris_2023 type-a: speculative prediction presented as factual; Didi decision: symmetric with 'Russian army is collapsing' — both are epistemic military predictions regardless of which side"
+        }
+      }
+    },
+    "Discrediting the West, Diplomacy": {
+      "mechanisms": [
+        "epistemic",
+        "emotional",
+        "identity"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may trust Western institutions and diplomatic processes",
+      "target_belief_change": "Western institutions are hypocritical, divided, incompetent, self-interested, and diplomacy is futile",
+      "persuasive_strategy": "Institutional trust erosion through exposure of failures and contradictions",
+      "grounding": "Sperber_2010 undermining epistemic vigilance; ReflexiveControl: weakening alliance cohesion; Pauli_2022 misuse of ethos",
+      "tom_note_for_prompt": "This narrative erodes trust in Western institutions and diplomacy. Look for language suggesting incompetence, hypocrisy, division, war-weariness, or self-interest.",
+      "sub_narratives": {
+        "The EU is divided": {
+          "mechanism": "epistemic",
+          "tom_note": "Factual/exaggerated claim about EU internal disagreements — targets beliefs about collective Western resolve",
+          "grounding": "Harris_2023 type-a/b: (exaggerated) beliefs about EU disunity; ReflexiveControl: exploiting real divisions to amplify perception of weakness"
+        },
+        "The West is weak": {
+          "mechanism": "epistemic",
+          "tom_note": "Factual claim about Western decline in power — targets beliefs about Western capability",
+          "grounding": "Harris_2023 type-a: producing beliefs about Western decline; Bondarenko_2020: information restructuring (re-scaling Western power)"
+        },
+        "The West is overreacting": {
+          "mechanism": "epistemic",
+          "tom_note": "Proportionality judgment — claims Western response is disproportionate to the situation",
+          "grounding": "Maillat_Oswald_2009: manipulating contextual assumptions about proportionality; targets the belief that sanctions/support are appropriate"
+        },
+        "The West does not care about Ukraine, only about its interests": {
+          "mechanism": "epistemic",
+          "tom_note": "Claims about Western motives — targets beliefs about Western sincerity in supporting Ukraine",
+          "grounding": "Harris_2023 type-a: false/exaggerated beliefs about Western motivation; annotation guidelines: prefer 'puppet of West' when focus is on Ukraine's legitimacy"
+        },
+        "Diplomacy does/will not work": {
+          "mechanism": "emotional",
+          "tom_note": "Induces futility and despair about peaceful resolution — emotionally weighted toward helplessness",
+          "grounding": "ARTT_2022: evoking emotion (futility); Wilbur_2025: loss aversion — framing diplomatic options as exhausted"
+        },
+        "West is tired of Ukraine": {
+          "mechanism": "emotional",
+          "tom_note": "Induces abandonment anxiety — emotionally suggests Western support will fade",
+          "grounding": "Wilbur_2025: loss aversion (impending loss of support); ReflexiveControl: undermining adversary's belief in sustained alliance commitment"
+        }
+      }
+    },
+    "Negative Consequences for the West": {
+      "mechanisms": [
+        "emotional",
+        "epistemic"
+      ],
+      "primary_mechanism": "emotional",
+      "presupposed_reader_belief": "Western reader may believe supporting Ukraine serves their interests or at minimum doesn't harm them",
+      "target_belief_change": "Supporting Ukraine will directly harm the reader's own economic wellbeing and security",
+      "persuasive_strategy": "Self-interest appeal through fear — making costs of Ukraine support personally salient",
+      "grounding": "Wilbur_2025 loss aversion; Campbell_Kay_2014 solution aversion; ARTT_2022 evoking emotion",
+      "tom_note_for_prompt": "This narrative makes the war's costs personal to Western readers. Look for language about sanctions backfiring, energy crises, refugee flows, or economic decline.",
+      "sub_narratives": {
+        "Sanctions imposed by Western countries will backfire": {
+          "mechanism": "emotional",
+          "tom_note": "Triggers economic fear — sanctions will hurt 'us' more than Russia",
+          "grounding": "Wilbur_2025: loss aversion (economic losses); Campbell_Kay_2014: solution aversion — rejecting the policy because its costs are threatening"
+        },
+        "The conflict will increase the Ukrainian refugee flows to Europe": {
+          "mechanism": "emotional",
+          "tom_note": "Triggers anxiety about migration — combines economic fear with potential xenophobic undertones",
+          "grounding": "Wilbur_2025: loss aversion + emotional contagion; ARTT_2022: evoking emotion (fear of societal disruption); Pauli_2022: appeal to prejudice"
+        }
+      }
+    },
+    "Distrust towards Media": {
+      "mechanisms": [
+        "epistemic"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may rely on Western or Ukrainian media for information about the conflict",
+      "target_belief_change": "The reader's trusted media sources are propaganda instruments — doubt everything from these sources",
+      "persuasive_strategy": "Meta-epistemic attack — destroying trust in the reader's entire information ecosystem",
+      "grounding": "Harris_2023 type-b/c (preventing true beliefs + sub-doxastic uncertainty); Sperber_2010 attacking epistemic vigilance; ARTT_2022 manufacturing doubt",
+      "tom_note_for_prompt": "This narrative attacks the reader's information sources. Look for language discrediting Western or Ukrainian media as propaganda, biased, or controlled.",
+      "sub_narratives": {
+        "Western media is an instrument of propaganda": {
+          "mechanism": "epistemic",
+          "tom_note": "Attacks credibility of Western media as a whole — meta-epistemic (targets the source, not specific claims)",
+          "grounding": "Sperber_2010: directly attacking epistemic vigilance toward Western information sources; Harris_2023 type-b: preventing formation of true beliefs by destroying source trust"
+        },
+        "Ukrainian media cannot be trusted": {
+          "mechanism": "epistemic",
+          "tom_note": "Attacks credibility of Ukrainian media specifically — targets beliefs about wartime reporting reliability",
+          "grounding": "Sperber_2010: attacking epistemic vigilance toward Ukrainian sources; ARTT_2022: discrediting"
+        }
+      }
+    },
+    "Amplifying war-related fears": {
+      "mechanisms": [
+        "emotional"
+      ],
+      "primary_mechanism": "emotional",
+      "presupposed_reader_belief": "Reader values peace and personal safety; may feel distant from the conflict",
+      "target_belief_change": "The conflict will escalate catastrophically and directly threaten the reader's safety",
+      "persuasive_strategy": "Fear amplification through catastrophic scenario framing",
+      "grounding": "Wilbur_2025 emotional contagion + loss aversion; ARTT_2022 evoking emotion; Pauli_2022 appeal to fear",
+      "tom_note_for_prompt": "This narrative exploits fear of escalation. Look for language about WWIII, nuclear weapons, NATO intervention, or war spreading.",
+      "sub_narratives": {
+        "By continuing the war we risk WWIII": {
+          "mechanism": "emotional",
+          "tom_note": "Existential fear of global war — frames continued Ukraine support as path to world war",
+          "grounding": "Wilbur_2025: loss aversion (existential scale); ARTT_2022: evoking emotion (existential fear)"
+        },
+        "Russia will also attack other countries": {
+          "mechanism": "emotional",
+          "tom_note": "Expansion fear — the conflict will spread geographically toward the reader",
+          "grounding": "Wilbur_2025: emotional contagion (geographic proximity of threat); Maillat_Oswald_2009: manipulating threat proximity assumptions"
+        },
+        "There is a real possibility that nuclear weapons will be employed": {
+          "mechanism": "emotional",
+          "tom_note": "Nuclear fear — the ultimate existential threat. Annotation guidelines: can go two directions (don't anger Russia OR stop Russia before they use them)",
+          "grounding": "Wilbur_2025: loss aversion at civilisational scale; annotation guidelines: bidirectional framing"
+        },
+        "NATO should/will directly intervene": {
+          "mechanism": "emotional",
+          "tom_note": "Escalation fear through direct military confrontation between nuclear powers",
+          "grounding": "ARTT_2022: evoking emotion (fear of direct confrontation); overlaps with epistemic when presenting intervention as strategic necessity"
+        }
+      }
+    },
+    "Hidden plots by secret schemes of powerful groups": {
+      "mechanisms": [
+        "epistemic",
+        "identity"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may accept official explanations for the conflict's causes",
+      "target_belief_change": "Hidden elites control events — official narratives are covers for secret agendas",
+      "persuasive_strategy": "Conspiratorial framing — replacing transparent explanations with hidden-agent narratives",
+      "grounding": "Cook_2020 conspiracy theory characteristics; ARTT_2022 conspiratorial reasoning; Bondarenko_2020 information restructuring",
+      "tom_note_for_prompt": "This narrative invokes secret plots and hidden agendas. Look for language about elites, secret plans, or claims the war is a cover for something bigger.",
+      "sub_narratives": "_note: No sub-narratives defined in the SemEval-2025 Task 10 taxonomy for URW hidden plots. The 'Other' sub-narrative captures all instances."
+    }
+  },
+  "CC": {
+    "Criticism of climate policies": {
+      "mechanisms": [
+        "epistemic",
+        "emotional",
+        "moral"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may support current climate policies as necessary",
+      "target_belief_change": "Climate policies are ineffective, economically harmful, or profit-driven",
+      "persuasive_strategy": "Policy delegitimisation — attacking the solution without necessarily denying the problem",
+      "grounding": "Campbell_Kay_2014 solution aversion; Cook_2020 CARDS 'solutions won't work'; ARTT_2022 manufacturing doubt",
+      "tom_note_for_prompt": "This narrative attacks climate policies, not climate science. Look for claims policies are ineffective, too costly, or driven by profit.",
+      "sub_narratives": {
+        "Climate policies are ineffective": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets factual beliefs about policy effectiveness — claims policies don't achieve their stated goals",
+          "grounding": "Harris_2023 type-a: false belief about policy outcomes; Campbell_Kay_2014: solution aversion; Cook_2020: CARDS 'solutions won't work'"
+        },
+        "Climate policies have negative impact on the economy": {
+          "mechanism": "emotional",
+          "tom_note": "Triggers economic anxiety — frames climate action as personally costly to the reader",
+          "grounding": "Wilbur_2025: loss aversion (economic losses from policy); Campbell_Kay_2014: solution aversion driven by economic threat"
+        },
+        "Climate policies are only for profit": {
+          "mechanism": "moral",
+          "tom_note": "Frames policy advocates as morally corrupt — driven by greed rather than environmental concern",
+          "grounding": "EntityFramingST1: policy advocates as Antagonist (Corrupt); Pauli_2022: misuse of ethos (attacking advocate motives)"
+        }
+      }
+    },
+    "Criticism of institutions and authorities": {
+      "mechanisms": [
+        "epistemic",
+        "moral"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may trust climate-relevant institutions (EU, UN, IPCC, governments)",
+      "target_belief_change": "Climate institutions are incompetent, overreaching, or ideologically driven",
+      "persuasive_strategy": "Institutional trust erosion — parallels URW 'Discrediting the West'",
+      "grounding": "Sperber_2010 undermining epistemic vigilance; Pauli_2022 misuse of ethos",
+      "tom_note_for_prompt": "This narrative attacks climate institutions, not the science or policy itself. Look for language discrediting EU, UN, IPCC, governments, or political figures.",
+      "sub_narratives": {
+        "Criticism of the EU": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets trust in EU as climate policy-maker — claims EU overreaches or imposes arbitrary rules",
+          "grounding": "Sperber_2010: undermining institutional epistemic authority; parallels URW 'EU is divided'"
+        },
+        "Criticism of international entities": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets trust in international bodies (UN, IPCC) — claims they are mandating unfounded changes",
+          "grounding": "Sperber_2010; Cook_2020: attacking the messenger (FLICC technique applied to institutions)"
+        },
+        "Criticism of national governments": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets trust in national-level climate policy — claims government lacks competence or plan",
+          "grounding": "Sperber_2010; Harris_2023 type-b: preventing trust in governmental climate action"
+        },
+        "Criticism of political organizations and figures": {
+          "mechanism": "moral",
+          "tom_note": "Personal/organisational character attack — targets specific political actors' credibility on climate",
+          "grounding": "EntityFramingST1: political figures as Antagonist (Incompetent, Deceiver); Pauli_2022: ad hominem / misuse of ethos"
+        }
+      }
+    },
+    "Climate change is beneficial": {
+      "mechanisms": [
+        "epistemic"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader believes climate change is predominantly harmful",
+      "target_belief_change": "Climate change has positive effects that are being suppressed or ignored",
+      "persuasive_strategy": "Counter-narrative through selective evidence — cherry-picking positive effects",
+      "grounding": "Cook_2020: cherry picking (FLICC technique); Harris_2023 type-a; challenges Ding 2011 belief 'it's bad'",
+      "tom_note_for_prompt": "This narrative reframes climate change as having positive aspects. Look for language about benefits of CO2 or warmer temperatures.",
+      "sub_narratives": {
+        "CO2 is beneficial": {
+          "mechanism": "epistemic",
+          "tom_note": "Counter-factual claim that increased CO2 has positive environmental effects",
+          "grounding": "Harris_2023 type-a: producing false belief about net CO2 effects; Cook_2020: cherry picking positive studies"
+        },
+        "Temperature increase is beneficial": {
+          "mechanism": "epistemic",
+          "tom_note": "Counter-factual claim that warming produces net benefits (longer seasons, etc.)",
+          "grounding": "Harris_2023 type-a; Cook_2020: cherry picking — selecting one positive effect to counter overwhelming negative evidence"
+        }
+      }
+    },
+    "Downplaying climate change": {
+      "mechanisms": [
+        "epistemic",
+        "identity",
+        "emotional"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader believes climate change is real, significant, and human-caused",
+      "target_belief_change": "Climate change is natural, insignificant, not human-caused, or manageable without major intervention",
+      "persuasive_strategy": "Systematic factual denial — challenging each component of scientific consensus",
+      "grounding": "Cook_2020: CARDS super-claims negating Ding 2011 beliefs ('it's real', 'it's us', 'it's bad'); Harris_2023 type-a across multiple factual dimensions; Kahan_2007 for identity component",
+      "tom_note_for_prompt": "This narrative minimises climate change across multiple dimensions. Each sub-narrative targets a different factual belief about climate science.",
+      "sub_narratives": {
+        "Climate cycles are natural": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets the belief 'it's us' — claims warming is a natural cyclical phenomenon",
+          "grounding": "Cook_2020: CARDS negates 'it's us' (Ding 2011); Harris_2023 type-a: false causal attribution to natural cycles"
+        },
+        "Weather suggests the trend is global cooling": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets the belief 'it's real' — uses local/short-term data to deny global warming trend",
+          "grounding": "Cook_2020: cherry picking (FLICC) + CARDS negates 'it's real'; Wilbur_2025: anchoring bias on cold weather events"
+        },
+        "Temperature increase does not have significant impact": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets the belief 'it's bad' — claims temperature changes are too small to matter",
+          "grounding": "Cook_2020: CARDS negates 'it's bad' (Ding 2011); Bondarenko_2020: information restructuring (re-scaling the phenomenon)"
+        },
+        "CO2 concentrations are too small to have an impact": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets the belief 'it's us' — claims human CO2 is negligible relative to natural sources",
+          "grounding": "Cook_2020: CARDS negates 'it's us'; Harris_2023 type-a: false belief about CO2 proportions"
+        },
+        "Human activities do not impact climate change": {
+          "mechanism": "epistemic",
+          "tom_note": "Directly targets the belief 'it's us' — the most explicit denial of human causation",
+          "grounding": "Cook_2020: CARDS super-claim 'It's not us' (Ding 2011); Harris_2023 type-a: producing false belief about causation"
+        },
+        "Ice is not melting": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets the belief 'it's real' — denies observable physical evidence of warming",
+          "grounding": "Cook_2020: CARDS negates 'it's real'; cherry picking (FLICC) — selecting data showing stable ice in specific regions"
+        },
+        "Sea levels are not rising": {
+          "mechanism": "epistemic",
+          "tom_note": "Targets the belief 'it's bad' — denies one of the most salient consequences of warming",
+          "grounding": "Cook_2020: CARDS negates 'it's bad'; Harris_2023 type-a: false belief about sea level data"
+        },
+        "Humans and nature will adapt to the changes": {
+          "mechanism": "emotional",
+          "tom_note": "Provides reassurance to reduce climate anxiety — 'we'll be fine' is an emotional comfort, not a factual claim",
+          "grounding": "Didi decision: emotional (reassurance/comfort) rather than epistemic; Wilbur_2025: countering loss aversion with comforting frame; still connects to Campbell_Kay_2014 solution aversion but the mechanism is emotional reassurance"
+        }
+      }
+    },
+    "Questioning the measurements and science": {
+      "mechanisms": [
+        "epistemic",
+        "moral"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader trusts scientific methods, data, and consensus on climate change",
+      "target_belief_change": "Scientific methods are flawed, data is unreliable or fabricated, and the scientific community is biased",
+      "persuasive_strategy": "Meta-epistemic attack — undermining the knowledge-production process itself",
+      "grounding": "Harris_2023 type-b (preventing true beliefs by destroying evidence base); Sperber_2010; Cook_2020: FLICC 'fake experts' + 'conspiracy'",
+      "tom_note_for_prompt": "This narrative attacks the scientific process, not specific findings. Distinguish from 'Downplaying' (denies findings) — this denies the process.",
+      "sub_narratives": {
+        "Methodologies/metrics used are unreliable/faulty": {
+          "mechanism": "epistemic",
+          "tom_note": "Attacks the measurement process — claims instruments, methods, or statistical approaches are flawed",
+          "grounding": "Cook_2020: FLICC 'impossible expectations' (demanding perfection from methodology); Harris_2023 type-b; annotation guidelines: often co-occurs with 'Data shows no increase'"
+        },
+        "Data shows no temperature increase": {
+          "mechanism": "epistemic",
+          "tom_note": "Claims the data itself contradicts warming — targets beliefs about empirical evidence",
+          "grounding": "Harris_2023 type-a: false belief about temperature data; Cook_2020: cherry picking specific datasets; annotation guidelines: often co-occurs with 'Methodologies unreliable'"
+        },
+        "Greenhouse effect/carbon dioxide do not drive climate change": {
+          "mechanism": "epistemic",
+          "tom_note": "Denies the fundamental causal mechanism of climate science — targets beliefs about physics of warming",
+          "grounding": "Cook_2020: CARDS negates 'it's us' at the mechanism level; Harris_2023 type-a: false belief about atmospheric physics"
+        },
+        "Scientific community is unreliable": {
+          "mechanism": "moral",
+          "tom_note": "Attacks the character and integrity of scientists — frames them as biased, corrupt, or conspiratorial",
+          "grounding": "EntityFramingST1: scientists as Antagonist (Deceiver, Conspirator); Pauli_2022: misuse of ethos — attacking source character; Cook_2020: FLICC 'conspiracy' (alleging organised scientific fraud)"
+        }
+      }
+    },
+    "Criticism of climate movement": {
+      "mechanisms": [
+        "moral",
+        "identity"
+      ],
+      "primary_mechanism": "moral",
+      "presupposed_reader_belief": "Reader may respect or sympathise with climate activists",
+      "target_belief_change": "Climate activists are alarmist, corrupt, or personally objectionable — the movement is not credible",
+      "persuasive_strategy": "Character attack on collective actors — delegitimising via ad hominem and corruption framing",
+      "grounding": "EntityFramingST1 (activists as Antagonist); Pauli_2022 misuse of ethos; Cook_2020 attacking the messenger",
+      "tom_note_for_prompt": "This narrative attacks climate activists and the movement. Look for language calling activists alarmist, corrupt, or for personal attacks on key figures.",
+      "sub_narratives": {
+        "Climate movement is alarmist": {
+          "mechanism": "moral",
+          "tom_note": "Frames activists as irresponsible — exaggerating severity for dramatic effect undermines their credibility",
+          "grounding": "Pauli_2022: misuse of ethos (credibility attack); EntityFramingST1: activists as Antagonist (Deceiver — exaggerating); annotation guidelines: same example text used for 'alarmist' and 'corrupt'"
+        },
+        "Climate movement is corrupt": {
+          "mechanism": "moral",
+          "tom_note": "Frames activists as driven by ulterior motives — money, power, or ideological agenda rather than genuine concern",
+          "grounding": "EntityFramingST1: activists as Antagonist (Corrupt); Pauli_2022: misuse of ethos (attacking motives); annotation guidelines: same example as 'alarmist' — genuine ambiguity"
+        },
+        "Ad hominem attacks on key activists": {
+          "mechanism": "moral",
+          "tom_note": "Personal attacks on individuals (Greta Thunberg, etc.) — targets the messenger to discredit the message",
+          "grounding": "Pauli_2022: explicit ad hominem — attacking person not argument; Cook_2020: FLICC attacking the messenger"
+        }
+      }
+    },
+    "Controversy about green technologies": {
+      "mechanisms": [
+        "epistemic",
+        "emotional"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may view renewable energy positively as necessary for addressing climate change",
+      "target_belief_change": "Green technologies are dangerous, unreliable, unaffordable, or worse than alternatives",
+      "persuasive_strategy": "Technology delegitimisation — attacking specific solutions to undermine feasibility of action",
+      "grounding": "Campbell_Kay_2014 solution aversion; Cook_2020 CARDS 'solutions won't work'; ARTT_2022 manufacturing doubt",
+      "tom_note_for_prompt": "This narrative attacks specific green technologies. Look for claims that renewables are dangerous, unreliable, or too costly.",
+      "sub_narratives": {
+        "Renewable energy is dangerous": {
+          "mechanism": "emotional",
+          "tom_note": "Triggers safety fears about renewable technology — frames green tech as threatening rather than beneficial",
+          "grounding": "Wilbur_2025: emotional contagion (safety fear); ARTT_2022: evoking emotion; Campbell_Kay_2014: solution aversion amplified by perceived danger"
+        },
+        "Renewable energy is unreliable": {
+          "mechanism": "epistemic",
+          "tom_note": "Factual claim about technology dependability — targets beliefs about practical viability",
+          "grounding": "Harris_2023 type-a: (exaggerated) beliefs about unreliability; Cook_2020: impossible expectations (demanding 100% reliability)"
+        },
+        "Renewable energy is costly": {
+          "mechanism": "epistemic",
+          "tom_note": "Cost-based factual claim — targets beliefs about economic viability of green transition",
+          "grounding": "Harris_2023 type-a: (exaggerated) cost beliefs; Campbell_Kay_2014: solution aversion — costs make the solution threatening; overlaps with emotional (economic anxiety)"
+        },
+        "Nuclear energy is not climate friendly": {
+          "mechanism": "epistemic",
+          "tom_note": "Factual claim about nuclear energy's climate credentials — targets beliefs about whether nuclear should count as clean energy",
+          "grounding": "Harris_2023 type-a: challenging the classification of nuclear as climate-friendly; complex because anti-nuclear sentiment spans both environmental and safety concerns"
+        }
+      }
+    },
+    "Hidden plots by secret schemes of powerful groups": {
+      "mechanisms": [
+        "epistemic",
+        "identity"
+      ],
+      "primary_mechanism": "epistemic",
+      "presupposed_reader_belief": "Reader may accept that climate action is driven by genuine concern and science",
+      "target_belief_change": "Climate action is driven by hidden agendas of global elites pursuing control or profit",
+      "persuasive_strategy": "Conspiratorial framing — identical cognitive structure to URW hidden plots",
+      "grounding": "Cook_2020: conspiracy theory (FLICC technique); ARTT_2022 conspiratorial reasoning; Bondarenko_2020",
+      "tom_note_for_prompt": "This narrative invokes elite conspiracies behind climate action. Look for references to WEF, global elites, or hidden agendas behind climate policy.",
+      "sub_narratives": {
+        "Blaming global elites": {
+          "mechanism": "epistemic",
+          "tom_note": "Attributes climate agenda to identifiable elite actors (WEF, Bill Gates) — provides a concrete conspiratorial causal agent",
+          "grounding": "Cook_2020: conspiracy theories with 'questionable-motive assumptions'; Harris_2023 type-a: false beliefs about who drives climate policy; overlaps with identity (elites as out-group)"
+        },
+        "Climate agenda has hidden motives": {
+          "mechanism": "epistemic",
+          "tom_note": "Claims the true purpose of climate action is concealed — population control, profit, political power",
+          "grounding": "Cook_2020: conspiracy 'self-sealing reasoning'; Harris_2023 type-a: false beliefs about policy motivation; Maillat_Oswald_2009: manipulating assumptions about hidden agency"
+        }
+      }
+    },
+    "Amplifying Climate Fears": {
+      "mechanisms": [
+        "emotional"
+      ],
+      "primary_mechanism": "emotional",
+      "presupposed_reader_belief": "Reader may feel complacent or hopeful about addressing climate change",
+      "target_belief_change": "Catastrophic climate consequences are imminent, irreversible, and potentially civilisation-ending",
+      "persuasive_strategy": "Fear amplification through doomsday scenario framing",
+      "grounding": "Wilbur_2025 emotional contagion + loss aversion; mirrors URW 'Amplifying war-related fears'; Cook_2020 inverts 'there's hope' belief",
+      "tom_note_for_prompt": "This narrative amplifies climate anxiety beyond what science supports. Look for language about imminent catastrophe, uninhabitability, or futility of action.",
+      "sub_narratives": {
+        "Earth will be uninhabitable soon": {
+          "mechanism": "emotional",
+          "tom_note": "Existential fear at planetary scale — frames near-term uninhabitability as certain",
+          "grounding": "Wilbur_2025: loss aversion at existential scale; ARTT_2022: evoking emotion (existential dread)"
+        },
+        "Amplifying existing fears of global warming": {
+          "mechanism": "emotional",
+          "tom_note": "Generalised fear amplification — takes real climate concerns and escalates them beyond scientific support",
+          "grounding": "Wilbur_2025: emotional contagion; Maillat_Oswald_2009: exploiting cognitive optimism (once fear frame is activated, it constrains interpretation)"
+        },
+        "Doomsday scenarios for humans": {
+          "mechanism": "emotional",
+          "tom_note": "Civilisation-ending scenarios — mass extinction, societal collapse as direct consequences of climate change",
+          "grounding": "Wilbur_2025: loss aversion at civilisational scale; ARTT_2022: evoking emotion at maximum intensity"
+        },
+        "Whatever we do it is already too late": {
+          "mechanism": "emotional",
+          "tom_note": "Induces fatalistic despair — specifically targets the belief that action is worthwhile (inverts Cook's 'there's hope')",
+          "grounding": "Cook_2020: inverts Ding 2011 belief 'there's hope'; Campbell_Kay_2014: a perverse form of solution aversion — not rejecting solutions because they're costly, but because they're futile; ARTT_2022: evoking emotion (despair)"
+        }
+      }
+    },
+    "Green policies are geopolitical instruments": {
+      "mechanisms": [
+        "identity",
+        "epistemic"
+      ],
+      "primary_mechanism": "identity",
+      "presupposed_reader_belief": "Reader (especially in developing countries) may view climate cooperation as mutually beneficial",
+      "target_belief_change": "Climate policies are tools of Western domination — neo-colonialism in green clothing",
+      "persuasive_strategy": "Anti-colonial reframing — recasting climate cooperation as power asymmetry",
+      "grounding": "Kahan_2007 identity-protective cognition (group-level threat); Feygina_2010 system justification; Stanley_2015 ideological presuppositions",
+      "tom_note_for_prompt": "This narrative frames green policies as geopolitical tools. Look for language about neo-colonialism, exploitation, or climate policy serving Western interests at developing nations' expense.",
+      "sub_narratives": {
+        "Climate-related international relations are abusive/exploitative": {
+          "mechanism": "identity",
+          "tom_note": "Frames climate diplomacy as power exploitation — developed vs. developing nations as in-group/out-group",
+          "grounding": "Kahan_2007: identity-protective cognition activated by perceived group-level economic threat; post-colonial critique framing"
+        },
+        "Green activities are a form of neo-colonialism": {
+          "mechanism": "identity",
+          "tom_note": "Explicitly invokes colonial frame — green investment as modern colonisation of developing nations",
+          "grounding": "Kahan_2007: identity-protective cognition; Feygina_2010: defending existing economic structures against climate-justified restructuring; strongest identity framing in CC taxonomy"
+        }
+      }
+    }
+  },
+  "_analysis_hypotheses": {
+    "H1_mechanism_distribution": {
+      "description": "URW narratives span all four mechanisms roughly equally, while CC narratives are overwhelmingly epistemic. This reflects the different nature of the two propaganda domains: geopolitical propaganda uses the full cognitive toolkit, while climate denial primarily operates through factual claims.",
+      "testable": "Compare mechanism distributions between domains using chi-square test."
+    },
+    "H2_confusion_shares_mechanism": {
+      "description": "Confused sub-narrative pairs (from bis(TCM)) should disproportionately share the same primary mechanism. Models can distinguish across mechanisms (fear vs. credibility attack) but struggle within mechanisms (two different epistemic claims).",
+      "testable": "Compare within-mechanism vs. cross-mechanism confusion rates using permutation test on bis(TCM) off-diagonal entries."
+    },
+    "H3_multi_mechanism_narratives_harder": {
+      "description": "Narratives with multiple mechanisms (e.g., 'Discrediting Ukraine' spans moral/epistemic/identity/emotional) should have higher internal confusion among their sub-narratives than single-mechanism narratives (e.g., 'Amplifying war fears' is purely emotional).",
+      "testable": "Compute within-narrative sub-narrative confusion for multi-mechanism vs. single-mechanism narratives."
+    },
+    "H4_tom_chain_helps_within_mechanism": {
+      "description": "ToM reasoning chain should primarily improve classification of sub-narratives that share a mechanism with other sub-narratives under different parent narratives (cross-narrative, same-mechanism confusion). It should have less effect on cross-mechanism confusion (already handled by surface features).",
+      "testable": "Compare ToM vs. baseline improvement on same-mechanism confused pairs vs. different-mechanism confused pairs."
+    }
+  },
+  "_tcm_cross_reference": {
+    "description": "Cross-reference of empirical confused pairs (from bis(TCM) on 435 existing predictions) with ToM mechanism assignments",
+    "finding": "The 10 most confused narrative pairs split into two qualitatively distinct categories based on ToM mechanisms",
+    "same_mechanism_pairs": {
+      "description": "5 pairs sharing the same primary mechanism — these appear to be GENUINE COGNITIVE CONFUSION where the model cannot distinguish two claims operating through the same belief-manipulation channel",
+      "pairs": [
+        {
+          "a": "Hidden plots",
+          "b": "Discrediting the West",
+          "mechanism": "epistemic",
+          "bis_mass": 0.808,
+          "interpretation": "Both target trust in who controls events"
+        },
+        {
+          "a": "Negative Consequences for West",
+          "b": "Amplifying war fears",
+          "mechanism": "emotional",
+          "bis_mass": 0.546,
+          "interpretation": "Both trigger fear about consequences for the reader"
+        },
+        {
+          "a": "Blaming war on others",
+          "b": "Distrust towards Media",
+          "mechanism": "epistemic",
+          "bis_mass": 0.525,
+          "interpretation": "Both shift blame/distrust toward Western actors"
+        },
+        {
+          "a": "Hidden plots (CC)",
+          "b": "Criticism of institutions (CC)",
+          "mechanism": "epistemic",
+          "bis_mass": 0.51,
+          "interpretation": "Both undermine trust in authoritative institutions"
+        },
+        {
+          "a": "Questioning science",
+          "b": "Climate beneficial",
+          "mechanism": "epistemic",
+          "bis_mass": 0.506,
+          "interpretation": "Both challenge scientific consensus through factual counter-claims"
+        }
+      ],
+      "mean_bis_mass": 0.579
+    },
+    "cross_mechanism_pairs": {
+      "description": "5 pairs with different primary mechanisms — these appear to be THEMATIC CO-OCCURRENCE where narratives serve complementary propaganda functions in the same documents",
+      "pairs": [
+        {
+          "a": "Speculating outcomes",
+          "b": "Russia is Victim",
+          "mechanisms": "epistemic/emotional",
+          "bis_mass": 0.714,
+          "interpretation": "Russia-winning predictions co-occur with Russia-sympathy framing (COMPLEMENTARY)"
+        },
+        {
+          "a": "Overpraising West",
+          "b": "Amplifying war fears",
+          "mechanisms": "identity/emotional",
+          "bis_mass": 0.536,
+          "interpretation": "NATO strength articles also discuss escalation risk (SAME TOPIC)"
+        },
+        {
+          "a": "Criticism climate movement",
+          "b": "Amplifying Climate Fears",
+          "mechanisms": "moral/emotional",
+          "bis_mass": 0.524,
+          "interpretation": "Alarmism criticism overlaps with actual alarm (MIRROR IMAGES)"
+        },
+        {
+          "a": "Climate beneficial",
+          "b": "Amplifying Climate Fears",
+          "mechanisms": "epistemic/emotional",
+          "bis_mass": 0.508,
+          "interpretation": "Counter-claims and fear-amplification co-occur in denial texts"
+        },
+        {
+          "a": "Discrediting West",
+          "b": "Praise of Russia",
+          "mechanisms": "epistemic/identity",
+          "bis_mass": 0.5,
+          "interpretation": "Discrediting adversary while praising own side (COMPLEMENTARY)"
+        }
+      ],
+      "mean_bis_mass": 0.556
+    },
+    "updated_hypothesis_H2": "Refined from 'confused pairs share mechanisms' to: bis(TCM) captures TWO distinct confusion types — (1) same-mechanism cognitive confusion (model can't distinguish two claims operating through the same belief channel) and (2) cross-mechanism thematic co-occurrence (complementary narratives that appear together in the same propaganda texts). The ToM mechanism annotation allows us to disentangle these for the first time."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a negative perception of Ukraine's mental health system, framing it as a legacy of Soviet-era oppression and as ineffective or prison-like. This undermines the legitimacy and functionality of a key Ukrainian societal institution."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "The statement emphasizes the profound and lasting psychological trauma, the magnification of societal issues, and explicitly states 'there is no end in sight,' which evokes fear and anxiety about the ongoing and indefinite nature of the conflict's negative impacts."
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a systemic flaw within Ukraine's own healthcare system, specifically its mental health services, by referencing a legacy of Soviet-era oppression and a current widespread negative perception. This undermines the legitimacy and effectiveness of a key state institution."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "In having conversations with ordinary Ukrainians, many have expressed concern about the post-war period, especially regarding the return of veterans. Without robust mental healthcare services, there is widespread worry about the challenges these veterans may face in reintegrating into their communities and dealing with PTSD from the war.",
+        "reasoning": "This statement evokes fear and anxiety about the future societal consequences of the war, specifically predicting challenges with veteran reintegration and PTSD, which paints a grim picture of post-war instability and suffering within Ukraine."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Over time, these families often adapt to life in their new countries, with children assimilating and over time, they no longer identify Ukraine as their home anymore.",
+        "reasoning": "This is a speculative prediction about a long-term demographic and cultural outcome of the war, suggesting a permanent loss of national identity for a segment of the population, which is a speculation on the war's consequences."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

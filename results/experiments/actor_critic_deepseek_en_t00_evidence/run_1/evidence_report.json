@@ -1,0 +1,2604 @@
+{
+  "summary": {
+    "total_quotes": 392,
+    "exact": 310,
+    "near_exact": 37,
+    "fuzzy": 18,
+    "hallucination": 13,
+    "empty": 14,
+    "faithfulness_rate": 0.9311
+  },
+  "per_document": {
+    "EN_CC_200030.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_CC_200033.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "So now we are finally seeing the contours of Thunbergism. Run your eye down the contributors to The ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Hidden plots by secret schemes of powerful groups",
+          "quote": "So there you have it, it isn’t about the climate, it’s about bringing down the west and replacing ev...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is corrupt",
+          "quote": "COP itself is little more than a “scam” which facilitates “greenwashing, lying and cheating”.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+          "quote": "most Extinction Rebellion protesters are upper middle class snobs who do little but inconvenience an...",
+          "category": "near_exact",
+          "ratio": 0.992
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "So now we are finally seeing the contours of Thunbergism... For these people the climate crisis isn’...",
+          "category": "hallucination",
+          "ratio": 0.539
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are only for profit",
+          "quote": "COP itself is little more than a “scam” which facilitates “greenwashing, lying and cheating”.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "Only overthrow of “the whole capitalist system” will suffice.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+          "quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Hidden plots by secret schemes of powerful groups: Other",
+          "quote": "COP itself is little more than a “scam” which facilitates “greenwashing, lying and cheating”.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200034.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "The answer, in part, is propaganda.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Downplaying climate change",
+          "quote": "the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide...",
+          "category": "near_exact",
+          "ratio": 0.987
+        },
+        {
+          "label": "CC: Questioning the measurements and science",
+          "quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phas...",
+          "category": "fuzzy",
+          "ratio": 0.914
+        },
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Millions upon millions would die in the first few weeks, followed by billions more as the rest of th...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "On the very first day of an oil- and gas-free world as the members of Just Stop Oil envision it, all...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are ineffective",
+          "quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity ...",
+          "category": "fuzzy",
+          "ratio": 0.937
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "This, they believe, will stop things like 'global warming' and the fear of 'boiling oceans' destroyi...",
+          "category": "near_exact",
+          "ratio": 0.965
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "The answer, in part, is propaganda. As the end of the biblical age of grace approaches, the world is...",
+          "category": "hallucination",
+          "ratio": 0.75
+        },
+        {
+          "label": "CC: Downplaying climate change: Human activities do not impact climate change",
+          "quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity ...",
+          "category": "fuzzy",
+          "ratio": 0.937
+        },
+        {
+          "label": "CC: Downplaying climate change: Other",
+          "quote": "Do you believe the planet is melting or boiling due to man-made climate change? Learn more about why...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Greenhouse effect/carbon dioxide do not drive climate change",
+          "quote": "the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide...",
+          "category": "near_exact",
+          "ratio": 0.987
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Scientific community is unreliable",
+          "quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phas...",
+          "category": "fuzzy",
+          "ratio": 0.914
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Other",
+          "quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity ...",
+          "category": "near_exact",
+          "ratio": 0.957
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "Six billion people is a lot of people. Six billion deaths are about as genocidal as it gets... Milli...",
+          "category": "hallucination",
+          "ratio": 0.739
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Other",
+          "quote": "This, they believe, will stop things like 'global warming' and the fear of 'boiling oceans' destroyi...",
+          "category": "near_exact",
+          "ratio": 0.965
+        }
+      ]
+    },
+    "EN_CC_200035.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "The plant is so unpopular with locals that voters in the region recently ousted six elected Republic...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments",
+          "quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments f...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies",
+          "quote": "Most recently, Ford announced that it was already cutting job and investment projections for the pro...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+          "quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments f...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+          "quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments f...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+          "quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments f...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Renewable energy is costly",
+          "quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Other",
+          "quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments f...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200036.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Climate cultists push bizarre scare language about weather: “rain bombs” and “boiling oceans”",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science",
+          "quote": "And not one of their predictions has come true. Global cooling, global warming, mass extinction, mas...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "The legislation contains $369 billion, not including tax credits, in appropriation funds for 'renewa...",
+          "category": "near_exact",
+          "ratio": 0.984
+        },
+        {
+          "label": "CC: Controversy about green technologies",
+          "quote": "frightening the general public into giving up cheap and abundant energy in exchange for globalist 'g...",
+          "category": "near_exact",
+          "ratio": 0.965
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "\"Rain bombs? Bomb cyclones? Atmospheric rivers? They really are losing their minds,\" wrote a comment...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is corrupt",
+          "quote": "Gore would know about fossil fuel use, seeing as how he uses lots and lots of it – much more than th...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+          "quote": "Gore would know about fossil fuel use, seeing as how he uses lots and lots of it – much more than th...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Scientific community is unreliable",
+          "quote": "\"I have been hearing about these end of the world scenarios since I was a kid. And not one of their ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Data shows no temperature increase",
+          "quote": "\"I have been hearing about these end of the world scenarios since I was a kid. And not one of their ...",
+          "category": "near_exact",
+          "ratio": 0.975
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are ineffective",
+          "quote": "I have been hearing about these end of the world scenarios since I was a kid. And not one of their p...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are only for profit",
+          "quote": "Gore would know about fossil fuel use, seeing as how he uses lots and lots of it – much more than th...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "The legislation contains $369 billion, not including tax credits, in appropriation funds for \"renewa...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Renewable energy is costly",
+          "quote": "\"Renewable energy ... is now the cheapest source of electricity in almost the entire planet,\" Gore l...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Other",
+          "quote": "\"The legislation contains $369 billion, not including tax credits, in appropriation funds for 'renew...",
+          "category": "near_exact",
+          "ratio": 0.979
+        }
+      ]
+    },
+    "EN_CC_200040.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "many people are growing annoyed with the actions of climate alarmists.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Downplaying climate change",
+          "quote": "For those people that actually believe man-made climate change is a legitimate threat to the planet ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science",
+          "quote": "global warming predictions that never seem to materialize.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Climate protests will likely increase in the next two months, with the normal heat of summer being e...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+          "quote": "The most hated group in America (climate protestors) have STORMED THE GREEN at the 18th hole of the ...",
+          "category": "fuzzy",
+          "ratio": 0.88
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "One would think the goal of these groups would be to generate public sentiment for their cause; inst...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Downplaying climate change: Human activities do not impact climate change",
+          "quote": "Less than half of Americans believe climate change is caused by human activity.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Downplaying climate change: Other",
+          "quote": "For those people that actually believe man-made climate change is a legitimate threat to the planet ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Scientific community is unreliable",
+          "quote": "Despite billions of dollars spent yearly by governments and NGOs on climate propaganda, blind belief...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Data shows no temperature increase",
+          "quote": "Climate protests will likely increase in the next two months, with the normal heat of summer being e...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200046.txt": {
+      "narratives": [
+        {
+          "label": "CC: Climate change is beneficial",
+          "quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving cr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "The sequestration of carbon dioxide is a grave mistake that will slowly harm important ecosystems in...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "It’s a spiral of death and destruction, coming from a death cult pretending to be the planet’s savio...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Climate change is beneficial: CO2 is beneficial",
+          "quote": "Elevated CO2 levels enhance vegetation growth through the so-called \"fertilization effect\" and impro...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Climate change is beneficial: Other",
+          "quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving cr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "The sequestration of carbon dioxide is a grave mistake that will slowly harm important ecosystems in...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving cr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "continue to guilt the world into paying more to remove carbon dioxide from the atmosphere. It’s a sp...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200047.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "According to a report from the Committee to Unleash Prosperity (CUP), America’s wealthiest citizens ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American eli...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Reporting on the story, The College Fix writes that the “Committee to Unleash Prosperity [CUP], in a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Hidden plots by secret schemes of powerful groups",
+          "quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called 'American eli...",
+          "category": "near_exact",
+          "ratio": 0.956
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American eli...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of international entities",
+          "quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American eli...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "According to a report from the Committee to Unleash Prosperity (CUP), America’s wealthiest citizens ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Astonishingly, the polling shows that almost 90 percent of “American elites” believe strict rationin...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American eli...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+          "quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American eli...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+          "quote": "America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200049.txt": {
+      "narratives": [
+        {
+          "label": "CC: Downplaying climate change",
+          "quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not sta...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science",
+          "quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+          "quote": "According to the Lancet, people around the world are 9.4 times more likely to die from the cold than...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+          "quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not sta...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "The group’s assertion that in the U.S. most weather-related deaths 'are caused by heat' does not sta...",
+          "category": "fuzzy",
+          "ratio": 0.944
+        }
+      ]
+    },
+    "EN_CC_200050.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "U.S. banks, such as JP Morgan Chase, Wells Fargo, Bank of America, Citi, Goldman Sachs and Morgan St...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments",
+          "quote": "The Federal Reserve launched a pilot program in January, requiring the six largest U.S. banks — all ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Deutsche bank in particular drew some criticism from activist groups that considered the move to be ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "U.S. banks, such as JP Morgan Chase, Wells Fargo, Bank of America, Citi, Goldman Sachs and Morgan St...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Other",
+          "quote": "U.S. banks, such as JP Morgan Chase, Wells Fargo, Bank of America, Citi, Goldman Sachs and Morgan St...",
+          "category": "fuzzy",
+          "ratio": 0.926
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Deutsche bank in particular drew some criticism from activist groups that considered the move to be ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "U.S. banks, such as JP Morgan Chase, Wells Fargo, Bank of America, Citi, Goldman Sachs and Morgan St...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200053.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "Sunak has been sending mixed signals about his government’s energy and climate policies. The new pri...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_CC_200054.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ]
+    },
+    "EN_CC_200060.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_CC_200063.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ]
+    },
+    "EN_CC_200064.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Watch: Eco-Loon Decked by Camera Crane After Storming Swedish Dance Show",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "The reason: The whole world is threatened by climate and societal collapse with devastating conseque...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+          "quote": "Watch: Eco-Loon Decked by Camera Crane After Storming Swedish Dance Show",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "A radical climate activist was knocked on his rear end by a camera crane operator after a group stor...",
+          "category": "hallucination",
+          "ratio": 0.411
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "The whole world is threatened by climate and societal collapse with devastating consequences.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200065.txt": {
+      "narratives": [
+        {
+          "label": "CC: Downplaying climate change",
+          "quote": "These are astonishing contentions considering that temperature data collection only began in the 19t...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science",
+          "quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fun...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Climate alarmists are lamenting July’s warm weather, asserting earth saw its hottest day on record t...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Downplaying climate change: Other",
+          "quote": "These are astonishing contentions considering that temperature data collection only began in the 19t...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+          "quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fun...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Not content with these extravagant claims, the article goes on to assert that 2024 is “the planet’s ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "But who wants to let science get in the way of a good story?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+          "quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fun...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Questioning the measurements and science: Other",
+          "quote": "These are astonishing contentions considering that temperature data collection only began in the 19t...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Not content with these extravagant claims, the article goes on to assert that 2024 is “the planet’s ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "But who wants to let science get in the way of a good story?",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200069.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning b...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning b...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "Taking matters into their own hands, Oxford residents are destroying street zoning barriers.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Other",
+          "quote": "This year is looking to be jam packed with resistance to The Climate Con.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is alarmist",
+          "quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "This year is looking to be jam packed with resistance to The Climate Con.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200070.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate movement",
+          "quote": "Los Angeles Mayor Eric Garcetti joined a 'global coalition of mayors' at a summit on climate change ...",
+          "category": "near_exact",
+          "ratio": 0.965
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate movement: Climate movement is corrupt",
+          "quote": "Los Angeles Mayor Eric Garcetti joined a “global coalition of mayors” at a summit on climate change ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate movement: Other",
+          "quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Other",
+          "quote": "It is not clear why the conference could not be held remotely.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200071.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "\"The consequences of 'green' policies are the primary reason why most Americans can no longer afford...",
+          "category": "near_exact",
+          "ratio": 0.989
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "\"To allegedly save us all from a 'climate crisis,' development and use of oil, natural gas and coal ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Downplaying climate change",
+          "quote": "Biden's Department of Energy has announced a $400 million program... to incentivize them to implemen...",
+          "category": "fuzzy",
+          "ratio": 0.873
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments",
+          "quote": "\"How will doing this make America strong enough to withstand a prolonged military conflict with peer...",
+          "category": "near_exact",
+          "ratio": 0.965
+        },
+        {
+          "label": "CC: Controversy about green technologies",
+          "quote": "Ring added that newer energy sources will come from more inefficient and expensive wind, solar and b...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "\"The consequences of 'green' policies are the primary reason why most Americans can no longer afford...",
+          "category": "fuzzy",
+          "ratio": 0.941
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are only for profit",
+          "quote": "The remainder of the fund will go toward implementing \"zero energy\" building codes, which will requi...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "\"How will doing this make America strong enough to withstand a prolonged military conflict with peer...",
+          "category": "near_exact",
+          "ratio": 0.965
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "Biden’s green policies are making housing no longer affordable for the average American",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Other",
+          "quote": "Biden's Department of Energy has announced a $400 million program meant to go to state and local gov...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Downplaying climate change: Other",
+          "quote": "fight the so-called \"climate crisis.\"",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Other",
+          "quote": "\"How will doing this make America strong enough to withstand a prolonged military conflict with peer...",
+          "category": "near_exact",
+          "ratio": 0.965
+        },
+        {
+          "label": "CC: Controversy about green technologies: Renewable energy is unreliable",
+          "quote": "These are far more destructive to the environment, require the extraction and importing of more raw ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Renewable energy is costly",
+          "quote": "Ring added that newer energy sources will come from more inefficient and expensive wind, solar and b...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Other",
+          "quote": "The remainder of the fund will go toward implementing \"zero energy\" building codes, which will requi...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200077.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ]
+    },
+    "EN_CC_200078.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_CC_200079.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "Citing a new study, Schwab’s World Economic Forum (WEF) is urging governments to clamp down on peopl...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and p...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "According to the WEF, the global fashion industry is estimated to generate 92 million tonnes of text...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are only for profit",
+          "quote": "In an acute irony, globalist billionaires and neoliberal politicians routinely utilize private jets ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and p...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of international entities",
+          "quote": "Klaus Schwab’s World Economic Forum (WEF) has issued guidelines regarding how often the public shoul...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "In an acute irony, globalist billionaires and neoliberal politicians routinely utilize private jets ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Other",
+          "quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and p...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200081.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "Green Madness: Leftist Scottish Govt Cut Down 16 Million Trees to Put up Wind Farms",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments",
+          "quote": "To create usable energy, high-powered magnets are made from rare earth minerals such as neodymium an...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies",
+          "quote": "In addition to the need to cut down millions of trees, and the negative impacts on native bird and b...",
+          "category": "fuzzy",
+          "ratio": 0.949
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "“I’ve been contacted many times by rural communities all over the country questioning the location o...",
+          "category": "near_exact",
+          "ratio": 0.964
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Other",
+          "quote": "To create usable energy, high-powered magnets are made from rare earth minerals such as neodymium an...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Other",
+          "quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Other",
+          "quote": "In addition to the need to cut down millions of trees, and the negative impacts on native bird and b...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_CC_200085.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_UA_DEV_100002.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "Ukrainian nationalism, Ukrainian patriotism will be their downfall.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "The West wants Ukraine destroyed. There’s no sugar coating it.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "What is the next country marked out by NATO for destruction? It is never ending. They have numerous ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "Russia is at war with pure evil. Again there is no sugar coating it.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "The only way is to destroy NATO itself before it destroys the world.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "They are probably fed bullshit that Ukraine is winning the war and propaganda about how could y they...",
+          "category": "near_exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "They are being slaughtered and the country destroyed.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "Zelensky wants Ukraine destroyed. There’s no sugar coating it.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "Be that as it may it is destroyed already. Anything further is not destruction, simply devastation.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "The West wants Ukraine destroyed. There’s no sugar coating it.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "The only way is to destroy NATO itself before it destroys the world.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+          "quote": "The only way is to destroy NATO itself before it destroys the world.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "Then what? What is the next country marked out by NATO for destruction? It is never ending. They hav...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+          "quote": "The only country that doesn’t want Ukraine destroyed is the country that is destroying it.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "Russia is at war with pure evil. Again there is no sugar coating it.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "Then what? What is the next country marked out by NATO for destruction? It is never ending. They hav...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "The only way is to destroy NATO itself before it destroys the world.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+          "quote": "They are probably fed bullshit that Ukraine is winning the war and propaganda about how could y they...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "This is a perfect example of how censorship leads to destruction.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100003.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "\"Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some o...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "\"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "\"Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some o...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Praise of Russian military might",
+          "quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+          "quote": "\"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "But Medvedev's comments appeared to reflect increasing confidence in Moscow about the course of the ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "On the eve of its second anniversary, Ukrainian forces are outnumbered and outgunned by Russia's, an...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100004.txt": {
+      "narratives": [
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian mi...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "The local authorities confirmed that the Russian attack was successful but did not reveal its target...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "According to preliminary reports from the front, Russian forces managed to advance from the recently...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "To the north-west of Avdeevka, Russian forces have recently repelled the Ukrainian military from the...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian mi...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian mi...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian mi...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian mi...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100005.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "amerikans are the greatest pigs on the planet…and that is in the most derogitive term you can imagin...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "Sadly the western media is framing the war as if Russia is losing which only prolongs negotiations a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "lets get on with a full nuke war…wipe us all out …at least it (for most) will be over quickly",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "Russia is Winning, Nuclear Threat is a Sign of Desperation & Very Serious",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "we deserve EVERYTHING we get",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "why the desperation to keep the war going?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+          "quote": "amerika always blew any comment about RUSSIA or at later stages CHINA way out of proportion.. and yo...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+          "quote": "Sadly the western media is framing the war as if Russia is losing which only prolongs negotiations a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "Another must listen to interview with information that you are missing from the corporation propagan...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "Will they resort to nuclear weapons to even out the war?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "lets get on with a full nuke war…wipe us all out …at least it (for most) will be over quickly",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+          "quote": "Russia is Winning",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "Will they resort to nuclear weapons to even out the war?",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "I do not think an amerikan life is worth 1/2 as much as an African (or any other life outside the we...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100012.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the co...",
+          "category": "hallucination",
+          "ratio": 0.535
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "'Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.'",
+          "category": "fuzzy",
+          "ratio": 0.92
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "\"If we help Ukraine now, they can become the best business partner we ever dreamed of, that $10 to $...",
+          "category": "near_exact",
+          "ratio": 0.978
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+          "quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "\"The fate of the colonies is always the same: the Americans will scoop up all the natural resources ...",
+          "category": "near_exact",
+          "ratio": 0.984
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+          "quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the co...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+          "quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100013.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "in a clear demonstration of the nakedly criminal character of the Ukrainian regime and its frame-up ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "Zaluzhny is a fitting representative, with blood on his hands.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "“Above all, he has established a close relationship with the country’s far-right. He has publicly ex...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "Zaluzhny can and must play a key role. He not only has intimate knowledge of Ukraine’s military, but...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "The appointment of Zaluzhny to London ensures that Britain remains a centre of intrigue to implement...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "a letter demanding the release of our comrade Bogdan Syrotiuk... the SBU secret service are attempti...",
+          "category": "fuzzy",
+          "ratio": 0.902
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "That he was appointed ambassador to the UK in March confirms the SEP’s insistence that a major escal...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "With Labour preparing to implement a major escalation of the war following a scheduled NATO conferen...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "The SEP is using this election to break the conspiracy of silence maintained by the capitalist media",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "As with other embassies on this international day of protest, staff refused to take receipt of the l...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "During his time as commander of the armed forces, he appointed the leader of the fascist Right Secto...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "Zelensky removed Zaluzhny not as a result of the failure of the offensive, but because he was seen a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "As with other embassies on this international day of protest, staff refused to take receipt of the l...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "During his time as commander of the armed forces, he appointed the leader of the fascist Right Secto...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "As with other embassies on this international day of protest, staff refused to take receipt of the l...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "During his time as commander of the armed forces, he appointed the leader of the fascist Right Secto...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "Zelensky removed Zaluzhny not as a result of the failure of the offensive, but because he was seen a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "Zelensky removed Zaluzhny not as a result of the failure of the offensive, but because he was seen a...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "During his time as commander of the armed forces, he appointed the leader of the fascist Right Secto...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "He led Ukraine’s disastrous “counter-offensive” last year, which led to the deaths of at least 125,0...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "As with other embassies on this international day of protest, staff refused to take receipt of the l...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "near_exact",
+          "ratio": 0.975
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "That the UK was chosen as Zaluzhny’s destination after being deposed speaks to British imperialism’s...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "Zaluzhny now serves as a point man between the Ukrainian regime and its military and British imperia...",
+          "category": "fuzzy",
+          "ratio": 0.945
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "The appointment of Zaluzhny to London ensures that Britain remains a centre of intrigue to implement...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "That he was appointed ambassador to the UK in March confirms the SEP’s insistence that a major escal...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Other",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "That he was appointed ambassador to the UK in March confirms the SEP’s insistence that a major escal...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Other",
+          "quote": "He now serves as a point man between the Ukrainian regime and its military and British imperialism, ...",
+          "category": "near_exact",
+          "ratio": 0.975
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "The appointment of Zaluzhny to London ensures that Britain remains a centre of intrigue to implement...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "The SEP is using this election to break the conspiracy of silence maintained by the capitalist media...",
+          "category": "near_exact",
+          "ratio": 0.986
+        }
+      ]
+    },
+    "EN_UA_DEV_100019.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_UA_DEV_100026.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100029.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "EN_UA_DEV_100033.txt": {
+      "narratives": [
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "According to top Kremlin propagandists, it’s only a matter of time before the West admits its defeat...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "Russian state media and government officials have taken to describing any opponents of the Kremlin i...",
+          "category": "fuzzy",
+          "ratio": 0.832
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "“Right now, President Vladimir Vladimirovich Putin’s third proposal to the Ukrainian leadership is o...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "“There isn’t a single country in the world that is as easily manipulated as America.”",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "“Here’s what will be on the table after our victory... The dissolution of NATO... Extradition of all...",
+          "category": "hallucination",
+          "ratio": 0.276
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "“Here’s what will be on the table after our victory... After Ukraine’s demilitarization is completed...",
+          "category": "hallucination",
+          "ratio": 0.797
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "“I still think that those who took our money should be told, you have 24 hours to unfreeze our funds...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "He said: “I still think that those who took our money should be told, you have 24 hours to unfreeze ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "On Friday, Skabeeva claimed: “Jennifer Psaki’s statement said that no matter what Putin does in Ukra...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+          "quote": "“To the dismay of the State Department, it turned out that Americans are indifferent towards saving ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "In recent days, Russian state television regressed from Orwellian lies to Kafkaesque nightmares, as ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "“Jennifer Psaki’s statement said that no matter what Putin does in Ukraine—whether he uses biologica...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+          "quote": "“Right now, President Vladimir Vladimirovich Putin’s third proposal to the Ukrainian leadership is o...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+          "quote": "“Here’s what will be on the table after our victory... After Ukraine’s demilitarization is completed...",
+          "category": "hallucination",
+          "ratio": 0.696
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "“There isn’t a single country in the world that is as easily manipulated as America.”",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is weak",
+          "quote": "Multiple state TV shows emphasized the reluctance on the part of the United States and NATO to inter...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "On Monday, disregarding strong bipartisan support of Ukraine in the United States, Skabeeva claimed ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "Matveychev noted: “There isn’t a single country in the world that is as easily manipulated as Americ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "“Here’s what will be on the table after our victory... For example, the lifting of all sanctions... ...",
+          "category": "hallucination",
+          "ratio": 0.706
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "“We should be thinking about reparations from the damage that was caused by the sanctions and the wa...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "“I still think that those who took our money should be told, you have 24 hours to unfreeze our funds...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+          "quote": "In the surreal world of Russian state television, Russia is about to prevail in its war against Ukra...",
+          "category": "fuzzy",
+          "ratio": 0.805
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "According to top Kremlin propagandists, it’s only a matter of time before the West admits its defeat...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "He said: “I still think that those who took our money should be told, you have 24 hours to unfreeze ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "On Friday, Skabeeva claimed: “Jennifer Psaki’s statement said that no matter what Putin does in Ukra...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100034.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "In 2015, due to Russia’s initial invasion of Ukraine and the poor policies of then-Ukrainian Preside...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Overpraising the West",
+          "quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and m...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "This enhances Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to pre...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "In 2015, due to Russia’s initial invasion of Ukraine and the poor policies of then-Ukrainian Preside...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Other",
+          "quote": "All bondholders, except Russia, accepted this offer.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Overpraising the West: Other",
+          "quote": "The formula for victory is well known: the strength of the Ukrainian army, the unity of the free wor...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Overpraising the West: The West belongs in the right side of history",
+          "quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Overpraising the West: Other",
+          "quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and m...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Russia will also attack other countries",
+          "quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and m...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and m...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+          "quote": "This enhances Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to pre...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and m...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_100036.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like ra...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societ...",
+          "category": "hallucination",
+          "ratio": 0.723
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, whi...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "The impact of the war extends beyond physical damage, as it profoundly traumatizes Ukrainian society...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_20.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "But, according to senior negotiators on both sides and high-level mediators from the various countri...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "But since its launch last summer, Ukraine has lost more territory than it has gained... the Ukrainia...",
+          "category": "hallucination",
+          "ratio": 0.558
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "But rather than take this opportunity, the Ukrainian government and its backers in Europe and the Un...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "All these escalations do is prolong the Ukrainian people’s suffering while nudging the world closer ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "But, according to senior negotiators on both sides and high-level mediators from the various countri...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Other",
+          "quote": "But rather than take this opportunity, the Ukrainian government and its backers in Europe and the Un...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "But since its launch last summer, Ukraine has lost more territory than it has gained. Recently, the ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "Even with its extensive conscription laws, Ukraine does not have enough soldiers to break through Ru...",
+          "category": "hallucination",
+          "ratio": 0.764
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "What makes Ukraine’s situation even more tragic is how easily it could have been avoided... official...",
+          "category": "hallucination",
+          "ratio": 0.698
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "But, according to senior negotiators on both sides and high-level mediators from the various countri...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "Instead of fantasizing about waging some World War II–level offensive on Putin’s Russia, Biden and h...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+          "quote": "Instead of fantasizing about waging some World War II–level offensive on Putin’s Russia...",
+          "category": "near_exact",
+          "ratio": 0.956
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "All these escalations do is prolong the Ukrainian people’s suffering while nudging the world closer ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_213.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "The US and its European allies, using Ukraine as a pretext, are deliberately and recklessly escalati...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "In fact, the present government in Kiev is itself the product of a coup financed and organized by th...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "The US/NATO demand that it should decide where troops within Russia’s borders may be stationed means...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "As it has in all the wars launched by the United States over the past three decades, the media is pr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "All the talk of imminent war is emanating from Washington, the European capitals and filthy pro-impe...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "The fact that more than 75 years after the conclusion of World War II the population of the former S...",
+          "category": "near_exact",
+          "ratio": 0.96
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "The US and its European allies, using Ukraine as a pretext, are deliberately and recklessly escalati...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+          "quote": "In the present circumstances, it is obvious that the claim is being trumpeted as a cover for precise...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Other",
+          "quote": "The fact that more than 75 years after the conclusion of World War II the population of the former S...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "In the present circumstances, it is obvious that the claim is being trumpeted as a cover for precise...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "In fact, the present government in Kiev is itself the product of a coup financed and organized by th...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "The US and its European allies, using Ukraine as a pretext, are deliberately and recklessly escalati...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+          "quote": "How could Russia not be concerned by NATO’s obvious intention to bring Ukraine into its military all...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Russia is the Victim: Other",
+          "quote": "The US and its European allies, using Ukraine as a pretext, are deliberately and recklessly escalati...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is weak",
+          "quote": "The entire economic system rests precariously on an unsustainable mountain of debt, which has grown ...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "The US and its European allies, using Ukraine as a pretext, are deliberately and recklessly escalati...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "The Washington Post goes so far as to imply that the possibility of a negotiated resolution of diffe...",
+          "category": "fuzzy",
+          "ratio": 0.933
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "As it has in all the wars launched by the United States over the past three decades, the media is pr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+          "quote": "As it has in all the wars launched by the United States over the past three decades, the media is pr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "All the talk of imminent war is emanating from Washington, the European capitals and filthy pro-impe...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "Everything they are saying and doing leads to the conclusion that war, whether declared or undeclare...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_214.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "A defensive alliance long past its expiry date, Nato has been turned into an instrument of Western –...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Hidden plots by secret schemes of powerful groups",
+          "quote": "Most regional countries want none of it, but four Trojan horses – South Korea, Japan, Australia and ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "It’s just Ukrainian lives after all; Kyiv has been dragging men off the streets to be cannon fodder ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West",
+          "quote": "America may be destroying trade globalisation. But make no mistake, it is globalising the war. That’...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "No wonder people say the West is losing its (dis-) information war over Ukraine, because few people ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+          "quote": "All this lunacy was on full display in Washington last week, at the Nato’s celebration of death and ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "But if the Western allies can’t win over there in eastern Europe, well, just drag it out and turn it...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "Messed up your proxy war in Ukraine? Well, just blame China.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Hidden plots by secret schemes of powerful groups: Other",
+          "quote": "Most regional countries want none of it, but four Trojan horses – South Korea, Japan, Australia and ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "Messed up your proxy war in Ukraine? Well, just blame China.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "It’s just Ukrainian lives after all; Kyiv has been dragging men off the streets to be cannon fodder ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "So while the West has been pouring massive military hardware into the conflict to the extent of empt...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Negative Consequences for the West: Other",
+          "quote": "America may be destroying trade globalisation. But make no mistake, it is globalising the war. That’...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+          "quote": "No wonder people say the West is losing its (dis-) information war over Ukraine, because few people ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "Given his obvious mental decline, US President Joe Biden may be forgiven for claiming to ABC News’ h...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_215.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media",
+          "quote": "Pulitzer Prize-winning former New York Times journalist of Watergate fame, Seymour Hersh, is frequen...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+          "quote": "Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+          "quote": "War is a business, and the business of war is going on in Ukraine. The over $62 billion in aid the P...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "The more corruption and contract fraud comes to light, the less American taxpayers are willing to fo...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Other",
+          "quote": "Does learning that this isn’t the Disney version of war and that the side the West is fighting for i...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+          "quote": "The even bigger concern is that the American public may soften its stance on defending Ukraine again...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+          "quote": "Pulitzer Prize-winning former New York Times journalist of Watergate fame, Seymour Hersh, is frequen...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Distrust towards Media: Other",
+          "quote": "This thinly sourced statement, however, skims over the complexities of a very nuanced war. It is not...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "EN_UA_DEV_22.txt": {
+      "narratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader",
+          "quote": "\"Now it is openly acknowledged that this war could have been stopped in the first months if the West...",
+          "category": "near_exact",
+          "ratio": 0.986
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "\"We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros...",
+          "category": "fuzzy",
+          "ratio": 0.949
+        },
+        {
+          "label": "URW: Amplifying war-related fears",
+          "quote": "\"Because if we don’t stop, we, Slavs, will unite as brothers — and I believe we will unite — and lev...",
+          "category": "near_exact",
+          "ratio": 0.97
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "\"He noted that the EU currently has no chance of winning against Russia and called the Ukrainian con...",
+          "category": "near_exact",
+          "ratio": 0.959
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+          "quote": "\"We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros...",
+          "category": "fuzzy",
+          "ratio": 0.949
+        },
+        {
+          "label": "URW: Blaming the war on others rather than the invader: Other",
+          "quote": "\"Now it is openly acknowledged that this war could have been stopped in the first months if the West...",
+          "category": "near_exact",
+          "ratio": 0.986
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The EU is divided",
+          "quote": "Members of the European Parliament (EP) engaged in mutual insults during debates on the need for fur...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is weak",
+          "quote": "He noted that the EU currently has no chance of winning against Russia and called the Ukrainian conf...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+          "quote": "“And you have the audacity to claim that this is assistance to Ukraine. The only ones you are helpin...",
+          "category": "near_exact",
+          "ratio": 0.951
+        },
+        {
+          "label": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+          "quote": "\"We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we do...",
+          "category": "near_exact",
+          "ratio": 0.96
+        },
+        {
+          "label": "URW: Amplifying war-related fears: Other",
+          "quote": "\"Now it is openly acknowledged that this war could have been stopped in the first months if the West...",
+          "category": "near_exact",
+          "ratio": 0.986
+        },
+        {
+          "label": "URW: Speculating war outcomes: Other",
+          "quote": "“We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we do...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    }
+  }
+}

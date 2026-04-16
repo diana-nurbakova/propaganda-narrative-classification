@@ -1,0 +1,125 @@
+split,language,narrative,count
+dev,BG,CC: Amplifying Climate Fears,8
+dev,BG,URW: Amplifying war-related fears,5
+dev,BG,URW: Discrediting Ukraine,4
+dev,BG,CC: Downplaying climate change,2
+dev,BG,"URW: Discrediting the West, Diplomacy",2
+dev,BG,URW: Russia is the Victim,2
+dev,BG,CC: Criticism of climate movement,1
+dev,BG,CC: Green policies are geopolitical instruments,1
+dev,BG,CC: Hidden plots by secret schemes of powerful groups,1
+dev,BG,URW: Blaming the war on others rather than the invader,1
+dev,BG,URW: Negative Consequences for the West,1
+dev,EN,CC: Criticism of climate movement,6
+dev,EN,"URW: Discrediting the West, Diplomacy",4
+dev,EN,CC: Criticism of climate policies,3
+dev,EN,CC: Criticism of institutions and authorities,3
+dev,EN,URW: Discrediting Ukraine,3
+dev,EN,URW: Speculating war outcomes,3
+dev,EN,CC: Hidden plots by secret schemes of powerful groups,2
+dev,EN,CC: Climate change is beneficial,1
+dev,EN,CC: Controversy about green technologies,1
+dev,EN,CC: Questioning the measurements and science,1
+dev,EN,URW: Blaming the war on others rather than the invader,1
+dev,EN,URW: Negative Consequences for the West,1
+dev,EN,URW: Overpraising the West,1
+dev,HI,URW: Amplifying war-related fears,8
+dev,HI,URW: Praise of Russia,6
+dev,HI,CC: Amplifying Climate Fears,4
+dev,HI,URW: Blaming the war on others rather than the invader,3
+dev,HI,"URW: Discrediting the West, Diplomacy",3
+dev,HI,URW: Hidden plots by secret schemes of powerful groups,2
+dev,HI,URW: Speculating war outcomes,2
+dev,HI,URW: Distrust towards Media,1
+dev,PT,CC: Amplifying Climate Fears,13
+dev,PT,CC: Criticism of institutions and authorities,4
+dev,PT,CC: Criticism of climate policies,2
+dev,PT,URW: Praise of Russia,2
+dev,PT,URW: Russia is the Victim,2
+dev,PT,URW: Discrediting Ukraine,1
+dev,PT,"URW: Discrediting the West, Diplomacy",1
+dev,RU,URW: Discrediting Ukraine,12
+dev,RU,URW: Praise of Russia,8
+dev,RU,"URW: Discrediting the West, Diplomacy",5
+dev,RU,URW: Amplifying war-related fears,1
+dev,RU,URW: Hidden plots by secret schemes of powerful groups,1
+dev,RU,URW: Speculating war outcomes,1
+train,BG,CC: Amplifying Climate Fears,73
+train,BG,URW: Discrediting Ukraine,63
+train,BG,"URW: Discrediting the West, Diplomacy",63
+train,BG,URW: Amplifying war-related fears,42
+train,BG,URW: Praise of Russia,25
+train,BG,URW: Blaming the war on others rather than the invader,22
+train,BG,URW: Speculating war outcomes,18
+train,BG,CC: Criticism of climate policies,13
+train,BG,CC: Criticism of institutions and authorities,9
+train,BG,CC: Downplaying climate change,7
+train,BG,URW: Negative Consequences for the West,7
+train,BG,URW: Russia is the Victim,6
+train,BG,CC: Hidden plots by secret schemes of powerful groups,3
+train,BG,URW: Distrust towards Media,3
+train,BG,CC: Climate change is beneficial,1
+train,BG,CC: Controversy about green technologies,1
+train,BG,URW: Overpraising the West,1
+train,EN,"URW: Discrediting the West, Diplomacy",28
+train,EN,CC: Criticism of institutions and authorities,23
+train,EN,URW: Amplifying war-related fears,20
+train,EN,CC: Criticism of climate movement,19
+train,EN,CC: Hidden plots by secret schemes of powerful groups,16
+train,EN,CC: Criticism of climate policies,14
+train,EN,URW: Discrediting Ukraine,14
+train,EN,URW: Blaming the war on others rather than the invader,10
+train,EN,CC: Downplaying climate change,8
+train,EN,CC: Questioning the measurements and science,8
+train,EN,URW: Distrust towards Media,7
+train,EN,URW: Hidden plots by secret schemes of powerful groups,6
+train,EN,URW: Negative Consequences for the West,6
+train,EN,URW: Speculating war outcomes,6
+train,EN,CC: Controversy about green technologies,5
+train,EN,URW: Praise of Russia,5
+train,EN,URW: Overpraising the West,3
+train,EN,URW: Russia is the Victim,3
+train,EN,CC: Amplifying Climate Fears,1
+train,EN,CC: Green policies are geopolitical instruments,1
+train,HI,URW: Amplifying war-related fears,41
+train,HI,URW: Praise of Russia,35
+train,HI,CC: Amplifying Climate Fears,28
+train,HI,URW: Speculating war outcomes,19
+train,HI,URW: Discrediting Ukraine,15
+train,HI,URW: Blaming the war on others rather than the invader,11
+train,HI,URW: Distrust towards Media,11
+train,HI,"URW: Discrediting the West, Diplomacy",9
+train,HI,URW: Russia is the Victim,8
+train,HI,URW: Overpraising the West,7
+train,HI,URW: Hidden plots by secret schemes of powerful groups,4
+train,HI,CC: Criticism of climate policies,2
+train,HI,URW: Negative Consequences for the West,2
+train,HI,CC: Criticism of institutions and authorities,1
+train,PT,CC: Amplifying Climate Fears,58
+train,PT,URW: Discrediting Ukraine,51
+train,PT,"URW: Discrediting the West, Diplomacy",26
+train,PT,URW: Amplifying war-related fears,23
+train,PT,CC: Criticism of institutions and authorities,21
+train,PT,URW: Praise of Russia,21
+train,PT,URW: Russia is the Victim,11
+train,PT,URW: Blaming the war on others rather than the invader,10
+train,PT,CC: Downplaying climate change,8
+train,PT,CC: Criticism of climate movement,7
+train,PT,URW: Speculating war outcomes,5
+train,PT,CC: Criticism of climate policies,3
+train,PT,URW: Negative Consequences for the West,3
+train,PT,CC: Climate change is beneficial,1
+train,PT,CC: Controversy about green technologies,1
+train,PT,CC: Hidden plots by secret schemes of powerful groups,1
+train,PT,URW: Distrust towards Media,1
+train,PT,URW: Hidden plots by secret schemes of powerful groups,1
+train,RU,URW: Discrediting Ukraine,47
+train,RU,URW: Praise of Russia,38
+train,RU,"URW: Discrediting the West, Diplomacy",17
+train,RU,URW: Russia is the Victim,12
+train,RU,URW: Blaming the war on others rather than the invader,10
+train,RU,URW: Amplifying war-related fears,3
+train,RU,URW: Distrust towards Media,2
+train,RU,URW: Hidden plots by secret schemes of powerful groups,2
+train,RU,URW: Negative Consequences for the West,1
+train,RU,URW: Speculating war outcomes,1

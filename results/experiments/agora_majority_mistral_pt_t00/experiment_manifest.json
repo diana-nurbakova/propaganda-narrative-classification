@@ -1,0 +1,71 @@
+{
+  "experiment_id": "agora_majority_mistral_pt_t00",
+  "base_config": "configs/experiments/generated/core/agora_majority_mistral_pt_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-08T21:44:23.481315",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T21:44:23.481315",
+      "completed_at": "2026-02-08T21:52:11.352593",
+      "duration_seconds": 467.871278
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T21:52:41.356070",
+      "completed_at": "2026-02-08T22:00:26.876832",
+      "duration_seconds": 465.520762
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T22:00:56.891720",
+      "completed_at": "2026-02-08T22:08:26.515394",
+      "duration_seconds": 449.623674
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T22:08:56.529037",
+      "completed_at": "2026-02-08T22:16:34.770327",
+      "duration_seconds": 458.24129
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_mistral_pt_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T22:17:04.779127",
+      "completed_at": "2026-02-08T22:24:37.070313",
+      "duration_seconds": 452.291186
+    }
+  ],
+  "completed_at": "2026-02-08T22:24:37.071227",
+  "total_duration_seconds": 2293.54819,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

@@ -1,0 +1,119 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 7,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "the sacrifices being made are endless for its people.",
+        "reasoning": "The phrase 'sacrifices being made are endless' evokes a sense of ongoing, unceasing suffering and fear about the future, amplifying anxiety about the war's personal and societal costs."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "which there is no end in sight for now.",
+        "reasoning": "This statement is a direct speculation about the potential duration and outcome of the conflict, predicting a protracted war with no clear resolution."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A common narrative among these men and women is the departure of their spouses and children to safer locations abroad. Over time, these families often adapt to life in their new countries, with children assimilating and over time, they no longer identify Ukraine as their home anymore.",
+        "reasoning": "This quote undermines Ukrainian national identity and societal cohesion by suggesting that the war is causing Ukrainians, especially children, to permanently lose their connection to their homeland, thereby discrediting the nation's future and resilience."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The impact of the war extends beyond physical damage, as it profoundly traumatizes Ukrainian society and threatens to affect future generations.",
+        "reasoning": "This statement amplifies fear by emphasizing the severe, long-term, and intergenerational psychological consequences of the war, framing it as a profound and lasting societal trauma with no clear end."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In having conversations with ordinary Ukrainians, many have expressed concern about the post-war period, especially regarding the return of veterans. Without robust mental healthcare services, there is widespread worry about the challenges these veterans may face in reintegrating into their communities and dealing with PTSD from the war.",
+        "reasoning": "This quote speculates about negative future outcomes for Ukraine, specifically predicting societal challenges and reintegration problems for veterans in the post-war period, which aligns with the narrative of speculating on war outcomes."
+      }
+    ],
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The ongoing war in Ukraine has also significantly impacted the nation's healthcare infrastructure, particularly affecting mental health services. In 2022, there were 707 documented attacks on Ukrainian health care facilities, resulting in significant destruction of or damage to 218 hospitals and clinics, along with 181 attacks on other medical infrastructure, such as pharmacies and dentistry.",
+        "reasoning": "This quote, while factually describing attacks, is part of a broader text that details systemic failures and challenges within Ukraine (economic hardship, distrust in mental health services, societal trauma). The cumulative effect, by focusing heavily on Ukraine's vulnerabilities, internal problems, and pre-existing societal issues (like the Soviet-era psychiatric system legacy), serves to undermine the image of a resilient, functioning state, aligning with the 'Discrediting Ukraine' narrative which attacks aspects of Ukrainian society."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues. The collective impact of population displacement, healthcare infrastructure destruction, and economic hardships contributes significantly to the deteriorating mental health of the society. Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement explicitly highlights severe, ongoing negative consequences (deteriorating mental health, societal issues, displacement) and emphasizes the hopelessness of the situation ('no end in sight'). It is designed to evoke anxiety and fear about the long-term, devastating impact of the war on Ukrainian society, which aligns with the 'Amplifying war-related fears' narrative."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 6,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 7,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

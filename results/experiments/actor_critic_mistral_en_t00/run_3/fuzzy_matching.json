@@ -1,0 +1,823 @@
+{
+  "config": {
+    "model_name": "mistralai:mistral-large-latest",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_mistral_en_t00",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 100,
+    "matched": 100,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200046.txt",
+      "label_type": "narrative",
+      "original_label": "Climate change is beneficial",
+      "matched_label": "CC: Climate change is beneficial",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200046.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200046.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200046.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200046.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200053.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200053.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200053.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200065.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200065.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200065.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200065.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200078.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200078.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200078.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200070.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200070.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200070.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200070.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200035.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200035.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200035.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200035.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200085.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200085.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200085.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200069.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200069.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200069.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200069.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200049.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200049.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200049.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200049.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200050.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200050.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200050.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200050.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200050.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200034.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200071.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Amplifying Climate Fears",
+      "matched_label": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200036.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "subnarrative_matches": []
+}

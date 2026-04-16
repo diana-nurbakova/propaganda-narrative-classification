@@ -36,20 +36,27 @@ def run_inference_from_hub(model_name, input_dir, output_file, threshold=None):
     model_path = snapshot_download(repo_id=model_name)
     print(f"Model downloaded to: {model_path}")
 
-    # Load training configuration to get the best threshold if available
+    # Load training configuration to get the best thresholds
     try:
         with open(os.path.join(model_path, 'training_config.json'), 'r') as f:
             training_config = json.load(f)
-            training_threshold = training_config.get('best_threshold', 0.5)
+            training_parent_threshold = training_config.get('best_parent_threshold',
+                                                            training_config.get('best_threshold', 0.5))
+            training_child_threshold = training_config.get('best_child_threshold', training_parent_threshold)
+            max_length = training_config.get('max_length', 512)
             if threshold is None:
-                threshold = training_threshold
-                print(f"Using best threshold from training: {threshold:.3f}")
+                parent_threshold = training_parent_threshold
+                child_threshold = training_child_threshold
+                print(f"Using trained thresholds — parent: {parent_threshold:.3f}, child: {child_threshold:.3f}")
             else:
-                print(f"Using provided threshold: {threshold:.3f} (training threshold was {training_threshold:.3f})")
+                parent_threshold = threshold
+                child_threshold = threshold
+                print(f"Using provided threshold: {threshold:.3f} (trained: parent={training_parent_threshold:.3f}, child={training_child_threshold:.3f})")
     except FileNotFoundError:
-        if threshold is None:
-            threshold = 0.5
-        print(f"Warning: training_config.json not found. Using threshold: {threshold}")
+        parent_threshold = threshold if threshold is not None else 0.5
+        child_threshold = parent_threshold
+        max_length = 512
+        print(f"Warning: training_config.json not found. Using threshold: {parent_threshold}")
 
     # Load hierarchical label mappings
     with open(os.path.join(model_path, 'label_mappings_hierarchical.json'), 'r') as f:
@@ -99,7 +106,7 @@ def run_inference_from_hub(model_name, input_dir, output_file, threshold=None):
             return_tensors='pt',
             padding='max_length',
             truncation=True,
-            max_length=512 # Use the same max_length as in training
+            max_length=max_length
         ).to(device)
 
         # ---------------------------------------------------------------------
@@ -112,9 +119,9 @@ def run_inference_from_hub(model_name, input_dir, output_file, threshold=None):
         parent_logits = outputs['parent_logits']
         child_logits_dict = outputs['child_logits']
 
-        # Get parent predictions
+        # Get parent predictions using parent threshold
         parent_probs = torch.sigmoid(parent_logits).cpu().numpy().flatten()
-        parent_preds_indices = (parent_probs >= threshold).astype(int)
+        parent_preds_indices = (parent_probs >= parent_threshold).astype(int)
 
         predicted_parents = []
         predicted_subnarratives = []
@@ -130,7 +137,7 @@ def run_inference_from_hub(model_name, input_dir, output_file, threshold=None):
                     safe_key = sanitize_name(parent_name)
                     child_logits = child_logits_dict[safe_key]
                     child_probs = torch.sigmoid(child_logits).cpu().numpy().flatten()
-                    child_preds_indices = (child_probs >= threshold).astype(int)
+                    child_preds_indices = (child_probs >= child_threshold).astype(int)
                     
                     # Get the specific id->label map for this parent's children
                     child_id2label = child_label_maps[parent_name]['id2label']

@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-02-11T02:01:58.237606",
+  "n_runs": 27,
+  "runs": [
+    {
+      "experiment_id": "actor_critic_deepseek_en_t00_evidence",
+      "run_dir": "results\\experiments\\actor_critic_deepseek_en_t00_evidence\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 392,
+        "exact": 310,
+        "near_exact": 37,
+        "fuzzy": 18,
+        "hallucination": 13,
+        "empty": 14,
+        "faithfulness_rate": 0.9311
+      }
+    },
+    {
+      "experiment_id": "actor_critic_gpt5nano_en_t00",
+      "run_dir": "results\\experiments\\actor_critic_gpt5nano_en_t00\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 221,
+        "exact": 160,
+        "near_exact": 44,
+        "fuzzy": 11,
+        "hallucination": 2,
+        "empty": 4,
+        "faithfulness_rate": 0.9729
+      }
+    },
+    {
+      "experiment_id": "actor_critic_gpt5nano_en_t00",
+      "run_dir": "results\\experiments\\actor_critic_gpt5nano_en_t00\\run_2",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 350,
+        "exact": 259,
+        "near_exact": 62,
+        "fuzzy": 22,
+        "hallucination": 3,
+        "empty": 4,
+        "faithfulness_rate": 0.98
+      }
+    },
+    {
+      "experiment_id": "actor_critic_gpt5nano_en_t00",
+      "run_dir": "results\\experiments\\actor_critic_gpt5nano_en_t00\\run_3",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 369,
+        "exact": 293,
+        "near_exact": 42,
+        "fuzzy": 24,
+        "hallucination": 5,
+        "empty": 5,
+        "faithfulness_rate": 0.9729
+      }
+    },
+    {
+      "experiment_id": "actor_critic_gpt5nano_en_t00",
+      "run_dir": "results\\experiments\\actor_critic_gpt5nano_en_t00\\run_4",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 382,
+        "exact": 275,
+        "near_exact": 73,
+        "fuzzy": 24,
+        "hallucination": 6,
+        "empty": 4,
+        "faithfulness_rate": 0.9738
+      }
+    },
+    {
+      "experiment_id": "actor_critic_gpt5nano_en_t00",
+      "run_dir": "results\\experiments\\actor_critic_gpt5nano_en_t00\\run_5",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 310,
+        "exact": 240,
+        "near_exact": 40,
+        "fuzzy": 25,
+        "hallucination": 1,
+        "empty": 4,
+        "faithfulness_rate": 0.9839
+      }
+    },
+    {
+      "experiment_id": "actor_critic_mistral_en_t00",
+      "run_dir": "results\\experiments\\actor_critic_mistral_en_t00\\run_{run_id}",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 782,
+        "exact": 448,
+        "near_exact": 143,
+        "fuzzy": 107,
+        "hallucination": 78,
+        "empty": 6,
+        "faithfulness_rate": 0.8926
+      }
+    },
+    {
+      "experiment_id": "actor_critic_mistral_en_t00_evidence",
+      "run_dir": "results\\experiments\\actor_critic_mistral_en_t00_evidence\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 793,
+        "exact": 444,
+        "near_exact": 136,
+        "fuzzy": 113,
+        "hallucination": 87,
+        "empty": 13,
+        "faithfulness_rate": 0.8739
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_bg_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_bg_t00\\run_1",
+      "language": "BG",
+      "summary": {
+        "total_quotes": 187,
+        "exact": 135,
+        "near_exact": 30,
+        "fuzzy": 11,
+        "hallucination": 3,
+        "empty": 8,
+        "faithfulness_rate": 0.9412
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_bg_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_bg_t00\\run_2",
+      "language": "BG",
+      "summary": {
+        "total_quotes": 207,
+        "exact": 157,
+        "near_exact": 35,
+        "fuzzy": 10,
+        "hallucination": 0,
+        "empty": 5,
+        "faithfulness_rate": 0.9758
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_bg_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_bg_t00\\run_3",
+      "language": "BG",
+      "summary": {
+        "total_quotes": 190,
+        "exact": 143,
+        "near_exact": 30,
+        "fuzzy": 11,
+        "hallucination": 1,
+        "empty": 5,
+        "faithfulness_rate": 0.9684
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_bg_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_bg_t00\\run_4",
+      "language": "BG",
+      "summary": {
+        "total_quotes": 206,
+        "exact": 149,
+        "near_exact": 42,
+        "fuzzy": 9,
+        "hallucination": 0,
+        "empty": 6,
+        "faithfulness_rate": 0.9709
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_bg_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_bg_t00\\run_5",
+      "language": "BG",
+      "summary": {
+        "total_quotes": 193,
+        "exact": 144,
+        "near_exact": 33,
+        "fuzzy": 7,
+        "hallucination": 5,
+        "empty": 4,
+        "faithfulness_rate": 0.9534
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_hi_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_hi_t00\\run_1",
+      "language": "HI",
+      "summary": {
+        "total_quotes": 142,
+        "exact": 115,
+        "near_exact": 11,
+        "fuzzy": 4,
+        "hallucination": 2,
+        "empty": 10,
+        "faithfulness_rate": 0.9155
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_hi_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_hi_t00\\run_2",
+      "language": "HI",
+      "summary": {
+        "total_quotes": 143,
+        "exact": 101,
+        "near_exact": 19,
+        "fuzzy": 11,
+        "hallucination": 2,
+        "empty": 10,
+        "faithfulness_rate": 0.9161
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_hi_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_hi_t00\\run_3",
+      "language": "HI",
+      "summary": {
+        "total_quotes": 158,
+        "exact": 116,
+        "near_exact": 20,
+        "fuzzy": 11,
+        "hallucination": 0,
+        "empty": 11,
+        "faithfulness_rate": 0.9304
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_hi_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_hi_t00\\run_4",
+      "language": "HI",
+      "summary": {
+        "total_quotes": 145,
+        "exact": 97,
+        "near_exact": 21,
+        "fuzzy": 11,
+        "hallucination": 3,
+        "empty": 13,
+        "faithfulness_rate": 0.8897
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_hi_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_hi_t00\\run_5",
+      "language": "HI",
+      "summary": {
+        "total_quotes": 135,
+        "exact": 105,
+        "near_exact": 15,
+        "fuzzy": 1,
+        "hallucination": 1,
+        "empty": 13,
+        "faithfulness_rate": 0.8963
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_pt_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_pt_t00\\run_1",
+      "language": "PT",
+      "summary": {
+        "total_quotes": 114,
+        "exact": 83,
+        "near_exact": 17,
+        "fuzzy": 4,
+        "hallucination": 1,
+        "empty": 9,
+        "faithfulness_rate": 0.9123
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_pt_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_pt_t00\\run_2",
+      "language": "PT",
+      "summary": {
+        "total_quotes": 118,
+        "exact": 86,
+        "near_exact": 12,
+        "fuzzy": 6,
+        "hallucination": 5,
+        "empty": 9,
+        "faithfulness_rate": 0.8814
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_pt_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_pt_t00\\run_3",
+      "language": "PT",
+      "summary": {
+        "total_quotes": 125,
+        "exact": 97,
+        "near_exact": 18,
+        "fuzzy": 1,
+        "hallucination": 1,
+        "empty": 8,
+        "faithfulness_rate": 0.928
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_pt_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_pt_t00\\run_4",
+      "language": "PT",
+      "summary": {
+        "total_quotes": 125,
+        "exact": 87,
+        "near_exact": 18,
+        "fuzzy": 9,
+        "hallucination": 2,
+        "empty": 9,
+        "faithfulness_rate": 0.912
+      }
+    },
+    {
+      "experiment_id": "agora_majority_gpt5nano_pt_t00",
+      "run_dir": "results\\experiments\\agora_majority_gpt5nano_pt_t00\\run_5",
+      "language": "PT",
+      "summary": {
+        "total_quotes": 125,
+        "exact": 88,
+        "near_exact": 21,
+        "fuzzy": 5,
+        "hallucination": 2,
+        "empty": 9,
+        "faithfulness_rate": 0.912
+      }
+    },
+    {
+      "experiment_id": "agora_majority_mistral_en_t00_evidence",
+      "run_dir": "results\\experiments\\agora_majority_mistral_en_t00_evidence\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 740,
+        "exact": 428,
+        "near_exact": 113,
+        "fuzzy": 118,
+        "hallucination": 71,
+        "empty": 10,
+        "faithfulness_rate": 0.8905
+      }
+    },
+    {
+      "experiment_id": "agora_mistral_en_t00_evidence",
+      "run_dir": "results\\experiments\\agora_mistral_en_t00_evidence\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 750,
+        "exact": 415,
+        "near_exact": 128,
+        "fuzzy": 115,
+        "hallucination": 85,
+        "empty": 7,
+        "faithfulness_rate": 0.8773
+      }
+    },
+    {
+      "experiment_id": "baseline_deepseek_en_t00_evidence",
+      "run_dir": "results\\experiments\\baseline_deepseek_en_t00_evidence\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 513,
+        "exact": 395,
+        "near_exact": 51,
+        "fuzzy": 31,
+        "hallucination": 23,
+        "empty": 13,
+        "faithfulness_rate": 0.9298
+      }
+    },
+    {
+      "experiment_id": "baseline_mistral_en_t00_evidence",
+      "run_dir": "results\\experiments\\baseline_mistral_en_t00_evidence\\run_1",
+      "language": "EN",
+      "summary": {
+        "total_quotes": 849,
+        "exact": 485,
+        "near_exact": 135,
+        "fuzzy": 124,
+        "hallucination": 99,
+        "empty": 6,
+        "faithfulness_rate": 0.8763
+      }
+    }
+  ]
+}

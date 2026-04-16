@@ -1,6 +1,154 @@
-from typing import List
+import json
+from functools import lru_cache
+from pathlib import Path
+from typing import Any, Dict, List, Optional
 
 from label_info import load_narrative_definitions, load_taxonomy, load_subnarrative_definitions
+
+
+# ---------------------------------------------------------------------------
+# EMNLP-revision prompt enhancement assets
+#
+# These loaders read the data files added in the EMNLP revision (specs/) and
+# provide cached lookups for prompt construction. All loads are best-effort:
+# if a file is missing, the loader returns an empty dict so the prompt
+# falls back gracefully to P0 behaviour.
+# ---------------------------------------------------------------------------
+
+DATA_ROOT = Path(__file__).resolve().parents[2] / "data"
+
+PROMPT_LEVELS = ("P0", "P1", "P2")
+
+
+@lru_cache(maxsize=1)
+def load_tom_taxonomy(path: Optional[str] = None) -> Dict[str, Any]:
+    """Load the ToM taxonomy annotation (data/tom_taxonomy.json)."""
+    p = Path(path) if path else DATA_ROOT / "tom_taxonomy.json"
+    if not p.exists():
+        return {}
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+@lru_cache(maxsize=1)
+def load_annotation_guideline_rules(path: Optional[str] = None) -> Dict[str, Any]:
+    """Load the annotation-guideline decision rules
+    (data/annotation_guideline_rules.json)."""
+    p = Path(path) if path else DATA_ROOT / "annotation_guideline_rules.json"
+    if not p.exists():
+        return {}
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+@lru_cache(maxsize=4)
+def load_bertopic_keywords(path: Optional[str] = None) -> Dict[str, Any]:
+    """Load BERTopic per-narrative contrastive keywords. Format::
+
+        {
+          "EN": {"<narrative>": ["kw1", "kw2", ...]},
+          "BG": {...},
+          ...
+        }
+    """
+    p = Path(path) if path else DATA_ROOT / "bertopic_keywords.json"
+    if not p.exists():
+        return {}
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _format_tom_block(tom_analysis: Optional[Dict[str, Any]]) -> str:
+    """Render a cached ToM Stage 1 analysis as a prompt block."""
+    if not tom_analysis:
+        return ""
+    presups = tom_analysis.get("presuppositions") or []
+    if isinstance(presups, list):
+        presups = "; ".join(str(p) for p in presups)
+    intent = tom_analysis.get("intent", "")
+    target = tom_analysis.get("target_belief_change", "")
+    mechanism = tom_analysis.get("primary_mechanism", "")
+    return (
+        "## ToM ANALYSIS OF THIS ARTICLE (cached from Stage 1)\n"
+        f"- Presupposed reader beliefs: {presups or 'n/a'}\n"
+        f"- Persuasive intent: {intent or 'n/a'}\n"
+        f"- Target belief change: {target or 'n/a'}\n"
+        f"- Primary cognitive mechanism: {mechanism or 'n/a'}\n"
+        "\nWhen you classify, give extra weight to narratives that operate "
+        f"through the {mechanism or 'identified'} mechanism above. Do not "
+        "invent narratives that contradict the persuasive intent.\n\n"
+    )
+
+
+def _format_general_principles(rules: Dict[str, Any]) -> str:
+    principles = rules.get("general_principles", [])
+    if not principles:
+        return ""
+    out = ["## GENERAL CLASSIFICATION PRINCIPLES (apply to every decision)"]
+    for i, p in enumerate(principles, 1):
+        out.append(f"{i}. {p}")
+    return "\n".join(out) + "\n\n"
+
+
+def _narrative_decision_rule(
+    rules: Dict[str, Any], category: str, narrative: str
+) -> str:
+    nr = rules.get("narrative_rules", {}).get(category, {}).get(narrative)
+    if not nr:
+        return ""
+    return f"  Decision rule (annotation guidelines): {nr}\n"
+
+
+def _subnarrative_decision_rule(
+    rules: Dict[str, Any], category: str, narrative: str, subnarrative: str
+) -> str:
+    sn = (
+        rules.get("subnarrative_rules", {})
+        .get(category, {})
+        .get(narrative, {})
+        .get(subnarrative)
+    )
+    if not sn:
+        return ""
+    return f"  Decision rule (annotation guidelines): {sn}\n"
+
+
+def _bertopic_keywords_for(
+    keywords: Dict[str, Any], language: str, narrative: str, k: int = 5
+) -> str:
+    if not keywords:
+        return ""
+    lang_kw = keywords.get(language.upper()) or keywords.get(language.lower()) or {}
+    kws = lang_kw.get(narrative) or []
+    if not kws:
+        return ""
+    top = ", ".join(kws[:k])
+    return f"  Key indicators ({language.upper()}): {top}\n"
+
+
+def _confused_pair_block(rules: Dict[str, Any], category: str) -> str:
+    pairs = rules.get("confused_pairs", []) or []
+    relevant = [p for p in pairs if p.get("domain") == category]
+    if not relevant:
+        return ""
+    out = ["\n## DISAMBIGUATION RULES FOR FREQUENTLY CONFUSED LABELS"]
+    for p in relevant:
+        labels = p.get("labels", [])
+        rule = p.get("decision_rule", "")
+        kind = p.get("type", "confusion")
+        out.append(
+            f"- {kind.upper()} between [{labels[0]}] and [{labels[1]}]: {rule}"
+        )
+    return "\n".join(out) + "\n\n"
 
 
 def create_category_system_prompt() -> str:
@@ -27,53 +175,76 @@ def create_category_system_prompt() -> str:
 
     return prompt
 
-def create_narrative_system_prompt(category: str, definitions_path: str = "data/narrative_definitions.csv") -> str:
+def create_narrative_system_prompt(
+    category: str,
+    definitions_path: str = "data/narrative_definitions.csv",
+    prompt_level: str = "P0",
+    tom_analysis: Optional[Dict[str, Any]] = None,
+    language: Optional[str] = None,
+    bertopic_keywords_path: Optional[str] = None,
+    annotation_rules_path: Optional[str] = None,
+) -> str:
     """
     Create a prompt to classify text into narratives from a specific category.
-    
+
     Args:
-        text: The input text to classify
         category: The category to filter narratives by (e.g., "URW", "CC")
         definitions_path: Path to the narrative definitions CSV file
+        prompt_level: One of "P0" (current), "P1" (P0 + annotation-guideline
+            decision rules + BERTopic keywords + confused-pair disambiguation),
+            "P2" (P1 + ToM Stage 1 analysis prepended).
+        tom_analysis: Cached ToM Stage 1 output to prepend (only used at P2).
+        language: Language code (EN/BG/HI/PT/RU) for selecting BERTopic keywords.
+        bertopic_keywords_path / annotation_rules_path: optional overrides for
+            the data file locations (default: data/...).
     """
-    
+
+    if prompt_level not in PROMPT_LEVELS:
+        prompt_level = "P0"
+
     # Load taxonomy and definitions
     taxonomy = load_taxonomy()
     definitions = load_narrative_definitions(definitions_path)
-    
-    # Get narratives for the specified category
-    # The taxonomy is nested: category -> narratives -> subnarratives
-    narratives = []
+    rules = load_annotation_guideline_rules(annotation_rules_path) if prompt_level != "P0" else {}
+    bert_kw = load_bertopic_keywords(bertopic_keywords_path) if prompt_level != "P0" else {}
 
+    narratives = []
     if category in taxonomy:
         narratives = taxonomy[category].keys()
-    
-    prefixed_narratives = []
-        
-    # Append the category prefix to all narratives and build theme_to_narratives
-    for narrative in narratives:
-        prefixed_narrative = f"{category}: {narrative}"
-        prefixed_narratives.append(prefixed_narrative)
 
-    prompt_template = (
+    prefixed_narratives = [(n, f"{category}: {n}") for n in narratives]
+
+    prompt_template = ""
+    if prompt_level == "P2":
+        prompt_template += _format_tom_block(tom_analysis)
+    if prompt_level != "P0":
+        prompt_template += _format_general_principles(rules)
+
+    prompt_template += (
         "You are an expert propaganda narrative analyst with extensive experience in identifying and classifying manipulative communication patterns.\n"
         "Your task is to analyze the given text and identify which specific propaganda narratives are present.\n"
         "Provide your classification as a semicolon-separated list inside square brackets, e.g. [Narrative A; Narrative B].\n\n"
         "AVAILABLE NARRATIVES:\n\n"
     )
 
-    for narrative in prefixed_narratives:
-        prompt_template += f"- {narrative}\n"
-        definition = definitions.get(narrative, {}).get('definition', 'No definition available.')
-        example = definitions.get(narrative, {}).get('example', '')
-        instruction = definitions.get(narrative, {}).get('instruction', '')
+    for narr_name, prefixed in prefixed_narratives:
+        prompt_template += f"- {prefixed}\n"
+        definition = definitions.get(prefixed, {}).get('definition', 'No definition available.')
+        example = definitions.get(prefixed, {}).get('example', '')
+        instruction = definitions.get(prefixed, {}).get('instruction', '')
         prompt_template += f"  Definition: {definition}\n"
         if example:
             prompt_template += f"  Example: {example}\n"
         if instruction:
             prompt_template += f"  Instruction: {instruction}\n"
+        if prompt_level != "P0":
+            prompt_template += _narrative_decision_rule(rules, category, narr_name)
+            if language:
+                prompt_template += _bertopic_keywords_for(bert_kw, language, narr_name)
         prompt_template += "\n"
-    
+
+    if prompt_level != "P0":
+        prompt_template += _confused_pair_block(rules, category)
 
     prompt_template += """
 ## INSTRUCTIONS
@@ -115,40 +286,53 @@ Your entire response MUST be a single JSON object. ALL fields in the schema belo
     return prompt_template
 
 
-def create_subnarrative_system_prompt(narrative: str, definitions_path: str = "data/subnarrative_definitions.csv") -> str:
+def create_subnarrative_system_prompt(
+    narrative: str,
+    definitions_path: str = "data/subnarrative_definitions.csv",
+    prompt_level: str = "P0",
+    tom_analysis: Optional[Dict[str, Any]] = None,
+    language: Optional[str] = None,
+    bertopic_keywords_path: Optional[str] = None,
+    annotation_rules_path: Optional[str] = None,
+) -> str:
     """
     Create a prompt to classify text into subnarratives for a specific narrative.
 
     Args:
-        text: The input text to classify
-        narrative: The parent narrative to get subnarratives for (e.g., "URW: Blaming the war on others rather than the invader")
+        narrative: The parent narrative to get subnarratives for
+            (e.g., "URW: Blaming the war on others rather than the invader")
         definitions_path: Path to the subnarrative definitions CSV file
+        prompt_level: P0 / P1 / P2 (see ``create_narrative_system_prompt``).
+        tom_analysis: Cached ToM Stage 1 output (used at P2 only).
+        language: Language code for BERTopic keyword lookup.
     """
-    
-    # Load taxonomy and definitions
+
+    if prompt_level not in PROMPT_LEVELS:
+        prompt_level = "P0"
+
     taxonomy = load_taxonomy()
     definitions = load_subnarrative_definitions(definitions_path)
-    
-    # Extract category and narrative name from the input narrative
-    # Expected format: "URW: Blaming the war on others rather than the invader"
+    rules = load_annotation_guideline_rules(annotation_rules_path) if prompt_level != "P0" else {}
+    bert_kw = load_bertopic_keywords(bertopic_keywords_path) if prompt_level != "P0" else {}
+
     parts = narrative.split(": ", 1)
     if len(parts) != 2:
         raise ValueError(f"Invalid narrative format. Expected 'Category: Narrative Name', got: {narrative}")
-    
     category, narrative_name = parts
-    
-    # Get subnarratives for the specified narrative from taxonomy
+
     subnarratives = []
     if category in taxonomy and narrative_name in taxonomy[category]:
         subnarratives = taxonomy[category][narrative_name]
-    
-    # Create prefixed subnarratives (with category and narrative prefix)
-    prefixed_subnarratives = []
-    for subnarrative in subnarratives:
-        prefixed_subnarrative = f"{category}: {narrative_name}: {subnarrative}"
-        prefixed_subnarratives.append(prefixed_subnarrative)
 
-    prompt_template = (
+    prefixed_subnarratives = [
+        (s, f"{category}: {narrative_name}: {s}") for s in subnarratives
+    ]
+
+    prompt_template = ""
+    if prompt_level == "P2":
+        prompt_template += _format_tom_block(tom_analysis)
+
+    prompt_template += (
         "You are an expert propaganda narrative analyst with extensive experience in identifying and classifying manipulative communication patterns.\n"
         "This text is known to contain the narrative: "
         f"{narrative}\n"
@@ -157,16 +341,24 @@ def create_subnarrative_system_prompt(narrative: str, definitions_path: str = "d
         "AVAILABLE SUBNARRATIVES:\n\n"
     )
 
-    for subnarrative in prefixed_subnarratives:
-        prompt_template += f"- {subnarrative}\n"
-        definition = definitions.get(subnarrative, {}).get('definition', '')
-        example = definitions.get(subnarrative, {}).get('example', '')
-        instruction = definitions.get(subnarrative, {}).get('instruction', '')
+    for sub_name, prefixed in prefixed_subnarratives:
+        prompt_template += f"- {prefixed}\n"
+        definition = definitions.get(prefixed, {}).get('definition', '')
+        example = definitions.get(prefixed, {}).get('example', '')
+        instruction = definitions.get(prefixed, {}).get('instruction', '')
         prompt_template += f"  Definition: {definition}\n" if definition else ""
         if example:
             prompt_template += f"  Example: {example}\n"
         if instruction:
             prompt_template += f"  Instruction: {instruction}\n"
+        if prompt_level != "P0":
+            prompt_template += _subnarrative_decision_rule(
+                rules, category, narrative_name, sub_name
+            )
+            if language:
+                prompt_template += _bertopic_keywords_for(
+                    bert_kw, language, f"{narrative_name}: {sub_name}"
+                )
         prompt_template += "\n"
     
     prompt_template += (
@@ -292,6 +484,135 @@ def create_subnarrative_refinement_prompt(original_prompt: str, feedback: str) -
         "## ORIGINAL TASK AND DEFINITIONS (Apply these again with the feedback in mind):\n\n"
     )
     return refinement_header + original_prompt
+
+
+def create_tom_analysis_prompt() -> str:
+    """System prompt for ToM Stage 1 analysis (one call per document, cached).
+
+    The model emits a JSON object with presuppositions, intent, target belief
+    change and primary cognitive mechanism. This is consumed by downstream
+    nodes when ``prompt_level == 'P2'`` or when ToM arbitration is enabled.
+    See specs/agora_emnlp_spec.md \u00a75.2.
+    """
+    return (
+        "You are an expert in persuasion and Theory of Mind. You will receive a "
+        "news article and must analyse its persuasive structure \u2014 NOT classify it.\n\n"
+        "Answer THREE questions:\n"
+        "1. PRESUPPOSITIONS: What beliefs or assumptions does this text take for "
+        "granted about its reader? List 1\u20133 short bullet phrases.\n"
+        "2. INTENT: What cognitive or emotional effect does this text aim to "
+        "produce in the reader? Is it trying to induce fear, erode trust, "
+        "reinforce group identity, provoke moral outrage, or something else?\n"
+        "3. TARGET BELIEF CHANGE: After reading this text, what should the "
+        "reader believe that they did not believe before? Be concrete.\n\n"
+        "Then choose ONE primary cognitive mechanism from this set:\n"
+        "  - epistemic: changing what the reader believes is TRUE\n"
+        "  - emotional: triggering fear / hope / sympathy / outrage\n"
+        "  - identity:  reinforcing in-group / out-group affiliation\n"
+        "  - moral:     framing actors as good / evil, hero / villain\n\n"
+        "## OUTPUT FORMAT\n"
+        "Respond with a single valid JSON object \u2014 no markdown, no commentary:\n"
+        "{\n"
+        "  \"presuppositions\": [\"...\", \"...\"],\n"
+        "  \"intent\": \"...\",\n"
+        "  \"target_belief_change\": \"...\",\n"
+        "  \"primary_mechanism\": \"epistemic|emotional|identity|moral\"\n"
+        "}\n"
+    )
+
+
+def create_tom_arbitration_prompt(
+    category: str,
+    agent_predictions: List[List[str]],
+    disagreed_labels: List[str],
+    tom_analysis: Optional[Dict[str, Any]] = None,
+) -> str:
+    """System prompt for the ToM-informed arbitration node.
+
+    Activated when multi-agent narrative predictions disagree on at least one
+    label. The arbiter resolves disagreement using the cached ToM Stage 1
+    analysis as additional context. See specs/agora_emnlp_spec.md \u00a75.3.
+    """
+    formatted_agents = "\n".join(
+        f"  Agent {i+1}: {labels}" for i, labels in enumerate(agent_predictions)
+    )
+    tom_block = _format_tom_block(tom_analysis) if tom_analysis else ""
+    return (
+        tom_block
+        + "You are an arbiter resolving disagreement between propaganda-narrative "
+        f"classifiers. The article was classified for category {category} by "
+        f"{len(agent_predictions)} independent agents who produced different sets:\n"
+        f"{formatted_agents}\n\n"
+        f"Points of disagreement (labels that did NOT have unanimous agreement):\n"
+        f"  {disagreed_labels}\n\n"
+        "## YOUR TASK\n"
+        "For each disagreed label, decide whether it should be in the FINAL set, "
+        "using the cached ToM analysis above as evidence. For each label, ask:\n"
+        "1. Is this label consistent with the article's identified persuasive intent?\n"
+        "2. Does the article's presupposed reader belief align with the belief "
+        "state targeted by this narrative?\n"
+        "3. Could the disagreement reflect genuine ambiguity in the text's "
+        "persuasive strategy? If so, lean towards INCLUDING the label.\n\n"
+        "## OUTPUT FORMAT (JSON only \u2014 no markdown, no extra text)\n"
+        "{\n"
+        "  \"final_narratives\": [\n"
+        "    {\n"
+        "      \"narrative_name\": \"<exact narrative name>\",\n"
+        "      \"evidence_quote\": \"<verbatim quote from the article>\",\n"
+        "      \"reasoning\": \"<why ToM analysis supports including this>\"\n"
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "Include ALL narratives that should be in the final set, including "
+        "those that all agents already agreed on (do not drop unanimous labels)."
+    )
+
+
+def create_disambiguation_prompt(
+    confused_pair_label_a: str,
+    confused_pair_label_b: str,
+    examples_a: List[Dict[str, str]],
+    examples_b: List[Dict[str, str]],
+    decision_rule: str = "",
+) -> str:
+    """System prompt for the confusion-aware disambiguation step.
+
+    Used when an initial prediction includes a label that is part of a known
+    confused pair (from the bistochastic-TCM analysis). Provides hard-negative
+    contrastive examples and asks the model to re-evaluate. See
+    specs/agora_emnlp_spec.md \u00a77.3.
+    """
+    def _fmt_examples(examples: List[Dict[str, str]]) -> str:
+        if not examples:
+            return "  (no examples available)\n"
+        lines = []
+        for ex in examples:
+            excerpt = ex.get("excerpt", "").strip()
+            tom = ex.get("tom_note", "")
+            lines.append(f"  - \"{excerpt}\"")
+            if tom:
+                lines.append(f"    ToM: {tom}")
+        return "\n".join(lines) + "\n"
+
+    return (
+        "You previously classified this article and your prediction included "
+        f"the label [{confused_pair_label_a}]. This label is frequently confused "
+        f"with [{confused_pair_label_b}].\n\n"
+        + (f"Decision rule from the annotation guidelines: {decision_rule}\n\n" if decision_rule else "")
+        + f"## EXAMPLES OF [{confused_pair_label_a}] (NOT the other label):\n"
+        + _fmt_examples(examples_a)
+        + f"\n## EXAMPLES OF [{confused_pair_label_b}] (NOT the other label):\n"
+        + _fmt_examples(examples_b)
+        + "\nGiven these distinctions, re-evaluate the article. Should it be "
+        f"labelled with [{confused_pair_label_a}], [{confused_pair_label_b}], "
+        "BOTH (if there is genuine overlap), or NEITHER?\n\n"
+        "## OUTPUT FORMAT (JSON only)\n"
+        "{\n"
+        "  \"keep_a\": true|false,\n"
+        "  \"keep_b\": true|false,\n"
+        "  \"reasoning\": \"<one short paragraph>\"\n"
+        "}\n"
+    )
 
 
 def create_cleaning_system_prompt() -> str:

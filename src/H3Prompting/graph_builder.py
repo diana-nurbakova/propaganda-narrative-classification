@@ -26,7 +26,10 @@ from graph_nodes import (
     multi_agent_classify_narratives_node,
     multi_agent_classify_subnarratives_node,
     aggregate_multi_agent_narratives,
-    aggregate_multi_agent_subnarratives
+    aggregate_multi_agent_subnarratives,
+    tom_analyze_node,
+    tom_arbitrate_narratives_node,
+    disambiguate_narratives_node,
 )
 
 
@@ -56,41 +59,52 @@ class ConfigurableGraphBuilder:
         print(f"  Narrative Validation: {config.is_narrative_validation_enabled()}")
         print(f"  Subnarrative Validation: {config.is_subnarrative_validation_enabled()}")
         print(f"  Label Cleaning: {config.enable_cleaning}")
+        print(f"  Fuzzy Matching: {config.enable_fuzzy_matching} (threshold={config.fuzzy_threshold})")
         print(f"  Text Cleaning: {config.enable_text_cleaning}")
         print(f"  Multi-agent narratives: {config.num_narrative_agents} agents with {config.narrative_aggregation_method} aggregation")
         print(f"  Multi-agent subnarratives: {config.num_subnarrative_agents} agents with {config.subnarrative_aggregation_method} aggregation")
+        # Print model parameters for reproducibility
+        print(f"  Model params: temperature={config.temperature}, top_p={config.top_p}, max_tokens={config.max_tokens}, seed={config.seed}")
+        if config.experiment_id or config.run_id is not None:
+            print(f"  Experiment: id={config.experiment_id}, run={config.run_id}")
         self._print_model_assignments()
     
     def _initialize_llms(self, config: ClassificationConfig) -> Dict[str, Any]:
-        """Initialize LLMs for each node type and operation."""
+        """Initialize LLMs for each node type and operation with model parameters."""
         llms = {}
-        
+        self.model_names = {}  # Store model names for structured output handling
+
+        # Helper function to initialize LLM with model params
+        def init_llm_with_params(node_type: str, operation: str):
+            model_name = config.get_model_for_node(node_type, operation)
+            model_params = config.get_model_params(node_type, operation)
+            key = f'{node_type}_{operation}'
+            self.model_names[key] = model_name  # Store model name
+            return init_chat_model(model_name, **model_params)
+
         # Cleaning (text preprocessing)
-        llms['cleaning_classification'] = init_chat_model(
-            config.get_model_for_node('cleaning', 'classification')
-        )
-        
-        llms['category_classification'] = init_chat_model(
-            config.get_model_for_node('category', 'classification')
-        )
-        llms['category_validation'] = init_chat_model(
-            config.get_model_for_node('category', 'validation')
-        )
-        
-        llms['narratives_classification'] = init_chat_model(
-            config.get_model_for_node('narratives', 'classification')
-        )
-        llms['narratives_validation'] = init_chat_model(
-            config.get_model_for_node('narratives', 'validation')
-        )
-        
-        llms['subnarratives_classification'] = init_chat_model(
-            config.get_model_for_node('subnarratives', 'classification')
-        )
-        llms['subnarratives_validation'] = init_chat_model(
-            config.get_model_for_node('subnarratives', 'validation')
-        )
-        
+        llms['cleaning_classification'] = init_llm_with_params('cleaning', 'classification')
+
+        # Category classification and validation
+        llms['category_classification'] = init_llm_with_params('category', 'classification')
+        llms['category_validation'] = init_llm_with_params('category', 'validation')
+
+        # Narratives classification and validation
+        llms['narratives_classification'] = init_llm_with_params('narratives', 'classification')
+        llms['narratives_validation'] = init_llm_with_params('narratives', 'validation')
+
+        # Subnarratives classification and validation
+        llms['subnarratives_classification'] = init_llm_with_params('subnarratives', 'classification')
+        llms['subnarratives_validation'] = init_llm_with_params('subnarratives', 'validation')
+
+        # EMNLP revision: ToM Stage 1 + arbitration + disambiguation share
+        # the default model. They reuse the narrative-classification LLM if
+        # no per-node override is set.
+        if config.enable_tom_stage1 or config.enable_tom_arbitration or config.enable_disambiguation:
+            llms['tom_analysis'] = init_llm_with_params('narratives', 'classification')
+            llms['tom_arbitration'] = init_llm_with_params('narratives', 'classification')
+            llms['disambiguation'] = init_llm_with_params('narratives', 'classification')
+
         return llms
     
     def _print_model_assignments(self):
@@ -128,48 +142,88 @@ class ConfigurableGraphBuilder:
     
     def _create_narratives_node(self):
         """Create narratives classification node wrapper."""
+        prompt_level = self.config.prompt_level
+        language = self.config.language
         if self.config.num_narrative_agents > 1:
             async def _multi_agent_classify_narratives_node(state: ClassificationState) -> dict:
-                return await multi_agent_classify_narratives_node(state, self.llms['narratives_classification'], self.config.num_narrative_agents)
+                return await multi_agent_classify_narratives_node(
+                    state, self.llms['narratives_classification'],
+                    self.config.num_narrative_agents,
+                    self.model_names.get('narratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
+                )
             return _multi_agent_classify_narratives_node
         else:
             def _classify_narratives_node(state: ClassificationState) -> dict:
-                return classify_narratives_node(state, self.llms['narratives_classification'])
+                return classify_narratives_node(
+                    state, self.llms['narratives_classification'],
+                    self.model_names.get('narratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
+                )
             return _classify_narratives_node
     
     def _create_validate_narratives_node(self):
         """Create narratives validation node wrapper."""
         def _validate_narratives_node(state: ClassificationState) -> dict:
-            return validate_narratives_node(state, self.llms['narratives_validation'], self.taxonomy)
+            return validate_narratives_node(
+                state, self.llms['narratives_validation'], self.taxonomy,
+                self.model_names.get('narratives_validation', '')
+            )
         return _validate_narratives_node
     
     def _create_clean_narratives_node(self):
         """Create narratives cleaning node wrapper."""
         def _clean_narratives_node(state: ClassificationState) -> dict:
-            return clean_narratives_node(state, self.flat_narratives)
+            return clean_narratives_node(
+                state, self.flat_narratives,
+                enable_fuzzy=self.config.enable_fuzzy_matching,
+                fuzzy_threshold=self.config.fuzzy_threshold
+            )
         return _clean_narratives_node
     
     def _create_subnarratives_node(self):
         """Create subnarratives classification node wrapper."""
+        prompt_level = self.config.prompt_level
+        language = self.config.language
         if self.config.num_subnarrative_agents > 1:
             async def _multi_agent_classify_subnarratives_node(state: ClassificationState) -> dict:
-                return await multi_agent_classify_subnarratives_node(state, self.llms['subnarratives_classification'], self.config.num_subnarrative_agents)
+                return await multi_agent_classify_subnarratives_node(
+                    state, self.llms['subnarratives_classification'],
+                    self.config.num_subnarrative_agents,
+                    self.model_names.get('subnarratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
+                )
             return _multi_agent_classify_subnarratives_node
         else:
             async def _classify_subnarratives_node(state: ClassificationState) -> dict:
-                return await classify_subnarratives_node(state, self.llms['subnarratives_classification'])
+                return await classify_subnarratives_node(
+                    state, self.llms['subnarratives_classification'],
+                    self.model_names.get('subnarratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
+                )
             return _classify_subnarratives_node
     
     def _create_validate_subnarratives_node(self):
         """Create subnarratives validation node wrapper."""
         def _validate_subnarratives_node(state: ClassificationState) -> dict:
-            return validate_subnarratives_node(state, self.llms['subnarratives_validation'], self.taxonomy)
+            return validate_subnarratives_node(
+                state, self.llms['subnarratives_validation'], self.taxonomy,
+                self.model_names.get('subnarratives_validation', '')
+            )
         return _validate_subnarratives_node
     
     def _create_clean_subnarratives_node(self):
         """Create subnarratives cleaning node wrapper."""
         def _clean_subnarratives_node(state: ClassificationState) -> dict:
-            return clean_subnarratives_node(state, self.flat_subnarratives)
+            return clean_subnarratives_node(
+                state, self.flat_subnarratives,
+                enable_fuzzy=self.config.enable_fuzzy_matching,
+                fuzzy_threshold=self.config.fuzzy_threshold
+            )
         return _clean_subnarratives_node
     
     def _create_narrative_aggregation_node(self):
@@ -184,21 +238,101 @@ class ConfigurableGraphBuilder:
             return aggregate_multi_agent_subnarratives(state, self.config.subnarrative_aggregation_method)
         return _aggregate_multi_agent_subnarratives
     
+    def _create_tom_analyze_node(self):
+        """Create the ToM Stage 1 analysis node wrapper (cached per doc)."""
+        async def _tom_analyze(state: ClassificationState) -> dict:
+            return await tom_analyze_node(state, self.llms['tom_analysis'])
+        return _tom_analyze
+
+    def _create_tom_arbitrate_node(self):
+        """Create the ToM-informed arbitration node wrapper."""
+        prompt_level = self.config.prompt_level
+        async def _tom_arbitrate(state: ClassificationState) -> dict:
+            return await tom_arbitrate_narratives_node(
+                state, self.llms['tom_arbitration'],
+                self.model_names.get('narratives_classification', ''),
+                prompt_level=prompt_level,
+            )
+        return _tom_arbitrate
+
+    def _create_disambiguate_node(self):
+        """Create the confusion-aware disambiguation node wrapper."""
+        captured_path = self.config.disambiguation_pairs_path or "data/disambiguation_pairs.json"
+        async def _disambiguate(state: ClassificationState) -> dict:
+            return await disambiguate_narratives_node(
+                state, self.llms['disambiguation'],
+                self.model_names.get('narratives_classification', ''),
+                confused_pairs_path=captured_path,
+            )
+        return _disambiguate
+
     def _create_results_node(self):
         """Create results writing node wrapper."""
+        # Capture output_file at closure creation time, not execution time
+        # This is critical for multi-run experiments where multiple graphs are created
+        captured_output_file = self.config.output_file
+        captured_enable_vote_saving = self.config.enable_vote_saving
+        captured_narr_agg = self.config.narrative_aggregation_method
+        captured_sub_agg = self.config.subnarrative_aggregation_method
         def _write_results_node(state: ClassificationState) -> dict:
-            result = write_results_node(state, self.config.output_file)
+            result = write_results_node(
+                state,
+                captured_output_file,
+                enable_vote_saving=captured_enable_vote_saving,
+                narrative_agg_method=captured_narr_agg,
+                subnarrative_agg_method=captured_sub_agg,
+            )
             return result if result is not None else {}
         return _write_results_node
     
     def _create_routing_functions(self):
         """Create routing functions for the graph."""
+        tom_stage1_enabled = self.config.enable_tom_stage1
+        tom_arb_enabled = (
+            self.config.enable_tom_arbitration
+            and self.config.num_narrative_agents > 1
+        )
+        disambig_enabled = self.config.enable_disambiguation
+
         def route_after_category_with_config(state: ClassificationState) -> str:
             category = state.get("category")
             if category == "Other":
                 return "handle_other_category"
-            else:
-                return "narratives"
+            if tom_stage1_enabled:
+                return "tom_analyze"
+            return "narratives"
+
+        def route_after_narrative_aggregation_with_arb(state: ClassificationState) -> str:
+            if tom_arb_enabled and state.get("narrative_disagreement_detected"):
+                return "tom_arbitrate"
+            if self.config.enable_cleaning:
+                return "clean_narratives"
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            return "subnarratives"
+
+        def route_after_tom_arbitration(state: ClassificationState) -> str:
+            if self.config.enable_cleaning:
+                return "clean_narratives"
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            return "subnarratives"
+
+        def route_after_clean_narratives_with_disambig(state: ClassificationState) -> str:
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            if disambig_enabled:
+                return "disambiguate_narratives"
+            return "subnarratives"
+
+        def route_after_disambiguate(state: ClassificationState) -> str:
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            return "subnarratives"
         
         def route_after_narrative_validation(state: ClassificationState) -> str:
             """Route based on narrative validation feedback."""
@@ -260,9 +394,12 @@ class ConfigurableGraphBuilder:
             "route_after_category": route_after_category_with_config,
             "route_after_narrative_validation": route_after_narrative_validation,
             "route_after_subnarrative_validation": route_after_subnarrative_validation,
-            "route_after_clean_narratives": route_after_clean_narratives,
-            "route_after_narrative_aggregation": route_after_narrative_aggregation,
-            "route_after_subnarrative_aggregation": route_after_subnarrative_aggregation
+            # ToM/disambiguation overrides
+            "route_after_clean_narratives": route_after_clean_narratives_with_disambig,
+            "route_after_narrative_aggregation": route_after_narrative_aggregation_with_arb,
+            "route_after_subnarrative_aggregation": route_after_subnarrative_aggregation,
+            "route_after_tom_arbitration": route_after_tom_arbitration,
+            "route_after_disambiguate": route_after_disambiguate,
         }
     
     def build_graph(self):
@@ -283,7 +420,16 @@ class ConfigurableGraphBuilder:
         builder.add_node("categories", self._create_category_node())
         builder.add_node("handle_other_category", self._create_other_category_node())
         builder.add_node("handle_empty_narratives", self._create_empty_narratives_node())
+        if self.config.enable_tom_stage1:
+            print("[GraphBuilder] Adding ToM Stage 1 (cached per-doc) node")
+            builder.add_node("tom_analyze", self._create_tom_analyze_node())
         builder.add_node("narratives", self._create_narratives_node())
+        if self.config.enable_tom_arbitration and self.config.num_narrative_agents > 1:
+            print("[GraphBuilder] Adding ToM arbitration node")
+            builder.add_node("tom_arbitrate", self._create_tom_arbitrate_node())
+        if self.config.enable_disambiguation:
+            print("[GraphBuilder] Adding disambiguation node")
+            builder.add_node("disambiguate_narratives", self._create_disambiguate_node())
         builder.add_node("subnarratives", self._create_subnarratives_node())
         builder.add_node("write_results", self._create_results_node())
         
@@ -324,9 +470,14 @@ class ConfigurableGraphBuilder:
         else:
             builder.add_edge(START, "categories")
         builder.add_conditional_edges("categories", routing_functions["route_after_category"])
-        
+
+        # ToM Stage 1 sits between categories and narratives so that the
+        # cached analysis is available before the first classification call.
+        if self.config.enable_tom_stage1:
+            builder.add_edge("tom_analyze", "narratives")
+
         builder.add_edge("handle_other_category", "write_results")
-        
+
         builder.add_edge("handle_empty_narratives", "write_results")
         
         # Build narrative flow based on granular configuration
@@ -352,10 +503,26 @@ class ConfigurableGraphBuilder:
             builder.add_conditional_edges("aggregate_narratives", routing_functions["route_after_narrative_aggregation"])
         if self.config.num_subnarrative_agents > 1:
             builder.add_conditional_edges("aggregate_subnarratives", routing_functions["route_after_subnarrative_aggregation"])
-        
+
+        # ToM arbitration node — emitted by route_after_narrative_aggregation
+        # when disagreement is detected. Routes to clean_narratives or
+        # subnarratives via route_after_tom_arbitration.
+        if self.config.enable_tom_arbitration and self.config.num_narrative_agents > 1:
+            builder.add_conditional_edges(
+                "tom_arbitrate", routing_functions["route_after_tom_arbitration"]
+            )
+
         # Clean narratives flow (if enabled)
         if cleaning:
             builder.add_conditional_edges("clean_narratives", routing_functions["route_after_clean_narratives"])
+
+        # Disambiguation node — emitted by route_after_clean_narratives_with_disambig
+        # when enable_disambiguation is set. Routes to subnarratives via
+        # route_after_disambiguate.
+        if self.config.enable_disambiguation:
+            builder.add_conditional_edges(
+                "disambiguate_narratives", routing_functions["route_after_disambiguate"]
+            )
         
         # Subnarrative flow
         if subnarrative_validation:

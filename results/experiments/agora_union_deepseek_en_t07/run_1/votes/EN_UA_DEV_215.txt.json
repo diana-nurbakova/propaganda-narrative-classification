@@ -1,0 +1,190 @@
+{
+  "file_id": "EN_UA_DEV_215.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+        "reasoning": "This statement directly undermines the legitimacy and character of the Ukrainian state by asserting widespread, pre-existing corruption as a universally accepted fact, fitting the definition of attacking an aspect of Ukrainian society."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The over $62 billion in aid the Pentagon sent Ukraine in 2022 is a war profiteer’s dream, and there are varying voices in the U.S. government that have expressed concern about massive fraud and the potential for weapons and technology to end up in the wrong hands.",
+        "reasoning": "This quote criticizes Western (specifically U.S.) policy and aid efforts by framing them as enabling massive fraud and irresponsible distribution of weapons, suggesting incompetence or negative consequences of Western actions."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "The even bigger concern is that the American public may soften its stance on defending Ukraine against Russia because of this. The more corruption and contract fraud comes to light, the less American taxpayers are willing to foot the bill...",
+        "reasoning": "This statement predicts an adverse outcome for Western (U.S.) interests, specifically a loss of public support for Ukraine aid due to revealed corruption, which aligns with highlighting negative impacts on Western nations."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+        "reasoning": "This statement directly attacks the character and legitimacy of the Ukrainian state by asserting widespread, pre-existing corruption, which aligns with the narrative of undermining Ukraine's societal and governmental integrity."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it.",
+        "reasoning": "This quote criticizes the motives of Western (specifically American) aid, portraying it as self-interested and cynical rather than genuinely humanitarian or supportive, which fits the narrative of discrediting Western actions and diplomacy."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Pulitzer Prize-winning former New York Times journalist of Watergate fame, Seymour Hersh, is frequently accused of spreading Russian propaganda for thinly sourced claims related to the war in Ukraine.",
+        "reasoning": "This statement introduces a journalist whose claims are controversial and framed as 'thinly sourced,' implicitly questioning the reliability of mainstream media narratives and accusations, thereby sowing distrust in media reporting on the war."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+        "reasoning": "This statement directly attacks the character of Ukraine as a nation, framing it as inherently and historically corrupt, which aligns with the narrative of undermining Ukraine's legitimacy and actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it.",
+        "reasoning": "This quote criticizes the intentions and policies of the West (specifically the U.S.), suggesting hypocrisy and selfish motives behind its support for Ukraine, which fits the definition of discrediting Western actions and diplomacy."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "matched": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

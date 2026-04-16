@@ -1,0 +1,240 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t07",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 15,
+    "matched": 15,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200078.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200078.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100012.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "narrative",
+      "original_label": "Diplomacy",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_22.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 12,
+    "matched": 12,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200070.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is hypocritical",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Ukraine is associated with nationalism",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 94.4,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is a threat to global stability",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Ukraine is associated with nationalism",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 94.4,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100003.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is tired of Ukraine",
+      "matched_label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100005.txt",
+      "label_type": "subnarrative",
+      "original_label": "Russia is the Victim: The West is russophobic",
+      "matched_label": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100013.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Blaming the war on others rather than the invader: Ukraine is a puppet of the West",
+      "matched_label": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 94.44444444444444,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100013.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Ukraine is associated with! nazism",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 99.17355371900827,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_215.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Ukraine is corrupt",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 90.2439024390244,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is escalating the conflict",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is escalating the conflict",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is aggressive and expansionist",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "file_id": "EN_UA_DEV_100026.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "As a result of the Russia–Ukraine war, the sanctions regime imposed on Russia by the United States and the West, and the sabotage of the Nord Stream pipelines, Germany has been forced to find alternative sources of emergency fuel stock to keep its lights on and its citizens from freezing.",
+        "reasoning": "The quote lists the war, sanctions, and pipeline sabotage as causes of Germany's energy crisis. By placing the 'sanctions regime imposed by the United States and the West' as a primary cause alongside the war itself, it shifts blame for the negative economic consequences away from Russia's invasion and onto Western policy responses."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Germany’s electricity prices are now among the highest on the planet... Overall, those European nations that relied most heavily on Russian gas are paying more for electricity than other countries and suffering worse inflation as a result.",
+        "reasoning": "The text explicitly highlights severe adverse economic outcomes (high electricity prices, inflation) for Germany and other European nations as a direct result of the disruption of Russian gas supplies, which aligns with the narrative of predicting or reporting negative impacts on Western countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "But why should the German people suffer for the idiocy of their leaders?",
+        "reasoning": "This rhetorical question directly criticizes and portrays Western (German) leadership as incompetent and foolish ('idiocy'), which fits the narrative of discrediting Western governments and their policies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "As a result of the Russia–Ukraine war, the sanctions regime imposed on Russia by the United States and the West, and the sabotage of the Nord Stream pipelines, Germany has been forced to find alternative sources of emergency fuel stock",
+        "reasoning": "The quote attributes Germany's energy crisis to the war and the Western sanctions regime, presenting them as the cause of hardship rather than Russia's decision to invade Ukraine. It shifts blame for negative economic consequences away from Russia and onto the West's response."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Germany’s electricity prices are now among the highest on the planet... Overall, those European nations that relied most heavily on Russian gas are paying more for electricity than other countries and suffering worse inflation as a result.",
+        "reasoning": "The text explicitly highlights severe adverse economic outcomes (high electricity prices, inflation) for Germany and other European nations as a direct result of the disruption of Russian gas, which aligns with the narrative of predicting or reporting negative impacts on Western countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "These near-sighted and self-sabotaging policies effectively destroyed Germany’s highly efficient and inexpensive domestic energy production capacity... Germany’s leaders have been willing to bankrupt its economy, impoverish its people, and plunge the nation into darkness for a rounding error.",
+        "reasoning": "The text heavily criticizes the policies and leadership of Germany (a Western nation), portraying its energy and climate policies as foolish, self-destructive, and driven by virtue signaling rather than practical sense. This undermines the competence and legitimacy of Western governance."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "As a result of the Russia–Ukraine war, the sanctions regime imposed on Russia by the United States and the West, and the sabotage of the Nord Stream pipelines, Germany has been forced to find alternative sources of emergency fuel stock",
+        "reasoning": "This quote explicitly lists the war, Western sanctions, and pipeline sabotage as the causes of Germany's energy crisis, framing these factors as the destructive agents. It omits Russia's responsibility for initiating the invasion, thereby shifting blame for the negative economic consequences onto the West's response and other events."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Germany’s electricity prices are now among the highest on the planet... Overall, those European nations that relied most heavily on Russian gas are paying more for electricity than other countries and suffering worse inflation as a result.",
+        "reasoning": "The text directly highlights severe adverse economic outcomes (high electricity prices, inflation) for Germany and other European nations as a consequence of the disrupted energy supply linked to the sanctions regime and war, fitting the narrative of predicting or reporting negative impacts on Western countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "These near-sighted and self-sabotaging policies effectively destroyed Germany’s highly efficient and inexpensive domestic energy production capacity... But all of this was forsaken in the quixotic pursuit of a utopian vision of zero-carbon green energy.",
+        "reasoning": "This quote strongly criticizes the energy policies implemented by German (Western) leadership, portraying them as foolish, destructive, and driven by an unrealistic ideology. This fits the narrative of discrediting Western governments and their policies by suggesting incompetence and misguided priorities."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Negative Consequences for the West",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: West is tired of Ukraine"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "matched": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

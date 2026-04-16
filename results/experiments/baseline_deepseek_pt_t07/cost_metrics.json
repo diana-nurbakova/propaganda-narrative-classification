@@ -1,0 +1,17 @@
+{
+  "experiment_id": "baseline_deepseek_pt_t07",
+  "config_name": "baseline_deepseek_pt_t07",
+  "model_name": "deepseek:deepseek-chat",
+  "total_documents": 35,
+  "total_api_calls": 105,
+  "total_input_tokens": 210000,
+  "total_output_tokens": 52500,
+  "total_cost_usd": 0.0441,
+  "total_latency_ms": 47894.97,
+  "num_narrative_agents": 1,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": 0.3288
+}

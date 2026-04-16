@@ -1,0 +1,72 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_together_llama33_70b_en_t07",
+    "run_id": 2
+  },
+  "narrative_matching": {
+    "total": 3,
+    "matched": 3,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200078.txt",
+      "label_type": "narrative",
+      "original_label": "CC: Criticism of! climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 98.50746268656717,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Discrediting Ukraine",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 3,
+    "matched": 3,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Dis!crediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting; URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests is not present; instead we have URW: Discrediting the West, Diplomacy: Diplomacy does/will not work is not present; instead we have URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The EU is divided is not present; instead we have URW: Discrediting the West, Diplomacy: West is tired of Ukraine is not present; instead we have URW: Discrediting the West, Diplomacy: Other",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "matched": true
+    }
+  ]
+}

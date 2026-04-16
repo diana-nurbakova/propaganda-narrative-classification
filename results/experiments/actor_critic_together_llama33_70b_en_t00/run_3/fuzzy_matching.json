@@ -1,0 +1,151 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t00",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "narrative_matches": [],
+  "subnarrative_matching": {
+    "total": 16,
+    "matched": 13,
+    "unmatched": 3,
+    "match_rate": 0.8125
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_100012.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is fighting for its interests",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Russia is militarily weak",
+      "matched_label": null,
+      "score": 65.93406593406593,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Russia's actions are ineffective",
+      "matched_label": null,
+      "score": 63.829787234042556,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine: Ukraine's military is capable",
+      "matched_label": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 72.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes: Ukraine will prevail",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 90.9090909090909,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 89.23076923076923,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia: Russia is failing",
+      "matched_label": null,
+      "score": 61.855670103092784,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 89.23076923076923,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine: Ukraine's military is capable",
+      "matched_label": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 72.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 89.23076923076923,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West: Other",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 90.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine: Other",
+      "matched_label": "URW: Praise of Russia: Other",
+      "score": 84.21052631578948,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is expanding its influence",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is expanding its influence",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is expanding its influence",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    }
+  ]
+}

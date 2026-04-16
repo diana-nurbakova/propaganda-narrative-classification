@@ -1,3 +1,4 @@
+import asyncio
 import os
 from typing import Any, List, NotRequired
 from typing_extensions import TypedDict
@@ -115,9 +116,10 @@ initial_states_batch = [{"text": text, "file_id": file_id} for text, file_id in 
 print(f"[graph] Initial states batch prepared with {len(initial_states_batch)} items.")
 
 async def main():
-    await classification_graph.abatch(initial_states_batch, config=config)
+    # Use asyncio.gather with individual ainvoke calls to avoid coroutine warnings
+    tasks = [classification_graph.ainvoke(state, config=config) for state in initial_states_batch]
+    await asyncio.gather(*tasks, return_exceptions=True)
     
 if __name__ == "__main__":
-    import asyncio
     asyncio.run(main())
     

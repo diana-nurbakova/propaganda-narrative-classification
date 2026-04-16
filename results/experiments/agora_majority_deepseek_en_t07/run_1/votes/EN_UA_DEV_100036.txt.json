@@ -1,0 +1,122 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This quote explicitly highlights the psychological impact of the war and emphasizes the uncertainty and lack of an end in sight, which serves to evoke anxiety and fear about the ongoing and indefinite nature of the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "This crisis in healthcare is set against a backdrop of long-standing distrust in mental health services in Ukraine, a legacy of the Soviet era when the psychiatric system was used to oppress dissidents and enemies of the state. A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments.",
+        "reasoning": "The quote highlights a systemic flaw within Ukraine's own society and historical institutions, portraying its mental health system as oppressive and untrustworthy. This undermines the legitimacy and effectiveness of Ukrainian societal structures."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The impact of the war extends beyond physical damage, as it profoundly traumatizes Ukrainian society and threatens to affect future generations.",
+        "reasoning": "The statement evokes fear and anxiety by emphasizing severe, long-lasting societal trauma that will impact future generations, amplifying concerns about the war's deep and enduring psychological consequences."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Without robust mental healthcare services, there is widespread worry about the challenges these veterans may face in reintegrating into their communities and dealing with PTSD from the war.",
+        "reasoning": "This statement predicts negative future outcomes for Ukrainian society, specifically the potential failure to reintegrate veterans and manage PTSD, which speculates on the detrimental consequences of the ongoing conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "This quote highlights a negative perception of Ukraine's own mental health infrastructure, framing it as a legacy of a repressive Soviet system. It discredits the current state of Ukrainian institutions by associating them with past oppression and portraying them as ineffective and prison-like, which undermines confidence in the nation's capacity to handle the crisis."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement emphasizes the profound and ongoing psychological trauma, explicitly stating 'there is no end in sight,' which amplifies fear and anxiety about the war's duration and its lasting, generational impact on Ukrainian society."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

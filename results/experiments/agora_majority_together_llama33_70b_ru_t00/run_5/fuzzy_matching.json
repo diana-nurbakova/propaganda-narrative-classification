@@ -1,0 +1,48 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_majority_together_llama33_70b_ru_t00",
+    "run_id": 5
+  },
+  "narrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "RU-URW-1166.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "RU-URW-1004.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is divided",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 97.02970297029702,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1061.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is responsible for the conflict",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    }
+  ]
+}

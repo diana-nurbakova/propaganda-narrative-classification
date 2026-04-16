@@ -1,0 +1,2364 @@
+[Logging] Output will be saved to: results\experiments\baseline_mistral_pt_t00\experiment_baseline_mistral_pt_t00_20260209_140506.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_mistral_pt_t00
+============================================================
+Base config: configs/experiments/generated/core/baseline_mistral_pt_t00.yaml
+Number of runs: 5
+Base seed: 42
+Output directory: results/experiments/baseline_mistral_pt_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943, 1051802512, 958682846]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_g7znr0t4\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_g7znr0t4\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/PT/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=baseline_mistral_pt_t00, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/PT/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_pt_t00\run_1\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: PT_201.txt, PT_202.txt, PT_203.txt, PT_204.txt, PT_205.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC[graph] Category classification complete -> CC
+
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_201.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_203.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_205.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_204.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Controversy about green technologies', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Narratives classification complete -> [][graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] No narratives to clean. Skipping.[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Criticism of institutions and authorities'][graph] No narratives classified, setting empty subnarratives.
+
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Writing results for file PT_206.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_208.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Green policies are geopolitical instruments', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_209.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_210.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_202.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Criticism of climate movement', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_207.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Controversy about green technologies', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_211.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Questioning the measurements and science']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Questioning the measurements and science' -> 'CC: Questioning the measurements and science' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_213.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Downplaying climate change', 'Criticism of institutions and authorities', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_216.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_217.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_220.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Downplaying climate change', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Amplifying Climate Fears', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_221.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_226.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_224.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of climate policies', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'CC: Criticism of climate policies: Climate policies have negative impact on the environment (Other)' -> 'CC: Criticism of climate policies: Climate policies have negative impact on the economy' (score: 94.7)
+[graph] Writing results for file PT_225.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Downplaying climate change']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_229.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_230.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_228.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_234.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Could not extract JSON from response, using defaults
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_232.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_233.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_237.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_239.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_241.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_244.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_245.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_249.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_250.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_253.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_254.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_259.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_pt_t00\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_pt_t00\run_1\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.7350, 335.81s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_pt_t00\run_1\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 49/49 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 1/1 matched (100.0%)
+
+[Multi-Run] Waiting 30s before run 2 to avoid rate limits...
+
+[Run 2] Starting with seed=107420369
+[Run 2] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_hbybg1zm\run_2_config.yaml
+[Run 2] Output: results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_hbybg1zm\run_2_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/PT/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=107420369
+  Experiment: id=baseline_mistral_pt_t00, run=2
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/PT/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_pt_t00\run_2\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: PT_201.txt, PT_202.txt, PT_203.txt, PT_204.txt, PT_205.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_201.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_204.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_205.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Amplifying Climate Fears', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Controversy about green technologies', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_206.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Green policies are geopolitical instruments', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_202.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_203.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_209.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_208.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_210.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_207.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Controversy about green technologies', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_211.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_213.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_216.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Downplaying climate change', 'Criticism of institutions and authorities', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Criticism of institutions and authorities', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_217.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_220.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Downplaying climate change', 'Controversy about green technologies', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Amplifying Climate Fears', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_221.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_226.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_224.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_225.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Downplaying climate change', 'Questioning the measurements and science']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Questioning the measurements and science' -> 'CC: Questioning the measurements and science' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_228.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_230.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Questioning the measurements and science']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Questioning the measurements and science' -> 'CC: Questioning the measurements and science' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_229.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_234.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities', 'Downplaying climate change']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_232.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim'][graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+
+[graph] Cleaning narratives (with fuzzy matching)[graph] Cleaning narratives (with fuzzy matching)
+
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_233.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_239.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Russia is the Victim', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_237.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_241.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_245.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_244.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_249.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_250.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_253.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_254.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_259.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_pt_t00\run_2\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_pt_t00\run_2\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.7350, 361.93s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_pt_t00\run_2\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 56/56 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 0/0 matched (0.0%)
+
+[Multi-Run] Waiting 30s before run 3 to avoid rate limits...
+
+[Run 3] Starting with seed=1181241943
+[Run 3] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_ro_ci5sy\run_3_config.yaml
+[Run 3] Output: results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_ro_ci5sy\run_3_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/PT/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=1181241943
+  Experiment: id=baseline_mistral_pt_t00, run=3
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/PT/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_pt_t00\run_3\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: PT_201.txt, PT_202.txt, PT_203.txt, PT_204.txt, PT_205.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> CC[graph] Category classification complete -> CC
+
+[graph] Starting narratives classification node for category CC[graph] Starting narratives classification node for category CC
+
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_201.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_204.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_205.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Controversy about green technologies', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Amplifying Climate Fears', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_206.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Green policies are geopolitical instruments', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_202.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_208.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_203.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_210.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_209.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_207.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Controversy about green technologies', 'Criticism of climate movement']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_211.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Questioning the measurements and science']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Questioning the measurements and science' -> 'CC: Questioning the measurements and science' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_213.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_217.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Downplaying climate change', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_216.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_220.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Downplaying climate change', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Could not extract JSON from response, using defaults
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_225.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Downplaying climate change', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Downplaying climate change', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_221.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_226.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_224.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_228.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Downplaying climate change', 'Questioning the measurements and science']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Questioning the measurements and science' -> 'CC: Questioning the measurements and science' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities', 'Downplaying climate change']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_229.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_230.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_234.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_232.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_233.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_239.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_237.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_241.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_245.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_244.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_249.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_250.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_253.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_254.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_259.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_pt_t00\run_3\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_pt_t00\run_3\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.7350, 342.86s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_pt_t00\run_3\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 49/49 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 0/0 matched (0.0%)
+
+[Multi-Run] Waiting 30s before run 4 to avoid rate limits...
+
+[Run 4] Starting with seed=1051802512
+[Run 4] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_luz5djts\run_4_config.yaml
+[Run 4] Output: results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_luz5djts\run_4_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/PT/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=1051802512
+  Experiment: id=baseline_mistral_pt_t00, run=4
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/PT/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_pt_t00\run_4\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: PT_201.txt, PT_202.txt, PT_203.txt, PT_204.txt, PT_205.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_201.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_204.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_205.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Controversy about green technologies', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Amplifying Climate Fears', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_206.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Green policies are geopolitical instruments', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_202.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_208.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_203.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_210.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_209.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_207.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Criticism of climate movement', 'Controversy about green technologies', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Controversy about green technologies', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_211.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_213.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_216.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Downplaying climate change', 'Criticism of institutions and authorities', 'Questioning the measurements and science']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Questioning the measurements and science' -> 'CC: Questioning the measurements and science' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Criticism of institutions and authorities', 'CC: Questioning the measurements and science']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_217.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Downplaying climate change', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Could not extract JSON from response, using defaults
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_220.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Amplifying Climate Fears', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_221.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_224.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_226.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Downplaying climate change', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'CC: Criticism of climate policies: Climate policies have negative impact on the environment' -> 'CC: Criticism of climate policies: Climate policies have negative impact on the economy' (score: 94.7)
+[graph] Writing results for file PT_225.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_228.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_229.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Could not extract JSON from response, using defaults
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_232.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_230.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_233.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_234.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_239.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_237.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_241.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_245.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_244.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_249.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_253.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_250.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_259.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_254.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_pt_t00\run_4\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_pt_t00\run_4\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.7350, 353.11s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_pt_t00\run_4\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 55/55 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 1/1 matched (100.0%)
+
+[Multi-Run] Waiting 30s before run 5 to avoid rate limits...
+
+[Run 5] Starting with seed=958682846
+[Run 5] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_9eph43sg\run_5_config.yaml
+[Run 5] Output: results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_mistral_pt_t00_9eph43sg\run_5_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: mistralai:mistral-large-latest
+  Input: data/dev-documents_4_December/PT/subtask-2-documents/
+  Output: results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=958682846
+  Experiment: id=baseline_mistral_pt_t00, run=5
+[GraphBuilder] Model assignments:
+  Cleaning classification: mistral-large-latest
+  Category classification: mistral-large-latest
+  Category validation: mistral-large-latest
+  Narratives classification: mistral-large-latest
+  Narratives validation: mistral-large-latest
+  Subnarratives classification: mistral-large-latest
+  Subnarratives validation: mistral-large-latest
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/PT/subtask-2-documents/
+[utils] Output file results\experiments\baseline_mistral_pt_t00\run_5\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: PT_201.txt, PT_202.txt, PT_203.txt, PT_204.txt, PT_205.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC[graph] Category classification complete -> CC
+
+[graph] Starting narratives classification node for category CC[graph] Starting narratives classification node for category CC
+
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_201.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_204.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Controversy about green technologies', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_205.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_206.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_202.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file PT_208.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Green policies are geopolitical instruments', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_203.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_210.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_209.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities', 'Downplaying climate change']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities', 'CC: Downplaying climate change']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Criticism of climate movement', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Criticism of climate movement', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_207.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_211.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Controversy about green technologies', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_213.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_217.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Downplaying climate change', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Downplaying climate change', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_216.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Criticism of institutions and authorities', 'Green policies are geopolitical instruments']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Green policies are geopolitical instruments' -> 'CC: Green policies are geopolitical instruments' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Criticism of institutions and authorities', 'CC: Green policies are geopolitical instruments']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Downplaying climate change', 'Controversy about green technologies', 'Criticism of climate movement']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Controversy about green technologies', 'CC: Criticism of climate movement']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_220.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of institutions and authorities', 'Criticism of climate policies', 'Amplifying Climate Fears', 'Criticism of climate movement', 'Controversy about green technologies']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of climate movement' -> 'CC: Criticism of climate movement' (score: 100.0)
+[graph] Fuzzy matched 'Controversy about green technologies' -> 'CC: Controversy about green technologies' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of institutions and authorities', 'CC: Criticism of climate policies', 'CC: Amplifying Climate Fears', 'CC: Criticism of climate movement', 'CC: Controversy about green technologies']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_221.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_226.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_224.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_228.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Criticism of climate policies', 'Downplaying climate change', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Criticism of climate policies' -> 'CC: Criticism of climate policies' (score: 100.0)
+[graph] Fuzzy matched 'Downplaying climate change' -> 'CC: Downplaying climate change' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Downplaying climate change', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Fuzzy matched 'CC: Criticism of climate policies: Climate policies have negative impact on the environment (Other)' -> 'CC: Criticism of climate policies: Climate policies have negative impact on the economy' (score: 94.7)
+[graph] Writing results for file PT_225.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[structured_output] Warning: Could not extract JSON from response, using defaults
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_232.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_229.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file PT_234.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_230.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Criticism of institutions and authorities']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Amplifying Climate Fears' -> 'CC: Amplifying Climate Fears' (score: 100.0)
+[graph] Fuzzy matched 'Criticism of institutions and authorities' -> 'CC: Criticism of institutions and authorities' (score: 100.0)
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_239.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_233.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Russia is the Victim', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_241.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_237.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_245.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_244.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Distrust towards Media', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_249.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_250.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_253.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Cleaning narratives (with fuzzy matching)
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_254.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives (with fuzzy matching)
+[graph] Writing results for file PT_259.txt
+[graph] Results written to results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_mistral_pt_t00\run_5\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_mistral_pt_t00\run_5\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.7350, 379.98s
+[Main] Fuzzy matching tracking saved to: results\experiments\baseline_mistral_pt_t00\run_5\fuzzy_matching.json
+[Main] Narrative fuzzy matching: 52/52 matched (100.0%)
+[Main] Subnarrative fuzzy matching: 1/1 matched (100.0%)
+
+============================================================
+EXPERIMENT COMPLETED: baseline_mistral_pt_t00
+============================================================
+Total runs: 5
+Successful: 5
+Failed: 0
+Total duration: 1775.52 seconds
+Manifest saved to: results\experiments\baseline_mistral_pt_t00\experiment_manifest.json
+============================================================
+

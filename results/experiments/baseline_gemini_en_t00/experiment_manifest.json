@@ -1,0 +1,71 @@
+{
+  "experiment_id": "baseline_gemini_en_t00",
+  "base_config": "configs/experiments/generated/core/baseline_gemini_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-04T11:53:38.907362",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\baseline_gemini_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_gemini_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:53:38.907362",
+      "completed_at": "2026-02-04T11:54:44.597551",
+      "duration_seconds": 65.690189
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\baseline_gemini_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_gemini_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:54:44.599062",
+      "completed_at": "2026-02-04T11:55:50.714158",
+      "duration_seconds": 66.115096
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\baseline_gemini_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_gemini_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:55:50.721873",
+      "completed_at": "2026-02-04T11:56:54.113781",
+      "duration_seconds": 63.391908
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\baseline_gemini_en_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_gemini_en_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:56:54.113781",
+      "completed_at": "2026-02-04T11:57:59.088582",
+      "duration_seconds": 64.974801
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\baseline_gemini_en_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_gemini_en_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-04T11:57:59.088582",
+      "completed_at": "2026-02-04T11:59:10.625085",
+      "duration_seconds": 71.536503
+    }
+  ],
+  "completed_at": "2026-02-04T11:59:10.625085",
+  "total_duration_seconds": 331.70849699999997,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

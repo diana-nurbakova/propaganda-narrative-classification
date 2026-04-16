@@ -1,0 +1,47 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_majority_together_llama33_70b_en_t07",
+    "run_id": 4
+  },
+  "narrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "narrative_matches": [],
+  "subnarrative_matching": {
+    "total": 3,
+    "matched": 3,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200046.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC:!Climate change is beneficial: CO2 is beneficial",
+      "matched_label": "CC: Climate change is beneficial: CO2 is beneficial",
+      "score": 97.91666666666667,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u2019s history",
+      "matched_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u00e2\u20ac\u2122s history",
+      "score": 96.36363636363636,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting; URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests is not present; however URW: Discrediting the West, Diplomacy: Diplomacy does/will not work is not directly mentioned but URW: Discrediting the West, Diplomacy: The West is weak is also not present in the text. Instead the text implies the opposite: West is strong and united in support of Ukraine. The subnarrative that is more closely related is URW: Discrediting the West, Diplomacy: The EU is divided is not mentioned. But the overall tone suggests a strong Western support. Hence we can classify the narrative as: URW: Discrediting the West, Diplomacy: Other",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "matched": true
+    }
+  ]
+}

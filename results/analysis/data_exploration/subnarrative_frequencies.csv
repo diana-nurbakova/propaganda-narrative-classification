@@ -1,0 +1,238 @@
+split,language,subnarrative,count
+dev,BG,CC: Amplifying Climate Fears: Amplifying existing fears of global warming,5
+dev,BG,CC: Downplaying climate change: Weather suggests the trend is global cooling,2
+dev,BG,URW: Discrediting Ukraine: Ukraine is a puppet of the West,2
+dev,BG,URW: Russia is the Victim: The West is russophobic,2
+dev,BG,CC: Amplifying Climate Fears: Doomsday scenarios for humans,1
+dev,BG,CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism,1
+dev,BG,CC: Hidden plots by secret schemes of powerful groups: Blaming global elites,1
+dev,BG,URW: Amplifying war-related fears: By continuing the war we risk WWIII,1
+dev,BG,URW: Amplifying war-related fears: Russia will also attack other countries,1
+dev,BG,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,1
+dev,BG,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,1
+dev,BG,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,1
+dev,BG,URW: Discrediting Ukraine: Ukraine is associated with nazism,1
+dev,EN,CC: Criticism of climate movement: Climate movement is alarmist,2
+dev,EN,CC: Criticism of institutions and authorities: Criticism of political organizations and figures,2
+dev,EN,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,2
+dev,EN,URW: Speculating war outcomes: Russian army is collapsing,2
+dev,EN,CC: Climate change is beneficial: CO2 is beneficial,1
+dev,EN,CC: Controversy about green technologies: Renewable energy is dangerous,1
+dev,EN,CC: Criticism of climate movement: Ad hominem attacks on key activists,1
+dev,EN,CC: Criticism of climate policies: Climate policies are only for profit,1
+dev,EN,CC: Criticism of climate policies: Climate policies have negative impact on the economy,1
+dev,EN,CC: Criticism of institutions and authorities: Criticism of international entities,1
+dev,EN,CC: Hidden plots by secret schemes of powerful groups: Blaming global elites,1
+dev,EN,CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives,1
+dev,EN,URW: Blaming the war on others rather than the invader: The West are the aggressors,1
+dev,EN,URW: Discrediting Ukraine: Situation in Ukraine is hopeless,1
+dev,EN,"URW: Discrediting the West, Diplomacy: The EU is divided",1
+dev,EN,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",1
+dev,EN,"URW: Discrediting the West, Diplomacy: The West is weak",1
+dev,EN,URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire,1
+dev,EN,URW: Overpraising the West: The West belongs in the right side of history,1
+dev,EN,URW: Speculating war outcomes: Ukrainian army is collapsing,1
+dev,HI,CC: Amplifying Climate Fears: Amplifying existing fears of global warming,4
+dev,HI,URW: Praise of Russia: Russia has international support from a number of countries and people,3
+dev,HI,URW: Amplifying war-related fears: By continuing the war we risk WWIII,2
+dev,HI,URW: Amplifying war-related fears: NATO should/will directly intervene,1
+dev,HI,URW: Amplifying war-related fears: Russia will also attack other countries,1
+dev,HI,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,1
+dev,HI,URW: Blaming the war on others rather than the invader: The West are the aggressors,1
+dev,HI,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,1
+dev,HI,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",1
+dev,HI,URW: Distrust towards Media: Western media is an instrument of propaganda,1
+dev,HI,URW: Praise of Russia: Praise of Russian military might,1
+dev,HI,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,1
+dev,HI,URW: Speculating war outcomes: Russian army will lose all the occupied territories,1
+dev,PT,CC: Amplifying Climate Fears: Amplifying existing fears of global warming,9
+dev,PT,CC: Criticism of institutions and authorities: Criticism of international entities,1
+dev,PT,CC: Criticism of institutions and authorities: Criticism of national governments,1
+dev,PT,CC: Criticism of institutions and authorities: Criticism of political organizations and figures,1
+dev,PT,CC: Criticism of institutions and authorities: Criticism of the EU,1
+dev,PT,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,1
+dev,PT,URW: Praise of Russia: Russia has international support from a number of countries and people,1
+dev,PT,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,1
+dev,PT,URW: Russia is the Victim: The West is russophobic,1
+dev,RU,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,3
+dev,RU,URW: Discrediting Ukraine: Discrediting Ukrainian military,3
+dev,RU,URW: Praise of Russia: Russia has international support from a number of countries and people,3
+dev,RU,URW: Discrediting Ukraine: Ukraine is a hub for criminal activities,2
+dev,RU,URW: Discrediting Ukraine: Ukraine is a puppet of the West,2
+dev,RU,URW: Praise of Russia: Praise of Russian military might,2
+dev,RU,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,2
+dev,RU,URW: Amplifying war-related fears: NATO should/will directly intervene,1
+dev,RU,URW: Discrediting Ukraine: Ukraine is associated with nazism,1
+dev,RU,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",1
+dev,RU,"URW: Discrediting the West, Diplomacy: The West is overreacting",1
+dev,RU,"URW: Discrediting the West, Diplomacy: West is tired of Ukraine",1
+dev,RU,URW: Speculating war outcomes: Ukrainian army is collapsing,1
+train,BG,CC: Amplifying Climate Fears: Amplifying existing fears of global warming,65
+train,BG,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,24
+train,BG,URW: Amplifying war-related fears: By continuing the war we risk WWIII,15
+train,BG,URW: Amplifying war-related fears: Russia will also attack other countries,15
+train,BG,URW: Blaming the war on others rather than the invader: The West are the aggressors,15
+train,BG,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",15
+train,BG,URW: Discrediting Ukraine: Situation in Ukraine is hopeless,12
+train,BG,URW: Discrediting Ukraine: Ukraine is a puppet of the West,11
+train,BG,URW: Praise of Russia: Praise of Russian military might,10
+train,BG,CC: Criticism of climate policies: Climate policies have negative impact on the economy,9
+train,BG,"URW: Discrediting the West, Diplomacy: The West is weak",9
+train,BG,URW: Discrediting Ukraine: Discrediting Ukrainian military,8
+train,BG,"URW: Discrediting the West, Diplomacy: The EU is divided",8
+train,BG,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,7
+train,BG,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,7
+train,BG,URW: Praise of Russia: Russia has international support from a number of countries and people,7
+train,BG,URW: Praise of Russia: Praise of Russian President Vladimir Putin,6
+train,BG,URW: Speculating war outcomes: Russian army is collapsing,6
+train,BG,URW: Speculating war outcomes: Ukrainian army is collapsing,5
+train,BG,CC: Amplifying Climate Fears: Earth will be uninhabitable soon,4
+train,BG,URW: Russia is the Victim: The West is russophobic,4
+train,BG,CC: Criticism of institutions and authorities: Criticism of national governments,3
+train,BG,CC: Criticism of institutions and authorities: Criticism of the EU,3
+train,BG,URW: Discrediting Ukraine: Ukraine is a hub for criminal activities,3
+train,BG,URW: Discrediting Ukraine: Ukraine is associated with nazism,3
+train,BG,"URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",3
+train,BG,CC: Amplifying Climate Fears: Doomsday scenarios for humans,2
+train,BG,CC: Criticism of institutions and authorities: Criticism of international entities,2
+train,BG,CC: Downplaying climate change: Weather suggests the trend is global cooling,2
+train,BG,"URW: Discrediting the West, Diplomacy: West is tired of Ukraine",2
+train,BG,URW: Distrust towards Media: Western media is an instrument of propaganda,2
+train,BG,URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire,2
+train,BG,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,2
+train,BG,CC: Amplifying Climate Fears: Whatever we do it is already too late,1
+train,BG,CC: Climate change is beneficial: Temperature increase is beneficial,1
+train,BG,CC: Controversy about green technologies: Renewable energy is dangerous,1
+train,BG,CC: Criticism of climate policies: Climate policies are ineffective,1
+train,BG,CC: Criticism of climate policies: Climate policies are only for profit,1
+train,BG,CC: Downplaying climate change: Human activities do not impact climate change,1
+train,BG,CC: Downplaying climate change: Temperature increase does not have significant impact,1
+train,BG,CC: Hidden plots by secret schemes of powerful groups: Blaming global elites,1
+train,BG,CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives,1
+train,BG,URW: Amplifying war-related fears: NATO should/will directly intervene,1
+train,BG,URW: Discrediting Ukraine: Rewriting Ukraine’s history,1
+train,BG,URW: Russia is the Victim: UA is anti-RU extremists,1
+train,EN,CC: Criticism of institutions and authorities: Criticism of political organizations and figures,10
+train,EN,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,9
+train,EN,URW: Blaming the war on others rather than the invader: The West are the aggressors,8
+train,EN,CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives,7
+train,EN,CC: Criticism of climate movement: Ad hominem attacks on key activists,6
+train,EN,CC: Criticism of institutions and authorities: Criticism of national governments,6
+train,EN,CC: Hidden plots by secret schemes of powerful groups: Blaming global elites,6
+train,EN,"URW: Discrediting the West, Diplomacy: West is tired of Ukraine",6
+train,EN,URW: Distrust towards Media: Western media is an instrument of propaganda,6
+train,EN,CC: Criticism of institutions and authorities: Criticism of international entities,5
+train,EN,URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire,5
+train,EN,CC: Criticism of climate policies: Climate policies have negative impact on the economy,4
+train,EN,CC: Questioning the measurements and science: Scientific community is unreliable,4
+train,EN,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,4
+train,EN,"URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",4
+train,EN,"URW: Discrediting the West, Diplomacy: The West is weak",4
+train,EN,CC: Criticism of climate policies: Climate policies are only for profit,3
+train,EN,CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty,3
+train,EN,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",3
+train,EN,URW: Overpraising the West: The West belongs in the right side of history,3
+train,EN,URW: Speculating war outcomes: Russian army is collapsing,3
+train,EN,CC: Controversy about green technologies: Renewable energy is unreliable,2
+train,EN,CC: Criticism of climate movement: Climate movement is alarmist,2
+train,EN,CC: Criticism of climate movement: Climate movement is corrupt,2
+train,EN,CC: Criticism of climate policies: Climate policies are ineffective,2
+train,EN,CC: Downplaying climate change: CO2 concentrations are too small to have an impact,2
+train,EN,CC: Downplaying climate change: Human activities do not impact climate change,2
+train,EN,CC: Downplaying climate change: Ice is not melting,2
+train,EN,URW: Amplifying war-related fears: By continuing the war we risk WWIII,2
+train,EN,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,2
+train,EN,URW: Discrediting Ukraine: Discrediting Ukrainian military,2
+train,EN,URW: Discrediting Ukraine: Situation in Ukraine is hopeless,2
+train,EN,URW: Discrediting Ukraine: Ukraine is a hub for criminal activities,2
+train,EN,URW: Discrediting Ukraine: Ukraine is a puppet of the West,2
+train,EN,URW: Praise of Russia: Praise of Russian military might,2
+train,EN,URW: Praise of Russia: Russia has international support from a number of countries and people,2
+train,EN,CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative,1
+train,EN,CC: Questioning the measurements and science: Greenhouse effect/carbon dioxide do not drive climate change,1
+train,EN,URW: Amplifying war-related fears: NATO should/will directly intervene,1
+train,EN,URW: Amplifying war-related fears: Russia will also attack other countries,1
+train,EN,URW: Russia is the Victim: The West is russophobic,1
+train,EN,URW: Speculating war outcomes: Ukrainian army is collapsing,1
+train,HI,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,28
+train,HI,CC: Amplifying Climate Fears: Amplifying existing fears of global warming,19
+train,HI,URW: Praise of Russia: Russia has international support from a number of countries and people,15
+train,HI,URW: Distrust towards Media: Western media is an instrument of propaganda,10
+train,HI,URW: Praise of Russia: Praise of Russian military might,7
+train,HI,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,6
+train,HI,URW: Amplifying war-related fears: By continuing the war we risk WWIII,5
+train,HI,URW: Discrediting Ukraine: Situation in Ukraine is hopeless,5
+train,HI,URW: Praise of Russia: Praise of Russian President Vladimir Putin,5
+train,HI,URW: Amplifying war-related fears: NATO should/will directly intervene,4
+train,HI,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,4
+train,HI,URW: Russia is the Victim: Russia actions in Ukraine are only self-defence,4
+train,HI,URW: Russia is the Victim: The West is russophobic,4
+train,HI,CC: Amplifying Climate Fears: Doomsday scenarios for humans,3
+train,HI,URW: Blaming the war on others rather than the invader: The West are the aggressors,3
+train,HI,URW: Discrediting Ukraine: Discrediting Ukrainian military,3
+train,HI,"URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",3
+train,HI,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,3
+train,HI,URW: Speculating war outcomes: Russian army is collapsing,3
+train,HI,URW: Speculating war outcomes: Ukrainian army is collapsing,3
+train,HI,URW: Overpraising the West: The West has the strongest international support,2
+train,HI,CC: Criticism of climate policies: Climate policies are ineffective,1
+train,HI,CC: Criticism of climate policies: Climate policies are only for profit,1
+train,HI,CC: Criticism of institutions and authorities: Criticism of political organizations and figures,1
+train,HI,URW: Discrediting Ukraine: Ukraine is a hub for criminal activities,1
+train,HI,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",1
+train,HI,URW: Negative Consequences for the West: The conflict will increase the Ukrainian refugee flows to Europe,1
+train,HI,URW: Overpraising the West: NATO will destroy Russia,1
+train,HI,URW: Overpraising the West: The West belongs in the right side of history,1
+train,PT,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,19
+train,PT,CC: Amplifying Climate Fears: Amplifying existing fears of global warming,17
+train,PT,URW: Praise of Russia: Praise of Russian military might,11
+train,PT,URW: Discrediting Ukraine: Ukraine is a hub for criminal activities,8
+train,PT,CC: Criticism of institutions and authorities: Criticism of national governments,7
+train,PT,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,7
+train,PT,URW: Discrediting Ukraine: Discrediting Ukrainian military,7
+train,PT,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,6
+train,PT,CC: Amplifying Climate Fears: Doomsday scenarios for humans,5
+train,PT,CC: Amplifying Climate Fears: Earth will be uninhabitable soon,5
+train,PT,CC: Criticism of institutions and authorities: Criticism of political organizations and figures,5
+train,PT,URW: Discrediting Ukraine: Ukraine is a puppet of the West,3
+train,PT,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",3
+train,PT,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,3
+train,PT,CC: Criticism of climate movement: Ad hominem attacks on key activists,2
+train,PT,CC: Criticism of institutions and authorities: Criticism of international entities,2
+train,PT,URW: Amplifying war-related fears: By continuing the war we risk WWIII,2
+train,PT,URW: Blaming the war on others rather than the invader: The West are the aggressors,2
+train,PT,URW: Discrediting Ukraine: Situation in Ukraine is hopeless,2
+train,PT,URW: Discrediting Ukraine: Ukraine is associated with nazism,2
+train,PT,"URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",2
+train,PT,URW: Praise of Russia: Russia has international support from a number of countries and people,2
+train,PT,URW: Russia is the Victim: The West is russophobic,2
+train,PT,CC: Criticism of climate movement: Climate movement is corrupt,1
+train,PT,CC: Criticism of climate policies: Climate policies are ineffective,1
+train,PT,CC: Criticism of institutions and authorities: Criticism of the EU,1
+train,PT,CC: Downplaying climate change: Climate cycles are natural,1
+train,PT,CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives,1
+train,PT,URW: Amplifying war-related fears: Russia will also attack other countries,1
+train,PT,URW: Speculating war outcomes: Ukrainian army is collapsing,1
+train,RU,URW: Praise of Russia: Praise of Russian military might,19
+train,RU,URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies,18
+train,RU,URW: Discrediting Ukraine: Discrediting Ukrainian military,15
+train,RU,URW: Praise of Russia: Russia is a guarantor of peace and prosperity,10
+train,RU,URW: Discrediting Ukraine: Ukraine is a puppet of the West,8
+train,RU,URW: Blaming the war on others rather than the invader: The West are the aggressors,6
+train,RU,URW: Russia is the Victim: The West is russophobic,6
+train,RU,"URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",5
+train,RU,URW: Blaming the war on others rather than the invader: Ukraine is the aggressor,4
+train,RU,URW: Praise of Russia: Russia has international support from a number of countries and people,4
+train,RU,URW: Discrediting Ukraine: Discrediting Ukrainian nation and society,3
+train,RU,URW: Russia is the Victim: Russia actions in Ukraine are only self-defence,3
+train,RU,URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed,2
+train,RU,"URW: Discrediting the West, Diplomacy: The EU is divided",2
+train,RU,"URW: Discrediting the West, Diplomacy: The West is overreacting",2
+train,RU,"URW: Discrediting the West, Diplomacy: The West is weak",2
+train,RU,URW: Distrust towards Media: Western media is an instrument of propaganda,2
+train,RU,URW: Russia is the Victim: UA is anti-RU extremists,2
+train,RU,URW: Amplifying war-related fears: By continuing the war we risk WWIII,1
+train,RU,URW: Discrediting Ukraine: Rewriting Ukraine’s history,1
+train,RU,URW: Discrediting Ukraine: Situation in Ukraine is hopeless,1
+train,RU,URW: Discrediting Ukraine: Ukraine is associated with nazism,1
+train,RU,URW: Speculating war outcomes: Ukrainian army is collapsing,1

@@ -1,0 +1,66 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear by emphasizing the indefinite and ongoing nature of the war's psychological impact, suggesting a future of continued suffering with no resolution."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear by emphasizing the indefinite nature of the war and its paralyzing psychological impact, discouraging long-term hope and planning."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

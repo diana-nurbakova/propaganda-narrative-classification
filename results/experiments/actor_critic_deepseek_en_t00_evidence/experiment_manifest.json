@@ -1,0 +1,27 @@
+{
+  "experiment_id": "actor_critic_deepseek_en_t00_evidence",
+  "base_config": "configs/experiments/generated/core/actor_critic_deepseek_en_t00.yaml",
+  "n_runs": 1,
+  "base_seed": 42,
+  "seeds": [
+    478163327
+  ],
+  "sequential": true,
+  "started_at": "2026-02-10T13:21:27.595405",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\actor_critic_deepseek_en_t00_evidence\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_deepseek_en_t00_evidence\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T13:21:27.595405",
+      "completed_at": "2026-02-10T13:48:25.213223",
+      "duration_seconds": 1617.617818
+    }
+  ],
+  "completed_at": "2026-02-10T13:48:25.213223",
+  "total_duration_seconds": 1617.617818,
+  "successful_runs": 1,
+  "failed_runs": 0
+}

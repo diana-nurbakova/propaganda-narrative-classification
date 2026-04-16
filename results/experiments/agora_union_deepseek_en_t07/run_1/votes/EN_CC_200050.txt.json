@@ -1,0 +1,216 @@
+{
+  "file_id": "EN_CC_200050.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Green policies are geopolitical instruments",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of climate movement",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Green policies are geopolitical instruments",
+      "CC: Criticism of climate movement",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Addressing the world’s energy and climate needs will be a balancing act... the global economy still runs primarily on oil and natural gas and many developing nations have neither the resources nor the infrastructure to make a quick shift to renewables.",
+        "reasoning": "This quote questions the feasibility and economic impact of a rapid transition away from fossil fuels, implicitly criticizing policies that would mandate such a shift by highlighting the current dependence and lack of infrastructure."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "New York City Comptroller Brad Lander in January filed a series of such shareholder resolutions in January, and threatened to pull pension funds from investment managers who failed to support the resolutions.",
+        "reasoning": "This quote frames climate-related financial pressure (via shareholder resolutions and pension fund threats) as a tool wielded by specific actors (like a city comptroller) to enforce policy, suggesting environmental goals are being used as instruments of financial and political power rather than purely for environmental concern."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Link to Major Banks Bend The Knee To Climate Activists, Accelerate Plans To Cut Coal Investments",
+        "reasoning": "The headline uses the phrase 'Bend The Knee,' which frames the banks' actions as a submission to pressure from 'climate activists,' challenging the legitimacy and portraying the climate movement as a coercive force rather than a rational actor."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Both U.S.-based bank Citi and German Deutsche Bank announced plans to reduce investments in coal this week, the latest step in the movement amongst major banks to reduce their funding of fossil fuels and other industries that produce greenhouse gasses.",
+        "reasoning": "The headline and opening paragraph frame the banks' climate-driven investment decisions as 'bending the knee to climate activists,' which implicitly criticizes the policies and pressures leading to these decisions by suggesting they are a capitulation to activist demands rather than sound business or environmental policy."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Link to Major Banks Bend The Knee To Climate Activists, Accelerate Plans To Cut Coal Investments",
+        "reasoning": "The headline uses the phrase 'Bend The Knee To Climate Activists,' which portrays the climate movement as a coercive force that banks are submitting to, challenging the movement's legitimacy and framing its influence as undue pressure rather than a reasonable societal demand."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Both banks are founding members of the United Nations’ Net Zero Banking Alliance, which requires its 126 members to set goals and disclose financial data related to their efforts to reduce the emissions of their lending portfolio to net zero by 2050.",
+        "reasoning": "By highlighting the UN's Net Zero Banking Alliance and its requirements for member banks, the text implies that global environmental frameworks are being used to enforce specific financial and investment behaviors on major institutions, suggesting green policies are tools of international governance and influence."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Banks have been increasingly investing in green energy, investing $0.81 in the sector for every $1 spent on fossil fuels in 2021, Reuters reported Tuesday, citing a report from BloombergNEF.",
+        "reasoning": "The text frames green energy investments as a financial and strategic shift by major banks, implying these policies are tools for economic and potentially geopolitical positioning rather than purely environmental actions."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Deutsche bank in particular drew some criticism from activist groups that considered the move to be insufficient, since it did not include similar cutbacks in oil and gas, Reuters reported.",
+        "reasoning": "This quote highlights activist groups' dissatisfaction, implicitly framing the climate movement as demanding and never satisfied, which challenges the movement's motives and impact."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "U.S. banks, such as JP Morgan Chase, Wells Fargo, Bank of America, Citi, Goldman Sachs and Morgan Stanley — all members of the Net Zero Banking Alliance — have faced pressure from activist investors to be more aggressive with their plans to cut fossil fuels from their investment portfolios, Bloomberg reported in January.",
+        "reasoning": "The text presents climate policies as driven by external pressure from activists, questioning the voluntary nature and economic rationale behind the banks' decisions, which aligns with criticizing the effectiveness or motives of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The Federal Reserve launched a pilot program in January, requiring the six largest U.S. banks — all named above — submit data regarding the impact of climate change on their investment portfolios by July 31.",
+        "reasoning": "This describes a regulatory mandate from a financial authority (the Federal Reserve) related to climate, which can be framed as an overreach or intrusion by institutions into business operations, challenging their competence or intentions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Green policies are geopolitical instruments",
+    "CC: Criticism of climate movement",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+    "CC: Green policies are geopolitical instruments: Other",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "matched": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

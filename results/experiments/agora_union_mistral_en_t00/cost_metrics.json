@@ -1,0 +1,17 @@
+{
+  "experiment_id": "agora_union_mistral_en_t00",
+  "config_name": "agora_union_mistral_en_t00",
+  "model_name": "mistralai:mistral-large-latest",
+  "total_documents": 41,
+  "total_api_calls": 205,
+  "total_input_tokens": 410000,
+  "total_output_tokens": 102500,
+  "total_cost_usd": 1.435,
+  "total_latency_ms": 144467.55,
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": 0.1428
+}

@@ -1,0 +1,17 @@
+{
+  "experiment_id": "agora_gemini_en_t00",
+  "config_name": "agora_gemini_en_t00",
+  "model_name": "google_genai:gemini-2.5-flash",
+  "total_documents": 41,
+  "total_api_calls": 205,
+  "total_input_tokens": 410000,
+  "total_output_tokens": 102500,
+  "total_cost_usd": 0.06149999999999999,
+  "total_latency_ms": 460047.596,
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "intersection",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": 0.2336
+}

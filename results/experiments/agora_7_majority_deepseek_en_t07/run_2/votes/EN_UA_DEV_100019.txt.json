@@ -1,0 +1,93 @@
+{
+  "file_id": "EN_UA_DEV_100019.txt",
+  "num_narrative_agents": 7,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Russia-linked accounts are disseminating divisive content aimed at U.S. audiences, including criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The text explicitly states that Russian influence campaigns involve criticizing U.S. support for Ukraine, which directly aligns with the narrative of discrediting Western (specifically American) foreign policy and diplomatic stances in the context of the war."
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Russia-linked accounts are disseminating divisive content aimed at U.S. audiences, including criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The text explicitly states that Russian influence campaigns involve criticizing U.S. support for Ukraine, which aligns with the narrative of discrediting Western (specifically American) foreign policy and diplomatic actions in the context of the war."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Russia-linked accounts are disseminating divisive content aimed at U.S. audiences, including criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The act of criticizing American support for Ukraine implies an attempt to shift focus and blame away from Russia's role as the invader and onto the actions of external supporters like the U.S., fitting the definition of blaming others for the conflict."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 6,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 7,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,243 @@
+{
+  "file_id": "EN_CC_200046.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "The headline and article frame elevated CO2 levels as a direct positive force for plant growth and water availability, presenting climate change as having beneficial effects."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "This statement directly criticizes climate policies (specifically those targeting CO2 reduction) by arguing they are misguided and that the targeted substance is actually beneficial, questioning the effectiveness and motive of the policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere. It’s a spiral of death and destruction, coming from a death cult pretending to be the planet’s savior.",
+        "reasoning": "This quote attacks the motives and rhetoric of the climate movement (specifically associated with 'Democrats'), characterizing it as a manipulative 'death cult' that uses guilt and fear to extract payments, challenging the movement's integrity and impact."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "The headline and article frame elevated CO2 levels as a direct, positive cause of increased vegetation growth and water availability, presenting climate change (via CO2 increase) as having beneficial effects."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "This statement directly criticizes climate policies (specifically those targeting CO2 reduction) by arguing they are misguided and that the targeted substance (CO2) is, in fact, beneficial and a 'solution'."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "This quote challenges the motives and integrity of a political authority (Democrats), accusing them of using climate change rhetoric to guilt and financially exploit people, rather than acting on genuine concern."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "It’s a spiral of death and destruction, coming from a death cult pretending to be the planet’s savior.",
+        "reasoning": "This statement uses extreme, pejorative language ('death cult') to challenge the integrity and impact of the climate movement, portraying its actions as harmful and its motives as deceitful."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "This quote directly frames elevated CO2, a primary greenhouse gas, as a beneficial 'solution' for preserving ecosystems and resources, aligning with the narrative that climate change can have positive effects."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The sequestration of carbon dioxide is a grave mistake that will slowly harm important ecosystems in the Northern Hemisphere.",
+        "reasoning": "This statement explicitly criticizes a core climate policy (carbon sequestration), labeling it a 'grave mistake' that will cause harm, which fits the definition of questioning the effectiveness and impact of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere. It’s a spiral of death and destruction, coming from a death cult pretending to be the planet’s savior.",
+        "reasoning": "This quote attacks the motives and rhetoric of a political group (Democrats) associated with the climate movement, accusing them of using guilt and fear ('spiral of death and destruction') and being a 'death cult', which challenges the integrity and impact of the climate movement."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "By presenting CO2, the primary driver of anthropogenic climate change, as a 'solution' to ecological and resource problems, the text minimizes the significance of climate change as a threat, downplaying its negative impacts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Climate change is beneficial",
+    "CC: Criticism of climate policies",
+    "CC: Criticism of climate movement",
+    "CC: Criticism of institutions and authorities",
+    "CC: Downplaying climate change"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Climate change is beneficial: CO2 is beneficial",
+    "CC: Climate change is beneficial: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Downplaying climate change: CO2 concentrations are too small to have an impact",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Climate change is beneficial",
+      "matched": "CC: Climate change is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Climate change is beneficial: CO2 is beneficial",
+      "matched": "CC: Climate change is beneficial: CO2 is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Climate change is beneficial: Other",
+      "matched": "CC: Climate change is beneficial: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: CO2 concentrations are too small to have an impact",
+      "matched": "CC: Downplaying climate change: CO2 concentrations are too small to have an impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

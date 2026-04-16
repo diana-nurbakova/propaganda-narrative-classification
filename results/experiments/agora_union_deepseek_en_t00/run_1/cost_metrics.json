@@ -1,0 +1,426 @@
+{
+  "experiment_id": "agora_union_deepseek_en_t00",
+  "config_name": "run_1_config",
+  "model_name": "deepseek:deepseek-chat",
+  "start_time": "2026-02-12T11:38:15.168658",
+  "end_time": "2026-02-12T11:46:41.752012",
+  "total_documents": 15,
+  "total_api_calls": 15,
+  "total_input_tokens": 150000,
+  "total_output_tokens": 37500,
+  "total_cost_usd": 0.031500000000000014,
+  "total_latency_ms": 506578.3053000013,
+  "documents": [
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100005.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100012.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100013.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100019.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100026.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100033.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_100036.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_20.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_215.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "EN_UA_DEV_22.txt",
+      "start_time": "2026-02-12T11:46:41.752012",
+      "end_time": "2026-02-12T11:46:41.752012",
+      "total_latency_ms": 33771.8870200001,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-12T11:46:41.752012",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 33771.8870200001,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    }
+  ],
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": false,
+  "enable_retrieval": false,
+  "f1_samples": null
+}

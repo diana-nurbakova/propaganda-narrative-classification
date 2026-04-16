@@ -1,0 +1,149 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 7,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukrainian precision munitions continued to target the logistics and communication systems of Russians who lack effective small unit leaders and proper equipment.",
+        "reasoning": "The quote directly attributes negative characteristics (lack of effective leadership and proper equipment) to Russian forces, which serves to undermine and discredit the military capabilities and actions of Russia's adversary, Ukraine, by implying Russian forces are incompetent."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "The Chairman of the U.S. Joint Chiefs of Staff noted that nine countries pledged to send over 150 Leopard tanks to Ukraine. The Group that met today discussed air defense, regular artillery, rocket artillery, armor, and ammunition contributions. “That will be critical to Ukraine's ability to continue the fight,” Milley said, noting that long range fires would challenge Russia's ability to command and control, protect, and sustain their forces.",
+        "reasoning": "This statement excessively lauds the collective military support from Western nations, framing it as decisive and critical, thereby extolling the virtues and effectiveness of Western diplomatic and military coordination in the conflict."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "“It’s obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war,” Milley believes.",
+        "reasoning": "This is a direct prediction about the potential results of the conflict, asserting that Russia's strategic objectives are no longer attainable, which fits the definition of speculating on war outcomes."
+      }
+    ],
+    [],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Overpraising the West",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Overpraising the West: NATO will destroy Russia",
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 6,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 7,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West: NATO will destroy Russia",
+      "matched": "URW: Overpraising the West: NATO will destroy Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

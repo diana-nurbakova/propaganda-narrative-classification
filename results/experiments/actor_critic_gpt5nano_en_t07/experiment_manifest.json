@@ -1,0 +1,71 @@
+{
+  "experiment_id": "actor_critic_gpt5nano_en_t07",
+  "base_config": "configs/experiments/generated/core/actor_critic_gpt5nano_en_t07.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-10T03:11:44.619862",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T03:11:44.619862",
+      "completed_at": "2026-02-10T04:51:14.344258",
+      "duration_seconds": 5969.724396
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T04:51:44.345716",
+      "completed_at": "2026-02-10T06:55:17.846348",
+      "duration_seconds": 7413.500632
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T06:55:47.859947",
+      "completed_at": "2026-02-10T08:45:00.635826",
+      "duration_seconds": 6552.775879
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T08:45:30.638629",
+      "completed_at": "2026-02-10T10:46:17.752348",
+      "duration_seconds": 7247.113719
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\actor_critic_gpt5nano_en_t07\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-10T10:46:47.765104",
+      "completed_at": "2026-02-10T12:45:30.512332",
+      "duration_seconds": 7122.747228
+    }
+  ],
+  "completed_at": "2026-02-10T12:45:30.528624",
+  "total_duration_seconds": 34305.861854,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

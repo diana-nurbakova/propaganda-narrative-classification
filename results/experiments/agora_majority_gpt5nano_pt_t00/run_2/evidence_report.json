@@ -1,0 +1,919 @@
+{
+  "summary": {
+    "total_quotes": 118,
+    "exact": 86,
+    "near_exact": 12,
+    "fuzzy": 6,
+    "hallucination": 5,
+    "empty": 9,
+    "faithfulness_rate": 0.8814
+  },
+  "per_document": {
+    "PT_201.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_202.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_203.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "Não tivemos acesso a qualquer política afirmativa. Isto ocorre devido ao racismo que existe contra o...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "protestaram ainda contra aquilo a que chamaram um tratamento diferenciado: mais recursos para o agro...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "Chuvas no Sul e seca com incêndios no Pantanal.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Other",
+          "quote": "A nossa água está suja como nunca.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "protestaram ainda contra aquilo a que chamaram um tratamento diferenciado: mais recursos para o agro...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "Não tivemos acesso a qualquer política afirmativa. Isto ocorre devido ao racismo que existe contra o...",
+          "category": "near_exact",
+          "ratio": 0.977
+        }
+      ]
+    },
+    "PT_204.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "o planeta \"pode estar a aproximar-se de um ponto de rutura\"",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_205.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_206.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Vamos ter de aprender a produzir mais destruindo menos e também a não ter o consumo perdulário, porq...",
+          "category": "hallucination",
+          "ratio": 0.727
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "Se todos nós quisermos consumir desenfreadamente o planeta, já não haverá sequer planeta para nós ex...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "crise de recursos naturais e perda de biodiversidade, que se agrava quando somado a outras duas cris...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_207.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "a decisão da União Europeia (UE) de adiar para 2025 a obrigatoriedade de os agricultores preservarem...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "Este Parlamento Europeu, que adia a obrigatoriedade de 4% para a preservação ambiental, é o mesmo qu...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments",
+          "quote": "Em suma, aquilo que foi exigido pela Europa para adquirir produtos brasileiros será também exigido q...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveri...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of the EU",
+          "quote": "Este Parlamento Europeu, que adia a obrigatoriedade de 4% para a preservação ambiental, é o mesmo qu...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+          "quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveri...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_208.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Estudos apontaram que a crise climática pode extinguir 90% dos mamíferos típicos da Caatinga e provo...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "tem recebido pouca atenção por parte das políticas públicas de preservação.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "crise climática pode extinguir 90% dos mamíferos típicos da Caatinga e provocar perdas significativa...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "crise climática pode extinguir 90% dos mamíferos típicos da Caatinga e provocar perdas significativa...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "históricamente, tem recebido pouca atenção por parte das políticas públicas de preservação.",
+          "category": "near_exact",
+          "ratio": 0.956
+        }
+      ]
+    },
+    "PT_209.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "O Brasil não tem um projeto de combate à crise climática",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "Face às várias dificuldades, são muitas as situações de negligência e abandono.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Climate policies are ineffective",
+          "quote": "O Brasil não tem um projeto de combate à crise climática",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "A destruição da Terra é o resultado da voracidade do capitalismo,",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "O Brasil não tem um projeto de combate à crise climática",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_210.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_211.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Uma em cada três pessoas viverá em zonas perigosamente quentes até 2080, diz estudo",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "As temperaturas mais elevadas levarão a mais mortes relacionadas com o calor, reduzirão a produtivid...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_213.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "e quase nada foi feito pela empresa para tentar reparar os danos causados.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "O prejuízo das estruturas provenientes deste afundamento geram o êxodo forçado da população destas á...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of international entities",
+          "quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desman...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "A COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não c...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "A COP28, que decorre no Dubai, denuncia o aquecimento global e a dependência dos combustíveis fóssei...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Other",
+          "quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desman...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_216.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "\"O projeto de lei 412/2022, errada e injustamente, coloca-nos no campo dos poluidores.\"",
+          "category": "fuzzy",
+          "ratio": 0.859
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "\"As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitári...",
+          "category": "near_exact",
+          "ratio": 0.981
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+          "quote": "Isso vai obrigar os operadores, em vez de venderem créditos pela mitigação que proporcionam, a compr...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "Os operadores de aterros sanitários não são poluidores — pelo contrário, atenuam os danos que os res...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter t...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of international entities",
+          "quote": "O Sistema Europeu (EU ETS), no qual o Brasil se espelhou, não inclui a gestão de resíduos no elenco ...",
+          "category": "near_exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_217.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_220.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Com a crise da água, está em causa não só a agricultura, mas, também, o abastecimento das cidades.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "A Amazónia, a maior floresta tropical do mundo, já perdeu 27,5% da sua vegetação original. No Cerrad...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Other",
+          "quote": "É, por isso, um problema que já deveria ter sido resolvido.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_221.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "Os agricultores desesperados podem ser forçados, neste cenário, a expandir-se para as áreas floresta...",
+          "category": "fuzzy",
+          "ratio": 0.925
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_224.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserá...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Assistimos, passivamente, à tragédia anunciada.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies",
+          "quote": "Dessalinizar? Uma técnica viável, mas caríssima.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "Não é culpar “El Niño”, mas o dolo está na omissão do governo brasileiro, que tem um discurso edific...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "São os combustíveis fósseis os maiores vilões do aquecimento global. Eles precisam de desaparecer.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "Assistimos, passivamente, à tragédia anunciada.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Controversy about green technologies: Other",
+          "quote": "São os combustíveis fósseis os maiores vilões do aquecimento global. Eles precisam de desaparecer. E...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_225.txt": {
+      "narratives": [
+        {
+          "label": "CC: Criticism of climate policies",
+          "quote": "A Câmara dos Deputados aprovou o projeto de lei 1366/22, do Senado, que exclui a silvicultura do ele...",
+          "category": "hallucination",
+          "ratio": 0.797
+        },
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "os eventos extremos provocados pelas alterações climáticas ser\u0000e3o cada vez mais freq\u0000fcentes e faze...",
+          "category": "fuzzy",
+          "ratio": 0.904
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities",
+          "quote": "N\u0000a3o podemos aceitar mais o negacionismo climático. A popula\u0000e7\u0000e3o brasileira \u0000e9 muito pouco nega...",
+          "category": "hallucination",
+          "ratio": 0.721
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Criticism of climate policies: Other",
+          "quote": "25 projetos de lei e três propostas de alteração à Constituição que, caso sejam aprovados, \"provocar...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem pa...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "Desastres como o da RS já não serão eventuais.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of national governments",
+          "quote": "Nobre afirma que o negacionismo climático, sobretudo dos políticos brasileiros, favorece a ocorrênci...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+          "quote": "Não podemos aceitar mais o negacionismo climático. A população brasileira é muito pouco negacionista...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_226.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "As alterações climáticas já são uma realidade, e não podem ser ignoradas, pois provocarão, segundo o...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "As alterações climáticas já são uma realidade, e não podem ser ignoradas, pois provocarão, segundo o...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_228.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "pode perder, por completo, o Pantanal até ao final deste século, caso o mundo não seja capaz de inve...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "poderemos perder o Pantanal até ao final do século, caso o mundo não seja capaz de inverter o cenári...",
+          "category": "fuzzy",
+          "ratio": 0.878
+        }
+      ]
+    },
+    "PT_229.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_230.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "O aquecimento global tem acentuado a ocorrência de catástrofes naturais. No mês passado, um ciclone ...",
+          "category": "hallucination",
+          "ratio": 0.688
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "O aquecimento global tem acentuado a ocorrência de catástrofes naturais.",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_232.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Segundo um estudo das Nações Unidas, o planeta está a sair da era do aquecimento global e a entrar n...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "A falta e a irregularidade das chuvas nos últimos meses têm sido associadas a fenómenos climáticos, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+          "quote": "Segundo um estudo das Nações Unidas, o planeta está a sair da era do aquecimento global e a entrar n...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_233.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "Os extremos climáticos fizeram soar o alarme em 2023 no Brasil e no mundo.",
+          "category": "near_exact",
+          "ratio": 0.986
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "Convém não desdenhar, no entanto, os evidentes efeitos nefastos do aquecimento global provocado pela...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_234.txt": {
+      "narratives": [
+        {
+          "label": "CC: Amplifying Climate Fears",
+          "quote": "É um ponto a partir do qual o sistema se retroalimenta acelerando a perda de florestas, e perdemos o...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+          "quote": "como um aumento da temperatura média global acima de 1,5 ºC, volume de chuvas inferior a 1800 mm, es...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_237.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "Kiev não tem hipóteses de recuperar todo o território tomado pela Rússia, desde que o país foi invad...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden.",
+          "category": "near_exact",
+          "ratio": 0.967
+        },
+        {
+          "label": "URW: Speculating war outcomes",
+          "quote": "parar de encher a Ucrânia com armas e, então, a guerra vai acabar",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+          "quote": "Kiev não tem hipóteses de recuperar todo o território tomado pela Rússia, desde que o país foi invad...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+          "quote": "Kiev não tem hipóteses de recuperar todo o território tomado pela Rússia, desde que o país foi invad...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "\"Agora, não há tal diálogo\", disse Lavrov sobre o governo de Biden.",
+          "category": "fuzzy",
+          "ratio": 0.883
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+          "quote": "\"ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar...",
+          "category": "near_exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+          "quote": "Kiev não tem hipóteses de recuperar todo o território tomado pela Rússia.",
+          "category": "near_exact",
+          "ratio": 0.973
+        }
+      ]
+    },
+    "PT_239.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_241.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_244.txt": {
+      "narratives": [
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "Apenas 15 atletas russos foram autorizados a participar nesta edição dos Jogos Olímpicos, sob condiç...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e gar...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Russia is the Victim: Other",
+          "quote": "a organização dos Jogos Olímpicos de Paris retirou a credencial a quatro dos seus jornalistas",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e gar...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_245.txt": {
+      "narratives": [
+        {
+          "label": "Other",
+          "quote": "N/A",
+          "category": "empty",
+          "ratio": 0.0
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_249.txt": {
+      "narratives": [
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "A Rússia não foi convidada, embora seja uma das partes envolvidas no conflito.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "não considera a Suíça um ator neutro, uma vez que o país uniu-se ao esforço unilateral ocidental nas...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Russia is the Victim: Other",
+          "quote": "“A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+          "quote": "“A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, ...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: Other",
+          "quote": "“não considera a Suíça um ator neutro, uma vez que o país uniu-se ao esforço unilateral ocidental na...",
+          "category": "near_exact",
+          "ratio": 0.989
+        }
+      ]
+    },
+    "PT_250.txt": {
+      "narratives": [
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da in...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Russia is the Victim: The West is russophobic",
+          "quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiam fazer sobre a R...",
+          "category": "near_exact",
+          "ratio": 0.981
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+          "quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_253.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "classificou o envio dos bens russos congelados para a Ucrânia como \"ilegal\" e afirmou que a Rússia i...",
+          "category": "fuzzy",
+          "ratio": 0.937
+        }
+      ],
+      "subnarratives": []
+    },
+    "PT_254.txt": {
+      "narratives": [
+        {
+          "label": "URW: Russia is the Victim",
+          "quote": "graças às sanções internacionais impostas ao país por causa da guerra na Ucrânia.",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia",
+          "quote": "100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de s...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "o grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é ...",
+          "category": "near_exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Russia is the Victim: Other",
+          "quote": "Rússia afirma que sanções internacionais \"pouparam\" país do apagão cibernético global",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Praise of Russia: Other",
+          "quote": "\"100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de ...",
+          "category": "hallucination",
+          "ratio": 0.576
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy: The West is weak",
+          "quote": "O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é ...",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    },
+    "PT_259.txt": {
+      "narratives": [
+        {
+          "label": "URW: Discrediting Ukraine",
+          "quote": "Zelensky continua a massacrar cidadãos ucranianos",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting the West, Diplomacy",
+          "quote": "nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ],
+      "subnarratives": [
+        {
+          "label": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+          "quote": "Ninguém tem qualquer confiança nele. Todos compreendem perfeitamente que se trata de um homem que po...",
+          "category": "exact",
+          "ratio": 1.0
+        },
+        {
+          "label": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+          "quote": "nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+          "category": "exact",
+          "ratio": 1.0
+        }
+      ]
+    }
+  }
+}

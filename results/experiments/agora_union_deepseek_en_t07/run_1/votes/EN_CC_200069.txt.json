@@ -1,0 +1,216 @@
+{
+  "file_id": "EN_CC_200069.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text frames the removal of 'street zone sectioning barriers' as a form of resistance, implying these barriers are part of a climate policy that is being actively opposed and criticized for its impact on residents."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' directly challenges the legitimacy and rationality of the climate movement, portraying it as irrational and extreme, which aligns with the narrative of criticizing the movement's motives and impact."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "This year is looking to be jam packed with resistance to The Climate Con.",
+        "reasoning": "Referring to climate change as 'The Climate Con' (short for 'confidence trick' or scam) fundamentally downplays its significance and reality, suggesting it is a fabricated or exaggerated issue rather than a genuine crisis."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text frames the destruction of 'street zone sectioning barriers' as a positive act of resistance, directly criticizing the specific climate or urban policy (likely related to traffic or low-emission zones) that implemented them."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' directly challenges and dismisses the rationale and actions of the climate movement, portraying it as irrational and something to be actively resisted."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Stay tuned for a disobedient 2023.",
+        "reasoning": "The overall tone and framing, including labeling climate action as 'The Climate Con' and encouraging 'disobedience', serves to minimize the seriousness of climate change by treating it as a scam or con rather than a legitimate crisis."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "This year is looking to be jam packed with resistance to The Climate Con.",
+        "reasoning": "Referring to climate action as 'The Climate Con' implies it is a deceptive scheme or fraud orchestrated by unnamed powerful entities, fitting the narrative of hidden plots."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text frames the destruction of 'street zone sectioning barriers' as a form of resistance, implying these barriers are part of a climate policy (like Low Traffic Neighbourhoods) that is being actively opposed and criticized for its impact."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' directly challenges the legitimacy and rationality of the climate movement, portraying it as irrational or extreme, which aligns with the narrative of criticizing the movement's motives and impact."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Stay tuned for a disobedient 2023. If you want to support the fight against The Climate Con...",
+        "reasoning": "Referring to climate change as 'The Climate Con' (short for 'confidence trick' or scam) fundamentally downplays its reality and significance, suggesting it is a fabricated or exaggerated issue rather than a genuine crisis."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of climate movement",
+    "CC: Downplaying climate change",
+    "CC: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other",
+    "CC: Downplaying climate change: Other",
+    "CC: Downplaying climate change: Other",
+    "CC: Downplaying climate change: Other",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

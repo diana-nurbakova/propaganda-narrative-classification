@@ -9,7 +9,7 @@ from transformers import AutoTokenizer
 # Import the custom model class and the utility function
 from multihead_deberta import MultiHeadDebertaForHierarchicalClassification, sanitize_name
 
-def run_inference(model_path, input_dir, output_file):
+def run_inference(model_path, input_dir, output_file, mc_dropout=False, seed=None):
     """
     Runs inference on a directory of text files using a trained hierarchical model.
 
@@ -17,6 +17,9 @@ def run_inference(model_path, input_dir, output_file):
         model_path (str): Path to the saved model directory.
         input_dir (str): Path to the directory containing input .txt files.
         output_file (str): Path to the output .tsv file.
+        mc_dropout (bool): If True, keep dropout active during inference (MC Dropout)
+                           for uncertainty estimation across multiple runs.
+        seed (int): Random seed for reproducibility (used with mc_dropout).
     """
     # -------------------------------------------------------------------------
     # 1. Setup and Configuration
@@ -30,15 +33,21 @@ def run_inference(model_path, input_dir, output_file):
     # -------------------------------------------------------------------------
     print("Step 2: Loading model and artifacts...")
 
-    # Load training configuration to get the best threshold
+    # Load training configuration to get the best thresholds
     try:
         with open(os.path.join(model_path, 'training_config.json'), 'r') as f:
             training_config = json.load(f)
-            threshold = training_config.get('best_threshold', 0.5)
-            print(f"Loaded best threshold from training: {threshold:.3f}")
-    except FileNotFoundError:
-        threshold = 0.5
-        print("Warning: training_config.json not found. Using default threshold of 0.5")
+            parent_threshold = training_config.get('best_parent_threshold',
+                                                   training_config.get('best_threshold', 0.5))
+            child_threshold = training_config.get('best_child_threshold', parent_threshold)
+            max_length = training_config.get('max_length', 512)
+            print(f"Loaded thresholds — parent: {parent_threshold:.3f}, child: {child_threshold:.3f}")
+            print(f"Max length: {max_length}")
+    except (FileNotFoundError, json.JSONDecodeError):
+        parent_threshold = 0.5
+        child_threshold = 0.5
+        max_length = 512
+        print("Warning: training_config.json not found or invalid. Using default thresholds of 0.5")
 
     # Load hierarchical label mappings
     with open(os.path.join(model_path, 'label_mappings_hierarchical.json'), 'r') as f:
@@ -49,20 +58,28 @@ def run_inference(model_path, input_dir, output_file):
         child_label_maps = label_mappings['child_label_maps']
     print("Loaded hierarchical label mappings.")
 
-    # Load tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    # Load tokenizer from base model (tokenizer is unchanged by fine-tuning,
+    # and saved tokenizer files may have version-incompatible special_tokens format)
+    tokenizer = AutoTokenizer.from_pretrained('microsoft/mdeberta-v3-base')
 
-    # Load the custom model
-    # This is the key step: we must instantiate our custom class and provide the
-    # same arguments we used during training so it can build the heads correctly.
+    # Load model via from_pretrained (handles DeBERTa LayerNorm gamma/beta remapping)
     model = MultiHeadDebertaForHierarchicalClassification.from_pretrained(
         model_path,
         parent_label2id=parent_label2id,
         child_label_maps=child_label_maps
     )
     model.to(device)
-    model.eval() # Set the model to evaluation mode
-    print("Model loaded and set to evaluation mode.")
+
+    if mc_dropout:
+        model.train()  # Keep dropout active for MC Dropout inference
+        if seed is not None:
+            torch.manual_seed(seed)
+            if torch.cuda.is_available():
+                torch.cuda.manual_seed_all(seed)
+        print(f"Model loaded in MC Dropout mode (seed={seed}).")
+    else:
+        model.eval()
+        print("Model loaded and set to evaluation mode.")
 
     # -------------------------------------------------------------------------
     # 3. Find and Process Input Files
@@ -90,7 +107,7 @@ def run_inference(model_path, input_dir, output_file):
             return_tensors='pt',
             padding='max_length',
             truncation=True,
-            max_length=512 # Use the same max_length as in training
+            max_length=max_length
         ).to(device)
 
         # ---------------------------------------------------------------------
@@ -103,9 +120,19 @@ def run_inference(model_path, input_dir, output_file):
         parent_logits = outputs['parent_logits']
         child_logits_dict = outputs['child_logits']
 
-        # Get parent predictions
+        # DEBUG: Print raw probabilities for the first 3 files
+        if len(all_predictions) < 3:
+            parent_probs_debug = torch.sigmoid(parent_logits).cpu().numpy().flatten()
+            print(f"\n[DEBUG] {filename}")
+            print(f"  Parent logits (raw): min={parent_logits.min().item():.4f}, max={parent_logits.max().item():.4f}")
+            print(f"  Parent probs: min={parent_probs_debug.min():.4f}, max={parent_probs_debug.max():.4f}, mean={parent_probs_debug.mean():.4f}")
+            top5_idx = parent_probs_debug.argsort()[-5:][::-1]
+            for idx in top5_idx:
+                print(f"    {parent_id2label[idx]}: {parent_probs_debug[idx]:.4f}")
+
+        # Get parent predictions using parent threshold
         parent_probs = torch.sigmoid(parent_logits).cpu().numpy().flatten()
-        parent_preds_indices = (parent_probs >= threshold).astype(int)
+        parent_preds_indices = (parent_probs >= parent_threshold).astype(int)
 
         predicted_parents = []
         predicted_subnarratives = []
@@ -121,7 +148,7 @@ def run_inference(model_path, input_dir, output_file):
                     safe_key = sanitize_name(parent_name)
                     child_logits = child_logits_dict[safe_key]
                     child_probs = torch.sigmoid(child_logits).cpu().numpy().flatten()
-                    child_preds_indices = (child_probs >= threshold).astype(int)
+                    child_preds_indices = (child_probs >= child_threshold).astype(int)
                     
                     # Get the specific id->label map for this parent's children
                     child_id2label = child_label_maps[parent_name]['id2label']
@@ -175,6 +202,18 @@ if __name__ == '__main__':
         default="predictions.tsv",
         help="Path to the output file where predictions will be saved (default: predictions.tsv)."
     )
+    parser.add_argument(
+        "--mc-dropout",
+        action="store_true",
+        help="Enable MC Dropout: keep dropout active during inference for uncertainty estimation."
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=None,
+        help="Random seed for reproducibility (used with --mc-dropout)."
+    )
     args = parser.parse_args()
 
-    run_inference(args.model_path, args.input_dir, args.output_file)
+    run_inference(args.model_path, args.input_dir, args.output_file,
+                  mc_dropout=args.mc_dropout, seed=args.seed)

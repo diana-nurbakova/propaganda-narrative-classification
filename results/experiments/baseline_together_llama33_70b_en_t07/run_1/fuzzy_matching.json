@@ -1,0 +1,120 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_together_llama33_70b_en_t07",
+    "run_id": 1
+  },
+  "narrative_matching": {
+    "total": 10,
+    "matched": 10,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200033.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is used as a pretext",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100003.txt",
+      "label_type": "subnarrative",
+      "original_label": "Russia will also attack other countries",
+      "matched_label": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "matched": true
+    }
+  ]
+}

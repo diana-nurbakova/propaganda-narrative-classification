@@ -1,0 +1,149 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The ongoing war in Ukraine has also significantly impacted the nation's healthcare infrastructure, particularly affecting mental health services. In 2022, there were 707 documented attacks on Ukrainian health care facilities, resulting in significant destruction of or damage to 218 hospitals and clinics, along with 181 attacks on other medical infrastructure, such as pharmacies and dentistry.",
+        "reasoning": "This quote, while factually describing attacks, is part of a broader text that details systemic failures and societal trauma in Ukraine. The narrative of 'Discrediting Ukraine' focuses on undermining the legitimacy, actions, or condition of the nation. The extensive detailing of healthcare destruction, economic hardship, societal distrust in mental health services, and the portrayal of a deeply traumatized and fractured society (e.g., families not wanting to return, veterans' reintegration problems) collectively paints a picture of a nation in severe, possibly irreversible, crisis. This goes beyond reporting on war impacts and serves to discredit the Ukrainian state's stability, societal cohesion, and future viability."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues. The collective impact of population displacement, healthcare infrastructure destruction, and economic hardships contributes significantly to the deteriorating mental health of the society. Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement explicitly highlights the severe and ongoing psychological trauma ('deteriorating mental health', 'reluctance to plan for the future') and frames the war as having 'no end in sight.' This language is designed to evoke fear and anxiety about the prolonged, open-ended nature of the suffering and the profound, lasting damage being inflicted on Ukrainian society, which aligns with the narrative of amplifying war-related fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "The quote highlights a systemic flaw within Ukraine's own society and healthcare system, framing it as a legacy of the Soviet era that prevents effective mental health treatment. This undermines the legitimacy and effectiveness of Ukrainian institutions."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "The statement emphasizes the profound and ongoing psychological trauma with 'no end in sight,' evoking fear and anxiety about the war's long-term, debilitating impact on Ukrainian society and future generations."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A 2021 study revealed that 75% of Ukrainian adults perceived psychiatric hospitals as prison-like rather than therapeutic environments. This perception presents a significant challenge in encouraging people to seek necessary mental health treatment.",
+        "reasoning": "This quote highlights a systemic failure and negative perception within Ukraine's own healthcare system, specifically its mental health services, which is framed as a legacy of the Soviet era. It discredits Ukraine by presenting its institutions as ineffective and oppressive, undermining confidence in the nation's ability to care for its citizens."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The full-scale invasion has magnified Ukraine's pre-existing challenges and introduced larger societal issues... Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement emphasizes the profound and ongoing psychological trauma, explicitly stating 'there is no end in sight,' which amplifies fear and anxiety about the war's indefinite continuation and its severe societal impact."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In having conversations with ordinary Ukrainians, many have expressed concern about the post-war period, especially regarding the return of veterans. Without robust mental healthcare services, there is widespread worry about the challenges these veterans may face in reintegrating into their communities and dealing with PTSD from the war.",
+        "reasoning": "This quote speculates on a negative future outcome of the war: the potential failure of veteran reintegration and the societal problems that may arise post-conflict due to inadequate mental health support."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Amplifying war-related fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

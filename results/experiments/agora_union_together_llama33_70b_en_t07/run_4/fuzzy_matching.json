@@ -1,0 +1,88 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_union_together_llama33_70b_en_t07",
+    "run_id": 4
+  },
+  "narrative_matching": {
+    "total": 6,
+    "matched": 6,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Speculating war outcomes",
+      "matched_label": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_22.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Russia is the Victim",
+      "matched_label": "URW: Russia is the Victim",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Down!playing climate change: Humans and nature will adapt to the changes",
+      "matched_label": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 99.33774834437087,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting; URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests is not applicable here; instead,  URW: Discrediting the West, Diplomacy: Diplomacy does/will not work is also not applicable; however URW: Discrediting the West, Diplomacy: Other",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t07",
+    "run_id": 1
+  },
+  "narrative_matching": {
+    "total": 9,
+    "matched": 8,
+    "unmatched": 1,
+    "match_rate": 0.8888888888888888
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate movement",
+      "matched_label": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Downplaying climate change",
+      "matched_label": "CC: Downplaying climate change",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "narrative",
+      "original_label": "Questioning the measurements and science",
+      "matched_label": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200063.txt",
+      "label_type": "narrative",
+      "original_label": "CC: Criticism of shareholder proposals",
+      "matched_label": null,
+      "score": 59.701492537313435,
+      "matched": false
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Controversy about green technologies",
+      "matched_label": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 10,
+    "matched": 9,
+    "unmatched": 1,
+    "match_rate": 0.9
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is harmful to the economy",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is tired of Ukraine",
+      "matched_label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 81.08108108108108,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia's military capabilities",
+      "matched_label": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 73.2394366197183,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praising Ukraine's military capabilities",
+      "matched_label": null,
+      "score": 63.529411764705884,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Russia",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 82.92682926829268,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Praising Ukraine",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 72.72727272727272,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_215.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Ukraine is corrupt",
+      "matched_label": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 90.2439024390244,
+      "matched": true
+    }
+  ]
+}

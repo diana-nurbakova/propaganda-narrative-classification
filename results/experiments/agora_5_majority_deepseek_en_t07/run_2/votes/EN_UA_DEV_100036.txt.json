@@ -1,0 +1,100 @@
+{
+  "file_id": "EN_UA_DEV_100036.txt",
+  "num_narrative_agents": 5,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    [],
+    [
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The ongoing war in Ukraine has also significantly impacted the nation's healthcare infrastructure, particularly affecting mental health services. In 2022, there were 707 documented attacks on Ukrainian health care facilities, resulting in significant destruction of or damage to 218 hospitals and clinics, along with 181 attacks on other medical infrastructure, such as pharmacies and dentistry.",
+        "reasoning": "This quote, while factually describing attacks, is part of a broader text that frames Ukraine as a nation with a failing healthcare system and deep societal problems (e.g., distrust in mental health services, economic hardship, family separation). The narrative discredits Ukraine by highlighting its systemic vulnerabilities, destruction, and internal challenges, painting a picture of a nation in profound crisis beyond just the physical war."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The impact of the war extends beyond physical damage, as it profoundly traumatizes Ukrainian society and threatens to affect future generations.",
+        "reasoning": "This statement explicitly amplifies fear by suggesting the war's consequences are deep, societal, and intergenerational, creating long-term psychological damage that will haunt the population for years to come, which is a classic fear-amplifying tactic."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement speculates on the outcome and duration of the war by asserting there is 'no end in sight,' which is a prediction about the conflict's trajectory and its continuing psychological impact on the population."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear about the ongoing and seemingly endless nature of the war, highlighting a profound psychological impact that discourages future planning."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ukrainians' reluctance to plan for the future reflects the deep psychological impact of the war, which there is no end in sight for now.",
+        "reasoning": "This statement directly evokes anxiety and fear by emphasizing the indefinite nature of the war and its paralyzing psychological impact, discouraging long-term thinking and amplifying a sense of hopelessness."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 4,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 5,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

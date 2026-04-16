@@ -1,0 +1,74 @@
+{
+  "experiment_id": "mdeberta_baseline_hi_t00",
+  "base_config": "/home/jovyan/narrative-classification/results/experiments/mdeberta_baseline_hi_t00/config.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-11T23:07:01.400610",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "/home/jovyan/narrative-classification/results/experiments/mdeberta_baseline_hi_t00/run_1/results.txt",
+      "status": "success",
+      "started_at": "2026-02-11T23:07:01.400565",
+      "completed_at": "2026-02-11T23:07:01.400574",
+      "duration_seconds": 4.06577205657959
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "/home/jovyan/narrative-classification/results/experiments/mdeberta_baseline_hi_t00/run_2/results.txt",
+      "status": "success",
+      "started_at": "2026-02-11T23:07:01.400581",
+      "completed_at": "2026-02-11T23:07:01.400584",
+      "duration_seconds": 4.215622186660767
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "/home/jovyan/narrative-classification/results/experiments/mdeberta_baseline_hi_t00/run_3/results.txt",
+      "status": "success",
+      "started_at": "2026-02-11T23:07:01.400588",
+      "completed_at": "2026-02-11T23:07:01.400591",
+      "duration_seconds": 3.6361546516418457
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "/home/jovyan/narrative-classification/results/experiments/mdeberta_baseline_hi_t00/run_4/results.txt",
+      "status": "success",
+      "started_at": "2026-02-11T23:07:01.400594",
+      "completed_at": "2026-02-11T23:07:01.400597",
+      "duration_seconds": 3.2890255451202393
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "/home/jovyan/narrative-classification/results/experiments/mdeberta_baseline_hi_t00/run_5/results.txt",
+      "status": "success",
+      "started_at": "2026-02-11T23:07:01.400601",
+      "completed_at": "2026-02-11T23:07:01.400603",
+      "duration_seconds": 3.8899693489074707
+    }
+  ],
+  "completed_at": "2026-02-11T23:07:01.400613",
+  "total_duration_seconds": 19.096543788909912,
+  "successful_runs": 5,
+  "failed_runs": 0,
+  "model_info": {
+    "type": "mdeberta_fine_tuned",
+    "base_model": "microsoft/mdeberta-v3-base",
+    "model_path": "/home/jovyan/narrative-classification/models/microsoft/mdeberta-v3-base_narratives_classifier_hierarchical",
+    "threshold": 0.55,
+    "training_data": "data/all-texts-unified/unified-annotations.tsv",
+    "note": "MC Dropout inference (5 runs with different seeds for uncertainty estimation)"
+  }
+}

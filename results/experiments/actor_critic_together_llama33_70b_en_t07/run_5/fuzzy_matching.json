@@ -1,0 +1,160 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "actor_critic_together_llama33_70b_en_t07",
+    "run_id": 5
+  },
+  "narrative_matching": {
+    "total": 6,
+    "matched": 3,
+    "unmatched": 3,
+    "match_rate": 0.5
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Green Madness",
+      "matched_label": null,
+      "score": 55.55555555555556,
+      "matched": false
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Leftist Scottish Govt",
+      "matched_label": null,
+      "score": 42.857142857142854,
+      "matched": false
+    },
+    {
+      "file_id": "EN_CC_200081.txt",
+      "label_type": "narrative",
+      "original_label": "Cut Down 16 Million Trees",
+      "matched_label": null,
+      "score": 43.13725490196079,
+      "matched": false
+    },
+    {
+      "file_id": "EN_UA_DEV_100026.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Discrediting the West",
+      "matched_label": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Praise of Ukraine",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Blaming the war on others rather than the invader",
+      "matched_label": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 11,
+    "matched": 11,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200040.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Downplaying climate change: Climate change is not a significant threat",
+      "matched_label": "CC: Downplaying climate change: Other",
+      "score": 91.17647058823529,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200047.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate policies: Climate policies are driven by elitist interests",
+      "matched_label": "CC: Criticism of climate policies: Other",
+      "score": 91.89189189189189,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is using a pretext",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100002.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Discrediting Ukrainian leadership",
+      "matched_label": "URW: Discrediting Ukraine: Other",
+      "score": 89.65517241379311,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: Ineffective diplomacy",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 92.6829268292683,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Negative Consequences for the West: Economic instability",
+      "matched_label": "URW: Negative Consequences for the West: Other",
+      "score": 93.02325581395348,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100034.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Negative Consequences for the West: Security threats",
+      "matched_label": "URW: Negative Consequences for the West: Other",
+      "score": 93.02325581395348,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100033.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Portraying Ukrainians as Nazis or extremists",
+      "matched_label": "URW: Discrediting Ukraine: Other",
+      "score": 89.65517241379311,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is aggressive",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: Western leaders are delusional",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 92.6829268292683,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: NATO is an instrument of Western expansionism",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 92.6829268292683,
+      "matched": true
+    }
+  ]
+}

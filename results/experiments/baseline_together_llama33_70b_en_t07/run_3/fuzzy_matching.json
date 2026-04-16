@@ -1,0 +1,96 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_together_llama33_70b_en_t07",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 6,
+    "matched": 6,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200079.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_213.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Blaming the war on others rather than the invader",
+      "matched_label": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "narrative",
+      "original_label": "URW: URW: Blaming the war on others rather than the invader",
+      "matched_label": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 3,
+    "matched": 3,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Controversy about green technologies: Renewable energy is not climate friendly",
+      "matched_label": "CC: Controversy about green technologies: Nuclear energy is not climate friendly",
+      "score": 94.73684210526315,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is not overreacting; URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests is not applicable; URW: Discrediting the West, Diplomacy: Diplomacy does/will not work is not applicable; URW: Discrediting the West, Diplomacy: West is tired of Ukraine is not applicable; URW: Discrediting the West, Diplomacy: The EU is divided is not applicable; URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched_label": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_22.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW:![](https://static.wixstatic.com/media/8fb574_5a3c1d4bcf2a40e589f1a1ea3557e6f9~mv2.png/v1/fill/w_37,h_36,al_c,q_85/8fb574_5a3c1d4bcf2a40e589f1a1ea3557e6f9~mv2.webp) Russia is the Victim: The West is russophobic",
+      "matched_label": "URW: Russia is the Victim: The West is russophobic",
+      "score": 93.82716049382717,
+      "matched": true
+    }
+  ]
+}

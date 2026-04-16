@@ -1,0 +1,966 @@
+{
+  "experiment_id": "actor_critic_deepseek_hi_t00",
+  "config_name": "run_2_config",
+  "model_name": "deepseek:deepseek-chat",
+  "start_time": "2026-02-05T12:29:52.510838",
+  "end_time": "2026-02-05T12:37:58.119425",
+  "total_documents": 35,
+  "total_api_calls": 35,
+  "total_input_tokens": 350000,
+  "total_output_tokens": 87500,
+  "total_cost_usd": 0.07350000000000001,
+  "total_latency_ms": 485603.56410010735,
+  "documents": [
+    {
+      "file_id": "HI_10.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_107.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_11.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_110.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_114.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_12.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_125.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_126.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_134.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_139.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_140.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_143.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_151.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_152.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_154.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_156.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_158.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_159.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_160.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_17.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_19.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_26.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_28.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_31.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_34.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_35.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_38.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_4.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_5.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_51.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_71.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_75.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_76.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_95.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    },
+    {
+      "file_id": "HI_97.txt",
+      "start_time": "2026-02-05T12:37:58.119425",
+      "end_time": "2026-02-05T12:37:58.119425",
+      "total_latency_ms": 13874.387545717347,
+      "total_api_calls": 1,
+      "total_input_tokens": 10000,
+      "total_output_tokens": 2500,
+      "total_cost_usd": 0.0021000000000000003,
+      "api_calls": [
+        {
+          "timestamp": "2026-02-05T12:37:58.119425",
+          "model": "deepseek:deepseek-chat",
+          "node_type": "combined",
+          "operation": "classification",
+          "input_tokens": 10000,
+          "output_tokens": 2500,
+          "latency_ms": 13874.387545717347,
+          "cost_usd": 0.0021000000000000003,
+          "success": true,
+          "error": null
+        }
+      ],
+      "num_narratives": 0,
+      "num_subnarratives": 0,
+      "category": null
+    }
+  ],
+  "num_narrative_agents": 1,
+  "num_subnarrative_agents": 1,
+  "aggregation_method": "union",
+  "enable_validation": true,
+  "enable_retrieval": false,
+  "f1_samples": null
+}

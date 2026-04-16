@@ -1,0 +1,71 @@
+{
+  "experiment_id": "agora_majority_together_llama33_70b_en_t00",
+  "base_config": "configs/experiments/generated/core/agora_majority_together_llama33_70b_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-02-08T17:22:03.659270",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T17:22:03.659270",
+      "completed_at": "2026-02-08T17:24:12.342011",
+      "duration_seconds": 128.682741
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T17:24:42.346707",
+      "completed_at": "2026-02-08T17:26:44.564048",
+      "duration_seconds": 122.217341
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T17:27:14.581455",
+      "completed_at": "2026-02-08T17:29:29.457861",
+      "duration_seconds": 134.876406
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T17:29:59.458843",
+      "completed_at": "2026-02-08T17:32:38.238383",
+      "duration_seconds": 158.77954
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_majority_together_llama33_70b_en_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-02-08T17:33:08.254564",
+      "completed_at": "2026-02-08T17:35:34.786739",
+      "duration_seconds": 146.532175
+    }
+  ],
+  "completed_at": "2026-02-08T17:35:34.787828",
+  "total_duration_seconds": 691.088203,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

@@ -1,0 +1,104 @@
+{
+  "config": {
+    "model_name": "mistralai:mistral-large-latest",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_mistral_ru_t00",
+    "run_id": 5
+  },
+  "narrative_matching": {
+    "total": 8,
+    "matched": 8,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "RU-URW-1014.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1014.txt",
+      "label_type": "narrative",
+      "original_label": "Discrediting Ukraine",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1014.txt",
+      "label_type": "narrative",
+      "original_label": "Speculating war outcomes",
+      "matched_label": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1069.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1069.txt",
+      "label_type": "narrative",
+      "original_label": "Discrediting Ukraine",
+      "matched_label": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1085.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1085.txt",
+      "label_type": "narrative",
+      "original_label": "Praise of Russia",
+      "matched_label": "URW: Praise of Russia",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1085.txt",
+      "label_type": "narrative",
+      "original_label": "Speculating war outcomes",
+      "matched_label": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "RU-URW-1118.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1174.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Speculating war outcomes: Russian army will lose all the occupied territories: Other",
+      "matched_label": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "matched": true
+    }
+  ]
+}

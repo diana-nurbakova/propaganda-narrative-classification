@@ -1,0 +1,31 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_together_llama33_70b_en_t00",
+    "run_id": 2
+  },
+  "narrative_matching": {
+    "total": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "match_rate": 0
+  },
+  "narrative_matches": [],
+  "subnarrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_UA_DEV_100029.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u2019s history",
+      "matched_label": "URW: Discrediting Ukraine: Rewriting Ukraine\u00e2\u20ac\u2122s history",
+      "score": 96.36363636363636,
+      "matched": true
+    }
+  ]
+}
