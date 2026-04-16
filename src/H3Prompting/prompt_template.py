@@ -7,7 +7,6 @@ from label_info import load_narrative_definitions, load_taxonomy, load_subnarrat
 
 
 # ---------------------------------------------------------------------------
-# EMNLP-revision prompt enhancement assets
 #
 # These loaders read the data files added in the EMNLP revision (specs/) and
 # provide cached lookups for prompt construction. All loads are best-effort:
@@ -222,8 +221,12 @@ def create_narrative_system_prompt(
 
     prompt_template += (
         "You are an expert propaganda narrative analyst with extensive experience in identifying and classifying manipulative communication patterns.\n"
-        "Your task is to analyze the given text and identify which specific propaganda narratives are present.\n"
-        "Provide your classification as a semicolon-separated list inside square brackets, e.g. [Narrative A; Narrative B].\n\n"
+        "Your task is to analyze the given text and identify which specific propaganda narratives are ACTIVELY PROMOTED.\n\n"
+        "CRITICAL RULE: A narrative is present ONLY if the text actively promotes, presents, or advances it. "
+        "Merely MENTIONING a topic is NOT sufficient. For example, an article that reports on climate fears "
+        "without amplifying them should NOT be labelled 'Amplifying Climate Fears'. An article that mentions "
+        "Russia's military without praising it should NOT be labelled 'Praise of Russia'. "
+        "Be conservative — it is better to miss a borderline narrative than to over-predict.\n\n"
         "AVAILABLE NARRATIVES:\n\n"
     )
 
@@ -263,9 +266,6 @@ First, think step-by-step to analyze the provided text.
 After your internal reasoning is complete, provide your final analysis as a single, valid JSON object.
 - The JSON should be the *only* thing in your response. Do not include your chain of thought, explanations, or any markdown formatting like '```json'.
 
-## OUTPUT FORMAT (JSON Schema)
-
-Your entire response must be a single JSON object conforming to this schema:
 ## OUTPUT FORMAT (JSON Schema)
 
 Your entire response MUST be a single JSON object. ALL fields in the schema below are REQUIRED. Do not omit any fields.
@@ -331,13 +331,17 @@ def create_subnarrative_system_prompt(
     prompt_template = ""
     if prompt_level == "P2":
         prompt_template += _format_tom_block(tom_analysis)
+    if prompt_level != "P0":
+        prompt_template += _format_general_principles(rules)
 
     prompt_template += (
         "You are an expert propaganda narrative analyst with extensive experience in identifying and classifying manipulative communication patterns.\n"
         "This text is known to contain the narrative: "
         f"{narrative}\n"
-        "Your task is to analyze the given text and identify which specific propaganda subnarratives are present.\n"
-        "Provide your classification as a semicolon-separated list inside square brackets, e.g. [Subnarrative A; Subnarrative B].\n\n"
+        "Your task is to identify which specific propaganda subnarratives are ACTIVELY PROMOTED in the text.\n\n"
+        "CRITICAL RULE: A subnarrative is present ONLY if the text actively promotes or advances it. "
+        "Merely touching on a related topic is NOT sufficient. The evidence must be specific, direct, "
+        "and clearly support the subnarrative definition — not require a stretch of interpretation.\n\n"
         "AVAILABLE SUBNARRATIVES:\n\n"
     )
 
@@ -403,9 +407,6 @@ After your internal reasoning is complete, provide your final analysis as a sing
 - **DO NOT** include `...: Other` if all the evidence supporting the parent narrative has already been neatly captured by the specific subnarrative(s) you identified. In this case, the classification is complete without it.
 - **DO** use `...: Other` as the sole entry if the text supports the parent narrative but does not align with any of the specific definitions.
 
-## OUTPUT FORMAT (JSON Schema)
-
-Your entire response must be a single JSON object conforming to this schema:
 ## OUTPUT FORMAT (JSON Schema)
 
 Your entire response MUST be a single JSON object. ALL fields in the schema below are REQUIRED. Do not omit any fields.
