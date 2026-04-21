@@ -1,0 +1,123 @@
+{
+  "file_id": "RU-URW-1184.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "«Она показала, что возникает альтернативная Западу глобальная политическая платформа — это БРИКС. Ни одна страна БРИКС не прислала на швейцарскую конференцию своих лидеров, а четыре страны, помимо России, — Китай, Эфиопия, Иран и Египет — вообще отказались посылать туда своих представителей. Усматриваю в этом переход БРИКС в новое качество — он превращается в альтернативный центр политического влияния»",
+        "reasoning": "The quote directly frames BRICS as an 'alternative global political platform to the West' and highlights the refusal of BRICS countries to participate in a Western-led diplomatic initiative (the Swiss conference on Ukraine), thereby discrediting Western diplomatic efforts and presenting them as lacking global support."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Она показала, что возникает альтернативная Западу глобальная политическая платформа — это БРИКС. Ни одна страна БРИКС не прислала на швейцарскую конференцию своих лидеров, а четыре страны, помимо России, — Китай, Эфиопия, Иран и Египет — вообще отказались посылать туда своих представителей.",
+        "reasoning": "The quote frames the Swiss conference on Ukraine, a Western diplomatic initiative, as being rejected by BRICS countries, thereby presenting Western diplomatic efforts as ineffective and lacking global support, which discredits Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Усматриваю в этом переход БРИКС в новое качество — он превращается в альтернативный центр политического влияния",
+        "reasoning": "The statement praises BRICS, a bloc in which Russia is a leading member, as becoming an alternative global center of political influence. This elevates Russia's status and its chosen alliances, implicitly praising its strategic positioning and influence."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Она показала, что возникает альтернативная Западу глобальная политическая платформа — это БРИКС. Ни одна страна БРИКС не прислала на швейцарскую конференцию своих лидеров, а четыре страны, помимо России, — Китай, Эфиопия, Иран и Египет — вообще отказались посылать туда своих представителей.",
+        "reasoning": "The quote frames the Swiss conference on Ukraine, a Western diplomatic initiative, as being rejected by BRICS countries, thereby portraying Western diplomatic efforts as ineffective and lacking global support, which discredits Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Усматриваю в этом переход БРИКС в новое качество — он превращается в альтернативный центр политического влияния",
+        "reasoning": "The statement praises BRICS, a bloc in which Russia is a leading member, as becoming an alternative global center of political influence, thereby positively highlighting Russia's role and influence in international affairs."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

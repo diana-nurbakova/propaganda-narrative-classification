@@ -1,0 +1,133 @@
+{
+  "file_id": "EN_CC_200069.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Criticism of climate movement",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text presents residents actively resisting and destroying barriers implemented as part of climate policies, indicating a criticism of these policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' implies a challenge to the competence or intentions of institutions and authorities promoting climate change policies."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The use of 'con' to describe climate change suggests a minimization of its significance or impact, implying that it is not a genuine concern."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The action against the barriers can be seen as a criticism of the climate movement's efforts and the policies it supports."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The term 'con' implies a belief in a secret plot or hidden agenda behind climate change initiatives, suggesting that powerful groups are manipulating the situation for their own benefit."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text presents residents actively resisting and destroying barriers implemented as part of climate policies, indicating criticism of these policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' implies a challenge to the competence or intentions of institutions and authorities promoting climate change policies."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The use of 'con' to describe climate change efforts suggests a minimization of the significance or impact of climate change, implying it is not a serious issue."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The term 'con' implies a belief in a secret plot or hidden agenda behind climate change initiatives, suggesting powerful groups are manipulating the situation for their own gain."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The action of destroying barriers can be seen as a direct challenge to the climate movement's efforts and the measures it supports, criticizing the movement's impact or methods."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text presents residents actively resisting and destroying barriers implemented as part of climate policies, indicating a criticism of these policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' implies a criticism of the institutions and authorities promoting climate change policies, suggesting they are misguided or excessive."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The Great Climate Con",
+        "reasoning": "The use of 'The Great Climate Con' as a title suggests that the author believes climate change policies are part of a larger, hidden plot or conspiracy by powerful groups, implying a secret agenda."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "the resistance to the climate change madness",
+        "reasoning": "The text criticizes the climate movement by referring to its goals as 'madness', implying that the movement is misguided, alarmist, or overly extreme."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

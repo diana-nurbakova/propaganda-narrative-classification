@@ -1,0 +1,135 @@
+{
+  "file_id": "RU-URW-1014.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "«Каждый день мы слышим новости с наших передовых позиций подразделений Минобороны России отовсюду, каждый день освобождается один–два населенного пункта — не на одном харьковском направлении, конечно, а на всей линии боевого соприкосновения»",
+        "reasoning": "The quote directly praises the effectiveness and success of Russian military operations, highlighting daily territorial gains and presenting the Russian forces as consistently victorious and in control of the situation."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "«Противник готовился к своего рода контрнаступлению, но то, что сегодня происходит, — это, получается, мы их реально растянули очень сильно, размыли — и планомерно ежедневно уничтожаем»",
+        "reasoning": "The statement discredits the Ukrainian military (referred to as 'the enemy') by portraying their planned counteroffensive as a failure, claiming Russian forces have successfully stretched, diluted, and are systematically destroying them, undermining their competence and strength."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "«ВСУ уже не в силах собрать серьезных сил, и их главная задача сейчас — хотя бы удержать позиции, но и этого у них не получается»",
+        "reasoning": "This is a speculative statement about the war's outcome, predicting that the Ukrainian Armed Forces are incapable of assembling significant forces or even holding their positions, implying an inevitable negative outcome for Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "«Каждый день мы слышим новости с наших передовых позиций подразделений Минобороны России отовсюду, каждый день освобождается один–два населенного пункта — не на одном харьковском направлении, конечно, а на всей линии боевого соприкосновения»",
+        "reasoning": "The quote directly praises the effectiveness and success of Russian military operations, highlighting daily territorial gains and presenting the Russian Ministry of Defense in a positive, victorious light."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "«Противник готовился к своего рода контрнаступлению, но то, что сегодня происходит, — это, получается, мы их реально растянули очень сильно, размыли — и планомерно ежедневно уничтожаем»",
+        "reasoning": "The statement undermines the Ukrainian Armed Forces (VSU) by describing their defensive efforts as being effectively neutralized ('stretched out', 'blurred', 'destroyed daily'), portraying them as incapable and failing in their main task."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "«Каждый день мы слышим новости с наших передовых позиций подразделений Минобороны России отовсюду, каждый день освобождается один–два населенных пункта — не на одном харьковском направлении, конечно, а на всей линии боевого соприкосновения»",
+        "reasoning": "The quote directly praises the effectiveness and success of Russian military forces, highlighting daily territorial gains and framing their actions as 'liberation'."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "«Противник готовился к своего рода контрнаступлению, но то, что сегодня происходит, — это, получается, мы их реально растянули очень сильно, размыли — и планомерно ежедневно уничтожаем»",
+        "reasoning": "The statement undermines the Ukrainian military (referred to as 'the enemy'), portraying their plans as thwarted and their forces as being systematically destroyed and unable to mount a serious defense."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russian invasion has strong national support",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

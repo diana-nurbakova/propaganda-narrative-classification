@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_28.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "राजनीतिक सौदेबाजी",
+        "reasoning": "The text implies that the prisoner swap is a result of political bargaining, which could be seen as discrediting the West's diplomatic efforts by suggesting that they are willing to make deals with authoritarian regimes like Russia."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "वे आम तौर पर हाई-प्रोफाइल होते हैं, जो अपनी सरकारों पर सौदे करने के लिए दबाव डालने की क्षमता वाली कंपनियों के लिए काम करते हैं",
+        "reasoning": "The text suggests that journalists are being used as leverage in geopolitical negotiations, which could lead to distrust towards the media and its role in international relations."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस द्वारा हिरासत में लिए गए लोगों में गेर्शकोविच की प्रोफ़ाइल सबसे ऊंची थी",
+        "reasoning": "The text highlights the profile of a Russian-held prisoner, which could be seen as portraying Russia as a victim of Western diplomatic efforts and implying that Russia is being unfairly targeted."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस द्वारा हिरासत में लिए गए लोगों में गेर्शकोविच की प्रोफ़ाइल सबसे ऊंची थी. जिस दिन मार्च 2023 में पत्रकार को जासूसी के आरोप में गिरफ्तार किया गया था, उसी दिन से यह स्पष्ट था कि एकमात्र रास्ता किसी तरह की बातचीत ही होगा.",
+        "reasoning": "यह उद्धरण पश्चिमी देशों की विदेश नीति और राजनयिक प्रयासों की आलोचना को दर्शाता है, जो कि URW: Discrediting the West, Diplomacy के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "वे आम तौर पर हाई-प्रोफाइल होते हैं, जो अपनी सरकारों पर सौदे करने के लिए दबाव डालने की क्षमता वाली कंपनियों के लिए काम करते हैं.",
+        "reasoning": "यह उद्धरण मीडिया की विश्वसनीयता पर संदेह को दर्शाता है, जो कि URW: Distrust towards Media के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "लेकिन यह सौदा इस बात की भी अधिक संभावना बनाता है कि भविष्य में पत्रकारों और अन्य नागरिकों को पकड़ा जाएगा और सरकारों के बीच सौदेबाजी के रूप में इस्तेमाल किया जाएगा.",
+        "reasoning": "यह उद्धरण पश्चिमी देशों के लिए नकारात्मक परिणामों की भविष्यवाणी को दर्शाता है, जो कि URW: Negative Consequences for the West के अनुरूप है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

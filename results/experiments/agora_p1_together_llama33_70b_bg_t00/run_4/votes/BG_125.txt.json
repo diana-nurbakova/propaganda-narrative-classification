@@ -1,0 +1,151 @@
+{
+  "file_id": "BG_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Green policies are geopolitical instruments",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Climate change is beneficial",
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Controversy about green technologies",
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът представя информация за увеличението на честотата и интензивността на дъждовете в Обединеното кралство, като свързва това с климатичните промени и предизвиканите от човека фактори, което създава усещане за страх и тревога относно последиците от климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът представя информация за увеличението на честотата и интензивността на дъждовете в Обединеното кралство, което е представено като резултат от климатичните промени и е използвано за създаване на чувство на страх и тревога за бъдещето."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът представя информация за увеличението на честотата и интензивността на дъждовете в Обединеното кралство, като свързва това с климатичните промени и предизвиква страхове за бъдещето."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "",
+        "reasoning": ""
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 10
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

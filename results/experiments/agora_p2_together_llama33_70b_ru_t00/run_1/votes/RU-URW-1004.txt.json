@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "This quote suggests that Ukraine's past experiences with ceasefires have been negative, implying that Ukraine's actions or decisions may have been harmful to itself, which can be seen as a form of discrediting Ukraine's ability to make sound decisions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру. Орбан добавил, что старается представлять интересы Европы справедливо и честно.",
+        "reasoning": "This quote implies that the West, or in this case, Europe, may not be acting in the best interests of peace, and that Orban's efforts are necessary to represent Europe's interests 'fairly and honestly', which can be seen as a form of discrediting the West's diplomatic efforts."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "The quote suggests that Zelensky has had negative experiences with ceasefires in the past, implying that Ukraine may not be capable of negotiating effectively or that its leaders are not trustworthy in such situations, which could undermine the legitimacy of Ukraine's actions and intentions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру. Орбан добавил, что старается представлять интересы Европы справедливо и честно.",
+        "reasoning": "The quote implies that Western diplomacy, as represented by Europe's interests, may not be effective or fair in achieving peace, and that Orban's approach is more sincere and unbiased, which could criticize Western diplomatic efforts and imply that they are not truly committed to resolving the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "The quote suggests that Zelensky has had negative experiences with ceasefires in the past, implying that Ukraine may not be capable of negotiating effectively or that its leaders are not trustworthy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру. Орбан добавил, что старается представлять интересы Европы справедливо и честно.",
+        "reasoning": "The quote implies that Western diplomacy, as represented by Orban and Budapest, is more interested in achieving peace than other European countries, potentially discrediting the diplomatic efforts of other Western nations."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

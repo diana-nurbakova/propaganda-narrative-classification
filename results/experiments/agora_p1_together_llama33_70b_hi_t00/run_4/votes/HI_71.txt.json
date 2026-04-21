@@ -1,0 +1,101 @@
+{
+  "file_id": "HI_71.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस ने यूक्रेन और यूक्रेन के लोगों के खिलाफ युद्ध शुरू नहीं किया, बल्कि यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्वारा जारी 8 साल के युद्ध को खत्म करने के लिए विशेष सैन्य ऑपरेशन शुरू किया है.",
+        "reasoning": "The quote suggests that Russia is not responsible for the war, but rather it is a response to Ukraine's actions and Western interference, which shifts the blame away from Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने",
+        "reasoning": "The quote implies that Ukraine is under the influence of Western countries and needs to be 'denazified', which undermines the legitimacy and sovereignty of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस की उपेक्षा और उसका अपमान यूएन चार्टर की मूल अवधारणा के ही खिलाफ है.",
+        "reasoning": "The quote portrays Russia as being unfairly treated and disrespected, which evokes sympathy and frames Russia as a victim."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस की सेना बेहद संयम बरत रही है और आम लोगों और यूक्रेन के शहरों पर हमला नहीं कर रही है.",
+        "reasoning": "The quote highlights the restraint and discipline of the Russian army, which presents Russia in a positive light."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "इन तथ्यों के उलट सारी जानकारियां पूर्वाग्रहों से ग्रसित और भ्रामक हैं.",
+        "reasoning": "The quote implies that information contrary to Russia's narrative is biased and misleading, which undermines trust in media sources."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस ने यूक्रेन और यूक्रेन के लोगों के खिलाफ युद्ध शुरू नहीं किया, बल्कि यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्वारा जारी 8 साल के युद्ध को खत्म करने के लिए विशेष सैन्य ऑपरेशन शुरू किया है.",
+        "reasoning": "The quote suggests that Russia is not responsible for the war, but rather it is a response to Western countries' involvement in Ukraine and Ukraine's own actions in Donbass."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन से पश्चिमी देशों की सेना को हटाने, उसे नाजीकरण से मुक्त करने और डान्बस में यूक्रेन द्वारा जारी 8 साल के युद्ध को खत्म करने के लिए विशेष सैन्य ऑपरेशन शुरू किया है.",
+        "reasoning": "The quote implies that Ukraine is under the influence of Western countries and is being 'nazified', which undermines Ukraine's legitimacy and sovereignty."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस की उपेक्षा और उसका अपमान यूएन चार्टर की मूल अवधारणा के ही खिलाफ है. इस संतुलन की वजह से वैश्विक स्थिरता सुनिश्चित होती है.",
+        "reasoning": "The quote portrays Russia as being unfairly treated and disrespected, which evokes sympathy for Russia's position and suggests that it is a victim of international circumstances."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस की सेना बेहद संयम बरत रही है और आम लोगों और यूक्रेन के शहरों पर हमला नहीं कर रही है. रूस की सेना केवल सैन्य ढांचे को ही निशाना बना रही है.",
+        "reasoning": "The quote highlights Russia's military restraint and discipline, which presents Russia in a positive light and suggests that it is a responsible and humane actor in the conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

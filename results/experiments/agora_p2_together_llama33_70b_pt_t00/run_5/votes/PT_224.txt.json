@@ -1,0 +1,109 @@
+{
+  "file_id": "PT_224.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate policies",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "A quote que apresenta a omissão do governo como responsável pela crise da água, amplificando a ideia de que a situação é grave e que o governo não está fazendo o suficiente para resolver o problema."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "A quote que critica a omissão do governo brasileiro em relação à crise da água, questionando a sua competência e integridade."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "E o Brasil teria tudo para se tornar o campeão na descarbonização. Eis que possui vasto território, muito sol, muito vento, condições para fabricar combustível a partir da biomassa, produzir o hidrogénio verde e exportar para o restante do planeta.",
+        "reasoning": "A quote que sugere que o Brasil tem condições para se tornar um líder na descarbonização, mas que isso não está sendo feito devido à falta de políticas eficazes, implicando que as políticas ambientais são usadas como instrumentos geopolíticos."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "A quote critica a omissão do governo brasileiro em relação à crise da água, destacando a discrepância entre o discurso e a prática do governo."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "A quote amplifica os efeitos negativos do aquecimento global, destacando as consequências catastróficas para a saúde humana."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "É uma solução que todos sabem ser a melhor e a menos dispendiosa. Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "A quote critica a falta de ação do governo em relação à crise da água e ao aquecimento global, destacando a necessidade de mudanças nas políticas climáticas."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "São os combustíveis fósseis os maiores vilões do aquecimento global. Eles precisam de desaparecer. E o Brasil teria tudo para se tornar o campeão na descarbonização.",
+        "reasoning": "A quote destaca a importância da descarbonização e a possibilidade do Brasil se tornar um líder nessa área, o que pode ser visto como uma crítica às políticas atuais que priorizam a exploração de combustíveis fósseis."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Quando faltar água em todo o Brasil, o que se pretende fazer? Dessalinizar? Uma técnica viável, mas caríssima.",
+        "reasoning": "A quote que apresenta um cenário catastrófico de falta de água em todo o Brasil, ampliando o medo sobre as consequências da crise da água."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "A crítica ao governo brasileiro por sua omissão e prática inadequada em relação à crise da água, questionando a competência e intenções do governo."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "E o Brasil teria tudo para se tornar o campeão na descarbonização. Eis que possui vasto território, muito sol, muito vento, condições para fabricar combustível a partir da biomassa, produzir o hidrogénio verde e exportar para o restante do planeta.",
+        "reasoning": "A ideia de que o Brasil pode se tornar um líder na descarbonização e exportar tecnologias verdes para outros países, sugerindo que as políticas ambientais podem ser usadas como instrumentos de influência geopolítica."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

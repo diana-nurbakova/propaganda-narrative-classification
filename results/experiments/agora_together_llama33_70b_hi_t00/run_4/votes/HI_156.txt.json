@@ -1,0 +1,69 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media",
+      "URW: Praise of Russia"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर हम 'अस्तित्व से जुड़े खतरे' का सामना करेंगे, तो ही परमाणु हथियारों का इस्तेमाल करेंगे",
+        "reasoning": "इस बयान में रूस को एक पीड़ित के रूप में चित्रित किया गया है, जो केवल अपने अस्तित्व की रक्षा के लिए परमाणु हथियारों का उपयोग करेगा।"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-यूक्रेन युद्ध में परमाणु हथियारों के इस्तेमाल की संभावनाओं को लेकर चिंताएं जारी हैं",
+        "reasoning": "इस बयान में युद्ध से संबंधित डर को बढ़ावा दिया जा रहा है, जो पाठकों को परमाणु हथियारों के इस्तेमाल की संभावना के बारे में चिंतित कर सकता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "पश्चिमी देशों के रक्षा अधिकारियों का कहना है कि पुतिन की तरफ से फरवरी में हुई घोषणा के बाद उन्होंने रूस की परमाणु बलों को जुटाने से जुड़ी गतिविधियां नहीं देखी हैं",
+        "reasoning": "इस बयान में मीडिया की विश्वसनीयता पर संदेह व्यक्त किया जा रहा है, जो पाठकों को यह सोचने पर मजबूर कर सकता है कि मीडिया रूस के बारे में सही जानकारी प्रदान नहीं कर रहा है।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस के पास परमाणु हथियारों का दुनिया का सबसे बड़ा भंडार है",
+        "reasoning": "इस बयान में रूस की परमाणु क्षमता की प्रशंसा की जा रही है, जो पाठकों को रूस की सैन्य शक्ति के बारे में सकारात्मक दृष्टिकोण प्रदान कर सकता है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

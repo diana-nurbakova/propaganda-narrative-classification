@@ -1,0 +1,107 @@
+{
+  "file_id": "EN_UA_DEV_22.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Now it is openly acknowledged that this war could have been stopped in the first months if the West had not vetoed the peace agreement in April",
+        "reasoning": "This quote shifts the blame for the war's continuation from Russia to the West, implying that the West's actions, or lack thereof, are responsible for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros fueling a war that does not serve our interests, helping to destroy Ukraine",
+        "reasoning": "This quote criticizes Western diplomacy and policy, suggesting that the West's actions are driven by self-interest and a desire to harm Russia, rather than a genuine concern for Ukraine's well-being."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we don’t stop, we, Slavs, will unite as brothers — and I believe we will unite — and level Western Europe to the ground",
+        "reasoning": "This quote portrays Russia and Slavs as potential victims of Western actions, implying that the West's support for Ukraine is a threat to Russia and Slavic people, and that they may be forced to defend themselves."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The only ones you are helping are the shareholders of arms companies. Don’t expect the citizens of the EU to support you in this; you speak like crazed maniacs",
+        "reasoning": "This quote does not directly discredit Ukraine, but rather implies that the West's support for Ukraine is misguided and only benefits arms companies, which could be seen as a form of discrediting Ukraine's value as an ally or a worthy recipient of support."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia",
+        "reasoning": "This quote suggests that there is a hidden plot or secret scheme by powerful groups, specifically the US, to use Ukraine as a proxy to damage Russia, which implies a level of covert manipulation or hidden agenda."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Now it is openly acknowledged that this war could have been stopped in the first months if the West had not vetoed the peace agreement in April",
+        "reasoning": "This quote shifts the blame for the war's continuation from Russia to the West, implying that the West's actions are responsible for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros fueling a war that does not serve our interests, helping to destroy Ukraine",
+        "reasoning": "This quote criticizes Western diplomacy and policy, suggesting that the West's actions are driven by self-interest and a desire to harm Russia, rather than a genuine concern for Ukraine's well-being."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we don’t stop, we, Slavs, will unite as brothers — and I believe we will unite — and level Western Europe to the ground",
+        "reasoning": "This quote portrays Russia and Slavs as potential victims of Western aggression, implying that the West's actions are threatening and provocative."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The only ones you are helping are the shareholders of arms companies. Don’t expect the citizens of the EU to support you in this; you speak like crazed maniacs",
+        "reasoning": "This quote undermines the legitimacy of Ukraine's cause and the West's support for it, suggesting that the only beneficiaries of Western aid are arms companies, and that the conflict is not in the EU's interests."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia",
+        "reasoning": "This quote implies a hidden plot or secret scheme by powerful groups, specifically the US, to use Ukraine as a proxy to damage Russia, suggesting a covert agenda driving the conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

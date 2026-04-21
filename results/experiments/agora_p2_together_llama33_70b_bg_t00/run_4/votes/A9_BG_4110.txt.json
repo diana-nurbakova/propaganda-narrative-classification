@@ -1,0 +1,206 @@
+{
+  "file_id": "A9_BG_4110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руското посолство в САЩ всеки ден получава заплашителни съобщения",
+        "reasoning": "The quote highlights that the Russian embassy in the US receives threatening messages daily, portraying Russia as a victim of threats and aggression."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"русофобската политика\" на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "This quote discredits the US government's policy as 'russophobic', implying it contributes to the growth of extremist tendencies, thus criticizing Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "The quote suggests that individuals are being prepared for deployment on the battlefield in Eastern Europe or for other gangster-like outbursts, amplifying fears of war and conflict."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нищо обаче не се прави, въпреки очевидните рискове",
+        "reasoning": "This quote implies inaction despite obvious risks, which could suggest that the media or authorities are not adequately reporting or addressing these issues, fostering distrust."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Това ужасно явление трови живота на гражданите в различни страни и Съединените щати не са изключение",
+        "reasoning": "The quote mentions that the phenomenon of terrorism affects citizens in various countries, including the US, implying negative consequences for Western countries."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руското посолство в САЩ всеки ден получава заплашителни съобщения",
+        "reasoning": "The quote highlights that the Russian embassy in the US receives threatening messages daily, portraying Russia as a victim of threats and aggression."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "русофобската политика на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "The quote criticizes the US government's 'russophobic' policy, implying that it contributes to the growth of extremist tendencies, thus discrediting the West's diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки",
+        "reasoning": "The quote suggests that young people are being prepared for deployment on the battlefield in Eastern Europe, amplifying fears of war and military escalation."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда",
+        "reasoning": "The quote implies that someone is cultivating and spreading poisonous propaganda among young people, which could contribute to distrust towards media and information sources."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руското посолство в САЩ всеки ден получава заплашителни съобщения",
+        "reasoning": "The quote highlights that the Russian embassy in the US receives threatening messages daily, portraying Russia as a victim of threats and aggression."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "русофобската политика на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "The quote criticizes the US government's 'русофобска политика' (Russophobic policy) for contributing to the growth of extremist tendencies, discrediting the West's diplomatic approach."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки",
+        "reasoning": "The quote mentions preparing people for deployment on the battlefield in Eastern Europe and possibly other gangster-like outbursts, amplifying fears of war and conflict."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда",
+        "reasoning": "The quote suggests that someone is cultivating and spreading poisonous propaganda among young people, implying a hidden plot or secret scheme by powerful groups."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

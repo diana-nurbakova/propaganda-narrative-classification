@@ -1,0 +1,175 @@
+{
+  "file_id": "PT_250.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "a estabilidade nas exportações de petróleo tiveram um papel importante na garantia do desempenho da economia do país nos últimos anos",
+        "reasoning": "A afirmação de Igor Sechin destaca a resiliência e o desempenho da economia russa, apesar das sanções internacionais, o que pode ser visto como um elogio à capacidade da Rússia de manter sua economia estável em face de adversidades"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia",
+        "reasoning": "A declaração implica que a Rússia está sendo injustamente pressionada pelos países ocidentais, o que evoca a ideia de que a Rússia é uma vítima de ações externas"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia",
+        "reasoning": "A afirmação sugere que as ações dos países ocidentais foram ineficazes e possivelmente mal direcionadas, o que pode ser visto como uma crítica à diplomacia e às estratégias ocidentais"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. [...] Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A menção à capacidade da Rússia de manter a estabilidade nas exportações de petróleo apesar das sanções internacionais implica uma avaliação positiva da resiliência econômica do país, o que pode ser interpretado como um elogio à Rússia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica uma crítica à política ocidental, sugerindo ineficácia ou falta de compreensão, o que se alinha com a narrativa de desacreditar o Ocidente."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022.",
+        "reasoning": "A menção às sanções internacionais como uma ação contra a Rússia pode ser vista como uma apresentação da Rússia como vítima de ações externas, evocando simpatia ou justificativa para suas ações."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. [...] A estabilidade nas exportações de petróleo tiveram um papel importante na garantia do desempenho da economia do país nos últimos anos.",
+        "reasoning": "A menção à estabilidade nas exportações de petróleo como fator importante para o desempenho da economia russa, apesar das sanções, pode ser vista como um elogio à resiliência e capacidade da Rússia em manter sua economia estável diante de adversidades."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que a Rússia é vítima de ações injustas ou excessivas por parte do Ocidente, evocando uma imagem de vitimização."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A declaração sugere que as ações dos países ocidentais foram ineficazes e possivelmente mal direcionadas, o que pode ser interpretado como uma crítica à diplomacia e às estratégias ocidentais, desacreditando suas abordagens."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

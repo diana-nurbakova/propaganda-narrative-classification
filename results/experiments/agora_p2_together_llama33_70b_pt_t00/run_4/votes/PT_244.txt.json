@@ -1,0 +1,175 @@
+{
+  "file_id": "PT_244.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A quote from Maria Zakharova, a Russian official, implying that France and its leaders do not respect journalists' rights or freedom of expression, portraying Russia as a victim of unfair treatment."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "O Comité Organizador de Paris-2024 (...) justificou a decisão com base nas autoridades francesas, mas não mencionou qualquer censura ou razão para tal decisão",
+        "reasoning": "The text criticizes the French authorities and the Olympic organizers for their decision to revoke the credentials of Russian journalists without providing a clear reason, implying a lack of transparency and fairness."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que",
+        "reasoning": "The quote implies that the French media or authorities are not trustworthy, as they are accused of not respecting journalists' rights and freedom of expression."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A quote from Maria Zakharova, a Russian official, implies that France and its leaders do not genuinely respect journalists' rights or freedom of expression, portraying Russia as a victim of unfair treatment."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "This statement criticizes Western leaders, specifically President Macron, suggesting their commitment to freedom of expression is hollow, which discredits Western diplomacy and values."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que",
+        "reasoning": "The mention of a statement by a Russian official to a state-owned agency implies a level of control or bias in media reporting, potentially fostering distrust towards media outlets that are not state-controlled or aligned with Russian interests."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A quote da porta-voz da chancelaria russa, Maria Zakharova, sugere que a França não está a respeitar os direitos dos jornalistas russos, o que é uma vítimização da Rússia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "O Comité Organizador de Paris-2024 (...) justificou a decisão com base nas autoridades francesas, mas não mencionou qualquer censura ou razão para tal decisão",
+        "reasoning": "A justificativa do Comité Organizador de Paris-2024 é vagamente baseada nas autoridades francesas, o que sugere uma falta de transparência e uma possível motivação política por trás da decisão, desacreditando a diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que \"para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias\"",
+        "reasoning": "A declaração de Zakharova implica que as autoridades francesas não respeitam a liberdade de expressão, o que pode gerar desconfiança em relação às instituições de mídia ocidentais."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

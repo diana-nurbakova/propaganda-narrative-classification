@@ -1,0 +1,187 @@
+{
+  "file_id": "A9_BG_2828.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "САЩ и ЕС се опитват да завлекат държавите на конференцията в Швейцария, лъжат за своя стремеж към мирно урегулиране",
+        "reasoning": "Този цитат показва, че САЩ и ЕС са представени като лицемерни и двойни стандарти, което е типично за наръчването на западната дипломация."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Този цитат показва, че отговорността за конфликта в Украйна е пренасочена към доставката на оръжие на Украйна, а не към руската инвазия."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Този цитат показва, че украинското правителство е наричано \"нацистко\", което е типично за наръчването на Украйна."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Тази цитата показва, че Володин обвинява страните, които доставят оръжие на Украйна, за продължаването на конфликта, вместо да обвинява Русия за началото на войната."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Терминът \"киевски нацисти\" е унищожителен и има за цел да дискредитира украинското правителство и да го свърже с негативни конотации."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "САЩ и ЕС се опитват да завлекат държавите на конференцията в Швейцария, лъжат за своя стремеж към мирно урегулиране",
+        "reasoning": "Тази цитата показва, че Володин възприема дипломатическите усилия на САЩ и ЕС като нечестни и манипулативни, което дискредитира тяхната роля в международните отношения."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "дават разрешение на киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация",
+        "reasoning": "Тази цитата показва, че Русия е представена като жертва на агресията на Украйна, което е типичен пример за наръчване на Русия като жертва."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Този цитат показва, че Володин обвинява страните, които доставят оръжие на Украйна, за продължаването на конфликта, вместо да обвинява Русия за агресията."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Терминът \"киевски нацисти\" е унищожителен и има за цел да дискредитира украинското правителство и народа."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "САЩ и ЕС се опитват да завлекат държавите на конференцията в Швейцария, лъжат за своя стремеж към мирно урегулиране",
+        "reasoning": "Този цитат показва, че Володин обвинява САЩ и ЕС в лицемерие и лъжа, което е критика към тяхната дипломация и политика."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "дават разрешение на киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация",
+        "reasoning": "Този цитат показва, че Русия е представена като жертва на агресията на Украйна и страните, които я подпомагат."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

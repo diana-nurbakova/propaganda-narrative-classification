@@ -1,0 +1,91 @@
+{
+  "file_id": "BG_950.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Downplaying climate change",
+      "Controversy about green technologies"
+    ],
+    [
+      "Downplaying climate change",
+      "Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което е представено като доказателство, че глобалното затопляне не е толкова сериозен проблем, както се твърди, и че вместо затопляне, има студ."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Електрическите автобуси вероятно ще бъдат спрени от движение този следобед, защото им е много трудно да се затоплят, когато са в експлоатация… Ясно е, че електрическите автобуси са засегнати най-много от този екстремен студ",
+        "reasoning": "Текстът представя електрическите автобуси като технология, която не е подходяща за всички условия, което създава контроверсия около тяхната ефективност и надеждност."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "Текстът критикува решението на управляващите в Швеция да инвестират в електрически автобуси като част от усилията за борба с климатичните промени, което е представено като грешка в контекста на студените температури."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "The quote suggests that the current cold temperatures are evidence that global warming is not occurring, or at least not occurring at a significant enough rate to have a noticeable impact. This downplays the significance of climate change."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "The text highlights the limitations and potential drawbacks of electric buses in cold temperatures, which can be seen as expressing skepticism or criticism of environmentally friendly technologies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "The quote suggests that the current cold temperatures are evidence that global warming is not occurring, or at least not occurring at a significant enough rate to have a noticeable impact. This downplays the significance of climate change."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "The text highlights the limitations and potential drawbacks of electric buses in cold temperatures, which can be seen as expressing skepticism or criticism of environmentally friendly technologies."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

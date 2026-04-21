@@ -1,0 +1,154 @@
+{
+  "file_id": "HI_158.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+        "reasoning": "This quote directly shifts blame for the conflict onto Ukraine, portraying it as the aggressor trying to destabilize Russia, thereby deflecting responsibility from Russia's role as the initial invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "पुतिन ने एक टेलीविजन मीटिंग में कहा कि यूक्रेनी सशस्त्र बलों के नुकसान उनके लिए नाटकीय रूप से बढ़ रहे हैं, जिनमें सबसे अधिक युद्ध-तैयार इकाइयां शामिल हैं, जिन्हें दुश्मन हमारी सीमा पर स्थानांतरित कर रहा है.",
+        "reasoning": "This statement undermines Ukraine's military actions by framing them as a costly and futile effort, portraying Ukraine as a 'दुश्मन' (enemy) suffering dramatic losses, which discredits its military strategy and effectiveness."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This quote frames the conflict as something that is now unfairly returning to Russia, portraying Russia as a victim of the war's expansion back onto its territory, despite Russia's initial invasion of Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "रूसी राष्ट्रपति व्लादिमीर पुतिन ने कहा कि यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+        "reasoning": "This quote directly portrays Ukraine as an aggressor attempting to destabilize Russia, undermining its actions and intentions as a nation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This statement frames the conflict as something that was taken to other countries by Moscow and is now unfairly returning to Russia, portraying Russia as a victim of the war's consequences."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "राष्ट्रपति ने कहा कि दुश्मन को निश्चित रूप से एक योग्य प्रतिक्रिया मिलेगी, और हमारे सामने आने वाले सभी लक्ष्य, बिना किसी संदेह के, हासिल किए जाएंगे.",
+        "reasoning": "This quote expresses confidence and determination in Russia's military response, positively highlighting its resolve and capability to achieve its objectives."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+        "reasoning": "This quote directly shifts blame for the conflict onto Ukraine by portraying it as the aggressor attempting to destabilize Russia, thereby deflecting responsibility from Russia's role as the initial invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "पुतिन ने एक टेलीविजन मीटिंग में कहा कि यूक्रेनी सशस्त्र बलों के नुकसान उनके लिए नाटकीय रूप से बढ़ रहे हैं, जिनमें सबसे अधिक युद्ध-तैयार इकाइयां शामिल हैं, जिन्हें दुश्मन हमारी सीमा पर स्थानांतरित कर रहा है.",
+        "reasoning": "The quote frames Ukraine's military actions as futile and costly, emphasizing dramatic losses of its best units, which serves to undermine the effectiveness and legitimacy of Ukraine's defensive efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This statement portrays Russia as a victim by suggesting the war is now 'returning' to Russia after it was taken to other countries, implying Russia is suffering an unjust consequence of a conflict it did not start on its own soil."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "file_id": "EN_CC_200049.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement"
+    ],
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality as a climate change impact, thereby minimizing the perceived threat of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim about heat-related deaths, framing it as incorrect upon scrutiny, which casts doubt on the accuracy and reliability of the climate science being cited by 'alarmists'."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The use of the pejorative term 'Alarmists' in the headline frames the climate movement and those warning about climate impacts as exaggerating and causing undue fear, which challenges the movement's credibility and motives."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality as a climate change impact, thereby minimizing the perceived threat and impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim (from Science Alert) about heat being the leading cause of weather-related deaths, framing it as failing scrutiny and presenting counter-data, which raises doubts about the accuracy of the climate science narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality as a climate change impact, thereby minimizing the perceived threat and impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim about heat-related deaths, framing it as failing scrutiny and presenting counter-data to raise doubts about the accuracy of the climate-aligned narrative."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The term 'Alarmists' in the headline is a pejorative label that challenges the credibility and motives of those warning about climate change, framing them as exaggerating the threat."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Downplaying climate change",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Questioning the measurements and science",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

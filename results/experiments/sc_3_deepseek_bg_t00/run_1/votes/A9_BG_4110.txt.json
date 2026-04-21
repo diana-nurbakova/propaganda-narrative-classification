@@ -1,0 +1,194 @@
+{
+  "file_id": "A9_BG_4110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Дипломатът посочи, че „русофобската политика“ на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "The quote directly criticizes the US government's policy as 'Russophobic' and blames it for fostering extremism, which fits the definition of discrediting Western governments and their diplomatic stance."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руското посолство в САЩ всеки ден получава заплашителни съобщения",
+        "reasoning": "The statement portrays the Russian embassy as being under constant threat in the US, evoking sympathy and presenting Russia as a victim of harassment and hostile actions."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "The quote suggests that people are being prepared for deployment to a battlefield in Eastern Europe, evoking fear about the potential expansion and escalation of conflict."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "бившият съветник... заяви, че през последните двадесет години агресивната външна политика вреди на самите Съединени щати.",
+        "reasoning": "The attributed statement claims that aggressive US foreign policy has been harmful to the United States itself, highlighting negative consequences for a Western nation."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Дипломатът посочи, че „русофобската политика“ на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "The quote directly criticizes the US government's policy as 'Russophobic' and blames it for fostering extremism, which fits the definition of discrediting a Western government's actions and diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руското посолство в САЩ всеки ден получава заплашителни съобщения",
+        "reasoning": "The statement portrays the Russian embassy as being under constant threat in the US, evoking sympathy and presenting Russia as a victim of harassment and hostile actions."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "The quote suggests that people are being prepared for deployment to a battlefield in Eastern Europe, evoking fear about the potential expansion and escalation of conflict."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "бившият съветник... заяви, че през последните двадесет години агресивната външна политика вреди на самите Съединени щати.",
+        "reasoning": "The attributed statement claims that aggressive US foreign policy has harmed the United States itself, highlighting a negative consequence for a Western nation."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Дипломатът посочи, че „русофобската политика“ на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "The quote directly criticizes the US government's policy as 'Russophobic' and blames it for fostering extremism, which fits the definition of discrediting a Western government's actions and diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руското посолство в САЩ всеки ден получава заплашителни съобщения",
+        "reasoning": "The statement portrays the Russian embassy as being under constant threat in the US, evoking sympathy and presenting Russia as a victim of harassment and hostile actions."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "The quote suggests that people are being prepared for deployment to a battlefield in Eastern Europe, evoking fear about the potential spread and escalation of conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim",
+    "URW: Amplifying war-related fears",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Amplifying war-related fears: Other",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

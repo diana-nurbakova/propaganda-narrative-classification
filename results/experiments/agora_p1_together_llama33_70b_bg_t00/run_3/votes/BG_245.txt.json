@@ -1,0 +1,109 @@
+{
+  "file_id": "BG_245.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "The text presents catastrophic scenarios about climate change, emphasizing the consequences of exceeding the 1.5-degree threshold and predicting temperatures of at least 3 degrees Celsius, which aligns with amplifying climate fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "The text presents catastrophic scenarios about climate change, emphasizing the consequences of exceeding the 1.5-degree threshold and predicting temperatures of at least 3 degrees Celsius, which aligns with amplifying climate fears."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Много експерти посочват, че се чувстват отчаяни и ядосани от нежеланието на световните правителства да работят в посока охлаждане на климата.",
+        "reasoning": "The text criticizes global governments for their inaction on climate change, indicating a challenge to their competence and intentions, which fits the narrative of criticism of institutions and authorities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "The text presents catastrophic scenarios about climate change, emphasizing the consequences of exceeding the 1.5-degree threshold and predicting temperatures of at least 3 degrees Celsius, which aligns with amplifying climate fears."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Много експерти посочват, че се чувстват отчаяни и ядосани от нежеланието на световните правителства да работят в посока охлаждане на климата.",
+        "reasoning": "The text criticizes global governments for their inaction on climate change, implying a lack of effort to address the issue, which fits the narrative of criticizing institutions and authorities."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

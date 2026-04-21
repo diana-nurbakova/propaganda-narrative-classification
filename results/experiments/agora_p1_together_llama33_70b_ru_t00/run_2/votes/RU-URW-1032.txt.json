@@ -1,0 +1,63 @@
+{
+  "file_id": "RU-URW-1032.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "ему надо понимать, перестанет ли Вашингтон оказывать поддержку Киеву после результатов президентских выборов в Штатах осенью",
+        "reasoning": "The quote implies uncertainty and potential unreliability of Western (specifically, US) support for Ukraine, which can be seen as a form of discrediting the West by highlighting their potential inconsistency or lack of commitment."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote speculates about the potential outcome of the conflict, specifically mentioning a prediction about achieving a resolution within a very short timeframe, which aligns with speculating about war outcomes."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None directly provided, but the context of political statements and potential media coverage could imply a narrative of distrust towards media if the text suggested that media outlets are biased or untrustworthy in their reporting on these statements.",
+        "reasoning": "Given the context, there isn't a direct quote that strongly supports the 'Distrust towards Media' narrative without making assumptions beyond the provided text. Thus, this narrative might not be as directly applicable based on the information given."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

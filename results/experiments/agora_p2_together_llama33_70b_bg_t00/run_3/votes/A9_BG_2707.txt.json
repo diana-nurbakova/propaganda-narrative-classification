@@ -1,0 +1,83 @@
+{
+  "file_id": "A9_BG_2707.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting Ukraine"
+    ],
+    [],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика",
+        "reasoning": "Текстът предлага предупреждение за потенциалните последствия от руската инвазия в Украйна, като подчертава възможността за хаос в световната икономика и дългосрочни последствия, което е типично за наръчника \"Amplifying war-related fears\"."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Газовото изнудване на Русия след пълномащабна инвазия е добър индикатор за това какво ще се случи, ако Путин постигне своето",
+        "reasoning": "Текстът споменава за газовото изнудване на Русия и потенциалните последствия за Запада, което е типично за наръчника \"Negative Consequences for the West\"."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Изоставянето на Украйна би означавало да се даде на Русия \"подарък с епични размери\": обезлюден селскостопански бастион, пълен с някои от най-желаните ресурси в света",
+        "reasoning": "Текстът описва Украйна като \"обезлюден селскостопански бастион\", което може да се разглежда като форма на подценка на значимостта и потенциала на Украйна, което е типично за наръчника \"Discrediting Ukraine\"."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика.",
+        "reasoning": "The quote suggests that the consequences of Russia's invasion of Ukraine will have far-reaching and devastating effects on the global economy, evoking fear and anxiety about the potential outcomes."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "The quote highlights the potential negative economic consequences for the West if Russia gains control over Ukraine, implying that the effects will be long-lasting and far-reaching."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Русия и нейните приятели могат да продават оръжия и части от тях на нечестни хора по света. И ако искат да го използват срещу НАТО, те също ще имат такъв вариант",
+        "reasoning": "The quote implies that the West, specifically NATO, is vulnerable to Russia's potential aggression and that Russia may use its resources to undermine Western interests."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,201 @@
+{
+  "file_id": "EN_CC_200034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement's policy by highlighting the catastrophic consequences of stopping oil production, implying that such a policy is unrealistic and dangerous."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the impact of human activity on climate change by comparing it to natural environmental factors like volcanoes, suggesting that human influence is not as significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The answer, in part, is propaganda. ... member of groups like Just Stop Oil have been deluded – or perhaps deluded themselves – into believing that they must appease the climate gods by making all sorts of changes to the existing industrial world order.",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by implying that they are deluded and driven by propaganda, rather than a genuine concern for the environment."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "(Related: According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.)",
+        "reasoning": "The text questions the scientific basis for transitioning away from fossil fuels, citing a statement from a prominent figure that there is 'no science' to support this transition."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by presenting their demands as unrealistic and potentially catastrophic, implying that their goals are misguided and dangerous."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human-induced climate change by comparing it to natural sources of greenhouse gases, suggesting that human activity is not the primary cause of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text questions the scientific consensus on climate change by citing a statement from a prominent figure that there is no scientific basis for transitioning away from fossil fuels, implying that the science on climate change is uncertain or flawed."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement's policy by highlighting the catastrophic consequences of stopping oil production, implying that their proposal is unrealistic and harmful."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the impact of human activity on climate change by comparing it to natural environmental factors like volcanoes, suggesting that human influence is less significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The answer, in part, is propaganda. ... member of groups like Just Stop Oil have been deluded – or perhaps deluded themselves – into believing that they must appease the climate gods by making all sorts of changes to the existing industrial world order.",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by implying that they are deluded and misled by propaganda, and that their beliefs are unfounded and extreme."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text questions the scientific consensus on climate change by citing a statement from a prominent figure (Sultan Al Jaber) that there is no scientific basis for phasing out fossil fuels, implying that the science is uncertain or flawed."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Criticism of climate movement",
+    "CC: Questioning the measurements and science"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other",
+    "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+    "CC: Questioning the measurements and science: Data shows no temperature increase",
+    "CC: Questioning the measurements and science: Scientific community is unreliable",
+    "CC: Questioning the measurements and science: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "matched": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "matched": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "matched": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Other",
+      "matched": "CC: Questioning the measurements and science: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

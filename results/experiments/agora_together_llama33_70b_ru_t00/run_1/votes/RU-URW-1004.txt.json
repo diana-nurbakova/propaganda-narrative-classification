@@ -1,0 +1,153 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине»",
+        "reasoning": "This quote can be seen as discrediting Ukraine by implying that its leader, Zelensky, has made mistakes in the past by agreeing to ceasefires that ultimately harmed Ukraine, which could undermine the legitimacy of Ukraine's actions and decisions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру. Орбан добавил, что старается представлять интересы Европы справедливо и честно",
+        "reasoning": "This quote suggests that Western diplomacy, as represented by Europe, is not doing enough to achieve peace, implying that their efforts are insufficient or ineffective, which could discredit Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that praises Russia, but the article does mention Russia in the context of potential negotiations, which could be seen as a subtle commendation of Russia's role in the conflict."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that portrays Russia as a victim, but the article does mention the possibility of negotiations between Ukraine and Russia, which could be seen as implying that Russia is a legitimate party to the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине»",
+        "reasoning": "This quote implies that Ukraine's past experiences with ceasefires have been negative, which could be interpreted as shifting blame away from Russia for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине»",
+        "reasoning": "This quote could be seen as undermining Ukraine's ability to make decisions about its own conflict, implying that they have made mistakes in the past."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан добавил, что старается представлять интересы Европы справедливо и честно",
+        "reasoning": "This quote does not directly portray Russia as a victim, but it implies that Europe's interests are being represented in a way that could be seen as favorable to Russia, potentially evoking sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру",
+        "reasoning": "This quote could be seen as criticizing Western diplomatic efforts, implying that they are not doing enough to bring about a swift end to the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине»",
+        "reasoning": "This quote can be seen as discrediting Ukraine by implying that its leader, Zelensky, has made mistakes in the past by agreeing to ceasefires that ultimately harmed Ukraine, which could undermine the legitimacy of Ukraine's actions and decisions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру. Орбан добавил, что старается представлять интересы Европы справедливо и честно.",
+        "reasoning": "This quote suggests that Western diplomacy, as represented by Europe, is not doing enough to achieve peace, implying that their efforts are insufficient or ineffective, which could discredit Western diplomatic efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

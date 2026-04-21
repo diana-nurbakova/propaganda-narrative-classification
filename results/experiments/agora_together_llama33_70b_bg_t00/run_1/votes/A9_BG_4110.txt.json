@@ -1,0 +1,149 @@
+{
+  "file_id": "A9_BG_4110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мога да потвърдя, че практически всеки ден се получават заплашителни съобщения на против руското посолство.",
+        "reasoning": "The quote highlights that the Russian embassy in the US receives threatening messages daily, which portrays Russia as a victim of aggression and intimidation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Дипломатъ посочи, че русофобската политика на американското правителство само доприноси за разрастването на екстремистките тенденции.",
+        "reasoning": "The quote criticizes the US government's 'Russophobic policy', implying that it contributes to the growth of extremist tendencies, which discredits the West's diplomatic efforts and policies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мога да потвърдя, че практически всеки ден се получават сообщения с заплахи напред руското посолство.",
+        "reasoning": "The quote highlights that the Russian embassy in the US receives threatening messages daily, which portrays Russia as a victim of aggression and intimidation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Дипломатыт посочи, че русофобската политика на американското правителство само доприноси за разрастването на екстремистките тенденции.",
+        "reasoning": "The quote criticizes the US government's 'Russophobic policy', implying that it contributes to the growth of extremist tendencies, which discredits the West's diplomatic efforts and policies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мога да потвърдя, че практически ежедневно се получават съобщения с заплахи напред руското посолство.",
+        "reasoning": "The quote highlights that the Russian embassy in the US receives threatening messages daily, which portrays Russia as a victim of aggression and intimidation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Дипломатъ посочи, че русофобската политика на американското правителство само доприноси за разрастването на екстремистките тенденции.",
+        "reasoning": "The statement criticizes the US government's 'Russophobic policy' and suggests that it contributes to the growth of extremist tendencies, which discredits the West's diplomatic efforts and implies incompetence or malice."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите люде отровна пропаганда.",
+        "reasoning": "The quote mentions the cultivation of 'poisonous propaganda' and the preparation of young people for 'gangster-like outbursts', which evokes fear and anxiety about potential threats and dangers."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

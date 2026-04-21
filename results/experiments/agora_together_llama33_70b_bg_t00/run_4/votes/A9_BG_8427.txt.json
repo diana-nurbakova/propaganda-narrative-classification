@@ -1,0 +1,187 @@
+{
+  "file_id": "A9_BG_8427.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Тази цитата показва критика към западните санкции и тяхното въздействие върху руската страна, което е характерно за нарътвата \"Discrediting the West, Diplomacy\"."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Андрей Пивоваров – подкрепи идеята за отслабване на санкциите срещу Русия. Според него това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "Тази цитата показва, че Русия е представена като жертва на западните санкции и че тези санкции са несправедливи, което е характерно за нарътвата \"Russia is the Victim\"."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора, коментира Ермак.",
+        "reasoning": "Тази цитата показва, че санкциите имат положително въздействие върху Русия, но не споменава за възможни негативни последствия за Запада, което е характерно за нарътвата \"Negative Consequences for the West\"."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Тази цитата показва критика към западните санкции и тяхното въздействие върху руската страна, което е характерно за нарратива \"Discrediting the West, Diplomacy\"."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "да се опровергае митът, че на Запад \"мразят руснаците\"",
+        "reasoning": "Тази цитата съдържа идеята, че Русия е жертва на негативни настроения от страна на Запада, което е типично за нарратива \"Russia is the Victim\"."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора",
+        "reasoning": "Тази цитата не подкрепя директно нарятива \"Negative Consequences for the West\", а по-скоро показва положителното въздействие на санкциите върху Русия. Тя е част от реакцията срещу идеята за отслабване на санкциите и не предвижда негативни последствия за Запада."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "няма пряка цитата, която да подкрепя този нарътив",
+        "reasoning": "В текста няма пряка критика или отрицание на легитимността, действията или намеренията на Украйна като нация, което е необходимо за нарятива \"Discrediting Ukraine\"."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Тази цитата показва критика към западните санкции, което е част от нарътива за дискредитиране на Запада и дипломацията."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "за да се опровергае митът, че на Запад \"мразят руснаците\"",
+        "reasoning": "Тази цитата показва, че руските опозиционери се опитват да представят Русия като жертва на негативните настроения на Запада, което е част от нарътива за Русия като жертва."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора",
+        "reasoning": "Тази цитата показва, че санкциите имат положително въздействие върху Русия, което е част от нарътива за негативните последствия за Запада."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Последва категорична реакция от страна на Киев.",
+        "reasoning": "Тази цитата показва, че Украина реагира категорично на изказването на руските опозиционери, което може да бъде част от нарътива за дискредитиране на Украйна."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

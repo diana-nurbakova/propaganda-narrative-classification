@@ -1,0 +1,103 @@
+{
+  "file_id": "BG_63.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Океанската топлина в тропическите части на Атлантическия океан и Карибско море създава повеке енергия за подхранване на по-силни бури",
+        "reasoning": "The text emphasizes the potential for severe hurricanes and their devastating impact, highlighting the role of climate change in exacerbating these events."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Очакват се очаква за безпокойство, но не е на тревога",
+        "reasoning": "The text emphasizes the severity of the upcoming hurricane season, using words like опустошителни to describe the potential damage, which contributes to amplifying climate fears."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Общо бъдет от 17 до 25 именувани бури да се развиват с ветрове со скорост от 39 мили в час",
+        "reasoning": "The text provides a specific and alarming forecast for the hurricane season, which amplifies climate fears by emphasizing the potential for numerous and intense storms."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Океанската топлина в тропическите части на Атлантическия океан и Карибско море създава повее енергия за подхранване на по-силни бури",
+        "reasoning": "The text emphasizes the potential dangers and consequences of climate change, such as more intense hurricanes and rising sea levels, which is a characteristic of the Amplifying Climate Fears narrative."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

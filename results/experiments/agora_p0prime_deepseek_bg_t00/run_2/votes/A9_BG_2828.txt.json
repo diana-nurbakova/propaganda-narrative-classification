@@ -1,0 +1,214 @@
+{
+  "file_id": "A9_BG_2828.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти\"",
+        "reasoning": "The quote directly shifts blame for the continuation of the conflict away from Russia (the invader) and onto those supplying weapons to Ukraine, framing Western arms deliveries as the primary obstacle to peace."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"дават разрешение на киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация.\"",
+        "reasoning": "The term \"киевския режим\" (Kiev regime) is a derogatory label that undermines the legitimacy of the Ukrainian government, portraying it as an illegitimate entity rather than a sovereign state."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Все повече страни са убедени, че политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти.\"",
+        "reasoning": "This statement directly criticizes Western (US and EU) policy as hypocritical and based on double standards, actively discrediting their diplomatic stance and intentions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Машини и друго въоръжение, документи са иззети от ВС на РФ в зоната на провеждане на СВО.\"",
+        "reasoning": "The description of Russian forces capturing NATO equipment in perfect condition highlights and implicitly praises the success and prowess of the Russian military (ВС на РФ) in the conflict zone."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти\"",
+        "reasoning": "The quote directly shifts the responsibility for continuing the conflict away from Russia (the invader) and onto those supplying weapons to Ukraine, framing Western arms deliveries as the primary obstacle to peace."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"дават разрешение на киевския режим да нанася удари...\"",
+        "reasoning": "The term 'киевския режим' (Kiev regime) is a derogatory label that undermines the legitimacy of the Ukrainian government, portraying it as an illegitimate entity rather than a sovereign state."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Все повече страни са убедени, че политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти.\"",
+        "reasoning": "This statement directly criticizes Western (US and EU) policy as hypocritical and based on double standards, actively discrediting their diplomatic stance and intentions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Машини и друго въоръжение, документи са иззети от ВС на РФ в зоната на провеждане на СВО.\"",
+        "reasoning": "The text highlights the capture of NATO equipment by Russian forces, presenting it as a demonstration of Russian military success and capability, which serves to glorify Russia's military actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти\"",
+        "reasoning": "The quote directly shifts the responsibility for continuing the conflict away from Russia (the invader) and onto those supplying weapons to Ukraine, framing Western arms deliveries as the primary obstacle to peace."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"дават разрешение на киевския режим да нанася удари...\"",
+        "reasoning": "The term 'киевския режим' (Kiev regime) is a derogatory label that undermines the legitimacy of the Ukrainian government, portraying it as an illegitimate entity rather than a sovereign state."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Все повече страни са убедени, че политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти.\"",
+        "reasoning": "This statement directly criticizes Western (US and EU) policy as hypocritical and based on double standards, actively discrediting their diplomatic stance and actions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Машини и друго въоръжение, документи са иззети от ВС на РФ в зоната на провеждане на СВО.\"",
+        "reasoning": "The text highlights the capture of NATO equipment by the Russian Armed Forces, showcasing Russian military success and capability, which serves as a form of praise for Russia's military actions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Praise of Russian military might"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

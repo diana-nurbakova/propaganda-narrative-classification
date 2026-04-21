@@ -1,0 +1,108 @@
+{
+  "file_id": "EN_CC_200064.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "A radical climate activist was knocked on his rear end by a camera crane operator after a group stormed the stage during Sweden’s Strictly Come Dancing final over the weekend.",
+        "reasoning": "The text presents the climate activists as 'radical' and their actions as disruptive and potentially dangerous, especially considering one of the dancers is pregnant. This framing criticizes the methods and actions of the climate movement."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The three activists were then removed from the venue by law enforcement, and are currently facing potential vandalism charges.",
+        "reasoning": "The mention of law enforcement removing the activists and the potential for vandalism charges could imply that the institutions (in this case, law enforcement) are acting appropriately in response to the activists' actions, but the primary focus is on the activists' disruption rather than criticizing the institutions themselves. However, the narrative might also subtly suggest that the legal system is being used to suppress environmental activism, which could be seen as a criticism of institutions. The main critique, though, is directed at the activists."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "A radical climate activist was knocked on his rear end by a camera crane operator after a group stormed the stage during Sweden’s Strictly Come Dancing final over the weekend.",
+        "reasoning": "The text presents the climate activists as 'radical' and their actions as disruptive and potentially dangerous, especially considering the pregnancy of one of the dancers. This framing criticizes the methods and actions of the climate movement."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The reason: The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "Although the quote itself amplifies climate fears, the context in which it is presented - as a justification for disrupting a dance competition - can be seen as downplaying the significance of climate change by portraying the activists' concerns as overly dramatic or misplaced."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "A radical climate activist was knocked on his rear end by a camera crane operator after a group stormed the stage during Sweden’s Strictly Come Dancing final over the weekend.",
+        "reasoning": "The text presents the climate activists as 'radical' and their actions as disruptive and potentially dangerous, especially considering the pregnancy of one of the dancers. This framing criticizes the methods and actions of the climate movement."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The reason: The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "Although the quote itself amplifies climate fears, the context in which it's presented - as a justification for disrupting a dance competition - can be seen as downplaying the significance of climate change by portraying the activists' concerns as overly dramatic or misplaced."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is radical and disruptive",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

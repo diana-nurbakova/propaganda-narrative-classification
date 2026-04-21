@@ -1,0 +1,1553 @@
+{
+  "n_documents": 2402,
+  "n_experiments": 21,
+  "decomposition": {
+    "total_fp": 7583,
+    "total_fn": 503,
+    "total_errors": 8086,
+    "fp_confusion": 7280,
+    "fp_cross_domain": 303,
+    "fp_hallucination": 0,
+    "fp_breakdown_pct": {
+      "confusion": 96.00421996571278,
+      "cross_domain": 3.995780034287221,
+      "hallucination": 0.0
+    },
+    "over_under_prediction": {
+      "mean_diff": 2.9475437135720233,
+      "median_diff": 3.0,
+      "n_over": 2098,
+      "n_under": 261,
+      "n_exact": 43
+    }
+  },
+  "per_narrative": {
+    "Blaming the war on others rather than the invader": {
+      "tp": 77,
+      "fp": 506,
+      "fn": 4,
+      "support": 81,
+      "precision": 0.1320754716981132,
+      "recall": 0.9506172839506173,
+      "f1": 0.2319277108433735
+    },
+    "Discrediting Ukraine": {
+      "tp": 211,
+      "fp": 377,
+      "fn": 30,
+      "support": 241,
+      "precision": 0.358843537414966,
+      "recall": 0.8755186721991701,
+      "f1": 0.5090470446320868
+    },
+    "Russia is the Victim": {
+      "tp": 0,
+      "fp": 301,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Praise of Russia": {
+      "tp": 0,
+      "fp": 224,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Overpraising the West": {
+      "tp": 61,
+      "fp": 37,
+      "fn": 19,
+      "support": 80,
+      "precision": 0.6224489795918368,
+      "recall": 0.7625,
+      "f1": 0.6853932584269663
+    },
+    "Speculating war outcomes": {
+      "tp": 135,
+      "fp": 290,
+      "fn": 106,
+      "support": 241,
+      "precision": 0.3176470588235294,
+      "recall": 0.5601659751037344,
+      "f1": 0.40540540540540543
+    },
+    "Discrediting the West, Diplomacy": {
+      "tp": 306,
+      "fp": 542,
+      "fn": 13,
+      "support": 319,
+      "precision": 0.3608490566037736,
+      "recall": 0.9592476489028213,
+      "f1": 0.5244215938303343
+    },
+    "Negative Consequences for the West": {
+      "tp": 34,
+      "fp": 483,
+      "fn": 46,
+      "support": 80,
+      "precision": 0.06576402321083172,
+      "recall": 0.425,
+      "f1": 0.11390284757118928
+    },
+    "Distrust towards Media": {
+      "tp": 0,
+      "fp": 424,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Amplifying war-related fears": {
+      "tp": 0,
+      "fp": 622,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Hidden plots by secret schemes of powerful groups": {
+      "tp": 63,
+      "fp": 359,
+      "fn": 97,
+      "support": 160,
+      "precision": 0.14928909952606634,
+      "recall": 0.39375,
+      "f1": 0.21649484536082472
+    },
+    "Criticism of climate policies": {
+      "tp": 201,
+      "fp": 604,
+      "fn": 39,
+      "support": 240,
+      "precision": 0.2496894409937888,
+      "recall": 0.8375,
+      "f1": 0.384688995215311
+    },
+    "Criticism of institutions and authorities": {
+      "tp": 177,
+      "fp": 606,
+      "fn": 63,
+      "support": 240,
+      "precision": 0.2260536398467433,
+      "recall": 0.7375,
+      "f1": 0.34604105571847504
+    },
+    "Climate change is beneficial": {
+      "tp": 79,
+      "fp": 20,
+      "fn": 1,
+      "support": 80,
+      "precision": 0.797979797979798,
+      "recall": 0.9875,
+      "f1": 0.88268156424581
+    },
+    "Downplaying climate change": {
+      "tp": 0,
+      "fp": 528,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Questioning the measurements and science": {
+      "tp": 71,
+      "fp": 290,
+      "fn": 9,
+      "support": 80,
+      "precision": 0.19667590027700832,
+      "recall": 0.8875,
+      "f1": 0.3219954648526077
+    },
+    "Criticism of climate movement": {
+      "tp": 408,
+      "fp": 392,
+      "fn": 72,
+      "support": 480,
+      "precision": 0.51,
+      "recall": 0.85,
+      "f1": 0.6375000000000001
+    },
+    "Controversy about green technologies": {
+      "tp": 76,
+      "fp": 376,
+      "fn": 4,
+      "support": 80,
+      "precision": 0.168141592920354,
+      "recall": 0.95,
+      "f1": 0.28571428571428575
+    },
+    "Amplifying Climate Fears": {
+      "tp": 0,
+      "fp": 263,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Green policies are geopolitical instruments": {
+      "tp": 0,
+      "fp": 339,
+      "fn": 0,
+      "support": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "confusion_pairs": [
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Downplaying climate change",
+      "count": 294,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Questioning the measurements and science",
+      "count": 267,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Discrediting the West, Diplomacy",
+      "count": 218,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Blaming the war on others rather than the invader",
+      "count": 216,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 201,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Amplifying war-related fears",
+      "count": 188,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Criticism of climate policies",
+      "count": 180,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Negative Consequences for the West",
+      "count": 180,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Discrediting Ukraine",
+      "count": 176,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Discrediting the West, Diplomacy",
+      "count": 176,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Amplifying war-related fears",
+      "count": 171,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 154,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Discrediting Ukraine",
+      "count": 154,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 150,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Criticism of climate policies",
+      "count": 149,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Distrust towards Media",
+      "count": 147,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Blaming the war on others rather than the invader",
+      "count": 141,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Controversy about green technologies",
+      "count": 135,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Praise of Russia",
+      "count": 135,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Criticism of climate movement",
+      "count": 134,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Amplifying war-related fears",
+      "count": 131,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Speculating war outcomes",
+      "count": 126,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Russia is the Victim",
+      "count": 115,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Controversy about green technologies",
+      "count": 111,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Negative Consequences for the West",
+      "count": 104,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 103,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 102,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Negative Consequences for the West",
+      "count": 102,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Distrust towards Media",
+      "count": 94,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Russia is the Victim",
+      "count": 92,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Blaming the war on others rather than the invader",
+      "count": 90,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Speculating war outcomes",
+      "count": 90,
+      "same_domain": true
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 84,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Distrust towards Media",
+      "count": 81,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Amplifying war-related fears",
+      "count": 81,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Distrust towards Media",
+      "count": 81,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Discrediting the West, Diplomacy",
+      "count": 81,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Controversy about green technologies",
+      "count": 80,
+      "same_domain": true
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Criticism of climate policies",
+      "count": 79,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Criticism of climate policies",
+      "count": 77,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Downplaying climate change",
+      "count": 74,
+      "same_domain": true
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 74,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 74,
+      "same_domain": true
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Criticism of climate policies",
+      "count": 73,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 70,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Criticism of climate movement",
+      "count": 69,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Downplaying climate change",
+      "count": 62,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Criticism of climate movement",
+      "count": 58,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Criticism of climate movement",
+      "count": 57,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 55,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Negative Consequences for the West",
+      "count": 55,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 54,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Russia is the Victim",
+      "count": 50,
+      "same_domain": true
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 48,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 48,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Speculating war outcomes",
+      "count": 44,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Amplifying war-related fears",
+      "count": 43,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Negative Consequences for the West",
+      "count": 42,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Praise of Russia",
+      "count": 41,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Discrediting Ukraine",
+      "count": 41,
+      "same_domain": true
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 41,
+      "same_domain": false
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 40,
+      "same_domain": false
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Downplaying climate change",
+      "count": 38,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Russia is the Victim",
+      "count": 36,
+      "same_domain": true
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Criticism of climate movement",
+      "count": 35,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Discrediting the West, Diplomacy",
+      "count": 34,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Discrediting the West, Diplomacy",
+      "count": 33,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 33,
+      "same_domain": false
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Blaming the war on others rather than the invader",
+      "count": 31,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Criticism of climate policies",
+      "count": 31,
+      "same_domain": false
+    },
+    {
+      "gold": "Speculating war outcomes",
+      "predicted_as": "Overpraising the West",
+      "count": 31,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 30,
+      "same_domain": false
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Speculating war outcomes",
+      "count": 30,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 29,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Blaming the war on others rather than the invader",
+      "count": 28,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Controversy about green technologies",
+      "count": 28,
+      "same_domain": false
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 27,
+      "same_domain": false
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Praise of Russia",
+      "count": 26,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Criticism of climate movement",
+      "count": 25,
+      "same_domain": false
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Downplaying climate change",
+      "count": 23,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 21,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Praise of Russia",
+      "count": 21,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Criticism of institutions and authorities",
+      "count": 19,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Climate change is beneficial",
+      "count": 18,
+      "same_domain": true
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 18,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 16,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 15,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Distrust towards Media",
+      "count": 15,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Criticism of climate policies",
+      "count": 15,
+      "same_domain": true
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Criticism of climate movement",
+      "count": 14,
+      "same_domain": true
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Downplaying climate change",
+      "count": 14,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Downplaying climate change",
+      "count": 14,
+      "same_domain": false
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 14,
+      "same_domain": true
+    },
+    {
+      "gold": "Hidden plots by secret schemes of powerful groups",
+      "predicted_as": "Controversy about green technologies",
+      "count": 13,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 10,
+      "same_domain": false
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 9,
+      "same_domain": false
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Downplaying climate change",
+      "count": 9,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate policies",
+      "predicted_as": "Questioning the measurements and science",
+      "count": 8,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 8,
+      "same_domain": false
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Amplifying war-related fears",
+      "count": 8,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Questioning the measurements and science",
+      "count": 7,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of institutions and authorities",
+      "predicted_as": "Questioning the measurements and science",
+      "count": 6,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 6,
+      "same_domain": false
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Distrust towards Media",
+      "count": 6,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Russia is the Victim",
+      "count": 6,
+      "same_domain": true
+    },
+    {
+      "gold": "Overpraising the West",
+      "predicted_as": "Discrediting Ukraine",
+      "count": 6,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Hidden plots by secret schemes of powerful groups",
+      "count": 5,
+      "same_domain": true
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Amplifying Climate Fears",
+      "count": 5,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting the West, Diplomacy",
+      "predicted_as": "Overpraising the West",
+      "count": 5,
+      "same_domain": true
+    },
+    {
+      "gold": "Questioning the measurements and science",
+      "predicted_as": "Controversy about green technologies",
+      "count": 5,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Green policies are geopolitical instruments",
+      "count": 4,
+      "same_domain": true
+    },
+    {
+      "gold": "Climate change is beneficial",
+      "predicted_as": "Controversy about green technologies",
+      "count": 4,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Russia is the Victim",
+      "count": 2,
+      "same_domain": true
+    },
+    {
+      "gold": "Criticism of climate movement",
+      "predicted_as": "Climate change is beneficial",
+      "count": 2,
+      "same_domain": true
+    },
+    {
+      "gold": "Controversy about green technologies",
+      "predicted_as": "Questioning the measurements and science",
+      "count": 1,
+      "same_domain": true
+    },
+    {
+      "gold": "Blaming the war on others rather than the invader",
+      "predicted_as": "Praise of Russia",
+      "count": 1,
+      "same_domain": true
+    },
+    {
+      "gold": "Discrediting Ukraine",
+      "predicted_as": "Overpraising the West",
+      "count": 1,
+      "same_domain": true
+    },
+    {
+      "gold": "Negative Consequences for the West",
+      "predicted_as": "Questioning the measurements and science",
+      "count": 1,
+      "same_domain": false
+    }
+  ],
+  "systematic": {
+    "model_names": [
+      "DeepSeek V3",
+      "GPT-5 Nano",
+      "Gemini 2.5 Flash",
+      "Llama 3.3 70B",
+      "Mistral Large"
+    ],
+    "per_narrative": {
+      "Blaming the war on others rather than the invader": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.0,
+          "GPT-5 Nano": 0.0625,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.12,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.8685714285714285,
+          "GPT-5 Nano": 0.8421052631578947,
+          "Gemini 2.5 Flash": 0.8604651162790697,
+          "Llama 3.3 70B": 0.8650306748466258,
+          "Mistral Large": 0.897196261682243
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.23232323232323232,
+          "GPT-5 Nano": 0.27027027027027023,
+          "Gemini 2.5 Flash": 0.24489795918367346,
+          "Llama 3.3 70B": 0.23404255319148937,
+          "Mistral Large": 0.1864406779661017
+        },
+        "mean_fn_rate": 0.0365,
+        "mean_fp_rate": 0.8666737489074523,
+        "std_fn_rate": 0.04825971404805461,
+        "std_fp_rate": 0.017776851676852806,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Discrediting Ukraine": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.08695652173913043,
+          "GPT-5 Nano": 0.0425531914893617,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.26666666666666666,
+          "Mistral Large": 0.06060606060606061
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.6337209302325582,
+          "GPT-5 Nano": 0.6311475409836066,
+          "Gemini 2.5 Flash": 0.6222222222222222,
+          "Llama 3.3 70B": 0.6839080459770115,
+          "Mistral Large": 0.5866666666666667
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.5228215767634855,
+          "GPT-5 Nano": 0.5325443786982249,
+          "Gemini 2.5 Flash": 0.5483870967741935,
+          "Llama 3.3 70B": 0.4417670682730924,
+          "Mistral Large": 0.5740740740740741
+        },
+        "mean_fn_rate": 0.09135648810024388,
+        "mean_fp_rate": 0.631533081216413,
+        "std_fn_rate": 0.09211555447604355,
+        "std_fp_rate": 0.03113762838760167,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Russia is the Victim": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Praise of Russia": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Overpraising the West": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.21739130434782608,
+          "GPT-5 Nano": 0.0,
+          "Gemini 2.5 Flash": 0.3333333333333333,
+          "Llama 3.3 70B": 0.4,
+          "Mistral Large": 0.2
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.3793103448275862,
+          "GPT-5 Nano": 0.1111111111111111,
+          "Gemini 2.5 Flash": 0.2,
+          "Llama 3.3 70B": 0.53125,
+          "Mistral Large": 0.42857142857142855
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.6923076923076923,
+          "GPT-5 Nano": 0.9411764705882353,
+          "Gemini 2.5 Flash": 0.7272727272727272,
+          "Llama 3.3 70B": 0.5263157894736842,
+          "Mistral Large": 0.6666666666666666
+        },
+        "mean_fn_rate": 0.2301449275362319,
+        "mean_fp_rate": 0.33004857690202516,
+        "std_fn_rate": 0.13677474325610933,
+        "std_fp_rate": 0.15327213250820448,
+        "systematic_fn": false,
+        "systematic_fp": false,
+        "domain": "URW"
+      },
+      "Speculating war outcomes": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.463768115942029,
+          "GPT-5 Nano": 0.041666666666666664,
+          "Gemini 2.5 Flash": 0.11764705882352941,
+          "Llama 3.3 70B": 0.5733333333333334,
+          "Mistral Large": 0.84375
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.44776119402985076,
+          "GPT-5 Nano": 0.6912751677852349,
+          "Gemini 2.5 Flash": 0.7368421052631579,
+          "Llama 3.3 70B": 0.75,
+          "Mistral Large": 0.7916666666666666
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.5441176470588235,
+          "GPT-5 Nano": 0.46700507614213205,
+          "Gemini 2.5 Flash": 0.40540540540540543,
+          "Llama 3.3 70B": 0.31527093596059114,
+          "Mistral Large": 0.17857142857142858
+        },
+        "mean_fn_rate": 0.4080330349531117,
+        "mean_fp_rate": 0.683509026748982,
+        "std_fn_rate": 0.29625265989396016,
+        "std_fp_rate": 0.12214818495466301,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Discrediting the West, Diplomacy": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.010869565217391304,
+          "GPT-5 Nano": 0.11290322580645161,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.05,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.631578947368421,
+          "GPT-5 Nano": 0.5703125,
+          "Gemini 2.5 Flash": 0.56,
+          "Llama 3.3 70B": 0.6735395189003437,
+          "Mistral Large": 0.6742424242424242
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.5368731563421828,
+          "GPT-5 Nano": 0.5789473684210525,
+          "Gemini 2.5 Flash": 0.6111111111111112,
+          "Llama 3.3 70B": 0.48593350383631717,
+          "Mistral Large": 0.49142857142857144
+        },
+        "mean_fn_rate": 0.03475455820476858,
+        "mean_fp_rate": 0.6219346781022378,
+        "std_fn_rate": 0.04318770488339126,
+        "std_fp_rate": 0.04897535186885267,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Negative Consequences for the West": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.4782608695652174,
+          "GPT-5 Nano": 0.9375,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 0.6,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.9076923076923077,
+          "GPT-5 Nano": 0.984375,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 0.9441340782122905,
+          "Mistral Large": 0.8910891089108911
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.1568627450980392,
+          "GPT-5 Nano": 0.025,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0.09803921568627451,
+          "Mistral Large": 0.1964285714285714
+        },
+        "mean_fn_rate": 0.6031521739130434,
+        "mean_fp_rate": 0.9454580989630978,
+        "std_fn_rate": 0.36018800226468584,
+        "std_fp_rate": 0.042126806799447025,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Distrust towards Media": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Amplifying war-related fears": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "URW"
+      },
+      "Hidden plots by secret schemes of powerful groups": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.6739130434782609,
+          "GPT-5 Nano": 0.5625,
+          "Gemini 2.5 Flash": 0.5,
+          "Llama 3.3 70B": 0.68,
+          "Mistral Large": 0.4090909090909091
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.8557692307692307,
+          "GPT-5 Nano": 0.8313253012048193,
+          "Gemini 2.5 Flash": 0.9074074074074074,
+          "Llama 3.3 70B": 0.8709677419354839,
+          "Mistral Large": 0.7719298245614035
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.19999999999999998,
+          "GPT-5 Nano": 0.24347826086956523,
+          "Gemini 2.5 Flash": 0.15625,
+          "Llama 3.3 70B": 0.1839080459770115,
+          "Mistral Large": 0.32911392405063294
+        },
+        "mean_fn_rate": 0.565100790513834,
+        "mean_fp_rate": 0.8474799011756688,
+        "std_fn_rate": 0.10356243998106487,
+        "std_fp_rate": 0.04512312672779611,
+        "systematic_fn": true,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Criticism of climate policies": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.42028985507246375,
+          "GPT-5 Nano": 0.14583333333333334,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.013333333333333334,
+          "Mistral Large": 0.06060606060606061
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.7905759162303665,
+          "GPT-5 Nano": 0.7469135802469136,
+          "Gemini 2.5 Flash": 0.75,
+          "Llama 3.3 70B": 0.720754716981132,
+          "Mistral Large": 0.7559055118110236
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.3076923076923077,
+          "GPT-5 Nano": 0.3904761904761904,
+          "Gemini 2.5 Flash": 0.4,
+          "Llama 3.3 70B": 0.43529411764705883,
+          "Mistral Large": 0.3875
+        },
+        "mean_fn_rate": 0.12801251646903822,
+        "mean_fp_rate": 0.7528299450538871,
+        "std_fn_rate": 0.1548068305238681,
+        "std_fp_rate": 0.022387718366951494,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Criticism of institutions and authorities": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.5217391304347826,
+          "GPT-5 Nano": 0.4583333333333333,
+          "Gemini 2.5 Flash": 0.2,
+          "Llama 3.3 70B": 0.02666666666666667,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.725,
+          "GPT-5 Nano": 0.8088235294117647,
+          "Gemini 2.5 Flash": 0.8,
+          "Llama 3.3 70B": 0.7725856697819314,
+          "Mistral Large": 0.773972602739726
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.34920634920634924,
+          "GPT-5 Nano": 0.2826086956521739,
+          "Gemini 2.5 Flash": 0.32000000000000006,
+          "Llama 3.3 70B": 0.36868686868686873,
+          "Mistral Large": 0.3687150837988827
+        },
+        "mean_fn_rate": 0.2413478260869565,
+        "mean_fp_rate": 0.7760763603866845,
+        "std_fn_rate": 0.21528976287687232,
+        "std_fp_rate": 0.02922369900950493,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Climate change is beneficial": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.043478260869565216,
+          "GPT-5 Nano": 0.0,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.0,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.3333333333333333,
+          "GPT-5 Nano": 0.0,
+          "Gemini 2.5 Flash": 0.5,
+          "Llama 3.3 70B": 0.07407407407407407,
+          "Mistral Large": 0.15384615384615385
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.7857142857142856,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 0.6666666666666666,
+          "Llama 3.3 70B": 0.9615384615384615,
+          "Mistral Large": 0.9166666666666666
+        },
+        "mean_fn_rate": 0.008695652173913044,
+        "mean_fp_rate": 0.21225071225071224,
+        "std_fn_rate": 0.017391304347826087,
+        "std_fp_rate": 0.18166722013595282,
+        "systematic_fn": false,
+        "systematic_fp": false,
+        "domain": "CC"
+      },
+      "Downplaying climate change": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Questioning the measurements and science": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.34782608695652173,
+          "GPT-5 Nano": 0.0625,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.0,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.8026315789473685,
+          "GPT-5 Nano": 0.8,
+          "Gemini 2.5 Flash": 0.8214285714285714,
+          "Llama 3.3 70B": 0.7899159663865546,
+          "Mistral Large": 0.8253968253968254
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.303030303030303,
+          "GPT-5 Nano": 0.32967032967032966,
+          "Gemini 2.5 Flash": 0.30303030303030304,
+          "Llama 3.3 70B": 0.34722222222222227,
+          "Mistral Large": 0.29729729729729726
+        },
+        "mean_fn_rate": 0.08206521739130435,
+        "mean_fp_rate": 0.8078745884318639,
+        "std_fn_rate": 0.1350671960470607,
+        "std_fp_rate": 0.013436886845719287,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Criticism of climate movement": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.2898550724637681,
+          "GPT-5 Nano": 0.25,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.04666666666666667,
+          "Mistral Large": 0.015151515151515152
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.4731182795698925,
+          "GPT-5 Nano": 0.5384615384615384,
+          "Gemini 2.5 Flash": 0.5161290322580645,
+          "Llama 3.3 70B": 0.39148936170212767,
+          "Mistral Large": 0.5962732919254659
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.6049382716049383,
+          "GPT-5 Nano": 0.5714285714285714,
+          "Gemini 2.5 Flash": 0.6521739130434783,
+          "Llama 3.3 70B": 0.7428571428571428,
+          "Mistral Large": 0.5726872246696035
+        },
+        "mean_fn_rate": 0.12033465085638997,
+        "mean_fp_rate": 0.5030943007834179,
+        "std_fn_rate": 0.123710281091342,
+        "std_fp_rate": 0.06849422514486735,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Controversy about green technologies": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0.17391304347826086,
+          "GPT-5 Nano": 0.0,
+          "Gemini 2.5 Flash": 0.0,
+          "Llama 3.3 70B": 0.0,
+          "Mistral Large": 0.0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 0.7790697674418605,
+          "GPT-5 Nano": 0.8431372549019608,
+          "Gemini 2.5 Flash": 0.8611111111111112,
+          "Llama 3.3 70B": 0.8214285714285714,
+          "Mistral Large": 0.875
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0.3486238532110092,
+          "GPT-5 Nano": 0.2711864406779661,
+          "Gemini 2.5 Flash": 0.24390243902439027,
+          "Llama 3.3 70B": 0.30303030303030304,
+          "Mistral Large": 0.2222222222222222
+        },
+        "mean_fn_rate": 0.034782608695652174,
+        "mean_fp_rate": 0.8359493409767008,
+        "std_fn_rate": 0.06956521739130435,
+        "std_fp_rate": 0.03363294036156522,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Amplifying Climate Fears": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      },
+      "Green policies are geopolitical instruments": {
+        "model_fn_rates": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "model_fp_rates": {
+          "DeepSeek V3": 1.0,
+          "GPT-5 Nano": 1.0,
+          "Gemini 2.5 Flash": 1.0,
+          "Llama 3.3 70B": 1.0,
+          "Mistral Large": 1.0
+        },
+        "model_f1s": {
+          "DeepSeek V3": 0,
+          "GPT-5 Nano": 0,
+          "Gemini 2.5 Flash": 0,
+          "Llama 3.3 70B": 0,
+          "Mistral Large": 0
+        },
+        "mean_fn_rate": 0.0,
+        "mean_fp_rate": 1.0,
+        "std_fn_rate": 0.0,
+        "std_fp_rate": 0.0,
+        "systematic_fn": false,
+        "systematic_fp": true,
+        "domain": "CC"
+      }
+    }
+  },
+  "recommendations": [
+    "**Low recall for 'Hidden plots by secret schemes of powerful groups'** (R=0.39, support=160): Add more examples or strengthen the definition in prompts.",
+    "**High over-prediction for 'Blaming the war on others rather than the invader'** (P=0.13, FP=506): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Discrediting Ukraine'** (P=0.36, FP=377): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Russia is the Victim'** (P=0.00, FP=301): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Praise of Russia'** (P=0.00, FP=224): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Speculating war outcomes'** (P=0.32, FP=290): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Discrediting the West, Diplomacy'** (P=0.36, FP=542): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Negative Consequences for the West'** (P=0.07, FP=483): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Distrust towards Media'** (P=0.00, FP=424): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Amplifying war-related fears'** (P=0.00, FP=622): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Hidden plots by secret schemes of powerful groups'** (P=0.15, FP=359): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Criticism of climate policies'** (P=0.25, FP=604): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Criticism of institutions and authorities'** (P=0.23, FP=606): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Downplaying climate change'** (P=0.00, FP=528): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Questioning the measurements and science'** (P=0.20, FP=290): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Controversy about green technologies'** (P=0.17, FP=376): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Amplifying Climate Fears'** (P=0.00, FP=263): Tighten classification criteria or add negative examples.",
+    "**High over-prediction for 'Green policies are geopolitical instruments'** (P=0.00, FP=339): Tighten classification criteria or add negative examples.",
+    "**Frequent confusion: 'Criticism of climate movement' predicted as 'Downplaying climate change'** (294 times, same domain): Add disambiguation guidance between these two narratives.",
+    "**Frequent confusion: 'Criticism of climate movement' predicted as 'Questioning the measurements and science'** (267 times, same domain): Add disambiguation guidance between these two narratives.",
+    "**Frequent confusion: 'Discrediting Ukraine' predicted as 'Discrediting the West, Diplomacy'** (218 times, same domain): Add disambiguation guidance between these two narratives.",
+    "**Frequent confusion: 'Discrediting the West, Diplomacy' predicted as 'Blaming the war on others rather than the invader'** (216 times, same domain): Add disambiguation guidance between these two narratives.",
+    "**Frequent confusion: 'Criticism of climate movement' predicted as 'Criticism of institutions and authorities'** (201 times, same domain): Add disambiguation guidance between these two narratives.",
+    "**Systematic miss across ALL models: 'Hidden plots by secret schemes of powerful groups'** (mean FN rate=0.57): This narrative may need fundamentally different prompt strategy."
+  ]
+}

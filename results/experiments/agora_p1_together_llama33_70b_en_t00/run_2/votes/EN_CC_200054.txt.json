@@ -1,0 +1,103 @@
+{
+  "file_id": "EN_CC_200054.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that the ECB's true intention is not to combat climate change, but to promote its own interests and eliminate competition from cryptocurrencies, implying a lack of trust in the institution's motives."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "The Italian economist said that due to the European Union’s commitment to combatting climate change, those “crypto-assets deemed to have an excessive ecological footprint should be banned.”",
+        "reasoning": "This quote implies that the EU's climate policies are being used as a tool to exert control over the financial sector and promote its own digital currency, rather than a genuine concern for the environment."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that there is a hidden agenda behind the ECB's actions, implying a secret plot to promote its own interests and eliminate competition."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that the ECB's push for a ban on cryptocurrencies under the guise of climate change is actually a geopolitical move to promote their own Central Bank Digital Currency and eliminate alternatives, implying that environmental policies are being used as a tool for geopolitical power and influence."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The Italian economist said that due to the European Union’s commitment to combatting climate change, those “crypto-assets deemed to have an excessive ecological footprint should be banned.”",
+        "reasoning": "This quote can be seen as criticism of the European Union's institutional approach to climate change, implying that their commitment is being used to justify a ban on cryptocurrencies, which could be perceived as an overreach of authority."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote implies that there is a hidden agenda behind the ECB's push for a ban on cryptocurrencies, suggesting that powerful groups are secretly plotting to promote their own interests under the guise of environmental concerns."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that the ECB's push for a ban on cryptocurrencies under the guise of climate change is actually a geopolitical move to promote their own digital currency and eliminate alternatives, implying that environmental policies are being used as a tool for geopolitical power and influence."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The Italian economist said that due to the European Union’s commitment to combatting climate change, those “crypto-assets deemed to have an excessive ecological footprint should be banned.”",
+        "reasoning": "This quote can be seen as criticism of the European Union's institutions and authorities, as it implies that their commitment to combating climate change is being used to justify a ban on cryptocurrencies, which could be seen as an overreach of their authority."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote implies that there is a hidden plot by the ECB to use the environmental excuse as a means to achieve their true goal of forming a CBDC and eliminating alternatives, which suggests a secret scheme by a powerful group."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

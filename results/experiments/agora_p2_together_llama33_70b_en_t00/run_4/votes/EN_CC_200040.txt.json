@@ -1,0 +1,182 @@
+{
+  "file_id": "EN_CC_200040.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "One would think the goal of these groups would be to generate public sentiment for their cause; instead they have inspired the exact opposite.",
+        "reasoning": "This quote criticizes the climate movement for being counterproductive, implying that their actions are not effective in generating public support for their cause."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "For those people that actually believe man-made climate change is a legitimate threat to the planet (it's not)",
+        "reasoning": "This quote directly downplays the significance of climate change by stating that it is not a legitimate threat to the planet."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Despite billions of dollars spent yearly by governments and NGOs on climate propaganda",
+        "reasoning": "This quote criticizes institutions (governments and NGOs) for spending money on climate propaganda, implying that they are promoting a false or exaggerated narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "One would think the goal of these groups would be to generate public sentiment for their cause; instead they have inspired the exact opposite.",
+        "reasoning": "The text criticizes the climate movement for their actions, stating that they have inspired the opposite of their intended goal, implying that their methods are counterproductive and harmful to their cause."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "For those people that actually believe man-made climate change is a legitimate threat to the planet (it's not)",
+        "reasoning": "The text explicitly downplays the significance of climate change by stating that it is not a legitimate threat to the planet, directly challenging the consensus on the issue."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Despite billions of dollars spent yearly by governments and NGOs on climate propaganda",
+        "reasoning": "The text criticizes institutions (governments and NGOs) for spending money on what it calls 'climate propaganda', implying that these institutions are promoting a biased or misleading narrative about climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "One would think the goal of these groups would be to generate public sentiment for their cause; instead they have inspired the exact opposite.",
+        "reasoning": "This quote criticizes the climate movement for their methods, implying that they are counterproductive and have led to the opposite of their intended goal, which is a key aspect of criticizing the climate movement."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "For those people that actually believe man-made climate change is a legitimate threat to the planet (it's not)",
+        "reasoning": "This quote directly downplays the significance of climate change by stating that it is not a legitimate threat, which aligns with the narrative of minimizing the impact of climate change."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Despite billions of dollars spent yearly by governments and NGOs on climate propaganda",
+        "reasoning": "This quote criticizes institutions (governments and NGOs) for spending money on what is referred to as 'climate propaganda', implying that these institutions are promoting a biased or misleading view of climate change, which challenges their integrity and actions regarding climate policies."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Downplaying climate change",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

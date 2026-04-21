@@ -1,0 +1,96 @@
+{
+  "file_id": "PT_216.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto aprovado prevê que as instalações que emitam mais de 10 mil toneladas equivalentes de carbono serão obrigadas a participar no mercado regulado de carbono... Isso vai obrigar os operadores, em vez de venderem créditos pela mitigação que proporcionam, a comprarem créditos, o que tonará mais caros os serviços prestados.",
+        "reasoning": "The text criticizes the specific design of the Brazilian carbon market regulation (PL 412/2022), arguing it will financially burden landfill operators who provide environmental mitigation, thereby questioning the policy's effectiveness and economic impact."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários... Esperamos que os nossos parlamentares tomem consciência de que o combate às alterações climáticas não passa por onerar, ainda mais, um dos maiores aliados nesta batalha.",
+        "reasoning": "The text directly challenges the competence and awareness of legislators and authorities for failing to distinguish between landfills and dumps in the carbon market law, implying their actions are counterproductive to climate goals."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto aprovado prevê que as instalações que emitam mais de 10 mil toneladas equivalentes de carbono serão obrigadas a participar no mercado regulado de carbono... Isso vai obrigar os operadores, em vez de venderem créditos pela mitigação que proporcionam, a comprarem créditos, o que tonará mais caros os serviços prestados.",
+        "reasoning": "The text criticizes the specific design of the carbon market regulation (PL 412/2022), arguing it will financially burden landfill operators and increase service costs, thereby questioning the policy's effectiveness and economic impact."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários... Esperamos que os nossos parlamentares tomem consciência de que o combate às alterações climáticas não passa por onerar, ainda mais, um dos maiores aliados nesta batalha.",
+        "reasoning": "The text directly challenges the competence and awareness of legislators and authorities, accusing them of failing to recognize a crucial distinction (landfills vs. dumps) and of creating legislation that harms an environmental ally."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto aprovado prevê que as instalações que emitam mais de 10 mil toneladas equivalentes de carbono serão obrigadas a participar no mercado regulado de carbono... Isso vai obrigar os operadores, em vez de venderem créditos pela mitigação que proporcionam, a comprarem créditos, o que tonará mais caros os serviços prestados.",
+        "reasoning": "The text directly criticizes the specific design and economic impact of the proposed carbon market regulation (PL 412/2022), arguing it will unfairly burden landfill operators and increase service costs, which aligns with questioning the effectiveness and economic impact of a climate policy."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários... Esperamos que os nossos parlamentares tomem consciência de que o combate às alterações climáticas não passa por onerar, ainda mais, um dos maiores aliados nesta batalha.",
+        "reasoning": "The text challenges the competence and awareness of legislators and politicians, implying they have failed to understand a crucial distinction (landfills vs. dumps) and are therefore crafting counterproductive legislation, which fits the definition of challenging the competence of authorities in relation to climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

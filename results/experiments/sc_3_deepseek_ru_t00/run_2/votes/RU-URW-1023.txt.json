@@ -1,0 +1,135 @@
+{
+  "file_id": "RU-URW-1023.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "«Втянув в конфликт Белоруссию, Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину. Вот на что рассчитывает украинский режим. Поэтому он начинает устраивать провокацию вокруг Белоруссии.»",
+        "reasoning": "The quote directly attributes aggressive and provocative actions to Ukraine, framing it as the actor seeking to escalate the conflict by drawing in Belarus and, consequently, the West. This shifts blame for potential escalation away from Russia and onto Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "«Вот на что рассчитывает украинский режим. Поэтому он начинает устраивать провокацию вокруг Белоруссии. При этом они, естественно, доказывают, что это не они провокацию устраивают, а якобы это военная активность Белоруссии. Вот вся игра»",
+        "reasoning": "The statement characterizes the Ukrainian government ('режим') as deceitfully orchestrating provocations and then lying about them, undermining its legitimacy and portraying its actions as a manipulative 'game'."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "«Втянув в конфликт Белоруссию, Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину.»",
+        "reasoning": "The statement implies that Western countries (Europe and the US) are easily manipulated into being drawn into a conflict, suggesting a lack of independent judgment or strategic wisdom in their foreign policy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "«Втянув в конфликт Белоруссию, Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину. Вот на что рассчитывает украинский режим. Поэтому он начинает устраивать провокацию вокруг Белоруссии.»",
+        "reasoning": "The quote directly attributes aggressive and provocative actions to Ukraine ('украинский режим'), framing it as the actor seeking to escalate the conflict by drawing in Belarus and, consequently, the West. This shifts blame for potential escalation away from Russia and onto Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "«Вот на что рассчитывает украинский режим. Поэтому он начинает устраивать провокацию вокруг Белоруссии. При этом они, естественно, доказывают, что это не они провокацию устраивают, а якобы это военная активность Белоруссии. Вот вся игра»",
+        "reasoning": "The statement characterizes Ukraine's government ('украинский режим') as deceitful and manipulative, engaging in provocations and then falsely blaming Belarus. This undermines the legitimacy and intentions of the Ukrainian leadership."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "«Втянув в конфликт Белоруссию, Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину. Вот на что рассчитывает украинский режим. Поэтому он начинает устраивать провокацию вокруг Белоруссии.»",
+        "reasoning": "The quote directly attributes aggressive and provocative actions to Ukraine ('украинский режим'), framing it as the actor seeking to escalate the conflict by drawing in Belarus and, consequently, the West. This shifts blame for potential conflict escalation away from Russia and onto Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "«Вот на что рассчитывает украинский режим. Поэтому он начинает устраивать провокацию вокруг Белоруссии. При этом они, естественно, доказывают, что это не они провокацию устраивают, а якобы это военная активность Белоруссии. Вот вся игра»",
+        "reasoning": "The text characterizes Ukraine's government as a 'режим' (regime) engaged in deceptive 'игра' (game), actively staging provocations and then falsely blaming Belarus. This undermines the legitimacy and honesty of Ukrainian leadership."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

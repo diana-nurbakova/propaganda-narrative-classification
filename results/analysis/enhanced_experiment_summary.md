@@ -1,6 +1,6 @@
 # Enhanced Experiment Results Report
 
-_Generated_: 2026-04-15 22:47  
+_Generated_: 2026-04-17 11:18  
 _Experiments evaluated_: **121** of 121
 
 ## Methodology
@@ -567,7 +567,7 @@ _Error severity (sub-narrative false positives, mean over runs)_:
 | agora_5_union_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.046 | -4.30 | 0.0007 | 0.0625  |
 | agora_5_union_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | -0.025 | -2.35 | 0.0063 | 0.0625  |
 | agora_5_union_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | -0.031 | -2.25 | 0.0073 | 0.0625  |
-| agora_5_union_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | -0.004 | -0.46 | 0.3586 | 0.2733  |
+| agora_5_union_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | -0.004 | -0.46 | 0.3586 | 0.3750  |
 | agora_5_union_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.006 | +0.65 | 0.2226 | 0.4375  |
 | agora_5_union_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | -0.023 | -1.50 | 0.0284 | 0.0625  |
 | agora_5_union_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | -0.018 | -1.50 | 0.0285 | 0.0625  |

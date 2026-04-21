@@ -1,0 +1,1096 @@
+[Logging] Output will be saved to: results\experiments\baseline_p1_deepseek_ru_t00\experiment_baseline_p1_deepseek_ru_t00_20260421_150308.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_p1_deepseek_ru_t00
+============================================================
+Base config: configs/experiments/generated/emnlp/baseline_p1_deepseek_ru_t00.yaml
+Number of runs: 3
+Base seed: 42
+Output directory: results/experiments/baseline_p1_deepseek_ru_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_deepseek_ru_t00_ce2p40nn\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_deepseek_ru_t00_ce2p40nn\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=baseline_p1_deepseek_ru_t00, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Discrediting Ukraine', 'Distrust towards Media']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Praise of Russia']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Blaming the war on others rather than the invader', 'Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Speculating war outcomes', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Speculating war outcomes', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying war-related fears', 'Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Russia is the Victim', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Russia is the Victim', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Overpraising the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Overpraising the West'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting the West, Diplomacy', 'Russia has international support from a number of countries and people']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_p1_deepseek_ru_t00\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_p1_deepseek_ru_t00\run_1\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.0403, 286.89s
+
+[Multi-Run] Waiting 30s before run 2 to avoid rate limits...
+
+[Run 2] Starting with seed=107420369
+[Run 2] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_deepseek_ru_t00_fjywbrtf\run_2_config.yaml
+[Run 2] Output: results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_deepseek_ru_t00_fjywbrtf\run_2_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=107420369
+  Experiment: id=baseline_p1_deepseek_ru_t00, run=2
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW[graph] Category classification complete -> URW
+
+[graph] Starting narratives classification node for category URW (prompt=P1)[graph] Starting narratives classification node for category URW (prompt=P1)
+
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Praise of Russia']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Speculating war outcomes', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Speculating war outcomes', 'URW: Russia is the Victim', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying war-related fears', 'Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Discrediting the West, Diplomacy', 'Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting the West, Diplomacy', 'Russia has international support from a number of countries and people']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_p1_deepseek_ru_t00\run_2\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_p1_deepseek_ru_t00\run_2\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.0403, 244.38s
+
+[Multi-Run] Waiting 30s before run 3 to avoid rate limits...
+
+[Run 3] Starting with seed=1181241943
+[Run 3] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_deepseek_ru_t00_4leqgaz2\run_3_config.yaml
+[Run 3] Output: results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_deepseek_ru_t00_4leqgaz2\run_3_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/RU/subtask-2-documents/
+  Output: results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=1181241943
+  Experiment: id=baseline_p1_deepseek_ru_t00, run=3
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/RU/subtask-2-documents/
+[utils] Output file results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt does not exist, processing all files
+[utils] Total files: 32, Already processed: 0, To process: 32
+[utils] Files to process: RU-URW-1004.txt, RU-URW-1014.txt, RU-URW-1023.txt, RU-URW-1032.txt, RU-URW-1043.txt...
+[Main] Processing 32 files...
+[Main] Output will be appended to: results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+[graph] Starting category classification node
+
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1032.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1043.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1004.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1053.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1069.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1014.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1023.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1089.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Blaming the war on others rather than the invader', 'Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1077.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1090.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1061.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Praise of Russia']
+[graph] Category classification complete -> URW[graph] Cleaning narratives
+
+[graph] Starting narratives classification node for category URW (prompt=P1)[graph] No narratives classified, setting empty subnarratives.
+
+[graph] Writing results for file RU-URW-1085.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1093.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1073.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1102.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Distrust towards Media'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1110.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1120.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1133.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1118.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1101.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file RU-URW-1147.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying war-related fears', 'Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1146.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Discrediting the West, Diplomacy', 'Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1152.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting the West, Diplomacy', 'Russia has international support from a number of countries and people']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1166.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1135.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1127.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1168.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia', 'Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file RU-URW-1184.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1174.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1170.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1139.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file RU-URW-1171.txt
+[graph] Results written to results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_p1_deepseek_ru_t00\run_3\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_p1_deepseek_ru_t00\run_3\cost_metrics.json
+[Main] Cost summary: 32 calls, $0.0403, 277.47s
+
+============================================================
+EXPERIMENT COMPLETED: baseline_p1_deepseek_ru_t00
+============================================================
+Total runs: 3
+Successful: 3
+Failed: 0
+Total duration: 812.45 seconds
+Manifest saved to: results\experiments\baseline_p1_deepseek_ru_t00\experiment_manifest.json
+============================================================
+

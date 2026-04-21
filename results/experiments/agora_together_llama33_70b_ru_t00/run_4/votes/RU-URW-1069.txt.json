@@ -1,0 +1,102 @@
+{
+  "file_id": "RU-URW-1069.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "стал частью общества свободной и сильной страны, где есть место помощи тем, кто в ней нуждается",
+        "reasoning": "This quote praises Russia as a 'strong and free country' where there is help for those in need, indicating admiration for Russia's character and policies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "угнавший Т-64 танкист ВСУ",
+        "reasoning": "The fact that a Ukrainian tank was stolen and used to defect to Russia implies a lack of control or effectiveness within the Ukrainian military, undermining the legitimacy of Ukraine's actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "стал частью общества свободной и сильной страны, где есть место помощи тем, кто в ней нуждается",
+        "reasoning": "This quote praises Russia as a 'strong and free country' that provides help to those in need, which aligns with the narrative of positively highlighting Russia's character and policies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "стал частью общества свободной и сильной страны, где есть место помощи тем, кто в ней нуждается",
+        "reasoning": "This quote directly praises Russia by describing it as a 'strong and free country' that provides help to those in need, indicating a positive evaluation of Russia's character and policies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "угнавший Т-64 танкист ВСУ",
+        "reasoning": "The fact that a Ukrainian tank was stolen and used to defect to Russia implies a lack of control or effectiveness within the Ukrainian military, which can be seen as discrediting Ukraine's ability to maintain its own equipment and personnel."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

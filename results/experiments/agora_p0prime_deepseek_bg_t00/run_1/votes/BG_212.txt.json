@@ -1,0 +1,103 @@
+{
+  "file_id": "BG_212.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "The phrase 'на ръба на климатична пропаст' (on the edge of a climate abyss) is a dramatic and fear-amplifying statement about the consequences of climate change, setting the tone for the entire article."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това би означавало катастрофално ниво на затопляне",
+        "reasoning": "The text directly labels the projected temperature increase as leading to a 'catastrophic level of warming', which explicitly amplifies fears about the severity of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "This quote lists a series of severe, large-scale societal catastrophes (famine, conflict, mass migration) caused by extreme weather events, actively painting a fearful future scenario to emphasize the dire consequences of inaction."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "The phrase 'на ръба на климатична пропаст' (on the edge of a climate abyss) is a dramatic and fear-amplifying statement about the consequences of climate change, setting the tone for the entire article."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Това би означавало катастрофално ниво на затопляне",
+        "reasoning": "The text directly labels the projected temperature increase as 'катастрофално ниво на затопляне' (catastrophic level of warming), which actively promotes fear about the scale of the impact."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "This quote lists severe future consequences (famine, conflict, mass migration) driven by extreme weather events, actively amplifying fears about the societal and humanitarian impacts of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "The text's headline and core message use dramatic language ('on the edge of a climate abyss') to emphasize the extreme severity and imminent danger of climate change."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Това би означавало катастрофално ниво на затопляне",
+        "reasoning": "The text directly characterizes the predicted temperature increase as leading to a 'catastrophic level of warming', which amplifies fear about the consequences."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "This quote lists a series of severe, large-scale societal catastrophes (famine, conflict, mass migration) caused by extreme weather events, actively painting a fearful picture of the future to underscore the urgency of the crisis."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

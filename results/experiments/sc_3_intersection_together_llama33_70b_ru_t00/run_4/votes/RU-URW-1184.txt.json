@@ -1,0 +1,182 @@
+{
+  "file_id": "RU-URW-1184.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Сегодня БРИКС “превратился в фактор мировой информационной реальности”",
+        "reasoning": "The quote praises the development and influence of BRICS, which includes Russia, indicating a positive evaluation of Russia's role in the international arena."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад",
+        "reasoning": "The term “коллективный Запад” implies a unified Western bloc, which can be seen as dismissive or critical of Western diplomatic efforts, suggesting they are not diverse or individual in their actions."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "беспокойство Запада переросло в серьезные тревоги",
+        "reasoning": "This quote implies that the West is concerned or threatened by the growth of BRICS, which includes Russia, portraying Russia as a victim of Western anxiety or hostility."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Сегодня само существование БРИКС подвигает страны на те или иные действия вне зависимости от того, что желает коллективный Запад",
+        "reasoning": "The statement highlights the influence of BRICS, which includes Russia, as a factor that drives countries to take actions regardless of the Western collective's desires, implying a positive impact of Russia's involvement in BRICS."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад",
+        "reasoning": "The term 'коллективный Запад' (collective West) is used in a context that implies a unified opposition or a monolithic entity, which can be seen as discrediting Western diplomacy by suggesting it acts in a cohesive, potentially confrontational manner."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "беспокойство Запада переросло в серьезные тревоги",
+        "reasoning": "This statement suggests that the West's concerns about BRICS, which includes Russia, have escalated into serious anxieties, portraying Russia as part of a group that is being viewed with suspicion or fear by the West, thus evoking a sense of Russia being unfairly targeted or victimized."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Он отметил, что сегодня БРИКС «превратился в фактор мировой информационной реальности» и в своем развитии прошел три «информационных рывка»",
+        "reasoning": "The quote praises the development and influence of BRICS, which includes Russia, indicating a positive evaluation of Russia's role in the international arena."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Когда все обнаружили, что БРИКС обходит G7 по объему ВВП стран-участниц в пересчете на паритет покупательной способности. «Это стало началом психологической революции по отношению к БРИКС — из некой символической организации БРИКС превратилась в потенциальную альтернативу западным институтам»",
+        "reasoning": "The quote implies that Western institutions (G7) are being surpassed by BRICS, suggesting a criticism of Western diplomacy and influence."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Он также считает, что точкой отсчета четвертого этапа информационного развития БРИКС может стать июньская конференция по Украине в Швейцарии. «Она показала, что возникает альтернативная Западу глобальная политическая платформа — это БРИКС. Ни одна страна БРИКС не прислала на швейцарскую конференцию своих лидеров, а четыре страны, помимо России, — Китай, Эфиопия, Иран и Египет — вообще отказались посылать туда своих представителей»",
+        "reasoning": "The quote portrays Russia and other BRICS countries as being unfairly targeted or excluded from Western-dominated conferences, evoking sympathy for their position."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

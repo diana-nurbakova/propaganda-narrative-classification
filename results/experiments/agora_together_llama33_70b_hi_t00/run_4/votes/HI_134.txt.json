@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_134.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears",
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [],
+    [
+      "Amplifying Climate Fears",
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "सर्दी के बाद सीधे आ रही गर्मी, आखिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "The text emphasizes the sudden and extreme change in temperature, implying a catastrophic impact on the environment and human experience, thus amplifying fears about climate change."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "कई लोग तो यह भी कहने लगे हैं कि सर्दी के बाद आने वाली बसंत ऋतु मानो गायब सी हो रही है",
+        "reasoning": "This quote does not directly downplay climate change but rather highlights a perceived change in seasons, which could be interpreted as a consequence of climate change. However, the narrative of downplaying might be indirectly related as it discusses the disappearance of a season without strongly emphasizing the role of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "पर्यावरण का अध्ययन कर रहे वैज्ञानिकों की माने तो इस बार सर्दियों पर जलवायु परिवर्तन का ऐसा प्रभाव पड़ा है जिसके चलते बसंत ऋतु ही गायब हो गई है",
+        "reasoning": "The text does not directly question the measurements or science behind climate change. Instead, it presents a scenario where scientists' observations suggest an impact of climate change on seasons, thus not fitting this narrative."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "सर्दी के बाद सीधे आ रही गर्मी, आखिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "The text emphasizes the sudden and extreme change in temperature, implying a catastrophic impact on the environment and human experience, thus amplifying fears about climate change."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "कई लोग तो यह भी कहने लगे हैं कि सर्दी के बाद आने वाली बसंत ऋतु मानो गायब सी हो रही है",
+        "reasoning": "This quote does not directly downplay climate change but rather highlights its effects, however, the narrative of downplaying could be inferred if one interprets the text as not strongly emphasizing the human cause or the severity of climate change in a direct manner."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "पर्यावरण का अध्ययन कर रहे वैज्ञानिकों की माने तो इस बार सर्दियों पर जलवायु परिवर्तन का ऐसा प्रभाव पड़ा है जिसके चलते बसंत ऋतु ही गायब हो गई है",
+        "reasoning": "The text does not directly question the measurements or science but presents a scenario where the effects of climate change are observed and studied by scientists, thus it does not fit well into this narrative."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

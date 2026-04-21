@@ -1,0 +1,175 @@
+{
+  "file_id": "RU-URW-1118.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Шар на стороне бывших партнёров. Пусть думают, пусть чешут себе разные места. Не захотят — мы свои задачи выполним, а у них времени на раздумья осталось не так много, как и способности размышлять\"",
+        "reasoning": "The quote directly mocks and belittles Western countries ('бывших партнёров'), portraying them as indecisive and lacking the intellectual capacity ('способности размышлять') to engage in diplomacy, which discredits Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Картаполов добавил, что Владимир Зеленский же стал нелегитимной фигурой, и что бы он ни \"квакал\", слушать его никто не будет.",
+        "reasoning": "The statement directly attacks the legitimacy of Ukraine's president, calling him 'нелегитимной фигурой' (illegitimate figure), and uses derogatory language ('квакал' - croaked) to dismiss his statements, undermining Ukraine's leadership."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Он добавил, что времени у \"бывших партнёров\" осталось не так много.",
+        "reasoning": "The statement frames the continuation of the conflict as dependent on Western ('бывших партнёров') acceptance of Russia's peace plan, implicitly shifting responsibility for the ongoing war away from Russia, the invader, and onto the West for not agreeing to Russian terms."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Шар на стороне бывших партнёров. Пусть думают, пусть чешут себе разные места. Не захотят — мы свои задачи выполним, а у них времени на раздумья осталось не так много, как и способности размышлять\"",
+        "reasoning": "The quote directly insults and dismisses Western diplomatic capacity, portraying them as indecisive and lacking the intellectual ability to think, thereby discrediting Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Картаполов добавил, что Владимир Зеленский же стал нелегитимной фигурой, и что бы он ни \"квакал\", слушать его никто не будет.",
+        "reasoning": "The statement delegitimizes Ukraine's president by calling him 'illegitimate' and using the derogatory term 'квакал' (croaked/quacked) to describe his speech, undermining the authority and voice of Ukrainian leadership."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Он добавил, что времени у \"бывших партнёров\" осталось не так много.",
+        "reasoning": "The framing places the onus for the conflict's continuation and the need for a 'peace plan' on the West ('former partners'), implicitly shifting responsibility away from Russia, the invading party, by suggesting the West's inaction is the problem."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Шар на стороне бывших партнёров. Пусть думают, пусть чешут себе разные места. Не захотят — мы свои задачи выполним, а у них времени на раздумья осталось не так много, как и способности размышлять\"",
+        "reasoning": "The quote uses dismissive and insulting language ('чешут себе разные места', 'способности размышлять') to portray Western diplomatic actors as incompetent and lacking in serious thought, actively discrediting them."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Картаполов добавил, что Владимир Зеленский же стал нелегитимной фигурой, и что бы он ни \"квакал\", слушать его никто не будет.",
+        "reasoning": "The statement directly attacks the legitimacy of Ukraine's president (нелегитимной фигурой) and uses a demeaning term ('квакал' - croaked) to dismiss his statements, actively undermining Ukraine's leadership."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Он добавил, что времени у \"бывших партнёров\" осталось не так много.",
+        "reasoning": "The framing places the onus for the conflict's continuation and the need for a 'peace plan' on the West ('бывших партнёров'), implicitly shifting responsibility away from Russia, the invading party, by suggesting the West's inaction is the problem."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "file_id": "PT_244.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A declaração da porta-voz da chancelaria russa, Maria Zakharova, sugere que a França e o presidente Macron não estão a respeitar os direitos dos jornalistas russos, o que implica que a Rússia é a vítima de uma ação injusta."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A declaração de Zakharova critica a atitude da França e do presidente Macron em relação aos jornalistas russos, sugerindo que eles não estão a cumprir com os seus compromissos em relação à liberdade de expressão, o que descredita a diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A cerimónia de abertura, na sexta-feira, foi um 'grande fracasso', e a agência TASS destacou na sua cobertura uma série de 'situações estranhas'",
+        "reasoning": "A agência TASS está a questionar a integridade da cobertura da cerimónia de abertura dos Jogos Olímpicos, sugerindo que houve uma série de 'situações estranhas' que não foram adequadamente explicadas, o que pode gerar desconfiança em relação à mídia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A declaração da porta-voz da chancelaria russa, Maria Zakharova, sugere que a França e o presidente Macron não estão a respeitar os direitos dos jornalistas russos, o que implica que a Rússia é a vítima de uma ação injusta."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A declaração de Zakharova critica a atitude da França e do presidente Macron em relação aos jornalistas russos, sugerindo que eles não estão a cumprir com os seus deveres em termos de liberdade de expressão e respeito pelos direitos dos jornalistas."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A cerimónia de abertura, na sexta-feira, foi um 'grande fracasso', e a agência TASS destacou na sua cobertura uma série de 'situações estranhas'",
+        "reasoning": "A agência TASS está a questionar a integridade da cobertura da cerimónia de abertura dos Jogos Olímpicos, sugerindo que houve uma série de 'situações estranhas' que não foram adequadamente explicadas, o que pode gerar desconfiança em relação à mídia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A declaração da porta-voz da chancelaria russa, Maria Zakharova, sugere que a França e o presidente Macron não estão a respeitar os direitos dos jornalistas russos, o que implica que a Rússia é a vítima de uma ação injusta."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A declaração de Zakharova critica a atitude da França e do presidente Macron em relação aos jornalistas russos, sugerindo que eles não estão a cumprir com os princípios de liberdade de expressão e respeito pelos direitos dos jornalistas."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A agência TASS destacou na sua cobertura uma série de 'situações estranhas', como a bandeira olímpica a ser hasteada de cabeça para baixo e o público a abandonar as bancadas cedo devido à chuva",
+        "reasoning": "A menção à cobertura da agência TASS sobre 'situações estranhas' durante a cerimónia de abertura pode ser vista como uma tentativa de questionar a integridade da cobertura mediática dos Jogos Olímpicos."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

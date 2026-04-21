@@ -1,0 +1,149 @@
+{
+  "file_id": "PT_216.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter terminativo na Comissão de Meio Ambiente do Senado Federal, o que impediu o aprofundamento do debate sobre um aspeto importante e que pode trazer grandes prejuízos ao país se não for revisto pela Câmara dos Deputados.",
+        "reasoning": "A crítica à política de mercado de carbono é apresentada como um projeto de lei que pode trazer prejuízos ao país, indicando que a política atual é questionada em sua eficácia ou impacto."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários.",
+        "reasoning": "A crítica às autoridades e instituições é feita por não reconhecerem a diferença entre lixeiras e aterros sanitários, questionando sua competência ou intenção em relação à gestão ambiental."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Os aterros, que servem áreas com 30 mil habitantes ou mais, ultrapassam este limite. Assim, já teriam obrigações de reporte e, a partir de um certo limite de emissões, até poderão ser sancionados pelas emissões no tratamento dos resíduos gerados por terceiros.",
+        "reasoning": "A controvérsia em torno das tecnologias verdes é apresentada através da discussão sobre a regulamentação do mercado de carbono e seu impacto nos aterros sanitários, questionando a eficácia ou justiça da abordagem atual."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter terminativo na Comissão de Meio Ambiente do Senado Federal, o que impediu o aprofundamento do debate sobre um aspeto importante e que pode trazer grandes prejuízos ao país se não for revisto pela Câmara dos Deputados.",
+        "reasoning": "A crítica à política de regulamentação do mercado de carbono no Brasil é apresentada como uma medida que pode trazer prejuízos ao país, indicando que a política é questionada em termos de sua eficácia ou impacto."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários.",
+        "reasoning": "A afirmação sugere que as autoridades, legisladores e políticos não estão agindo de forma adequada ou informada, questionando sua competência ou intenções em relação à gestão de resíduos e ao mercado de carbono."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter terminativo na Comissão de Meio Ambiente do Senado Federal, o que impediu o aprofundamento do debate sobre um aspeto importante e que pode trazer grandes prejuízos ao país se não for revisto pela Câmara dos Deputados.",
+        "reasoning": "A crítica à política de regulamentação do mercado de carbono no Brasil é apresentada como um exemplo de como as políticas climáticas podem ser prejudiciais ao país se não forem bem pensadas."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários.",
+        "reasoning": "A crítica às autoridades, legisladores e políticos por não reconhecerem a diferença entre lixeiras e aterros sanitários implica uma falha nas instituições e autoridades em relação à gestão ambiental."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

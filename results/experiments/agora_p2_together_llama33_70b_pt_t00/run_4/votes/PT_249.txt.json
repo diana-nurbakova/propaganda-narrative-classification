@@ -1,0 +1,168 @@
+{
+  "file_id": "PT_249.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, mas vemos que, infelizmente, não existe essa reciprocidade por parte da Ucrânia, neste momento",
+        "reasoning": "A declaração de Peskov implica que a Ucrânia é a responsável pela falta de progresso nas negociações de paz, transferindo a culpa do conflito para a Ucrânia."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia afirmou não ser contra as negociações de paz, mas, mesmo que fosse convidada, não participaria na cimeira, porque não considera a Suíça um ator neutro, uma vez que o país uniu-se ao esforço unilateral ocidental nas sanções contra Moscovo, descredibilizando o seu papel de mediador do conflito.",
+        "reasoning": "A Rússia é apresentada como vítima de sanções unilaterais ocidentais e de uma postura não neutra da Suíça, evocando simpatia pela posição russa."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, mas vemos que, infelizmente, não existe essa reciprocidade por parte da Ucrânia, neste momento",
+        "reasoning": "A falta de reciprocidade por parte da Ucrânia é usada para desacreditar a Ucrânia e sua disposição para negociar, sugerindo que a Ucrânia não está disposta a buscar uma solução pacífica."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, mas vemos que, infelizmente, não existe essa reciprocidade por parte da Ucrânia, neste momento",
+        "reasoning": "A declaração de Peskov implica que a Ucrânia é a responsável pela falta de progresso nas negociações de paz, desviando a atenção da responsabilidade da Rússia no conflito."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia não foi convidada, embora seja uma das partes envolvidas no conflito.",
+        "reasoning": "A menção de que a Rússia não foi convidada para a cimeira de paz sugere que a Rússia está sendo tratada de forma injusta ou excluía, o que é um elemento chave da narrativa de que a Rússia é a vítima."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, mas vemos que, infelizmente, não existe essa reciprocidade por parte da Ucrânia, neste momento",
+        "reasoning": "A afirmação de que a Ucrânia não está disposta a negociar ou a mostrar reciprocidade é uma crítica à disposição da Ucrânia para resolver o conflito de forma pacífica."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, mas vemos que, infelizmente, não existe essa reciprocidade por parte da Ucrânia, neste momento",
+        "reasoning": "A declaração de Peskov implica que a Ucrânia é a responsável pela falta de progresso nas negociações de paz, desviando a atenção da responsabilidade da Rússia no conflito."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia não foi convidada, embora seja uma das partes envolvidas no conflito.",
+        "reasoning": "A menção à Rússia não ter sido convidada para a cimeira de paz sugere que a Rússia está sendo injustiçada ou excluída, evocando simpatia por sua posição."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "A Rússia está aberta a todas as iniciativas e está aberta a um caminho diplomático para um acordo, mas vemos que, infelizmente, não existe essa reciprocidade por parte da Ucrânia, neste momento",
+        "reasoning": "A afirmação de que a Ucrânia não está disposta a negociar ou mostrar reciprocidade implica que a Ucrânia é inflexível ou não está interessada em resolver o conflito pacificamente, desacreditando sua posição."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

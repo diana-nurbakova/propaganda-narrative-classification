@@ -1,0 +1,95 @@
+{
+  "file_id": "EN_UA_DEV_100034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Negative Consequences for the West",
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights the potential negative consequences for Western countries if Ukraine does not prevail in the war, implying that the war's outcome has significant implications for the West's security and safety."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "the unity of the free world, unwavering long-term military and financial support for Ukraine, and, first and foremost, Ukraine's membership in NATO.",
+        "reasoning": "This quote praises the unity and support of the free world, particularly NATO, in the context of Ukraine's war effort, implying that Western institutions and alliances are crucial for Ukraine's victory and the preservation of democracy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "According to the current International Monetary Fund-supported program (Q2, 2023 – Q1, 2027), Ukraine’s need for external financial assistance is estimated at $122 billion. However, over two years of the full-scale war, partners have already disbursed $100 billion annually.",
+        "reasoning": "This quote criticizes the International Monetary Fund's assessment of Ukraine's external aid needs, implying that the West's financial support is insufficient and that the current program is misleading compared to Ukraine's real funding needs."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This quote suggests that the West, as part of the 'free world', is inherently on the side of democracy and justice, implying a moral superiority and strength in their support for Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The current situation is much tougher. According to the World Bank, Ukraine’s war-incurred losses amount to $500 billion and grow daily.",
+        "reasoning": "This quote, while not directly discrediting the West, implies a criticism of the international community's response to Ukraine's situation, suggesting that more should be done to address the economic toll of the war."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights potential negative consequences for Western countries if Ukraine does not prevail, emphasizing the risk of Russian aggression extending beyond Ukraine's borders."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "There is no evidence in the text that praises Russia or its actions, so this narrative does not apply."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to prevail and protect the civilized world from Russian military invasion.",
+        "reasoning": "This quote speculates about the outcome of the war, suggesting that Ukraine's ability to resist aggression will determine the war's outcome and the protection of the 'civilized world'."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

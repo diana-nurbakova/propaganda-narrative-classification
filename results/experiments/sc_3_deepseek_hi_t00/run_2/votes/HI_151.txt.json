@@ -1,0 +1,57 @@
+{
+  "file_id": "HI_151.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं, जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए.",
+        "reasoning": "The phrase 'जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए' (behind which reasons like security and human rights are given) implies skepticism about the stated justifications for US sanctions, framing them as mere pretexts rather than legitimate actions. This subtly discredits Western (specifically US) diplomatic and punitive measures."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पाबंदियों ने भी दोनों को कनेक्ट करने का काम किया. अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं...",
+        "reasoning": "The text explicitly lists Russia alongside North Korea as a target of US sanctions, placing them in the same category of nations facing punitive measures from the West. This framing presents Russia as a target of external pressure, contributing to a victim narrative."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_26.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूसी राष्ट्रपति पुतिन ने पीएम मोदी के लिए खुद गोल्फ कार्ट ड्राइव की। इस दौरान दोनों पार्क में टहलते हुए भी दिखे।",
+        "reasoning": "This quote shows a positive and respectful interaction between Putin and PM Modi, highlighting Russia's hospitality and friendship."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मोदी का रूस दौरा उस वक्त हो रहा है जब अमेरिका में NATO समिट शुरू होने जा रहा है। विदेश मंत्रालय को बयान जारी कर सफाई देनी पड़ी कि मोदी के रूस दौरे का नाटो समिट से कोई मतलब नहीं है।",
+        "reasoning": "This quote implies that the West, specifically NATO, might be trying to undermine or criticize PM Modi's visit to Russia, which could be seen as discrediting Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "यूक्रेन जंग शुरू होने के बाद से रूस यूरोप में अलग-थलग पड़ गया।",
+        "reasoning": "This quote portrays Russia as being isolated by Europe after the Ukraine war, which could evoke sympathy for Russia's position and imply that they are being unfairly targeted."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूसी राष्ट्रपति पुतिन ने पीएम मोदी के लिए खुद गोल्फ कार्ट ड्राइव की। इस दौरान दोनों पार्क में टहलते हुए भी दिखे।",
+        "reasoning": "This quote shows a positive and respectful interaction between Putin and PM Modi, highlighting Russia's hospitality and friendship."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मोदी का रूस दौरा उस वक्त हो रहा है जब अमेरिका में NATO समिट शुरू होने जा रहा है। विदेश मंत्रालय को बयान जारी कर सफाई देनी पड़ी कि मोदी के रूस दौरे का नाटो समिट से कोई मतलब नहीं है।",
+        "reasoning": "This quote implies that the West, specifically NATO, might be trying to undermine or question India's relationship with Russia, which could be seen as discrediting Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "यूक्रेन जंग शुरू होने के बाद से रूस यूरोप में अलग-थलग पड़ गया।",
+        "reasoning": "This quote suggests that Russia has been isolated by Europe after the Ukraine war, portraying Russia as a victim of international circumstances."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

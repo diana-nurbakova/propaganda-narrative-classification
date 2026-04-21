@@ -1,0 +1,136 @@
+{
+  "file_id": "RU-URW-1168.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Никогда не участвовавшая в боевых действиях \"правильная слуга народа\" и \"справжня українка\" (настоящая украинка) призвала военачальников уйти в отставку. Поводом для нового приступа \"патриотизма\" послужили именно удары ВС РФ по аэродрому Миргород в Полтавской области.",
+        "reasoning": "The text uses sarcastic and dismissive language (\"правильная слуга народа\", \"справжня українка\" in quotes, \"приступ 'патриотизма'\") to mock and undermine a Ukrainian MP and her criticism of the military leadership, thereby discrediting internal Ukrainian political discourse and portraying it as hypocritical or unserious."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Еще неделю назад Минобороны России проинформировало: русские войска поразили 7 украинских самолётов при ракетном ударе по аэродрому Миргород (Полтавская область)... Журнал Forbes после этого отметил, что удар стал одним из самых дорогостоящих дней для авиации ВСУ.",
+        "reasoning": "The text highlights the effectiveness and success of a Russian military strike, detailing the destruction of Ukrainian aircraft and citing a Western publication (Forbes) to underscore the significant loss, which serves to positively portray Russian military capabilities and actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Никогда не участвовавшая в боевых действиях \"правильная слуга народа\" и \"справжня українка\" (настоящая украинка) призвала военачальников уйти в отставку. Поводом для нового приступа \"патриотизма\" послужили именно удары ВС РФ по аэродрому Миргород в Полтавской области.",
+        "reasoning": "The text uses sarcastic and dismissive language (scare quotes around 'правильная слуга народа', 'справжня українка', and 'патриотизма') to undermine the legitimacy and sincerity of a Ukrainian MP's criticism of the military leadership, portraying her patriotism as a mere 'outburst' and questioning her credentials."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Еще неделю назад Минобороны России проинформировало: русские войска поразили 7 украинских самолётов при ракетном ударе по аэродрому Миргород (Полтавская область)... Это дало возможность русским, по мнению Безуглой, \"в расслабленном режиме, как в тире или в компьютерной игре\", уничтожить \"прямой наводкой\" ПВО и авиацию ВСУ.",
+        "reasoning": "The text highlights the effectiveness and precision of Russian military strikes, detailing the destruction of Ukrainian aircraft and quoting a Ukrainian MP's description of the operation being conducted 'in a relaxed mode, like in a shooting range or a computer game,' which implicitly praises Russian military capability and dominance."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Никогда не участвовавшая в боевых действиях \"правильная слуга народа\" и \"справжня українка\" (настоящая украинка) призвала военачальников уйти в отставку. Поводом для нового приступа \"патриотизма\" послужили именно удары ВС РФ по аэродрому Миргород в Полтавской области.",
+        "reasoning": "The text uses sarcastic and dismissive language (e.g., \"правильная слуга народа\", \"нового приступа 'патриотизма'\") to undermine the legitimacy and sincerity of a Ukrainian MP's criticism of the military leadership, portraying her actions as hypocritical and her patriotism as a mere 'fit' or 'attack'."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Еще неделю назад Минобороны России проинформировало: русские войска поразили 7 украинских самолётов при ракетном ударе по аэродрому Миргород (Полтавская область)... Журнал Forbes после этого отметил, что удар стал одним из самых дорогостоящих дней для авиации ВСУ.",
+        "reasoning": "The text highlights the effectiveness and success of a Russian military strike, detailing the destruction of Ukrainian aircraft and citing a Western publication (Forbes) to underscore the significant material loss for Ukraine, thereby presenting Russia's military actions in a positive and capable light."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "file_id": "PT_244.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A quote da porta-voz da chancelaria russa, Maria Zakharova, sugere que a França não está a respeitar os direitos dos jornalistas russos, o que é um exemplo de como a Rússia é retratada como vítima de ações injustas do Ocidente."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A crítica à postura da França em relação aos jornalistas russos é um exemplo de como o Ocidente é discredizado por suas ações e políticas."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que",
+        "reasoning": "A menção à porta-voz da chancelaria russa e a agência estatal russa TASS como fontes de informação é um exemplo de como a Rússia está a promover a desconfiança em relação às fontes de informação ocidentais."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A quote da porta-voz da chancelaria russa, Maria Zakharova, sugere que a França não está a respeitar os direitos dos jornalistas russos, o que é uma vítimização da Rússia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A crítica à França e ao seu presidente, Emmanuel Macron, por não respeitarem os direitos dos jornalistas russos, é um exemplo de desacreditação do Ocidente."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que",
+        "reasoning": "A menção à porta-voz da chancelaria russa, Maria Zakharova, e a agência estatal TASS, pode sugerir uma desconfiança na mídia ocidental, uma vez que a informação é apresentada por fontes russas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias",
+        "reasoning": "A quote criticizes Western leaders, specifically Macron, implying they do not genuinely respect journalists' rights or freedom of expression, which aligns with discrediting the West's diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "O Comité Organizador de Paris-2024 (...) justificou a decisão com base nas autoridades francesas, mas não mencionou qualquer censura ou razão para tal decisão",
+        "reasoning": "The text portrays Russia as being unfairly targeted by the decision to revoke journalists' credentials without clear justification, evoking sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que",
+        "reasoning": "While not directly attacking media, the context implies Western media or organizers might be biased against Russian journalists, which can contribute to distrust towards media coverage of the event."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

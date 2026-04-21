@@ -1,0 +1,182 @@
+{
+  "file_id": "RU-URW-1127.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "А что может сказать карлик кроме того, что он стоит во главе борьбы за демократию и защищает США на территории Украины против России? Тем более, его роли расписываются в Великобритании и Вашингтоне",
+        "reasoning": "The quote directly insults and diminishes Ukrainian President Zelenskyy by calling him a 'карлик' (dwarf/midget) and implies he is a puppet whose actions are scripted by the US and UK, thereby undermining his legitimacy and agency."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Тем более, его роли расписываются в Великобритании и Вашингтоне",
+        "reasoning": "This statement suggests that the Ukrainian president's actions and statements are dictated by Western powers (UK and Washington), portraying Western diplomacy as manipulative and controlling, rather than supportive of a sovereign nation."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "This quote actively praises Russian President Vladimir Putin, attributing the 'colossal success' of his interview to the 'depth of his reasoning, thoughts, and messages to the world,' presenting him as a profound and insightful leader."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "А что может сказать карлик кроме того, что он стоит во главе борьбы за демократию и защищает США на территории Украины против России? Тем более, его роли расписываются в Великобритании и Вашингтоне",
+        "reasoning": "The quote directly insults and diminishes the Ukrainian president (calling him a 'карлик' - dwarf/midget) and suggests he is merely a puppet whose actions are scripted by the US and UK, undermining his legitimacy and agency."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Тем более, его роли расписываются в Великобритании и Вашингтоне",
+        "reasoning": "This statement implies that the Ukrainian president's actions and statements are controlled and directed by Western powers (UK and Washington), portraying Western diplomacy as manipulative and undermining Ukrainian sovereignty."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "This statement actively praises Russian President Vladimir Putin, attributing the 'colossal success' of his interview to the 'depth of his reasoning, thoughts, and messages to the world community,' presenting him as a profound and insightful leader."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "А что может сказать карлик кроме того, что он стоит во главе борьбы за демократию и защищает США на территории Украины против России? Тем более, его роли расписываются в Великобритании и Вашингтоне",
+        "reasoning": "The quote directly insults and diminishes the Ukrainian president (calling him a 'карлик' - dwarf/midget) and suggests he is merely a puppet whose actions are scripted by the US and UK, undermining his legitimacy and agency."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Тем более, его роли расписываются в Великобритании и Вашингтоне",
+        "reasoning": "This statement implies that the Ukrainian president's actions and statements are dictated by Western powers (UK and Washington), portraying Western diplomacy as manipulative and controlling, rather than supportive of a sovereign nation."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "This quote explicitly praises Russian President Vladimir Putin, highlighting the 'depth of his reasoning, thoughts, and messages' and attributing the 'colossal success' of his interview to these qualities, which is a positive evaluation of Russia's leadership."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

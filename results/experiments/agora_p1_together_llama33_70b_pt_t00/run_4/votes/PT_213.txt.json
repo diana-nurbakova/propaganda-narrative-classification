@@ -1,0 +1,161 @@
+{
+  "file_id": "PT_213.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities involved in the COP28, specifically the presence of companies like Braskem, implying that they are hypocritical and not genuinely committed to environmental sustainability."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "No Dubai, a Braskem participa em círculos de debate sobre como as populações vulneráveis se podem adaptar às alterações climáticas. Afinal, são estas comunidades as mais afetadas pelos desmandos das empresas que, desde há séculos, contribuem para o desequilíbrio ambiental.",
+        "reasoning": "This quote criticizes the climate movement by highlighting the contradiction between the Braskem's participation in climate debates and their actual environmental impact, implying that the movement is not effective in holding companies accountable."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A verdadeira mudança nos rumos climáticos do mundo não virá apenas de uma retórica eloquente e bonita para ser repetida nas conferências mundiais, mas sim através de uma prática incisiva e transformadora para todos – incluindo para os milhares de pessoas atingidas por este crime devastador em Maceió.",
+        "reasoning": "This quote amplifies climate fears by emphasizing the need for urgent and transformative action to address the climate crisis, highlighting the devastating impact on communities like Maceió."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities involved in the COP28, specifically the presence of companies like Braskem that promote exploitative practices, suggesting that their participation is a strategic move to feign commitment to environmental sustainability."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "No Dubai, a Braskem participa em círculos de debate sobre como as populações vulneráveis se podem adaptar às alterações climáticas. Afinal, são estas comunidades as mais afetadas pelos desmandos das empresas que, desde há séculos, contribuem para o desequilíbrio ambiental.",
+        "reasoning": "This quote criticizes the climate movement by highlighting the hypocrisy of companies like Braskem, which participate in climate debates while contributing to environmental degradation, implying that the movement is ineffective or compromised."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A verdadeira mudança nos rumos climáticos do mundo não virá apenas de uma retórica eloquente e bonita para ser repetida nas conferências mundiais, mas sim através de uma prática incisiva e transformadora para todos – incluindo para os milhares de pessoas atingidas por este crime devastador em Maceió.",
+        "reasoning": "This quote amplifies climate fears by emphasizing the need for transformative action to address the devastating impacts of climate change, specifically highlighting the suffering of thousands of people in Maceió, which creates a sense of urgency and alarm."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities involved in the COP28 for allowing companies like Braskem to participate and promote greenwashing, despite their harmful environmental practices."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "No Dubai, a Braskem participa em círculos de debate sobre como as populações vulneráveis se podem adaptar às alterações climáticas.",
+        "reasoning": "This quote implies that the climate movement, as represented by the COP28, is being hijacked by companies like Braskem that are more interested in appearances than actual environmental action."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Afinal, são estas comunidades as mais afetadas pelos desmandos das empresas que, desde há séculos, contribuem para o desequilíbrio ambiental.",
+        "reasoning": "This quote suggests that green policies and environmental concerns are being used as a tool for geopolitical power and influence, with companies and governments exploiting vulnerable communities for their own gain."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate movement"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

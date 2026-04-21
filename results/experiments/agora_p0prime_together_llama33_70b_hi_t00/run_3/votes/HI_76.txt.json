@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_76.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: URW: Discrediting Ukraine"
+    ],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों ने जो सबसे पहले किया वो थे रूस पर प्रतिबंध लागू करना. अमेरिका से लेकर यूरोपीय यूनियन तक ने रूस पर कड़े प्रतिबंध लगाए, ताकि राष्ट्रपति पुतिन पर दबाव बनाया जा सके. हालांकि, फिर भी वे व्लादिमीर पुतिन को रोक पाने में विफल रहे",
+        "reasoning": "इस उद्धरण में पश्चिमी देशों की विफलता को उजागर किया गया है, जो उनकी नीतियों और कार्यों की आलोचना को दर्शाता है"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "यूरोप में ऊर्जा संकट पैदा हुई. मसलन, शुरुआती दौर में देखा गया कि कई यूरोपीय देशों ने रूस पर दबाव बनाने के नजरिए से पश्चिमी खेमे में चले गए लेकिन तुरंत ही उन्हें ऊर्जा संकट ने घेर लिया",
+        "reasoning": "इस उद्धरण में यूरोपीय देशों को होने वाले नकारात्मक परिणामों को दर्शाया गया है, जो उनकी निर्भरता और ऊर्जा संकट को उजागर करता है"
+      },
+      {
+        "narrative_name": "URW: URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन में मिलिट्री इक्वीपमेंट्स की खरीद-फरोख्त में बड़ी धांधली हुई है",
+        "reasoning": "इस उद्धरण में यूक्रेन की भ्रष्टाचार और अनियमितताओं को उजागर किया गया है, जो उनकी विश्वसनीयता और प्रबंधन को कमजोर करता है"
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों ने जो सबसे पहले किया वो थे रूस पर प्रतिबंध लागू करना. अमेरिका से लेकर यूरोपीय यूनियन तक ने रूस पर कड़े प्रतिबंध लगाए, ताकि राष्ट्रपति पुतिन पर दबाव बनाया जा सके. हालांकि, फिर भी वे व्लादिमीर पुतिन को रोक पाने में विफल रहे",
+        "reasoning": "इस उद्धरण में पश्चिमी देशों की कार्रवाई को असफल बताया गया है, जो उनकी विदेश नीति और कूटनीतिक प्रयासों की आलोचना को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "यूरोप में ऊर्जा संकट पैदा हुई. मसलन, शुरुआती दौर में देखा गया कि कई यूरोपीय देशों ने रूस पर दबाव बनाने के नजरिए से पश्चिमी खेमे में चले गए लेकिन तुरंत ही उन्हें ऊर्जा संकट ने घेर लिया",
+        "reasoning": "इस उद्धरण में यूरोपीय देशों को ऊर्जा संकट का सामना करना पड़ा, जो पश्चिमी देशों के लिए नकारात्मक परिणाम को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "मीडिया रिपोर्ट्स की मानें",
+        "reasoning": "इस उद्धरण में मीडिया रिपोर्ट्स की विश्वसनीयता पर संदेह व्यक्त किया गया है, जो मीडिया के प्रति अविश्वास को दर्शाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

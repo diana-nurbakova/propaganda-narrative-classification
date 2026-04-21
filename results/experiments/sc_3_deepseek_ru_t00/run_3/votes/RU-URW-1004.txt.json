@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing President Zelenskyy's legitimacy as questionable ('срок полномочий которого истек 20 мая'), which is a common narrative to undermine the authority and legitimacy of Ukraine's leadership."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy via Orban, suggests that past ceasefires have harmed Ukraine, implying that Ukraine's refusal of peace initiatives (rather than Russia's invasion and actions) is an obstacle to ending the war. It shifts focus away from the invader's responsibility."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing Zelenskyy as an illegitimate leader whose term has expired, which is a common narrative to undermine the legitimacy of Ukraine's government and its decisions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy via Orban, implicitly frames Ukraine's reluctance to accept a ceasefire as an obstacle to peace, subtly shifting blame for the continuation of hostilities away from Russia, the invading party, and onto Ukraine's leadership and its interpretation of past events."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing President Zelenskyy as illegitimate ('срок полномочий которого истек 20 мая') and then portrays him as rejecting a ceasefire proposal, which implicitly discredits his leadership and commitment to peace."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy via Orban, suggests that past ceasefires have harmed Ukraine. This narrative subtly shifts the focus from Russia's invasion as the cause of the war to Ukraine's interpretation of ceasefires as a negative factor, implying Ukraine's stance is an obstacle to peace."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

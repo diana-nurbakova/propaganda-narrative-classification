@@ -1,0 +1,175 @@
+{
+  "file_id": "EN_CC_200047.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the WEF has a secret plan to control the general public by rationing essential resources, implying a hidden agenda."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the tyrannical “climate” policies of the World Economic Forum (WEF)",
+        "reasoning": "The use of the word 'tyrannical' to describe the WEF's policies implies a strong criticism of the institution and its authority."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "The quote implies that the WEF's plan is not genuinely about fighting climate change, but rather a tool for exerting control over the general public, suggesting that green policies are being used as a means to achieve geopolitical power."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the WEF has a secret plan to control the general public by rationing essential resources, implying a hidden agenda behind their climate change policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the tyrannical “climate” policies of the World Economic Forum (WEF)",
+        "reasoning": "The use of the word 'tyrannical' to describe the WEF's policies implies a strong criticism of the institution and its authority, challenging its intentions and competence in relation to climate change."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote implies that the WEF's climate policies are not genuinely aimed at environmental concern, but rather serve as a tool for exerting control over the general public, which can be seen as a geopolitical instrument."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the WEF has a secret plan to control the general public by rationing essential resources, implying a hidden agenda behind their climate change policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the tyrannical “climate” policies of the World Economic Forum (WEF)",
+        "reasoning": "The use of the word 'tyrannical' to describe the WEF's policies implies a strong criticism of the institution and its authority, challenging its competence and intentions."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote implies that the WEF's climate policies are being used as a tool to exert control over the general public, rather than being a genuine attempt to address environmental concerns."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of institutions and authorities",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "matched": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

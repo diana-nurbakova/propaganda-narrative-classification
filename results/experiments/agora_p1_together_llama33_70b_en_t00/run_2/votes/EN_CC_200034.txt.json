@@ -1,0 +1,115 @@
+{
+  "file_id": "EN_CC_200034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "Criticism of climate movement",
+      "Downplaying climate change",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement by presenting a catastrophic scenario that would unfold if their demands were met, implying that the movement's goals are unrealistic and dangerous."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in contributing to climate change by comparing it to natural sources of greenhouse gases, implying that human impact is less significant."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text questions the scientific consensus on climate change by citing a statement from a prominent figure that there is no scientific basis for transitioning away from fossil fuels."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement's policy by highlighting the catastrophic consequences of stopping oil production, implying that such a policy is unrealistic and harmful."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the impact of human activity on climate change by comparing it to natural environmental factors like volcanoes, suggesting that human influence is not as significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The answer, in part, is propaganda. ... member of groups like Just Stop Oil have been deluded – or perhaps deluded themselves – into believing that they must appease the climate gods by making all sorts of changes to the existing industrial world order.",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by implying that they are deluded and misled by propaganda, and that their beliefs are unfounded and unrealistic."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text questions the scientific consensus on climate change by citing a statement from a prominent figure (Sultan Al Jaber) that there is no scientific basis for phasing out fossil fuels, implying that the science is not settled."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "If we \"just stop oil\" like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by arguing that their proposed actions would lead to catastrophic consequences, implying that the movement is unrealistic and harmful."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more \"greenhouse gases\" like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in climate change by comparing it to natural sources of greenhouse gases, suggesting that the impact of human activity is less significant than claimed by climate activists."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is \"no science\" to back the \"green\" phase-out of earth-based \"fossil\" fuel use.",
+        "reasoning": "The text criticizes institutions and authorities, specifically the COP28 president, by quoting a statement that challenges the scientific basis for transitioning away from fossil fuels, implying that these institutions are misguided or lacking in scientific credibility."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "The UK electricity grid relies on natural gas as its 'buffer' energy source. Every day, demand varies according to consumer demand, and the other main energy supplier, renewables, are highly variable and can only power the grid when gas is picking up the lion's share of the gap between their output and consumer demand.",
+        "reasoning": "The text expresses skepticism about the reliability of renewable energy sources, suggesting that they are insufficient to meet energy demands without fossil fuels, and implying that a transition to green technologies would be problematic."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

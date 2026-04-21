@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1053.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "санкции ЕС против нашей страны наносят больший ущерб европейцам, чем нам самим",
+        "reasoning": "Ле Пен утверждает, что санкции ЕС против России наносят больший ущерб европейцам, чем России, что является критикой западной политики и дипломатии."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "призывает к сближению Европы с Россией для обеспечения безопасности континента",
+        "reasoning": "Ле Пен призывает к сближению Европы с Россией, что можно рассматривать как положительную оценку роли России в обеспечении безопасности континента."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "санкции ЕС против нашей страны наносят больший ущерб европейцам, чем нам самим",
+        "reasoning": "Ле Пен утверждает, что санкции ЕС против России наносят больший ущерб европейцам, чем России, что является критикой западной политики и дипломатии."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "призывает к сближению Европы с Россией для обеспечения безопасности континента",
+        "reasoning": "Ле Пен призывает к сближению Европы с Россией, что можно рассматривать как положительную оценку роли России в обеспечении безопасности континента."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "санкции ЕС против нашей страны наносят больший ущерб европейцам, чем нам самим",
+        "reasoning": "Ле Пен утверждает, что санкции ЕС против России наносят больший ущерб европейцам, чем России, что является критикой западной политики и дипломатии."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "призывает к сближению Европы с Россией для обеспечения безопасности континента",
+        "reasoning": "Ле Пен призывает к сближению Европы с Россией, что можно рассматривать как положительную оценку роли России в обеспечении безопасности континента."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

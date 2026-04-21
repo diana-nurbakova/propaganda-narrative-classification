@@ -1,0 +1,200 @@
+{
+  "file_id": "EN_CC_200077.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Controversy about green technologies",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies",
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "By depriving rural residents of their right to just say no to green energy scams, the state-level 'greenies' who control California, Illinois, Michigan and New York are pandering to corporate interests while lining their own pockets, all at the expense of their constituents.",
+        "reasoning": "The text criticizes the climate policies of certain states, specifically the promotion of green energy projects, by stating that they are scams that benefit corporate interests and harm rural residents."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Local governments in these four left-leaning states no longer have authority over their own land when it comes to the green projects being pushed by state-level bureaucrats, many of whom have sold their souls to 'renewable' energy projects involving wind and solar.",
+        "reasoning": "The text challenges the competence and integrity of state-level bureaucrats and institutions, implying that they are corrupt and prioritizing corporate interests over the well-being of their constituents."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Green energy is a scam that benefits communist China and other foreign interests at the expense of American energy independence.",
+        "reasoning": "The text expresses skepticism and criticism of green energy technologies, labeling them as a 'scam' that benefits foreign interests and harms American energy independence."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The Democratic lawmakers themselves, along with a lot of Republicans even in red states, are just getting so much money from these companies",
+        "reasoning": "The text implies that there is a hidden plot or secret scheme involving powerful groups, specifically Democratic and Republican lawmakers, who are receiving money from companies and promoting green energy projects that benefit those companies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "By depriving rural residents of their right to just say no to green energy scams, the state-level 'greenies' who control California, Illinois, Michigan and New York are pandering to corporate interests while lining their own pockets, all at the expense of their constituents.",
+        "reasoning": "The text criticizes the climate policies of certain states, specifically the promotion of green energy projects, by stating that they are depriving rural residents of their rights and pandering to corporate interests."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Local governments in these four left-leaning states no longer have authority over their own land when it comes to the green projects being pushed by state-level bureaucrats, many of whom have sold their souls to 'renewable' energy projects involving wind and solar.",
+        "reasoning": "The text challenges the competence and integrity of state-level bureaucrats and institutions, implying that they have been corrupted by corporate interests and are pushing green energy projects without regard for local authority or residents' rights."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Green energy is a scam that benefits communist China and other foreign interests at the expense of American energy independence.",
+        "reasoning": "The text expresses skepticism and criticism of green energy technologies, calling them a 'scam' and implying that they are not in the best interest of American energy independence."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The Democratic lawmakers themselves, along with a lot of Republicans even in red states, are just getting so much money from these companies",
+        "reasoning": "The text suggests that there is a hidden plot or secret scheme involving powerful groups, specifically Democratic lawmakers and corporations, to promote green energy projects for their own financial gain."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "By depriving rural residents of their right to just say no to green energy scams, the state-level 'greenies' who control California, Illinois, Michigan and New York are pandering to corporate interests while lining their own pockets, all at the expense of their constituents.",
+        "reasoning": "The text criticizes the climate policies of 'blue' states, specifically their promotion of green energy projects, by arguing that these policies benefit corporate interests and harm rural residents."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Local governments in these four left-leaning states no longer have authority over their own land when it comes to the green projects being pushed by state-level bureaucrats, many of whom have sold their souls to 'renewable' energy projects involving wind and solar.",
+        "reasoning": "The text challenges the competence and integrity of state-level bureaucrats and institutions, implying that they are corrupt and prioritizing corporate interests over the well-being of their constituents."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Green energy is a scam that benefits communist China and other foreign interests at the expense of American energy independence.",
+        "reasoning": "The text expresses skepticism and criticism of green energy technologies, framing them as a 'scam' that benefits foreign interests rather than promoting American energy independence."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The Democratic lawmakers themselves, along with a lot of Republicans even in red states, are just getting so much money from these companies",
+        "reasoning": "The text implies that there is a hidden plot or secret scheme involving powerful groups, specifically Democratic lawmakers and corporations, to promote green energy projects for financial gain."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Controversy about green technologies",
+    "URW: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

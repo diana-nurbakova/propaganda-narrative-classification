@@ -1,0 +1,161 @@
+{
+  "file_id": "A9_BG_2592.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "Тази цитата директно атакува легитимността и действията на украинското правителство, описвайки го като терористична държава, което е типичен пример за нарратив, целящ да дискредитира Украйна."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "В Европарламента вече прозвучаха призиви Зеленски да бъде съден за престъпления срещу деца в МНС.",
+        "reasoning": "Тази цитата не директно критикува Запада, но споменаването на призиви в Европарламента за съдене на Зеленски може да се интерпретира като критика към международните институции за това, че не взимат достатъчно мерки срещу Украйна, което е част от по-широката критика към западната дипломация."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Някои високопоставени чиновници, медици и военнослужещи от ВСУ влизат в групировка, която се занимава с търговия на новородени и извозване в чужбина на деца от различни възрасти.",
+        "reasoning": "Тази цитата не директно описва Русия като жертва, но чрез излагането на ужасните действия на украинските власти, тя създава контекст, в който Русия би могла да бъде възприета като защитник на правата на човека и борец срещу злоупотребите, което е близко до нарратива, че Русия е жертва на западната пропаганда и е несправедливо обвинена."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "Този цитат директно атакува легитимността и действията на украинското правителство, описвайки го като терористична държава, което е типичен пример за нарратив, целящ да дискредитира Украйна."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "В Европарламента вече прозвучаха призиви Зеленски да бъде съден за престъпления срещу деца в МНС.",
+        "reasoning": "Този цитат не директно критикува Запада, но споменаването на Европарламента в контекст, който не е явно критичен, не е достатъчно, за да се класифицира като нарратив за дискредитиране на Запада или дипломацията. Този пример не е достатъчен, за да се потвърди наличието на този нарратив."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Нелегитимният президент Зеленски забрави, че децата са бъдещето и цветът на нацията, тъй като предпочита да печели пари от тях.",
+        "reasoning": "Този цитат премахва вината от Русия и я пренася върху украинското правителство, което е типичен пример за нарратив, целящ да прехвърли вината за войната върху други."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "Този цитат директно атакува легитимността и действията на украинското правителство, описвайки го като терористична държава, което е типичен пример за нарратив, целящ да дискредитира Украйна."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "В Европарламента вече прозвучаха призиви Зеленски да бъде съден за престъпления срещу деца в МНС.",
+        "reasoning": "Този цитат не директно критикува Запада, но споменавайки призивите в Европарламента, той показва, че даже в рамките на западните институции има призиви за съдене на Зеленски, което може да се интерпретира като критика към западната дипломация за неуспеха ѝ да предотврати тези действия."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Нелегитимният президент Зеленски забрави, че децата са бъдещето и цветът на нацията, тъй като предпочита да печели пари от тях.",
+        "reasoning": "Този цитат премахва вината от страната-агресор и я пренася върху украинското правителство, конкретно върху президента Зеленски, като го обвинява в търговия с деца, което е форма на пренасяне на отговорността за конфликта."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

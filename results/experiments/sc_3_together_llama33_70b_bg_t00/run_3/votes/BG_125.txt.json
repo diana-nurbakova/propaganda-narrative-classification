@@ -1,0 +1,97 @@
+{
+  "file_id": "BG_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът подчертава сериозните последствия от промяната на климата, като наводнения, смъртни случаи и щети, за да покаже, че климатичните промени имат разрушително въздействие върху Обединеното кралство."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът подчертава сериозните последствия от промяната на климата, като споменава тежки наводнения, смъртни случаи и щети по домовете и инфраструктурата, което създава усещане за страх и тревога относно бъдещето."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът подчертава сериозните последствия от промяната на климата, като наводнения, смъртни случаи и щети по домовете и инфраструктурата, за да покаже колко сериозно е въпросът."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

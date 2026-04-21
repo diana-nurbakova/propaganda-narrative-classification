@@ -1,0 +1,83 @@
+{
+  "file_id": "EN_UA_DEV_100034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This quote suggests that the West, as part of the 'free world', is inherently on the side of democracy and justice, implying a positive evaluation of Western values and their role in the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Some suggest rolling over bond repayments mentioned in this article for another two years. I categorically oppose this!",
+        "reasoning": "This quote implies criticism of Western diplomatic efforts or financial assistance strategies, suggesting they are insufficient or misguided in addressing Ukraine's needs."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights potential negative consequences for Western countries if Ukraine does not receive sufficient support, emphasizing the risk of the conflict spreading and affecting Western cities directly."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This quote suggests that the West, as part of the 'free world', is inherently on the side of democracy and justice, implying a moral superiority and a key role in the victory over authoritarian regimes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Some suggest rolling over bond repayments mentioned in this article for another two years. I categorically oppose this!",
+        "reasoning": "This opposition to rolling over bond repayments implies a criticism of Western diplomatic or financial approaches that might prioritize short-term solutions or compromises, suggesting they are insufficient or misguided in the context of Ukraine's needs."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights potential negative consequences for Western countries if Ukraine does not prevail, implying that the conflict's outcome has direct implications for the security and well-being of Western nations."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

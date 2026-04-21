@@ -1,0 +1,69 @@
+{
+  "file_id": "A9_BG_3819.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Русия няма да спре агресията си по границите на страната му",
+        "reasoning": "Този цитат показва, че Зеленски директно обвинява Русия за агресията и подчертава, че тя няма да спре, което е в противоречие с идеята, че други страни или фактори са основните виновници за конфликта."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Зеленски отдавна изразява разочарованието си от това колко време отнема на западните съюзници да вземат ключови решения за военната подкрепа за Украйна",
+        "reasoning": "Този цитат показва, че Зеленски критикува бавните реакции и решения на западните съюзници, което може да бъде интерпретирано като критика към дипломатическите усилия и решителността на западните страни в подкрепа на Украйна."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Сега това е насочено срещу Украйна, но утре може да дойде ред на други страни, и вече ясно виждаме посоката на агресията - балтийските републики, Полша, Балканите",
+        "reasoning": "Този цитат показва, че Зеленски спекулира за бъдещи възможни цели на руската агресия, което е форма на спекулиране за изхода и последиците от конфликта."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Сега това е насочено срещу Украйна, но утре може да дойде ред на други страни",
+        "reasoning": "Този цитат показва, че Зеленски елицира страх и предупреждение, че руската агресия може да се разшири и да засегне други страни, което е форма на усилване на страховете, свързани с войната."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,57 @@
+{
+  "file_id": "PT_241.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A Rússia classificou a medida como \"ilegal\". \"Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia\", afirmou Dmitri Peskov, porta-voz do Presidente russo, Vladimir Putin, à imprensa.",
+        "reasoning": "The quote presents Russia's official position that the EU's action (using frozen assets to support Ukraine) is illegal and justifies Russian countermeasures. This frames the EU's support for Ukraine as an illegal provocation, implicitly shifting blame for the conflict's escalation or negative consequences away from Russia's initial invasion and onto the West's response."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A Rússia classificou a medida como \"ilegal\". \"Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia\", afirmou Dmitri Peskov, porta-voz do Presidente russo, Vladimir Putin, à imprensa.",
+        "reasoning": "The quote directly criticizes and delegitimizes a key action by the European Union, labeling it as 'illegal'. This serves to discredit Western diplomatic and financial measures taken in response to the war, portraying them as unjust and provocative rather than legitimate support for a nation under invasion."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

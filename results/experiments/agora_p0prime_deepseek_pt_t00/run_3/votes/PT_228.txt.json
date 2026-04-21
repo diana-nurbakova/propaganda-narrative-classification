@@ -1,0 +1,72 @@
+{
+  "file_id": "PT_228.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Segundo os investigadores, se continuar o mesmo fenómeno em relação ao Pantanal, o diagnóstico é de que poderemos perder o Pantanal até ao final do século.\"",
+        "reasoning": "The statement directly presents a catastrophic future scenario (complete loss of the Pantanal) as a consequence of current climate trends, which aligns with the definition of emphasizing and amplifying fears about climate change consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Segundo os investigadores, se continuar o mesmo fenómeno em relação ao Pantanal, o diagnóstico é de que poderemos perder o Pantanal até ao final do século.\"",
+        "reasoning": "The statement directly presents a catastrophic future scenario (the complete loss of the Pantanal by the end of the century) based on current climate trends, which aligns with the definition of emphasizing and amplifying fears about the consequences of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Segundo os investigadores, se continuar o mesmo fenómeno em relação ao Pantanal, o diagnóstico é de que poderemos perder o Pantanal até ao final do século.\"",
+        "reasoning": "The statement directly presents a catastrophic future scenario (the complete loss of the Pantanal) as a consequence of current climate trends, which aligns with the definition of emphasizing and amplifying fears about climate change consequences."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

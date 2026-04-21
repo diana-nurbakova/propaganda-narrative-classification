@@ -1,0 +1,108 @@
+{
+  "file_id": "EN_CC_200049.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Climate change is beneficial"
+    ],
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement"
+    ],
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality as a climate change impact, thereby minimizing the perceived threat and impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths 'are caused by heat' does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim about heat-related deaths, framing it as failing scrutiny and presenting counter-data, which raises doubts about the accuracy and validity of the original scientific assertion."
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "It added that over the past 20 years, the death rate from heat has slightly increased due to global warming (+0.21 percent), but that the death rate from the cold decreased by more than twice as much (-0.51 percent) during the same period.",
+        "reasoning": "By highlighting that global warming has led to a larger decrease in cold-related deaths than the increase in heat-related deaths, the text frames climate change as having a net positive effect on mortality, actively promoting the narrative that climate change can be beneficial."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "This quote, and the subsequent discussion of global data showing cold deaths dwarfing heat deaths, is used to directly counter and minimize the significance of heat-related mortality as a climate change impact, thereby downplaying the overall threat of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly challenges a scientific claim (from Science Alert) by presenting alternative data, framing the original assertion as flawed and not withstanding scrutiny, which aligns with questioning the validity of climate-related scientific measurements and conclusions."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The use of the term 'Alarmists' in the headline is a pejorative label that challenges the credibility and motives of those raising climate concerns, fitting the definition of criticizing the climate movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality linked to climate change, thereby minimizing the perceived impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim about heat-related deaths, framing it as not withstanding scrutiny and presenting counter-data, which raises doubts about the accuracy and reliability of the climate science being cited."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Downplaying climate change",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Questioning the measurements and science",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

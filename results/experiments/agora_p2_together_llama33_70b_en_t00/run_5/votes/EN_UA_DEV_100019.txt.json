@@ -1,0 +1,69 @@
+{
+  "file_id": "EN_UA_DEV_100019.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The text mentions Russian online campaigns criticizing American support for Ukraine, which can be seen as shifting blame from Russia's actions to the US's support for Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "criticizing American support of Ukraine in its war with Russia",
+        "reasoning": "The text implies that the US's support for Ukraine is being criticized by Russian-linked accounts, which can be seen as discrediting the West's diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "The Kremlin said last month it would not meddle in the November U.S. election",
+        "reasoning": "The text mentions the Kremlin's denial of meddling in the US election, which can be seen as portraying Russia as a victim of unfair accusations."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "disinformation online in various languages, with posts typically starting with an apparent whistleblower or citizen journalist posting content on a video channel",
+        "reasoning": "The text describes a Russian campaign to spread disinformation online, which can be seen as undermining trust in media sources."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,89 @@
+{
+  "file_id": "A9_BG_8427.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Тази цитата показва критика към западните санкции и тяхното въздействие върху руската страна, което е характерно за нарътвата \"Discrediting the West, Diplomacy\"."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Андрей Пивоваров – подкрепи идеята за отслабване на санкциите срещу Русия. Според него това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "Тази цитата показва, че Русия е представена като жертва на западните санкции и негативните настроения, което е характерно за нарътвата \"Russia is the Victim\"."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Тази цитата не е достатъчно силна, за да бъде доказателство за нарътвата \"Negative Consequences for the West\". Вместо това е по-скоро критика към санкциите и тяхното въздействие върху Русия."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Няма достатъчно доказателства в текста, за да се потвърди тази нарътва.",
+        "reasoning": "Текстът не съдържа достатъчно информация, за да се потвърди нарътвата \"Distrust towards Media\"."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Тази цитата показва критика към западните санкции и тяхното въздействие върху руската страна, което е характерно за наръчването \"Discrediting the West, Diplomacy\"."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Според него това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "Тази цитата предполага, че отслабването на санкциите би имало положително въздействие върху Запада, като би опровергало негативните настроения спрямо руснаците, което е свързано с наръчването \"Negative Consequences for the West\"."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Мария Кучеренко – анализатор от Фондация \"Върни се жив\", отбеляза, че руските опозиционери фактически преповтарят тезите на Кремъл",
+        "reasoning": "Тази цитата показва, че руските опозиционери се обвиняват в повторение на тезите на Кремъл, което може да бъде интерпретирано като опит да се създаде недоверие към медийните източници, които предават тези тези, свързано с наръчването \"Distrust towards Media\"."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

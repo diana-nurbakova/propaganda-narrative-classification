@@ -1,0 +1,103 @@
+{
+  "file_id": "BG_63.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "The opening line uses dramatic and fear-inducing language ('something terrible and unseen is approaching, there will be destruction') to set a tone of alarm and amplify the perceived threat of the upcoming hurricane season."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "\"Изпълненият със забавления летен сезон все повече се превръща във време на страх от опасностите, които ни очакват\", каза тя.",
+        "reasoning": "This quote from a climate scientist explicitly frames the summer season as 'a time of fear' about impending dangers, actively promoting an emotional response of fear related to climate impacts."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "\"Необходима е само една буря, за да опустоши дадена общност.\"",
+        "reasoning": "This statement emphasizes the devastating potential of a single storm, amplifying fears about the catastrophic and community-destroying consequences of extreme weather events, which are linked in the text to human-caused climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "The opening line uses dramatic and fear-inducing language ('страшно и невиждано', 'ще има разрушения') to set a tone of impending catastrophe, actively amplifying fears about the consequences of climate-related weather events."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "\"Необходима е само една буря, за да опустоши дадена общност.\"",
+        "reasoning": "This quote from an official emphasizes the devastating potential of a single storm, framing the threat as immediate and community-destroying, which amplifies fear about the impacts of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "\"Изпълненият със забавления летен сезон все повече се превръща във време на страх от опасностите, които ни очакват\", каза тя.",
+        "reasoning": "This quote from a climate scientist explicitly states that the season is becoming 'a time of fear' about the dangers that await, directly promoting an emotional response of fear regarding climate impacts."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "The opening line uses dramatic and fear-inducing language ('страшно и невиждано', 'ще има разрушения') to set a tone of impending catastrophe, actively amplifying fears about the upcoming hurricane season."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Необходима е само една буря, за да опустоши дадена общност.\"",
+        "reasoning": "This quote from an official emphasizes the devastating potential of a single storm, framing the threat as severe and community-destroying, which amplifies fear about the consequences."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Изпълненият със забавления летен сезон все повече се превръща във време на страх от опасностите, които ни очакват\", каза тя.",
+        "reasoning": "This direct quote from a climate scientist explicitly states that the season is becoming 'a time of fear' about the dangers that await, directly promoting a narrative of amplifying climate-related fears."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

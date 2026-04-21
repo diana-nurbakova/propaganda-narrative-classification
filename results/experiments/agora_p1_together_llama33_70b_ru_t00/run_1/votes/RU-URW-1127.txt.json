@@ -1,0 +1,201 @@
+{
+  "file_id": "RU-URW-1127.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский запросил сам. Через третьи руки Андрей Ермак прислал Карлсону запрос на интервью и готовность обсуждать самые разные темы.",
+        "reasoning": "The text implies that Zelensky or his team initiated the interview request, which could be seen as a sign of weakness or desperation, thus undermining the legitimacy of Ukraine's leadership."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Господину Такеру Карлсону стоит внимательнее проверять свои источники в ФСБ.",
+        "reasoning": "The quote suggests that Tucker Carlson's sources might be unreliable or even connected to the FSB, which could imply that Western media is prone to spreading misinformation or is influenced by Russian intelligence."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "The text praises Putin's interview as a success, highlighting the depth of his thoughts and the impact on global society, which can be seen as admiration for Russia's leadership and its ability to shape international opinions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Скорее всего вмешалось посольство США. Начали изворачиваться: Ермак решил опровергнуть саму попытку организовать интервью.",
+        "reasoning": "The text implies that the US embassy interfered with the interview, and that this interference led to a change in plans, which could be seen as criticism of Western diplomatic efforts and their alleged attempts to control or manipulate events."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский запросил сам. Через третьи руки Андрей Ермак прислал Карлсону запрос на интервью и готовность обсуждать самые разные темы.",
+        "reasoning": "The text implies that Zelensky or his team initiated the interview request, which could be seen as a sign of weakness or desperation, thus undermining the legitimacy of Ukraine's leadership."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Скорее всего вмешалось посольство США. Начали изворачиваться: Ермак решил опровергнуть саму попытку организовать интервью.",
+        "reasoning": "The text suggests that the US embassy intervened and caused the cancellation of the interview, which could be seen as an example of Western diplomatic interference and hypocrisy."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "The text praises Putin's interview as a success, highlighting the depth of his thoughts and ideas, which could be seen as a positive evaluation of Russia's leadership and policies."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нам же не Карлсон нужен, нам его миллионы зрителей нужны...да?",
+        "reasoning": "The text implies that the media, in this case, Tucker Carlson, is not trustworthy, and that Ukraine needs to reach his audience, which could be seen as a sign of distrust towards Western media."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский запросил сам. Через третьи руки Андрей Ермак прислал Карлсону запрос на интервью и готовность обсуждать самые разные темы.",
+        "reasoning": "The text implies that Zelensky's team initiated the interview request, which could be seen as an attempt to undermine Ukraine's legitimacy by portraying its leader as seeking attention from a controversial figure like Carlson."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Скорее всего вмешалось посольство США. Начали изворачиваться: Ермак решил опровергнуть саму попытку организовать интервью.",
+        "reasoning": "The text suggests that the US embassy intervened, which could be seen as an attempt to discredit Western diplomatic efforts by implying that they are secretly manipulating events behind the scenes."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "The text praises Putin's interview with Carlson, implying that Russia's leader is a deep thinker who can effectively communicate with the global community, which could be seen as an attempt to promote a positive image of Russia."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Overpraising the West",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the narrative of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Russia remains isolated",
+        "reasoning": "This quote discredits Russia, but in the context of the provided narratives, it can be seen as a form of discrediting the West's adversary, which is a common complementary propaganda function. However, the primary focus here is on Russia's isolation, which doesn't directly fit the 'Discrediting the West' narrative. Instead, it's more about highlighting Russia's situation."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "There is no evidence in the text that praises Russia's actions, policies, or character. The text primarily focuses on the negative aspects of Russia's military situation and the strengths of Ukraine's defenses."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "The Ukrainian troops are 'capable and trained'",
+        "reasoning": "This quote can be seen as praising the Ukrainian (and by extension, Western-backed) military capabilities, which aligns with the narrative of overpraising the West. The mention of nine countries pledging to send over 150 Leopard tanks to Ukraine further emphasizes Western support and capability."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "None",
+        "reasoning": "The text does not amplify war-related fears in the context of threatening the West or escalating the conflict in a way that evokes fear about severe consequences. It focuses more on the military situation and the challenges Russia is facing."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "There is no evidence in the text that discredits Ukraine or undermines its legitimacy, actions, or intentions. Instead, the text highlights Ukraine's robust defenses and capable troops."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "None",
+        "reasoning": "The text does not portray Russia as being unfairly targeted or victimized. It discusses Russia's military situation and the challenges it faces, without evoking sympathy for Russia's position."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "The Ukrainian troops are 'capable and trained'",
+        "reasoning": "This quote praises the Ukrainian troops, which can be seen as part of the West's efforts, thus overpraising the West."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "The Ukrainian troops are 'capable and trained'",
+        "reasoning": "This quote praises the Ukrainian troops, which can be seen as overpraising the West, as Ukraine is often associated with Western support."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Overpraising the West",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Amplifying war-related fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 7
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

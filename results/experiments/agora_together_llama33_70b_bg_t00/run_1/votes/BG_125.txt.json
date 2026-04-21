@@ -1,0 +1,59 @@
+{
+  "file_id": "BG_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "такова тежко влажно време ще се случва средно на всеки три години, показва анализът.",
+        "reasoning": "Текстът цитира анализи, които показват, че поради климатичните промени, тежки и влажни периоди ще стават все по-чести, което създава страх сред населението."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "такова тежко влажно време ще се случва средно на всеки три години, показва анализът.",
+        "reasoning": "Тази цитата показва, че текстът цитира проучване, което предупреждава за увеличаване на честотата на тежки дъждове и наводнения в Обединеното кралство поради климатичните промени, което е типичен пример за усилване на страховете свързани с климатичните промени."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

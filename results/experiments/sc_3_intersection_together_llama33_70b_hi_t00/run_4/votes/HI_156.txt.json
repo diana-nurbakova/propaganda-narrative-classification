@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर रुस 'आस्तित्व से जुडे खतरे' का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा",
+        "reasoning": "रुस के प्रवक्ता दिमित्री पेसकोव का कहना है कि रुस के आस्तित्व के लिए खतरा विशे से करता है, तो ही वह परमऺणु हथियार का उपयोग करेगा"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रुस-उक्रेन युद्ध में परमऺणु हथियारों के आस्तित्व के लिए खतरा विशे से करता है",
+        "reasoning": "रुस-उक्रेन युद्ध में परमऺणु हथियारों के आस्तित्व के लिए खतरा विशे से करता है, बहुत संबहुत विशे से करता है कि रुस के आस्तित्व के लिए खतरा विशे से करता है"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "रुस-उक्रेन युद्ध में परमऺणु हथियारों के आस्तित्व के लिए खतरा विशे से करता है",
+        "reasoning": "रुस-उक्रेन युद्ध में परमऺणु हथियारों के आस्तित्व के लिए खतरा विशे से करता है, बहुत संबहुत विशे से करता है कि रुस के आस्तित्व के लिए खतरा विशे से करता है"
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

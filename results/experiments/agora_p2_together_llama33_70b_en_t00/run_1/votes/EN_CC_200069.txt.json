@@ -1,0 +1,168 @@
+{
+  "file_id": "EN_CC_200069.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text presents residents taking direct action against street zoning barriers, implying criticism of climate policies that led to the sectioning of streets."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' suggests that the institutions and authorities implementing climate change policies are acting irrationally or excessively, implying criticism of these entities."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The use of the term 'The Great Climate Con' implies that there is a hidden plot or secret scheme behind climate change policies, suggesting that powerful groups are manipulating or deceiving the public."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text presents residents taking direct action against street zoning barriers, implying criticism of the climate policies that led to their implementation."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The use of the term 'madness' to describe climate change policies suggests a criticism of the institutions and authorities promoting these policies."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The phrase 'The Great Climate Con' implies a hidden plot or conspiracy, suggesting that powerful groups are secretly driving climate change policies for their own benefit."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Oxford residents are taking matters into their own hands and destroying the street zone sectioning barriers.",
+        "reasoning": "The text presents residents taking direct action against street zoning barriers, implying criticism of climate policies that led to the sectioning of streets."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Oxford is going to be the centre of the resistance to the climate change madness in the UK.",
+        "reasoning": "The phrase 'climate change madness' suggests that the institutions and authorities promoting climate change policies are acting irrationally or excessively, implying criticism of these entities."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "THE GREAT CLIMATE CON",
+        "reasoning": "The use of the term 'The Great Climate Con' implies that there is a hidden plot or secret scheme behind climate change policies, suggesting that powerful groups are manipulating or deceiving the public."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

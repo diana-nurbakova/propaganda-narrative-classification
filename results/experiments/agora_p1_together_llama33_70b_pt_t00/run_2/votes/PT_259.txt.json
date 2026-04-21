@@ -1,0 +1,139 @@
+{
+  "file_id": "PT_259.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "A quote that directly discredits the Ukrainian leader, Volodymyr Zelensky, by accusing him of massacring Ukrainian citizens, which undermines the legitimacy and actions of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os manipuladores ocidentais",
+        "reasoning": "The text criticizes Western manipulators, implying that they are influencing or controlling Ukraine's actions, which discredits Western diplomatic efforts and portrays them as having ulterior motives."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "This quote shifts the blame for the conflict from Russia to Ukraine, specifically to Zelensky, implying that he is responsible for the violence against Ukrainian citizens."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "A declaração da porta-voz do Ministério dos Negócios Estrangeiros russo, Maria Zakharova, acusa diretamente o líder ucraniano Volodymyr Zelensky de massacrar cidadãos ucranianos, o que é um exemplo claro de desacreditar a Ucrânia e seu líder."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os manipuladores ocidentais",
+        "reasoning": "A menção a 'manipuladores ocidentais' implica que os países ocidentais estão a manipular a situação na Ucrânia, o que é um exemplo de desacreditar a diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "ninguém tem qualquer confiança nele",
+        "reasoning": "A declaração de que ninguém tem confiança em Zelensky e que ele pode 'distorcer tudo, mentir, abandonar tudo' cria uma imagem de que a Rússia é a vítima de uma situação em que não há confiança ou credibilidade por parte da Ucrânia e do Ocidente."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "A declaração da porta-voz do Ministério dos Negócios Estrangeiros russo, Maria Zakharova, acusa diretamente o líder ucraniano Volodymyr Zelensky de massacrar cidadãos ucranianos, o que é um exemplo claro de desacreditar a Ucrânia e seu líder."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Ninguém tem qualquer confiança nele. Todos compreendem perfeitamente que se trata de um homem que pode distorcer tudo, que pode mentir, que pode abandonar tudo, como abandonou até o seu próprio povo, atirando literalmente o povo da Ucrânia para um altar de sacrifício",
+        "reasoning": "A declaração de Zakharova transfere a responsabilidade do conflito para Zelensky e a Ucrânia, sugerindo que eles são os principais culpados pela situação, em vez de atribuir a responsabilidade à Rússia."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Ouvimos muitas palavras, mas basicamente não vemos quaisquer atos",
+        "reasoning": "A afirmação de Zakharova implica que as palavras e ações dos líderes ucranianos e ocidentais não são confiáveis, o que sugere desconfiança em relação às fontes de informação."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Querem forçar literalmente todos, para envolver o maior número possível de países na sua discussão sob falsos pretextos",
+        "reasoning": "A declaração de Zakharova sugere que a Rússia é vítima de tentativas de manipulação por parte de Zelensky e seus apoiadores, o que é um exemplo de como a Rússia é apresentada como vítima de ações desleais."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

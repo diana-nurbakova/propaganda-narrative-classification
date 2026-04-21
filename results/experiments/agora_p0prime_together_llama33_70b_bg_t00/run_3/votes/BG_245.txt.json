@@ -1,0 +1,143 @@
+{
+  "file_id": "BG_245.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "Текстът цитира проучване, което показва, че мнозинството от учените очакват фатално затопляне на планетата, което ще доведе до катастрофални последици за човечеството и планетата ни, което е типично за Amplifying Climate Fears."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "В следващите пет години ни очаква сериозно нарушение на обществата в глобален мащаб",
+        "reasoning": "Текстът цитира Грета Пекл, която изразява отчаяние и предупреждава за сериозно нарушение на обществата в глобален мащаб, което е типично за Amplifying Climate Fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Глад, мор, катаклизми и свръхмиграция: Светъ ще се затопли фатално",
+        "reasoning": "The text emphasizes the catastrophic consequences of climate change, including global temperatures exceeding 1.5 degrees Celsius, leading to extreme weather events, famine, and mass migration, which amplifies fears about the impact of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "Текстът цитира проучване, което показва, че мнозинството от учените очакват катастрофални последици от климатичните промени, което е типично за Amplifying Climate Fears."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много експерти посочват, че се чувстват отчаяни и ядосани от нежеланието на световните правителства да работят в посока охлаждане на климата.",
+        "reasoning": "Текстът използва силни емоции и изрази, като \"отчаяни\" и \"ядосани\", за да опише реакцията на експертите, което е характерно за Amplifying Climate Fears."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "В следващите пет години ни очаква сериозно нарушение на обществата в глобален мащаб",
+        "reasoning": "Текстът предсказва сериозни и катастрофални последици в близкото бъдеще, което е типично за Amplifying Climate Fears."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "file_id": "A9_BG_2707.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "Този цитат показва, че авторът спекулира за потенциалните последствия от пълния руски контрол над Украйна, предричащи хаос в световната икономика и широки последствия за целия свят."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "този нов, по-богат и по-могъщ Кремъл ще бъде добре оборудван за бъдеща агресия и икономическо изнудване на Запада",
+        "reasoning": "Този цитат показва, че авторът очаква, че укрепването на Русия чрез завземането на Украйна ще доведе до икономическо изнудване на Запада, което е негативна последица за западните страни."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Всичко това би принадлежало на Русия – която, откакто превзе Украйна, стои буквално пред портите на ЕС. Русия и нейните приятели могат да продават оръжия и части от тях на нечестни хора по света. И ако искат да го използват срещу НАТО, те също ще имат такъв вариант",
+        "reasoning": "Този цитат показва, че авторът елицира страхове относно потенциалните последствия от руското завземане на Украйна, включително възможността Русия да продава оръжия на нечестни хора и да ги използва срещу НАТО, което е страхотворна перспектива."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "С ресурсите на Украйна Путин би бил неудържим",
+        "reasoning": "The text speculates about the potential outcomes of the war, specifically stating that if Russia gains control of Ukraine's resources, Putin would be unstoppable, implying a significant shift in power dynamics."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "този нов, по-богат и по-могъщ Кремъл ще бъде добре оборудван за бъдеща агресия и икономическо изнудване на Запада",
+        "reasoning": "The text predicts negative consequences for the West, stating that a richer and more powerful Kremlin would be well-equipped for future aggression and economic blackmail of the West."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "The text evokes fear and anxiety about the potential consequences of Russia gaining control of Ukraine, stating that the shockwaves would be felt for years and decades, causing chaos in the global economy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "С ресурсите на Украйна Путин би бил неудържим. Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика.",
+        "reasoning": "The text predicts the potential consequences of Russia gaining control over Ukraine, suggesting that it would lead to a significant increase in Russia's power and influence, causing chaos in the global economy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "и ако искат да го използват срещу НАТО, те също ще имат такъв вариант",
+        "reasoning": "The text implies that the West, specifically NATO, would be vulnerable to Russia's actions if Ukraine falls, suggesting a lack of effective diplomacy or defense from Western countries."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "The text highlights the potential negative consequences for the West, including economic chaos, if Russia gains control over Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

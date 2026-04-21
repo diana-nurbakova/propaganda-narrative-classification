@@ -1,0 +1,175 @@
+{
+  "file_id": "PT_250.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. O cenário consolidou a China como a principal compradora do petróleo russo no mercado internacional.",
+        "reasoning": "A menção à Rússia como um importante fornecedor de petróleo para a China, apesar das sanções internacionais, pode ser vista como um elogio à resiliência e capacidade da Rússia em manter suas exportações."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que a Rússia é vítima de ações injustas ou excessivas por parte do Ocidente."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A crítica à eficácia da pressão exercida pelos países ocidentais sobre a Rússia pode ser vista como uma descredibilização das estratégias e políticas do Ocidente."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. O cenário consolidou a China como a principal compradora do petróleo russo no mercado internacional.",
+        "reasoning": "A menção à Rússia como principal fornecedor de petróleo aos chineses, ultrapassando a Arábia Saudita, pode ser vista como um elogio à resiliência e capacidade da Rússia em manter suas exportações de petróleo, apesar das sanções internacionais."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que as ações dos países ocidentais foram ineficazes e, portanto, questiona a eficácia de suas estratégias diplomáticas."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022.",
+        "reasoning": "A menção às sanções internacionais impostas à Rússia pode ser vista como uma apresentação da Rússia como vítima de ações externas, evocando simpatia pela sua situação."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. O cenário consolidou a China como a principal compradora do petróleo russo no mercado internacional.",
+        "reasoning": "A menção à Rússia como um importante fornecedor de petróleo e gás para a China, apesar das sanções internacionais, pode ser vista como um elogio à resiliência e capacidade da Rússia em manter suas exportações."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que as ações do Ocidente foram ineficazes, o que pode ser visto como uma crítica à diplomacia e às estratégias ocidentais."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022.",
+        "reasoning": "A menção às sanções internacionais impostas à Rússia pode evocar uma sensação de que a Rússia está sendo injustamente punida ou vitimizada, o que se alinha com a narrativa de que a Rússia é a vítima."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

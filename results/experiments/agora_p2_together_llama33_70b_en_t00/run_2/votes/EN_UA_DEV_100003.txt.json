@@ -1,0 +1,207 @@
+{
+  "file_id": "EN_UA_DEV_100003.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukraine and the West cast the war as an imperial-style land grab by Putin, and have warned that if Ukraine loses then Russia could attack a NATO member, something Putin has denied.",
+        "reasoning": "This quote suggests that Ukraine's perspective on the war is being undermined by implying that their concerns about Russian aggression are unfounded, as Putin has denied any intention to attack NATO members."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Medvedev said Russia also wanted to take the Black Sea port of Odesa, which it calls Odessa. 'Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,' Medvedev said.",
+        "reasoning": "This quote praises Russia's historical and cultural ties to Odesa, framing it as a rightful part of Russia, which glorifies Russia's actions and character."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "After the failure of Ukraine to pierce Russian front lines last year, Moscow has been trying to grind down Ukrainian forces just as Kyiv ponders a major new mobilization and President Volodymyr Zelenskyy sacked his top general.",
+        "reasoning": "This quote speculates about the potential outcomes of the war, discussing the current state of Ukrainian forces and Russia's efforts to gain the upper hand, which makes predictions about the conflict's progression."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on the battlefield after the weekend fall of the town of Avdiivka where he said Ukrainian troops had been forced to flee in chaos.",
+        "reasoning": "This quote frames Russia's actions as a response to Ukrainian actions, implying that Russia is acting in self-defense or to address a situation created by Ukraine, portraying Russia as a victim of circumstances."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.",
+        "reasoning": "This quote suggests that Russian forces may push further into Ukraine, potentially reaching the capital Kyiv, which implies a prediction about the potential outcome of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukraine and the West cast the war as an imperial-style land grab by Putin, and have warned that if Ukraine loses then Russia could attack a NATO member, something Putin has denied.",
+        "reasoning": "This quote can be seen as undermining Ukraine's perspective on the war by framing their view as a 'cast', implying that it might not be an objective assessment, and also by mentioning Putin's denial, which could be seen as giving more credibility to Russia's perspective."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Medvedev said Russia also wanted to take the Black Sea port of Odesa, which it calls Odessa. 'Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,' Medvedev said.",
+        "reasoning": "This quote praises Russia's historical connection to Odesa, framing it as a 'Russian city', which can be seen as glorifying Russia's claim to the territory."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Putin's suggestion of a ceasefire in Ukraine to freeze the war was rejected by the United States after contacts between intermediaries, Reuters reported exclusively earlier this month.",
+        "reasoning": "This quote implies that the West, specifically the United States, is not interested in finding a peaceful solution to the conflict, which can be seen as criticizing Western diplomacy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "It is our Russian, Russian city",
+        "reasoning": "Medvedev's statement implies that Odesa is a Russian city, undermining Ukraine's claim to the territory and suggesting that Ukraine does not have a legitimate right to it."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "We will have to work very hard and very seriously",
+        "reasoning": "Medvedev's statement conveys confidence in Russia's abilities and determination to achieve its goals, presenting Russia in a positive and determined light."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict",
+        "reasoning": "Medvedev's statement speculates about the potential outcome of the conflict, suggesting that Russia may eventually capture Kyiv, which is a prediction about the future course of the war."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Ukraine and the West cast the war as an imperial-style land grab by Putin, and have warned that if Ukraine loses then Russia could attack a NATO member, something Putin has denied",
+        "reasoning": "The article presents Russia as being unfairly accused by Ukraine and the West, with Putin denying allegations of an imperial-style land grab, portraying Russia as a victim of unfair criticism."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Praise of Russia",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Rewriting Ukraineâ€™s history",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Rewriting Ukraineâ€™s history",
+      "matched": "URW: Discrediting Ukraine: Rewriting Ukraineâ€™s history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

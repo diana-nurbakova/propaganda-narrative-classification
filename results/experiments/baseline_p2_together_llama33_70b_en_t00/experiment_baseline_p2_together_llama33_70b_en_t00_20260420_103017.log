@@ -1,0 +1,47 @@
+[Logging] Output will be saved to: results\experiments\baseline_p2_together_llama33_70b_en_t00\experiment_baseline_p2_together_llama33_70b_en_t00_20260420_103017.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_p2_together_llama33_70b_en_t00
+============================================================
+Base config: configs/experiments/generated/emnlp/baseline_p2_together_llama33_70b_en_t00.yaml
+Number of runs: 5
+Base seed: 42
+Output directory: results/experiments/baseline_p2_together_llama33_70b_en_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943, 1051802512, 958682846]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p2_together_llama33_70b_en_t00_07ett_oh\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_p2_together_llama33_70b_en_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p2_together_llama33_70b_en_t00_07ett_oh\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: together:meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Input: data/dev-documents_4_December/EN/subtask-2-documents/
+  Output: results\experiments\baseline_p2_together_llama33_70b_en_t00\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: True (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=baseline_p2_together_llama33_70b_en_t00, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Category classification: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Category validation: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Narratives classification: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Narratives validation: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Subnarratives classification: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Subnarratives validation: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Tom analysis: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  Tom arbitration: meta-llama/Llama-3.3-70B-Instruct-Turbo
+[Main] Error during classification: not enough values to unpack (expected 2, got 1)

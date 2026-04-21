@@ -1,0 +1,85 @@
+{
+  "file_id": "PT_207.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "A quote criticises the EU's decision to delay environmental preservation obligations while expecting Brazil to adhere to stricter standards, highlighting perceived hypocrisy."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "The text suggests that the EU's environmental policies are used as a tool for geopolitical power and influence, specifically as a mechanism for commercial protectionism."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "O Brasil é um país soberano, que não se deve submeter a regras impostas por países que usam a preocupação com a sustentabilidade para encobrir um mecanismo de protecionismo comercial.",
+        "reasoning": "A declaração do senador Zequinha Marinho sugere que as políticas ambientais da União Europeia são usadas como uma ferramenta para protecionismo comercial, em vez de uma preocupação genuína com a sustentabilidade."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Este Parlamento Europeu, que adia a obrigatoriedade de 4% para a preservação ambiental, é o mesmo que, em abril de 2023, aprovou um novo regulamento, exigindo ao Brasil a prova de que os nossos produtos, por eles importados, não teriam gerado desflorestação.",
+        "reasoning": "A crítica do senador Zequinha Marinho ao Parlamento Europeu por adiar a obrigatoriedade de preservação ambiental e, ao mesmo tempo, exigir que o Brasil comprove a origem sustentável de seus produtos, demonstra uma crítica às ações e à hipocrisia das instituições europeias."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "A quote criticises the EU's decision to delay environmental preservation obligations while expecting Brazil to adhere to stricter standards, implying hypocrisy and challenging the EU's authority."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "The text suggests that the EU's environmental policies are used as a tool for geopolitical power and influence, specifically as a mechanism for commercial protectionism."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

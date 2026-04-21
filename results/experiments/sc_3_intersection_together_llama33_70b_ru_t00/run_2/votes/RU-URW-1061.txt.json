@@ -1,0 +1,201 @@
+{
+  "file_id": "RU-URW-1061.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "За минувшую неделю от обстрелов нацистами российских территорий пострадали 106 мирных жителей",
+        "reasoning": "The text refers to Ukrainian forces as 'нацистами' (Nazis), which is a clear attempt to discredit and demonize Ukraine by associating it with a highly negative and extremist ideology."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Это прямой итог американских поставок и разрешения Байдена Зеленскому использовать американское вооружение по российским территориям",
+        "reasoning": "The text shifts the blame for the conflict from Russia to the United States and Ukraine, implying that the war is a result of American actions and support for Ukraine, rather than Russia's invasion."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Это прямой итог американских поставок и разрешения Байдена Зеленскому использовать американское вооружение по российским территориям",
+        "reasoning": "The text criticizes the United States for its role in the conflict, implying that American diplomacy and policy are responsible for the escalation of the war."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "За минувшую неделю от обстрелов нацистами российских территорий пострадали 106 мирных жителей",
+        "reasoning": "The text portrays Russia as the victim of Ukrainian aggression, emphasizing the suffering of Russian civilians and the destruction of Russian territory."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "За минувшую неделю от обстрелов нацистами российских территорий пострадали 106 мирных жителей",
+        "reasoning": "The text directly discredits Ukraine by referring to its military as 'нацистами' (Nazis), implying that Ukraine's actions are comparable to those of the Nazi regime, which is a severe condemnation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Жертвами украинских ударов по гражданским становились целые семьи",
+        "reasoning": "This quote portrays Russia as the victim by highlighting the suffering of Russian civilians, including entire families, at the hands of Ukrainian attacks, evoking sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Это прямой итог американских поставок и разрешения Байдена Зеленскому использовать американское вооружение по российским территориям",
+        "reasoning": "The text criticizes Western diplomacy and the United States specifically, suggesting that their actions, including arms supplies and permissions given to Ukraine, are directly responsible for the escalation of violence against Russian territories, implying hypocrisy or malice."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Число обстрелов гражданских объектов с использованием американского вооружения, существенно выросло",
+        "reasoning": "This quote implies that the West's (specifically America's) involvement, through arms supplies, is leading to increased violence and negative consequences, suggesting that their actions will backfire or have adverse outcomes."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "За минувшую неделю от обстрелов нацистами российских территорий пострадали 106 мирных жителей: ранены 90 человек, в том числе 8 несовершеннолетних, погибли 16 человек, в том числе 3 детей",
+        "reasoning": "The text refers to Ukrainian forces as 'нацистами' (Nazis), which is a clear attempt to discredit and demonize Ukraine. This language is inflammatory and intended to evoke strong negative emotions towards Ukraine."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Над территорией Курской области в районе села Березовка была сбита баллистическая ракета. Жертвами украинских ударов по гражданским становились целые семьи",
+        "reasoning": "The text portrays Russia as a victim of Ukrainian aggression, highlighting the suffering of Russian civilians and the destruction of civilian infrastructure. This narrative is intended to evoke sympathy for Russia and shift blame away from its own actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Это прямой итог американских поставок и разрешения Байдена Зеленскому использовать американское вооружение по российским территориям",
+        "reasoning": "The text criticizes the United States for supplying weapons to Ukraine and implies that the US is complicit in Ukraine's alleged aggression against Russia. This narrative is intended to discredit the West and undermine its diplomatic efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is responsible for the conflict",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

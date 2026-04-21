@@ -1,0 +1,154 @@
+{
+  "file_id": "PT_237.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "Lavrov explicitly praises the stance of J.D. Vance, which aligns with Russia's position of ending Western military support to Ukraine. This constitutes positive evaluation and commendation of a position that benefits Russia's strategic goals in the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden, acrescentando que desde que a guerra da Rússia com a Ucrânia começou em 2022, os contactos de alto nível entre Washington e Moscovo terminaram.",
+        "reasoning": "This statement criticizes the current U.S. administration (Biden) for the absence of high-level dialogue, portraying Western diplomacy under Biden as ineffective or non-existent compared to the past, thereby discrediting current Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "\"Sob Trump, houve cada vez mais sanções a serem impostas, sanções económicas, sanções diplomáticas foram impostas, no entanto, naquela altura... o diálogo acontecia entre nós e Washington aos níveis mais elevados\"",
+        "reasoning": "This quote highlights the imposition of sanctions against Russia, framing them as an ongoing punitive action, while contrasting it with a past where dialogue was possible. It subtly portrays Russia as being subject to unfair sanctions, evoking a sense of unjust treatment."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "Lavrov praises the stance of J.D. Vance, which aligns with Russia's position of ending Western military support to Ukraine. This is an expression of positive evaluation and support for a policy that benefits Russia, framed as a desire for peace."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden, acrescentando que desde que a guerra da Rússia com a Ucrânia começou em 2022, os contactos de alto nível entre Washington e Moscovo terminaram.",
+        "reasoning": "This statement criticizes the current U.S. administration (Biden) for a lack of high-level dialogue, portraying Western diplomacy under Biden as ineffective or non-existent compared to the past, thereby discrediting current Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "\"Sob Trump, houve cada vez mais sanções a serem impostas, sanções económicas, sanções diplomáticas foram impostas, no entanto, naquela altura... o diálogo acontecia entre nós e Washington aos níveis mais elevados\", disse Lavrov.",
+        "reasoning": "Lavrov highlights the imposition of increasing sanctions on Russia, framing them as an ongoing burden, while contrasting it with a past where dialogue was possible. This portrays Russia as unfairly targeted by sanctions, yet still willing to engage diplomatically."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "Lavrov explicitly praises the stance of J.D. Vance, framing Russia's desired outcome (ending Western arms to Ukraine) as a peaceful and necessary position, thereby positively highlighting Russia's diplomatic posture and objectives."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden, acrescentando que desde que a guerra da Rússia com a Ucrânia começou em 2022, os contactos de alto nível entre Washington e Moscovo terminaram.",
+        "reasoning": "This statement criticizes the current US administration (Biden) for a lack of high-level dialogue, implicitly blaming Western diplomacy for the breakdown in communication and portraying it as ineffective compared to the past."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "The quote shifts responsibility for the continuation of the war away from Russia (the invader) by stating that the war will end only if Western military support to Ukraine stops, implying the West is prolonging the conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

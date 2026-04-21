@@ -1,0 +1,108 @@
+{
+  "file_id": "PT_224.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar “El Niño”, mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável. Por exemplo, a Autoridade do Clima, onde está?",
+        "reasoning": "This quote directly challenges the competence and integrity of the Brazilian government, accusing it of omission and hypocrisy regarding climate and environmental protection, which fits the definition of criticizing institutions and authorities in the context of climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Isto não entra no cálculo do governo, que insiste na tese da exploração de petróleo na Foz do Amazonas, algo em contracorrente com a sensatez.",
+        "reasoning": "The statement criticizes a specific government policy (oil exploration in the Amazon) as being contrary to sensible action, questioning the government's priorities and the effectiveness of its approach to climate and environmental issues."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar “El Niño”, mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável. Por exemplo, a Autoridade do Clima, onde está?",
+        "reasoning": "This quote directly challenges the competence and integrity of the Brazilian government, accusing it of omission and hypocrisy regarding climate and environmental protection, which fits the definition of criticizing institutions and authorities in the context of climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Isto não entra no cálculo do governo, que insiste na tese da exploração de petróleo na Foz do Amazonas, algo em contracorrente com a sensatez.",
+        "reasoning": "The statement criticizes a specific government policy (oil exploration in the Amazon) as being contrary to sensible action, questioning the government's priorities and motives in its climate and energy policy."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This quote lists severe health consequences and premature deaths caused by rising temperatures, emphasizing and amplifying fears about the direct human impact of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar “El Niño”, mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável. Por exemplo, a Autoridade do Clima, onde está?",
+        "reasoning": "This quote directly criticizes the Brazilian government for its inaction and hypocrisy regarding climate and environmental policy, challenging its competence and integrity."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Isto não entra no cálculo do governo, que insiste na tese da exploração de petróleo na Foz do Amazonas, algo em contracorrente com a sensatez.",
+        "reasoning": "The statement criticizes a specific government policy (oil exploration in the Amazon) as being contrary to sensible action, questioning the government's priorities and the effectiveness of its environmental stance."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This quote lists severe health consequences and premature deaths caused by rising temperatures, actively emphasizing and amplifying fears about the impacts of climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

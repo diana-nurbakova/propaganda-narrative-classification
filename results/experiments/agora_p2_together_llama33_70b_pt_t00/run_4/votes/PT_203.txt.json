@@ -1,0 +1,142 @@
+{
+  "file_id": "PT_203.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrophe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-general of the event, stating that what happened in the South is a catastrophe and will occur throughout the country, amplifies fears about the consequences of climate change."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "The statement from the coordinator-general of the event, Kretã Kaingang, criticizing the existence of racism against indigenous peoples in municipalities and states, challenges the competence and integrity of institutions and authorities."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "protestaram ainda contra aquilo a que chamaram um tratamento diferenciado: mais recursos para o agronegócio (através do Plano Safra, que deverá ser anunciado na próxima semana) e menos atenção às populações tradicionais.",
+        "reasoning": "The protest against the differentiated treatment, with more resources for agribusiness and less attention to traditional populations, implies that environmental policies and initiatives are used as tools for geopolitical power and influence rather than genuine environmental concern."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrophe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-general of the event, stating that what happened in the South is a catastrophe and will occur throughout the country, amplifies fears about the consequences of climate change."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "The statement from Kretã Kaingang, implying that racism against indigenous peoples in municipalities and states is a reason for the lack of access to affirmative policies, criticizes the institutions and authorities for their alleged racism and inaction."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrophe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-geral do ato Levante pela Terra, Kretã Kaingang, presents a catastrophic scenario about the consequences of climate change, which is a key characteristic of the Amplifying Climate Fears narrative."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "The text criticizes institutions for alleged racism against indigenous peoples, which is a form of criticism of institutions and authorities."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

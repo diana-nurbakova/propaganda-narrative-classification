@@ -1,0 +1,189 @@
+{
+  "file_id": "EN_CC_200033.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Criticism of institutions and authorities",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Criticism of climate movement",
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "the climate change agenda is merely radical leftism dressed up in a more palatable format",
+        "reasoning": "This quote suggests that the climate movement is not genuinely concerned with environmental issues, but rather uses the climate agenda as a vehicle for promoting radical leftism, implying that the movement's true intentions are ulterior and political rather than environmental."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a \"scam\" which facilitates \"greenwashing, lying and cheating\"",
+        "reasoning": "This quote directly criticizes the COP meeting, implying that it is not a genuine effort to address climate issues but rather a platform for dishonesty and deception, thus undermining trust in the institution."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "it isn’t about the climate, it’s about bringing down the west and replacing everything it stands for with a nightmare far-left form of identity politics-mad totalitarianism",
+        "reasoning": "This quote implies that there is a hidden agenda behind the climate movement, suggesting that powerful groups are using environmental concerns as a pretext to dismantle Western societies and impose a totalitarian form of governance, which aligns with the narrative of secret plots by powerful groups."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "the climate change agenda is merely radical leftism dressed up in a more palatable format",
+        "reasoning": "The text criticizes the climate movement by suggesting that it is not genuinely concerned with environmental issues, but rather uses the climate agenda as a vehicle for promoting radical leftism."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a \"scam\" which facilitates \"greenwashing, lying and cheating\"",
+        "reasoning": "The text criticizes the COP meeting, an institution established to address climate change, by labeling it a 'scam' that allows for 'greenwashing, lying and cheating', indicating a lack of trust in its ability to effectively address climate issues."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "it isn’t about the climate, it’s about bringing down the west and replacing everything it stands for with a nightmare far-left form of identity politics-mad totalitarianism",
+        "reasoning": "The text implies that there is a hidden plot by powerful groups, specifically the far-left, to use the climate movement as a means to overthrow Western civilization and impose a totalitarian regime, suggesting a secret agenda behind the climate movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "So now we are finally seeing the contours of Thunbergism. Run your eye down the contributors to The Climate Book and you can see who she's been reading: Jason Hickel, Kate Raworth, Naomi Klein. For these people the climate crisis isn't man-made. It's made by capitalism, as are the other forms of social injustice which plague society.",
+        "reasoning": "The text criticizes Greta Thunberg's shift towards a more radical and militant message, implying that her views are no longer solely focused on climate change but are instead driven by a left-wing ideology. This criticism targets the climate movement's alleged true intentions and motivations, rather than the climate issue itself."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The co-founder of Extinction Rebellion, the offshoot of which, Just Stop Oil, is currently engaged in blocking roads across London, admitted in his own words that his movement 'isn't about the climate.'",
+        "reasoning": "The text suggests that the climate movement, particularly Extinction Rebellion, has a hidden agenda that is not truly focused on climate change, but rather on bringing down western capitalism and replacing it with a far-left ideology. This implies a secret plot or hidden motive behind the movement's actions."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a 'scam' which facilitates 'greenwashing, lying and cheating'.",
+        "reasoning": "The text criticizes the COP meeting, implying that it is ineffective and possibly corrupt, facilitating 'greenwashing, lying and cheating' rather than genuinely addressing climate issues. This criticism targets the institution and its alleged failures and biases."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Criticism of institutions and authorities",
+    "URW: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

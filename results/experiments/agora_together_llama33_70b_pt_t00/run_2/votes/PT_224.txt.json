@@ -1,0 +1,253 @@
+{
+  "file_id": "PT_224.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Amplifying Climate Fears",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate policies",
+      "CC: Amplifying Climate Fears",
+      "CC: Controversy about green technologies",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Amplifying Climate Fears",
+      "CC: Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote criticizes the Brazilian government for its inaction and lack of effective policies to address environmental issues, despite its rhetoric."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Por exemplo, a Autoridade do Clima, onde está?",
+        "reasoning": "This quote questions the existence or effectiveness of climate authorities or policies in Brazil, implying a lack of adequate climate policy."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Não é culpar \"El Niño\"",
+        "reasoning": "Although the text does not directly downplay climate change, it mentions 'El Niño' in a way that could be interpreted as shifting focus from human-induced climate change to natural phenomena, but the overall context emphasizes human responsibility."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Quando faltar água em todo o Brasil, o que se pretende fazer? Dessalinizar? Uma técnica viável, mas caríssima.",
+        "reasoning": "This quote amplifies fears about the consequences of climate change, specifically water scarcity, and highlights the potential costly solutions."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Dessalinizar? Uma técnica viável, mas caríssima. Enquanto isso, reflorestar seria mais barato.",
+        "reasoning": "This quote compares the cost-effectiveness of different solutions to environmental problems, suggesting that some green technologies or methods (like reflorestation) are more viable than others (like desalination)."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "A quote criticizes the Brazilian government for its inaction and lack of effective policies to address environmental issues, despite having a promising discourse."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Por exemplo, a Autoridade do Clima, onde está?",
+        "reasoning": "This quote questions the existence or effectiveness of climate authorities or policies in Brazil, implying a lack of adequate climate policies."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Quando faltar água em todo o Brasil, o que se pretende fazer? Dessalinizar? Uma técnica viável, mas caríssima.",
+        "reasoning": "The text emphasizes the severe consequences of climate change, such as water scarcity, and highlights the costly solutions that will be needed if no action is taken."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Enquanto isso, reflorestar seria mais barato. Com as árvores, viriam de volta as nascentes, a ecotranspiração garantiria mais chuvas.",
+        "reasoning": "This quote presents reforestation as a more cost-effective solution compared to other technologies like desalination, sparking a controversy about the best approach to environmental issues."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "E o Brasil teria tudo para se tornar o campeão na descarbonização. Eis que possui vasto território, muito sol, muito vento, condições para fabricar combustível a partir da biomassa, produzir o hidrogénio verde e exportar para o restante do planeta.",
+        "reasoning": "The text suggests that Brazil has the potential to become a leader in descarbonization and export green technologies, implying that environmental policies can be used as a tool for geopolitical influence and economic gain."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote criticizes the Brazilian government for its inaction and lack of effective policies to address the environmental crisis, despite its rhetoric."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A Autoridade do Clima, onde está?",
+        "reasoning": "This question implies that the government's climate authority is absent or ineffective, criticizing the current climate policies and their implementation."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Não é culpar \"El Niño\"",
+        "reasoning": "This phrase downplays the role of natural climate variability (El Niño) in the current crisis, emphasizing instead the responsibility of human actions and government inaction."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Quando faltar água em todo o Brasil, o que se pretende fazer? Dessalinizar? Uma técnica viável, mas caríssima.",
+        "reasoning": "This quote amplifies the fear of a severe water shortage in Brazil, emphasizing the potential consequences and the high cost of potential solutions like desalination."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Enquanto isso, reflorestar seria mais barato. Com as árvores, viriam de volta as nascentes, a ecotranspiração garantiria mais chuvas.",
+        "reasoning": "This quote presents reforestation as a more cost-effective and beneficial solution compared to other technologies like desalination, sparking controversy about the best approach to environmental issues."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate policies",
+    "CC: Amplifying Climate Fears",
+    "CC: Controversy about green technologies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

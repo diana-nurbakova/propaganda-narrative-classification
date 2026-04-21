@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_12.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पीएम मोदी ने कहा, “मैंने और चांसलर नेहमर ने विश्व में चल रहे विवादों, रूस-यूक्रेन और पश्चिमी एशिया की स्थिति पर विस्तार से चर्चा की है। मैंने पहले भी कहा है कि यह युद्ध का समय नहीं है। समस्याओं का समाधान रणभूमि में नहीं हो सकता है। कहीं भी मासूम लोगों की जान की हानि स्वीकार्य नहीं है।”",
+        "reasoning": "इस उद्धरण में, पीएम मोदी पश्चिमी देशों की विदेश नीति की आलोचना कर रहे हैं और युद्ध के समाधान के लिए बातचीत और राजनय का समर्थन कर रहे हैं।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पीएम मोदी रूस से होकर उनके देश पहुँचे हैं ऐसे में वह स्वयं उनसे रूस की स्थिति के विषय में जानना चाहते थे।",
+        "reasoning": "इस उद्धरण में, पीएम मोदी रूस के साथ अपने संबंधों को मजबूत करने और रूस की स्थिति के बारे में जानने के लिए उत्सुक हैं।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "अमेरिका ने पीएम मोदी के रूस दौरे को लेकर कहा था कि भारत अपनी पुरानी दोस्ती के बल पर रूस-यूक्रेन संघर्ष रोक सकता है।",
+        "reasoning": "इस उद्धरण में, अमेरिका पीएम मोदी के रूस दौरे को लेकर चिंतित है और इसके नकारात्मक परिणामों के बारे में बात कर रहा है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पीएम मोदी ने कहा, “मैंने और चांसलर नेहमर ने विश्व में चल रहे विवादों, रूस-यूक्रेन और पश्चिमी एशिया की स्थिति पर विस्तार से चर्चा की है। मैंने पहले भी कहा है कि यह युद्ध का समय नहीं है। समस्याओं का समाधान रणभूमि में नहीं हो सकता है। कहीं भी मासूम लोगों की जान की हानि स्वीकार्य नहीं है।”",
+        "reasoning": "इस उद्धरण में, पीएम मोदी पश्चिमी देशों की विदेश नीति की आलोचना कर रहे हैं और युद्ध के समाधान के लिए बातचीत और शांति का समर्थन कर रहे हैं।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पीएम मोदी रूस से होकर उनके देश पहुँचे हैं ऐसे में वह स्वयं उनसे रूस की स्थिति के विषय में जानना चाहते थे।",
+        "reasoning": "इस उद्धरण में, पीएम मोदी रूस के साथ अपने संबंधों को मजबूत करने और रूस की स्थिति के बारे में जानने के लिए उत्सुक हैं।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "चांसलर नेहमर ने इस दौरान ऑस्ट्रिया और भारत के बीच आर्थिक सहयोग को लेकर भी बात की। उन्होंने बताया कि दोनों देशों के बीच वर्तमान में लगभग ₹20,000 करोड़ का व्यापार हो रहा है और ऑस्ट्रिया की 150 से अधिक कम्पनियाँ भारत में व्यापार कर रही हैं।",
+        "reasoning": "इस उद्धरण में, चांसलर नेहमर पश्चिमी देशों की आर्थिक स्थिति के बारे में चिंता व्यक्त कर रहे हैं और भारत के साथ आर्थिक सहयोग को बढ़ावा देने के लिए उत्सुक हैं।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,155 @@
+{
+  "file_id": "EN_CC_200070.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "The text criticizes Mayor Garcetti's decision to attend a climate summit in person, implying that his actions are hypocritical and ineffective in reducing carbon emissions."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "The text challenges the competence of Mayor Garcetti and the City of Los Angeles in managing their infrastructure, implying that they are not effective in addressing climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "The text criticizes Mayor Garcetti's decision to fly to Argentina for a climate change summit, highlighting the hypocrisy of contributing to carbon emissions while advocating for climate action."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "The text questions the competence of Mayor Garcetti and the City of Los Angeles in addressing climate change and infrastructure issues, implying that they are not effective in their roles."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Garcetti's 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race",
+        "reasoning": "The text criticizes Mayor Garcetti's climate policies, specifically his 'Green New Deal', and notes that it has faced opposition from public works unions and failed to gain electoral support, implying that the climate movement is not unified or effective."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "The text criticizes Mayor Garcetti's decision to attend a climate summit in person, implying that his actions are hypocritical and ineffective in reducing carbon emissions."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "The text challenges the competence of Mayor Garcetti and the City of Los Angeles in managing their infrastructure, implying that they are not effective in addressing climate change."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Garcetti's trip would have burned 1275.6 kg of carbon if he flew economy class, and twice as much if he flew business or 'premium' class",
+        "reasoning": "The text highlights the carbon emissions from Mayor Garcetti's flight, downplaying the significance of his actions in addressing climate change and implying that individual actions are insignificant."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

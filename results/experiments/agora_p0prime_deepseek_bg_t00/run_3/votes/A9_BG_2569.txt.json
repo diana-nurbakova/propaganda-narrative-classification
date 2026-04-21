@@ -1,0 +1,161 @@
+{
+  "file_id": "A9_BG_2569.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"В Украйна най-ярко се прояви възраждането на нацизма\"",
+        "reasoning": "The statement directly accuses Ukraine of reviving Nazism, which is a foundational narrative used to undermine the legitimacy of the Ukrainian state and its actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация\"",
+        "reasoning": "The quote accuses Western institutions (OSCE, Council of Europe, UN) of hypocrisy, indulgence, and forgiving Nazi practices because they use these actors as a tool against Russia, directly criticizing Western diplomatic integrity and motives."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Ако прочетете изявленията на официалния екип на В.А. Зеленски и други официални лица, там преобладава изразът \"русня\", а също така се казва, че нищо руско не трябва да има нито в Харков, нито в Николаев\"",
+        "reasoning": "The statement presents Ukrainian rhetoric and policies as aggressive and anti-Russian, implying that Ukrainian actions (destroying everything Russian) are a primary cause of conflict, thereby shifting blame away from Russia's invasion."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма",
+        "reasoning": "The statement directly accuses Ukraine of reviving Nazism, which is a foundational narrative used to undermine the legitimacy and moral standing of the Ukrainian state and its actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация",
+        "reasoning": "The quote accuses international organizations (OSCE, Council of Europe, UN) of hypocrisy and indulgence, claiming they only investigate claims against Russia and forgive everything else because these entities serve the West and the US as a tool against Russia. This directly criticizes and discredits Western-led diplomatic and international institutions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Според дипломата това е започнало по-рано, след присъединяването на балтийските страни към Европейския съюз и НАТО.",
+        "reasoning": "The statement shifts the origin of the problem (the rise of Nazism) to the actions of other countries (Baltic states joining EU/NATO) and the West's failure to curb Russophobia, thereby indirectly attributing the cause of the conflict to external actors rather than Russia's own decisions and actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма",
+        "reasoning": "The statement directly accuses Ukraine of reviving Nazism, which is a foundational narrative used to undermine the legitimacy and moral standing of the Ukrainian state and its actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Тези страни са сред тези, които инициират най - русофобските позиции и действия на Евросъюза и Северноатлантическия алианс",
+        "reasoning": "The quote criticizes specific EU and NATO member states (Baltic countries, Poland, Czechia) as being the most aggressive and Russophobic, portraying Western diplomatic structures as being driven by anti-Russian hostility."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация",
+        "reasoning": "This statement accuses international organizations (implicitly Western-led) of hypocrisy and indulgence, claiming they overlook alleged Nazi practices in Ukraine because Ukraine serves as a tool for the West/US in the fight against Russia. This discredits Western diplomatic and institutional integrity."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

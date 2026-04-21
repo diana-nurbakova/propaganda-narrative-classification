@@ -1,0 +1,69 @@
+{
+  "file_id": "RU-URW-1032.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "ему надо понимать, перестанет ли Вашингтон оказывать поддержку Киеву после результатов президентских выборов в Штатах осенью",
+        "reasoning": "This quote suggests that the West's support for Ukraine is uncertain and potentially conditional, which could be seen as discrediting the West's commitment to Ukraine's cause."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote speculates about the potential outcome of the conflict, suggesting that Trump's plan could lead to a quick resolution, which is a form of speculating about war outcomes."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct evidence in the text to support the narrative of distrust towards media."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct evidence in the text to support the narrative of blaming the war on others rather than the invader."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

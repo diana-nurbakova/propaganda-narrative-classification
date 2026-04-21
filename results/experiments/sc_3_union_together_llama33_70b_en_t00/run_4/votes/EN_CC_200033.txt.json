@@ -1,0 +1,216 @@
+{
+  "file_id": "EN_CC_200033.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups",
+      "CC: Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in a more palatable format.",
+        "reasoning": "This quote suggests that the climate movement is not genuinely concerned with environmental issues, but rather uses the climate agenda as a vehicle for promoting radical leftism, thereby criticizing the motives and integrity of the climate movement."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a \"scam\" which facilitates \"greenwashing, lying and cheating\".",
+        "reasoning": "This quote directly challenges the integrity and competence of the COP (Conference of the Parties), a major international institution addressing climate change, implying that it is ineffective and dishonest."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "So there you have it, it isn’t about the climate, it’s about bringing down the west and replacing everything it stands for with a nightmare far-left form of identity politics-mad totalitarianism.",
+        "reasoning": "This quote proposes that there is a hidden agenda behind the climate movement, suggesting that powerful groups or ideologies are using environmental concerns as a pretext to undermine Western societies and impose a totalitarian form of governance."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in a more palatable format.",
+        "reasoning": "This quote suggests that the climate movement is not genuinely concerned with environmental issues, but rather uses the climate agenda as a vehicle for promoting radical leftism, implying that the movement's true intentions are not aligned with its publicly stated goals."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a \"scam\" which facilitates \"greenwashing, lying and cheating\".",
+        "reasoning": "This quote directly challenges the integrity and effectiveness of the COP (Conference of the Parties) meetings, implying that these institutions are not working in the best interest of addressing climate change, but rather serving as a means for 'greenwashing' and deception."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "So there you have it, it isn’t about the climate, it’s about bringing down the west and replacing everything it stands for with a nightmare far-left form of identity politics-mad totalitarianism.",
+        "reasoning": "This quote proposes that there is a hidden agenda behind the climate movement, suggesting that powerful groups or ideologies are using the climate issue as a means to achieve a broader, more sinister goal of overthrowing Western systems and values."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The climate change agenda is merely radical leftism dressed up in a more palatable format.",
+        "reasoning": "This quote suggests that the climate movement is not genuinely concerned with environmental issues, but rather uses the climate agenda as a vehicle for promoting radical leftism, thereby challenging the motives and integrity of the climate movement."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a \"scam\" which facilitates \"greenwashing, lying and cheating\".",
+        "reasoning": "This quote directly challenges the competence and integrity of the COP (Conference of the Parties), a key institution in the global climate change response, implying that it is ineffective and dishonest."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "So there you have it, it isn’t about the climate, it’s about bringing down the west and replacing everything it stands for with a nightmare far-left form of identity politics-mad totalitarianism.",
+        "reasoning": "This quote proposes that there is a hidden agenda behind the climate movement, suggesting that powerful groups are using environmental concerns as a pretext to undermine Western societies and impose a totalitarian form of governance."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "EVs pollute 1850 times more than Fossil Fuel cars according to new study",
+        "reasoning": "This quote expresses skepticism about the environmental benefits of green technologies, specifically electric vehicles, by citing a study that claims they are significantly more polluting than fossil fuel cars."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Criticism of institutions and authorities",
+    "CC: Hidden plots by secret schemes of powerful groups",
+    "CC: Controversy about green technologies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

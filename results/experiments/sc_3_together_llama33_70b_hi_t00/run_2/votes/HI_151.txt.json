@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_151.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं, जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए.",
+        "reasoning": "इस उद्धरण में अमेरिका की नीतियों को संदेह के साथ देखा जा रहा है, जो पश्चिमी देशों की आलोचना को दर्शाता है और उनकी विदेश नीति को संदेह के दृष्टिकोण से देखता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं",
+        "reasoning": "यह उद्धरण रूस को एक पीड़ित के रूप में चित्रित करता है, जिस पर अमेरिका द्वारा प्रतिबंध लगाए गए हैं, जो रूस को अन्यायपूर्ण तरीके से लक्षित किए जाने की भावना को बढ़ावा देता है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं, जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए।",
+        "reasoning": "इस उद्धरण में अमेरिका की कार्रवाइयों के परिणामस्वरूप रूस और उत्तर कोरिया पर प्रतिबंध लगाने का उल्लेख किया गया है, जो पश्चिमी देशों के लिए नकारात्मक परिणामों की संभावना को दर्शाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,127 @@
+{
+  "file_id": "BG_212.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "Текстът използва силни изрази, като \"климатична пропаст\", за да опише ситуацията, което показва, че авторът цели да предаде чувство на крайна важност и опасност, свързана с климатичните промени."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели",
+        "reasoning": "Текстът описва катастрофални последствия от климатичните промени, което е типично за усиливане на климатичните страхове."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Науката е ясна и залогът за цялото човечество не би могъл да е по-висок",
+        "reasoning": "Текстът подчертава, че науката е категорична и че става въпрос за съдбата на цялото човечество, което е друг пример за усиливане на климатичните страхове."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "Текстът използва силни изрази, като \"климатична пропаст\", за да опише потенциалните последствия от климатичните промени, което създава усещане за срочност и страх."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "Текстът описва катастрофални последствия от климатичните промени, което допълнително усилва страха и срочността."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Науката е ясна и залогът за цялото човечество не би могъл да е по-висок",
+        "reasoning": "Текстът подчертава сериозността на ситуацията и потенциалните рискове за човечеството, което създава усещане за крайна важност и необходимост от действие."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "Текстът използва силни изрази, като \"климатична пропаст\", за да опише потенциалните последствия от климатичните промени, което създава усещане за срочност и страх."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "Текстът описва катастрофални последствия от климатичните промени, което допълнително усилва страха и срочността."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

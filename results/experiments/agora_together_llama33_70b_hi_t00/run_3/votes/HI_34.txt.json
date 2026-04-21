@@ -1,0 +1,89 @@
+{
+  "file_id": "HI_34.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस- यूक्रेन के बीच युद्ध को दो सालों से अधिक का समय हो गया है और इसने महायुद्ध में लाखों लोगों की जान जा चुकी है और अरबों की संपदा खाक हो चुकी है",
+        "reasoning": "इस उद्धरण में युद्ध के लिए रूस को सीधे तौर पर दोषी नहीं ठहराया गया है, बल्कि यह युद्ध के परिणामों पर जोर देता है, जो कि युद्ध के लिए रूस को दोष देने के बजाय युद्ध की व्यापक समस्या को रेखांकित करता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन को लगता है कि किलेबंदी से रूसी सेना को कुछ दिन रोकने में कामयाबी मिल सकती है",
+        "reasoning": "इस उद्धरण में यूक्रेन की सैन्य रणनीति को कमजोर दिखाया गया है, जो कि यूक्रेन की सैन्य क्षमता पर संदेह पैदा करता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "यूक्रेन के सशस्त्र बलों ने 10,000 किलोमीटर किलेबंदी करने की योजना बनाई है",
+        "reasoning": "इस उद्धरण में युद्ध के परिणामों के बारे में अनुमान लगाया गया है, जो कि युद्ध के भविष्य के बारे में अनिश्चितता पैदा करता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने यूक्रेन के लिए हथियारों की मंजूरी तो दे दी है लेकिन, अभी तक हथियारों की खेप यूक्रेन तक नहीं पहुंच पाई है",
+        "reasoning": "इस उद्धरण में अमेरिका की विदेश नीति को कमजोर दिखाया गया है, जो कि पश्चिमी देशों की प्रतिबद्धता पर संदेह पैदा करता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस- यूक्रेन के बीच युद्ध को दो सालों से अधिक का समय हो गया है और इसने महायुद्ध में लाखों लोगों की जान जा चुकी है और अरबों की संपदा खाक हो चुकी है",
+        "reasoning": "इस उद्धरण में युद्ध के लिए रूस को सीधे तौर पर दोषी नहीं ठहराया गया है, बल्कि यह युद्ध के परिणामों पर जोर देता है, जो कि युद्ध के लिए रूस की जिम्मेदारी को कम करने की एक विधि हो सकती है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "रूस के खिलाफ युद्ध में यूक्रेन पहले ही हथियारों की कमी झेल रहा है",
+        "reasoning": "यह उद्धरण यूक्रेन की सैन्य क्षमता पर संदेह पैदा करता है, जो कि यूक्रेन को कमजोर दिखाने का एक तरीका हो सकता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "यूक्रेन को लगता है कि किलेबंदी से रूसी सेना को कुछ दिन रोकने में कामयाबी मिल सकती है",
+        "reasoning": "इस उद्धरण में युद्ध के परिणामों के बारे में अनुमान लगाया जा रहा है, जो कि युद्ध के परिणामों के बारे में अटकलें लगाने का एक उदाहरण है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

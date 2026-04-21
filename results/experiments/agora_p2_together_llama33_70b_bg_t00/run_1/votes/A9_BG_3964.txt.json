@@ -1,0 +1,160 @@
+{
+  "file_id": "A9_BG_3964.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Западът отгледа \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "The quote directly discredits Ukraine by likening it to a 'терористична гадина' (terrorist monster) that destroys everything, implying that Ukraine's actions are those of a terrorist entity."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Световната общност на Запада трябва да разбере кого са възпитали – те са отгледали \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "This quote shifts the blame for the conflict from Russia to the West, suggesting that the West is responsible for 'raising' or supporting the 'терористична гадина' (Ukraine), thereby implying that the West is ultimately to blame for the destruction caused."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Официалният представител на МВнР отбеляза, че народите на страните от ЕС трябва да зададат въпрос на своите правителства, на които се доставя неконтролируемо такова количество пари и въоръжение.",
+        "reasoning": "This part of the text criticizes Western governments for supplying Ukraine with uncontrolled amounts of money and weapons, implying that Western diplomacy is incompetent or malicious in its support of Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Западът отгледа \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "The quote directly shifts the blame for the conflict and its consequences from Russia to the West, implying that the West is responsible for creating a 'terrorist monster' that is causing destruction."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Тя унищожава и гражданското население вече безразборно: и своята, и прилежащите територии, гражданската инфраструктура, тя унищожава мирния живот като такъв.",
+        "reasoning": "This quote discredits Ukraine by portraying its military actions as indiscriminately destructive, implying a lack of regard for civilian life and infrastructure, which undermines the legitimacy and moral standing of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Световната общност на Запада трябва да разбере кого са възпитали – те са отгледали \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "The narrative frames Russia as a victim of Western actions by suggesting that the West has created a 'terrorist monster' that is now causing harm, which evokes sympathy for Russia's position and portrays it as being unfairly targeted."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "народите на страните от ЕС трябва да зададат въпрос на своите правителства, на които се доставя неконтролируемо такова количество пари и въоръжение.",
+        "reasoning": "This quote discredits the West by implying that Western governments are recklessly supplying money and weapons without control, which criticizes their diplomatic and political actions regarding the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Западът отгледа \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "Текстът директно нарича Украйна \"терористична гадина\", което е ясен пример за подкопаване на легитимността и действията на Украйна като нация."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Световната общност на Запада трябва да разбере кого са възпитали – те са отгледали \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "Текстът пренася отговорността за действията на Украйна към Запада, като го обвинява в „отглеждане“ на тази „терористична гадина“, което е пример за прехвърляне на вината от Русия към други страни."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Тя унищожава и гражданското население вече безразборно: и своята, и прилежащите територии, гражданската инфраструктура, тя унищожава мирния живот като такъв.",
+        "reasoning": "Текстът представя Русия и прилежащите ѝ територии като жертви на агресията на Украйна, което е пример за изобразяване на Русия като жертва."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Other",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a terrorist state",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 89.65517241379311,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

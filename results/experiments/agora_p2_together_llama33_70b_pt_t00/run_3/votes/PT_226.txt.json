@@ -1,0 +1,109 @@
+{
+  "file_id": "PT_226.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "As alterações climáticas já são uma realidade, e não podem ser ignoradas, pois provocarão, segundo os cientistas, cada vez mais eventos extremos - tempestades tropicais, inundações, ondas de calor, seca, etc. - com graves consequências para as populações e para o ambiente.",
+        "reasoning": "O texto destaca a realidade das alterações climáticas e seus efeitos potencialmente catastróficos, como eventos extremos, enfatizando a necessidade de conscientização e preparação para esses desastres, o que se alinha com a narrativa de amplificação de medos climáticos."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "É certo que o país tem vários 'países' no seu território, mas, com organização, formação de líderes comunitários, de profissionais de saúde e trabalhando a prevenção, é possível minimizar os danos. O desafio governamental é, precisamente, gerir estes riscos com eficácia.",
+        "reasoning": "O texto critica implicitamente as instituições e autoridades governamentais por não gerirem eficazmente os riscos de desastres naturais, sugerindo que com melhor organização e formação, os danos poderiam ser minimizados, o que implica uma crítica à capacidade de resposta e preparação das instituições."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Em 2011, depois da grave situação de inundações na região serrana do Rio de Janeiro - o maior desastre natural da história do Brasil, com mais de 900 mortos - o governo federal criou o Protocolo Nacional Conjunto para a Proteção Integral em Situação de Riscos e Desastres, cujo objetivo é fornecer subsídios aos gestores estaduais, municipais e distritais para garantir parâmetros de atuação uniformes de proteção de crianças e adolescentes, pessoas idosas e pessoas com deficiência.",
+        "reasoning": "O texto menciona a criação de um protocolo nacional após um desastre, o que pode ser visto como uma crítica implícita às políticas climáticas existentes antes desse evento, sugerindo que as medidas anteriores foram insuficientes ou ineficazes para prevenir ou mitigar os efeitos dos desastres naturais."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As alterações climáticas já são uma realidade, e não podem ser ignoradas, pois provocarão, segundo os cientistas, cada vez mais eventos extremos - tempestades tropicais, inundações, ondas de calor, seca, etc. - com graves consequências para as populações e para o ambiente.",
+        "reasoning": "A citação destaca a realidade das alterações climáticas e seus efeitos potencialmente catastróficos, como eventos extremos, enfatizando a gravidade da situação e a necessidade de ação."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As alterações climáticas já são uma realidade, e não podem ser ignoradas, pois provocarão, segundo os cientistas, cada vez mais eventos extremos - tempestades tropicais, inundações, ondas de calor, seca, etc. - com graves consequências para as populações e para o ambiente.",
+        "reasoning": "A citação destaca a realidade das alterações climáticas e seus efeitos potencialmente catastróficos, como eventos extremos, enfatizando a gravidade da situação e a necessidade de ação."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

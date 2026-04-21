@@ -1,0 +1,182 @@
+{
+  "file_id": "PT_250.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia sugere que a Rússia é vítima de sanções injustas e que está resistindo com sucesso, o que se alinha com a narrativa de que a Rússia é a vítima."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A parceria com a China tem ajudado a garantir a segurança económica e energética dos dois países.",
+        "reasoning": "A menção à parceria com a China como um fator que ajuda a garantir a segurança econômica e energética da Rússia sugere que a Rússia está tomando medidas eficazes para proteger seus interesses, o que é um elogio à capacidade da Rússia de manter sua estabilidade econômica e energética."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que as ações dos países ocidentais foram ineficazes e possivelmente mal informadas, o que descredita a diplomacia e as estratégias dos países ocidentais."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia",
+        "reasoning": "A afirmação de Igor Sechin sugere que a Rússia está sendo injustamente pressionada pelos países ocidentais, o que se encaixa na narrativa de que a Rússia é a vítima de ações externas."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "a parceria com a China tem ajudado a garantir a segurança económica e energética dos dois países",
+        "reasoning": "A menção à parceria com a China como um fator que garante a segurança econômica e energética da Rússia pode ser vista como um elogio à capacidade da Rússia de manter sua estabilidade econômica e energética, apesar das sanções internacionais."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia",
+        "reasoning": "A afirmação de Igor Sechin implica que os países ocidentais falharam em sua tentativa de pressionar a Rússia, o que pode ser visto como uma crítica à diplomacia e à eficácia dos países ocidentais."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia sugere que a Rússia é vítima de sanções injustas e que está resistindo com sucesso, o que se alinha com a narrativa de que a Rússia é a vítima."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A parceria com a China tem ajudado a garantir a segurança económica e energética dos dois países.",
+        "reasoning": "A menção à parceria com a China como um fator que ajuda a garantir a segurança econômica e energética da Rússia é um exemplo de elogio à capacidade da Rússia de manter sua estabilidade econômica e energética, apesar das sanções internacionais."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que as ações dos países ocidentais foram ineficazes e possivelmente mal informadas, o que descredita a diplomacia e as ações dos países ocidentais."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

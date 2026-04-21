@@ -1,0 +1,103 @@
+{
+  "file_id": "EN_CC_200081.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Controversy about green technologies",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "In addition to the need to cut down millions of trees, and the negative impacts on native bird and bat populations, wind turbines have also been criticised for their need for rare earth minerals in order to generate electricity.",
+        "reasoning": "The text actively criticizes wind turbines by listing negative consequences (tree felling, wildlife damage, reliance on rare earth minerals from China), which aligns with the narrative of expressing skepticism or criticism of environmentally friendly technologies."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Most people will be astonished to see the number of trees cut down to make way for wind farms... the government 'must be alive' to the 'significant costs' of the installation of massive wind turbines.",
+        "reasoning": "This quote, attributed to a critic, questions the effectiveness and highlights the negative trade-offs (costs, environmental damage) of the wind farm policy, directly challenging the motives and impact of the climate policy."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in order to make way for supposedly ‘green energy’ wind turbines.",
+        "reasoning": "The opening sentence frames the Scottish government's actions negatively ('leftist', 'supposedly ‘green energy’'), challenging the competence and integrity of the authority implementing the policy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "In addition to the need to cut down millions of trees, and the negative impacts on native bird and bat populations, wind turbines have also been criticised for their need for rare earth minerals in order to generate electricity.",
+        "reasoning": "The text actively criticizes wind turbines by listing negative consequences (tree felling, wildlife damage, reliance on rare earth minerals from China), which aligns with the narrative of expressing skepticism or criticism of environmentally friendly technologies."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Most people will be astonished to see the number of trees cut down to make way for wind farms... the government 'must be alive' to the 'significant costs' of the installation of massive wind turbines.",
+        "reasoning": "This quote, attributed to a politician, questions the effectiveness and highlights the negative impacts (costs, environmental damage) of the wind farm policy, directly challenging the motives and outcomes of the climate policy."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in order to make way for supposedly ‘green energy’ wind turbines.",
+        "reasoning": "The opening sentence frames the Scottish government (an authority) negatively, using the label 'leftist' and the term 'supposedly' to cast doubt on the integrity and competence of its 'green energy' initiative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "In addition to the need to cut down millions of trees, and the negative impacts on native bird and bat populations, wind turbines have also been criticised for their need for rare earth minerals in order to generate electricity. To create usable energy, high-powered magnets are made from rare earth minerals such as neodymium and dysprosium, which are almost exclusively mined in Communist China. The mining process for such minerals can often have catastrophic consequences for local people...",
+        "reasoning": "This quote directly criticizes wind turbines by highlighting negative environmental impacts (tree felling, harm to wildlife) and linking them to harmful mining practices in China, expressing skepticism about the technology's overall benefit."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "\"Most people will be astonished to see the number of trees cut down to make way for wind farms,\" adding that the government “must be alive” to the “significant costs” of the installation of massive wind turbines.",
+        "reasoning": "This quote, attributed to a critic, questions the effectiveness and highlights the perceived high costs (environmental damage) of the government's wind farm policy, fitting the definition of criticizing climate policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in order to make way for supposedly ‘green energy’ wind turbines.",
+        "reasoning": "The opening sentence frames the Scottish government as 'leftist' and its actions as contradictory ('supposedly ‘green energy’'), challenging the competence and intentions of the authority implementing the policy."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

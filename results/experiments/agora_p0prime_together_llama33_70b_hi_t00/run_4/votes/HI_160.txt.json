@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_160.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Overpraising the West"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा",
+        "reasoning": "यह बयान पश्चिमी देशों की विदेश नीति और नाटो की भूमिका की आलोचना करता है, जो URW: Discrediting the West, Diplomacy नैरेटिव को दर्शाता है"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस और नाटो ने सोवियत संघ के पतन के बाद नाटो-रूस परिषद (एनआरसी) नामक एक परामर्श मंच का गठन किया, लेकिन यूक्रेन को लेकर नाटो के साथ रूस के संबंध अशांत रहे",
+        "reasoning": "यह बयान रूस को एक पीड़ित के रूप में चित्रित करता है, जो URW: Russia is the Victim नैरेटिव को दर्शाता है"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "नाटो यूक्रेन में रूसी आक्रमण को अपने सहयोगी के लिए एक खतरे के रूप में देख रहा है जो 1991 में नाटो में शामिल होने की कोशिश शुरू की थी",
+        "reasoning": "यह बयान नाटो की भूमिका की प्रशंसा करता है, जो URW: Overpraising the West नैरेटिव को दर्शाता है"
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

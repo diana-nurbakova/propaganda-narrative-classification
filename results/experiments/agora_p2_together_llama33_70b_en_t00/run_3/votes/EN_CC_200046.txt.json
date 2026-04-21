@@ -1,0 +1,175 @@
+{
+  "file_id": "EN_CC_200046.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "The text presents a study that suggests elevated CO2 levels have a positive effect on vegetation growth and water availability, which supports the narrative that climate change can have beneficial effects."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "The text criticizes the Democrats' climate policies, implying that they are misguided in targeting CO2, which is actually beneficial for the environment."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "The text criticizes the Democrats, implying that they are using climate change as a pretext to push their agenda and guilt people into paying more, which challenges their integrity and motives."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "The text presents a study that suggests elevated CO2 levels have a positive effect on vegetation growth and water availability, which supports the narrative that climate change can have beneficial effects."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "The text criticizes the Democrats' climate policies, implying that their efforts to reduce CO2 levels are misguided and that CO2 is actually beneficial for the environment."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "The text criticizes the Democrats and implies that they are using climate change as a pretext to manipulate and guilt the public into supporting their policies, which challenges the integrity and motives of these institutions and authorities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "The text presents a study that suggests elevated CO2 levels have a positive effect on vegetation growth and water availability, which supports the narrative that climate change can have beneficial effects."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The very compound that the Democrats are targeting – CO2 – is actually the solution to preserving croplands, grasslands, forests and water supplies for growing populations.",
+        "reasoning": "The text criticizes the Democrats' climate policies, implying that their efforts to reduce CO2 levels are misguided and that CO2 is actually beneficial for the environment."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "The text criticizes the Democrats and implies that they are using climate change as a threat to manipulate people into paying more to remove CO2, which challenges the integrity and motives of the institution."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Climate change is beneficial",
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Climate change is beneficial: CO2 is beneficial",
+    "CC: Climate change is beneficial: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Climate change is beneficial",
+      "matched": "CC: Climate change is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Climate change is beneficial: CO2 is beneficial",
+      "matched": "CC: Climate change is beneficial: CO2 is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Climate change is beneficial: Other",
+      "matched": "CC: Climate change is beneficial: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

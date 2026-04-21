@@ -1,0 +1,181 @@
+{
+  "file_id": "RU-URW-1120.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "The quote implies that the US is actively seeking an alternative to Zelensky, which could be seen as shifting the focus away from Russia's actions and onto the US's involvement in Ukraine's political affairs."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны",
+        "reasoning": "This quote discredits the West by implying that they are motivated by a desire to maintain their financial interests in the war, rather than genuinely supporting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Российская система ПВО сбила ракету реактивной системы залпового огня HIMARS",
+        "reasoning": "This quote praises Russia's military capabilities by highlighting the success of their air defense system in shooting down a HIMARS rocket."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "The quote implies that the US is actively seeking an alternative to Zelensky, which can be seen as shifting the focus away from Russia's actions and onto the US's involvement in Ukraine's internal affairs."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны",
+        "reasoning": "The quote suggests that the US and Europe are motivated by a desire to maintain their financial interests in the war, rather than genuinely supporting Ukraine, which discredits their diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Российская система ПВО сбила ракету реактивной системы залпового огня HIMARS",
+        "reasoning": "The quote highlights the effectiveness of Russia's air defense system, which can be seen as praising Russia's military capabilities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "The text implies that the US is seeking an alternative to Zelensky, which could be seen as shifting the focus away from Russia's actions and onto the US's involvement in Ukraine's affairs."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "The text presents the US as actively seeking to replace Zelensky, which could be seen as an attempt to undermine the legitimacy of Ukraine's government and the US's role in it."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Российская система ПВО сбила ракету реактивной системы залпового огня HIMARS",
+        "reasoning": "The text highlights the effectiveness of Russia's air defense system, which could be seen as praise for Russia's military capabilities."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "на место Зеленского рассматривают бывшего министра обороны Валерия Залужного , мэра Киева Виталия Кличко , главу офиса президента Андрея Ермака , экс-президента Украины Петра Порошенко и экс-спикера Рады Дмитрия Разумкова",
+        "reasoning": "The text implies that Ukraine's leadership is unstable and that the US is seeking to replace Zelensky, which could be seen as an attempt to undermine the legitimacy of Ukraine's government."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The US is actively seeking an alternative to Ukrainian President Volodymyr Zelensky",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 92.6829268292683,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

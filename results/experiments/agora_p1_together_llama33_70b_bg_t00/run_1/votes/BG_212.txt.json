@@ -1,0 +1,97 @@
+{
+  "file_id": "BG_212.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "Текстът представя катастрофални последствия от климатичните промени, включително глад, конфликти и масова миграция, което е типично за наративите, които усилват климатичните страхове."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "Текстът представя катастрофални последствия от климатичните промени, включително глад, конфликти и масова миграция, което е типично за наративите, които усилват климатичните страхове."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "Текстът представя катастрофални последствия от климатичните промени, включително глад, конфликти и масова миграция, което е типично за наративите, които усилват климатичните страхове."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

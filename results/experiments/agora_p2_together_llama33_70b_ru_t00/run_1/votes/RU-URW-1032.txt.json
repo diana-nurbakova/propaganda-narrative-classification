@@ -1,0 +1,161 @@
+{
+  "file_id": "RU-URW-1032.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote suggests that Donald Trump is being questioned about his ability to resolve the conflict quickly, implying that his approach might be too simplistic or unrealistic, which could be seen as a criticism of Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote highlights Donald Trump's confidence in his ability to resolve the conflict, which could be seen as praise for Western leadership and capabilities."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote speculates about the potential outcome of the conflict if Donald Trump is re-elected, which could be seen as a prediction about the future of the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote suggests that Donald Trump is being criticized for his simplistic approach to resolving the conflict between Moscow and Kiev, implying that the West, in this case, the US, is not taking a realistic or effective stance in diplomacy."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote can also be seen as praising the West, specifically Donald Trump, for his confidence in being able to resolve the conflict quickly, which could be perceived as overpraising Western capabilities."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote speculates about the outcome of the conflict, suggesting that it can be resolved quickly, which falls under speculating war outcomes."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote suggests that Donald Trump is being questioned about his ability to resolve the conflict quickly, implying that his approach might be too simplistic or unrealistic, which could be seen as a criticism of Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote presents Donald Trump as a potential solver of the conflict, which could be seen as praising his capabilities and intentions, thus fitting the narrative of overpraising the West."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote speculates about the potential outcome of the conflict under Donald Trump's presidency, implying a prediction about the future of the conflict, which fits the narrative of speculating war outcomes."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Overpraising the West",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "file_id": "A9_BG_2961.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално, да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Този цитат показва, че Зеленски обвинява Русия за терора и атаките срещу цивилни, но също така споменава нерешителността на партньорите на Украйна, което може да се разтълкува като частично прехвърляне на отговорността към други страни, а не само към Русия."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Този цитат показва, че Зеленски критикува партньорите на Украйна (които включват западни страни) за тяхната нерешителност, което е форма на критика срещу тяхната дипломация и политика."
+      },
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално",
+        "reasoning": "Този цитат показва, че Зеленски директно обвинява Русия за терора и атаките срещу цивилни, което е форма на дискредитиране на Русия и нейните действия."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

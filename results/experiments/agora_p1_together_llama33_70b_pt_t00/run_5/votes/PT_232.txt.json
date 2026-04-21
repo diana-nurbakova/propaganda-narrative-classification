@@ -1,0 +1,97 @@
+{
+  "file_id": "PT_232.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Segundo um estudo das Nações Unidas, o planeta está a sair da era do aquecimento global e a entrar na da 'ebulição global'. O período representa um aumento acelerado das temperaturas globais e uma intensificação dos eventos climáticos extremos.",
+        "reasoning": "This quote amplifies climate fears by stating that the planet is entering a period of 'ebulição global', which implies a catastrophic and accelerated increase in global temperatures and extreme climate events."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "o planeta está a sair da era do aquecimento global e a entrar na da \"ebulição global\"",
+        "reasoning": "A menção ao \"período de ebulição global\" e ao aumento acelerado das temperaturas globais e intensificação dos eventos climáticos extremos serve como evidência para a narrativa de amplificação dos medos climáticos."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Segundo um estudo das Nações Unidas, o planeta está a sair da era do aquecimento global e a entrar na da 'ebulição global'. O período representa um aumento acelerado das temperaturas globais e uma intensificação dos eventos climáticos extremos.",
+        "reasoning": "This quote amplifies climate fears by stating that the planet is entering a period of 'ebulição global', which implies a catastrophic and accelerated increase in global temperatures and extreme climate events."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

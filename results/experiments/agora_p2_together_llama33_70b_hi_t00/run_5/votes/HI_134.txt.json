@@ -1,0 +1,115 @@
+{
+  "file_id": "HI_134.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies",
+      "Questioning the measurements and science"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "सर्दी के बाद सीधे आ रही गर्मी, आखिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "The text emphasizes the sudden change from winter to summer, implying a catastrophic consequence of climate change, which is a key characteristic of amplifying climate fears."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "पर्यावरण में हो रहे बदलाव का दुष्प्रभाव अब किसी से छुपा नहीं है. पर्यावरण का अध्ययन कर रहे वैज्ञानिकों की माने तो इस बार सर्दियों पर जलवायु परिवर्तन का ऐसा प्रभाव पड़ा है जिसके चलते बसंत ऋतु ही गायब हो गई है.",
+        "reasoning": "The text criticizes the institutions and authorities for not being able to prevent or mitigate the effects of climate change, implying that they are incompetent or ineffective."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "सर्दी के बाद सीधे आ रही गर्मी, आखिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "The text emphasizes the sudden change from winter to summer, implying a catastrophic consequence of climate change, which amplifies fears about the impact of climate change on the environment and human life."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "पर्यावरण में हो रहे बदलाव का दुष्प्रभाव अब किसी से छुपा नहीं है",
+        "reasoning": "The text criticizes the current state of environmental policies by highlighting the negative consequences of climate change, implying that the policies are ineffective or inadequate."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "क्लाइमेट सेंट्रल की इस रिपोर्ट का उद्देश्य भारत को जलवायु परिवर्तन के वैश्विक रुझानों के संदर्भ में परखना और यहां आ रहे परिवर्तनों का अध्ययन करना है",
+        "reasoning": "The text questions the measurements and science behind climate change by presenting a report that aims to study the changes in India's climate, implying that the current understanding of climate change may be incomplete or inaccurate."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "शीत के बाद सीधे आ रही गर्मी",
+        "reasoning": "वाक्य के लिए तापमान के बदलाव के साथ जलवायु परिवरतन के प्रबाव की कहानी की जा रही है"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

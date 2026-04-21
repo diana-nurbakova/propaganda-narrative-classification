@@ -1,0 +1,155 @@
+{
+  "file_id": "HI_160.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Speculating war outcomes",
+      "URW: Overpraising the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा",
+        "reasoning": "यह बयान पश्चिमी देशों की विदेश नीति की आलोचना करता है और उन्हें शीत युद्ध की लौ जलाने के लिए जिम्मेदार ठहराता है, जो URW: Discrediting the West, Diplomacy के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "नाटो यूक्रेन में रूसी आक्रमण को अपने सहयोगी के लिए एक खतरे के रूप में देख रहा है",
+        "reasoning": "यह बयान मीडिया की विश्वसनीयता पर संदेह पैदा करता है और नाटो के दृष्टिकोण को प्रस्तुत करता है, जो URW: Distrust towards Media के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "नाटो ने यूक्रेन-रूस संकट में हस्तक्षेप किया है",
+        "reasoning": "यह बयान युद्ध के परिणामों के बारे में अनुमान लगाता है और नाटो की कार्रवाई को प्रस्तुत करता है, जो URW: Speculating war outcomes के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "नाटो ने पहली बार सैन्य कार्रवाई के लिए अनुच्छेद 5 को 2001 में संयुक्त राज्य अमेरिका पर 9/11 के आतंकवादी हमलों के बाद लागू किया था",
+        "reasoning": "यह बयान नाटो की कार्रवाई को प्रस्तुत करता है और उनकी सैन्य शक्ति को बढ़ा-चढ़ाकर पेश करता है, जो URW: Overpraising the West के अनुरूप है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Distrust towards Media",
+    "URW: Speculating war outcomes",
+    "URW: Overpraising the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Distrust towards Media: Other",
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other",
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

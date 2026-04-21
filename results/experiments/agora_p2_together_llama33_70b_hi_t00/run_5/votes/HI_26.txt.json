@@ -1,0 +1,51 @@
+{
+  "file_id": "HI_26.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा, 'आपका हार्दिक स्वागत है। आपको देखकर बहुत खुशी हो रही है। हमारे बीच औपचारिक बातचीत कल होने वाली है। आज अनौपचारिक रूप से हम घर के वातावरण में उन्हीं मामलों पर बातचीत कर सकते हैं।'",
+        "reasoning": "This quote shows praise and admiration for Russia and its leader, Vladimir Putin, as he welcomes PM Modi and expresses his happiness to see him. The warm reception and dialogue between the two leaders highlight the positive relationship between India and Russia."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,189 @@
+{
+  "file_id": "EN_CC_200033.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "So now we are finally seeing the contours of Thunbergism. Run your eye down the contributors to The Climate Book and you can see who she's been reading: Jason Hickel, Kate Raworth, Naomi Klein. For these people the climate crisis isn't man-made. It's made by capitalism, as are the other forms of social injustice which plague society.",
+        "reasoning": "This quote criticizes the climate movement by implying that its leaders, such as Greta Thunberg, are driven by a radical left-wing ideology that seeks to overthrow the capitalist system rather than genuinely addressing climate change."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in a more palatable format.",
+        "reasoning": "This quote suggests that there is a hidden plot or secret scheme behind the climate change agenda, implying that it is not truly about environmental issues but rather about promoting a radical left-wing ideology."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a 'scam' which facilitates 'greenwashing, lying and cheating'.",
+        "reasoning": "This quote criticizes the institution of the COP meeting, implying that it is incompetent and engaged in deceptive practices."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "So now we are finally seeing the contours of Thunbergism. Run your eye down the contributors to The Climate Book and you can see who she’s been reading: Jason Hickel, Kate Raworth, Naomi Klein. For these people the climate crisis isn’t man-made. It’s made by capitalism, as are the other forms of social injustice which plague society.",
+        "reasoning": "This quote supports the narrative of Criticism of climate movement because it implies that Greta Thunberg's views on climate change are not genuinely about environmental issues, but rather about promoting a radical left-wing ideology that seeks to overthrow capitalism."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in a more palatable format.",
+        "reasoning": "This quote supports the narrative of Hidden plots by secret schemes of powerful groups because it suggests that the climate change agenda is a covert attempt to impose a far-left ideology, implying a secret plot or hidden agenda."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a “scam” which facilitates “greenwashing, lying and cheating”.",
+        "reasoning": "This quote supports the narrative of Criticism of institutions and authorities because it directly attacks the credibility and integrity of the COP meeting, implying that it is incompetent or corrupt."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "So now we are finally seeing the contours of Thunbergism. Run your eye down the contributors to The Climate Book and you can see who she's been reading: Jason Hickel, Kate Raworth, Naomi Klein. For these people the climate crisis isn't man-made. It's made by capitalism, as are the other forms of social injustice which plague society.",
+        "reasoning": "This quote criticizes the climate movement by implying that its leaders, such as Greta Thunberg, are driven by a radical left-wing ideology that seeks to overthrow the capitalist system rather than genuinely addressing climate change."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "As we have previously documented, the climate change agenda is merely radical leftism dressed up in a more palatable format.",
+        "reasoning": "This quote suggests that there is a hidden plot or secret scheme behind the climate change agenda, implying that it is not genuinely about environmental concerns but rather a vehicle for radical left-wing ideology."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "COP itself is little more than a 'scam' which facilitates 'greenwashing, lying and cheating'.",
+        "reasoning": "This quote criticizes the institution of the COP meeting, implying that it is ineffective and corrupt, and that its primary function is to allow elites to pretend to address climate change without actually taking meaningful action."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

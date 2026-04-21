@@ -1,0 +1,104 @@
+{
+  "file_id": "PT_234.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Estas são as mensagens principais de um artigo científico, capa da revista \"Nature\" desta quarta-feira (14), liderado por brasileiros. O cenário, além de provocar alterações nos ecossistemas da Amazónia, traria impacto no clima, reduziria as chuvas na região, no continente e poderia afetar a Ásia e a Antártida.",
+        "reasoning": "A citação apresenta um cenário catastrófico em relação ao futuro da Amazônia e seu impacto global, o que é característico do narrative de Amplifying Climate Fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O cenário, além de provocar alterações nos ecossistemas da Amazônia, traria impacto no clima, reduziria as chuvas na região, no continente e poderia afetar a Ásia e a Antártida.",
+        "reasoning": "A citação apresenta um cenário catastrófico em que a Amazônia pode atingir um ponto de não retorno até 2050, o que teria impactos significativos no clima global, reduzindo as chuvas e afetando regiões distantes como a Ásia e a Antártida, ampliando medos sobre as consequças da mudança climática."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Estas são as mensagens principais de um artigo científico, capa da revista \"Nature\" desta quarta-feira (14), liderado por brasileiros. O cenário, além de provocar alterações nos ecossistemas da Amazónia, traria impacto no clima, reduziria as chuvas na região, no continente e poderia afetar a Ásia e a Antártida.",
+        "reasoning": "A citação apresenta um cenário catastrófico, destacando as consequências negativas da perda de resiliência da Amazônia, incluindo alterações nos ecossistemas, impacto no clima, redução de chuvas e possíveis efeitos na Ásia e Antártida, o que amplifica os medos relacionados às mudanças climáticas."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

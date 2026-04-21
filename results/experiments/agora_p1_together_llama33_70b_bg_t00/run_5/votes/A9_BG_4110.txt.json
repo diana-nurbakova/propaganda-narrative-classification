@@ -1,0 +1,160 @@
+{
+  "file_id": "A9_BG_4110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "русофобската политика на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът представя Русия като жертва на русофобска политика, което е типично за тази нарративна линия."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда",
+        "reasoning": "Текстът критикува западната политика и предполага, че тя е отговорна за разрастването на екстремистки тенденции, което е характерно за тази нарративна линия."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нищо обаче не се прави, въпреки очевидните рискове",
+        "reasoning": "Текстът съдържа намек за липса на доверие към институциите и медията, което е близко до наративната линия на недоверие към медията, но не е директно свързано с нея. Вместо това този цитат показва недоверие към институциите и способността им да се справят с рисковете."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда",
+        "reasoning": "Текстът предполага съществуването на тайни схеми и мощни групи, които манипулират младите хора, което е близко до наративната линия за скрити планове и тайни схеми."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "русофобската политика на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът представя Русия като жертва на русофобска политика, което е типично за наративите, които представят Русия като несправедливо таргетирана или виктимизирана."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда. Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "Текстът критикува западната политика и предполага, че тя е отговорна за разрастването на екстремистки тенденции, което е типично за наративите, които дискредитират западната дипломация."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нищо обаче не се прави, въпреки очевидните рискове",
+        "reasoning": "Текстът създава впечатление, че властите не правят нищо, за да предотвратят терористичната активност, което може да бъде интерпретирано като критика към медийните източници, които не отразяват адекватно тези рискове."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "русофобската политика на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът представя Русия като жертва на русофобска политика, което е типично за тази нарратива."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда. Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "Текстът критикува западната политика и предполага, че те подкрепят или пропагандират насилствени действия, което е характерно за тази нарратива."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нищо обаче не се прави, въпреки очевидните рискове",
+        "reasoning": "Текстът съдържа намек за липса на доверие към институциите или медиите, които не отразяват адекватно рисковете или проблемите, споменати в текста."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

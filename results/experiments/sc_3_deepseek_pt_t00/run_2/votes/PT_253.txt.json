@@ -1,0 +1,57 @@
+{
+  "file_id": "PT_253.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Não é a primeira vez que a Rússia ameaça com uma retaliação contra a utilização dos seus bens congelados para financiar a Ucrânia. No mês passado, o presidente russo, Vladimir Putin, afirmou que a utilização destes bens é “um roubo que não ficará impune.”",
+        "reasoning": "The quote reports Putin's statement framing the seizure of frozen Russian assets as 'theft' that will be punished. This actively shifts blame for the negative consequence (asset seizure) onto the West/Ukraine, portraying Russia's invasion and the subsequent sanctions as the fault of others who are now 'stealing' from Russia."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Após o anúncio da UE, o porta-voz do Kremlin, Dmitry Peskov, classificou o envio dos bens russos congelados para a Ucrânia como “ilegal” e afirmou que a Rússia iria tomar “ações bem pensadas” em resposta. “Tais medidas da Comissão Europeia não ficarão sem resposta”, disse.",
+        "reasoning": "The quote presents Russia's official position, portraying the EU's lawful action (transferring frozen assets) as an 'illegal' act that Russia must respond to. This frames Russia as the victim of an unjust, punitive measure by the West, eliciting sympathy for its position of having to retaliate."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

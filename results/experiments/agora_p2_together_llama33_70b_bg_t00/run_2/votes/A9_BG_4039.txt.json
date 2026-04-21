@@ -1,0 +1,154 @@
+{
+  "file_id": "A9_BG_4039.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "Текстът цитира предупреждението на Путин, че базите в НАТО страни ще станат легитимна цел, което създава страх от военна ескалация и нападения над държави членки на НАТО."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Руският президент Владимир Путин предупреди, че Москва може да обмисли нанасянето на удари по обекти в страни членки на НАТО, ако те приемат на своя територия военните самолети, използвани в Украйна.",
+        "reasoning": "Текстът показва критика към западните съюзници на Украйна, които се ангажират да предоставят военна помощ, и предупреждението на Путин се използва за да се създаде впечатление, че тези страни са агресивни и безразсъдни."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руският президент Владимир Путин предупреди, че Москва може да обмисли нанасянето на удари по обекти в страни членки на НАТО, ако те приемат на своя територия военните самолети, използвани в Украйна.",
+        "reasoning": "Текстът представя Русия като жертва, която е принудена да се защитава срещу агресивните действия на западните съюзници на Украйна."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "Текстът цитира предупреждението на Путин, че базите в НАТО страни ще бъдат считани за легитимни цели, което създава страх от военна ескалация и нападения над държави членки на НАТО."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Руският президент Владимир Путин предупреди, че Москва може да обмисли нанасянето на удари по обекти в страни членки на НАТО, ако те приемат на своя територия военните самолети, използвани в Украйна.",
+        "reasoning": "Текстът показва критика към западните съюзници на Украйна, които се ангажират да предоставят военна помощ, и предупреждението на Путин се използва за да се създаде впечатление, че тези страни са агресивни и безразсъдни."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Руският президент Владимир Путин предупреди, че Москва може да обмисли нанасянето на удари по обекти в страни членки на НАТО, ако те приемат на своя територия военните самолети, използвани в Украйна.",
+        "reasoning": "Текстът представя Русия като жертва, която е принудена да се защитава срещу агресивните действия на западните съюзници на Украйна."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "Текстът цитира предупреждението на Путин, че базите в НАТО страни ще бъдат считани за легитимна цел, което създава страх от военна ескалация и нападения над държави членки на НАТО."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Руският президент Владимир Путин предупреди, че Москва може да обмисли нанасянето на удари по обекти в страни членки на НАТО, ако те приемат на своя територия военните самолети, използвани в Украйна.",
+        "reasoning": "Текстът представя западните съюзници на Украйна като провокатори на Русия, което е критика към тяхната дипломация и политика във връзка с конфликта."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "Текстът споменава възможните негативни последствия за държавите, които приемат украински самолети, което е предупреждение за потенциални загуби или щети за тези държави."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing Zelenskyy as a leader whose term has expired, undermining his legitimacy to speak for Ukraine. It then presents his reluctance to accept a ceasefire as a personal dislike ('не очень понравилась'), rather than a considered policy position, which serves to discredit his leadership and Ukraine's stance."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy, frames Ukraine's past ceasefires as harmful to Ukraine itself. This subtly shifts the narrative away from Russia's role as the aggressor who breaks agreements, suggesting instead that Ukraine's own interpretation and experience of peace efforts are the obstacle to ending the war."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing Zelenskyy as an illegitimate leader whose term has expired, which is a common narrative to undermine the legitimacy of Ukraine's government. This directly attacks the credibility of the Ukrainian leadership."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy via Orban, frames Ukraine's reluctance to agree to a ceasefire as the obstacle to peace, subtly shifting focus away from Russia's role as the invader and aggressor who started the war."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing Zelenskyy as a leader whose term has expired, undermining his legitimacy. It then presents his reluctance to accept a ceasefire as a negative personal preference ('не очень понравилась'), rather than a considered policy position, which serves to discredit his leadership and Ukraine's stance."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy via Orban, implicitly shifts blame for the continuation of hostilities onto Ukraine's past experiences and interpretations, suggesting Ukraine's stance is an obstacle to peace, rather than attributing the cause of the war to Russia's invasion."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

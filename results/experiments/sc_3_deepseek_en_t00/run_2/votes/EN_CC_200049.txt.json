@@ -1,0 +1,102 @@
+{
+  "file_id": "EN_CC_200049.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Climate change is beneficial"
+    ],
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality as a climate change impact, thereby minimizing the perceived threat and impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths 'are caused by heat' does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim about heat-related deaths, framing it as failing scrutiny and presenting counter-data, which raises doubts about the accuracy and reliability of the climate science being cited."
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "It added that over the past 20 years, the death rate from heat has slightly increased due to global warming (+0.21 percent), but that the death rate from the cold decreased by more than twice as much (-0.51 percent) during the same period.",
+        "reasoning": "By highlighting that cold-related deaths have decreased more than heat-related deaths have increased, the text presents an argument that global warming may have a net beneficial effect on mortality, supporting the narrative that climate change can have positive outcomes."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "The text presents data to argue that cold causes more deaths than heat, directly challenging the severity of the climate change threat as presented by 'alarmists,' thereby minimizing the significance of climate change impacts."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "The text directly disputes a scientific claim about heat-related deaths, framing it as not standing up to scrutiny, which raises doubts about the accuracy and reliability of the climate science being cited."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "This quote presents data to argue that cold causes more deaths than heat, directly challenging the significance of heat-related mortality as a climate change impact, thereby minimizing the perceived threat and impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This statement directly disputes a scientific claim (that heat is the leading weather-related killer) by presenting an alternative data point, thereby raising doubts about the accuracy and validity of the climate science being cited."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Downplaying climate change",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Questioning the measurements and science",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

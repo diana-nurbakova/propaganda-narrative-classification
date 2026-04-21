@@ -1,0 +1,196 @@
+{
+  "file_id": "PT_225.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Desastres como o da RS já não serão eventuais. O climatologista Carlos Nobre faz-nos um alerta e explica que os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem parte de um fenômeno que já não pode ser evitado.",
+        "reasoning": "This quote amplifies fears about climate change by stating that extreme events will become more frequent and are part of an unavoidable phenomenon."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "No entanto, mesmo perante a emergência, a manada continua a passar no Congresso e o negacionismo continua a matar e a colocar vidas em risco.",
+        "reasoning": "This quote criticizes the institutions and authorities, specifically the Congress, for their inaction and promotion of climate change denial, which is putting lives at risk."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Esta semana, a Câmara dos Deputados aprovou o projeto de lei 1366/22, do Senado, que exclui a silvicultura do elenco das atividades potencialmente poluidoras e utilizadoras de recursos ambientais.",
+        "reasoning": "This quote criticizes a specific climate policy, the approval of the project of law 1366/22, which excludes silviculture from the list of potentially polluting activities, implying that it will have negative environmental consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Desastres como o da RS já não serão eventuais. O climatologista Carlos Nobre faz-nos um alerta e explica que os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem parte de um fenômeno que já não pode ser evitado.",
+        "reasoning": "This quote amplifies fears about climate change by stating that extreme events will become more frequent and are part of an unavoidable phenomenon."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "No entanto, mesmo perante a emergência, a manada continua a passar no Congresso e o negacionismo continua a matar e a colocar vidas em risco.",
+        "reasoning": "This quote criticizes the institutions and authorities, specifically the Congress, for their inaction and negation of climate change, which is putting lives at risk."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Além disso, estão a ser discutidos no Congresso 25 projetos de lei e três propostas de alteração à Constituição que, caso sejam aprovados, \"provocarão danos irreversíveis aos ecossistemas, aos povos tradicionais, ao clima global e à segurança de todos\"",
+        "reasoning": "This quote criticizes the climate policies being discussed in Congress, stating that they will cause irreversible damage to the environment and ecosystems."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Desastres como o da RS já não serão eventuais. O climatologista Carlos Nobre faz-nos um alerta e explica que os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem parte de um fenômeno que já não pode ser evitado.",
+        "reasoning": "This quote amplifies fears about climate change by stating that extreme events will become more frequent and are part of an unavoidable phenomenon."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "No entanto, mesmo perante a emergência, a manada continua a passar no Congresso e o negacionismo continua a matar e a colocar vidas em risco.",
+        "reasoning": "This quote criticizes the institutions and authorities, specifically the Congress, for their inaction and promotion of climate change denial despite the urgency of the situation."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Esta semana, a Câmara dos Deputados aprovou o projeto de lei 1366/22, do Senado, que exclui a silvicultura do elenco das atividades potencialmente poluidoras e utilizadoras de recursos ambientais.",
+        "reasoning": "This quote criticizes a specific climate policy, the approval of a law that excludes silviculture from potentially polluting activities, implying that it will have negative environmental consequences."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

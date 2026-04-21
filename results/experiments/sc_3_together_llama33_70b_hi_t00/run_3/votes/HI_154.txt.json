@@ -1,0 +1,170 @@
+{
+  "file_id": "HI_154.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "टीसरा विश्व युद्ध जिद्ा छिडा तो दुनिया में तीए टुकडो उ बउउट जाइगी!",
+        "reasoning": "The text evokes fear of a potential third world war by stating that if the current conflict escalates, the world could be divided into three parts, and many countries would be involved in the war, leading to severe consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "तीसरा विश्व युद्ध छिड़ा तो 3 टुकड़ों में बंट जाएगी दुनिया!",
+        "reasoning": "The text evokes fear and anxiety about the potential consequences of a third world war, suggesting that it could lead to the division of the world into three parts."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "जल्दी युद्धविराम न हो, तो दोनों देशों की आग पूरी दुनिया में फैल जाएगी और चाहे-अनचाहे हर कोई युद्ध का हिस्सा होगा.",
+        "reasoning": "The text speculates about the potential outcomes of the war, suggesting that it could spread to the entire world and involve many countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "कोविड वैक्सीन का असमान बंटवारा भी बनेगा वजह",
+        "reasoning": "The text criticizes the Western countries, particularly the United States, for their handling of the COVID-19 vaccine distribution, implying that it has led to a lack of trust among weaker nations."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "टीसरा विश्व युद्ध जिद्ा छिडा तो दुनिया तीन टुकडों बंट जागी!",
+        "reasoning": "The text evokes fear of a potential third world war by stating that if the war between Russia and Ukraine escalates, it could lead to a global conflict, dividing the world into three parts."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "क्या वाकि दुनिया तीन टुकडों बंट जागी!",
+        "reasoning": "The text speculates about the potential outcomes of the war, including the possibility of a third world war and the division of the world into three parts."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "युनाउटेद नेशिंस की आवाज नहीं बचेगी",
+        "reasoning": "The text criticizes the Western countries and international diplomatic efforts, stating that the United Nations will not be able to maintain peace and that regional organizations will become more powerful."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Speculating war outcomes",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: Other",
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

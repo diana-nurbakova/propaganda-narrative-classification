@@ -1,0 +1,114 @@
+{
+  "file_id": "RU-URW-1077.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта. Дипломат общала внимание, что НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, \"чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны\"",
+        "reasoning": "The quote criticizes NATO's role in the Ukrainian conflict and suggests that the organization should reflect on its actions instead of shifting blame to others, which aligns with the narrative of discrediting the West's diplomacy."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote implies that NATO has a role in the causes of the Ukrainian conflict, shifting the blame away from Russia, which aligns with the narrative of blaming the war on others rather than the invader."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта. Дипломат общала внимание, что НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, \"чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны\"",
+        "reasoning": "The quote criticizes NATO's role in the Ukrainian conflict and suggests that the organization should reflect on its actions instead of shifting blame to others, which aligns with the narrative of discrediting the West's diplomacy."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote implies that NATO has a role in the causes of the Ukrainian conflict, shifting the blame away from Russia, which aligns with the narrative of blaming the war on others rather than the invader."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote suggests that NATO should reflect on its role in the underlying causes of the Ukrainian conflict, implying that the West, particularly NATO, bears some responsibility for the crisis, which is a form of discrediting the West's diplomacy."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "представитель СМИ обратился к дипломату с просьбой дать комментарий по поводу высказывания президента Финляндии Александера Стубба",
+        "reasoning": "The text does not directly support the narrative of distrust towards media, but it mentions a request from a representative of the media for a comment, which could be interpreted as a way to show how media can be used to spread certain narratives or opinions, potentially undermining trust in media. However, this connection is weak and not directly supported by the text."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote implies that the West, particularly NATO, has a significant role in the Ukrainian conflict, which could suggest that Russia is being victimized or unfairly treated by the West's actions or policies, fitting the narrative of Russia being the victim."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

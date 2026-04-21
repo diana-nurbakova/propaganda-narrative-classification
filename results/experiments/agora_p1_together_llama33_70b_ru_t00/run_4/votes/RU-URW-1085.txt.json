@@ -1,0 +1,89 @@
+{
+  "file_id": "RU-URW-1085.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Предприятия Дальнего Востока активно включились в помощь СВО. Мы создали новую оболочку – ТОР «Патриотическая». Благодаря этому модернизируются и запускаются производства, идёт их переоборудование.",
+        "reasoning": "The text highlights the active participation of Far Eastern enterprises in supporting the Special Military Operation (SVO) and the creation of a new framework - the 'Patriotic' TOR, which modernizes and launches productions, demonstrating Russia's capabilities and strengths in the context of the military operation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий.",
+        "reasoning": "The text frames Russia as being involved in a war that requires the application of modern techniques and technologies, implying that Russia is responding to the challenges of the war rather than being the aggressor, thus portraying Russia as a victim of circumstances."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Такая поддержка будет продолжаться и дальше – до нашей Победы",
+        "reasoning": "The text implies a sense of determination and resolve on the part of Russia, suggesting that the West's efforts or diplomatic attempts to influence the outcome of the conflict will be unsuccessful, thus discrediting Western diplomatic efforts."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Предприятия Дальнего Востока активно включились в помощь СВО. Мы создали новую оболочку – ТОР «Патриотическая». Благодаря этому модернизируются и запускаются производства, идёт их переоборудование.",
+        "reasoning": "The text highlights the active involvement of Far Eastern enterprises in supporting the Special Military Operation (SVO) and the creation of a new framework - the 'Patriotic' TOR, which modernizes and launches productions, demonstrating Russia's capabilities and strength in the context of the military operation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий.",
+        "reasoning": "The quote implies that Russia is engaged in a war that requires the use of modern techniques and technologies, which can evoke sympathy for Russia's position and suggest that it is unfairly targeted or victimized in the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct or implied statement that criticizes Western countries, leaders, or policies in the provided text."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "None",
+        "reasoning": "There is no statement that attributes responsibility or fault to entities other than Russia in the context of Russia’s invasion of Ukraine in the provided text."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

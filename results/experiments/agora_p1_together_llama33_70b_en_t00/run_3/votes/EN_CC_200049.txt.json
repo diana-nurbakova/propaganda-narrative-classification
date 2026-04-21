@@ -1,0 +1,115 @@
+{
+  "file_id": "EN_CC_200049.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate movement",
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "millions are at risk from the intense heat",
+        "reasoning": "The text presents catastrophic scenarios about climate change, emphasizing the risk of heat-related deaths and the increasing intensity and duration of heat events, which aligns with the definition of amplifying climate fears."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny",
+        "reasoning": "The text criticizes the climate movement by challenging the accuracy of their claims, specifically the assertion that heat-related deaths are the leading weather-related deaths in the US, which is a key aspect of criticism of the climate movement."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "people around the world are 9.4 times more likely to die from the cold than from the heat",
+        "reasoning": "The text downplays the significance of climate change by presenting data that shows cold-related deaths are more prevalent than heat-related deaths, which minimizes the impact of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "The two graphs below, furnished by the EPA using data from the CDC, depict this disparity visually",
+        "reasoning": "The text questions the measurements and science behind climate change by presenting alternative data and visualizations that challenge the prevailing narrative, which is a key aspect of questioning the measurements and science."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "millions are at risk from the intense heat",
+        "reasoning": "The text presents catastrophic scenarios about climate change, emphasizing the risk of heat-related deaths and the increasing intensity and duration of heat events, which aligns with the definition of amplifying climate fears."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny",
+        "reasoning": "The text criticizes the climate movement by challenging the accuracy of their claims, specifically the assertion that heat-related deaths are the leading weather-related deaths in the US, which is a key aspect of criticism of the climate movement."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "people around the world are 9.4 times more likely to die from the cold than from the heat",
+        "reasoning": "The text downplays the significance of climate change by presenting data that shows cold-related deaths are more prevalent than heat-related deaths, which minimizes the impact of climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "the majority of weather-related deaths come from cold, not heat",
+        "reasoning": "The text questions the measurements and science behind climate change by presenting contradictory data and challenging the prevailing narrative, which is a key aspect of questioning the measurements and science."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Alarmists Warn of U.S. ‘Heat Dome’ Tied to Human-Induced Climate Change",
+        "reasoning": "The text criticizes the climate movement by using the term 'alarmists', implying that they are exaggerating the threat of climate change."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "the majority of weather-related deaths come from cold, not heat",
+        "reasoning": "The text downplays the significance of climate change by highlighting that cold-related deaths are more common than heat-related deaths, which minimizes the impact of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny",
+        "reasoning": "The text questions the measurements and science behind climate change by challenging the claim that heat-related deaths are the leading cause of weather-related deaths in the US."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

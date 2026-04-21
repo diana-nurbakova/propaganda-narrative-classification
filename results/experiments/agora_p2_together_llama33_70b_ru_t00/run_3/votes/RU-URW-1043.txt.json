@@ -1,0 +1,63 @@
+{
+  "file_id": "RU-URW-1043.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Владимир Путин прилетел в Астану, где примет участие в саммите ШОС и проведёт ряд встреч, в том числе с Эрдоганом, Си Цзиньпином и Алиевым.",
+        "reasoning": "This quote praises Russia by highlighting the importance and influence of its leader, Vladimir Putin, in international affairs, such as participating in the SCO summit and meeting with other prominent leaders."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "This quote discredits Ukraine by implying that it is involved in espionage and sabotage activities against Russia, portraying Ukraine as a threat to Russia's security."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "",
+        "reasoning": null
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

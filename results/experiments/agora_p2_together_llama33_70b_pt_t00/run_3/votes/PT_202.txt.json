@@ -1,0 +1,97 @@
+{
+  "file_id": "PT_202.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O bioma, considerado o mais vulnerável às alterações climáticas, é atingido sobretudo pela desflorestação em função da agricultura e da implantação de indústrias de energia.",
+        "reasoning": "A menção à vulnerabilidade do bioma às alterações climáticas e ao impacto da desflorestação e da implantação de indústrias de energia reforça a ideia de que o clima está mudando de forma drástica e que é necessário tomar medidas urgentes para mitigar esses efeitos."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O bioma, considerado o mais vulnerável às alterações climáticas, é atingido sobretudo pela desflorestação em função da agricultura e da implantação de indústrias de energia.",
+        "reasoning": "A menção à vulnerabilidade do bioma às alterações climáticas e seus efeitos na região semiárida do Nordeste brasileiro serve para amplificar os medos sobre as consequças das mudanças climáticas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O bioma, considerado o mais vulnerável às alterações climáticas, é atingido sobretudo pela desflorestação em função da agricultura e da implantação de indústrias de energia.",
+        "reasoning": "A menção à vulnerabilidade do bioma às alterações climáticas e seus efeitos na região semiárida do sertão nordestino ampliam os medos sobre as conseqüéncias das mudanças climáticas."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

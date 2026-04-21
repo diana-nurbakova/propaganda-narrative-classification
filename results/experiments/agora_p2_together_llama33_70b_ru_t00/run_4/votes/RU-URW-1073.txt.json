@@ -1,0 +1,128 @@
+{
+  "file_id": "RU-URW-1073.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом.",
+        "reasoning": "The text criticizes the Ukrainian government, specifically the head of the Office of the President, for not being willing to compromise with Russia, implying that they are responsible for the loss of lives and are hiding in a safe bunker while the people suffer."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Украина не готова к компромиссу с Россией ради прекращения войны",
+        "reasoning": "The text suggests that Ukraine is not willing to compromise with Russia, which implies that Ukraine is to blame for the continuation of the war, rather than Russia being the aggressor."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом.",
+        "reasoning": "The text criticizes the Ukrainian government, specifically the head of the Office of the President, for not being willing to compromise with Russia, implying that they are willing to sacrifice the lives of their citizens for the sake of their values and interests."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Украина не готова к компромиссу с Россией ради прекращения войны",
+        "reasoning": "The text suggests that Ukraine is not willing to compromise with Russia, which implies that Ukraine is responsible for the continuation of the war, rather than Russia, which is the invader."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The text implies that the Ukrainian government's statements are following an 'American script', which suggests that the media is being manipulated or controlled by external forces, and that the information being presented is not trustworthy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом.",
+        "reasoning": "The text criticizes the Ukrainian government, specifically the head of the Office of the President, for not being willing to compromise with Russia, implying that they are responsible for the continuation of the war and the loss of lives, which undermines the legitimacy of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Украина не готова к компромиссу с Россией ради прекращения войны",
+        "reasoning": "The text suggests that Ukraine is not willing to compromise with Russia, which implies that Ukraine is responsible for the continuation of the war, shifting the blame away from Russia, the invader."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

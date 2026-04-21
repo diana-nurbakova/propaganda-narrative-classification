@@ -1,0 +1,97 @@
+{
+  "file_id": "BG_277.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Controversy about green technologies",
+      "Criticism of climate policies"
+    ],
+    [
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "В последните години Гейтс работи по няколко направления за спасяване на планетата. Той инвестира във фирми като „Сейвър“, на които възлага да изнамират химически заместители на всички традиционни видове меса, за да се пристъпи към поетапно ограничаване на животновъдството, което либерал-глобалистите сочат като основен източник на парникови газове.",
+        "reasoning": "The text frames Bill Gates's investments in artificial food substitutes as part of a coordinated plan ('работи по няколко направления') to phase out traditional livestock, linking it to the agenda of 'либерал-глобалистите' (liberal-globalists). This suggests a hidden plot by a powerful elite (Gates and globalists) to impose dietary changes under the guise of saving the planet, fitting the narrative of secret schemes by powerful groups."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Цената им е изключително висока, те са не просто безвкусни, често дори са неприятни за ядене. [...] Никой не ги купува, освен известен брой инфлуенсъри, вегетарианци, вегани и най-пламенните последователи на либерал-глобализма, пише \"Флагман\".",
+        "reasoning": "The text actively criticizes existing plant-based substitutes, describing them as overpriced, tasteless, and unpleasant, and implies they are only bought by a fringe ideological group. This expresses skepticism and criticism of environmentally friendly food technologies, fitting the 'Controversy about green technologies' narrative."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Поради огромния административен натиск от Брюксел и десетките непеота, финансирани по линия на Давос, съпроводен и с възможности да се получава изгодно финансиране, големите хранителни вериги започнаха да отделят все повече пространства за растителни млека и храни, измествайки от интериора обичайните.",
+        "reasoning": "This statement criticizes the push for plant-based foods as driven by 'administrative pressure' from Brussels (EU) and funding from Davos-linked NGOs, questioning the motives and methods behind these climate-related dietary policies. It fits the definition of questioning the effectiveness or motives behind climate policies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "В последните години Гейтс работи по няколко направления за спасяване на планетата. Той инвестира във фирми като „Сейвър“, на които възлага да изнамират химически заместители на всички традиционни видове меса, за да се пристъпи към поетапно ограничаване на животновъдството, което либерал-глобалистите сочат като основен източник на парникови газове.",
+        "reasoning": "The text frames Bill Gates's investments in artificial food substitutes as part of a coordinated plan to phase out traditional livestock, linking it to a 'liberal-globalist' agenda. This suggests a hidden plot by a powerful individual and associated groups to enforce dietary changes under the guise of climate salvation."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Цената им е изключително висока, те са не просто безвкусни, често дори са неприятни за ядене. ... Никой не ги купува, освен известен брой инфлуенсъри, вегетарианци, вегани и най-пламенните последователи на либерал-глобализма, пише \"Флагман\".",
+        "reasoning": "The text actively criticizes existing plant-based substitutes, describing them as overpriced, tasteless, and unpleasant, and implies they are only bought by a fringe ideological group. This expresses skepticism and criticism of these environmentally friendly food technologies."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Поради огромния административен натиск от Брюксел и десетките непеота, финансирани по лирина на Давос, съпроводен и с възможности да се получава изгодно финансиране, големите хранителни вериги започнаха да отделят все повече пространства за растителни млека и храни, измествайки от интериора обичайните.",
+        "reasoning": "This statement questions the motives behind the push for plant-based foods, attributing it to 'administrative pressure' from Brussels and funding from Davos, thereby criticizing the policies and financial mechanisms driving this change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "В последните години Гейтс работи по няколко направления за спасяване на планетата. Той инвестира във фирми като „Сейвър“, на които възлага да изнамират химически заместители на всички традиционни видове меса, за да се пристъпи към поетапно ограничаване на животновъдството, което либерал-глобалистите сочат като основен източник на парникови газове.",
+        "reasoning": "The text frames Bill Gates's investments in artificial food substitutes as part of a coordinated plan to phase out traditional livestock, linking it to the agenda of 'liberal-globalists'. This suggests a hidden plot by a powerful elite (Gates and associated globalists) to impose dietary changes under the guise of saving the planet."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Цената им е изключително висока, те са не просто безвкусни, често дори са неприятни за ядене. [...] Никой не ги купува, освен известен брой инфлуенсъри, вегетарианци, вегани и най-пламенните последователи на либерал-глобализма, пише \"Флагман\".",
+        "reasoning": "The text expresses strong skepticism and criticism of existing plant-based food substitutes, describing them as overpriced, tasteless, and unpleasant, and implies they are only bought by a fringe ideological group. This criticizes environmentally friendly food technologies."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

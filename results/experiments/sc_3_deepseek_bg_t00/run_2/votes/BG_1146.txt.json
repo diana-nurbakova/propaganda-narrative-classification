@@ -1,0 +1,126 @@
+{
+  "file_id": "BG_1146.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "По време на Олимпийските игри в Париж, които трябва да се проведат от 26 юли до 11 август тази година, има висок риск от катастрофални горещини.",
+        "reasoning": "The text actively promotes fear by describing a 'high risk of catastrophic heat' during a major public event, emphasizing severe and alarming consequences of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това може да бъде придружено от силна гореща вълна, която ще има сериозно въздействие върху околната среда и може да се отрази негативно на човешкото здраве.",
+        "reasoning": "The text amplifies fears by stating that a strong heatwave would have a 'serious impact on the environment' and could 'negatively affect human health', focusing on harmful outcomes."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Съответно вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто, което според френски учени може да се нарече сравнително висока вероятност.",
+        "reasoning": "The text amplifies fears by quantifying the risk ('one in a hundred') and framing it as a 'relatively high probability' for an unprecedented, record-breaking heatwave, highlighting the exceptional danger."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "По време на Олимпийските игри в Париж, които трябва да се проведат от 26 юли до 11 август тази година, има висок риск от катастрофални горещини.",
+        "reasoning": "The text actively promotes fear by using strong, alarming language ('катастрофални горещини' / catastrophic heat) to describe the predicted weather event, framing it as a high-risk, dangerous situation."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това може да бъде придружено от силна гореща вълна, която ще има сериозно въздействие върху околната среда и може да се отрази негативно на човешкото здраве.",
+        "reasoning": "The text emphasizes negative consequences ('сериозно въздействие', 'негативно на човешкото здраве' / serious impact, negative on human health), actively amplifying concerns about the harmful effects of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Съответно вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто, което според френски учени може да се нарече сравнително висока вероятност.",
+        "reasoning": "The text frames a 1% probability as 'сравнително висока вероятност' (relatively high probability) for an event that would exceed all previous records, using scientific framing to amplify the sense of risk and unprecedented danger."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "По време на Олимпийските игри в Париж, които трябва да се проведат от 26 юли до 11 август тази година, има висок риск от катастрофални горещини.",
+        "reasoning": "The text actively promotes fear by describing a 'high risk of catastrophic heat' during a major public event, emphasizing severe and alarming consequences of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това може да бъде придружено от силна гореща вълна, която ще има сериозно въздействие върху околната среда и може да се отрази негативно на човешкото здраве.",
+        "reasoning": "The text amplifies fears by stating that a strong heatwave would have a 'serious impact on the environment' and could 'negatively affect human health', focusing on harmful outcomes."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Съответно вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто, което според френски учени може да се нарече сравнително висока вероятност.",
+        "reasoning": "The text amplifies concern by quantifying the risk ('one in a hundred') and framing it as a 'relatively high probability' for an unprecedented heatwave, highlighting the exceptional danger."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

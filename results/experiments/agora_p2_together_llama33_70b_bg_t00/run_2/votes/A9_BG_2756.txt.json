@@ -1,0 +1,174 @@
+{
+  "file_id": "A9_BG_2756.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители в резултат уж на ударите на руската армия по гражданска инфраструктура",
+        "reasoning": "The text shifts blame for potential civilian casualties to the Ukrainian government, implying they are planning a provocation to falsely accuse Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители",
+        "reasoning": "The text undermines the legitimacy of the Ukrainian government by accusing them of planning a provocation, implying they are capable of faking civilian casualties for political gain."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Групата трябва да заснеме снимки и видео на вече разрушени обекти от гражданската инфраструктура и да монтира видеа",
+        "reasoning": "The text implies that the media will be used to spread false information, as the group plans to create and publish manipulated videos, eroding trust in the media's ability to report truthfully."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Всички са преминали през подготовка в областта на информационно-психологическото въздействие под ръководството на британски и американски специалисти",
+        "reasoning": "The text suggests a hidden plot involving foreign specialists and Ukrainian authorities, implying a secretive and manipulative plan to shape public opinion."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители в резултат уж на ударите на руската армия по гражданска инфраструктура",
+        "reasoning": "The text directly attributes the planning of a provocation to the Kyiv regime, implying that Ukraine is responsible for staging an event to falsely accuse Russia of killing civilians, which shifts the blame away from Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители",
+        "reasoning": "The text undermines the legitimacy of the Ukrainian government by accusing it of planning a provocation, which discredits Ukraine's actions and intentions."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Групата трябва да заснеме снимки и видео на вече разрушени обекти от гражданската инфраструктура и да монтира видеа. За участие са привлечени националистически настроени активисти, подготвени от сътрудници на херсонското СБУ. Така създадените видеа се планира да бъдат публикувани в интернет и в украинските, а и в чуждестранните СМИ.",
+        "reasoning": "The text implies that the media will be used to spread false information about the situation in Kherson, which undermines trust in the media and suggests that it is being manipulated to promote a certain narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители в резултат уж на ударите на руската армия по гражданска инфраструктура",
+        "reasoning": "The text directly attributes the planning of a provocation to the Kyiv regime, implying that Ukraine is responsible for staging a false scenario to blame Russia for harming civilians."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители",
+        "reasoning": "This quote discredits Ukraine by suggesting that its government is planning a deceitful operation to falsely accuse Russia, undermining the legitimacy and integrity of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Групата трябва да заснеме снимки и видео на вече разрушени обекти от гражданската инфраструктура и да монтира видеа",
+        "reasoning": "The text implies that the media will be used to spread manipulated information, as the group's task is to create and edit videos that will be published in Ukrainian and foreign media, suggesting that these media outlets will disseminate false or staged information."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Ukrainian media cannot be trusted"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "matched": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

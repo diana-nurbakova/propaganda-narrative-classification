@@ -1,0 +1,71 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing Zelenskyy as a leader whose term has expired, implicitly questioning his legitimacy. It then presents his reported reluctance towards a ceasefire as a negative or obstructive stance, undermining his position and intentions regarding peace."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote, attributed to Zelenskyy via Orban, frames Ukraine's past adherence to ceasefires as a negative experience that harmed Ukraine. This subtly shifts the narrative away from Russia's role as the aggressor who might violate agreements, and instead presents Ukraine's defensive caution as an obstacle to peace."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимиру Зеленскому, срок полномочий которого истек 20 мая, не очень понравилась идея временно прекратить огонь",
+        "reasoning": "The text opens by framing Zelenskyy as a leader whose term has expired, implicitly questioning his legitimacy. It then presents his reported reluctance towards a ceasefire as a negative character trait, suggesting he is an obstacle to peace, which serves to undermine and discredit Ukraine's leadership and position."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он «интерпретировал как вредящие Украине».",
+        "reasoning": "This quote frames Ukraine's past experience with ceasefires as 'harmful' and implies that Ukraine's current stance (rejecting a ceasefire) is a primary obstacle to peace. This shifts the focus and potential blame for the continuation of hostilities away from Russia, the invading party, and onto Ukraine's leadership and its interpretation of past events."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

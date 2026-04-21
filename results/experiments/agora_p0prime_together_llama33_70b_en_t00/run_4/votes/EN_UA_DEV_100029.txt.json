@@ -1,0 +1,131 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is present but not in the list, however, a similar narrative 'URW: Discrediting Ukraine' is the opposite of what is found, the text actually praises Ukraine",
+      "URW: Overpraising the West"
+    ],
+    [],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is present but not in the list, however, a similar narrative 'URW: Discrediting Ukraine' is the opposite of what is found, the text actually praises Ukraine",
+        "evidence_quote": "Ukrainian troops are capable and trained",
+        "reasoning": "This quote does not fit any of the provided narratives directly, but it does the opposite of 'URW: Discrediting Ukraine', instead it praises Ukraine. However, since 'URW: Praise of Ukraine' is not in the list, and 'URW: Praise of Russia' is the closest related option, it's clear the text does not promote 'URW: Praise of Russia' but rather the opposite, which would be 'URW: Discrediting Russia' if it were in the list. Since 'URW: Discrediting Russia' is not an option, the correct interpretation is that 'URW: Discrediting Ukraine' is not present, and instead, the text presents a positive view of Ukraine, which does not fit the provided narratives."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "nine countries pledged to send over 150 Leopard tanks to Ukraine",
+        "reasoning": "This quote highlights the significant support provided by Western countries to Ukraine, which could be seen as overpraising the West, especially in the context of international relations and military aid."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "None, actually the text does the opposite, it praises Ukraine's military"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not praise Russia's actions or policies"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not criticize Western countries or diplomatic efforts"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Nine countries pledged to send over 150 Leopard tanks to Ukraine",
+        "reasoning": "This quote highlights the significant support provided by Western countries to Ukraine, which could be seen as overpraising their efforts"
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not shift blame away from Russia"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not portray Russia as being unfairly targeted or victimized"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not predict adverse outcomes for Western countries"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not question the reliability of media organizations"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not evoke fear or anxiety about potential threats"
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "None",
+        "reasoning": "None, the text does not suggest hidden plots or secretive actions"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 11
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

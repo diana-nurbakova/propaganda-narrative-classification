@@ -1,0 +1,161 @@
+{
+  "file_id": "A9_BG_3921.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Бившият външен министър на Австрия Карин Кнайсл потвърди в интервю за ТАСС в рамките на Петербургския международен икономически форум за съществуването на западни планове за разделяне на Русия на части.",
+        "reasoning": "The text directly promotes the narrative of a hidden Western plot by stating that a former Austrian foreign minister 'confirmed the existence of Western plans to divide Russia into parts.' This frames the West as having a secret, divisive agenda against Russia, aligning with the definition of suggesting hidden plots by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Преди дни президентът на Република Сръбска Милорад Додик заяви в интервю за ТАСС, че планът за разделяне на Русия на пет части е измислен от Запада...",
+        "reasoning": "The quote attributes the creation of a plan to divide Russia to the West, portraying Western diplomatic and strategic actions as aggressive and divisive. This directly criticizes and discredits Western intentions and policies."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "...руският президент Владимир Путин разбира тенденциите и застава начело на борбата за националните интереси на страната си.",
+        "reasoning": "This statement frames Russia, under Putin's leadership, as taking a defensive stand to protect its national interests against a perceived Western plot. It portrays Russia as reacting to and resisting external aggression, casting it in the role of a victim defending itself."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Бившият външен министър на Австрия Карин Кнайсл потвърди в интервю за ТАСС в рамките на Петербургския международен икономически форум за съществуването на западни планове за разделяне на Русия на части.",
+        "reasoning": "The text directly promotes the idea of a secret Western plan to dismember Russia, framing it as a confirmed fact ('потвърди') and linking it to a known Western think tank (the Atlantic Council). This aligns with the narrative of hidden plots by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Планът за разделяне на Русия на пет части е измислен от Запада",
+        "reasoning": "This quote, attributed to Milorad Dodik and reported in the text, directly accuses the West of inventing a plan to divide Russia. It portrays Western diplomatic and strategic actions as malicious and aggressive, which serves to discredit the West."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "руският президент Владимир Путин разбира тенденциите и застава начело на борбата за националните интереси на страната си.",
+        "reasoning": "This statement frames Russia and its president as taking a defensive stance against a perceived Western threat (the plan to divide the country). It portrays Russia as acting to protect its national interests in the face of external scheming, casting it in the role of a victim defending itself."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Бившият външен министър на Австрия Карин Кнайсл потвърди в интервю за ТАСС в рамките на Петербургския международен икономически форум за съществуването на западни планове за разделяне на Русия на части.",
+        "reasoning": "The text directly promotes the idea of a secret Western plan to dismember Russia, framing it as a confirmed fact ('потвърди') and linking it to a powerful Western think-tank (the Atlantic Council). This aligns with the narrative of hidden plots by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Преди дни президентът на Република Сръбска Милорад Додик заяви в интервю за ТАСС, че планът за разделяне на Русия на пет части е измислен от Запада...",
+        "reasoning": "The statement attributes a hostile, divisive plan to 'the West', portraying Western diplomatic and strategic actions as inherently aggressive and aimed at destroying a sovereign state. This serves to discredit Western intentions and foreign policy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "...руският президент Владимир Путин разбира тенденциите и застава начело на борбата за националните интереси на страната си.",
+        "reasoning": "This quote frames Russia and its leadership as being under threat from external Western plots, necessitating a defensive 'борба' (struggle/fight) to protect national interests. It portrays Russia as a victim of Western schemes, requiring a strong defensive response."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Hidden plots by secret schemes of powerful groups",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

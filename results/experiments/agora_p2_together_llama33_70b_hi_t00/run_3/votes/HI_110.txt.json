@@ -1,0 +1,181 @@
+{
+  "file_id": "HI_110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अमेरिका एवं ब्रिटेन पर होगा परमाणु हमला",
+        "reasoning": "The text mentions the possibility of a nuclear attack on America and Britain, which evokes fear and anxiety about potential threats and dangers."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रुस के राष्ट्रपति व्लादिमिर पुतिन ने अमेरिका एवं ब्रिटेन को कडी चेतावनी दी है",
+        "reasoning": "The text portrays Russia as being unfairly targeted and victimized by the West, with Putin warning of a nuclear attack in response to Western support for Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिम देशोढ दोनोन देशोढ दवारा होगा दो सालोन से गुजरात से लेकर रुस से युद्ध के दो साल से गुजरात से लेकर रुस से युद्ध",
+        "reasoning": "The text criticizes Western countries for their diplomatic efforts and portrays them as aggressive and supportive of Ukraine's attacks on Russia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अमेरिका और ब्रिटेन पर होगा परमाणु हमला, नाटो की धमकी के बाद पुतिन ने दे दी चेतावनी",
+        "reasoning": "The text evokes fear about potential threats and dangers, specifically the possibility of a nuclear attack on the US and the UK, which is a classic example of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पुतिन ने कहा कि अगर ये देश यूक्रेन को रूस पर हमला करने देंगे तो वे उन देशों पर हमला कर देंगे",
+        "reasoning": "The text portrays Russia as being unfairly targeted and victimized, with Putin framing Russia's potential attack on the US and the UK as a response to their alleged support for Ukraine's aggression."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "नाटो के धमकी के बाद पुतिन का हमला",
+        "reasoning": "The text criticizes Western countries, specifically NATO, for their alleged aggression and support for Ukraine, which is a classic example of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "इस हालात में रूस कर सकता है परमाणु हमला",
+        "reasoning": "The text speculates about the potential outcomes of the conflict, including the possibility of a nuclear attack, which is a classic example of speculating war outcomes."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अमेरिका और ब्रिटेन पर होगा परमाणु हमला, नाटो की धमकी के बाद पुतिन ने दे दी चेतावनी",
+        "reasoning": "The text evokes fear about potential threats and dangers, specifically the possibility of a nuclear attack on the US and Britain, which is a classic example of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पुतिन ने कहा कि अगर ये देश यूक्रेन को रूस पर हमला करने देंगे तो वे उन देशों पर हमला कर देंगे",
+        "reasoning": "The text portrays Russia as being unfairly targeted and victimized, with Putin framing Russia's potential attack on the US and Britain as a response to their support for Ukraine's aggression."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "नाटो के धमकी के बाद पुतिन का हमला",
+        "reasoning": "The text criticizes Western countries, specifically NATO, for their actions and policies, implying that they are responsible for the escalation of the conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

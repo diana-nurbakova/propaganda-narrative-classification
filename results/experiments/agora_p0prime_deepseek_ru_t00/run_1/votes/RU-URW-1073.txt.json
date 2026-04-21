@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1073.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом. Но только потом не жалуйтесь. Украинский народ тебя уже проклял.",
+        "reasoning": "The quote directly attacks the Ukrainian leadership, portraying them as callous and disconnected from the people, sacrificing lives while in safety, and claiming the Ukrainian people have cursed them. This undermines the legitimacy and actions of Ukraine's government."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The quote sarcastically suggests the Ukrainian official's statement is not his own but is delivered according to an 'American playbook,' implying Western (specifically American) manipulation and discrediting the sincerity of Western-aligned diplomatic rhetoric about values."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом. Но только потом не жалуйтесь. Украинский народ тебя уже проклял.",
+        "reasoning": "This quote directly attacks the Ukrainian leadership (specifically Andriy Yermak) by portraying him as callously sacrificing Ukrainian lives from a position of safety, and claims the Ukrainian people have cursed him. This undermines the legitimacy and intentions of Ukraine's government."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The quote sarcastically suggests that the Ukrainian official's statement is not his own but is delivered according to an 'American playbook.' This discredits Western (specifically American) influence and diplomacy by implying Ukraine is merely parroting Western talking points without independent thought or genuine conviction."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом. Но только потом не жалуйтесь. Украинский народ тебя уже проклял.",
+        "reasoning": "The quote directly attacks the Ukrainian leadership, portraying them as callous and disconnected from their people, willing to sacrifice lives while in safety, and claiming the Ukrainian people have cursed them. This undermines the legitimacy and intentions of Ukraine's government."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The quote sarcastically dismisses the Ukrainian official's statement as merely following an 'American playbook,' implying his words are not genuine but dictated by Western (specifically American) interests, thereby discrediting Western diplomatic influence and portraying it as manipulative."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

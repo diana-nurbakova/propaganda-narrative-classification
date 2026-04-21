@@ -1,0 +1,168 @@
+{
+  "file_id": "PT_213.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Controversy about green technologies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities involved in the COP28, specifically the presence of companies like Braskem, implying that their participation is hypocritical and aimed at creating a false appearance of commitment to environmental sustainability."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "A verdadeira mudança nos rumos climáticos do mundo não virá apenas de uma retórica eloquente e bonita para ser repetida nas conferências mundiais, mas sim através de uma prática incisiva e transformadora para todos",
+        "reasoning": "This quote challenges the effectiveness and sincerity of the climate movement, suggesting that mere rhetoric and participation in conferences like COP28 are insufficient for real change, implying that the movement is more focused on appearances than actual transformative action."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Trata-se de um ato criminoso de greenwashing.",
+        "reasoning": "This quote expresses skepticism and criticism towards green technologies or practices by accusing companies like Braskem of greenwashing, implying that their environmental efforts are superficial or deceptive."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities involved in the COP28, specifically the presence of companies like Braskem, implying that their participation is hypocritical and aimed at creating a false appearance of commitment to environmental sustainability."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "A verdadeira mudança nos rumos climáticos do mundo não virá apenas de uma retórica eloquente e bonita para ser repetida nas conferências mundiais, mas sim através de uma prática incisiva e transformadora para todos",
+        "reasoning": "This quote challenges the effectiveness and sincerity of the climate movement, suggesting that mere rhetoric and conferences are not enough to bring about real change, implying that the movement is more focused on appearances than actual transformative actions."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Trata-se de um ato criminoso de greenwashing.",
+        "reasoning": "This quote expresses skepticism and criticism towards green technologies or practices, specifically accusing companies like Braskem of 'greenwashing', which implies that their environmental efforts are superficial or deceptive."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities involved in the COP28, specifically the presence of companies like Braskem, implying that their participation is hypocritical and aimed at creating a false image of commitment to environmental sustainability."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "A verdadeira mudança nos rumos climáticos do mundo não virá apenas de uma retórica eloquente e bonita para ser repetida nas conferências mundiais, mas sim através de uma prática incisiva e transformadora para todos",
+        "reasoning": "This quote challenges the effectiveness and sincerity of the climate movement, suggesting that mere rhetoric and participation in conferences like COP28 are insufficient for real change, implying that the movement is more focused on appearances than actual transformative actions."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Trata-se de um ato criminoso de greenwashing.",
+        "reasoning": "This quote expresses skepticism and criticism towards the environmental practices of companies like Braskem, accusing them of greenwashing, which implies that their claims of environmental responsibility are false or misleading, thus controversy about the genuine commitment to green technologies."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate movement",
+    "CC: Controversy about green technologies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other",
+    "CC: Controversy about green technologies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

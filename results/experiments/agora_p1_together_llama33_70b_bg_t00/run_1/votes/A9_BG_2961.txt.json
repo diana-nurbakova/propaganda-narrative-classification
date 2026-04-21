@@ -1,0 +1,111 @@
+{
+  "file_id": "A9_BG_2961.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално, да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Текстът директно обвинява Русия за терор и атаки срещу цивилни, което е противоположно на това да се обвиняват други за войната."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "едва когато (руският му колега Владимир) Путин загуби способността си да атакува цивилни и гражданска инфраструктура, той ще бъде принуден да спре своя терор",
+        "reasoning": "Текстът спекулира за бъдещи действия и последствия от войната, конкретно кога Путин ще спре терора си."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Това е, с което Русия постоянно воюва. Основната цел на Русия е да превърне терора в нещо нормално",
+        "reasoning": "Текстът цитира действията на Русия като терор и атаки срещу цивилни, което е предназначено да евоцира страх и тревога относно войната."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "",
+        "reasoning": null
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 11
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,196 @@
+{
+  "file_id": "BG_63.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "Текстът използва драматичен език, за да опише очакваните урагани, което създава тревога и страх сред читателите."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Ураганите от категория 3 развиват скорост на вятъра над 178 километра в час и нанасят опустошителни щети на къщи, изкореняват дървета и често прекъсват електроснабдяването и водоснабдяването за дни и дори седмици.",
+        "reasoning": "Текстът описва подробно разрушителните последствия от ураганите, което допълнително увеличава тревогата и страха сред читателите."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Ограничаването на задържащите топлината емисии, които са причина за климатичната криза, е от съществено значение.",
+        "reasoning": "Текстът подчертава важността на ограничаване на емисиите, което имплицира, че климатичната криза е сериозна и че е необходимо да се вземат мерки за нея."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "Текстът представя сезона на ураганите като нещо страшно и невиждано, което предизвиква тревога и безпокойство сред читателите."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Ураганите от категория 3 развиват скорост на вятъра над 178 километра в час и нанасят опустошителни щети на къщи, изкореняват дървета и често прекъсват електроснабдяването и водоснабдяването за дни и дори седмици.",
+        "reasoning": "Текстът описва ураганите от категория 3 като опустошителни, което допълнително увеличава страха и тревогата сред читателите."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Ограничаването на задържащите топлината емисии, които са причина за климатичната криза, е от съществено значение.",
+        "reasoning": "Текстът подчертава важността на ограничаването на емисиите, които способстват за климатичната криза, което още повече увеличава тревогата и безпокойството сред читателите относно предстоящия сезон на ураганите."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "Текстът представя сезона на ураганите като нещо страшно и невиждано, което предизвиква тревога и безпокойство сред читателите."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Ураганите от категория 3 развиват скорост на вятъра над 178 километра в час и нанасят опустошителни щети на къщи, изкореняват дървета и често прекъсват електроснабдяването и водоснабдяването за дни и дори седмици.",
+        "reasoning": "Текстът описва ураганите от категория 3 като опустошителни, което допълнително увеличава тревогата и безпокойството сред читателите."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Ограничаването на задържащите топлината емисии, които са причина за климатичната криза, е от съществено значение.",
+        "reasoning": "Текстът подчертава важността на ограничаването на емисиите, което имплицира, че климатичната криза е сериозна и че е необходимо да се вземат мерки за ограничаване на емисиите, за да се предотвратят опустошителните последствия."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Amplifying Climate Fears",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "experiment_id": "baseline_p1_deepseek_en_t00",
+  "base_config": "configs/experiments/generated/emnlp/baseline_p1_deepseek_en_t00.yaml",
+  "n_runs": 3,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943
+  ],
+  "sequential": true,
+  "started_at": "2026-04-21T14:06:38.362525",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\baseline_p1_deepseek_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p1_deepseek_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T14:06:38.362525",
+      "completed_at": "2026-04-21T14:12:18.437130",
+      "duration_seconds": 340.074605
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\baseline_p1_deepseek_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p1_deepseek_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T14:12:48.442828",
+      "completed_at": "2026-04-21T14:18:43.579570",
+      "duration_seconds": 355.136742
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\baseline_p1_deepseek_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p1_deepseek_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T14:19:13.588801",
+      "completed_at": "2026-04-21T14:24:35.180790",
+      "duration_seconds": 321.591989
+    }
+  ],
+  "completed_at": "2026-04-21T14:24:35.183789",
+  "total_duration_seconds": 1016.8033360000001,
+  "successful_runs": 3,
+  "failed_runs": 0
+}

@@ -1,0 +1,179 @@
+{
+  "file_id": "RU-URW-1043.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Владимир Путин прилетел в Астану, где примет участие в саммите ШОС и проведёт ряд встреч, в том числе с Эрдоганом, Си Цзиньпином и Алиевым.",
+        "reasoning": "This quote praises Russia by highlighting the importance and influence of its leader, Vladimir Putin, in international relations, as evidenced by his participation in the SHOS summit and meetings with other prominent leaders."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "This quote discredits Ukraine by implying that its intelligence agency is involved in illegal activities, such as espionage, against Russia, which undermines Ukraine's legitimacy and intentions."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Владимир Путин прилетел в Астану, где примет участие в саммите ШОС и проведёт ряд встреч, в том числе с Эрдоганом, Си Цзиньпином и Алиевым.",
+        "reasoning": "This quote praises Russia by highlighting the importance of Putin's participation in the SHOS summit and his meetings with other prominent leaders, showcasing Russia's international influence and diplomatic capabilities."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "This quote discredits Ukraine by implying that its intelligence agency is involved in espionage and sabotage activities against Russia, portraying Ukraine as a threat to Russia's security."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct evidence in the text to support the narrative of distrust towards media."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct evidence in the text to support the narrative of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct evidence in the text to support the narrative of discrediting the West, diplomacy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Владимир Путин прилетел в Астану, где примет участие в саммите ШОС и проведёт ряд встреч, в том числе с Эрдоганом, Си Цзиньпином и Алиевым.",
+        "reasoning": "This quote suggests that Vladimir Putin is actively engaged in international relations and diplomacy, which can be seen as a positive attribute of Russia's leadership and foreign policy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "This quote implies that Western-backed Ukraine is involved in espionage and sabotage against Russia, which can be seen as a criticism of Western diplomatic efforts and policies."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Йеменские хуситы нанесли ракетные удары по Хайфе совместно с 'Исламским сопротивлением Ирака'.",
+        "reasoning": "This quote reports on a military action and its success, which can be seen as a speculation about the outcome of the conflict and the capabilities of the involved parties."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "file_id": "EN_UA_DEV_100004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian forces' advance, suggesting they may cut off Ukrainian military supplies and surround the Ukrainian grouping, which is a prediction about the potential results of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The Russian army is developing its offensive in Avdeevka, which was turned into a large stronghold by the Ukrainian military during the war in Donbass.",
+        "reasoning": "This quote implies that the Ukrainian military has turned Avdeevka into a stronghold, which could be seen as undermining the legitimacy of Ukraine's actions or intentions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant.",
+        "reasoning": "This quote positively highlights Russia's military actions, suggesting they are making progress and achieving their objectives, which is a form of praise for Russia's military capabilities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian forces' advance, suggesting they may cut off Ukrainian military supplies and surround the Ukrainian grouping, which is a prediction about the conflict's progression."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "the Ukrainian military during the war in Donbass",
+        "reasoning": "This quote implies that Ukraine is responsible for the conflict in Donbass, undermining Ukraine's legitimacy and actions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant",
+        "reasoning": "This quote positively highlights Russia's military actions and advancements, showing their strength and control in the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian forces' advance, suggesting that they may be able to cut off Ukrainian military supplies and surround the Ukrainian grouping, which is a prediction about the potential results of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The Russian army is developing its offensive in Avdeevka, which was turned into a large stronghold by the Ukrainian military during the war in Donbass.",
+        "reasoning": "This quote implies that the Ukrainian military has been using Avdeevka as a stronghold, which could be seen as a negative portrayal of Ukraine's actions, suggesting that they are using the area for military purposes."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant.",
+        "reasoning": "This quote presents the Russian forces' advance as a successful operation, which could be seen as praise for their military capabilities and actions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Discrediting Ukraine",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Ukrainian army is collapsing",
+    "URW: Speculating war outcomes: Other",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russian invasion has strong national support"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Ukrainian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

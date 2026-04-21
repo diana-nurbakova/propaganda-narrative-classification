@@ -1,0 +1,103 @@
+{
+  "file_id": "BG_950.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of green technologies",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "Downplaying climate change",
+      "Controversy about green technologies",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което се използва като пример за това, че глобалното затопляне не е толкова сериозен проблем, както се представя, и че текущите температури са по-ниски, отколкото би трябвало да бъдат според прогнозите за затопляне."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "Текстът критикува електрическите автобуси като зелената технология, която не е подходяща за всички климатични условия, конкретно при ниски температури, което показва съмнения в ефективността и практичността на тези технологии."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "Текстът критикува инвестирането в електрически автобуси като част от климатичните политики, които не са ефективни в реални условия, което представя критика към мотивите и решението за инвестиране в тези технологии."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което се използва като пример за това, че глобалното затопляне не е толкова сериозен проблем, както се представя, и че текущите климатични условия са по-екстремални от това, което би трябвало да бъде в случай на затопляне."
+      },
+      {
+        "narrative_name": "CC: Criticism of green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "Текстът критикува електрическите автобуси като зелената технология, която не е подходяща за всички климатични условия, особено при ниски температури, което показва, че тази технология не е толкова ефективна, колкото се твърди."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Според мен глобалното затъпяване ще ни затрие преди всякакви климатични промени!",
+        "reasoning": "Текстът поставя под въпросе научните данни и измерванията, свързани с глобалното затопляне, като предполага, че текущите климатични условия не се съотнасят с прогнозите за затопляне, и че има други фактори, които биха могли да бъдат от по-голямо значение."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "The text implies that the extremely cold temperatures in Sweden are evidence against the idea of global warming, suggesting that more global warming is needed for electric buses to function properly, which downplays the significance of climate change."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "The text expresses skepticism about the effectiveness of electric buses in cold temperatures, highlighting their limitations and implying that they may not be a reliable green technology."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "The text criticizes the decision to invest in electric buses as a measure to combat climate change, implying that this policy is misguided or ineffective."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,162 @@
+{
+  "file_id": "PT_225.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "No entanto, mesmo perante a emergência, a manada continua a passar no Congresso e o negacionismo continua a matar e a colocar vidas em risco.",
+        "reasoning": "This quote criticizes the institutions and authorities, specifically the Congress, for their inaction and promotion of climate change denial, which is leading to harmful consequences."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Desastres como o da RS já não serão eventuais. O climatologista Carlos Nobre faz-nos um alerta e explica que os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem parte de um fenômeno que já não pode ser evitado.",
+        "reasoning": "This quote amplifies fears about climate change by stating that extreme events will become more frequent and are part of an unavoidable phenomenon."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "No entanto, mesmo perante a emergência, a manada continua a passar no Congresso e o negacionismo continua a matar e a colocar vidas em risco.",
+        "reasoning": "This quote criticizes the institutions and authorities, specifically the Congress, for their inaction and promotion of climate change denial, which is putting lives at risk."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Desastres como o da RS já não serão eventuais. O climatologista Carlos Nobre faz-nos um alerta e explica que os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem parte de um fenômeno que já não pode ser evitado.",
+        "reasoning": "This quote amplifies fears about climate change by stating that extreme events will become more frequent and are part of an unavoidable phenomenon."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "O nível de políticos que não querem aprovar orçamentos que vão nestas medidas de aumentar muito a resiliência dos brasileiros em relação aos extremos climáticos é elevado.",
+        "reasoning": "This quote criticizes the climate movement by implying that politicians are not taking adequate action to address climate change, which could be seen as a criticism of the movement's effectiveness."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "No entanto, mesmo perante a emergência, a manada continua a passar no Congresso e o negacionismo continua a matar e a colocar vidas em risco.",
+        "reasoning": "This quote criticizes the institutions and authorities, specifically the Congress, for their inaction and promotion of climate change denial, which is leading to harmful consequences."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Desastres como o da RS já não serão eventuais. O climatologista Carlos Nobre faz-nos um alerta e explica que os eventos extremos provocados pelas alterações climáticas serão cada vez mais frequentes e fazem parte de um fenômeno que já não pode ser evitado.",
+        "reasoning": "This quote amplifies fears about climate change by stating that extreme events will become more frequent and are unavoidable, creating a sense of urgency and alarm."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "O nível de políticos que não querem aprovar orçamentos que vão nestas medidas de aumentar muito a resiliência dos brasileiros em relação aos extremos climáticos é elevado.",
+        "reasoning": "This quote criticizes the climate movement by implying that politicians are not taking adequate action to address climate change, and that their inaction is exacerbating the problem."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

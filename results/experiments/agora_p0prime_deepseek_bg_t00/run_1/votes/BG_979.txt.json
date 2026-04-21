@@ -1,0 +1,114 @@
+{
+  "file_id": "BG_979.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate movement",
+      "Criticism of climate policies",
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "До толкова човечеството е „обсебено“ от този проблем, че той се изражда се в нещо подобно на религия.",
+        "reasoning": "The text directly frames the fight against climate change as a fanatical, quasi-religious obsession, which challenges the motives and integrity of the climate movement by comparing it to a cult or faith."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Въглеродните налози се въвеждат по целия свят в името на борбата с изменението на климата. В Канада въглеродният данък добавя около 12 цента към цената на всеки литър бензин, увеличава цената на въглищата със 100%, а на природния газ със 75%.",
+        "reasoning": "This quote highlights the economic impact of carbon taxes, presenting them as a burdensome financial imposition on citizens, which aligns with criticizing the effectiveness and impact of climate policies."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "От първия момент на съществуване на Земята нейният климат постоянно се променя. Той е повлиян от Слънцето, геоложки фактори, процеси в околната среда и дори от странни явления като комети, астероиди и др.",
+        "reasoning": "This statement emphasizes natural climate variability throughout Earth's history, implicitly minimizing the unique significance and impact of contemporary human-caused climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Подобно на свещеници, епископи и теолози, които четат Свещеното писание и обясняват значението му на миряните, Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "By comparing the IPCC to religious clergy interpreting scripture, the text casts doubt on the scientific process, suggesting its findings are a matter of subjective interpretation rather than objective data."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "До толкова човечеството е „обсебено“ от този проблем, че той се изражда се в нещо подобно на религия.",
+        "reasoning": "The text directly frames the fight against climate change as a fanatical, quasi-religious obsession, which challenges the motives and integrity of the climate movement by comparing it to a cult or faith."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Подобно на свещеници, епископи и теолози, които четат Свещеното писание и обясняват значението му на миряните, Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "This quote compares the UN's IPCC to religious clergy interpreting scripture, implicitly challenging its authority and the objective, scientific nature of its work by framing it as a dogmatic, faith-based institution."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "„Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”; „Учените са единодушни - остават ни не повече от 12 години, за да предприемем решителни действия в тази посока.”",
+        "reasoning": "The text quotes and presents apocalyptic predictions about climate change without critique, thereby actively amplifying fears about its catastrophic and imminent consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "До толкова човечеството е „обсебено“ от този проблем, че той се изражда се в нещо подобно на религия.",
+        "reasoning": "The text directly frames the fight against climate change as a fanatical, quasi-religious obsession, which challenges the motives and integrity of the climate movement by comparing it to a cult or faith."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Подобно на свещеници, епископи и теолози, които четат Свещеното писание и обясняват значението му на миряните, Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "This quote compares the UN's IPCC to religious clergy interpreting scripture, implying their authority is dogmatic and their interpretations are akin to preaching, thus challenging the competence and intentions of the institution."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "„Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”; „Учените са единодушни - остават ни не повече от 12 години, за да предприемем решителни действия в тази посока.”",
+        "reasoning": "The text quotes politicians making explicit, dire apocalyptic predictions about climate change, which serves to emphasize and amplify fears about its consequences."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate movement",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

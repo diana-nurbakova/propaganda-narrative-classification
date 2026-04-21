@@ -1,0 +1,196 @@
+{
+  "file_id": "EN_CC_200079.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote criticizes the World Economic Forum for prioritizing the interests of elites over those of ordinary citizens, implying that the institution is acting in a self-serving and undemocratic manner."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote suggests that the World Economic Forum is part of a larger scheme by powerful elites to undermine the rights of ordinary citizens, implying a hidden agenda or secret plot."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Klaus Schwab’s World Economic Forum (WEF) has issued guidelines regarding how often the public should be allowed to wash their clothes, including underwear and gym clothes.",
+        "reasoning": "This quote criticizes the World Economic Forum's climate policy, specifically the guidelines on clothing washing, implying that such policies are overly restrictive and intrusive."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote criticizes the World Economic Forum for prioritizing the interests of elites over those of ordinary citizens, implying that the institution is acting against the public's best interests."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote suggests that the World Economic Forum is part of a larger scheme by powerful groups to undermine the rights of ordinary citizens, implying a hidden agenda."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Now, according to Schwab, the threat of climate change means people no longer have the right to wear laundered and clean clothes.",
+        "reasoning": "This quote criticizes a specific climate policy proposed by Klaus Schwab, implying that it is an overreach and an infringement on personal freedom."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote criticizes the World Economic Forum for prioritizing the interests of elites over those of ordinary citizens, implying that the institution is acting in a self-serving and undemocratic manner."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote suggests that the World Economic Forum is part of a larger scheme by powerful elites to undermine the rights of ordinary citizens, implying a hidden agenda or secret motive."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Klaus Schwab’s World Economic Forum (WEF) has issued guidelines regarding how often the public should be allowed to wash their clothes, including underwear and gym clothes.",
+        "reasoning": "This quote criticizes the World Economic Forum's climate policy initiative, implying that the guidelines are overly restrictive and intrusive, and that the focus on individual behavior is misguided."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

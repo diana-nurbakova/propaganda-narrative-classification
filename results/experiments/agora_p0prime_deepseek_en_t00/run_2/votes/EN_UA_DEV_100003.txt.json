@@ -1,0 +1,136 @@
+{
+  "file_id": "EN_UA_DEV_100003.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "\"Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.\"",
+        "reasoning": "The quote is a direct prediction and assumption about the potential future results of the conflict, specifically forecasting a Russian advance to the Ukrainian capital."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,\"",
+        "reasoning": "The statement positively highlights and glorifies Russia's territorial claims and cultural influence, presenting the annexation of Odesa as a rightful and desirable homecoming."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "\"Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.\"",
+        "reasoning": "The quote is a direct prediction and assumption about the potential future results of the conflict, specifically forecasting a Russian advance to the Ukrainian capital."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,\" Medvedev said.",
+        "reasoning": "The quote positively highlights Russia's territorial claims and actions, glorifying the annexation of Ukrainian territory and presenting it as a rightful, historical return."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "\"Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.\"",
+        "reasoning": "The quote is a direct prediction and assumption about the potential future results of the conflict, specifically that Russian forces will likely advance to and capture the Ukrainian capital Kyiv."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,\"",
+        "reasoning": "The quote positively highlights and glorifies Russia's territorial claims and cultural influence, presenting the annexation of Odesa as a rightful and desirable homecoming for a 'Russian city'."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

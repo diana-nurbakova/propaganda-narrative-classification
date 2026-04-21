@@ -1,0 +1,143 @@
+{
+  "file_id": "RU-URW-1069.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "стал частью общества свободной и сильной страны, где есть место помощи тем, кто в ней нуждается",
+        "reasoning": "The quote expresses a positive view of Russia, describing it as a 'strong and free country' that provides help to those in need, which aligns with the narrative of praising Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "угнавший Т-64 танкист ВСУ",
+        "reasoning": "The text implies that a Ukrainian soldier defected to Russia, which could be seen as undermining the legitimacy or effectiveness of the Ukrainian military, aligning with the narrative of discrediting Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "стал частью общества свободной и сильной страны, где есть место помощи тем, кто в ней нуждается",
+        "reasoning": "The quote expresses a positive view of Russia, describing it as a 'strong' and 'free' country that provides help to those in need, which aligns with the narrative of praising Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "угнавший Т-64 танкист ВСУ",
+        "reasoning": "The text implies that a Ukrainian soldier defected to Russia, which could be seen as undermining the legitimacy or effectiveness of the Ukrainian military, fitting the narrative of discrediting Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "стал частью общества свободной и сильной страны, где есть место помощи тем, кто в ней нуждается",
+        "reasoning": "The quote expresses admiration for Russia, describing it as a 'strong' and 'free' country that provides help to those in need, which aligns with the definition of praising Russia's actions, policies, or character."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "угнавший Т-64 танкист ВСУ",
+        "reasoning": "The text implies that a Ukrainian soldier defected to Russia, which could be seen as undermining the legitimacy or effectiveness of the Ukrainian military, fitting the narrative of discrediting Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russian invasion has strong national support",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

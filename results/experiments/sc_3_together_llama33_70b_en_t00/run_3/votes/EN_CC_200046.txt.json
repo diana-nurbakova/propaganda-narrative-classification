@@ -1,0 +1,222 @@
+{
+  "file_id": "EN_CC_200046.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "CC: Climate change is beneficial",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "This quote directly presents an argument that elevated CO2 levels have a positive effect on the environment, specifically increasing vegetation growth and water availability, which aligns with the definition of the 'Climate change is beneficial' narrative."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The sequestration of carbon dioxide is a grave mistake that will slowly harm important ecosystems in the Northern Hemisphere.",
+        "reasoning": "This quote criticizes the policy of sequestering carbon dioxide, implying that it is harmful to ecosystems, which fits the definition of criticizing climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "This quote challenges the integrity and motives of the Democrats, implying they are using climate change as a means to guilt the world into unnecessary actions, which aligns with the definition of criticizing institutions and authorities."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "It’s a spiral of death and destruction, coming from a death cult pretending to be the planet’s savior.",
+        "reasoning": "This quote downplays the significance of climate change by portraying those who advocate for addressing it as part of a 'death cult', implying their concerns are exaggerated or misguided."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "This quote directly presents an argument that elevated CO2 levels have a positive effect on the environment by increasing vegetation growth and water availability, which aligns with the definition of the 'Climate change is beneficial' narrative."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The sequestration of carbon dioxide is a grave mistake that will slowly harm important ecosystems in the Northern Hemisphere.",
+        "reasoning": "This statement questions the effectiveness of climate policies aimed at reducing CO2 levels, suggesting that such efforts could harm ecosystems, which fits the 'Criticism of climate policies' narrative."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "This quote criticizes the actions and motives of a specific political group (Democrats) in relation to climate change policies, implying they are misleading or exploiting the issue for financial gain, which aligns with the 'Criticism of institutions and authorities' narrative."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "It’s a spiral of death and destruction, coming from a death cult pretending to be the planet’s savior.",
+        "reasoning": "While this quote does not directly downplay climate change, the context and the preceding criticism of climate policies and institutions imply a minimization of the significance of climate change as a threat, suggesting that the real issue lies with the response to it rather than the phenomenon itself."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "CO2 is the GREENING molecule: New study shows how elevated CO2 levels increase vegetation growth and WATER AVAILABILITY in the Northern Hemisphere",
+        "reasoning": "This quote directly presents an argument that elevated CO2 levels have a positive effect on the environment by increasing vegetation growth and water availability, which aligns with the definition of the 'CC: Climate change is beneficial' narrative."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The sequestration of carbon dioxide is a grave mistake that will slowly harm important ecosystems in the Northern Hemisphere.",
+        "reasoning": "This quote questions the effectiveness of climate policies, specifically the sequestration of carbon dioxide, implying it will have negative consequences, which fits the 'CC: Criticism of climate policies' narrative."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Of course, as wildfires and droughts increase, Democrats will continue to deride “climate change” as the greatest threat and continue to guilt the world into paying more to remove carbon dioxide from the atmosphere.",
+        "reasoning": "This quote challenges the integrity and intentions of the Democrats, implying they are using climate change as a means to manipulate and profit, which aligns with the 'CC: Criticism of institutions and authorities' narrative."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Climate change is beneficial",
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Downplaying climate change"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Climate change is beneficial: CO2 is beneficial",
+    "CC: Climate change is beneficial: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Downplaying climate change: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Climate change is beneficial",
+      "matched": "CC: Climate change is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Climate change is beneficial: CO2 is beneficial",
+      "matched": "CC: Climate change is beneficial: CO2 is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Climate change is beneficial: Other",
+      "matched": "CC: Climate change is beneficial: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

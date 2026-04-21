@@ -1,0 +1,168 @@
+{
+  "file_id": "A9_BG_2756.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители в резултат уж на ударите на руската армия по гражданска инфраструктура",
+        "reasoning": "The text directly attributes the planning of a provocation to the Kyiv regime, implying that they are responsible for the potential harm to civilians, rather than Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители",
+        "reasoning": "The text discredits Ukraine by accusing its regime of planning a provocation that involves faking the killing of civilians, which undermines the legitimacy and intentions of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Групата трябва да заснеме снимки и видео на вече разрушени обекти от гражданската инфраструктура и да монтира видеа",
+        "reasoning": "The text implies that the media will be used to spread manipulated information, as the group's task is to create and edit videos that will be published in Ukrainian and foreign media, which can erode trust in the media's ability to report truthfully."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители в резултат уж на ударите на руската армия по гражданска инфраструктура",
+        "reasoning": "The text directly attributes the planning of a provocation involving the staged killing of civilians to the Kyiv regime, shifting blame away from Russia for potential harm to civilians in the context of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители",
+        "reasoning": "The text undermines the legitimacy of Ukraine by accusing its regime of planning a provocation that involves staging the killing of civilians, thereby attacking the actions and intentions of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Групата трябва да заснеме снимки и видео на вече разрушени обекти от гражданската инфраструктура и да монтира видеа",
+        "reasoning": "The text implies that the media (through the group of directors and correspondents) will be involved in creating and disseminating manipulated or staged footage, which undermines trust in the information sources and media outlets that might report on such staged events."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители в резултат уж на ударите на руската армия по гражданска инфраструктура",
+        "reasoning": "The text directly attributes the planning of a provocation to the Kyiv regime, implying that Ukraine is responsible for the potential harm to civilians, rather than Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Киевският режим подготвя в Херсон провокация с инсценировка на гибелта на мирни жители",
+        "reasoning": "The text discredits Ukraine by accusing it of planning a provocation that involves faking the killing of civilians, which undermines the legitimacy and actions of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Групата трябва да заснеме снимки и видео на вече разрушени обекти от гражданската инфраструктура и да монтира видеа",
+        "reasoning": "The text implies that the media will be used to spread false information about the situation in Kherson, which erodes trust in the media and suggests that it is being manipulated for propaganda purposes."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Ukrainian media cannot be trusted"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "matched": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

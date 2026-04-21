@@ -1,0 +1,148 @@
+{
+  "file_id": "PT_216.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter terminativo na Comissão de Meio Ambiente do Senado Federal, o que impediu o aprofundamento do debate sobre um aspeto importante e que pode trazer grandes prejuízos ao país se não for revisto pela Câmara dos Deputados.",
+        "reasoning": "A crítica às políticas climáticas está presente porque o texto questiona a eficácia e a justiça do projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, argumentando que ele pode trazer prejuízos ao país e desincentivar a gestão de resíduos."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários.",
+        "reasoning": "A crítica às instituições e autoridades está presente porque o texto critica a falta de compreensão e reconhecimento das autoridades, legisladores e políticos sobre a importância dos aterros sanitários e a necessidade de distingui-los dos lixões."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Os operadores de aterros sanitários não são poluidores — pelo contrário, atenuam os danos que os resíduos podem causar. Deveriam ser incentivados.",
+        "reasoning": "A controvérsia sobre tecnologias verdes está presente porque o texto defende a importância dos aterros sanitários como uma tecnologia verde que mitiga os danos ambientais e deveria ser incentivada, em vez de ser tratada como poluidora."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter terminativo na Comissão de Meio Ambiente do Senado Federal, o que impediu o aprofundamento do debate sobre um aspeto importante e que pode trazer grandes prejuízos ao país se não for revisto pela Câmara dos Deputados.",
+        "reasoning": "A crítica às políticas climáticas está presente porque o texto questiona a eficácia e a justiça do projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, argumentando que ele pode trazer prejuízos ao país e desincentivar a gestão de resíduos."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários.",
+        "reasoning": "A crítica às instituições e autoridades está presente porque o texto critica a falta de compreensão e reconhecimento das autoridades, legisladores e políticos sobre a importância dos aterros sanitários e a necessidade de distingui-los dos lixões."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Os operadores de aterros sanitários não são poluidores — pelo contrário, atenuam os danos que os resíduos podem causar. Deveriam ser incentivados.",
+        "reasoning": "A controvérsia sobre tecnologias verdes está presente porque o texto defende a importância dos aterros sanitários como uma tecnologia verde que mitiga os danos ambientais e deveria ser incentivada, em vez de ser tratada como poluidora."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "O projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, foi aprovado em caráter terminativo na Comissão de Meio Ambiente do Senado Federal, o que impediu o aprofundamento do debate sobre um aspeto importante e que pode trazer grandes prejuízos ao país se não for revisto pela Câmara dos Deputados.",
+        "reasoning": "A crítica à política climática está presente porque o texto questiona a eficácia e a justiça do projeto de lei 412/2022, que regulamenta o mercado de carbono no Brasil, argumentando que ele pode trazer prejuízos ao país e desincentivar a gestão de resíduos."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "As autoridades, os legisladores e os políticos deveriam reconhecer a diferença dos aterros sanitários.",
+        "reasoning": "A crítica às instituições e autoridades está presente porque o texto critica a falta de compreensão e reconhecimento das autoridades, legisladores e políticos em relação à importância dos aterros sanitários e à sua diferença em relação às lixeiras."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of international entities"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

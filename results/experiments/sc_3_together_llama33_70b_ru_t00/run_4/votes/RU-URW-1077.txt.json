@@ -1,0 +1,141 @@
+{
+  "file_id": "RU-URW-1077.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "Эта цитата поддерживает нарратив дискредитации Запада и дипломатии, поскольку она подразумевает, что НАТО несет ответственность за коренные причины украинского конфликта, а не признает свою роль в разрешении конфликта."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "Эта цитата поддерживает нарратив обвинения других в войне, поскольку она перекладывает ответственность за конфликт на НАТО, а не на Россию, которая является стороной, совершившей вторжение."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Представитель СМИ обратился к дипломату с просьбой дать комментарий по поводу высказывания президента Финляндии Александера Стубба, который утверждал, что Россия якобы настолько зависит от Китая, что один звонок председателя КНР Си Цзиньпина может урегулировать украинский кризис.",
+        "reasoning": "Эта цитата не поддерживает напрямую нарратив дискредитации Украины, но она упоминает украинский кризис в контексте зависимости России от Китая, что может быть рассмотрено как косвенная дискредитация Украины."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Представитель китайского МИД в очередной раз обратила внимание, что Пекин не являлся инициатором конфликта на Украине и не участвует в нем.",
+        "reasoning": "Эта цитата не поддерживает напрямую нарратив о том, что Россия является жертвой, но она подчеркивает, что Китай не участвует в конфликте, что может быть рассмотрено как попытка отвлечь внимание от роли России в конфликте."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "",
+        "reasoning": ""
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта. Дипломат общала внимание, что НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, \"чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны\"",
+        "reasoning": "This quote discredits Western diplomacy by suggesting that NATO should reflect on its role in the Ukrainian conflict and its contribution to European peace and security, implying that NATO is evading responsibility and shifting blame to others."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта. Дипломат общала внимание, что НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, \"чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны\"",
+        "reasoning": "This quote discredits the West, specifically NATO, by suggesting that they are evading responsibility for the conflict and instead blaming others. This implies that NATO is not acting in good faith and is trying to shift the blame, which undermines their diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта",
+        "reasoning": "This quote shifts the blame for the war from Russia to NATO, implying that the alliance has a role in the underlying causes of the conflict. This narrative blames others (in this case, NATO) rather than the invader (Russia) for the war."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

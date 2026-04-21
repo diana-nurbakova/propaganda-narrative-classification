@@ -1,0 +1,161 @@
+{
+  "file_id": "HI_97.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस और यूक्रेन के बीच जंग जारी है। इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+        "reasoning": "The text portrays Russia as being unfairly targeted by Western countries through various sanctions, including economic ones, which is a key aspect of the 'Russia is the Victim' narrative."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने पिछले दो सालों में सैन्य शक्ति मजबूत करने के लिए रक्षा क्षेत्र पर अधिक खर्च किया है",
+        "reasoning": "The text mentions Russia's efforts to strengthen its military power, which can be seen as a positive aspect of Russia's actions, aligning with the 'Praise of Russia' narrative."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+        "reasoning": "The text criticizes Western countries for imposing various sanctions on Russia, including economic ones, which reflects a negative portrayal of Western diplomatic efforts, fitting the 'Discrediting the West, Diplomacy' narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस और यूक्रेन के बीच जंग जारी है। इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+        "reasoning": "The text portrays Russia as being unfairly targeted by Western countries, implying that Russia is a victim of circumstances."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने पिछले दो सालों में सैन्य शक्ति मजबूत करने के लिए रक्षा क्षेत्र पर अधिक खर्च किया है",
+        "reasoning": "The text highlights Russia's efforts to strengthen its military power, which can be seen as a positive attribute."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+        "reasoning": "The text criticizes Western countries for imposing sanctions on Russia, implying that their diplomatic efforts are ineffective or hypocritical."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस और यूक्रेन के बीच जंग जारी है। इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+        "reasoning": "The text portrays Russia as being unfairly targeted by Western countries through various sanctions, including economic ones, which evokes sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने पिछले दो सालों में सैन्य शक्ति मजबूत करने के लिए रक्षा क्षेत्र पर अधिक खर्च किया है",
+        "reasoning": "The text highlights Russia's efforts to strengthen its military power, which can be seen as a positive attribute."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं।",
+        "reasoning": "The text criticizes Western countries for imposing various sanctions on Russia, which can be seen as an attack on Western diplomacy."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

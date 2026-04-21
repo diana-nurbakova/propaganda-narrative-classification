@@ -1,0 +1,83 @@
+{
+  "file_id": "A9_BG_2961.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Russia",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [],
+    [
+      "URW: Discrediting Russia",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално, да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Тази цитата показва, че Русия е обвинена в терор и се опитва да нормализира това поведение, което е директна критика на руските действия и мотиви."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Пълната защита на украинското небе трябва да стане норма. За да разберат лудите в Кремъл, че терорът им е напразен",
+        "reasoning": "Тази цитата не директно обвинява други във войната, но подчертава необходимостта от защита на украинското небе, което имплицитно поставя отговорността за ситуацията върху руските действия."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Тази част от цитатата показва, че Западните партньори на Украйна са критикувани за нерешителност, което е форма на критика на тяхната дипломация и позиция по отношение на конфликта."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално, да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "This quote directly criticizes Russia's actions and intentions, implying that Russia aims to normalize terror and exploit Ukraine's vulnerabilities, which discredits Russia's behavior in the conflict."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Партньорите (на Украйна) знаят какво точно е необходимо за това",
+        "reasoning": "This quote implies that Ukraine's partners have a responsibility to provide support, which could be seen as shifting some blame or responsibility for the war's outcome from Russia to Ukraine's allies, though it's more about seeking help than blaming."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "This quote criticizes the indecisiveness of Ukraine's partners (implied to be Western countries), suggesting a lack of effective diplomacy or support from the West."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

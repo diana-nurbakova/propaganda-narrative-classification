@@ -1,0 +1,189 @@
+{
+  "file_id": "EN_CC_200079.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote suggests that the WEF is secretly plotting to strip away citizens' rights while maintaining the privileges of the elite, implying a hidden agenda."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote criticizes the WEF, an institution, for its actions and intentions, challenging its competence and integrity."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote implies that environmental policies are being used as a tool to control and manipulate citizens, rather than being a genuine concern for the environment, which is a characteristic of using green policies as geopolitical instruments."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote suggests that the World Economic Forum, led by Klaus Schwab, has a hidden agenda to strip away the rights of ordinary citizens while protecting the privileges of billionaires and elites, implying a secret plot by powerful groups."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote criticizes the World Economic Forum and its leader Klaus Schwab, challenging their intentions and competence in addressing environmental issues, and implying that they prioritize the interests of elites over those of ordinary citizens."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote implies that environmental policies are being used as a tool to control and manipulate citizens, rather than being a genuine attempt to address environmental issues, suggesting that green policies are being used as a geopolitical instrument to maintain the power and privileges of elites."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote suggests that the World Economic Forum, led by Klaus Schwab, is part of a powerful group with a hidden agenda to strip citizens of their rights while maintaining their own privileges, fitting the narrative of hidden plots by secret schemes of powerful groups."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The World Economic Forum has consistently fought against plans that include rolling back perks and privileges for billionaires and elites, hoping to focus environmental policy exclusively on stripping away the fundamental rights of the citizens they consider to be beneath them.",
+        "reasoning": "This quote criticizes the World Economic Forum and its leader, Klaus Schwab, implying that they prioritize the interests of elites over those of ordinary citizens, which challenges the integrity and intentions of these institutions."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "globalist billionaires and neoliberal politicians routinely utilize private jets to fly into the organization’s yearly Davos conference, releasing more carbon into the environment than the average family does in a lifetime’s worth of laundry.",
+        "reasoning": "This quote implies that the environmental policies advocated by the World Economic Forum are not genuinely aimed at reducing carbon emissions, as its members themselves contribute significantly to pollution, suggesting that these policies might be used as tools for geopolitical power rather than genuine environmental concern."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of institutions and authorities",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "matched": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

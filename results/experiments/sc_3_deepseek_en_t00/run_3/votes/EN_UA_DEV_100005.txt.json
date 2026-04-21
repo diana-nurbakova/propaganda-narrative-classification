@@ -1,0 +1,221 @@
+{
+  "file_id": "EN_UA_DEV_100005.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "amerikans are the greatest pigs on the planet…and that is in the most derogitive term you can imagine.. absolute pigs",
+        "reasoning": "This direct quote provides a severe, derogatory criticism of Western (specifically American) society and character, actively discrediting it."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Sadly the western media is framing the war as if Russia is losing which only prolongs negotiations and causes more death.",
+        "reasoning": "The text explicitly accuses Western media of misrepresenting the war's progress ('framing'), implying its reporting is unreliable and has negative consequences, which fosters distrust."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "lets get on with a full nuke war…wipe us all out",
+        "reasoning": "This statement, while presented in a fatalistic tone, actively evokes and amplifies fear about the potential for nuclear war and total annihilation."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "for the west it’s always been the soviet (RUSSIAN) that has ALWAYS been the boogie man..when in fact they were SELDOM a threat.. amerika always blew any comment about RUSSIA ... way out of proportion",
+        "reasoning": "This quote criticizes Western (American) policy as being based on a false perception of threat, implying the West creates its own negative consequences through misguided actions and fear-mongering."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "amerikans are the greatest pigs on the planet…and that is in the most derogitive term you can imagine.. absolute pigs",
+        "reasoning": "This direct quote provides a severe and derogatory criticism of Western (specifically American) society, portraying it as morally bankrupt and inferior, which aligns with the narrative of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Sadly the western media is framing the war as if Russia is losing which only prolongs negotiations and causes more death.",
+        "reasoning": "This statement directly accuses Western media of presenting a false narrative about the war's progress, thereby undermining its reliability and suggesting it is causing harm, which fits the 'Distrust towards Media' narrative."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "lets get on with a full nuke war…wipe us all out …at least it (for most) will be over quickly",
+        "reasoning": "This quote explicitly invokes the specter of a full-scale nuclear war and presents a fatalistic acceptance of global annihilation, which serves to amplify fears about extreme war outcomes."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "we deserve EVERYTHING we get",
+        "reasoning": "This statement, in the context of the preceding text blaming un-elected bureaucrats and Western governments, implies that Western populations will face severe negative consequences (deserved punishment) for their leaders' actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "amerikans are the greatest pigs on the planet…and that is in the most derogitive term you can imagine.. absolute pigs",
+        "reasoning": "This quote directly and harshly criticizes and dehumanizes the people of a Western nation, portraying them in an extremely negative light, which aligns with the definition of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Sadly the western media is framing the war as if Russia is losing which only prolongs negotiations and causes more death.",
+        "reasoning": "This statement explicitly accuses Western media of presenting a false narrative ('framing') about the war's progress, thereby undermining its reliability and suggesting it causes harm."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "lets get on with a full nuke war…wipe us all out",
+        "reasoning": "This statement, while presented in a fatalistic tone, actively evokes and amplifies fear about the potential for nuclear war and total annihilation."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "we deserve EVERYTHING we get",
+        "reasoning": "This implies that the Western populations will face severe negative consequences ('EVERYTHING we get') as a result of their governments' actions, aligning with predicting adverse outcomes for the West."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Distrust towards Media",
+    "URW: Amplifying war-related fears",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

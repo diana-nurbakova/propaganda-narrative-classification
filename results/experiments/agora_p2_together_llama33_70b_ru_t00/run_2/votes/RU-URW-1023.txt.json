@@ -1,0 +1,161 @@
+{
+  "file_id": "RU-URW-1023.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киев устраивает провокации у границ Белоруссии, чтобы вызвать ответ Минска и заставить страны Запада воевать на стороне Украины.",
+        "reasoning": "The quote suggests that Ukraine is provoking Belarus to get a response and draw Western countries into the conflict, shifting the blame from Russia to Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину.",
+        "reasoning": "The text implies that Ukraine is manipulating the situation to involve Europe and the US in the war, undermining Ukraine's legitimacy and intentions."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "При этом они, естественно, доказывают, что это не они провокацию устраивают, а якобы это военная активность Белоруссии.",
+        "reasoning": "The quote indicates that Ukraine is trying to deceive the public by denying their own provocations and blaming Belarus, which erodes trust in the information provided by Ukraine or its allies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киев устраивает провокации у границ Белоруссии, чтобы вызвать ответ Минска и заставить страны Запада воевать на стороне Украины.",
+        "reasoning": "The quote suggests that Ukraine is provoking Belarus to get a response and draw Western countries into the conflict, shifting the blame from Russia's invasion to Ukraine's actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Втянув в конфликт Белоруссию, Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину.",
+        "reasoning": "This quote discredits Ukraine by implying that it is manipulating the situation to involve other countries in the conflict, portraying Ukraine's actions as provocative and manipulative."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "При этом они, естественно, доказывают, что это не они провокацию устраивают, а якобы это военная активность Белоруссии.",
+        "reasoning": "The quote implies that Ukraine is trying to deceive the public by blaming Belarus for the provocation, suggesting that the media or information sources are being manipulated or are unreliable."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Киев устраивает провокации у границ Белоруссии, чтобы вызвать ответ Минска и заставить страны Запада воевать на стороне Украины.",
+        "reasoning": "The quote suggests that Ukraine is provoking Belarus to get a response and draw Western countries into the conflict, shifting the blame from Russia's invasion to Ukraine's actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украина получает шанс, что Европа вместе с США впрягутся в войну за Украину. Вот на что рассчитывает украинский режим.",
+        "reasoning": "The text implies that Ukraine is manipulating the situation to involve Europe and the US in the war, undermining Ukraine's legitimacy and portraying its government as manipulative."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "При этом они, естественно, доказывают, что это не они провокацию устраивают, а якобы это военная активность Белоруссии.",
+        "reasoning": "The quote indicates that Ukraine is trying to deceive the public by denying its own provocations and blaming Belarus, which may imply that the media is being manipulated or is unreliable in reporting the truth."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Ukrainian media cannot be trusted"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "matched": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

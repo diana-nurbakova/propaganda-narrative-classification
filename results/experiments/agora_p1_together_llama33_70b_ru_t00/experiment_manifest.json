@@ -1,0 +1,71 @@
+{
+  "experiment_id": "agora_p1_together_llama33_70b_ru_t00",
+  "base_config": "configs/experiments/generated/emnlp/agora_p1_together_llama33_70b_ru_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-04-20T20:52:10.034857",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-20T20:52:10.034857",
+      "completed_at": "2026-04-20T20:55:52.967541",
+      "duration_seconds": 222.932684
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-20T20:56:22.979875",
+      "completed_at": "2026-04-20T21:01:47.585621",
+      "duration_seconds": 324.605746
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-20T21:02:17.607938",
+      "completed_at": "2026-04-20T21:07:04.005804",
+      "duration_seconds": 286.397866
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-20T21:07:34.011019",
+      "completed_at": "2026-04-20T21:12:32.519817",
+      "duration_seconds": 298.508798
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p1_together_llama33_70b_ru_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-20T21:13:02.531077",
+      "completed_at": "2026-04-20T21:18:33.459708",
+      "duration_seconds": 330.928631
+    }
+  ],
+  "completed_at": "2026-04-20T21:18:33.463241",
+  "total_duration_seconds": 1463.3737250000001,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

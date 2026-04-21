@@ -1,0 +1,155 @@
+{
+  "file_id": "PT_203.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+        "reasoning": "A declaração do coordenador-geral do ato Levante pela Terra, Kretã Kaingang, destaca a gravidade da situação e a possibilidade de que ela se espalhe por todo o país, ampliando o medo e a preocupação com as alterações climáticas."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "A afirmação de Kretã Kaingang sugere que as instituições e autoridades são responsáveis por não proteger os povos indígenas devido ao racismo, criticando a ineficácia e a falta de ação das autoridades."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "protestaram ainda contra aquilo a que chamaram um tratamento diferenciado: mais recursos para o agronegócio (através do Plano Safra, que deverá ser anunciado na próxima semana) e menos atenção às populações tradicionais.",
+        "reasoning": "A menção ao tratamento diferenciado e a alocação de recursos para o agronegócio em detrimento das populações tradicionais sugere que as políticas ambientais são usadas como instrumentos de poder e influência, beneficiando alguns setores em detrimento de outros."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+        "reasoning": "A declaração do coordenador-geral do ato Levante pela Terra, Kretã Kaingang, destaca a gravidade da situação e amplifica o medo sobre as consequências das alterações climáticas, enfatizando que o desastre socioambiental no Rio Grande do Sul é uma catástrofe que pode ocorrer em todo o país."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "A afirmação de Kretã Kaingang critica as instituições e autoridades, sugerindo que elas são responsáveis por permitir o racismo contra os povos indígenas, o que contribui para a falta de acesso a políticas afirmativas e recursos."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "protestaram ainda contra aquilo a que chamaram um tratamento diferenciado: mais recursos para o agronegócio (através do Plano Safra, que deverá ser anunciado na próxima semana) e menos atenção às populações tradicionais.",
+        "reasoning": "A menção ao tratamento diferenciado e a alocação de mais recursos para o agronegócio em comparação com as populações tradicionais sugere que as políticas ambientais são usadas como instrumentos geopolíticos, beneficiando certos setores econômicos em detrimento de outros, como as comunidades indígenas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrophe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-geral do ato Levante pela Terra, Kretã Kaingang, stating that what happened in the South is a catastrophe and will occur throughout the country, amplifying fears about the consequences of climate change."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "A statement from Kretã Kaingang, implying that the lack of access to policies is due to racism against indigenous peoples by municipalities and states, criticizing the institutions and authorities for their alleged racism and inaction."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "file_id": "HI_38.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Praise of Russia"
+    ],
+    [],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "इस उद्धरण में रूस की प्राथमिकता को भारत के प्रति दिखाया गया है, जो रूस की सकारात्मक छवि को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "शीत युद्ध के समय से ही भारत-रूस के संबंध अच्छे हैं, साथ ही रूस भारत को सबसे अधिक हथियार सप्लाई करने वाले देशों में भी शामिल है।",
+        "reasoning": "इस उद्धरण में रूस के साथ भारत के historical और strategic संबंधों को अच्छी तरह से दिखाया गया है, जो रूस की सकारात्मक छवि को दर्शाता है।"
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "इस उद्धरण में रूस की प्राथमिकता को भारत के प्रति दिखाया गया है, जो रूस की सकारात्मक छवि को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता।",
+        "reasoning": "इस उद्धरण में रूस-यूक्रेन युद्ध के संदर्भ में भारत का स्टैंड दिखाया गया है, जो रूस को एक पीड़ित के रूप में प्रस्तुत करता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "बकौल भारत, ‘ग्लोबल साउथ’ का भी मानना है कि कूटनीति व बातचीत से ही समस्या का समाधान निकलेगा, युद्धक्षेत्र में नहीं।",
+        "reasoning": "इस उद्धरण में पश्चिमी देशों की कूटनीतिक प्रयासों की आलोचना की गई है, जो उनकी विदेश नीति को कमजोर दिखाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

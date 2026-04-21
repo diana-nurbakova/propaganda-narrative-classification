@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_75.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "तस्करों ने उन्हें रूसी सेना को बेच दिया था",
+        "reasoning": "यह बयान पश्चिमी देशों की विफलता को दर्शाता है कि वे अपने नागरिकों की सुरक्षा में असफल रहे हैं और उन्हें तस्करों के चंगुल में फंसने दिया।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "कुछ लोग जंग में गंभीर रूप से घायल भी हुए हैं",
+        "reasoning": "यह बयान पश्चिमी देशों के लिए नकारात्मक परिणामों की ओर संकेत करता है, जैसे कि उनके नागरिकों के घायल होने से उनकी सुरक्षा और स्थिरता पर नकारात्मक प्रभाव पड़ सकता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "सोशल मीडिया चैनलों के जरिए और रूस में अच्छी पगार देने वाली नौकरियों के लिए अपने स्थानीय संपर्कों/एजेंटों के जरिए भारतीय नागरिकों को लुभा रहे हैं",
+        "reasoning": "यह बयान मीडिया की विश्वसनीयता पर संदेह पैदा करता है, क्योंकि यह दिखाता है कि तस्कर सोशल मीडिया का उपयोग करके लोगों को धोखा दे रहे हैं।"
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

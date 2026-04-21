@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1014.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "российские войска растянули и размыли ВСУ на харьковском направлении специальной военной операции",
+        "reasoning": "This quote praises the Russian military's actions, indicating their success in 'stretching and blurring' the Ukrainian forces, which highlights Russia's military capabilities and effectiveness."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ВСУ уже не в силах собрать серьезных сил, и их главная задача сейчас — хотя бы удержать позиции, но и этого у них не получается",
+        "reasoning": "This statement discredits Ukraine by implying that their military is weak and unable to gather significant forces or even hold their positions, undermining the legitimacy and effectiveness of the Ukrainian military."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "российские войска растянули и размыли ВСУ на харьковском направлении специальной военной операции",
+        "reasoning": "This quote praises the Russian military's actions, indicating their success in 'stretching and blurring' the Ukrainian forces, which shows admiration for Russia's military capabilities and strategies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ВСУ уже не в силах собрать серьезных сил, и их главная задача сейчас — хотя бы удержать позиции, но и этого у них не получается",
+        "reasoning": "This statement undermines the legitimacy and capabilities of the Ukrainian forces, suggesting they are unable to gather significant forces or even hold their positions, which discredits Ukraine's military effectiveness."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "российские войска растянули и размыли ВСУ на харьковском направлении специальной военной операции",
+        "reasoning": "The quote praises the effectiveness of Russian forces in the special military operation, highlighting their ability to stretch and disperse the Ukrainian military, which demonstrates a positive evaluation of Russia's actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ВСУ уже не в силах собрать серьезных сил, и их главная задача сейчас — хотя бы удержать позиции, но и этого у них не получается",
+        "reasoning": "This quote undermines the capabilities and effectiveness of the Ukrainian military, portraying them as unable to gather significant forces or even hold their positions, which discredits Ukraine's military abilities."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

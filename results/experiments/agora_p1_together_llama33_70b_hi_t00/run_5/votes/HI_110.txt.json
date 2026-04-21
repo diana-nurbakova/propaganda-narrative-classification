@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "एस हालात में राष्ट्र कर सकता है परमाणु हमला",
+        "reasoning": "The text mentions the possibility of a nuclear attack on America and Britain, which evokes fear and anxiety about potential threats and dangers."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "राष्ट्र के राष्ट्रपति व्लादिमिर पुतिन उगे आमेरिका और ब्रिटेन को कणी चेतावनी दी है",
+        "reasoning": "The text portrays Russia as being unfairly targeted or victimized by the West, with Putin warning of a nuclear attack in response to Western support for Ukraine."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "राश्ट्र और यूक्रेन के बीच विवाद के बीज दो साल से चल रहा है",
+        "reasoning": "The text speculates about the potential outcomes of the conflict, including the possibility of a nuclear attack and the consequences of Western support for Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "एस हालात में रहस्यामिक हमला होगा",
+        "reasoning": "The text mentions the possibility of a nuclear attack on America and Britain, which evokes fear and anxiety about potential threats and dangers."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रुस सिद्धांत में परिवर्तन विवाद विश्य विष्यों के विरुद्ध विवाद विश्यों के विरुद्ध विवाद विश्यों के विरुद्ध",
+        "reasoning": "The text portrays Russia as being unfairly targeted and victimized by the West, which is a key aspect of this narrative."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "रुस सिद्धांत में परिवर्तन विवाद विश्य विष्यों के विरुद्ध विवाद विश्यों के विरुद्ध",
+        "reasoning": "The text speculates about the potential outcomes of the war, including the possibility of a nuclear attack, which is a key aspect of this narrative."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

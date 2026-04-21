@@ -1,0 +1,103 @@
+{
+  "file_id": "PT_230.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção ao \"calorão\" e sua relação com as alterações climáticas, bem como a menção a eventos extremos, sugere um cenário de medo e alarme em relação às conseqüéncias das mudanças climáticas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção às alterações climáticas como causa do calorão e a associação a eventos extremos em todo o território nacional serve para amplificar os medos relacionados às consequências das mudanças climáticas."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O aquecimento global tem acentuado a ocorrência de catástrofes naturais. No mês passado, um ciclone atingiu o Sul do País deixando mortos e desaparecidos. Já no Norte, uma seca sem precedentes atinge a Amazónia, provocando mortalidade de animais e escassez nas cidades.",
+        "reasoning": "A descrição de catástrofes naturais como ciclones, secas e seus impactos severos, como mortos, desaparecidos, mortalidade de animais e escassez, amplifica os medos sobre as consequências do aquecimento global."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O aquecimento global tem acentuado a ocorrncia de catstrofes naturais. No ms passado, um ciclone atingiu o Sul do Pas deixando mortos e desaparecidos. J no Norte, uma seca sem precedentes atinge a Amaznia, provocando mortalidade de animais e escassez nas cidades.",
+        "reasoning": "A quote amplifica os medos sobre as consequencias do aquecimento global, citando eventos extremos como catstrofes naturais, mortos e desaparecidos, e seca sem precedentes."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

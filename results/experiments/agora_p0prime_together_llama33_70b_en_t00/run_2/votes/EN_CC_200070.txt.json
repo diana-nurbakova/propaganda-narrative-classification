@@ -1,0 +1,133 @@
+{
+  "file_id": "EN_CC_200070.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies",
+      "Downplaying climate change"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Criticism of climate movement",
+      "Controversy about green technologies"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "This quote criticizes Mayor Garcetti's decision to attend a climate change summit in person, implying that his actions are hypocritical and ineffective in reducing carbon emissions."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "This quote challenges the competence of the Los Angeles city government, led by Mayor Garcetti, in managing and improving the city's infrastructure."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard",
+        "reasoning": "This quote expresses skepticism about the effectiveness and practicality of green transportation initiatives, such as high-speed rail, in Los Angeles."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "It is not clear why the conference could not be held remotely",
+        "reasoning": "This quote implies that the climate change summit, and by extension the issue of climate change itself, may not be as urgent or important as claimed, since a remote conference could have achieved the same goals without the carbon emissions from travel."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "This quote criticizes Mayor Garcetti's decision to fly to Argentina for a climate change summit, implying that his actions are hypocritical and ineffective in addressing climate change."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "This quote challenges the competence of the Los Angeles government, led by Mayor Garcetti, in managing the city's infrastructure, which is relevant to the climate change summit he attended."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "it is not clear why the conference could not be held remotely",
+        "reasoning": "This quote implies that the climate change summit may not be as urgent or important as claimed, and that remote attendance would have been a sufficient alternative, thus downplaying the significance of the issue."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Garcetti's 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race",
+        "reasoning": "This quote criticizes Mayor Garcetti's climate policies, specifically his 'Green New Deal', and notes that it has faced opposition from public works unions and failed to gain electoral support, challenging the effectiveness and popularity of the climate movement."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard",
+        "reasoning": "This quote highlights the challenges and controversies surrounding green transportation technologies, such as high-speed rail, which is often promoted as a climate-friendly solution."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Garcetti’s 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race.",
+        "reasoning": "This quote criticizes Garcetti's climate policy, the 'Green New Deal', by mentioning its opposition from public works unions and its loss in an electoral challenge, implying that the policy may not be effective or widely supported."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "When it comes to fighting the climate crisis, our commitments as cities, states, and countries are only as strong as the size and ambition of our global coalition",
+        "reasoning": "This quote is not directly criticizing institutions, however the article as a whole questions the actions and decisions of Mayor Garcetti and the C40 World Mayors Summit, implying a criticism of their competence and intentions in relation to climate change."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The article highlights the hypocrisy of Mayor Garcetti attending a climate change summit while contributing to carbon emissions, which can be seen as downplaying the significance of climate change by implying that individual actions may not have a substantial impact."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The C40 World Mayors Summit is more than just another chance to recognize the magnitude of this make-or-break decade for climate action – it’s a chance to elevate the solutions cities are deploying at a neighborhood level that have a real impact on people’s daily lives.",
+        "reasoning": "This quote is not directly criticizing the climate movement, however the article as a whole questions the effectiveness and sincerity of the climate movement by highlighting the contradictions in Mayor Garcetti's actions and the problems in his city."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard.",
+        "reasoning": "This quote expresses skepticism about green technologies by mentioning the problems and cancellations of environmentally friendly transportation projects in Los Angeles."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

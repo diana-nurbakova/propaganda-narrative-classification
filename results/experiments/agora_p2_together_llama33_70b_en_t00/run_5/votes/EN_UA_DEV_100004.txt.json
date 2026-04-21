@@ -1,0 +1,187 @@
+{
+  "file_id": "EN_UA_DEV_100004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian advance in Avdeevka, suggesting that they may be able to surround Ukrainian forces, which is a prediction about the military situation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that discredits the West or its diplomacy. The text focuses on the military situation and does not mention Western diplomatic efforts or criticize them."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces continue massive strikes throughout Ukraine.",
+        "reasoning": "This quote highlights the scale and effectiveness of Russian military actions, which can be seen as praise for their military capabilities."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The Ukrainian military during the war in Donbass.",
+        "reasoning": "This quote does not directly discredit Ukraine, but it mentions the Ukrainian military in the context of the war in Donbass, which could be seen as a neutral or factual statement. However, the text does portray Ukrainian forces as being on the defensive and potentially surrounded, which could be seen as discrediting their military capabilities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian forces' advance, suggesting they may surround the Ukrainian military, which is a prediction about the conflict's results."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "the Ukrainian military during the war in Donbass",
+        "reasoning": "This quote implies that the Ukrainian military has been involved in the conflict in Donbass, which could be seen as undermining the legitimacy of Ukraine's actions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant",
+        "reasoning": "This quote positively highlights the Russian forces' actions and achievements, indicating their military strength and effectiveness."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian advance in Avdeevka, suggesting that they may be able to surround Ukrainian forces, which is a prediction about the military situation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that discredits the West or its diplomacy, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces continue massive strikes throughout Ukraine.",
+        "reasoning": "This quote highlights the strength and capabilities of the Russian military, which can be seen as praise for their actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The local sources are hiding any information about the damage",
+        "reasoning": "This quote implies that Ukrainian sources are not transparent, which can be seen as discrediting Ukraine's handling of information."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Praise of Russia",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

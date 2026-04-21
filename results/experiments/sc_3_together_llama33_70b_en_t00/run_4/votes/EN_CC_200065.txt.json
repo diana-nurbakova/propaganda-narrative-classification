@@ -1,0 +1,242 @@
+{
+  "file_id": "EN_CC_200065.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote implies that climate alarmists are prioritizing sensationalism over scientific accuracy, which criticizes their approach to climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the once prestigious Lancet medical journal",
+        "reasoning": "The use of 'once prestigious' to describe the Lancet medical journal implies a loss of credibility, challenging the institution's authority on climate issues."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Although sporadic attempts to measure temperature were made previously, \"there are too few data before 1880 for scientists to estimate average temperatures for the entire planet,\" NASA has concluded.",
+        "reasoning": "This quote downplays the significance of climate change by highlighting the limitations of historical temperature data, implying that claims about record-breaking temperatures are unfounded."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, \"scientists typically do not include them on the same charts as the instrumental record,\"' NASA revealed.",
+        "reasoning": "This quote questions the scientific methods used to measure climate change, specifically the use of proxy records, which raises doubts about the accuracy of climate data."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote implies that climate alarmists are prioritizing sensationalism over scientific accuracy, which criticizes their approach to climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the once prestigious Lancet medical journal",
+        "reasoning": "The use of 'once prestigious' to describe the Lancet medical journal implies a criticism of the institution's current credibility and authority on climate issues."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Although sporadic attempts to measure temperature were made previously, “there are too few data before 1880 for scientists to estimate average temperatures for the entire planet,”",
+        "reasoning": "This quote downplays the significance of climate change by highlighting the limitations of historical temperature data, which undermines the claims of unprecedented warming."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’”",
+        "reasoning": "This quote questions the scientific methods used to measure climate change, specifically the use of proxy records, which raises doubts about the accuracy of the data."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote implies that climate alarmists are prioritizing sensationalism over scientific accuracy, which criticizes their approach to climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the once prestigious Lancet medical journal",
+        "reasoning": "The use of 'once prestigious' to describe the Lancet medical journal implies a loss of credibility, challenging the institution's authority on climate issues."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Although sporadic attempts to measure temperature were made previously, “there are too few data before 1880 for scientists to estimate average temperatures for the entire planet,”",
+        "reasoning": "By highlighting the limitations of temperature data collection, the text downplays the significance of current climate change claims."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’”",
+        "reasoning": "This quote raises doubts about the scientific methods used to measure climate change, specifically the use of proxy records."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Downplaying climate change",
+    "CC: Questioning the measurements and science"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of the EU",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Other",
+    "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+    "CC: Questioning the measurements and science: Scientific community is unreliable",
+    "CC: Questioning the measurements and science: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "matched": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "matched": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Other",
+      "matched": "CC: Questioning the measurements and science: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

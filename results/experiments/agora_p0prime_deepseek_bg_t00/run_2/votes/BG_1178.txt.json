@@ -1,0 +1,109 @@
+{
+  "file_id": "BG_1178.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Пъкълът на Земята: На тези три места всичко живо ще бъде изпечено от жегата тази година",
+        "reasoning": "The headline uses dramatic, fear-inducing language ('Пъкълът на Земята' - 'Hell on Earth', 'всичко живо ще бъде изпечено' - 'all living things will be scorched') to emphasize and amplify the terrifying consequences of heatwaves, directly aligning with the definition of amplifying fears about climate change consequences."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Ужасяващи карти разкриха районите, които е най-вероятно да бъдат изпепелени от рекордни горещини тази година благодарение на Ел Ниньо.",
+        "reasoning": "The phrase 'Ужасяващи карти' ('Terrifying maps') and 'да бъдат изпепелени' ('to be scorched to ashes') is emotive language that amplifies fear by portraying the scientific data in a catastrophic and alarming manner."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "В случай на най-песимистичния сценарий, последствията ще бъдат още по-изразени... Аляска, Амазонка и Южнокитайско море също ще поставят рекордни температури, с пикове с 2,4°C над средното за Аляска.",
+        "reasoning": "Focusing on the 'most pessimistic scenario' with specific, high-impact predictions (2.4°C above average) serves to amplify fears by highlighting the worst possible outcomes as a likely reality."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Екипът също предполага, че светът може да е изложен на по-голям риск от екстремни метеорологични явления тази година... което ще доведе до покачване на моретата и потенциално извън контрол затопляне.",
+        "reasoning": "The text actively promotes fear by listing cascading risks (glacial melt, sea-level rise, 'potentially runaway warming') and extreme weather events, presenting them as imminent and severe threats."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Пъкълът на Земята: На тези три места всичко живо ще бъде изпечено от жегата тази година",
+        "reasoning": "The headline uses dramatic, fear-inducing language ('Пъкълът на Земята' - 'Hell on Earth', 'всичко живо ще бъде изпечено' - 'all living things will be scorched') to emphasize the catastrophic consequences of heat, actively amplifying fears about climate impacts."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Ужасяващи карти разкриха районите, които е най-вероятно да бъдат изпепелени от рекордни горещини тази година благодарение на Ел Ниньо.",
+        "reasoning": "The phrase 'Ужасяващи карти' ('Terrifying maps') and 'да бъдат изпепелени' ('to be scorched to ashes') is emotive and alarmist, designed to amplify fear about the severity and destructive power of the predicted heatwaves."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "В Аляска, например, има риск от топене на ледници и вечна замръзналост, което ще доведе до покачване на моретата и потенциално извън контрол затопляне.",
+        "reasoning": "The description of risks includes a chain of catastrophic events (melting glaciers, permafrost, sea-level rise) culminating in 'потенциално извън контрол затопляне' ('potentially runaway warming'), which is a classic fear-amplifying statement about climate tipping points and irreversible disaster."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Пъкълът на Земята: На тези три места всичко живо ще бъде изпечено от жегата тази година",
+        "reasoning": "The headline uses dramatic, fear-inducing language ('Пъкълът на Земята' - 'Hell of the Earth', 'всичко живо ще бъде изпечено' - 'all living things will be scorched') to emphasize the catastrophic consequences of heat, actively amplifying fears about climate impacts."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Ужасяващи карти разкриха районите, които е най-вероятно да бъдат изпепелени от рекордни горещини тази година благодарение на Ел Ниньо.",
+        "reasoning": "The phrase 'Ужасяващи карти' ('Terrifying maps') and 'да бъдат изпепелени' ('to be scorched to ashes') is emotive and alarmist, designed to amplify fear about the specific predicted heat events."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "В Аляска, например, има риск от топене на ледници и вечна замръзналост, което ще доведе до покачване на моретата и потенциално извън контрол затопляне.",
+        "reasoning": "The text describes a chain of catastrophic events (melting, sea level rise, 'potentially runaway warming') using language that emphasizes severe, out-of-control risks, which serves to amplify fears about climate consequences."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

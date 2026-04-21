@@ -1,0 +1,71 @@
+{
+  "file_id": "PT_230.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção às alterações climáticas como causa do calorão e a associação a eventos extremos em todo o território nacional serve para amplificar os medos sobre as consequências das mudanças climáticas."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As altas temperaturas provocadas pela onda de calor podem causar riscos para a saúde, segundo o INMET.",
+        "reasoning": "A ênfase nos riscos para a saúde causados pelas altas temperaturas reforça a ideia de que as mudanças climáticas têm consequências graves e imediatas para a população."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção às alterações climáticas como causa do calorão e a referência a eventos extremos em todo o território nacional serve para amplificar os medos sobre as consequências das mudanças climáticas."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As altas temperaturas provocadas pela onda de calor podem causar riscos para a saúde, segundo o INMET.",
+        "reasoning": "A ênfase nos riscos para a saúde causados pelas altas temperaturas reforça a ideia de que as mudanças climáticas têm consequências graves e imediatas para a população."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

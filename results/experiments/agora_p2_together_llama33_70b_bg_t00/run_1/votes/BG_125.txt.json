@@ -1,0 +1,90 @@
+{
+  "file_id": "BG_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът представя информация, която показва, че промяната на климата е причина за увеличението на честотата и интензивността на дъждовете в Обединеното кралство, което създава тревога и загриженост относно последствията от климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът представя информация за увеличението на честотата и интензивността на дъждовете в Обединеното кралство, като свързва това с климатичните промени и предизвиканите от човека изменения, което създава усещане за тревога и загриженост относно последствията от климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от дузина бури връхлетяха региона в бърза последователност между октомври и март, което беше вторият най-влажен период от близо два века насам.",
+        "reasoning": "Текстът представя информация за увеличението на честотата и интензивността на дъждовете в Обединеното кралство, като свързва това с климатичните промени и предизвиква тревога относно последствията от тези промени."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

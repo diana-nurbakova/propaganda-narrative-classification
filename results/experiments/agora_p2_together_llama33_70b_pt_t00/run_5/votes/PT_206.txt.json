@@ -1,0 +1,109 @@
+{
+  "file_id": "PT_206.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Se todos nós quisermos consumir desenfreadamente o planeta, já não haverá sequer planeta para nós existirmos",
+        "reasoning": "A ministra Marina Silva destaca a importância de mudanças sustentáveis para evitar consequências catastróficas, ampliando os medos sobre as alterações climáticas e a perda de biodiversidade."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "O Brasil tem um papel nesta nova geopolítica global, em que a segurança deve ser olhada também do ponto de vista da segurança climática",
+        "reasoning": "A ministra sugere que as políticas ambientais podem ser usadas como instrumentos de influência geopolítica, destacando o papel estratégico do Brasil na nova ordem mundial."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Se todos nós quisermos consumir desenfreadamente o planeta, já não haverá sequer planeta para nós existirmos",
+        "reasoning": "A ministra Marina Silva destaca a importância de mudanças sustentáveis e alerta para as consequências catastróficas do consumo excessivo, ampliando os medos sobre as alterações climáticas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Se todos nós quisermos consumir desenfreadamente o planeta, já não haverá sequer planeta para nós existirmos",
+        "reasoning": "A ministra Marina Silva destaca a importância de mudanças sustentáveis e alerta para as consequências catastróficas do consumo excessivo, ampliando os medos sobre as alterações climáticas."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "O Brasil tem um papel nesta nova geopolítica global, em que a segurança deve ser olhada também do ponto de vista da segurança climática",
+        "reasoning": "A ministra sugere que as políticas ambientais podem ser usadas como instrumentos de influência geopolítica, destacando o papel estratégico do Brasil na nova ordem mundial."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

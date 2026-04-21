@@ -1,7 +1,7 @@
 import asyncio
 import os
-from typing import Any, List, NotRequired
-from typing_extensions import TypedDict
+from typing import Any, List
+from typing_extensions import NotRequired, TypedDict
 from langchain.chat_models import init_chat_model
 from langgraph.graph import StateGraph, START, END
 from label_info import flatten_taxonomy, load_taxonomy

@@ -1,0 +1,108 @@
+{
+  "file_id": "RU-URW-1077.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта",
+        "reasoning": "Эта цитата поддерживает нарратив дискредитации Запада и дипломатии, поскольку она подразумевает, что НАТО несет ответственность за коренные причины украинского конфликта, а не признает свою роль в разрешении конфликта."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны",
+        "reasoning": "Эта цитата также поддерживает нарратив дискредитации Запада и дипломатии, поскольку она обвиняет НАТО в уклонении от ответственности и перекладывании вины на другие стороны, вместо того, чтобы признать свою роль в поддержании мира и безопасности в Европе."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote suggests that NATO should reflect on its role in the underlying causes of the Ukrainian conflict, implying that the alliance bears some responsibility for the crisis, which is a criticism of Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, \"чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны\"",
+        "reasoning": "This quote directly criticizes NATO for evading responsibility and shifting blame, which is a clear example of discrediting Western diplomacy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта",
+        "reasoning": "This quote suggests that NATO is responsible for the conflict in Ukraine, which discredits the West's diplomatic efforts and implies that they are not working towards peace and security in Europe."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "НАТО стоит обдумать, что организация сделала для мира и безопасности Европы вместо того, \"чтобы уклоняться от ответственности, перекладывая вину за конфликты на другие стороны\"",
+        "reasoning": "This quote directly criticizes NATO, implying that they are evading responsibility and shifting blame, which undermines the credibility of Western diplomatic efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

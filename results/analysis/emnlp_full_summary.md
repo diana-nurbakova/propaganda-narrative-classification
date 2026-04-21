@@ -1,0 +1,1681 @@
+# Enhanced Experiment Results Report
+
+_Generated_: 2026-04-21 21:53  
+_Experiments evaluated_: **205** of 205
+
+## Methodology
+
+Each experiment is evaluated using the **all-runs averaging** strategy: every successful run is scored independently against the SemEval-2025 Task 10 dev-set ground truth, then mean and standard deviation are reported across runs.
+
+Metrics computed:
+
+| Metric | Description |
+|--------|-------------|
+| F1-samples (narr / sub) | SemEval primary metric, set-based per-document F1, averaged. |
+| hP / hR / hF | Hierarchical P/R/F1 with ancestor augmentation (Kiritchenko et al. 2006). |
+| HCR | Hierarchical Consistency Rate — fraction of docs with no orphan sub-narratives. |
+| ICM (norm.) | Information Contrast Model normalised by ICM(gold,gold) (Amigó & Delgado 2022). |
+| Sibling / Same-domain / Cross-domain / Hallucination | Error severity from LCA depth of false positives. |
+| Inter-run Jaccard | Pairwise Jaccard between runs of the same experiment, averaged over docs. |
+| TCM (bis) | Transport Confusion Matrix at narrative level, bistochastic-normalised via IPF. |
+
+
+## Results by Language
+
+### BG
+
+| Experiment | Model | Method | Runs | F1ₐ narr | F1ₐ sub | hF | HCR | ICM | InterRun (sub) |
+|---|---|---|---|---|---|---|---|---|---|
+| agora_deepseek_bg_t00 | DeepSeek V3 | Agora (intersection) | 5 | 0.606 ± 0.013 | 0.297 ± 0.003 | 0.595 ± 0.010 | 1.000 ± 0.000 | -1.225 ± 0.081 | 0.892 |
+| agora_deepseek_bg_t07 | DeepSeek V3 | Agora (intersection) | 5 | 0.599 ± 0.011 | 0.291 ± 0.008 | 0.594 ± 0.011 | 1.000 ± 0.000 | -1.230 ± 0.098 | 0.865 |
+| agora_majority_gpt5nano_bg_t00 | GPT-5 Nano | Agora (majority) | 5 | 0.509 ± 0.026 | 0.310 ± 0.033 | 0.575 ± 0.014 | 1.000 ± 0.000 | -1.596 ± 0.145 | 0.654 |
+| baseline_deepseek_bg_t00 | DeepSeek V3 | Baseline | 5 | 0.575 ± 0.010 | 0.276 ± 0.007 | 0.564 ± 0.007 | 1.000 ± 0.000 | -1.457 ± 0.060 | 0.891 |
+| actor_critic_deepseek_bg_t07 | DeepSeek V3 | Actor-Critic | 5 | 0.490 ± 0.049 | 0.280 ± 0.040 | 0.562 ± 0.015 | 1.000 ± 0.000 | -1.545 ± 0.104 | 0.523 |
+| agora_p2_together_llama33_70b_bg_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.605 ± 0.027 | 0.259 ± 0.022 | 0.555 ± 0.016 | 1.000 ± 0.000 | -1.733 ± 0.186 | 0.737 |
+| baseline_deepseek_bg_t07 | DeepSeek V3 | Baseline | 5 | 0.565 ± 0.008 | 0.271 ± 0.004 | 0.554 ± 0.004 | 1.000 ± 0.000 | -1.546 ± 0.057 | 0.859 |
+| actor_critic_deepseek_bg_t00 | DeepSeek V3 | Actor-Critic | 5 | 0.453 ± 0.039 | 0.291 ± 0.030 | 0.542 ± 0.022 | 1.000 ± 0.000 | -1.633 ± 0.172 | 0.491 |
+| baseline_p2_deepseek_bg_t00 | DeepSeek V3 | Baseline | 3 | 0.440 ± 0.041 | 0.330 ± 0.040 | 0.540 ± 0.020 | 1.000 ± 0.000 | -1.320 ± 0.059 | 0.695 |
+| mdeberta_baseline_bg_t00 | mDeBERTa v3 (fine-tuned) | mDeBERTa (fine-tuned) | 5 | 0.386 ± 0.063 | 0.253 ± 0.065 | 0.540 ± 0.039 | 1.000 ± 0.000 | -1.653 ± 0.390 | 0.376 |
+| baseline_p0prime_gpt5nano_bg_t00 | GPT-5 Nano | Baseline | 3 | 0.404 ± 0.077 | 0.298 ± 0.038 | 0.540 ± 0.050 | 1.000 ± 0.000 | -1.275 ± 0.178 | 0.467 |
+| mdeberta_originals_only_bg_t00 | mDeBERTa v3 (fine-tuned) | Unknown | 5 | 0.448 ± 0.032 | 0.271 ± 0.032 | 0.532 ± 0.024 | 1.000 ± 0.000 | -1.638 ± 0.131 | 0.457 |
+| agora_p0prime_together_llama33_70b_bg_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.556 ± 0.013 | 0.241 ± 0.013 | 0.531 ± 0.011 | 1.000 ± 0.000 | -1.843 ± 0.115 | 0.839 |
+| sc_3_intersection_together_llama33_70b_bg_t00 | Llama 3.3 70B | Unknown | 5 | 0.541 ± 0.034 | 0.232 ± 0.023 | 0.524 ± 0.017 | 1.000 ± 0.000 | -1.825 ± 0.066 | 0.847 |
+| agora_p1_together_llama33_70b_bg_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.533 ± 0.017 | 0.233 ± 0.008 | 0.522 ± 0.021 | 1.000 ± 0.000 | -1.932 ± 0.290 | 0.788 |
+| sc_3_deepseek_bg_t00 | DeepSeek V3 | Unknown | 3 | 0.423 ± 0.006 | 0.249 ± 0.027 | 0.505 ± 0.002 | 1.000 ± 0.000 | -1.247 ± 0.087 | 0.906 |
+| baseline_p2_together_llama33_70b_bg_t00 | Llama 3.3 70B | Baseline | 5 | 0.562 ± 0.026 | 0.238 ± 0.016 | 0.504 ± 0.021 | 1.000 ± 0.000 | -2.268 ± 0.291 | 0.765 |
+| baseline_p0prime_deepseek_bg_t00 | DeepSeek V3 | Baseline | 3 | 0.407 ± 0.050 | 0.221 ± 0.005 | 0.501 ± 0.029 | 1.000 ± 0.000 | -1.263 ± 0.046 | 0.906 |
+| sc_3_together_llama33_70b_bg_t00 | Llama 3.3 70B | Unknown | 5 | 0.519 ± 0.025 | 0.232 ± 0.012 | 0.499 ± 0.018 | 1.000 ± 0.000 | -2.215 ± 0.125 | 0.836 |
+| baseline_p0prime_together_llama33_70b_bg_t00 | Llama 3.3 70B | Baseline | 5 | 0.515 ± 0.014 | 0.236 ± 0.010 | 0.495 ± 0.010 | 1.000 ± 0.000 | -2.223 ± 0.079 | 0.843 |
+| agora_together_llama33_70b_bg_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.488 ± 0.031 | 0.209 ± 0.016 | 0.494 ± 0.015 | 1.000 ± 0.000 | -2.026 ± 0.183 | 0.803 |
+| agora_p0prime_deepseek_bg_t00 | DeepSeek V3 | Agora (intersection) | 3 | 0.356 ± 0.021 | 0.250 ± 0.021 | 0.479 ± 0.012 | 1.000 ± 0.000 | -1.192 ± 0.047 | 0.906 |
+| baseline_together_llama33_70b_bg_t00 | Llama 3.3 70B | Baseline | 5 | 0.488 ± 0.017 | 0.207 ± 0.007 | 0.467 ± 0.015 | 1.000 ± 0.000 | -2.530 ± 0.179 | 0.766 |
+| baseline_p1_together_llama33_70b_bg_t00 | Llama 3.3 70B | Baseline | 5 | 0.499 ± 0.039 | 0.213 ± 0.014 | 0.467 ± 0.016 | 1.000 ± 0.000 | -2.785 ± 0.289 | 0.738 |
+| agora_mistral_bg_t00 | Mistral Large | Agora (intersection) | 5 | 0.483 ± 0.012 | 0.233 ± 0.032 | 0.460 ± 0.004 | 1.000 ± 0.000 | -2.280 ± 0.064 | 0.511 |
+| sc_3_union_together_llama33_70b_bg_t00 | Llama 3.3 70B | Unknown | 5 | 0.507 ± 0.021 | 0.226 ± 0.004 | 0.451 ± 0.022 | 1.000 ± 0.000 | -2.804 ± 0.442 | 0.819 |
+| baseline_mistral_bg_t00 | Mistral Large | Baseline | 5 | 0.480 ± 0.019 | 0.207 ± 0.010 | 0.438 ± 0.006 | 1.000 ± 0.000 | -2.975 ± 0.152 | 0.831 |
+| actor_critic_mistral_bg_t00 | Mistral Large | Actor-Critic | 5 | 0.474 ± 0.020 | 0.203 ± 0.018 | 0.436 ± 0.009 | 1.000 ± 0.000 | -3.022 ± 0.147 | 0.656 |
+| agora_majority_mistral_bg_t00 | Mistral Large | Agora (majority) | 5 | 0.477 ± 0.006 | 0.206 ± 0.006 | 0.432 ± 0.003 | 1.000 ± 0.000 | -3.005 ± 0.027 | 0.840 |
+| baseline_p1_deepseek_bg_t00 | DeepSeek V3 | Baseline | 3 | 0.260 ± 0.009 | 0.250 ± 0.049 | 0.405 ± 0.005 | 1.000 ± 0.000 | -1.424 ± 0.100 | 0.895 |
+| agora_majority_together_llama33_70b_bg_t00 | Llama 3.3 70B | Agora (majority) | 5 | 0.315 ± 0.019 | 0.197 ± 0.022 | 0.402 ± 0.013 | 1.000 ± 0.000 | -2.698 ± 0.345 | 0.816 |
+
+_Error severity (sub-narrative false positives, mean over runs)_:
+
+| Experiment | Sibling | Same-dom | Cross-dom | Hallucinations |
+|---|---|---|---|---|
+| agora_deepseek_bg_t00 | 25.03% | 38.13% | 0.00% | 36.84% |
+| agora_deepseek_bg_t07 | 25.62% | 39.60% | 0.00% | 34.78% |
+| agora_majority_gpt5nano_bg_t00 | 20.75% | 44.54% | 3.50% | 31.21% |
+| baseline_deepseek_bg_t00 | 21.92% | 38.37% | 0.00% | 39.71% |
+| actor_critic_deepseek_bg_t07 | 24.69% | 41.41% | 0.54% | 33.36% |
+| agora_p2_together_llama33_70b_bg_t00 | 24.73% | 40.22% | 0.17% | 34.87% |
+| baseline_deepseek_bg_t07 | 21.90% | 38.02% | 0.20% | 39.88% |
+| actor_critic_deepseek_bg_t00 | 24.22% | 39.78% | 1.97% | 34.04% |
+| baseline_p2_deepseek_bg_t00 | 23.11% | 35.61% | 3.23% | 38.06% |
+| mdeberta_baseline_bg_t00 | 6.10% | 38.72% | 10.04% | 45.14% |
+| baseline_p0prime_gpt5nano_bg_t00 | 23.02% | 44.17% | 5.97% | 26.84% |
+| mdeberta_originals_only_bg_t00 | 13.91% | 46.36% | 0.48% | 39.24% |
+| agora_p0prime_together_llama33_70b_bg_t00 | 24.74% | 33.39% | 0.62% | 41.25% |
+| sc_3_intersection_together_llama33_70b_bg_t00 | 24.04% | 34.63% | 0.41% | 40.92% |
+| agora_p1_together_llama33_70b_bg_t00 | 21.62% | 39.29% | 0.00% | 39.10% |
+| sc_3_deepseek_bg_t00 | 23.50% | 32.81% | 2.19% | 41.51% |
+| baseline_p2_together_llama33_70b_bg_t00 | 20.44% | 47.63% | 0.72% | 31.21% |
+| baseline_p0prime_deepseek_bg_t00 | 23.21% | 33.18% | 1.66% | 41.95% |
+| sc_3_together_llama33_70b_bg_t00 | 21.69% | 37.21% | 1.61% | 39.50% |
+| baseline_p0prime_together_llama33_70b_bg_t00 | 20.98% | 36.52% | 2.10% | 40.39% |
+| agora_together_llama33_70b_bg_t00 | 21.06% | 35.97% | 0.17% | 42.81% |
+| agora_p0prime_deepseek_bg_t00 | 23.70% | 33.12% | 1.88% | 41.30% |
+| baseline_together_llama33_70b_bg_t00 | 18.61% | 41.63% | 0.56% | 39.21% |
+| baseline_p1_together_llama33_70b_bg_t00 | 16.49% | 44.59% | 0.71% | 38.21% |
+| agora_mistral_bg_t00 | 15.84% | 46.04% | 0.71% | 37.42% |
+| sc_3_union_together_llama33_70b_bg_t00 | 17.00% | 39.91% | 2.76% | 40.32% |
+| baseline_mistral_bg_t00 | 14.22% | 48.66% | 0.58% | 36.54% |
+| actor_critic_mistral_bg_t00 | 14.83% | 47.58% | 0.58% | 37.01% |
+| agora_majority_mistral_bg_t00 | 13.96% | 47.89% | 0.57% | 37.58% |
+| baseline_p1_deepseek_bg_t00 | 20.11% | 36.63% | 3.90% | 39.35% |
+| agora_majority_together_llama33_70b_bg_t00 | 16.31% | 40.34% | 0.00% | 43.35% |
+
+### EN
+
+| Experiment | Model | Method | Runs | F1ₐ narr | F1ₐ sub | hF | HCR | ICM | InterRun (sub) |
+|---|---|---|---|---|---|---|---|---|---|
+| baseline_p1_gpt5nano_en_t00 | GPT-5 Nano | Baseline | 1 | 0.403 ± 0.000 | 0.198 ± 0.000 | 0.501 ± 0.000 | 1.000 ± 0.000 | -1.910 ± 0.000 | 1.000 |
+| actor_critic_gemini_en_t07 | Gemini 2.5 Flash | Actor-Critic | 5 | 0.310 ± 0.019 | 0.229 ± 0.024 | 0.490 ± 0.021 | 1.000 ± 0.000 | -2.448 ± 0.255 | 0.467 |
+| actor_critic_gpt5nano_en_t07 | GPT-5 Nano | Actor-Critic | 5 | 0.331 ± 0.020 | 0.239 ± 0.041 | 0.478 ± 0.009 | 1.000 ± 0.000 | -2.519 ± 0.100 | 0.358 |
+| baseline_p0prime_gpt5nano_en_t00 | GPT-5 Nano | Baseline | 3 | 0.363 ± 0.010 | 0.252 ± 0.048 | 0.473 ± 0.001 | 1.000 ± 0.000 | -2.179 ± 0.083 | 0.481 |
+| actor_critic_gemini_en_t00 | Gemini 2.5 Flash | Actor-Critic | 5 | 0.301 ± 0.019 | 0.187 ± 0.038 | 0.471 ± 0.017 | 1.000 ± 0.000 | -2.616 ± 0.086 | 0.464 |
+| actor_critic_deepseek_en_t00_evidence | DeepSeek V3 | Actor-Critic | 1 | 0.355 ± 0.000 | 0.179 ± 0.000 | 0.463 ± 0.000 | 1.000 ± 0.000 | -2.380 ± 0.000 | 1.000 |
+| actor_critic_deepseek_en_t00 | DeepSeek V3 | Actor-Critic | 5 | 0.347 ± 0.020 | 0.210 ± 0.022 | 0.462 ± 0.014 | 1.000 ± 0.000 | -2.460 ± 0.140 | 0.514 |
+| baseline_gpt5nano_en_t00 | GPT-5 Nano | Baseline | 5 | 0.341 ± 0.034 | 0.233 ± 0.024 | 0.455 ± 0.017 | 1.000 ± 0.000 | -2.730 ± 0.200 | 0.555 |
+| actor_critic_deepseek_en_t07 | DeepSeek V3 | Actor-Critic | 5 | 0.343 ± 0.042 | 0.199 ± 0.041 | 0.454 ± 0.019 | 1.000 ± 0.000 | -2.506 ± 0.158 | 0.469 |
+| actor_critic_gpt5nano_en_t00 | GPT-5 Nano | Actor-Critic | 5 | 0.294 ± 0.018 | 0.171 ± 0.046 | 0.450 ± 0.018 | 1.000 ± 0.000 | -2.778 ± 0.283 | 0.344 |
+| agora_7_deepseek_en_t07 | DeepSeek V3 | Agora (7-agent intersection) | 5 | 0.374 ± 0.009 | 0.160 ± 0.016 | 0.449 ± 0.005 | 1.000 ± 0.000 | -2.341 ± 0.086 | 0.789 |
+| agora_majority_gpt5nano_en_t07 | GPT-5 Nano | Agora (majority) | 5 | 0.337 ± 0.019 | 0.224 ± 0.030 | 0.447 ± 0.013 | 1.000 ± 0.000 | -2.822 ± 0.144 | 0.589 |
+| agora_5_deepseek_en_t00 | DeepSeek V3 | Agora (5-agent intersection) | 5 | 0.380 ± 0.023 | 0.166 ± 0.013 | 0.442 ± 0.010 | 1.000 ± 0.000 | -2.566 ± 0.172 | 0.832 |
+| agora_majority_gpt5nano_ru_t00 | GPT-5 Nano | Agora (majority) | 1 | 0.339 ± 0.000 | 0.237 ± 0.000 | 0.441 ± 0.000 | 1.000 ± 0.000 | -3.074 ± 0.000 | 1.000 |
+| agora_5_deepseek_en_t07 | DeepSeek V3 | Agora (5-agent intersection) | 5 | 0.357 ± 0.028 | 0.144 ± 0.016 | 0.436 ± 0.015 | 1.000 ± 0.000 | -2.433 ± 0.156 | 0.770 |
+| baseline_gpt5nano_en_t07 | GPT-5 Nano | Baseline | 5 | 0.308 ± 0.021 | 0.205 ± 0.018 | 0.430 ± 0.006 | 1.000 ± 0.000 | -3.106 ± 0.099 | 0.589 |
+| agora_7_deepseek_en_t00 | DeepSeek V3 | Agora (7-agent intersection) | 5 | 0.348 ± 0.010 | 0.150 ± 0.007 | 0.427 ± 0.008 | 1.000 ± 0.000 | -2.772 ± 0.146 | 0.826 |
+| agora_deepseek_en_t07 | DeepSeek V3 | Agora (intersection) | 5 | 0.363 ± 0.020 | 0.157 ± 0.016 | 0.427 ± 0.009 | 1.000 ± 0.000 | -2.746 ± 0.103 | 0.785 |
+| baseline_deepseek_en_t00_evidence | DeepSeek V3 | Baseline | 1 | 0.355 ± 0.000 | 0.160 ± 0.000 | 0.427 ± 0.000 | 1.000 ± 0.000 | -2.825 ± 0.000 | 1.000 |
+| agora_gemini_en_t07 | Gemini 2.5 Flash | Agora (intersection) | 5 | 0.393 ± 0.037 | 0.224 ± 0.025 | 0.424 ± 0.015 | 1.000 ± 0.000 | -2.845 ± 0.249 | 0.663 |
+| actor_critic_gemini_en_t07 | Gemini 2.5 Flash | Actor-Critic | 4 | 0.347 ± 0.038 | 0.231 ± 0.050 | 0.423 ± 0.031 | 1.000 ± 0.000 | -2.934 ± 0.428 | 0.223 |
+| mdeberta_baseline_en_t00 | mDeBERTa v3 (fine-tuned) | mDeBERTa (fine-tuned) | 5 | 0.207 ± 0.043 | 0.079 ± 0.018 | 0.422 ± 0.009 | 1.000 ± 0.000 | -2.615 ± 0.182 | 0.292 |
+| agora_p1_together_llama33_70b_en_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.367 ± 0.012 | 0.174 ± 0.019 | 0.419 ± 0.009 | 1.000 ± 0.000 | -2.551 ± 0.185 | 0.716 |
+| agora_deepseek_en_t00 | DeepSeek V3 | Agora (intersection) | 5 | 0.349 ± 0.007 | 0.152 ± 0.007 | 0.416 ± 0.011 | 1.000 ± 0.000 | -2.968 ± 0.185 | 0.690 |
+| agora_p2_together_llama33_70b_en_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.373 ± 0.024 | 0.160 ± 0.016 | 0.414 ± 0.022 | 1.000 ± 0.000 | -2.364 ± 0.168 | 0.709 |
+| agora_1_deepseek_en_t00 | DeepSeek V3 | Agora (1-agent) | 5 | 0.349 ± 0.008 | 0.163 ± 0.013 | 0.413 ± 0.009 | 1.000 ± 0.000 | -3.216 ± 0.115 | 0.865 |
+| agora_7_majority_deepseek_en_t00 | DeepSeek V3 | Agora (7-agent majority) | 5 | 0.348 ± 0.011 | 0.162 ± 0.006 | 0.413 ± 0.006 | 1.000 ± 0.000 | -3.098 ± 0.070 | 0.851 |
+| agora_5_majority_deepseek_en_t00 | DeepSeek V3 | Agora (5-agent majority) | 5 | 0.348 ± 0.008 | 0.159 ± 0.009 | 0.413 ± 0.006 | 1.000 ± 0.000 | -3.051 ± 0.037 | 0.851 |
+| agora_union_gpt5nano_en_t00 | GPT-5 Nano | Agora (union) | 5 | 0.309 ± 0.026 | 0.219 ± 0.016 | 0.412 ± 0.010 | 1.000 ± 0.000 | -3.772 ± 0.199 | 0.599 |
+| agora_majority_deepseek_en_t07 | DeepSeek V3 | Agora (majority) | 5 | 0.351 ± 0.015 | 0.156 ± 0.013 | 0.412 ± 0.009 | 1.000 ± 0.000 | -3.065 ± 0.059 | 0.756 |
+| agora_7_majority_deepseek_en_t07 | DeepSeek V3 | Agora (7-agent majority) | 5 | 0.347 ± 0.007 | 0.156 ± 0.009 | 0.410 ± 0.008 | 1.000 ± 0.000 | -3.080 ± 0.095 | 0.802 |
+| agora_1_deepseek_en_t07 | DeepSeek V3 | Agora (1-agent) | 5 | 0.346 ± 0.004 | 0.161 ± 0.007 | 0.409 ± 0.009 | 1.000 ± 0.000 | -3.154 ± 0.084 | 0.741 |
+| agora_union_gpt5nano_en_t07 | GPT-5 Nano | Agora (union) | 5 | 0.318 ± 0.015 | 0.228 ± 0.022 | 0.409 ± 0.016 | 1.000 ± 0.000 | -3.831 ± 0.236 | 0.606 |
+| agora_5_majority_deepseek_en_t07 | DeepSeek V3 | Agora (5-agent majority) | 5 | 0.344 ± 0.021 | 0.156 ± 0.009 | 0.408 ± 0.007 | 1.000 ± 0.000 | -3.081 ± 0.102 | 0.809 |
+| sc_3_deepseek_en_t00 | DeepSeek V3 | Unknown | 3 | 0.257 ± 0.004 | 0.274 ± 0.025 | 0.408 ± 0.009 | 1.000 ± 0.000 | -1.946 ± 0.047 | 0.802 |
+| agora_majority_deepseek_en_t00 | DeepSeek V3 | Agora (majority) | 5 | 0.343 ± 0.009 | 0.152 ± 0.008 | 0.405 ± 0.006 | 1.000 ± 0.000 | -3.214 ± 0.112 | 0.851 |
+| baseline_p2_together_llama33_70b_en_t00 | Llama 3.3 70B | Baseline | 5 | 0.369 ± 0.015 | 0.162 ± 0.011 | 0.404 ± 0.015 | 1.000 ± 0.000 | -2.702 ± 0.240 | 0.714 |
+| baseline_deepseek_en_t00 | DeepSeek V3 | Baseline | 5 | 0.342 ± 0.013 | 0.150 ± 0.012 | 0.403 ± 0.010 | 1.000 ± 0.000 | -3.143 ± 0.065 | 0.794 |
+| agora_p0prime_deepseek_en_t00 | DeepSeek V3 | Agora (intersection) | 3 | 0.239 ± 0.007 | 0.258 ± 0.018 | 0.402 ± 0.006 | 1.000 ± 0.000 | -1.738 ± 0.076 | 0.745 |
+| baseline_deepseek_en_t07 | DeepSeek V3 | Baseline | 5 | 0.329 ± 0.012 | 0.146 ± 0.013 | 0.399 ± 0.012 | 1.000 ± 0.000 | -3.155 ± 0.174 | 0.731 |
+| baseline_p0prime_deepseek_en_t00 | DeepSeek V3 | Baseline | 3 | 0.242 ± 0.007 | 0.251 ± 0.050 | 0.397 ± 0.004 | 1.000 ± 0.000 | -2.075 ± 0.095 | 0.717 |
+| actor_critic_gemini_en_t00 | Gemini 2.5 Flash | Actor-Critic | 5 | 0.334 ± 0.018 | 0.225 ± 0.043 | 0.394 ± 0.009 | 1.000 ± 0.000 | -3.445 ± 0.280 | 0.306 |
+| baseline_p1_together_llama33_70b_en_t00 | Llama 3.3 70B | Baseline | 5 | 0.368 ± 0.010 | 0.153 ± 0.006 | 0.392 ± 0.010 | 1.000 ± 0.000 | -3.188 ± 0.187 | 0.765 |
+| agora_gemini_en_t00 | Gemini 2.5 Flash | Agora (intersection) | 3 | 0.383 ± 0.014 | 0.221 ± 0.029 | 0.388 ± 0.005 | 1.000 ± 0.000 | -3.308 ± 0.183 | 0.837 |
+| mdeberta_originals_only_en_t00 | mDeBERTa v3 (fine-tuned) | Unknown | 5 | 0.265 ± 0.042 | 0.097 ± 0.024 | 0.386 ± 0.032 | 1.000 ± 0.000 | -2.986 ± 0.316 | 0.378 |
+| sc_3_intersection_together_llama33_70b_en_t00 | Llama 3.3 70B | Unknown | 5 | 0.337 ± 0.027 | 0.151 ± 0.033 | 0.386 ± 0.014 | 1.000 ± 0.000 | -2.966 ± 0.211 | 0.747 |
+| agora_union_deepseek_en_t00 | DeepSeek V3 | Agora (union) | 5 | 0.320 ± 0.010 | 0.148 ± 0.011 | 0.385 ± 0.008 | 1.000 ± 0.000 | -3.597 ± 0.141 | 0.822 |
+| actor_critic_together_llama33_70b_en_t07 | Llama 3.3 70B | Actor-Critic | 5 | 0.307 ± 0.024 | 0.157 ± 0.018 | 0.383 ± 0.016 | 1.000 ± 0.000 | -3.625 ± 0.271 | 0.446 |
+| agora_5_union_deepseek_en_t00 | DeepSeek V3 | Agora (5-agent union) | 5 | 0.321 ± 0.008 | 0.145 ± 0.005 | 0.381 ± 0.006 | 1.000 ± 0.000 | -3.692 ± 0.148 | 0.815 |
+| actor_critic_together_llama33_70b_en_t00 | Llama 3.3 70B | Actor-Critic | 5 | 0.319 ± 0.010 | 0.163 ± 0.024 | 0.380 ± 0.016 | 1.000 ± 0.000 | -3.727 ± 0.238 | 0.491 |
+| baseline_gemini_en_t00 | Gemini 2.5 Flash | Baseline | 5 | 0.354 ± 0.012 | 0.197 ± 0.009 | 0.379 ± 0.009 | 1.000 ± 0.000 | -3.780 ± 0.131 | 0.815 |
+| agora_7_union_deepseek_en_t00 | DeepSeek V3 | Agora (7-agent union) | 5 | 0.325 ± 0.013 | 0.148 ± 0.010 | 0.378 ± 0.008 | 1.000 ± 0.000 | -3.870 ± 0.063 | 0.859 |
+| agora_union_deepseek_en_t07 | DeepSeek V3 | Agora (union) | 5 | 0.307 ± 0.013 | 0.143 ± 0.006 | 0.375 ± 0.007 | 1.000 ± 0.000 | -3.723 ± 0.163 | 0.776 |
+| agora_5_union_deepseek_en_t07 | DeepSeek V3 | Agora (5-agent union) | 5 | 0.309 ± 0.015 | 0.144 ± 0.009 | 0.374 ± 0.006 | 1.000 ± 0.000 | -3.818 ± 0.147 | 0.796 |
+| baseline_gemini_en_t07 | Gemini 2.5 Flash | Baseline | 1 | 0.367 ± 0.000 | 0.276 ± 0.000 | 0.373 ± 0.000 | 1.000 ± 0.000 | -5.545 ± 0.000 | 1.000 |
+| agora_7_union_deepseek_en_t07 | DeepSeek V3 | Agora (7-agent union) | 1 | 0.302 ± 0.000 | 0.146 ± 0.000 | 0.373 ± 0.000 | 1.000 ± 0.000 | -3.803 ± 0.000 | 1.000 |
+| baseline_p1_deepseek_en_t00 | DeepSeek V3 | Baseline | 3 | 0.198 ± 0.018 | 0.276 ± 0.012 | 0.360 ± 0.011 | 1.000 ± 0.000 | -1.828 ± 0.094 | 0.889 |
+| agora_p0prime_together_llama33_70b_en_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.290 ± 0.019 | 0.166 ± 0.035 | 0.356 ± 0.019 | 1.000 ± 0.000 | -3.057 ± 0.248 | 0.762 |
+| agora_mistral_en_t00 | Mistral Large | Agora (intersection) | 5 | 0.325 ± 0.022 | 0.135 ± 0.018 | 0.355 ± 0.012 | 1.000 ± 0.000 | -3.674 ± 0.163 | 0.762 |
+| agora_mistral_en_t00_evidence | Mistral Large | Agora (intersection) | 1 | 0.325 ± 0.000 | 0.125 ± 0.000 | 0.354 ± 0.000 | 1.000 ± 0.000 | -3.700 ± 0.000 | 1.000 |
+| agora_mistral_en_t07 | Mistral Large | Agora (intersection) | 5 | 0.318 ± 0.008 | 0.129 ± 0.004 | 0.354 ± 0.008 | 1.000 ± 0.000 | -3.653 ± 0.173 | 0.614 |
+| sc_3_together_llama33_70b_en_t00 | Llama 3.3 70B | Unknown | 5 | 0.304 ± 0.014 | 0.121 ± 0.007 | 0.353 ± 0.005 | 1.000 ± 0.000 | -3.922 ± 0.120 | 0.823 |
+| baseline_p0prime_together_llama33_70b_en_t00 | Llama 3.3 70B | Baseline | 5 | 0.315 ± 0.010 | 0.124 ± 0.003 | 0.352 ± 0.010 | 1.000 ± 0.000 | -3.906 ± 0.268 | 0.818 |
+| agora_together_llama33_70b_en_t07 | Llama 3.3 70B | Agora (intersection) | 5 | 0.300 ± 0.021 | 0.109 ± 0.023 | 0.351 ± 0.012 | 1.000 ± 0.000 | -3.239 ± 0.326 | 0.596 |
+| agora_together_llama33_70b_en_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.318 ± 0.015 | 0.115 ± 0.006 | 0.343 ± 0.006 | 1.000 ± 0.000 | -3.790 ± 0.096 | 0.749 |
+| actor_critic_mistral_en_t00_evidence | Mistral Large | Actor-Critic | 1 | 0.299 ± 0.000 | 0.134 ± 0.000 | 0.342 ± 0.000 | 1.000 ± 0.000 | -3.995 ± 0.000 | 1.000 |
+| baseline_p2_deepseek_en_t00 | DeepSeek V3 | Baseline | 3 | 0.185 ± 0.021 | 0.238 ± 0.017 | 0.341 ± 0.013 | 1.000 ± 0.000 | -1.872 ± 0.189 | 0.737 |
+| baseline_mistral_en_t00 | Mistral Large | Baseline | 5 | 0.308 ± 0.005 | 0.130 ± 0.002 | 0.339 ± 0.004 | 1.000 ± 0.000 | -4.166 ± 0.204 | 0.738 |
+| agora_majority_mistral_en_t00_evidence | Mistral Large | Agora (majority) | 1 | 0.303 ± 0.000 | 0.129 ± 0.000 | 0.339 ± 0.000 | 1.000 ± 0.000 | -4.263 ± 0.000 | 1.000 |
+| agora_majority_mistral_en_t00 | Mistral Large | Agora (majority) | 5 | 0.303 ± 0.021 | 0.130 ± 0.012 | 0.338 ± 0.008 | 1.000 ± 0.000 | -4.202 ± 0.098 | 0.743 |
+| baseline_mistral_en_t00_evidence | Mistral Large | Baseline | 1 | 0.312 ± 0.000 | 0.125 ± 0.000 | 0.337 ± 0.000 | 1.000 ± 0.000 | -4.205 ± 0.000 | 1.000 |
+| actor_critic_mistral_en_t00 | Mistral Large | Actor-Critic | 5 | 0.298 ± 0.012 | 0.121 ± 0.010 | 0.335 ± 0.008 | 1.000 ± 0.000 | -4.105 ± 0.076 | 0.736 |
+| baseline_mistral_en_t07 | Mistral Large | Baseline | 5 | 0.299 ± 0.009 | 0.132 ± 0.019 | 0.334 ± 0.006 | 1.000 ± 0.000 | -4.214 ± 0.242 | 0.617 |
+| actor_critic_mistral_en_t07 | Mistral Large | Actor-Critic | 5 | 0.301 ± 0.017 | 0.120 ± 0.008 | 0.333 ± 0.011 | 1.000 ± 0.000 | -4.332 ± 0.276 | 0.699 |
+| agora_majority_mistral_en_t07 | Mistral Large | Agora (majority) | 5 | 0.297 ± 0.014 | 0.122 ± 0.006 | 0.332 ± 0.011 | 1.000 ± 0.000 | -4.302 ± 0.198 | 0.711 |
+| baseline_together_llama33_70b_en_t07 | Llama 3.3 70B | Baseline | 5 | 0.300 ± 0.009 | 0.114 ± 0.008 | 0.330 ± 0.007 | 1.000 ± 0.000 | -4.236 ± 0.098 | 0.646 |
+| sc_3_union_together_llama33_70b_en_t00 | Llama 3.3 70B | Unknown | 5 | 0.294 ± 0.015 | 0.123 ± 0.006 | 0.330 ± 0.008 | 1.000 ± 0.000 | -4.450 ± 0.276 | 0.823 |
+| agora_majority_together_llama33_70b_en_t07 | Llama 3.3 70B | Agora (majority) | 5 | 0.302 ± 0.014 | 0.119 ± 0.009 | 0.330 ± 0.012 | 1.000 ± 0.000 | -4.242 ± 0.127 | 0.689 |
+| agora_majority_together_llama33_70b_en_t00 | Llama 3.3 70B | Agora (majority) | 5 | 0.307 ± 0.016 | 0.119 ± 0.011 | 0.326 ± 0.012 | 1.000 ± 0.000 | -4.340 ± 0.117 | 0.802 |
+| agora_union_mistral_en_t00 | Mistral Large | Agora (union) | 5 | 0.290 ± 0.001 | 0.124 ± 0.007 | 0.321 ± 0.007 | 1.000 ± 0.000 | -4.863 ± 0.177 | 0.816 |
+| agora_union_mistral_en_t07 | Mistral Large | Agora (union) | 5 | 0.289 ± 0.006 | 0.118 ± 0.006 | 0.318 ± 0.007 | 1.000 ± 0.000 | -4.717 ± 0.285 | 0.766 |
+| baseline_together_llama33_70b_en_t00 | Llama 3.3 70B | Baseline | 5 | 0.285 ± 0.013 | 0.105 ± 0.005 | 0.312 ± 0.006 | 1.000 ± 0.000 | -4.449 ± 0.155 | 0.772 |
+| agora_union_together_llama33_70b_en_t07 | Llama 3.3 70B | Agora (union) | 5 | 0.276 ± 0.011 | 0.112 ± 0.006 | 0.306 ± 0.005 | 1.000 ± 0.000 | -5.138 ± 0.202 | 0.701 |
+| agora_union_together_llama33_70b_en_t00 | Llama 3.3 70B | Agora (union) | 5 | 0.277 ± 0.009 | 0.110 ± 0.003 | 0.301 ± 0.007 | 1.000 ± 0.000 | -4.944 ± 0.206 | 0.794 |
+
+_Error severity (sub-narrative false positives, mean over runs)_:
+
+| Experiment | Sibling | Same-dom | Cross-dom | Hallucinations |
+|---|---|---|---|---|
+| baseline_p1_gpt5nano_en_t00 | 18.60% | 62.79% | 5.81% | 12.79% |
+| actor_critic_gemini_en_t07 | 20.79% | 69.22% | 1.11% | 8.87% |
+| actor_critic_gpt5nano_en_t07 | 13.21% | 64.65% | 6.81% | 15.32% |
+| baseline_p0prime_gpt5nano_en_t00 | 16.31% | 64.13% | 7.14% | 12.43% |
+| actor_critic_gemini_en_t00 | 10.66% | 59.00% | 4.59% | 25.75% |
+| actor_critic_deepseek_en_t00_evidence | 16.22% | 63.96% | 0.90% | 18.92% |
+| actor_critic_deepseek_en_t00 | 13.81% | 70.55% | 0.67% | 14.97% |
+| baseline_gpt5nano_en_t00 | 11.57% | 68.44% | 6.59% | 13.41% |
+| actor_critic_deepseek_en_t07 | 13.36% | 71.05% | 0.51% | 15.08% |
+| actor_critic_gpt5nano_en_t00 | 11.64% | 65.30% | 8.18% | 14.88% |
+| agora_7_deepseek_en_t07 | 11.30% | 72.67% | 0.00% | 16.02% |
+| agora_majority_gpt5nano_en_t07 | 12.88% | 68.65% | 4.88% | 13.59% |
+| agora_5_deepseek_en_t00 | 11.83% | 72.29% | 0.00% | 15.88% |
+| agora_majority_gpt5nano_ru_t00 | 14.08% | 64.08% | 7.04% | 14.79% |
+| agora_5_deepseek_en_t07 | 11.14% | 71.99% | 0.00% | 16.86% |
+| baseline_gpt5nano_en_t07 | 11.98% | 64.48% | 8.44% | 15.09% |
+| agora_7_deepseek_en_t00 | 10.87% | 71.74% | 0.00% | 17.39% |
+| agora_deepseek_en_t07 | 11.52% | 72.72% | 0.00% | 15.76% |
+| baseline_deepseek_en_t00_evidence | 12.05% | 72.89% | 0.00% | 15.06% |
+| agora_gemini_en_t07 | 14.24% | 68.70% | 4.49% | 12.57% |
+| actor_critic_gemini_en_t07 | 13.81% | 68.05% | 5.71% | 12.43% |
+| mdeberta_baseline_en_t00 | 12.25% | 52.78% | 13.87% | 21.10% |
+| agora_p1_together_llama33_70b_en_t00 | 11.52% | 67.00% | 2.07% | 19.42% |
+| agora_deepseek_en_t00 | 11.30% | 72.38% | 0.00% | 16.32% |
+| agora_p2_together_llama33_70b_en_t00 | 9.86% | 67.12% | 4.88% | 18.14% |
+| agora_1_deepseek_en_t00 | 10.60% | 72.83% | 0.00% | 16.57% |
+| agora_7_majority_deepseek_en_t00 | 11.47% | 71.66% | 0.00% | 16.87% |
+| agora_5_majority_deepseek_en_t00 | 11.94% | 72.26% | 0.00% | 15.80% |
+| agora_union_gpt5nano_en_t00 | 11.25% | 66.19% | 6.66% | 15.91% |
+| agora_majority_deepseek_en_t07 | 11.58% | 72.55% | 0.00% | 15.87% |
+| agora_7_majority_deepseek_en_t07 | 11.34% | 72.83% | 0.00% | 15.83% |
+| agora_1_deepseek_en_t07 | 11.54% | 70.32% | 2.14% | 16.00% |
+| agora_union_gpt5nano_en_t07 | 11.26% | 66.49% | 6.48% | 15.77% |
+| agora_5_majority_deepseek_en_t07 | 11.33% | 72.67% | 0.00% | 16.00% |
+| sc_3_deepseek_en_t00 | 13.51% | 74.56% | 2.33% | 9.59% |
+| agora_majority_deepseek_en_t00 | 11.05% | 72.68% | 0.00% | 16.27% |
+| baseline_p2_together_llama33_70b_en_t00 | 10.30% | 69.62% | 2.71% | 17.37% |
+| baseline_deepseek_en_t00 | 11.31% | 72.42% | 0.00% | 16.26% |
+| agora_p0prime_deepseek_en_t00 | 11.86% | 75.07% | 2.36% | 10.71% |
+| baseline_deepseek_en_t07 | 10.62% | 69.84% | 2.26% | 17.28% |
+| baseline_p0prime_deepseek_en_t00 | 13.25% | 72.28% | 2.95% | 11.53% |
+| actor_critic_gemini_en_t00 | 13.13% | 66.41% | 6.35% | 14.12% |
+| baseline_p1_together_llama33_70b_en_t00 | 10.47% | 68.38% | 4.29% | 16.86% |
+| agora_gemini_en_t00 | 12.87% | 67.86% | 5.99% | 13.28% |
+| mdeberta_originals_only_en_t00 | 8.34% | 67.14% | 4.96% | 19.55% |
+| sc_3_intersection_together_llama33_70b_en_t00 | 10.03% | 74.63% | 0.00% | 15.35% |
+| agora_union_deepseek_en_t00 | 10.63% | 72.75% | 0.29% | 16.33% |
+| actor_critic_together_llama33_70b_en_t07 | 9.89% | 73.04% | 0.63% | 16.43% |
+| agora_5_union_deepseek_en_t00 | 10.36% | 73.58% | 0.09% | 15.97% |
+| actor_critic_together_llama33_70b_en_t00 | 10.39% | 71.14% | 1.34% | 17.13% |
+| baseline_gemini_en_t00 | 11.50% | 65.32% | 6.24% | 16.93% |
+| agora_7_union_deepseek_en_t00 | 10.10% | 73.84% | 0.09% | 15.97% |
+| agora_union_deepseek_en_t07 | 9.96% | 73.13% | 0.28% | 16.63% |
+| agora_5_union_deepseek_en_t07 | 9.64% | 72.96% | 0.28% | 17.13% |
+| baseline_gemini_en_t07 | 16.92% | 81.54% | 1.54% | 0.00% |
+| agora_7_union_deepseek_en_t07 | 9.86% | 73.71% | 0.00% | 16.43% |
+| baseline_p1_deepseek_en_t00 | 14.28% | 70.80% | 6.49% | 8.42% |
+| agora_p0prime_together_llama33_70b_en_t00 | 9.62% | 75.51% | 1.52% | 13.36% |
+| agora_mistral_en_t00 | 9.23% | 72.11% | 0.26% | 18.41% |
+| agora_mistral_en_t00_evidence | 9.96% | 74.27% | 0.41% | 15.35% |
+| agora_mistral_en_t07 | 9.58% | 69.43% | 2.72% | 18.26% |
+| sc_3_together_llama33_70b_en_t00 | 7.83% | 74.67% | 0.61% | 16.89% |
+| baseline_p0prime_together_llama33_70b_en_t00 | 8.07% | 74.72% | 0.59% | 16.62% |
+| agora_together_llama33_70b_en_t07 | 9.08% | 74.10% | 0.40% | 16.43% |
+| agora_together_llama33_70b_en_t00 | 7.80% | 74.17% | 1.31% | 16.73% |
+| actor_critic_mistral_en_t00_evidence | 9.92% | 74.79% | 0.41% | 14.88% |
+| baseline_p2_deepseek_en_t00 | 12.54% | 71.19% | 6.87% | 9.40% |
+| baseline_mistral_en_t00 | 9.26% | 72.81% | 0.23% | 17.71% |
+| agora_majority_mistral_en_t00_evidence | 10.15% | 72.93% | 0.38% | 16.54% |
+| agora_majority_mistral_en_t00 | 8.96% | 72.97% | 0.23% | 17.85% |
+| baseline_mistral_en_t00_evidence | 9.33% | 73.88% | 0.37% | 16.42% |
+| actor_critic_mistral_en_t00 | 9.07% | 72.37% | 0.31% | 18.25% |
+| baseline_mistral_en_t07 | 9.57% | 73.68% | 0.30% | 16.45% |
+| actor_critic_mistral_en_t07 | 9.40% | 72.10% | 1.45% | 17.04% |
+| agora_majority_mistral_en_t07 | 8.85% | 71.69% | 1.44% | 18.01% |
+| baseline_together_llama33_70b_en_t07 | 7.48% | 75.01% | 1.31% | 16.21% |
+| sc_3_union_together_llama33_70b_en_t00 | 7.78% | 71.36% | 2.47% | 18.39% |
+| agora_majority_together_llama33_70b_en_t07 | 7.07% | 75.52% | 1.33% | 16.08% |
+| agora_majority_together_llama33_70b_en_t00 | 7.39% | 74.56% | 2.24% | 15.80% |
+| agora_union_mistral_en_t00 | 8.88% | 73.64% | 0.40% | 17.08% |
+| agora_union_mistral_en_t07 | 8.69% | 73.25% | 0.48% | 17.58% |
+| baseline_together_llama33_70b_en_t00 | 7.44% | 73.89% | 2.99% | 15.67% |
+| agora_union_together_llama33_70b_en_t07 | 6.89% | 74.58% | 1.46% | 17.07% |
+| agora_union_together_llama33_70b_en_t00 | 6.64% | 74.17% | 3.10% | 16.09% |
+
+### HI
+
+| Experiment | Model | Method | Runs | F1ₐ narr | F1ₐ sub | hF | HCR | ICM | InterRun (sub) |
+|---|---|---|---|---|---|---|---|---|---|
+| agora_majority_gpt5nano_hi_t00 | GPT-5 Nano | Agora (majority) | 5 | 0.400 ± 0.027 | 0.395 ± 0.019 | 0.570 ± 0.013 | 1.000 ± 0.000 | -1.802 ± 0.093 | 0.629 |
+| baseline_p0prime_gpt5nano_hi_t00 | GPT-5 Nano | Baseline | 3 | 0.348 ± 0.072 | 0.370 ± 0.061 | 0.545 ± 0.035 | 1.000 ± 0.000 | -1.487 ± 0.175 | 0.609 |
+| agora_deepseek_hi_t00 | DeepSeek V3 | Agora (intersection) | 5 | 0.462 ± 0.011 | 0.319 ± 0.033 | 0.532 ± 0.006 | 1.000 ± 0.000 | -2.497 ± 0.018 | 0.804 |
+| mdeberta_baseline_hi_t00 | mDeBERTa v3 (fine-tuned) | mDeBERTa (fine-tuned) | 5 | 0.309 ± 0.035 | 0.256 ± 0.042 | 0.506 ± 0.032 | 1.000 ± 0.000 | -2.344 ± 0.134 | 0.322 |
+| baseline_deepseek_hi_t00 | DeepSeek V3 | Baseline | 5 | 0.430 ± 0.021 | 0.308 ± 0.016 | 0.492 ± 0.014 | 1.000 ± 0.000 | -3.143 ± 0.058 | 0.800 |
+| mdeberta_originals_only_hi_t00 | mDeBERTa v3 (fine-tuned) | Unknown | 5 | 0.308 ± 0.039 | 0.248 ± 0.043 | 0.490 ± 0.021 | 1.000 ± 0.000 | -3.080 ± 0.224 | 0.294 |
+| actor_critic_deepseek_hi_t00 | DeepSeek V3 | Actor-Critic | 5 | 0.388 ± 0.028 | 0.275 ± 0.018 | 0.489 ± 0.015 | 1.000 ± 0.000 | -2.814 ± 0.171 | 0.569 |
+| agora_p0prime_deepseek_hi_t00 | DeepSeek V3 | Agora (intersection) | 3 | 0.346 ± 0.006 | 0.322 ± 0.004 | 0.483 ± 0.007 | 1.000 ± 0.000 | -1.836 ± 0.097 | 0.860 |
+| agora_p1_together_llama33_70b_hi_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.357 ± 0.023 | 0.348 ± 0.034 | 0.472 ± 0.024 | 1.000 ± 0.000 | -2.191 ± 0.257 | 0.778 |
+| agora_p2_together_llama33_70b_hi_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.420 ± 0.026 | 0.217 ± 0.015 | 0.466 ± 0.007 | 1.000 ± 0.000 | -2.913 ± 0.133 | 0.726 |
+| baseline_p0prime_deepseek_hi_t00 | DeepSeek V3 | Baseline | 3 | 0.302 ± 0.015 | 0.315 ± 0.007 | 0.453 ± 0.008 | 1.000 ± 0.000 | -2.434 ± 0.107 | 0.846 |
+| baseline_p2_deepseek_hi_t00 | DeepSeek V3 | Baseline | 3 | 0.307 ± 0.057 | 0.280 ± 0.039 | 0.451 ± 0.039 | 1.000 ± 0.000 | -1.969 ± 0.105 | 0.707 |
+| sc_3_deepseek_hi_t00 | DeepSeek V3 | Unknown | 3 | 0.293 ± 0.031 | 0.295 ± 0.012 | 0.450 ± 0.016 | 1.000 ± 0.000 | -2.343 ± 0.095 | 0.867 |
+| baseline_p2_together_llama33_70b_hi_t00 | Llama 3.3 70B | Baseline | 5 | 0.410 ± 0.046 | 0.187 ± 0.016 | 0.443 ± 0.026 | 1.000 ± 0.000 | -3.577 ± 0.247 | 0.698 |
+| baseline_p1_together_llama33_70b_hi_t00 | Llama 3.3 70B | Baseline | 5 | 0.339 ± 0.010 | 0.341 ± 0.020 | 0.443 ± 0.004 | 1.000 ± 0.000 | -2.689 ± 0.162 | 0.838 |
+| agora_mistral_hi_t00 | Mistral Large | Agora (intersection) | 5 | 0.348 ± 0.038 | 0.186 ± 0.040 | 0.408 ± 0.014 | 1.000 ± 0.000 | -4.518 ± 0.162 | 0.560 |
+| sc_3_union_together_llama33_70b_hi_t00 | Llama 3.3 70B | Unknown | 5 | 0.323 ± 0.024 | 0.306 ± 0.025 | 0.389 ± 0.013 | 1.000 ± 0.000 | -3.594 ± 0.227 | 0.768 |
+| baseline_together_llama33_70b_hi_t00 | Llama 3.3 70B | Baseline | 5 | 0.292 ± 0.012 | 0.179 ± 0.016 | 0.388 ± 0.013 | 1.000 ± 0.000 | -3.482 ± 0.287 | 0.703 |
+| agora_together_llama33_70b_hi_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.249 ± 0.032 | 0.213 ± 0.032 | 0.386 ± 0.017 | 1.000 ± 0.000 | -2.917 ± 0.097 | 0.779 |
+| sc_3_together_llama33_70b_hi_t00 | Llama 3.3 70B | Unknown | 5 | 0.280 ± 0.042 | 0.270 ± 0.014 | 0.385 ± 0.012 | 1.000 ± 0.000 | -2.855 ± 0.200 | 0.826 |
+| agora_p0prime_together_llama33_70b_hi_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.250 ± 0.035 | 0.261 ± 0.019 | 0.382 ± 0.021 | 1.000 ± 0.000 | -2.276 ± 0.299 | 0.819 |
+| baseline_p1_deepseek_hi_t00 | DeepSeek V3 | Baseline | 3 | 0.202 ± 0.039 | 0.277 ± 0.021 | 0.379 ± 0.037 | 1.000 ± 0.000 | -1.928 ± 0.241 | 0.838 |
+| baseline_mistral_hi_t00 | Mistral Large | Baseline | 5 | 0.320 ± 0.023 | 0.148 ± 0.013 | 0.379 ± 0.005 | 1.000 ± 0.000 | -5.452 ± 0.118 | 0.744 |
+| agora_majority_mistral_hi_t00 | Mistral Large | Agora (majority) | 5 | 0.319 ± 0.009 | 0.152 ± 0.008 | 0.375 ± 0.005 | 1.000 ± 0.000 | -5.410 ± 0.119 | 0.787 |
+| baseline_p0prime_together_llama33_70b_hi_t00 | Llama 3.3 70B | Baseline | 5 | 0.261 ± 0.018 | 0.291 ± 0.026 | 0.375 ± 0.007 | 1.000 ± 0.000 | -2.997 ± 0.394 | 0.718 |
+| actor_critic_mistral_hi_t00 | Mistral Large | Actor-Critic | 5 | 0.306 ± 0.014 | 0.153 ± 0.016 | 0.369 ± 0.006 | 1.000 ± 0.000 | -5.457 ± 0.099 | 0.737 |
+| sc_3_intersection_together_llama33_70b_hi_t00 | Llama 3.3 70B | Unknown | 5 | 0.215 ± 0.029 | 0.291 ± 0.021 | 0.369 ± 0.022 | 1.000 ± 0.000 | -2.298 ± 0.080 | 0.882 |
+| agora_majority_together_llama33_70b_hi_t00 | Llama 3.3 70B | Agora (majority) | 5 | 0.228 ± 0.035 | 0.141 ± 0.018 | 0.332 ± 0.023 | 1.000 ± 0.000 | -4.301 ± 0.163 | 0.779 |
+
+_Error severity (sub-narrative false positives, mean over runs)_:
+
+| Experiment | Sibling | Same-dom | Cross-dom | Hallucinations |
+|---|---|---|---|---|
+| agora_majority_gpt5nano_hi_t00 | 17.56% | 17.60% | 0.57% | 64.27% |
+| baseline_p0prime_gpt5nano_hi_t00 | 21.48% | 8.02% | 0.00% | 70.50% |
+| agora_deepseek_hi_t00 | 17.13% | 37.93% | 0.00% | 44.95% |
+| mdeberta_baseline_hi_t00 | 7.48% | 51.83% | 5.51% | 35.18% |
+| baseline_deepseek_hi_t00 | 15.40% | 38.92% | 0.00% | 45.68% |
+| mdeberta_originals_only_hi_t00 | 9.63% | 43.90% | 2.37% | 44.11% |
+| actor_critic_deepseek_hi_t00 | 14.12% | 37.65% | 0.00% | 48.22% |
+| agora_p0prime_deepseek_hi_t00 | 17.57% | 39.27% | 0.00% | 43.16% |
+| agora_p1_together_llama33_70b_hi_t00 | 23.15% | 41.54% | 0.22% | 35.09% |
+| agora_p2_together_llama33_70b_hi_t00 | 15.33% | 42.04% | 0.00% | 42.62% |
+| baseline_p0prime_deepseek_hi_t00 | 14.64% | 43.31% | 0.00% | 42.05% |
+| baseline_p2_deepseek_hi_t00 | 15.68% | 31.96% | 0.00% | 52.36% |
+| sc_3_deepseek_hi_t00 | 14.64% | 39.93% | 0.00% | 45.43% |
+| baseline_p2_together_llama33_70b_hi_t00 | 14.21% | 45.53% | 0.00% | 40.26% |
+| baseline_p1_together_llama33_70b_hi_t00 | 18.68% | 45.04% | 0.60% | 35.69% |
+| agora_mistral_hi_t00 | 10.77% | 42.69% | 0.00% | 46.53% |
+| sc_3_union_together_llama33_70b_hi_t00 | 16.35% | 45.33% | 0.66% | 37.66% |
+| baseline_together_llama33_70b_hi_t00 | 14.06% | 46.23% | 0.00% | 39.72% |
+| agora_together_llama33_70b_hi_t00 | 14.73% | 45.79% | 0.00% | 39.48% |
+| sc_3_together_llama33_70b_hi_t00 | 16.42% | 41.13% | 0.39% | 42.06% |
+| agora_p0prime_together_llama33_70b_hi_t00 | 19.97% | 39.77% | 0.00% | 40.26% |
+| baseline_p1_deepseek_hi_t00 | 11.70% | 37.42% | 0.00% | 50.88% |
+| baseline_mistral_hi_t00 | 9.99% | 46.78% | 0.00% | 43.23% |
+| agora_majority_mistral_hi_t00 | 9.23% | 47.34% | 0.00% | 43.43% |
+| baseline_p0prime_together_llama33_70b_hi_t00 | 16.40% | 49.07% | 0.81% | 33.73% |
+| actor_critic_mistral_hi_t00 | 9.99% | 46.01% | 0.00% | 44.00% |
+| sc_3_intersection_together_llama33_70b_hi_t00 | 18.27% | 43.78% | 0.00% | 37.95% |
+| agora_majority_together_llama33_70b_hi_t00 | 10.22% | 43.02% | 0.00% | 46.77% |
+
+### PT
+
+| Experiment | Model | Method | Runs | F1ₐ narr | F1ₐ sub | hF | HCR | ICM | InterRun (sub) |
+|---|---|---|---|---|---|---|---|---|---|
+| agora_majority_gpt5nano_pt_t00 | GPT-5 Nano | Agora (majority) | 5 | 0.584 ± 0.030 | 0.375 ± 0.073 | 0.677 ± 0.022 | 1.000 ± 0.000 | -0.795 ± 0.113 | 0.624 |
+| baseline_p0prime_gpt5nano_pt_t00 | GPT-5 Nano | Baseline | 3 | 0.489 ± 0.083 | 0.350 ± 0.079 | 0.635 ± 0.071 | 1.000 ± 0.000 | -0.778 ± 0.290 | 0.593 |
+| agora_majority_deepseek_pt_t00 | DeepSeek V3 | Agora (majority) | 5 | 0.548 ± 0.021 | 0.365 ± 0.030 | 0.595 ± 0.013 | 1.000 ± 0.000 | -1.148 ± 0.168 | 0.815 |
+| agora_p2_together_llama33_70b_pt_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.651 ± 0.044 | 0.283 ± 0.031 | 0.587 ± 0.028 | 1.000 ± 0.000 | -3.333 ± 0.399 | 0.790 |
+| baseline_p2_together_llama33_70b_pt_t00 | Llama 3.3 70B | Baseline | 5 | 0.653 ± 0.024 | 0.281 ± 0.038 | 0.580 ± 0.022 | 1.000 ± 0.000 | -3.460 ± 0.773 | 0.803 |
+| agora_union_deepseek_pt_t00 | DeepSeek V3 | Agora (union) | 5 | 0.546 ± 0.038 | 0.339 ± 0.029 | 0.579 ± 0.021 | 1.000 ± 0.000 | -1.327 ± 0.119 | 0.858 |
+| mdeberta_baseline_pt_t00 | mDeBERTa v3 (fine-tuned) | mDeBERTa (fine-tuned) | 5 | 0.462 ± 0.006 | 0.246 ± 0.059 | 0.579 ± 0.016 | 1.000 ± 0.000 | -2.799 ± 0.315 | 0.374 |
+| baseline_deepseek_pt_t07 | DeepSeek V3 | Baseline | 5 | 0.504 ± 0.030 | 0.373 ± 0.033 | 0.574 ± 0.020 | 1.000 ± 0.000 | -1.120 ± 0.119 | 0.778 |
+| baseline_deepseek_pt_t00 | DeepSeek V3 | Baseline | 5 | 0.510 ± 0.020 | 0.346 ± 0.033 | 0.573 ± 0.010 | 1.000 ± 0.000 | -1.154 ± 0.150 | 0.859 |
+| agora_p1_together_llama33_70b_pt_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.579 ± 0.027 | 0.425 ± 0.016 | 0.572 ± 0.020 | 1.000 ± 0.000 | -2.915 ± 0.665 | 0.869 |
+| mdeberta_originals_only_pt_t00 | mDeBERTa v3 (fine-tuned) | Unknown | 5 | 0.491 ± 0.035 | 0.325 ± 0.037 | 0.571 ± 0.011 | 1.000 ± 0.000 | -3.721 ± 0.424 | 0.493 |
+| agora_deepseek_pt_t00 | DeepSeek V3 | Agora (intersection) | 5 | 0.476 ± 0.038 | 0.340 ± 0.023 | 0.565 ± 0.022 | 1.000 ± 0.000 | -0.943 ± 0.049 | 0.872 |
+| baseline_p1_together_llama33_70b_pt_t00 | Llama 3.3 70B | Baseline | 5 | 0.557 ± 0.037 | 0.383 ± 0.050 | 0.553 ± 0.019 | 1.000 ± 0.000 | -3.412 ± 0.543 | 0.762 |
+| actor_critic_deepseek_pt_t00 | DeepSeek V3 | Actor-Critic | 5 | 0.383 ± 0.055 | 0.288 ± 0.033 | 0.544 ± 0.015 | 1.000 ± 0.000 | -1.142 ± 0.183 | 0.585 |
+| sc_3_together_llama33_70b_pt_t00 | Llama 3.3 70B | Unknown | 5 | 0.505 ± 0.029 | 0.371 ± 0.019 | 0.537 ± 0.011 | 1.000 ± 0.000 | -2.208 ± 0.137 | 0.890 |
+| sc_3_union_together_llama33_70b_pt_t00 | Llama 3.3 70B | Unknown | 5 | 0.503 ± 0.023 | 0.328 ± 0.013 | 0.524 ± 0.018 | 1.000 ± 0.000 | -2.376 ± 0.063 | 0.928 |
+| sc_3_intersection_together_llama33_70b_pt_t00 | Llama 3.3 70B | Unknown | 5 | 0.443 ± 0.017 | 0.322 ± 0.020 | 0.518 ± 0.010 | 1.000 ± 0.000 | -2.102 ± 0.116 | 0.929 |
+| baseline_p0prime_together_llama33_70b_pt_t00 | Llama 3.3 70B | Baseline | 5 | 0.467 ± 0.030 | 0.339 ± 0.026 | 0.516 ± 0.017 | 1.000 ± 0.000 | -2.133 ± 0.156 | 0.861 |
+| agora_mistral_pt_t00 | Mistral Large | Agora (intersection) | 5 | 0.464 ± 0.044 | 0.321 ± 0.040 | 0.516 ± 0.023 | 1.000 ± 0.000 | -2.469 ± 0.296 | 0.590 |
+| agora_p0prime_together_llama33_70b_pt_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.433 ± 0.021 | 0.345 ± 0.010 | 0.510 ± 0.016 | 1.000 ± 0.000 | -1.941 ± 0.035 | 0.907 |
+| agora_majority_mistral_pt_t00 | Mistral Large | Agora (majority) | 5 | 0.410 ± 0.049 | 0.309 ± 0.024 | 0.478 ± 0.022 | 1.000 ± 0.000 | -3.561 ± 0.286 | 0.815 |
+| actor_critic_mistral_pt_t00 | Mistral Large | Actor-Critic | 5 | 0.374 ± 0.019 | 0.281 ± 0.023 | 0.464 ± 0.008 | 1.000 ± 0.000 | -3.462 ± 0.238 | 0.820 |
+| baseline_mistral_pt_t00 | Mistral Large | Baseline | 5 | 0.382 ± 0.036 | 0.277 ± 0.023 | 0.459 ± 0.012 | 1.000 ± 0.000 | -3.596 ± 0.278 | 0.736 |
+| baseline_together_llama33_70b_pt_t00 | Llama 3.3 70B | Baseline | 5 | 0.307 ± 0.032 | 0.354 ± 0.031 | 0.430 ± 0.021 | 1.000 ± 0.000 | -1.575 ± 0.144 | 0.903 |
+| agora_together_llama33_70b_pt_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.271 ± 0.020 | 0.361 ± 0.016 | 0.416 ± 0.012 | 1.000 ± 0.000 | -1.411 ± 0.131 | 0.932 |
+| agora_majority_together_llama33_70b_pt_t00 | Llama 3.3 70B | Agora (majority) | 5 | 0.199 ± 0.010 | 0.335 ± 0.004 | 0.354 ± 0.008 | 1.000 ± 0.000 | -1.539 ± 0.099 | 0.937 |
+| baseline_p2_deepseek_pt_t00 | DeepSeek V3 | Baseline | 3 | 0.139 ± 0.024 | 0.409 ± 0.043 | 0.291 ± 0.031 | 1.000 ± 0.000 | -1.022 ± 0.069 | 0.860 |
+| agora_p0prime_deepseek_pt_t00 | DeepSeek V3 | Agora (intersection) | 3 | 0.111 ± 0.008 | 0.342 ± 0.004 | 0.271 ± 0.001 | 1.000 ± 0.000 | -0.784 ± 0.013 | 0.973 |
+| baseline_p0prime_deepseek_pt_t00 | DeepSeek V3 | Baseline | 3 | 0.096 ± 0.004 | 0.338 ± 0.002 | 0.260 ± 0.005 | 1.000 ± 0.000 | -0.829 ± 0.014 | 0.963 |
+| sc_3_deepseek_pt_t00 | DeepSeek V3 | Unknown | 3 | 0.091 ± 0.004 | 0.335 ± 0.002 | 0.258 ± 0.003 | 1.000 ± 0.000 | -0.844 ± 0.013 | 0.977 |
+| baseline_p1_deepseek_pt_t00 | DeepSeek V3 | Baseline | 3 | 0.038 ± 0.015 | 0.350 ± 0.016 | 0.149 ± 0.036 | 1.000 ± 0.000 | -0.970 ± 0.033 | 0.969 |
+
+_Error severity (sub-narrative false positives, mean over runs)_:
+
+| Experiment | Sibling | Same-dom | Cross-dom | Hallucinations |
+|---|---|---|---|---|
+| agora_majority_gpt5nano_pt_t00 | 17.54% | 41.45% | 0.00% | 41.01% |
+| baseline_p0prime_gpt5nano_pt_t00 | 18.10% | 35.33% | 0.00% | 46.57% |
+| agora_majority_deepseek_pt_t00 | 22.79% | 42.86% | 0.00% | 34.34% |
+| agora_p2_together_llama33_70b_pt_t00 | 28.08% | 39.12% | 0.00% | 32.80% |
+| baseline_p2_together_llama33_70b_pt_t00 | 24.72% | 44.86% | 0.00% | 30.42% |
+| agora_union_deepseek_pt_t00 | 20.47% | 43.09% | 0.00% | 36.44% |
+| mdeberta_baseline_pt_t00 | 16.27% | 38.72% | 10.41% | 34.60% |
+| baseline_deepseek_pt_t07 | 22.98% | 43.97% | 0.00% | 33.06% |
+| baseline_deepseek_pt_t00 | 22.55% | 41.66% | 0.00% | 35.79% |
+| agora_p1_together_llama33_70b_pt_t00 | 31.75% | 43.25% | 0.00% | 25.01% |
+| mdeberta_originals_only_pt_t00 | 15.04% | 44.79% | 1.02% | 39.14% |
+| agora_deepseek_pt_t00 | 23.58% | 42.79% | 0.00% | 33.63% |
+| baseline_p1_together_llama33_70b_pt_t00 | 30.05% | 46.45% | 0.00% | 23.50% |
+| actor_critic_deepseek_pt_t00 | 19.22% | 52.54% | 0.51% | 27.73% |
+| sc_3_together_llama33_70b_pt_t00 | 27.06% | 49.58% | 0.00% | 23.36% |
+| sc_3_union_together_llama33_70b_pt_t00 | 23.27% | 48.93% | 0.00% | 27.80% |
+| sc_3_intersection_together_llama33_70b_pt_t00 | 25.71% | 45.48% | 0.00% | 28.81% |
+| baseline_p0prime_together_llama33_70b_pt_t00 | 24.78% | 49.29% | 0.00% | 25.93% |
+| agora_mistral_pt_t00 | 20.57% | 50.50% | 0.00% | 28.92% |
+| agora_p0prime_together_llama33_70b_pt_t00 | 26.28% | 47.45% | 0.00% | 26.27% |
+| agora_majority_mistral_pt_t00 | 17.77% | 55.91% | 0.00% | 26.32% |
+| actor_critic_mistral_pt_t00 | 16.53% | 55.55% | 0.00% | 27.93% |
+| baseline_mistral_pt_t00 | 16.66% | 55.56% | 0.00% | 27.78% |
+| baseline_together_llama33_70b_pt_t00 | 22.33% | 56.11% | 0.00% | 21.56% |
+| agora_together_llama33_70b_pt_t00 | 24.17% | 57.34% | 0.00% | 18.48% |
+| agora_majority_together_llama33_70b_pt_t00 | 17.27% | 64.59% | 0.00% | 18.15% |
+| baseline_p2_deepseek_pt_t00 | 26.06% | 64.85% | 3.03% | 6.06% |
+| agora_p0prime_deepseek_pt_t00 | 27.27% | 54.55% | 0.00% | 18.18% |
+| baseline_p0prime_deepseek_pt_t00 | 21.67% | 56.67% | 0.00% | 21.67% |
+| sc_3_deepseek_pt_t00 | 21.03% | 57.95% | 0.00% | 21.03% |
+| baseline_p1_deepseek_pt_t00 | 10.74% | 89.26% | 0.00% | 0.00% |
+
+### RU
+
+| Experiment | Model | Method | Runs | F1ₐ narr | F1ₐ sub | hF | HCR | ICM | InterRun (sub) |
+|---|---|---|---|---|---|---|---|---|---|
+| agora_majority_gpt5nano_ru_t00 | GPT-5 Nano | Agora (majority) | 5 | 0.428 ± 0.041 | 0.350 ± 0.037 | 0.580 ± 0.024 | 1.000 ± 0.000 | -2.352 ± 0.183 | 0.644 |
+| agora_deepseek_ru_t07 | DeepSeek V3 | Agora (intersection) | 5 | 0.505 ± 0.020 | 0.285 ± 0.020 | 0.550 ± 0.012 | 1.000 ± 0.000 | -2.547 ± 0.187 | 0.804 |
+| agora_deepseek_ru_t00 | DeepSeek V3 | Agora (intersection) | 5 | 0.504 ± 0.021 | 0.304 ± 0.018 | 0.546 ± 0.011 | 1.000 ± 0.000 | -2.691 ± 0.103 | 0.864 |
+| baseline_p0prime_deepseek_ru_t00 | DeepSeek V3 | Baseline | 3 | 0.458 ± 0.024 | 0.335 ± 0.025 | 0.544 ± 0.010 | 1.000 ± 0.000 | -2.480 ± 0.090 | 0.837 |
+| baseline_p0prime_gpt5nano_ru_t00 | GPT-5 Nano | Baseline | 3 | 0.353 ± 0.046 | 0.344 ± 0.026 | 0.542 ± 0.035 | 1.000 ± 0.000 | -2.087 ± 0.241 | 0.604 |
+| sc_3_deepseek_ru_t00 | DeepSeek V3 | Unknown | 3 | 0.451 ± 0.024 | 0.311 ± 0.006 | 0.539 ± 0.013 | 1.000 ± 0.000 | -2.453 ± 0.063 | 0.864 |
+| actor_critic_deepseek_ru_t07 | DeepSeek V3 | Actor-Critic | 5 | 0.451 ± 0.022 | 0.287 ± 0.056 | 0.538 ± 0.023 | 1.000 ± 0.000 | -2.800 ± 0.269 | 0.507 |
+| actor_critic_deepseek_ru_t00 | DeepSeek V3 | Actor-Critic | 5 | 0.454 ± 0.021 | 0.275 ± 0.016 | 0.537 ± 0.009 | 1.000 ± 0.000 | -3.014 ± 0.152 | 0.505 |
+| agora_p0prime_deepseek_ru_t00 | DeepSeek V3 | Agora (intersection) | 3 | 0.444 ± 0.021 | 0.301 ± 0.042 | 0.537 ± 0.009 | 1.000 ± 0.000 | -2.395 ± 0.146 | 0.832 |
+| baseline_deepseek_ru_t00 | DeepSeek V3 | Baseline | 5 | 0.481 ± 0.018 | 0.269 ± 0.016 | 0.526 ± 0.011 | 1.000 ± 0.000 | -3.048 ± 0.169 | 0.851 |
+| baseline_deepseek_ru_t07 | DeepSeek V3 | Baseline | 5 | 0.472 ± 0.009 | 0.259 ± 0.008 | 0.519 ± 0.005 | 1.000 ± 0.000 | -3.053 ± 0.137 | 0.777 |
+| baseline_p2_deepseek_ru_t00 | DeepSeek V3 | Baseline | 3 | 0.399 ± 0.033 | 0.263 ± 0.055 | 0.506 ± 0.021 | 1.000 ± 0.000 | -2.513 ± 0.315 | 0.672 |
+| baseline_p1_deepseek_ru_t00 | DeepSeek V3 | Baseline | 3 | 0.379 ± 0.009 | 0.285 ± 0.007 | 0.482 ± 0.011 | 1.000 ± 0.000 | -2.403 ± 0.063 | 0.871 |
+| agora_p2_together_llama33_70b_ru_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.474 ± 0.026 | 0.216 ± 0.027 | 0.479 ± 0.005 | 1.000 ± 0.000 | -3.639 ± 0.128 | 0.749 |
+| mdeberta_baseline_ru_t00 | mDeBERTa v3 (fine-tuned) | mDeBERTa (fine-tuned) | 5 | 0.233 ± 0.054 | 0.159 ± 0.051 | 0.464 ± 0.030 | 1.000 ± 0.000 | -3.636 ± 0.409 | 0.320 |
+| agora_p0prime_together_llama33_70b_ru_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.394 ± 0.015 | 0.226 ± 0.012 | 0.459 ± 0.006 | 1.000 ± 0.000 | -3.284 ± 0.102 | 0.779 |
+| sc_3_intersection_together_llama33_70b_ru_t00 | Llama 3.3 70B | Unknown | 5 | 0.394 ± 0.020 | 0.208 ± 0.022 | 0.454 ± 0.012 | 1.000 ± 0.000 | -3.357 ± 0.225 | 0.785 |
+| baseline_p2_together_llama33_70b_ru_t00 | Llama 3.3 70B | Baseline | 5 | 0.424 ± 0.024 | 0.198 ± 0.015 | 0.452 ± 0.010 | 1.000 ± 0.000 | -4.284 ± 0.085 | 0.706 |
+| agora_mistral_ru_t00 | Mistral Large | Agora (intersection) | 5 | 0.407 ± 0.031 | 0.213 ± 0.024 | 0.446 ± 0.017 | 1.000 ± 0.000 | -4.372 ± 0.269 | 0.435 |
+| mdeberta_originals_only_ru_t00 | mDeBERTa v3 (fine-tuned) | Unknown | 5 | 0.305 ± 0.042 | 0.128 ± 0.054 | 0.445 ± 0.027 | 1.000 ± 0.000 | -3.984 ± 0.419 | 0.347 |
+| agora_p1_together_llama33_70b_ru_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.368 ± 0.024 | 0.178 ± 0.013 | 0.431 ± 0.012 | 1.000 ± 0.000 | -3.359 ± 0.141 | 0.814 |
+| baseline_p0prime_together_llama33_70b_ru_t00 | Llama 3.3 70B | Baseline | 5 | 0.371 ± 0.026 | 0.216 ± 0.019 | 0.431 ± 0.019 | 1.000 ± 0.000 | -4.042 ± 0.325 | 0.787 |
+| agora_together_llama33_70b_ru_t00 | Llama 3.3 70B | Agora (intersection) | 5 | 0.395 ± 0.030 | 0.212 ± 0.022 | 0.430 ± 0.017 | 1.000 ± 0.000 | -3.655 ± 0.176 | 0.780 |
+| sc_3_together_llama33_70b_ru_t00 | Llama 3.3 70B | Unknown | 5 | 0.376 ± 0.014 | 0.228 ± 0.012 | 0.425 ± 0.008 | 1.000 ± 0.000 | -4.179 ± 0.244 | 0.797 |
+| agora_majority_mistral_ru_t00 | Mistral Large | Agora (majority) | 5 | 0.409 ± 0.013 | 0.204 ± 0.010 | 0.418 ± 0.006 | 1.000 ± 0.000 | -5.386 ± 0.182 | 0.807 |
+| actor_critic_mistral_ru_t00 | Mistral Large | Actor-Critic | 5 | 0.387 ± 0.017 | 0.204 ± 0.004 | 0.415 ± 0.004 | 1.000 ± 0.000 | -5.480 ± 0.133 | 0.792 |
+| baseline_mistral_ru_t00 | Mistral Large | Baseline | 5 | 0.382 ± 0.008 | 0.200 ± 0.009 | 0.409 ± 0.004 | 1.000 ± 0.000 | -5.601 ± 0.139 | 0.799 |
+| baseline_p1_together_llama33_70b_ru_t00 | Llama 3.3 70B | Baseline | 5 | 0.346 ± 0.010 | 0.188 ± 0.003 | 0.407 ± 0.007 | 1.000 ± 0.000 | -4.046 ± 0.136 | 0.777 |
+| agora_majority_together_llama33_70b_ru_t00 | Llama 3.3 70B | Agora (majority) | 5 | 0.363 ± 0.009 | 0.206 ± 0.002 | 0.396 ± 0.005 | 1.000 ± 0.000 | -5.152 ± 0.156 | 0.807 |
+| baseline_together_llama33_70b_ru_t00 | Llama 3.3 70B | Baseline | 5 | 0.335 ± 0.017 | 0.202 ± 0.021 | 0.386 ± 0.018 | 1.000 ± 0.000 | -5.079 ± 0.412 | 0.729 |
+| sc_3_union_together_llama33_70b_ru_t00 | Llama 3.3 70B | Unknown | 5 | 0.324 ± 0.011 | 0.209 ± 0.010 | 0.374 ± 0.014 | 1.000 ± 0.000 | -5.551 ± 0.408 | 0.814 |
+
+_Error severity (sub-narrative false positives, mean over runs)_:
+
+| Experiment | Sibling | Same-dom | Cross-dom | Hallucinations |
+|---|---|---|---|---|
+| agora_majority_gpt5nano_ru_t00 | 21.70% | 47.77% | 4.64% | 25.89% |
+| agora_deepseek_ru_t07 | 18.74% | 54.48% | 0.00% | 26.78% |
+| agora_deepseek_ru_t00 | 18.79% | 54.85% | 0.00% | 26.37% |
+| baseline_p0prime_deepseek_ru_t00 | 19.77% | 54.92% | 1.19% | 24.12% |
+| baseline_p0prime_gpt5nano_ru_t00 | 28.79% | 33.56% | 9.83% | 27.81% |
+| sc_3_deepseek_ru_t00 | 20.17% | 53.61% | 1.21% | 25.01% |
+| actor_critic_deepseek_ru_t07 | 19.66% | 52.50% | 1.41% | 26.42% |
+| actor_critic_deepseek_ru_t00 | 17.64% | 50.75% | 1.14% | 30.47% |
+| agora_p0prime_deepseek_ru_t00 | 21.57% | 53.09% | 0.83% | 24.50% |
+| baseline_deepseek_ru_t00 | 16.02% | 55.93% | 0.00% | 28.05% |
+| baseline_deepseek_ru_t07 | 15.25% | 57.14% | 0.00% | 27.61% |
+| baseline_p2_deepseek_ru_t00 | 18.07% | 45.33% | 6.55% | 30.05% |
+| baseline_p1_deepseek_ru_t00 | 21.07% | 46.91% | 3.53% | 28.49% |
+| agora_p2_together_llama33_70b_ru_t00 | 22.28% | 59.92% | 0.00% | 17.81% |
+| mdeberta_baseline_ru_t00 | 9.87% | 56.95% | 6.97% | 26.21% |
+| agora_p0prime_together_llama33_70b_ru_t00 | 20.73% | 59.48% | 0.00% | 19.79% |
+| sc_3_intersection_together_llama33_70b_ru_t00 | 22.57% | 58.89% | 0.00% | 18.54% |
+| baseline_p2_together_llama33_70b_ru_t00 | 20.26% | 62.09% | 0.00% | 17.64% |
+| agora_mistral_ru_t00 | 17.43% | 55.99% | 0.00% | 26.58% |
+| mdeberta_originals_only_ru_t00 | 14.61% | 59.11% | 0.40% | 25.88% |
+| agora_p1_together_llama33_70b_ru_t00 | 20.94% | 59.34% | 0.17% | 19.54% |
+| baseline_p0prime_together_llama33_70b_ru_t00 | 19.88% | 61.18% | 0.47% | 18.46% |
+| agora_together_llama33_70b_ru_t00 | 18.81% | 61.00% | 0.30% | 19.89% |
+| sc_3_together_llama33_70b_ru_t00 | 19.21% | 60.20% | 0.15% | 20.44% |
+| agora_majority_mistral_ru_t00 | 15.79% | 60.41% | 0.42% | 23.37% |
+| actor_critic_mistral_ru_t00 | 15.86% | 60.34% | 0.11% | 23.69% |
+| baseline_mistral_ru_t00 | 15.69% | 61.44% | 0.00% | 22.87% |
+| baseline_p1_together_llama33_70b_ru_t00 | 17.99% | 60.85% | 0.72% | 20.44% |
+| agora_majority_together_llama33_70b_ru_t00 | 18.04% | 61.93% | 0.35% | 19.68% |
+| baseline_together_llama33_70b_ru_t00 | 15.76% | 64.53% | 0.85% | 18.86% |
+| sc_3_union_together_llama33_70b_ru_t00 | 16.42% | 59.69% | 1.11% | 22.78% |
+
+## Pairwise Significance Tests (paired, hF)
+
+| A vs B | n | mean diff | Cohen's d | p (t-test) | p (Wilcoxon) |
+|---|---|---|---|---|---|
+| actor_critic_deepseek_bg_t00 vs actor_critic_deepseek_bg_t07 | 5 | -0.020 | -1.13 | 0.0642 | 0.1250  |
+| actor_critic_deepseek_bg_t00 vs agora_deepseek_bg_t00 | 5 | -0.052 | -2.26 | 0.0072 | 0.0625  |
+| actor_critic_deepseek_bg_t00 vs agora_deepseek_bg_t07 | 5 | -0.052 | -3.89 | 0.0010 | 0.0625  |
+| actor_critic_deepseek_bg_t00 vs agora_p0prime_deepseek_bg_t00 | 3 | +0.057 | +9.95 | 0.0033 | 0.2500  |
+| actor_critic_deepseek_bg_t00 vs baseline_deepseek_bg_t00 | 5 | -0.022 | -0.79 | 0.1520 | 0.1875  |
+| actor_critic_deepseek_bg_t00 vs baseline_deepseek_bg_t07 | 5 | -0.012 | -0.61 | 0.2436 | 0.1875  |
+| actor_critic_deepseek_bg_t00 vs baseline_p0prime_deepseek_bg_t00 | 3 | +0.035 | +0.78 | 0.3082 | 0.2500  |
+| actor_critic_deepseek_bg_t00 vs baseline_p1_deepseek_bg_t00 | 3 | +0.132 | +6.22 | 0.0085 | 0.2500  |
+| actor_critic_deepseek_bg_t00 vs baseline_p2_deepseek_bg_t00 | 3 | -0.004 | -1.52 | 0.1190 | 0.2500  |
+| actor_critic_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | +0.032 | +1.62 | 0.1065 | 0.2500  |
+| actor_critic_deepseek_bg_t07 vs agora_deepseek_bg_t00 | 5 | -0.032 | -1.94 | 0.0122 | 0.0625  |
+| actor_critic_deepseek_bg_t07 vs agora_deepseek_bg_t07 | 5 | -0.032 | -2.57 | 0.0045 | 0.0625  |
+| actor_critic_deepseek_bg_t07 vs agora_p0prime_deepseek_bg_t00 | 3 | +0.077 | +4.03 | 0.0199 | 0.2500  |
+| actor_critic_deepseek_bg_t07 vs baseline_deepseek_bg_t00 | 5 | -0.001 | -0.08 | 0.8622 | 0.6250  |
+| actor_critic_deepseek_bg_t07 vs baseline_deepseek_bg_t07 | 5 | +0.008 | +0.53 | 0.3043 | 0.3125  |
+| actor_critic_deepseek_bg_t07 vs baseline_p0prime_deepseek_bg_t00 | 3 | +0.055 | +1.87 | 0.0832 | 0.2500  |
+| actor_critic_deepseek_bg_t07 vs baseline_p1_deepseek_bg_t00 | 3 | +0.152 | +27.27 | 0.0004 | 0.2500  |
+| actor_critic_deepseek_bg_t07 vs baseline_p2_deepseek_bg_t00 | 3 | +0.016 | +0.61 | 0.4031 | 0.5000  |
+| actor_critic_deepseek_bg_t07 vs sc_3_deepseek_bg_t00 | 3 | +0.052 | +5.21 | 0.0120 | 0.2500  |
+| actor_critic_deepseek_en_t00 vs actor_critic_deepseek_en_t07 | 5 | +0.008 | +0.31 | 0.5249 | 0.6250  |
+| actor_critic_deepseek_en_t00 vs agora_1_deepseek_en_t00 | 5 | +0.049 | +2.56 | 0.0046 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_1_deepseek_en_t07 | 5 | +0.053 | +3.72 | 0.0011 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_5_deepseek_en_t00 | 5 | +0.020 | +2.37 | 0.0061 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_5_deepseek_en_t07 | 5 | +0.026 | +0.96 | 0.0988 | 0.1250  |
+| actor_critic_deepseek_en_t00 vs agora_5_majority_deepseek_en_t00 | 5 | +0.049 | +2.79 | 0.0034 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_5_majority_deepseek_en_t07 | 5 | +0.054 | +2.80 | 0.0033 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_5_union_deepseek_en_t00 | 5 | +0.082 | +4.73 | 0.0005 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_5_union_deepseek_en_t07 | 5 | +0.088 | +4.96 | 0.0004 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_7_deepseek_en_t00 | 5 | +0.035 | +1.73 | 0.0180 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_7_deepseek_en_t07 | 5 | +0.014 | +0.78 | 0.1560 | 0.1875  |
+| actor_critic_deepseek_en_t00 vs agora_7_majority_deepseek_en_t00 | 5 | +0.049 | +3.26 | 0.0019 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | +0.052 | +2.47 | 0.0052 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.084 | +4.43 | 0.0006 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | +0.047 | +1.98 | 0.0114 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | +0.035 | +2.46 | 0.0053 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.057 | +3.56 | 0.0014 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.051 | +3.63 | 0.0013 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.069 | +6.24 | 0.0084 | 0.2500  |
+| actor_critic_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.077 | +3.57 | 0.0013 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.087 | +5.26 | 0.0003 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.059 | +4.14 | 0.0008 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.063 | +4.23 | 0.0007 | 0.0625  |
+| actor_critic_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.075 | +6.48 | 0.0079 | 0.2500  |
+| actor_critic_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.111 | +7.60 | 0.0057 | 0.2500  |
+| actor_critic_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.130 | +7.88 | 0.0053 | 0.2500  |
+| actor_critic_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.064 | +5.36 | 0.0114 | 0.2500  |
+| actor_critic_deepseek_en_t07 vs agora_1_deepseek_en_t00 | 5 | +0.041 | +1.60 | 0.0233 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_1_deepseek_en_t07 | 5 | +0.045 | +2.04 | 0.0103 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_5_deepseek_en_t00 | 5 | +0.012 | +0.50 | 0.3226 | 0.4375  |
+| actor_critic_deepseek_en_t07 vs agora_5_deepseek_en_t07 | 5 | +0.018 | +0.65 | 0.2170 | 0.3125  |
+| actor_critic_deepseek_en_t07 vs agora_5_majority_deepseek_en_t00 | 5 | +0.041 | +2.58 | 0.0045 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_5_majority_deepseek_en_t07 | 5 | +0.046 | +3.11 | 0.0023 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_5_union_deepseek_en_t00 | 5 | +0.073 | +5.22 | 0.0003 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_5_union_deepseek_en_t07 | 5 | +0.080 | +4.29 | 0.0007 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_7_deepseek_en_t00 | 5 | +0.027 | +1.28 | 0.0463 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_7_deepseek_en_t07 | 5 | +0.006 | +0.27 | 0.5730 | 0.6250  |
+| actor_critic_deepseek_en_t07 vs agora_7_majority_deepseek_en_t00 | 5 | +0.041 | +2.58 | 0.0045 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_7_majority_deepseek_en_t07 | 5 | +0.044 | +2.80 | 0.0033 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | +0.076 | +3.47 | 0.0015 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | +0.039 | +2.05 | 0.0101 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | +0.027 | +1.11 | 0.0676 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.049 | +2.04 | 0.0103 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | +0.043 | +1.64 | 0.0217 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.046 | +3.83 | 0.0219 | 0.2500  |
+| actor_critic_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.069 | +3.41 | 0.0016 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.079 | +3.65 | 0.0012 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.051 | +1.87 | 0.0139 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.055 | +2.31 | 0.0066 | 0.0625  |
+| actor_critic_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.052 | +4.43 | 0.0166 | 0.2500  |
+| actor_critic_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.088 | +7.76 | 0.0055 | 0.2500  |
+| actor_critic_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.107 | +5.84 | 0.0096 | 0.2500  |
+| actor_critic_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | +0.040 | +2.93 | 0.0367 | 0.2500  |
+| actor_critic_deepseek_hi_t00 vs agora_deepseek_hi_t00 | 5 | -0.043 | -2.32 | 0.0066 | 0.0625  |
+| actor_critic_deepseek_hi_t00 vs agora_p0prime_deepseek_hi_t00 | 3 | +0.006 | +0.74 | 0.3298 | 0.5000  |
+| actor_critic_deepseek_hi_t00 vs baseline_deepseek_hi_t00 | 5 | -0.003 | -0.10 | 0.8279 | 0.8125  |
+| actor_critic_deepseek_hi_t00 vs baseline_p0prime_deepseek_hi_t00 | 3 | +0.036 | +3.00 | 0.0352 | 0.2500  |
+| actor_critic_deepseek_hi_t00 vs baseline_p1_deepseek_hi_t00 | 3 | +0.110 | +2.54 | 0.0480 | 0.2500  |
+| actor_critic_deepseek_hi_t00 vs baseline_p2_deepseek_hi_t00 | 3 | +0.039 | +1.37 | 0.1415 | 0.2500  |
+| actor_critic_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | +0.039 | +1.75 | 0.0940 | 0.2500  |
+| actor_critic_deepseek_pt_t00 vs agora_deepseek_pt_t00 | 5 | -0.021 | -0.78 | 0.1576 | 0.1875  |
+| actor_critic_deepseek_pt_t00 vs agora_majority_deepseek_pt_t00 | 5 | -0.051 | -2.86 | 0.0031 | 0.0625  |
+| actor_critic_deepseek_pt_t00 vs agora_p0prime_deepseek_pt_t00 | 3 | +0.276 | +113.59 | 0.0000 | 0.2500  |
+| actor_critic_deepseek_pt_t00 vs agora_union_deepseek_pt_t00 | 5 | -0.035 | -1.13 | 0.0652 | 0.1250  |
+| actor_critic_deepseek_pt_t00 vs baseline_deepseek_pt_t00 | 5 | -0.029 | -1.47 | 0.0300 | 0.0625  |
+| actor_critic_deepseek_pt_t00 vs baseline_deepseek_pt_t07 | 5 | -0.030 | -1.68 | 0.0197 | 0.0625  |
+| actor_critic_deepseek_pt_t00 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.286 | +57.22 | 0.0001 | 0.2500  |
+| actor_critic_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.397 | +11.24 | 0.0026 | 0.2500  |
+| actor_critic_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | +0.256 | +8.22 | 0.0049 | 0.2500  |
+| actor_critic_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.288 | +67.39 | 0.0001 | 0.2500  |
+| actor_critic_deepseek_ru_t00 vs actor_critic_deepseek_ru_t07 | 5 | -0.001 | -0.03 | 0.9497 | 0.8125  |
+| actor_critic_deepseek_ru_t00 vs agora_deepseek_ru_t00 | 5 | -0.010 | -1.52 | 0.0274 | 0.0625  |
+| actor_critic_deepseek_ru_t00 vs agora_deepseek_ru_t07 | 5 | -0.013 | -1.06 | 0.0762 | 0.0625  |
+| actor_critic_deepseek_ru_t00 vs agora_p0prime_deepseek_ru_t00 | 3 | +0.001 | +0.09 | 0.8932 | 0.7500  |
+| actor_critic_deepseek_ru_t00 vs baseline_deepseek_ru_t00 | 5 | +0.011 | +0.77 | 0.1599 | 0.1875  |
+| actor_critic_deepseek_ru_t00 vs baseline_deepseek_ru_t07 | 5 | +0.018 | +1.34 | 0.0401 | 0.0625  |
+| actor_critic_deepseek_ru_t00 vs baseline_p0prime_deepseek_ru_t00 | 3 | -0.006 | -0.30 | 0.6535 | 0.7500  |
+| actor_critic_deepseek_ru_t00 vs baseline_p1_deepseek_ru_t00 | 3 | +0.056 | +11.10 | 0.0027 | 0.2500  |
+| actor_critic_deepseek_ru_t00 vs baseline_p2_deepseek_ru_t00 | 3 | +0.031 | +0.98 | 0.2321 | 0.5000  |
+| actor_critic_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | -0.001 | -0.08 | 0.9050 | 1.0000  |
+| actor_critic_deepseek_ru_t07 vs agora_deepseek_ru_t00 | 5 | -0.009 | -0.33 | 0.5076 | 0.4375  |
+| actor_critic_deepseek_ru_t07 vs agora_deepseek_ru_t07 | 5 | -0.013 | -0.41 | 0.4071 | 0.4375  |
+| actor_critic_deepseek_ru_t07 vs agora_p0prime_deepseek_ru_t00 | 3 | +0.012 | +0.56 | 0.4310 | 0.5000  |
+| actor_critic_deepseek_ru_t07 vs baseline_deepseek_ru_t00 | 5 | +0.011 | +0.42 | 0.4041 | 0.4375  |
+| actor_critic_deepseek_ru_t07 vs baseline_deepseek_ru_t07 | 5 | +0.019 | +0.76 | 0.1656 | 0.1875  |
+| actor_critic_deepseek_ru_t07 vs baseline_p0prime_deepseek_ru_t00 | 3 | +0.005 | +0.18 | 0.7835 | 1.0000  |
+| actor_critic_deepseek_ru_t07 vs baseline_p1_deepseek_ru_t00 | 3 | +0.066 | +1.99 | 0.0749 | 0.2500  |
+| actor_critic_deepseek_ru_t07 vs baseline_p2_deepseek_ru_t00 | 3 | +0.042 | +1.95 | 0.0777 | 0.2500  |
+| actor_critic_deepseek_ru_t07 vs sc_3_deepseek_ru_t00 | 3 | +0.009 | +0.81 | 0.2965 | 0.5000  |
+| actor_critic_gemini_en_t00 vs actor_critic_gemini_en_t00 | 5 | -0.077 | -5.46 | 0.0003 | 0.0625  |
+| actor_critic_gemini_en_t00 vs actor_critic_gemini_en_t07 | 5 | -0.019 | -0.69 | 0.1972 | 0.1875  |
+| actor_critic_gemini_en_t00 vs agora_gemini_en_t00 | 3 | +0.089 | +5.46 | 0.0110 | 0.2500  |
+| actor_critic_gemini_en_t00 vs agora_gemini_en_t07 | 5 | +0.047 | +1.71 | 0.0189 | 0.0625  |
+| actor_critic_gemini_en_t00 vs baseline_gemini_en_t00 | 5 | +0.092 | +4.67 | 0.0005 | 0.0625  |
+| actor_critic_gemini_en_t07 vs actor_critic_gemini_en_t07 | 4 | -0.063 | -2.31 | 0.0192 | 0.1250  |
+| actor_critic_gemini_en_t07 vs agora_gemini_en_t00 | 3 | +0.098 | +3.05 | 0.0341 | 0.2500  |
+| actor_critic_gemini_en_t07 vs agora_gemini_en_t07 | 5 | +0.066 | +3.88 | 0.0010 | 0.0625  |
+| actor_critic_gemini_en_t07 vs baseline_gemini_en_t00 | 5 | +0.111 | +4.78 | 0.0004 | 0.0625  |
+| actor_critic_gpt5nano_en_t00 vs actor_critic_gpt5nano_en_t07 | 5 | -0.028 | -1.08 | 0.0731 | 0.1250  |
+| actor_critic_gpt5nano_en_t00 vs agora_majority_gpt5nano_en_t07 | 5 | +0.003 | +0.18 | 0.7101 | 1.0000  |
+| actor_critic_gpt5nano_en_t00 vs agora_union_gpt5nano_en_t00 | 5 | +0.038 | +3.01 | 0.0026 | 0.0625  |
+| actor_critic_gpt5nano_en_t00 vs agora_union_gpt5nano_en_t07 | 5 | +0.040 | +1.30 | 0.0434 | 0.0625  |
+| actor_critic_gpt5nano_en_t00 vs baseline_gpt5nano_en_t00 | 5 | -0.005 | -0.22 | 0.6453 | 1.0000  |
+| actor_critic_gpt5nano_en_t00 vs baseline_gpt5nano_en_t07 | 5 | +0.020 | +1.04 | 0.0811 | 0.1250  |
+| actor_critic_gpt5nano_en_t00 vs baseline_p0prime_gpt5nano_en_t00 | 3 | -0.033 | -2.01 | 0.0732 | 0.2500  |
+| actor_critic_gpt5nano_en_t07 vs agora_majority_gpt5nano_en_t07 | 5 | +0.031 | +1.64 | 0.0213 | 0.0625  |
+| actor_critic_gpt5nano_en_t07 vs agora_union_gpt5nano_en_t00 | 5 | +0.066 | +4.05 | 0.0008 | 0.0625  |
+| actor_critic_gpt5nano_en_t07 vs agora_union_gpt5nano_en_t07 | 5 | +0.069 | +4.75 | 0.0004 | 0.0625  |
+| actor_critic_gpt5nano_en_t07 vs baseline_gpt5nano_en_t00 | 5 | +0.023 | +1.31 | 0.0426 | 0.1250  |
+| actor_critic_gpt5nano_en_t07 vs baseline_gpt5nano_en_t07 | 5 | +0.048 | +4.92 | 0.0004 | 0.0625  |
+| actor_critic_gpt5nano_en_t07 vs baseline_p0prime_gpt5nano_en_t00 | 3 | +0.009 | +1.11 | 0.1942 | 0.2500  |
+| actor_critic_mistral_bg_t00 vs agora_majority_mistral_bg_t00 | 5 | +0.005 | +0.75 | 0.1671 | 0.1875  |
+| actor_critic_mistral_bg_t00 vs agora_mistral_bg_t00 | 5 | -0.024 | -2.15 | 0.0087 | 0.0625  |
+| actor_critic_mistral_bg_t00 vs baseline_mistral_bg_t00 | 5 | -0.001 | -0.13 | 0.7896 | 0.8125  |
+| actor_critic_mistral_en_t00 vs actor_critic_mistral_en_t07 | 5 | +0.002 | +0.14 | 0.7724 | 1.0000  |
+| actor_critic_mistral_en_t00 vs agora_majority_mistral_en_t00 | 5 | -0.003 | -0.31 | 0.5219 | 0.4375  |
+| actor_critic_mistral_en_t00 vs agora_majority_mistral_en_t07 | 5 | +0.003 | +0.25 | 0.6045 | 0.4375  |
+| actor_critic_mistral_en_t00 vs agora_mistral_en_t00 | 5 | -0.020 | -1.12 | 0.0658 | 0.1250  |
+| actor_critic_mistral_en_t00 vs agora_mistral_en_t07 | 5 | -0.019 | -1.55 | 0.0259 | 0.0625  |
+| actor_critic_mistral_en_t00 vs agora_union_mistral_en_t00 | 5 | +0.014 | +1.33 | 0.0413 | 0.1250  |
+| actor_critic_mistral_en_t00 vs agora_union_mistral_en_t07 | 5 | +0.017 | +2.04 | 0.0103 | 0.0625  |
+| actor_critic_mistral_en_t00 vs baseline_mistral_en_t00 | 5 | -0.004 | -0.49 | 0.3384 | 0.8125  |
+| actor_critic_mistral_en_t00 vs baseline_mistral_en_t07 | 5 | +0.001 | +0.08 | 0.8663 | 1.0000  |
+| actor_critic_mistral_en_t07 vs agora_majority_mistral_en_t00 | 5 | -0.005 | -0.27 | 0.5759 | 0.8125  |
+| actor_critic_mistral_en_t07 vs agora_majority_mistral_en_t07 | 5 | +0.001 | +0.07 | 0.8816 | 0.8125  |
+| actor_critic_mistral_en_t07 vs agora_mistral_en_t00 | 5 | -0.022 | -2.12 | 0.0090 | 0.0625  |
+| actor_critic_mistral_en_t07 vs agora_mistral_en_t07 | 5 | -0.021 | -1.66 | 0.0208 | 0.0625  |
+| actor_critic_mistral_en_t07 vs agora_union_mistral_en_t00 | 5 | +0.012 | +0.78 | 0.1544 | 0.1875  |
+| actor_critic_mistral_en_t07 vs agora_union_mistral_en_t07 | 5 | +0.014 | +1.48 | 0.0299 | 0.0625  |
+| actor_critic_mistral_en_t07 vs baseline_mistral_en_t00 | 5 | -0.006 | -0.45 | 0.3742 | 0.4375  |
+| actor_critic_mistral_en_t07 vs baseline_mistral_en_t07 | 5 | -0.002 | -0.10 | 0.8389 | 0.6250  |
+| actor_critic_mistral_hi_t00 vs agora_majority_mistral_hi_t00 | 5 | -0.007 | -0.95 | 0.0997 | 0.1250  |
+| actor_critic_mistral_hi_t00 vs agora_mistral_hi_t00 | 5 | -0.039 | -3.95 | 0.0009 | 0.0625  |
+| actor_critic_mistral_hi_t00 vs baseline_mistral_hi_t00 | 5 | -0.010 | -0.95 | 0.0997 | 0.1250  |
+| actor_critic_mistral_pt_t00 vs agora_majority_mistral_pt_t00 | 5 | -0.014 | -0.47 | 0.3482 | 0.6250  |
+| actor_critic_mistral_pt_t00 vs agora_mistral_pt_t00 | 5 | -0.052 | -2.57 | 0.0046 | 0.0625  |
+| actor_critic_mistral_pt_t00 vs baseline_mistral_pt_t00 | 5 | +0.004 | +0.28 | 0.5637 | 0.6250  |
+| actor_critic_mistral_ru_t00 vs agora_majority_mistral_ru_t00 | 5 | -0.003 | -0.50 | 0.3252 | 0.4375  |
+| actor_critic_mistral_ru_t00 vs agora_mistral_ru_t00 | 5 | -0.031 | -1.78 | 0.0164 | 0.0625  |
+| actor_critic_mistral_ru_t00 vs baseline_mistral_ru_t00 | 5 | +0.005 | +0.99 | 0.0914 | 0.1250  |
+| actor_critic_together_llama33_70b_en_t00 vs actor_critic_together_llama33_70b_en_t07 | 5 | -0.002 | -0.10 | 0.8358 | 1.0000  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_majority_together_llama33_70b_en_t00 | 5 | +0.054 | +1.96 | 0.0118 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_majority_together_llama33_70b_en_t07 | 5 | +0.050 | +2.05 | 0.0102 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_p0prime_together_llama33_70b_en_t00 | 5 | +0.024 | +0.78 | 0.1544 | 0.3125  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_p1_together_llama33_70b_en_t00 | 5 | -0.039 | -2.01 | 0.0109 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_p2_together_llama33_70b_en_t00 | 5 | -0.034 | -1.66 | 0.0207 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t00 | 5 | +0.037 | +1.74 | 0.0176 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t07 | 5 | +0.029 | +1.26 | 0.0479 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.079 | +5.75 | 0.0002 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.074 | +4.07 | 0.0008 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | +0.028 | +1.46 | 0.0307 | 0.1250  |
+| actor_critic_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.012 | -0.82 | 0.1412 | 0.1250  |
+| actor_critic_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.024 | -2.58 | 0.0045 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.068 | +4.06 | 0.0008 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.050 | +2.43 | 0.0056 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.005 | -0.27 | 0.5745 | 0.6250  |
+| actor_critic_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.028 | +1.61 | 0.0226 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.050 | +4.34 | 0.0006 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_majority_together_llama33_70b_en_t00 | 5 | +0.057 | +3.70 | 0.0012 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_majority_together_llama33_70b_en_t07 | 5 | +0.053 | +2.08 | 0.0096 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_p0prime_together_llama33_70b_en_t00 | 5 | +0.026 | +0.92 | 0.1079 | 0.1875  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_p1_together_llama33_70b_en_t00 | 5 | -0.037 | -3.05 | 0.0024 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_p2_together_llama33_70b_en_t00 | 5 | -0.032 | -1.90 | 0.0133 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_together_llama33_70b_en_t00 | 5 | +0.040 | +2.63 | 0.0042 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_together_llama33_70b_en_t07 | 5 | +0.031 | +2.40 | 0.0058 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.081 | +5.91 | 0.0002 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.076 | +5.79 | 0.0002 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | +0.030 | +1.22 | 0.0530 | 0.1250  |
+| actor_critic_together_llama33_70b_en_t07 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.010 | -0.62 | 0.2410 | 0.3125  |
+| actor_critic_together_llama33_70b_en_t07 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.022 | -0.91 | 0.1119 | 0.1875  |
+| actor_critic_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t00 | 5 | +0.070 | +5.70 | 0.0002 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t07 | 5 | +0.052 | +3.80 | 0.0011 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.003 | -0.19 | 0.6858 | 1.0000  |
+| actor_critic_together_llama33_70b_en_t07 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.030 | +1.85 | 0.0145 | 0.0625  |
+| actor_critic_together_llama33_70b_en_t07 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.052 | +2.52 | 0.0049 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_1_deepseek_en_t07 | 5 | +0.004 | +0.30 | 0.5449 | 0.6250  |
+| agora_1_deepseek_en_t00 vs agora_5_deepseek_en_t00 | 5 | -0.029 | -2.33 | 0.0064 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_5_deepseek_en_t07 | 5 | -0.023 | -2.66 | 0.0040 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_5_majority_deepseek_en_t00 | 5 | +0.000 | +0.02 | 0.9747 | 0.8125  |
+| agora_1_deepseek_en_t00 vs agora_5_majority_deepseek_en_t07 | 5 | +0.005 | +0.36 | 0.4653 | 0.6250  |
+| agora_1_deepseek_en_t00 vs agora_5_union_deepseek_en_t00 | 5 | +0.032 | +2.31 | 0.0066 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_5_union_deepseek_en_t07 | 5 | +0.039 | +5.37 | 0.0003 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_7_deepseek_en_t00 | 5 | -0.014 | -1.21 | 0.0542 | 0.1250  |
+| agora_1_deepseek_en_t00 vs agora_7_deepseek_en_t07 | 5 | -0.035 | -6.36 | 0.0001 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_7_majority_deepseek_en_t00 | 5 | +0.000 | +0.01 | 0.9791 | 1.0000  |
+| agora_1_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | +0.003 | +0.25 | 0.5999 | 0.6250  |
+| agora_1_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.035 | +3.43 | 0.0016 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | -0.002 | -0.17 | 0.7284 | 0.8125  |
+| agora_1_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.014 | -1.03 | 0.0823 | 0.1250  |
+| agora_1_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.008 | +0.91 | 0.1129 | 0.1250  |
+| agora_1_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.002 | +0.13 | 0.7841 | 0.6250  |
+| agora_1_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.010 | +1.21 | 0.1710 | 0.2500  |
+| agora_1_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.028 | +2.89 | 0.0030 | 0.0625  |
+| agora_1_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.038 | +3.94 | 0.0009 | 0.0625  |
+| agora_1_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.010 | +1.29 | 0.0451 | 0.1250  |
+| agora_1_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.014 | +0.75 | 0.1666 | 0.3125  |
+| agora_1_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.016 | +2.13 | 0.0660 | 0.2500  |
+| agora_1_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.053 | +2.73 | 0.0418 | 0.2500  |
+| agora_1_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.072 | +7.37 | 0.0061 | 0.2500  |
+| agora_1_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.005 | +0.47 | 0.5000 | 0.7500  |
+| agora_1_deepseek_en_t07 vs agora_5_deepseek_en_t00 | 5 | -0.033 | -2.75 | 0.0035 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_5_deepseek_en_t07 | 5 | -0.027 | -1.38 | 0.0371 | 0.1250  |
+| agora_1_deepseek_en_t07 vs agora_5_majority_deepseek_en_t00 | 5 | -0.003 | -0.42 | 0.4019 | 0.6250  |
+| agora_1_deepseek_en_t07 vs agora_5_majority_deepseek_en_t07 | 5 | +0.001 | +0.07 | 0.8779 | 0.8125  |
+| agora_1_deepseek_en_t07 vs agora_5_union_deepseek_en_t00 | 5 | +0.029 | +2.20 | 0.0080 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_5_union_deepseek_en_t07 | 5 | +0.035 | +3.26 | 0.0019 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_7_deepseek_en_t00 | 5 | -0.018 | -1.19 | 0.0563 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_7_deepseek_en_t07 | 5 | -0.039 | -3.26 | 0.0019 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_7_majority_deepseek_en_t00 | 5 | -0.003 | -0.54 | 0.2918 | 0.3125  |
+| agora_1_deepseek_en_t07 vs agora_7_majority_deepseek_en_t07 | 5 | -0.001 | -0.07 | 0.8868 | 1.0000  |
+| agora_1_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | +0.031 | +1.91 | 0.0131 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | -0.006 | -0.35 | 0.4723 | 0.6250  |
+| agora_1_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | -0.018 | -1.15 | 0.0618 | 0.1250  |
+| agora_1_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.004 | +0.41 | 0.4161 | 0.6250  |
+| agora_1_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | -0.002 | -0.25 | 0.6040 | 0.8125  |
+| agora_1_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.011 | +0.86 | 0.2753 | 0.5000  |
+| agora_1_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.024 | +2.04 | 0.0104 | 0.0625  |
+| agora_1_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.035 | +2.23 | 0.0076 | 0.0625  |
+| agora_1_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.006 | +0.44 | 0.3801 | 0.4375  |
+| agora_1_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.010 | +0.54 | 0.2957 | 0.3125  |
+| agora_1_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.017 | +1.66 | 0.1022 | 0.2500  |
+| agora_1_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.053 | +6.04 | 0.0090 | 0.2500  |
+| agora_1_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.072 | +3.85 | 0.0217 | 0.2500  |
+| agora_1_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | +0.006 | +0.33 | 0.6214 | 0.7500  |
+| agora_5_deepseek_en_t00 vs agora_5_deepseek_en_t07 | 5 | +0.006 | +0.29 | 0.5457 | 0.6250  |
+| agora_5_deepseek_en_t00 vs agora_5_majority_deepseek_en_t00 | 5 | +0.029 | +2.09 | 0.0094 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_5_majority_deepseek_en_t07 | 5 | +0.034 | +2.26 | 0.0072 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_5_union_deepseek_en_t00 | 5 | +0.061 | +4.40 | 0.0006 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_5_union_deepseek_en_t07 | 5 | +0.068 | +6.10 | 0.0002 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_7_deepseek_en_t00 | 5 | +0.015 | +0.90 | 0.1159 | 0.1875  |
+| agora_5_deepseek_en_t00 vs agora_7_deepseek_en_t07 | 5 | -0.006 | -0.57 | 0.2735 | 0.4375  |
+| agora_5_deepseek_en_t00 vs agora_7_majority_deepseek_en_t00 | 5 | +0.029 | +2.42 | 0.0056 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | +0.032 | +2.07 | 0.0098 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.064 | +4.61 | 0.0005 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | +0.027 | +1.34 | 0.0401 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | +0.015 | +1.18 | 0.0582 | 0.1250  |
+| agora_5_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.037 | +2.89 | 0.0030 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.031 | +2.37 | 0.0061 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.045 | +11.75 | 0.0024 | 0.2500  |
+| agora_5_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.057 | +3.34 | 0.0017 | 0.0625  |
+| agora_5_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.067 | +6.15 | 0.0002 | 0.0625  |
+| agora_5_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.039 | +5.18 | 0.0003 | 0.0625  |
+| agora_5_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.043 | +2.87 | 0.0030 | 0.0625  |
+| agora_5_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.051 | +8.14 | 0.0050 | 0.2500  |
+| agora_5_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.087 | +4.65 | 0.0151 | 0.2500  |
+| agora_5_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.107 | +15.95 | 0.0013 | 0.2500  |
+| agora_5_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.040 | +19.69 | 0.0009 | 0.2500  |
+| agora_5_deepseek_en_t07 vs agora_5_majority_deepseek_en_t00 | 5 | +0.023 | +1.47 | 0.0302 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_5_majority_deepseek_en_t07 | 5 | +0.028 | +1.89 | 0.0135 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_5_union_deepseek_en_t00 | 5 | +0.056 | +3.25 | 0.0019 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_5_union_deepseek_en_t07 | 5 | +0.062 | +5.36 | 0.0003 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_7_deepseek_en_t00 | 5 | +0.009 | +0.67 | 0.2063 | 0.3125  |
+| agora_5_deepseek_en_t07 vs agora_7_deepseek_en_t07 | 5 | -0.012 | -1.21 | 0.0535 | 0.1250  |
+| agora_5_deepseek_en_t07 vs agora_7_majority_deepseek_en_t00 | 5 | +0.023 | +1.28 | 0.0454 | 0.1250  |
+| agora_5_deepseek_en_t07 vs agora_7_majority_deepseek_en_t07 | 5 | +0.026 | +2.13 | 0.0089 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | +0.058 | +4.89 | 0.0004 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | +0.021 | +1.47 | 0.0306 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | +0.009 | +0.50 | 0.3228 | 0.3125  |
+| agora_5_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.031 | +2.17 | 0.0083 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | +0.025 | +1.33 | 0.0412 | 0.1250  |
+| agora_5_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.028 | +2.33 | 0.0563 | 0.2500  |
+| agora_5_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.051 | +4.51 | 0.0005 | 0.0625  |
+| agora_5_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.061 | +4.71 | 0.0005 | 0.0625  |
+| agora_5_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.033 | +2.25 | 0.0073 | 0.0625  |
+| agora_5_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.037 | +1.65 | 0.0210 | 0.0625  |
+| agora_5_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.034 | +2.93 | 0.0368 | 0.2500  |
+| agora_5_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.070 | +3.00 | 0.0351 | 0.2500  |
+| agora_5_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.089 | +8.44 | 0.0046 | 0.2500  |
+| agora_5_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | +0.022 | +1.71 | 0.0975 | 0.2500  |
+| agora_5_majority_deepseek_en_t00 vs agora_5_majority_deepseek_en_t07 | 5 | +0.004 | +0.65 | 0.2197 | 0.3125  |
+| agora_5_majority_deepseek_en_t00 vs agora_5_union_deepseek_en_t00 | 5 | +0.032 | +5.03 | 0.0004 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs agora_5_union_deepseek_en_t07 | 5 | +0.039 | +5.65 | 0.0002 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs agora_7_deepseek_en_t00 | 5 | -0.014 | -1.50 | 0.0283 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs agora_7_deepseek_en_t07 | 5 | -0.036 | -4.21 | 0.0007 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs agora_7_majority_deepseek_en_t00 | 5 | -0.000 | -0.01 | 0.9908 | 1.0000  |
+| agora_5_majority_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | +0.003 | +0.44 | 0.3793 | 0.6250  |
+| agora_5_majority_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.035 | +2.96 | 0.0027 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | -0.003 | -0.26 | 0.5912 | 1.0000  |
+| agora_5_majority_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.014 | -1.06 | 0.0769 | 0.1250  |
+| agora_5_majority_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.008 | +0.83 | 0.1385 | 0.1250  |
+| agora_5_majority_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.001 | +0.12 | 0.8023 | 0.6250  |
+| agora_5_majority_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.009 | +0.86 | 0.2754 | 0.5000  |
+| agora_5_majority_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.028 | +4.31 | 0.0006 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.038 | +3.19 | 0.0020 | 0.0625  |
+| agora_5_majority_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.010 | +0.64 | 0.2230 | 0.3125  |
+| agora_5_majority_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.014 | +0.83 | 0.1377 | 0.1875  |
+| agora_5_majority_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.015 | +1.89 | 0.0817 | 0.2500  |
+| agora_5_majority_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.051 | +6.93 | 0.0069 | 0.2500  |
+| agora_5_majority_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.070 | +4.14 | 0.0189 | 0.2500  |
+| agora_5_majority_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.003 | +0.24 | 0.7169 | 0.7500  |
+| agora_5_majority_deepseek_en_t07 vs agora_5_union_deepseek_en_t00 | 5 | +0.028 | +9.78 | 0.0000 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs agora_5_union_deepseek_en_t07 | 5 | +0.034 | +4.63 | 0.0005 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs agora_7_deepseek_en_t00 | 5 | -0.019 | -2.68 | 0.0039 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs agora_7_deepseek_en_t07 | 5 | -0.040 | -5.20 | 0.0003 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs agora_7_majority_deepseek_en_t00 | 5 | -0.004 | -0.51 | 0.3155 | 0.3125  |
+| agora_5_majority_deepseek_en_t07 vs agora_7_majority_deepseek_en_t07 | 5 | -0.002 | -0.38 | 0.4475 | 0.6250  |
+| agora_5_majority_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | +0.030 | +4.01 | 0.0009 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | -0.007 | -1.05 | 0.0796 | 0.1250  |
+| agora_5_majority_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | -0.019 | -1.61 | 0.0226 | 0.1250  |
+| agora_5_majority_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.003 | +0.29 | 0.5572 | 0.8125  |
+| agora_5_majority_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | -0.003 | -0.21 | 0.6578 | 0.6250  |
+| agora_5_majority_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.001 | +0.21 | 0.7500 | 1.0000  |
+| agora_5_majority_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.023 | +2.92 | 0.0029 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.034 | +4.03 | 0.0008 | 0.0625  |
+| agora_5_majority_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.005 | +0.34 | 0.4859 | 0.8125  |
+| agora_5_majority_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.009 | +0.70 | 0.1935 | 0.3125  |
+| agora_5_majority_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.007 | +1.24 | 0.1651 | 0.2500  |
+| agora_5_majority_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.044 | +3.79 | 0.0224 | 0.2500  |
+| agora_5_majority_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.063 | +4.68 | 0.0149 | 0.2500  |
+| agora_5_majority_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | -0.004 | -0.43 | 0.5342 | 0.5000  |
+| agora_5_union_deepseek_en_t00 vs agora_5_union_deepseek_en_t07 | 5 | +0.006 | +0.77 | 0.1611 | 0.3125  |
+| agora_5_union_deepseek_en_t00 vs agora_7_deepseek_en_t00 | 5 | -0.047 | -5.90 | 0.0002 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_7_deepseek_en_t07 | 5 | -0.068 | -7.60 | 0.0001 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_7_majority_deepseek_en_t00 | 5 | -0.032 | -4.34 | 0.0006 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | -0.030 | -4.28 | 0.0007 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.002 | +0.27 | 0.5733 | 0.8125  |
+| agora_5_union_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | -0.035 | -4.23 | 0.0007 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.046 | -4.30 | 0.0007 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | -0.025 | -2.35 | 0.0063 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | -0.031 | -2.25 | 0.0073 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | -0.025 | -2.73 | 0.0420 | 0.2500  |
+| agora_5_union_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | -0.004 | -0.46 | 0.3586 | 0.3750  |
+| agora_5_union_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.006 | +0.65 | 0.2226 | 0.4375  |
+| agora_5_union_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | -0.023 | -1.50 | 0.0284 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | -0.018 | -1.50 | 0.0285 | 0.0625  |
+| agora_5_union_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | -0.019 | -2.21 | 0.0621 | 0.2500  |
+| agora_5_union_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.017 | +1.66 | 0.1023 | 0.2500  |
+| agora_5_union_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.036 | +2.28 | 0.0586 | 0.2500  |
+| agora_5_union_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.030 | -2.61 | 0.0456 | 0.2500  |
+| agora_5_union_deepseek_en_t07 vs agora_7_deepseek_en_t00 | 5 | -0.053 | -5.11 | 0.0003 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_7_deepseek_en_t07 | 5 | -0.074 | -23.25 | 0.0000 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_7_majority_deepseek_en_t00 | 5 | -0.039 | -4.96 | 0.0004 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_7_majority_deepseek_en_t07 | 5 | -0.036 | -7.31 | 0.0001 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | -0.004 | -0.45 | 0.3676 | 0.4375  |
+| agora_5_union_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | -0.041 | -3.50 | 0.0014 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | -0.053 | -3.99 | 0.0009 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | -0.031 | -3.24 | 0.0019 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | -0.037 | -2.87 | 0.0030 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | -0.030 | -8.08 | 0.0051 | 0.2500  |
+| agora_5_union_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | -0.011 | -1.31 | 0.0424 | 0.1250  |
+| agora_5_union_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | -0.001 | -0.07 | 0.8811 | 0.8125  |
+| agora_5_union_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | -0.029 | -2.81 | 0.0033 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | -0.025 | -1.48 | 0.0298 | 0.0625  |
+| agora_5_union_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | -0.024 | -8.62 | 0.0045 | 0.2500  |
+| agora_5_union_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.012 | +0.75 | 0.3214 | 0.5000  |
+| agora_5_union_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.031 | +3.96 | 0.0206 | 0.2500  |
+| agora_5_union_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | -0.035 | -5.11 | 0.0125 | 0.2500  |
+| agora_7_deepseek_en_t00 vs agora_7_deepseek_en_t07 | 5 | -0.021 | -2.44 | 0.0055 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_7_majority_deepseek_en_t00 | 5 | +0.014 | +1.21 | 0.0534 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | +0.017 | +1.80 | 0.0157 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.049 | +8.25 | 0.0001 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | +0.012 | +2.54 | 0.0047 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | +0.000 | +0.02 | 0.9608 | 1.0000  |
+| agora_7_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.022 | +3.15 | 0.0021 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.016 | +1.35 | 0.0395 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.020 | +2.19 | 0.0631 | 0.2500  |
+| agora_7_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.042 | +6.54 | 0.0001 | 0.0625  |
+| agora_7_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.052 | +6.09 | 0.0002 | 0.0625  |
+| agora_7_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.024 | +1.69 | 0.0195 | 0.0625  |
+| agora_7_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.028 | +2.35 | 0.0062 | 0.0625  |
+| agora_7_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.026 | +3.39 | 0.0279 | 0.2500  |
+| agora_7_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.062 | +8.21 | 0.0049 | 0.2500  |
+| agora_7_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.082 | +4.95 | 0.0133 | 0.2500  |
+| agora_7_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.015 | +1.19 | 0.1765 | 0.2500  |
+| agora_7_deepseek_en_t07 vs agora_7_majority_deepseek_en_t00 | 5 | +0.036 | +3.68 | 0.0012 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_7_majority_deepseek_en_t07 | 5 | +0.038 | +5.78 | 0.0002 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | +0.070 | +11.08 | 0.0000 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | +0.033 | +2.99 | 0.0026 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | +0.021 | +1.92 | 0.0127 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.043 | +5.43 | 0.0003 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | +0.037 | +3.06 | 0.0024 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.044 | +17.21 | 0.0011 | 0.2500  |
+| agora_7_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.064 | +8.02 | 0.0001 | 0.0625  |
+| agora_7_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.074 | +12.98 | 0.0000 | 0.0625  |
+| agora_7_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.045 | +5.37 | 0.0003 | 0.0625  |
+| agora_7_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.049 | +3.27 | 0.0019 | 0.0625  |
+| agora_7_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.050 | +20.88 | 0.0008 | 0.2500  |
+| agora_7_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.086 | +5.19 | 0.0121 | 0.2500  |
+| agora_7_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.106 | +14.63 | 0.0016 | 0.2500  |
+| agora_7_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | +0.039 | +6.82 | 0.0071 | 0.2500  |
+| agora_7_majority_deepseek_en_t00 vs agora_7_majority_deepseek_en_t07 | 5 | +0.003 | +0.31 | 0.5218 | 0.6250  |
+| agora_7_majority_deepseek_en_t00 vs agora_7_union_deepseek_en_t00 | 5 | +0.035 | +2.62 | 0.0043 | 0.0625  |
+| agora_7_majority_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | -0.003 | -0.20 | 0.6767 | 1.0000  |
+| agora_7_majority_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.014 | -1.04 | 0.0816 | 0.1250  |
+| agora_7_majority_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.008 | +0.75 | 0.1682 | 0.1250  |
+| agora_7_majority_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.001 | +0.12 | 0.7940 | 1.0000  |
+| agora_7_majority_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.011 | +1.13 | 0.1896 | 0.2500  |
+| agora_7_majority_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.028 | +2.93 | 0.0028 | 0.0625  |
+| agora_7_majority_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.038 | +3.01 | 0.0026 | 0.0625  |
+| agora_7_majority_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.010 | +0.66 | 0.2135 | 0.4375  |
+| agora_7_majority_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.014 | +0.83 | 0.1361 | 0.3125  |
+| agora_7_majority_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.017 | +2.28 | 0.0583 | 0.2500  |
+| agora_7_majority_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.053 | +7.41 | 0.0060 | 0.2500  |
+| agora_7_majority_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.072 | +4.35 | 0.0172 | 0.2500  |
+| agora_7_majority_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.006 | +0.41 | 0.5504 | 0.7500  |
+| agora_7_majority_deepseek_en_t07 vs agora_7_union_deepseek_en_t00 | 5 | +0.032 | +3.28 | 0.0018 | 0.0625  |
+| agora_7_majority_deepseek_en_t07 vs agora_deepseek_en_t00 | 5 | -0.005 | -0.59 | 0.2578 | 0.3125  |
+| agora_7_majority_deepseek_en_t07 vs agora_deepseek_en_t07 | 5 | -0.017 | -1.13 | 0.0643 | 0.1250  |
+| agora_7_majority_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.005 | +0.44 | 0.3825 | 0.4375  |
+| agora_7_majority_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | -0.001 | -0.08 | 0.8658 | 0.6250  |
+| agora_7_majority_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.003 | +0.66 | 0.3720 | 0.5000  |
+| agora_7_majority_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.025 | +3.90 | 0.0009 | 0.0625  |
+| agora_7_majority_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.035 | +3.46 | 0.0015 | 0.0625  |
+| agora_7_majority_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.007 | +0.47 | 0.3494 | 0.6250  |
+| agora_7_majority_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.011 | +0.64 | 0.2284 | 0.4375  |
+| agora_7_majority_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.009 | +3.75 | 0.0228 | 0.2500  |
+| agora_7_majority_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.045 | +3.45 | 0.0268 | 0.2500  |
+| agora_7_majority_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.065 | +5.85 | 0.0096 | 0.2500  |
+| agora_7_majority_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | -0.002 | -0.23 | 0.7342 | 1.0000  |
+| agora_7_union_deepseek_en_t00 vs agora_deepseek_en_t00 | 5 | -0.037 | -4.15 | 0.0007 | 0.0625  |
+| agora_7_union_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.049 | -6.17 | 0.0002 | 0.0625  |
+| agora_7_union_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | -0.027 | -3.09 | 0.0023 | 0.0625  |
+| agora_7_union_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | -0.033 | -2.44 | 0.0055 | 0.0625  |
+| agora_7_union_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | -0.028 | -6.76 | 0.0072 | 0.2500  |
+| agora_7_union_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | -0.007 | -0.68 | 0.2025 | 0.1875  |
+| agora_7_union_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.003 | +1.02 | 0.0849 | 0.1250  |
+| agora_7_union_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | -0.025 | -2.35 | 0.0062 | 0.0625  |
+| agora_7_union_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | -0.021 | -1.90 | 0.0133 | 0.0625  |
+| agora_7_union_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | -0.022 | -3.96 | 0.0206 | 0.2500  |
+| agora_7_union_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.014 | +0.91 | 0.2573 | 0.5000  |
+| agora_7_union_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.033 | +3.46 | 0.0268 | 0.2500  |
+| agora_7_union_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.033 | -6.45 | 0.0079 | 0.2500  |
+| agora_deepseek_bg_t00 vs agora_deepseek_bg_t07 | 5 | +0.001 | +0.05 | 0.9122 | 1.0000  |
+| agora_deepseek_bg_t00 vs agora_p0prime_deepseek_bg_t00 | 3 | +0.119 | +7.68 | 0.0056 | 0.2500  |
+| agora_deepseek_bg_t00 vs baseline_deepseek_bg_t00 | 5 | +0.031 | +2.69 | 0.0038 | 0.0625  |
+| agora_deepseek_bg_t00 vs baseline_deepseek_bg_t07 | 5 | +0.040 | +5.36 | 0.0003 | 0.0625  |
+| agora_deepseek_bg_t00 vs baseline_p0prime_deepseek_bg_t00 | 3 | +0.097 | +2.66 | 0.0440 | 0.2500  |
+| agora_deepseek_bg_t00 vs baseline_p1_deepseek_bg_t00 | 3 | +0.194 | +19.73 | 0.0009 | 0.2500  |
+| agora_deepseek_bg_t00 vs baseline_p2_deepseek_bg_t00 | 3 | +0.058 | +2.67 | 0.0436 | 0.2500  |
+| agora_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | +0.094 | +7.24 | 0.0063 | 0.2500  |
+| agora_deepseek_bg_t07 vs agora_p0prime_deepseek_bg_t00 | 3 | +0.115 | +17.02 | 0.0011 | 0.2500  |
+| agora_deepseek_bg_t07 vs baseline_deepseek_bg_t00 | 5 | +0.030 | +2.00 | 0.0110 | 0.0625  |
+| agora_deepseek_bg_t07 vs baseline_deepseek_bg_t07 | 5 | +0.040 | +4.83 | 0.0004 | 0.0625  |
+| agora_deepseek_bg_t07 vs baseline_p0prime_deepseek_bg_t00 | 3 | +0.093 | +2.76 | 0.0411 | 0.2500  |
+| agora_deepseek_bg_t07 vs baseline_p1_deepseek_bg_t00 | 3 | +0.189 | +21.13 | 0.0007 | 0.2500  |
+| agora_deepseek_bg_t07 vs baseline_p2_deepseek_bg_t00 | 3 | +0.054 | +3.68 | 0.0237 | 0.2500  |
+| agora_deepseek_bg_t07 vs sc_3_deepseek_bg_t00 | 3 | +0.090 | +12.04 | 0.0023 | 0.2500  |
+| agora_deepseek_en_t00 vs agora_deepseek_en_t07 | 5 | -0.012 | -0.93 | 0.1074 | 0.1250  |
+| agora_deepseek_en_t00 vs agora_majority_deepseek_en_t00 | 5 | +0.010 | +0.93 | 0.1065 | 0.1250  |
+| agora_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | +0.004 | +0.26 | 0.5949 | 0.8125  |
+| agora_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.006 | +0.54 | 0.4492 | 0.7500  |
+| agora_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.030 | +4.55 | 0.0005 | 0.0625  |
+| agora_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.041 | +3.48 | 0.0015 | 0.0625  |
+| agora_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.012 | +0.68 | 0.2053 | 0.3125  |
+| agora_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.016 | +1.09 | 0.0721 | 0.1250  |
+| agora_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.012 | +1.31 | 0.1508 | 0.2500  |
+| agora_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.048 | +8.05 | 0.0051 | 0.2500  |
+| agora_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.067 | +3.75 | 0.0229 | 0.2500  |
+| agora_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | +0.000 | +0.03 | 0.9610 | 1.0000  |
+| agora_deepseek_en_t07 vs agora_majority_deepseek_en_t00 | 5 | +0.022 | +2.89 | 0.0030 | 0.0625  |
+| agora_deepseek_en_t07 vs agora_majority_deepseek_en_t07 | 5 | +0.016 | +1.56 | 0.0252 | 0.0625  |
+| agora_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.025 | +2.21 | 0.0621 | 0.2500  |
+| agora_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.042 | +3.20 | 0.0020 | 0.0625  |
+| agora_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.052 | +6.46 | 0.0001 | 0.0625  |
+| agora_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.024 | +2.10 | 0.0093 | 0.0625  |
+| agora_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.028 | +4.80 | 0.0004 | 0.0625  |
+| agora_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.031 | +2.74 | 0.0416 | 0.2500  |
+| agora_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.067 | +5.45 | 0.0111 | 0.2500  |
+| agora_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.086 | +4.93 | 0.0134 | 0.2500  |
+| agora_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | +0.020 | +1.52 | 0.1188 | 0.2500  |
+| agora_deepseek_hi_t00 vs agora_p0prime_deepseek_hi_t00 | 3 | +0.046 | +3.44 | 0.0271 | 0.2500  |
+| agora_deepseek_hi_t00 vs baseline_deepseek_hi_t00 | 5 | +0.040 | +3.07 | 0.0023 | 0.0625  |
+| agora_deepseek_hi_t00 vs baseline_p0prime_deepseek_hi_t00 | 3 | +0.076 | +18.90 | 0.0009 | 0.2500  |
+| agora_deepseek_hi_t00 vs baseline_p1_deepseek_hi_t00 | 3 | +0.150 | +5.03 | 0.0129 | 0.2500  |
+| agora_deepseek_hi_t00 vs baseline_p2_deepseek_hi_t00 | 3 | +0.079 | +1.83 | 0.0872 | 0.2500  |
+| agora_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | +0.079 | +3.65 | 0.0241 | 0.2500  |
+| agora_deepseek_pt_t00 vs agora_majority_deepseek_pt_t00 | 5 | -0.030 | -0.91 | 0.1123 | 0.1250  |
+| agora_deepseek_pt_t00 vs agora_p0prime_deepseek_pt_t00 | 3 | +0.281 | +15.41 | 0.0014 | 0.2500  |
+| agora_deepseek_pt_t00 vs agora_union_deepseek_pt_t00 | 5 | -0.014 | -0.35 | 0.4740 | 0.4375  |
+| agora_deepseek_pt_t00 vs baseline_deepseek_pt_t00 | 5 | -0.008 | -0.25 | 0.6028 | 0.8125  |
+| agora_deepseek_pt_t00 vs baseline_deepseek_pt_t07 | 5 | -0.009 | -0.24 | 0.6262 | 0.6250  |
+| agora_deepseek_pt_t00 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.291 | +17.44 | 0.0011 | 0.2500  |
+| agora_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.402 | +19.43 | 0.0009 | 0.2500  |
+| agora_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | +0.261 | +7.51 | 0.0059 | 0.2500  |
+| agora_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.293 | +14.62 | 0.0016 | 0.2500  |
+| agora_deepseek_ru_t00 vs agora_deepseek_ru_t07 | 5 | -0.004 | -0.22 | 0.6547 | 0.8125  |
+| agora_deepseek_ru_t00 vs agora_p0prime_deepseek_ru_t00 | 3 | +0.011 | +0.97 | 0.2342 | 0.2500  |
+| agora_deepseek_ru_t00 vs baseline_deepseek_ru_t00 | 5 | +0.020 | +1.07 | 0.0744 | 0.1250  |
+| agora_deepseek_ru_t00 vs baseline_deepseek_ru_t07 | 5 | +0.028 | +1.96 | 0.0118 | 0.0625  |
+| agora_deepseek_ru_t00 vs baseline_p0prime_deepseek_ru_t00 | 3 | +0.004 | +0.22 | 0.7364 | 0.7500  |
+| agora_deepseek_ru_t00 vs baseline_p1_deepseek_ru_t00 | 3 | +0.066 | +35.88 | 0.0003 | 0.2500  |
+| agora_deepseek_ru_t00 vs baseline_p2_deepseek_ru_t00 | 3 | +0.042 | +1.40 | 0.1357 | 0.2500  |
+| agora_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | +0.009 | +0.45 | 0.5181 | 0.7500  |
+| agora_deepseek_ru_t07 vs agora_p0prime_deepseek_ru_t00 | 3 | +0.009 | +1.02 | 0.2193 | 0.5000  |
+| agora_deepseek_ru_t07 vs baseline_deepseek_ru_t00 | 5 | +0.024 | +3.95 | 0.0009 | 0.0625  |
+| agora_deepseek_ru_t07 vs baseline_deepseek_ru_t07 | 5 | +0.032 | +2.16 | 0.0085 | 0.0625  |
+| agora_deepseek_ru_t07 vs baseline_p0prime_deepseek_ru_t00 | 3 | +0.002 | +0.08 | 0.9029 | 0.7500  |
+| agora_deepseek_ru_t07 vs baseline_p1_deepseek_ru_t00 | 3 | +0.064 | +12.15 | 0.0022 | 0.2500  |
+| agora_deepseek_ru_t07 vs baseline_p2_deepseek_ru_t00 | 3 | +0.040 | +1.27 | 0.1596 | 0.2500  |
+| agora_deepseek_ru_t07 vs sc_3_deepseek_ru_t00 | 3 | +0.007 | +0.36 | 0.5935 | 0.7500  |
+| agora_gemini_en_t00 vs agora_gemini_en_t07 | 3 | -0.028 | -1.73 | 0.0953 | 0.2500  |
+| agora_gemini_en_t00 vs baseline_gemini_en_t00 | 3 | +0.011 | +1.35 | 0.1446 | 0.2500  |
+| agora_gemini_en_t07 vs baseline_gemini_en_t00 | 5 | +0.045 | +2.27 | 0.0071 | 0.0625  |
+| agora_majority_deepseek_en_t00 vs agora_majority_deepseek_en_t07 | 5 | -0.006 | -1.18 | 0.0576 | 0.0625  |
+| agora_majority_deepseek_en_t00 vs agora_p0prime_deepseek_en_t00 | 3 | +0.003 | +0.33 | 0.6243 | 0.7500  |
+| agora_majority_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 5 | +0.020 | +2.63 | 0.0042 | 0.0625  |
+| agora_majority_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.030 | +3.25 | 0.0019 | 0.0625  |
+| agora_majority_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | +0.002 | +0.20 | 0.6767 | 0.6250  |
+| agora_majority_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.006 | +0.48 | 0.3398 | 0.4375  |
+| agora_majority_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.009 | +1.29 | 0.1548 | 0.2500  |
+| agora_majority_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.045 | +5.98 | 0.0092 | 0.2500  |
+| agora_majority_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.064 | +3.97 | 0.0205 | 0.2500  |
+| agora_majority_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.002 | -0.17 | 0.7975 | 0.7500  |
+| agora_majority_deepseek_en_t07 vs agora_p0prime_deepseek_en_t00 | 3 | +0.013 | +0.96 | 0.2393 | 0.2500  |
+| agora_majority_deepseek_en_t07 vs agora_union_deepseek_en_t00 | 5 | +0.027 | +2.28 | 0.0069 | 0.0625  |
+| agora_majority_deepseek_en_t07 vs agora_union_deepseek_en_t07 | 5 | +0.037 | +2.70 | 0.0038 | 0.0625  |
+| agora_majority_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | +0.008 | +0.68 | 0.2005 | 0.1875  |
+| agora_majority_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | +0.013 | +0.83 | 0.1365 | 0.1250  |
+| agora_majority_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.019 | +1.72 | 0.0969 | 0.2500  |
+| agora_majority_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.055 | +12.03 | 0.0023 | 0.2500  |
+| agora_majority_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.074 | +3.69 | 0.0236 | 0.2500  |
+| agora_majority_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | +0.007 | +0.42 | 0.5391 | 0.7500  |
+| agora_majority_deepseek_pt_t00 vs agora_p0prime_deepseek_pt_t00 | 3 | +0.331 | +26.90 | 0.0005 | 0.2500  |
+| agora_majority_deepseek_pt_t00 vs agora_union_deepseek_pt_t00 | 5 | +0.017 | +1.07 | 0.0758 | 0.0625  |
+| agora_majority_deepseek_pt_t00 vs baseline_deepseek_pt_t00 | 5 | +0.023 | +1.83 | 0.0149 | 0.0625  |
+| agora_majority_deepseek_pt_t00 vs baseline_deepseek_pt_t07 | 5 | +0.022 | +1.09 | 0.0717 | 0.1250  |
+| agora_majority_deepseek_pt_t00 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.341 | +19.64 | 0.0009 | 0.2500  |
+| agora_majority_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.452 | +9.22 | 0.0039 | 0.2500  |
+| agora_majority_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | +0.310 | +7.59 | 0.0057 | 0.2500  |
+| agora_majority_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.343 | +30.20 | 0.0004 | 0.2500  |
+| agora_majority_gpt5nano_bg_t00 vs baseline_p0prime_gpt5nano_bg_t00 | 3 | +0.030 | +0.51 | 0.4699 | 0.5000  |
+| agora_majority_gpt5nano_en_t07 vs agora_union_gpt5nano_en_t00 | 5 | +0.035 | +2.32 | 0.0066 | 0.0625  |
+| agora_majority_gpt5nano_en_t07 vs agora_union_gpt5nano_en_t07 | 5 | +0.038 | +1.71 | 0.0188 | 0.0625  |
+| agora_majority_gpt5nano_en_t07 vs baseline_gpt5nano_en_t00 | 5 | -0.008 | -0.38 | 0.4441 | 0.6250  |
+| agora_majority_gpt5nano_en_t07 vs baseline_gpt5nano_en_t07 | 5 | +0.017 | +1.61 | 0.0228 | 0.0625  |
+| agora_majority_gpt5nano_en_t07 vs baseline_p0prime_gpt5nano_en_t00 | 3 | -0.027 | -1.47 | 0.1258 | 0.2500  |
+| agora_majority_gpt5nano_hi_t00 vs baseline_p0prime_gpt5nano_hi_t00 | 3 | +0.018 | +0.44 | 0.5261 | 0.7500  |
+| agora_majority_gpt5nano_pt_t00 vs baseline_p0prime_gpt5nano_pt_t00 | 3 | +0.044 | +0.93 | 0.2469 | 0.2500  |
+| agora_majority_gpt5nano_ru_t00 vs baseline_p0prime_gpt5nano_ru_t00 | 3 | +0.027 | +0.59 | 0.4128 | 0.5000  |
+| agora_majority_mistral_bg_t00 vs agora_mistral_bg_t00 | 5 | -0.028 | -4.75 | 0.0004 | 0.0625  |
+| agora_majority_mistral_bg_t00 vs baseline_mistral_bg_t00 | 5 | -0.006 | -0.86 | 0.1268 | 0.0625  |
+| agora_majority_mistral_en_t00 vs agora_majority_mistral_en_t07 | 5 | +0.006 | +0.74 | 0.1715 | 0.3125  |
+| agora_majority_mistral_en_t00 vs agora_mistral_en_t00 | 5 | -0.017 | -0.90 | 0.1143 | 0.1875  |
+| agora_majority_mistral_en_t00 vs agora_mistral_en_t07 | 5 | -0.016 | -1.45 | 0.0318 | 0.0625  |
+| agora_majority_mistral_en_t00 vs agora_union_mistral_en_t00 | 5 | +0.017 | +1.80 | 0.0158 | 0.0625  |
+| agora_majority_mistral_en_t00 vs agora_union_mistral_en_t07 | 5 | +0.019 | +1.54 | 0.0262 | 0.0625  |
+| agora_majority_mistral_en_t00 vs baseline_mistral_en_t00 | 5 | -0.001 | -0.20 | 0.6776 | 0.8125  |
+| agora_majority_mistral_en_t00 vs baseline_mistral_en_t07 | 5 | +0.004 | +0.52 | 0.3076 | 0.4375  |
+| agora_majority_mistral_en_t07 vs agora_mistral_en_t00 | 5 | -0.024 | -1.07 | 0.0743 | 0.1250  |
+| agora_majority_mistral_en_t07 vs agora_mistral_en_t07 | 5 | -0.022 | -2.29 | 0.0069 | 0.0625  |
+| agora_majority_mistral_en_t07 vs agora_union_mistral_en_t00 | 5 | +0.011 | +0.66 | 0.2146 | 0.3125  |
+| agora_majority_mistral_en_t07 vs agora_union_mistral_en_t07 | 5 | +0.013 | +0.88 | 0.1199 | 0.1250  |
+| agora_majority_mistral_en_t07 vs baseline_mistral_en_t00 | 5 | -0.008 | -0.62 | 0.2400 | 0.8125  |
+| agora_majority_mistral_en_t07 vs baseline_mistral_en_t07 | 5 | -0.003 | -0.21 | 0.6593 | 1.0000  |
+| agora_majority_mistral_hi_t00 vs agora_mistral_hi_t00 | 5 | -0.032 | -2.54 | 0.0047 | 0.0625  |
+| agora_majority_mistral_hi_t00 vs baseline_mistral_hi_t00 | 5 | -0.003 | -0.51 | 0.3160 | 0.3125  |
+| agora_majority_mistral_pt_t00 vs agora_mistral_pt_t00 | 5 | -0.038 | -1.00 | 0.0898 | 0.1250  |
+| agora_majority_mistral_pt_t00 vs baseline_mistral_pt_t00 | 5 | +0.019 | +0.82 | 0.1408 | 0.1875  |
+| agora_majority_mistral_ru_t00 vs agora_mistral_ru_t00 | 5 | -0.028 | -1.33 | 0.0406 | 0.0625  |
+| agora_majority_mistral_ru_t00 vs baseline_mistral_ru_t00 | 5 | +0.009 | +1.05 | 0.0783 | 0.1250  |
+| agora_majority_together_llama33_70b_bg_t00 vs agora_p0prime_together_llama33_70b_bg_t00 | 5 | -0.129 | -7.51 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs agora_p1_together_llama33_70b_bg_t00 | 5 | -0.120 | -4.46 | 0.0006 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs agora_p2_together_llama33_70b_bg_t00 | 5 | -0.153 | -11.45 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs agora_together_llama33_70b_bg_t00 | 5 | -0.092 | -12.07 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs baseline_p0prime_together_llama33_70b_bg_t00 | 5 | -0.093 | -5.35 | 0.0003 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs baseline_p1_together_llama33_70b_bg_t00 | 5 | -0.065 | -2.42 | 0.0056 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | -0.103 | -4.50 | 0.0005 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | -0.065 | -4.38 | 0.0006 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.122 | -15.34 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | -0.098 | -6.36 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | -0.049 | -1.72 | 0.0183 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_majority_together_llama33_70b_en_t07 | 5 | -0.004 | -0.26 | 0.5873 | 0.6250  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_p0prime_together_llama33_70b_en_t00 | 5 | -0.030 | -1.67 | 0.0202 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_p1_together_llama33_70b_en_t00 | 5 | -0.093 | -7.32 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_p2_together_llama33_70b_en_t00 | 5 | -0.089 | -3.38 | 0.0016 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t00 | 5 | -0.017 | -2.23 | 0.0076 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t07 | 5 | -0.025 | -2.40 | 0.0058 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.025 | +1.53 | 0.0266 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.020 | +1.84 | 0.0148 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | -0.026 | -1.55 | 0.0255 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.066 | -3.63 | 0.0012 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.079 | -3.08 | 0.0023 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.013 | +0.99 | 0.0902 | 0.1875  |
+| agora_majority_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | -0.005 | -0.47 | 0.3502 | 0.6250  |
+| agora_majority_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.060 | -3.10 | 0.0023 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.027 | -2.25 | 0.0074 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | -0.005 | -0.26 | 0.5970 | 0.6250  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_p0prime_together_llama33_70b_en_t00 | 5 | -0.026 | -3.16 | 0.0021 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_p1_together_llama33_70b_en_t00 | 5 | -0.089 | -4.48 | 0.0006 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_p2_together_llama33_70b_en_t00 | 5 | -0.085 | -2.58 | 0.0045 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_together_llama33_70b_en_t00 | 5 | -0.013 | -1.22 | 0.0525 | 0.1250  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_together_llama33_70b_en_t07 | 5 | -0.021 | -1.01 | 0.0868 | 0.1250  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.029 | +1.73 | 0.0180 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.024 | +1.72 | 0.0182 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | -0.023 | -2.63 | 0.0042 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.062 | -3.62 | 0.0013 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.075 | -3.39 | 0.0016 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t00 | 5 | +0.017 | +1.05 | 0.0789 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t07 | 5 | -0.001 | -0.06 | 0.9010 | 0.6250  |
+| agora_majority_together_llama33_70b_en_t07 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.056 | -2.43 | 0.0056 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.023 | -1.48 | 0.0299 | 0.0625  |
+| agora_majority_together_llama33_70b_en_t07 vs sc_3_union_together_llama33_70b_en_t00 | 5 | -0.001 | -0.04 | 0.9307 | 1.0000  |
+| agora_majority_together_llama33_70b_hi_t00 vs agora_p0prime_together_llama33_70b_hi_t00 | 5 | -0.050 | -1.17 | 0.0584 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs agora_p1_together_llama33_70b_hi_t00 | 5 | -0.140 | -3.15 | 0.0021 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs agora_p2_together_llama33_70b_hi_t00 | 5 | -0.135 | -5.54 | 0.0002 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs agora_together_llama33_70b_hi_t00 | 5 | -0.055 | -1.93 | 0.0125 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs baseline_p0prime_together_llama33_70b_hi_t00 | 5 | -0.043 | -1.66 | 0.0207 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs baseline_p1_together_llama33_70b_hi_t00 | 5 | -0.112 | -5.27 | 0.0003 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | -0.112 | -21.96 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | -0.057 | -1.89 | 0.0134 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | -0.037 | -1.28 | 0.0455 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | -0.053 | -1.93 | 0.0124 | 0.0625  |
+| agora_majority_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.057 | -2.84 | 0.0031 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs agora_p0prime_together_llama33_70b_pt_t00 | 5 | -0.157 | -7.63 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs agora_p1_together_llama33_70b_pt_t00 | 5 | -0.219 | -8.18 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs agora_p2_together_llama33_70b_pt_t00 | 5 | -0.234 | -8.11 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs agora_together_llama33_70b_pt_t00 | 5 | -0.063 | -4.52 | 0.0005 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs baseline_p0prime_together_llama33_70b_pt_t00 | 5 | -0.162 | -7.34 | 0.0001 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs baseline_p1_together_llama33_70b_pt_t00 | 5 | -0.199 | -11.84 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | -0.227 | -12.18 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | -0.076 | -3.31 | 0.0018 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | -0.165 | -11.66 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | -0.183 | -13.99 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | -0.170 | -14.25 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs agora_p0prime_together_llama33_70b_ru_t00 | 5 | -0.063 | -12.11 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs agora_p1_together_llama33_70b_ru_t00 | 5 | -0.035 | -2.80 | 0.0033 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs agora_p2_together_llama33_70b_ru_t00 | 5 | -0.083 | -11.99 | 0.0000 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs agora_together_llama33_70b_ru_t00 | 5 | -0.034 | -2.05 | 0.0102 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs baseline_p0prime_together_llama33_70b_ru_t00 | 5 | -0.035 | -1.75 | 0.0172 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs baseline_p1_together_llama33_70b_ru_t00 | 5 | -0.010 | -1.22 | 0.0527 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | -0.055 | -4.63 | 0.0005 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.011 | +0.60 | 0.2483 | 0.1875  |
+| agora_majority_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.058 | -3.52 | 0.0014 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | -0.029 | -3.93 | 0.0009 | 0.0625  |
+| agora_majority_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.023 | +1.33 | 0.0412 | 0.1250  |
+| agora_mistral_bg_t00 vs baseline_mistral_bg_t00 | 5 | +0.022 | +6.02 | 0.0002 | 0.0625  |
+| agora_mistral_en_t00 vs agora_mistral_en_t07 | 5 | +0.001 | +0.08 | 0.8618 | 1.0000  |
+| agora_mistral_en_t00 vs agora_union_mistral_en_t00 | 5 | +0.034 | +2.86 | 0.0031 | 0.0625  |
+| agora_mistral_en_t00 vs agora_union_mistral_en_t07 | 5 | +0.037 | +2.45 | 0.0054 | 0.0625  |
+| agora_mistral_en_t00 vs baseline_mistral_en_t00 | 5 | +0.016 | +1.20 | 0.0557 | 0.1250  |
+| agora_mistral_en_t00 vs baseline_mistral_en_t07 | 5 | +0.021 | +1.27 | 0.0465 | 0.1250  |
+| agora_mistral_en_t07 vs agora_union_mistral_en_t00 | 5 | +0.033 | +2.47 | 0.0052 | 0.0625  |
+| agora_mistral_en_t07 vs agora_union_mistral_en_t07 | 5 | +0.035 | +4.48 | 0.0006 | 0.0625  |
+| agora_mistral_en_t07 vs baseline_mistral_en_t00 | 5 | +0.014 | +1.43 | 0.0329 | 0.0625  |
+| agora_mistral_en_t07 vs baseline_mistral_en_t07 | 5 | +0.019 | +1.92 | 0.0127 | 0.0625  |
+| agora_mistral_hi_t00 vs baseline_mistral_hi_t00 | 5 | +0.029 | +1.79 | 0.0160 | 0.0625  |
+| agora_mistral_pt_t00 vs baseline_mistral_pt_t00 | 5 | +0.057 | +1.87 | 0.0139 | 0.0625  |
+| agora_mistral_ru_t00 vs baseline_mistral_ru_t00 | 5 | +0.036 | +2.30 | 0.0068 | 0.0625  |
+| agora_p0prime_deepseek_bg_t00 vs baseline_deepseek_bg_t00 | 3 | -0.087 | -4.48 | 0.0162 | 0.2500  |
+| agora_p0prime_deepseek_bg_t00 vs baseline_deepseek_bg_t07 | 3 | -0.077 | -8.20 | 0.0049 | 0.2500  |
+| agora_p0prime_deepseek_bg_t00 vs baseline_p0prime_deepseek_bg_t00 | 3 | -0.022 | -0.56 | 0.4343 | 0.5000  |
+| agora_p0prime_deepseek_bg_t00 vs baseline_p1_deepseek_bg_t00 | 3 | +0.074 | +4.73 | 0.0146 | 0.2500  |
+| agora_p0prime_deepseek_bg_t00 vs baseline_p2_deepseek_bg_t00 | 3 | -0.061 | -7.76 | 0.0055 | 0.2500  |
+| agora_p0prime_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | -0.026 | -1.85 | 0.0851 | 0.2500  |
+| agora_p0prime_deepseek_en_t00 vs agora_union_deepseek_en_t00 | 3 | +0.022 | +1.94 | 0.0784 | 0.2500  |
+| agora_p0prime_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 3 | +0.029 | +5.93 | 0.0093 | 0.2500  |
+| agora_p0prime_deepseek_en_t00 vs baseline_deepseek_en_t00 | 3 | -0.004 | -0.96 | 0.2368 | 0.5000  |
+| agora_p0prime_deepseek_en_t00 vs baseline_deepseek_en_t07 | 3 | +0.004 | +0.20 | 0.7632 | 1.0000  |
+| agora_p0prime_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.006 | +2.33 | 0.0565 | 0.2500  |
+| agora_p0prime_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.042 | +2.57 | 0.0471 | 0.2500  |
+| agora_p0prime_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.061 | +8.51 | 0.0046 | 0.2500  |
+| agora_p0prime_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.005 | -1.31 | 0.1518 | 0.2500  |
+| agora_p0prime_deepseek_hi_t00 vs baseline_deepseek_hi_t00 | 3 | -0.001 | -0.08 | 0.8985 | 1.0000  |
+| agora_p0prime_deepseek_hi_t00 vs baseline_p0prime_deepseek_hi_t00 | 3 | +0.030 | +2.41 | 0.0531 | 0.2500  |
+| agora_p0prime_deepseek_hi_t00 vs baseline_p1_deepseek_hi_t00 | 3 | +0.104 | +2.41 | 0.0528 | 0.2500  |
+| agora_p0prime_deepseek_hi_t00 vs baseline_p2_deepseek_hi_t00 | 3 | +0.033 | +1.01 | 0.2217 | 0.2500  |
+| agora_p0prime_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | +0.033 | +2.29 | 0.0581 | 0.2500  |
+| agora_p0prime_deepseek_pt_t00 vs agora_union_deepseek_pt_t00 | 3 | -0.317 | -25.57 | 0.0005 | 0.2500  |
+| agora_p0prime_deepseek_pt_t00 vs baseline_deepseek_pt_t00 | 3 | -0.305 | -26.46 | 0.0005 | 0.2500  |
+| agora_p0prime_deepseek_pt_t00 vs baseline_deepseek_pt_t07 | 3 | -0.316 | -31.58 | 0.0003 | 0.2500  |
+| agora_p0prime_deepseek_pt_t00 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.010 | +1.91 | 0.0801 | 0.2500  |
+| agora_p0prime_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.121 | +3.22 | 0.0306 | 0.2500  |
+| agora_p0prime_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | -0.020 | -0.65 | 0.3769 | 0.5000  |
+| agora_p0prime_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.012 | +6.58 | 0.0076 | 0.2500  |
+| agora_p0prime_deepseek_ru_t00 vs baseline_deepseek_ru_t00 | 3 | +0.016 | +15.10 | 0.0015 | 0.2500  |
+| agora_p0prime_deepseek_ru_t00 vs baseline_deepseek_ru_t07 | 3 | +0.019 | +1.20 | 0.1725 | 0.2500  |
+| agora_p0prime_deepseek_ru_t00 vs baseline_p0prime_deepseek_ru_t00 | 3 | -0.007 | -0.42 | 0.5455 | 0.5000  |
+| agora_p0prime_deepseek_ru_t00 vs baseline_p1_deepseek_ru_t00 | 3 | +0.055 | +4.22 | 0.0182 | 0.2500  |
+| agora_p0prime_deepseek_ru_t00 vs baseline_p2_deepseek_ru_t00 | 3 | +0.031 | +1.20 | 0.1739 | 0.2500  |
+| agora_p0prime_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | -0.002 | -0.24 | 0.7144 | 1.0000  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs agora_p1_together_llama33_70b_bg_t00 | 5 | +0.009 | +0.36 | 0.4672 | 0.6250  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs agora_p2_together_llama33_70b_bg_t00 | 5 | -0.024 | -0.97 | 0.0968 | 0.1250  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs agora_together_llama33_70b_bg_t00 | 5 | +0.037 | +1.66 | 0.0206 | 0.0625  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs baseline_p0prime_together_llama33_70b_bg_t00 | 5 | +0.036 | +1.72 | 0.0183 | 0.0625  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs baseline_p1_together_llama33_70b_bg_t00 | 5 | +0.064 | +2.59 | 0.0044 | 0.0625  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | +0.026 | +1.38 | 0.0366 | 0.0625  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | +0.064 | +3.86 | 0.0010 | 0.0625  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | +0.007 | +0.30 | 0.5398 | 0.6250  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | +0.031 | +1.45 | 0.0316 | 0.1250  |
+| agora_p0prime_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.079 | +3.96 | 0.0009 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs agora_p1_together_llama33_70b_en_t00 | 5 | -0.063 | -2.41 | 0.0058 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs agora_p2_together_llama33_70b_en_t00 | 5 | -0.058 | -1.60 | 0.0230 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t00 | 5 | +0.013 | +0.91 | 0.1122 | 0.1875  |
+| agora_p0prime_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t07 | 5 | +0.005 | +0.19 | 0.6880 | 0.8125  |
+| agora_p0prime_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.055 | +2.60 | 0.0044 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.050 | +2.80 | 0.0033 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | +0.004 | +0.23 | 0.6377 | 0.6250  |
+| agora_p0prime_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.036 | -1.76 | 0.0169 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.048 | -1.65 | 0.0211 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.044 | +1.93 | 0.0124 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.026 | +1.64 | 0.0216 | 0.0625  |
+| agora_p0prime_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.029 | -1.00 | 0.0898 | 0.1250  |
+| agora_p0prime_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.004 | +0.16 | 0.7323 | 0.6250  |
+| agora_p0prime_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.026 | +1.11 | 0.0683 | 0.1250  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs agora_p1_together_llama33_70b_hi_t00 | 5 | -0.090 | -4.61 | 0.0005 | 0.0625  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs agora_p2_together_llama33_70b_hi_t00 | 5 | -0.085 | -3.66 | 0.0012 | 0.0625  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs agora_together_llama33_70b_hi_t00 | 5 | -0.004 | -0.15 | 0.7614 | 0.6250  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs baseline_p0prime_together_llama33_70b_hi_t00 | 5 | +0.007 | +0.39 | 0.4314 | 0.6250  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs baseline_p1_together_llama33_70b_hi_t00 | 5 | -0.061 | -2.57 | 0.0045 | 0.0625  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | -0.062 | -1.37 | 0.0373 | 0.1250  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | -0.006 | -0.26 | 0.5926 | 0.8125  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.013 | +0.45 | 0.3721 | 0.4375  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | -0.003 | -0.13 | 0.7800 | 0.8125  |
+| agora_p0prime_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.007 | -0.26 | 0.5910 | 0.6250  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs agora_p1_together_llama33_70b_pt_t00 | 5 | -0.062 | -5.64 | 0.0002 | 0.0625  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs agora_p2_together_llama33_70b_pt_t00 | 5 | -0.077 | -2.70 | 0.0038 | 0.0625  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs agora_together_llama33_70b_pt_t00 | 5 | +0.094 | +5.68 | 0.0002 | 0.0625  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs baseline_p0prime_together_llama33_70b_pt_t00 | 5 | -0.006 | -0.30 | 0.5361 | 0.4375  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs baseline_p1_together_llama33_70b_pt_t00 | 5 | -0.042 | -1.35 | 0.0391 | 0.0625  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | -0.070 | -2.57 | 0.0045 | 0.0625  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | +0.081 | +2.81 | 0.0033 | 0.0625  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | -0.008 | -0.35 | 0.4795 | 0.6250  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | -0.026 | -1.02 | 0.0853 | 0.1250  |
+| agora_p0prime_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | -0.013 | -0.53 | 0.3030 | 0.6250  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs agora_p1_together_llama33_70b_ru_t00 | 5 | +0.028 | +2.70 | 0.0038 | 0.0625  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs agora_p2_together_llama33_70b_ru_t00 | 5 | -0.020 | -3.12 | 0.0022 | 0.0625  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs agora_together_llama33_70b_ru_t00 | 5 | +0.029 | +1.41 | 0.0342 | 0.1250  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs baseline_p0prime_together_llama33_70b_ru_t00 | 5 | +0.028 | +1.50 | 0.0285 | 0.0625  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs baseline_p1_together_llama33_70b_ru_t00 | 5 | +0.052 | +4.83 | 0.0004 | 0.0625  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | +0.007 | +0.71 | 0.1884 | 0.3125  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.073 | +4.02 | 0.0008 | 0.0625  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | +0.005 | +0.29 | 0.5569 | 0.6250  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.034 | +6.91 | 0.0001 | 0.0625  |
+| agora_p0prime_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.085 | +4.46 | 0.0006 | 0.0625  |
+| agora_p1_together_llama33_70b_bg_t00 vs agora_p2_together_llama33_70b_bg_t00 | 5 | -0.033 | -1.40 | 0.0349 | 0.0625  |
+| agora_p1_together_llama33_70b_bg_t00 vs agora_together_llama33_70b_bg_t00 | 5 | +0.028 | +0.92 | 0.1085 | 0.1250  |
+| agora_p1_together_llama33_70b_bg_t00 vs baseline_p0prime_together_llama33_70b_bg_t00 | 5 | +0.027 | +1.10 | 0.0692 | 0.1250  |
+| agora_p1_together_llama33_70b_bg_t00 vs baseline_p1_together_llama33_70b_bg_t00 | 5 | +0.055 | +2.08 | 0.0097 | 0.0625  |
+| agora_p1_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | +0.018 | +0.71 | 0.1853 | 0.1875  |
+| agora_p1_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | +0.055 | +2.63 | 0.0042 | 0.0625  |
+| agora_p1_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.002 | -0.09 | 0.8571 | 0.8125  |
+| agora_p1_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | +0.022 | +0.62 | 0.2357 | 0.3125  |
+| agora_p1_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.071 | +1.80 | 0.0158 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs agora_p2_together_llama33_70b_en_t00 | 5 | +0.005 | +0.23 | 0.6306 | 0.6250  |
+| agora_p1_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t00 | 5 | +0.077 | +6.41 | 0.0001 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t07 | 5 | +0.068 | +8.30 | 0.0000 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.118 | +9.69 | 0.0000 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.113 | +10.12 | 0.0000 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | +0.067 | +4.13 | 0.0008 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | +0.027 | +1.67 | 0.0202 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | +0.015 | +0.91 | 0.1126 | 0.3125  |
+| agora_p1_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.107 | +16.57 | 0.0000 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.089 | +7.08 | 0.0001 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | +0.034 | +3.71 | 0.0012 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.067 | +9.25 | 0.0000 | 0.0625  |
+| agora_p1_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.089 | +6.82 | 0.0001 | 0.0625  |
+| agora_p1_together_llama33_70b_hi_t00 vs agora_p2_together_llama33_70b_hi_t00 | 5 | +0.005 | +0.25 | 0.5996 | 0.4375  |
+| agora_p1_together_llama33_70b_hi_t00 vs agora_together_llama33_70b_hi_t00 | 5 | +0.086 | +2.69 | 0.0038 | 0.0625  |
+| agora_p1_together_llama33_70b_hi_t00 vs baseline_p0prime_together_llama33_70b_hi_t00 | 5 | +0.097 | +4.23 | 0.0007 | 0.0625  |
+| agora_p1_together_llama33_70b_hi_t00 vs baseline_p1_together_llama33_70b_hi_t00 | 5 | +0.029 | +1.16 | 0.0610 | 0.1250  |
+| agora_p1_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | +0.028 | +0.62 | 0.2400 | 0.1875  |
+| agora_p1_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | +0.084 | +3.71 | 0.0011 | 0.0625  |
+| agora_p1_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.103 | +2.81 | 0.0033 | 0.0625  |
+| agora_p1_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | +0.087 | +3.47 | 0.0015 | 0.0625  |
+| agora_p1_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | +0.083 | +2.54 | 0.0047 | 0.0625  |
+| agora_p1_together_llama33_70b_pt_t00 vs agora_p2_together_llama33_70b_pt_t00 | 5 | -0.015 | -0.42 | 0.4015 | 0.4375  |
+| agora_p1_together_llama33_70b_pt_t00 vs agora_together_llama33_70b_pt_t00 | 5 | +0.156 | +7.86 | 0.0001 | 0.0625  |
+| agora_p1_together_llama33_70b_pt_t00 vs baseline_p0prime_together_llama33_70b_pt_t00 | 5 | +0.056 | +2.48 | 0.0052 | 0.0625  |
+| agora_p1_together_llama33_70b_pt_t00 vs baseline_p1_together_llama33_70b_pt_t00 | 5 | +0.019 | +0.60 | 0.2516 | 0.3125  |
+| agora_p1_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | -0.008 | -0.27 | 0.5846 | 0.8125  |
+| agora_p1_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | +0.143 | +4.63 | 0.0005 | 0.0625  |
+| agora_p1_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | +0.054 | +2.14 | 0.0088 | 0.0625  |
+| agora_p1_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | +0.036 | +1.25 | 0.0492 | 0.0625  |
+| agora_p1_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | +0.049 | +1.55 | 0.0255 | 0.0625  |
+| agora_p1_together_llama33_70b_ru_t00 vs agora_p2_together_llama33_70b_ru_t00 | 5 | -0.048 | -3.04 | 0.0024 | 0.0625  |
+| agora_p1_together_llama33_70b_ru_t00 vs agora_together_llama33_70b_ru_t00 | 5 | +0.001 | +0.03 | 0.9441 | 0.6250  |
+| agora_p1_together_llama33_70b_ru_t00 vs baseline_p0prime_together_llama33_70b_ru_t00 | 5 | +0.000 | +0.00 | 0.9939 | 1.0000  |
+| agora_p1_together_llama33_70b_ru_t00 vs baseline_p1_together_llama33_70b_ru_t00 | 5 | +0.025 | +1.34 | 0.0398 | 0.1250  |
+| agora_p1_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | -0.021 | -1.55 | 0.0254 | 0.0625  |
+| agora_p1_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.046 | +2.12 | 0.0090 | 0.0625  |
+| agora_p1_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.023 | -1.25 | 0.0492 | 0.0625  |
+| agora_p1_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.006 | +0.63 | 0.2323 | 0.3125  |
+| agora_p1_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.058 | +2.33 | 0.0065 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs agora_together_llama33_70b_bg_t00 | 5 | +0.061 | +5.57 | 0.0002 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs baseline_p0prime_together_llama33_70b_bg_t00 | 5 | +0.060 | +4.33 | 0.0006 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs baseline_p1_together_llama33_70b_bg_t00 | 5 | +0.088 | +3.68 | 0.0012 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | +0.050 | +1.66 | 0.0207 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | +0.088 | +4.12 | 0.0008 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | +0.031 | +2.73 | 0.0037 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | +0.055 | +2.80 | 0.0033 | 0.0625  |
+| agora_p2_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.103 | +2.86 | 0.0031 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t00 | 5 | +0.072 | +3.03 | 0.0025 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t07 | 5 | +0.063 | +3.40 | 0.0016 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.113 | +6.28 | 0.0001 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.108 | +5.57 | 0.0002 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | +0.062 | +2.03 | 0.0104 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | +0.022 | +1.19 | 0.0566 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | +0.010 | +0.39 | 0.4358 | 0.4375  |
+| agora_p2_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.102 | +4.84 | 0.0004 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.084 | +3.77 | 0.0011 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | +0.029 | +1.14 | 0.0627 | 0.1250  |
+| agora_p2_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.062 | +2.96 | 0.0027 | 0.0625  |
+| agora_p2_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.084 | +4.11 | 0.0008 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs agora_together_llama33_70b_hi_t00 | 5 | +0.080 | +4.37 | 0.0006 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs baseline_p0prime_together_llama33_70b_hi_t00 | 5 | +0.092 | +7.76 | 0.0001 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs baseline_p1_together_llama33_70b_hi_t00 | 5 | +0.023 | +4.28 | 0.0007 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | +0.023 | +0.86 | 0.1283 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | +0.078 | +4.99 | 0.0004 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.098 | +3.52 | 0.0014 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | +0.082 | +9.18 | 0.0000 | 0.0625  |
+| agora_p2_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | +0.078 | +4.87 | 0.0004 | 0.0625  |
+| agora_p2_together_llama33_70b_pt_t00 vs agora_together_llama33_70b_pt_t00 | 5 | +0.171 | +4.51 | 0.0005 | 0.0625  |
+| agora_p2_together_llama33_70b_pt_t00 vs baseline_p0prime_together_llama33_70b_pt_t00 | 5 | +0.071 | +4.64 | 0.0005 | 0.0625  |
+| agora_p2_together_llama33_70b_pt_t00 vs baseline_p1_together_llama33_70b_pt_t00 | 5 | +0.034 | +0.88 | 0.1209 | 0.1875  |
+| agora_p2_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | +0.007 | +0.15 | 0.7537 | 0.6250  |
+| agora_p2_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | +0.157 | +7.79 | 0.0001 | 0.0625  |
+| agora_p2_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | +0.069 | +2.16 | 0.0085 | 0.0625  |
+| agora_p2_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | +0.050 | +1.72 | 0.0185 | 0.0625  |
+| agora_p2_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | +0.063 | +2.15 | 0.0085 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs agora_together_llama33_70b_ru_t00 | 5 | +0.049 | +3.02 | 0.0025 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs baseline_p0prime_together_llama33_70b_ru_t00 | 5 | +0.048 | +2.12 | 0.0090 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs baseline_p1_together_llama33_70b_ru_t00 | 5 | +0.073 | +11.96 | 0.0000 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | +0.028 | +2.31 | 0.0067 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.094 | +5.42 | 0.0003 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | +0.025 | +1.81 | 0.0156 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.054 | +5.64 | 0.0002 | 0.0625  |
+| agora_p2_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.106 | +7.35 | 0.0001 | 0.0625  |
+| agora_together_llama33_70b_bg_t00 vs baseline_p0prime_together_llama33_70b_bg_t00 | 5 | -0.001 | -0.05 | 0.9235 | 1.0000  |
+| agora_together_llama33_70b_bg_t00 vs baseline_p1_together_llama33_70b_bg_t00 | 5 | +0.027 | +1.07 | 0.0745 | 0.1250  |
+| agora_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | -0.010 | -0.36 | 0.4670 | 0.4375  |
+| agora_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | +0.027 | +1.30 | 0.0441 | 0.1250  |
+| agora_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.030 | -2.61 | 0.0043 | 0.0625  |
+| agora_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | -0.006 | -0.46 | 0.3584 | 0.4375  |
+| agora_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.043 | +1.41 | 0.0346 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs agora_together_llama33_70b_en_t07 | 5 | -0.008 | -0.70 | 0.1941 | 0.1875  |
+| agora_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.042 | +4.27 | 0.0007 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.037 | +7.93 | 0.0001 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | -0.010 | -0.78 | 0.1542 | 0.1875  |
+| agora_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.050 | -4.31 | 0.0006 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.062 | -3.07 | 0.0024 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.030 | +3.20 | 0.0020 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.012 | +3.64 | 0.0012 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.043 | -2.48 | 0.0052 | 0.0625  |
+| agora_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.010 | -1.10 | 0.0690 | 0.1250  |
+| agora_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.012 | +0.95 | 0.1021 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs agora_union_together_llama33_70b_en_t00 | 5 | +0.050 | +3.34 | 0.0017 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs agora_union_together_llama33_70b_en_t07 | 5 | +0.045 | +3.95 | 0.0009 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | -0.001 | -0.06 | 0.8956 | 1.0000  |
+| agora_together_llama33_70b_en_t07 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.041 | -2.28 | 0.0070 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.053 | -2.38 | 0.0060 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t00 | 5 | +0.039 | +3.10 | 0.0023 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t07 | 5 | +0.021 | +1.53 | 0.0267 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.034 | -2.00 | 0.0110 | 0.0625  |
+| agora_together_llama33_70b_en_t07 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.001 | -0.17 | 0.7212 | 0.6250  |
+| agora_together_llama33_70b_en_t07 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.021 | +1.46 | 0.0311 | 0.0625  |
+| agora_together_llama33_70b_hi_t00 vs baseline_p0prime_together_llama33_70b_hi_t00 | 5 | +0.011 | +0.47 | 0.3501 | 0.3125  |
+| agora_together_llama33_70b_hi_t00 vs baseline_p1_together_llama33_70b_hi_t00 | 5 | -0.057 | -3.66 | 0.0012 | 0.0625  |
+| agora_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | -0.057 | -1.75 | 0.0172 | 0.0625  |
+| agora_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | -0.002 | -0.12 | 0.8005 | 0.6250  |
+| agora_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.018 | +0.58 | 0.2655 | 0.3125  |
+| agora_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | +0.001 | +0.08 | 0.8619 | 0.8125  |
+| agora_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.002 | -0.08 | 0.8625 | 0.8125  |
+| agora_together_llama33_70b_pt_t00 vs baseline_p0prime_together_llama33_70b_pt_t00 | 5 | -0.100 | -3.61 | 0.0013 | 0.0625  |
+| agora_together_llama33_70b_pt_t00 vs baseline_p1_together_llama33_70b_pt_t00 | 5 | -0.136 | -6.16 | 0.0002 | 0.0625  |
+| agora_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | -0.164 | -11.37 | 0.0000 | 0.0625  |
+| agora_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | -0.013 | -0.41 | 0.4074 | 0.4375  |
+| agora_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | -0.102 | -5.77 | 0.0002 | 0.0625  |
+| agora_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | -0.120 | -5.75 | 0.0002 | 0.0625  |
+| agora_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | -0.107 | -5.06 | 0.0003 | 0.0625  |
+| agora_together_llama33_70b_ru_t00 vs baseline_p0prime_together_llama33_70b_ru_t00 | 5 | -0.001 | -0.03 | 0.9507 | 1.0000  |
+| agora_together_llama33_70b_ru_t00 vs baseline_p1_together_llama33_70b_ru_t00 | 5 | +0.024 | +2.29 | 0.0069 | 0.0625  |
+| agora_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | -0.021 | -0.83 | 0.1368 | 0.1875  |
+| agora_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.045 | +2.83 | 0.0032 | 0.0625  |
+| agora_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.024 | -1.26 | 0.0482 | 0.0625  |
+| agora_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.005 | +0.23 | 0.6395 | 1.0000  |
+| agora_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.057 | +3.39 | 0.0016 | 0.0625  |
+| agora_union_deepseek_en_t00 vs agora_union_deepseek_en_t07 | 5 | +0.010 | +0.88 | 0.1209 | 0.1250  |
+| agora_union_deepseek_en_t00 vs baseline_deepseek_en_t00 | 5 | -0.018 | -1.22 | 0.0521 | 0.0625  |
+| agora_union_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | -0.014 | -0.80 | 0.1470 | 0.1875  |
+| agora_union_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | -0.016 | -1.82 | 0.0874 | 0.2500  |
+| agora_union_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.020 | +2.21 | 0.0621 | 0.2500  |
+| agora_union_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.039 | +2.29 | 0.0580 | 0.2500  |
+| agora_union_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.027 | -1.77 | 0.0918 | 0.2500  |
+| agora_union_deepseek_en_t07 vs baseline_deepseek_en_t00 | 5 | -0.028 | -3.42 | 0.0016 | 0.0625  |
+| agora_union_deepseek_en_t07 vs baseline_deepseek_en_t07 | 5 | -0.024 | -2.26 | 0.0072 | 0.0625  |
+| agora_union_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | -0.023 | -3.28 | 0.0297 | 0.2500  |
+| agora_union_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.013 | +0.69 | 0.3566 | 0.5000  |
+| agora_union_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.032 | +3.90 | 0.0212 | 0.2500  |
+| agora_union_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | -0.035 | -9.81 | 0.0034 | 0.2500  |
+| agora_union_deepseek_pt_t00 vs baseline_deepseek_pt_t00 | 5 | +0.006 | +0.30 | 0.5424 | 0.6250  |
+| agora_union_deepseek_pt_t00 vs baseline_deepseek_pt_t07 | 5 | +0.005 | +0.19 | 0.6878 | 0.8125  |
+| agora_union_deepseek_pt_t00 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.327 | +18.57 | 0.0010 | 0.2500  |
+| agora_union_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.438 | +9.91 | 0.0034 | 0.2500  |
+| agora_union_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | +0.297 | +6.83 | 0.0071 | 0.2500  |
+| agora_union_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.329 | +25.89 | 0.0005 | 0.2500  |
+| agora_union_gpt5nano_en_t00 vs agora_union_gpt5nano_en_t07 | 5 | +0.003 | +0.11 | 0.8240 | 1.0000  |
+| agora_union_gpt5nano_en_t00 vs baseline_gpt5nano_en_t00 | 5 | -0.043 | -3.21 | 0.0020 | 0.0625  |
+| agora_union_gpt5nano_en_t00 vs baseline_gpt5nano_en_t07 | 5 | -0.018 | -1.32 | 0.0423 | 0.0625  |
+| agora_union_gpt5nano_en_t00 vs baseline_p0prime_gpt5nano_en_t00 | 3 | -0.068 | -68.28 | 0.0001 | 0.2500  |
+| agora_union_gpt5nano_en_t07 vs baseline_gpt5nano_en_t00 | 5 | -0.045 | -1.46 | 0.0308 | 0.0625  |
+| agora_union_gpt5nano_en_t07 vs baseline_gpt5nano_en_t07 | 5 | -0.021 | -1.47 | 0.0303 | 0.0625  |
+| agora_union_gpt5nano_en_t07 vs baseline_p0prime_gpt5nano_en_t00 | 3 | -0.053 | -6.17 | 0.0086 | 0.2500  |
+| agora_union_mistral_en_t00 vs agora_union_mistral_en_t07 | 5 | +0.003 | +0.24 | 0.6264 | 1.0000  |
+| agora_union_mistral_en_t00 vs baseline_mistral_en_t00 | 5 | -0.018 | -4.89 | 0.0004 | 0.0625  |
+| agora_union_mistral_en_t00 vs baseline_mistral_en_t07 | 5 | -0.013 | -2.29 | 0.0069 | 0.0625  |
+| agora_union_mistral_en_t07 vs baseline_mistral_en_t00 | 5 | -0.021 | -2.25 | 0.0073 | 0.0625  |
+| agora_union_mistral_en_t07 vs baseline_mistral_en_t07 | 5 | -0.016 | -1.94 | 0.0122 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs agora_union_together_llama33_70b_en_t07 | 5 | -0.005 | -0.83 | 0.1363 | 0.3125  |
+| agora_union_together_llama33_70b_en_t00 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | -0.051 | -3.41 | 0.0016 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.091 | -22.31 | 0.0000 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.103 | -7.11 | 0.0001 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | -0.011 | -1.53 | 0.0268 | 0.1250  |
+| agora_union_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | -0.029 | -3.91 | 0.0009 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.084 | -5.60 | 0.0002 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.051 | -4.84 | 0.0004 | 0.0625  |
+| agora_union_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | -0.029 | -2.81 | 0.0033 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs baseline_p0prime_together_llama33_70b_en_t00 | 5 | -0.046 | -3.32 | 0.0018 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.086 | -10.94 | 0.0000 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.098 | -5.36 | 0.0003 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t00 | 5 | -0.006 | -0.76 | 0.1631 | 0.1250  |
+| agora_union_together_llama33_70b_en_t07 vs baseline_together_llama33_70b_en_t07 | 5 | -0.024 | -7.02 | 0.0001 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.080 | -4.75 | 0.0004 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.046 | -5.61 | 0.0002 | 0.0625  |
+| agora_union_together_llama33_70b_en_t07 vs sc_3_union_together_llama33_70b_en_t00 | 5 | -0.024 | -2.26 | 0.0072 | 0.0625  |
+| baseline_deepseek_bg_t00 vs baseline_deepseek_bg_t07 | 5 | +0.009 | +1.11 | 0.0675 | 0.1250  |
+| baseline_deepseek_bg_t00 vs baseline_p0prime_deepseek_bg_t00 | 3 | +0.065 | +2.96 | 0.0359 | 0.2500  |
+| baseline_deepseek_bg_t00 vs baseline_p1_deepseek_bg_t00 | 3 | +0.162 | +30.78 | 0.0004 | 0.2500  |
+| baseline_deepseek_bg_t00 vs baseline_p2_deepseek_bg_t00 | 3 | +0.026 | +0.95 | 0.2405 | 0.5000  |
+| baseline_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | +0.062 | +10.75 | 0.0029 | 0.2500  |
+| baseline_deepseek_bg_t07 vs baseline_p0prime_deepseek_bg_t00 | 3 | +0.055 | +1.72 | 0.0968 | 0.2500  |
+| baseline_deepseek_bg_t07 vs baseline_p1_deepseek_bg_t00 | 3 | +0.151 | +23.85 | 0.0006 | 0.2500  |
+| baseline_deepseek_bg_t07 vs baseline_p2_deepseek_bg_t00 | 3 | +0.016 | +0.91 | 0.2555 | 0.5000  |
+| baseline_deepseek_bg_t07 vs sc_3_deepseek_bg_t00 | 3 | +0.051 | +9.28 | 0.0039 | 0.2500  |
+| baseline_deepseek_en_t00 vs baseline_deepseek_en_t07 | 5 | +0.004 | +0.28 | 0.5645 | 1.0000  |
+| baseline_deepseek_en_t00 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.010 | +1.61 | 0.1085 | 0.2500  |
+| baseline_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.046 | +2.25 | 0.0600 | 0.2500  |
+| baseline_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.065 | +21.48 | 0.0007 | 0.2500  |
+| baseline_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.001 | -0.46 | 0.5076 | 0.5000  |
+| baseline_deepseek_en_t07 vs baseline_p0prime_deepseek_en_t00 | 3 | +0.002 | +0.13 | 0.8435 | 1.0000  |
+| baseline_deepseek_en_t07 vs baseline_p1_deepseek_en_t00 | 3 | +0.039 | +2.03 | 0.0722 | 0.2500  |
+| baseline_deepseek_en_t07 vs baseline_p2_deepseek_en_t00 | 3 | +0.058 | +2.55 | 0.0475 | 0.2500  |
+| baseline_deepseek_en_t07 vs sc_3_deepseek_en_t00 | 3 | -0.009 | -0.49 | 0.4838 | 0.7500  |
+| baseline_deepseek_hi_t00 vs baseline_p0prime_deepseek_hi_t00 | 3 | +0.032 | +1.62 | 0.1070 | 0.2500  |
+| baseline_deepseek_hi_t00 vs baseline_p1_deepseek_hi_t00 | 3 | +0.106 | +2.69 | 0.0432 | 0.2500  |
+| baseline_deepseek_hi_t00 vs baseline_p2_deepseek_hi_t00 | 3 | +0.034 | +0.71 | 0.3436 | 0.5000  |
+| baseline_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | +0.035 | +3.49 | 0.0263 | 0.2500  |
+| baseline_deepseek_pt_t00 vs baseline_deepseek_pt_t07 | 5 | -0.001 | -0.06 | 0.9078 | 1.0000  |
+| baseline_deepseek_pt_t00 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.315 | +28.65 | 0.0004 | 0.2500  |
+| baseline_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.427 | +9.56 | 0.0036 | 0.2500  |
+| baseline_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | +0.285 | +11.21 | 0.0026 | 0.2500  |
+| baseline_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.317 | +31.92 | 0.0003 | 0.2500  |
+| baseline_deepseek_pt_t07 vs baseline_p0prime_deepseek_pt_t00 | 3 | +0.327 | +53.92 | 0.0001 | 0.2500  |
+| baseline_deepseek_pt_t07 vs baseline_p1_deepseek_pt_t00 | 3 | +0.438 | +15.44 | 0.0014 | 0.2500  |
+| baseline_deepseek_pt_t07 vs baseline_p2_deepseek_pt_t00 | 3 | +0.296 | +11.41 | 0.0025 | 0.2500  |
+| baseline_deepseek_pt_t07 vs sc_3_deepseek_pt_t00 | 3 | +0.329 | +28.99 | 0.0004 | 0.2500  |
+| baseline_deepseek_ru_t00 vs baseline_deepseek_ru_t07 | 5 | +0.007 | +0.53 | 0.3044 | 0.4375  |
+| baseline_deepseek_ru_t00 vs baseline_p0prime_deepseek_ru_t00 | 3 | -0.023 | -1.26 | 0.1616 | 0.2500  |
+| baseline_deepseek_ru_t00 vs baseline_p1_deepseek_ru_t00 | 3 | +0.039 | +3.02 | 0.0347 | 0.2500  |
+| baseline_deepseek_ru_t00 vs baseline_p2_deepseek_ru_t00 | 3 | +0.015 | +0.55 | 0.4418 | 0.5000  |
+| baseline_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | -0.018 | -1.78 | 0.0913 | 0.2500  |
+| baseline_deepseek_ru_t07 vs baseline_p0prime_deepseek_ru_t00 | 3 | -0.026 | -6.26 | 0.0084 | 0.2500  |
+| baseline_deepseek_ru_t07 vs baseline_p1_deepseek_ru_t00 | 3 | +0.036 | +2.21 | 0.0621 | 0.2500  |
+| baseline_deepseek_ru_t07 vs baseline_p2_deepseek_ru_t00 | 3 | +0.012 | +0.70 | 0.3471 | 0.5000  |
+| baseline_deepseek_ru_t07 vs sc_3_deepseek_ru_t00 | 3 | -0.021 | -1.24 | 0.1638 | 0.2500  |
+| baseline_gpt5nano_en_t00 vs baseline_gpt5nano_en_t07 | 5 | +0.025 | +1.30 | 0.0437 | 0.0625  |
+| baseline_gpt5nano_en_t00 vs baseline_p0prime_gpt5nano_en_t00 | 3 | -0.025 | -6.17 | 0.0086 | 0.2500  |
+| baseline_gpt5nano_en_t07 vs baseline_p0prime_gpt5nano_en_t00 | 3 | -0.041 | -4.36 | 0.0171 | 0.2500  |
+| baseline_mistral_en_t00 vs baseline_mistral_en_t07 | 5 | +0.005 | +1.17 | 0.0586 | 0.1250  |
+| baseline_p0prime_deepseek_bg_t00 vs baseline_p1_deepseek_bg_t00 | 3 | +0.096 | +3.53 | 0.0257 | 0.2500  |
+| baseline_p0prime_deepseek_bg_t00 vs baseline_p2_deepseek_bg_t00 | 3 | -0.039 | -0.84 | 0.2838 | 0.2500  |
+| baseline_p0prime_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | -0.004 | -0.13 | 0.8392 | 1.0000  |
+| baseline_p0prime_deepseek_en_t00 vs baseline_p1_deepseek_en_t00 | 3 | +0.036 | +2.51 | 0.0489 | 0.2500  |
+| baseline_p0prime_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.055 | +6.00 | 0.0091 | 0.2500  |
+| baseline_p0prime_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.011 | -1.70 | 0.0981 | 0.2500  |
+| baseline_p0prime_deepseek_hi_t00 vs baseline_p1_deepseek_hi_t00 | 3 | +0.074 | +2.35 | 0.0554 | 0.2500  |
+| baseline_p0prime_deepseek_hi_t00 vs baseline_p2_deepseek_hi_t00 | 3 | +0.003 | +0.06 | 0.9232 | 1.0000  |
+| baseline_p0prime_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | +0.003 | +0.13 | 0.8445 | 1.0000  |
+| baseline_p0prime_deepseek_pt_t00 vs baseline_p1_deepseek_pt_t00 | 3 | +0.111 | +3.23 | 0.0306 | 0.2500  |
+| baseline_p0prime_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | -0.031 | -1.17 | 0.1801 | 0.2500  |
+| baseline_p0prime_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.002 | +0.33 | 0.6211 | 0.7500  |
+| baseline_p0prime_deepseek_ru_t00 vs baseline_p1_deepseek_ru_t00 | 3 | +0.062 | +3.09 | 0.0332 | 0.2500  |
+| baseline_p0prime_deepseek_ru_t00 vs baseline_p2_deepseek_ru_t00 | 3 | +0.038 | +3.08 | 0.0334 | 0.2500  |
+| baseline_p0prime_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | +0.005 | +0.30 | 0.6537 | 0.7500  |
+| baseline_p0prime_together_llama33_70b_bg_t00 vs baseline_p1_together_llama33_70b_bg_t00 | 5 | +0.028 | +2.55 | 0.0047 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | -0.010 | -0.34 | 0.4896 | 1.0000  |
+| baseline_p0prime_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | +0.028 | +1.31 | 0.0426 | 0.1250  |
+| baseline_p0prime_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.029 | -1.54 | 0.0264 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | -0.005 | -0.26 | 0.5856 | 0.6250  |
+| baseline_p0prime_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.043 | +1.69 | 0.0194 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs baseline_p1_together_llama33_70b_en_t00 | 5 | -0.040 | -2.34 | 0.0064 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.052 | -3.48 | 0.0015 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.040 | +2.95 | 0.0027 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.022 | +1.58 | 0.0244 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.033 | -1.81 | 0.0154 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.000 | -0.02 | 0.9679 | 1.0000  |
+| baseline_p0prime_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.022 | +1.89 | 0.0135 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_hi_t00 vs baseline_p1_together_llama33_70b_hi_t00 | 5 | -0.068 | -6.42 | 0.0001 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | -0.069 | -2.47 | 0.0053 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | -0.013 | -0.80 | 0.1499 | 0.1875  |
+| baseline_p0prime_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.006 | +0.34 | 0.4943 | 0.6250  |
+| baseline_p0prime_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | -0.010 | -0.58 | 0.2666 | 0.3125  |
+| baseline_p0prime_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.014 | -1.13 | 0.0651 | 0.1250  |
+| baseline_p0prime_together_llama33_70b_pt_t00 vs baseline_p1_together_llama33_70b_pt_t00 | 5 | -0.037 | -1.18 | 0.0578 | 0.1250  |
+| baseline_p0prime_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | -0.064 | -1.72 | 0.0185 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | +0.086 | +5.62 | 0.0002 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | -0.002 | -0.12 | 0.7977 | 1.0000  |
+| baseline_p0prime_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | -0.021 | -1.05 | 0.0784 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | -0.008 | -0.28 | 0.5684 | 0.6250  |
+| baseline_p0prime_together_llama33_70b_ru_t00 vs baseline_p1_together_llama33_70b_ru_t00 | 5 | +0.025 | +1.05 | 0.0788 | 0.1250  |
+| baseline_p0prime_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | -0.021 | -0.91 | 0.1129 | 0.1250  |
+| baseline_p0prime_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.046 | +2.25 | 0.0073 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.023 | -1.08 | 0.0737 | 0.0625  |
+| baseline_p0prime_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.006 | +0.31 | 0.5254 | 0.4375  |
+| baseline_p0prime_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.058 | +1.91 | 0.0130 | 0.0625  |
+| baseline_p1_deepseek_bg_t00 vs baseline_p2_deepseek_bg_t00 | 3 | -0.136 | -5.76 | 0.0099 | 0.2500  |
+| baseline_p1_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | -0.100 | -22.80 | 0.0006 | 0.2500  |
+| baseline_p1_deepseek_en_t00 vs baseline_p2_deepseek_en_t00 | 3 | +0.019 | +0.81 | 0.2958 | 0.2500  |
+| baseline_p1_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.047 | -2.36 | 0.0550 | 0.2500  |
+| baseline_p1_deepseek_hi_t00 vs baseline_p2_deepseek_hi_t00 | 3 | -0.072 | -1.02 | 0.2208 | 0.5000  |
+| baseline_p1_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | -0.071 | -1.47 | 0.1258 | 0.2500  |
+| baseline_p1_deepseek_pt_t00 vs baseline_p2_deepseek_pt_t00 | 3 | -0.142 | -3.57 | 0.0251 | 0.2500  |
+| baseline_p1_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | -0.109 | -2.78 | 0.0407 | 0.2500  |
+| baseline_p1_deepseek_ru_t00 vs baseline_p2_deepseek_ru_t00 | 3 | -0.024 | -0.76 | 0.3186 | 0.2500  |
+| baseline_p1_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | -0.057 | -2.62 | 0.0451 | 0.2500  |
+| baseline_p1_together_llama33_70b_bg_t00 vs baseline_p2_together_llama33_70b_bg_t00 | 5 | -0.038 | -1.22 | 0.0527 | 0.0625  |
+| baseline_p1_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | -0.000 | -0.02 | 0.9739 | 0.8125  |
+| baseline_p1_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.057 | -2.04 | 0.0104 | 0.0625  |
+| baseline_p1_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | -0.033 | -1.20 | 0.0545 | 0.1250  |
+| baseline_p1_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.015 | +0.64 | 0.2275 | 0.1875  |
+| baseline_p1_together_llama33_70b_en_t00 vs baseline_p2_together_llama33_70b_en_t00 | 5 | -0.012 | -0.72 | 0.1848 | 0.1875  |
+| baseline_p1_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.080 | +7.15 | 0.0001 | 0.0625  |
+| baseline_p1_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.062 | +7.04 | 0.0001 | 0.0625  |
+| baseline_p1_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | +0.007 | +0.36 | 0.4709 | 0.4375  |
+| baseline_p1_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.040 | +2.82 | 0.0032 | 0.0625  |
+| baseline_p1_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.062 | +4.79 | 0.0004 | 0.0625  |
+| baseline_p1_together_llama33_70b_hi_t00 vs baseline_p2_together_llama33_70b_hi_t00 | 5 | -0.000 | -0.02 | 0.9722 | 0.6250  |
+| baseline_p1_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | +0.055 | +4.04 | 0.0008 | 0.0625  |
+| baseline_p1_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.074 | +3.13 | 0.0022 | 0.0625  |
+| baseline_p1_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | +0.058 | +5.67 | 0.0002 | 0.0625  |
+| baseline_p1_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | +0.054 | +3.78 | 0.0011 | 0.0625  |
+| baseline_p1_together_llama33_70b_pt_t00 vs baseline_p2_together_llama33_70b_pt_t00 | 5 | -0.027 | -1.38 | 0.0371 | 0.0625  |
+| baseline_p1_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | +0.123 | +5.11 | 0.0003 | 0.0625  |
+| baseline_p1_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | +0.034 | +1.75 | 0.0175 | 0.0625  |
+| baseline_p1_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | +0.016 | +0.94 | 0.1024 | 0.1875  |
+| baseline_p1_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | +0.029 | +1.61 | 0.0225 | 0.0625  |
+| baseline_p1_together_llama33_70b_ru_t00 vs baseline_p2_together_llama33_70b_ru_t00 | 5 | -0.045 | -2.85 | 0.0031 | 0.0625  |
+| baseline_p1_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.021 | +1.34 | 0.0397 | 0.1250  |
+| baseline_p1_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.048 | -3.69 | 0.0012 | 0.0625  |
+| baseline_p1_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | -0.019 | -1.34 | 0.0398 | 0.1250  |
+| baseline_p1_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.033 | +2.74 | 0.0036 | 0.0625  |
+| baseline_p2_deepseek_bg_t00 vs sc_3_deepseek_bg_t00 | 3 | +0.036 | +1.65 | 0.1042 | 0.2500  |
+| baseline_p2_deepseek_en_t00 vs sc_3_deepseek_en_t00 | 3 | -0.067 | -14.31 | 0.0016 | 0.2500  |
+| baseline_p2_deepseek_hi_t00 vs sc_3_deepseek_hi_t00 | 3 | +0.000 | +0.01 | 0.9856 | 1.0000  |
+| baseline_p2_deepseek_pt_t00 vs sc_3_deepseek_pt_t00 | 3 | +0.033 | +1.06 | 0.2091 | 0.2500  |
+| baseline_p2_deepseek_ru_t00 vs sc_3_deepseek_ru_t00 | 3 | -0.033 | -1.68 | 0.1004 | 0.2500  |
+| baseline_p2_together_llama33_70b_bg_t00 vs baseline_together_llama33_70b_bg_t00 | 5 | +0.037 | +4.05 | 0.0008 | 0.0625  |
+| baseline_p2_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.020 | -0.88 | 0.1216 | 0.1875  |
+| baseline_p2_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | +0.005 | +0.14 | 0.7668 | 1.0000  |
+| baseline_p2_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.053 | +1.86 | 0.0142 | 0.0625  |
+| baseline_p2_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t00 | 5 | +0.092 | +6.88 | 0.0001 | 0.0625  |
+| baseline_p2_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | +0.074 | +3.77 | 0.0011 | 0.0625  |
+| baseline_p2_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | +0.019 | +1.37 | 0.0379 | 0.1250  |
+| baseline_p2_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.052 | +3.34 | 0.0017 | 0.0625  |
+| baseline_p2_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.074 | +5.79 | 0.0002 | 0.0625  |
+| baseline_p2_together_llama33_70b_hi_t00 vs baseline_together_llama33_70b_hi_t00 | 5 | +0.055 | +1.71 | 0.0189 | 0.0625  |
+| baseline_p2_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.075 | +2.53 | 0.0048 | 0.0625  |
+| baseline_p2_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | +0.058 | +1.87 | 0.0138 | 0.0625  |
+| baseline_p2_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | +0.055 | +2.54 | 0.0047 | 0.0625  |
+| baseline_p2_together_llama33_70b_pt_t00 vs baseline_together_llama33_70b_pt_t00 | 5 | +0.151 | +4.03 | 0.0008 | 0.0625  |
+| baseline_p2_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | +0.062 | +2.25 | 0.0073 | 0.0625  |
+| baseline_p2_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | +0.044 | +1.55 | 0.0259 | 0.0625  |
+| baseline_p2_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | +0.057 | +3.07 | 0.0024 | 0.0625  |
+| baseline_p2_together_llama33_70b_ru_t00 vs baseline_together_llama33_70b_ru_t00 | 5 | +0.066 | +2.45 | 0.0054 | 0.0625  |
+| baseline_p2_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.002 | -0.16 | 0.7406 | 0.8125  |
+| baseline_p2_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.027 | +4.10 | 0.0008 | 0.0625  |
+| baseline_p2_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.078 | +4.57 | 0.0005 | 0.0625  |
+| baseline_together_llama33_70b_bg_t00 vs sc_3_intersection_together_llama33_70b_bg_t00 | 5 | -0.057 | -4.14 | 0.0008 | 0.0625  |
+| baseline_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | -0.032 | -1.16 | 0.0604 | 0.1250  |
+| baseline_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.016 | +0.57 | 0.2693 | 0.4375  |
+| baseline_together_llama33_70b_en_t00 vs baseline_together_llama33_70b_en_t07 | 5 | -0.018 | -2.07 | 0.0099 | 0.0625  |
+| baseline_together_llama33_70b_en_t00 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.073 | -8.54 | 0.0000 | 0.0625  |
+| baseline_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.040 | -4.87 | 0.0004 | 0.0625  |
+| baseline_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | -0.018 | -1.53 | 0.0268 | 0.0625  |
+| baseline_together_llama33_70b_en_t07 vs sc_3_intersection_together_llama33_70b_en_t00 | 5 | -0.055 | -3.25 | 0.0019 | 0.0625  |
+| baseline_together_llama33_70b_en_t07 vs sc_3_together_llama33_70b_en_t00 | 5 | -0.022 | -2.11 | 0.0092 | 0.0625  |
+| baseline_together_llama33_70b_en_t07 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.000 | +0.00 | 0.9962 | 0.8125  |
+| baseline_together_llama33_70b_hi_t00 vs sc_3_intersection_together_llama33_70b_hi_t00 | 5 | +0.020 | +0.89 | 0.1163 | 0.1875  |
+| baseline_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | +0.003 | +0.16 | 0.7398 | 0.8125  |
+| baseline_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.000 | -0.02 | 0.9693 | 1.0000  |
+| baseline_together_llama33_70b_pt_t00 vs sc_3_intersection_together_llama33_70b_pt_t00 | 5 | -0.089 | -4.06 | 0.0008 | 0.0625  |
+| baseline_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | -0.107 | -5.97 | 0.0002 | 0.0625  |
+| baseline_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | -0.094 | -3.80 | 0.0010 | 0.0625  |
+| baseline_together_llama33_70b_ru_t00 vs sc_3_intersection_together_llama33_70b_ru_t00 | 5 | -0.069 | -3.27 | 0.0019 | 0.0625  |
+| baseline_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | -0.040 | -1.73 | 0.0181 | 0.0625  |
+| baseline_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.012 | +0.46 | 0.3605 | 0.8125  |
+| mdeberta_baseline_bg_t00 vs mdeberta_originals_only_bg_t00 | 5 | +0.008 | +0.15 | 0.7522 | 1.0000  |
+| mdeberta_baseline_en_t00 vs mdeberta_originals_only_en_t00 | 5 | +0.035 | +0.86 | 0.1280 | 0.1875  |
+| mdeberta_baseline_hi_t00 vs mdeberta_originals_only_hi_t00 | 5 | +0.016 | +0.43 | 0.3893 | 0.4375  |
+| mdeberta_baseline_pt_t00 vs mdeberta_originals_only_pt_t00 | 5 | +0.007 | +0.37 | 0.4577 | 0.3125  |
+| mdeberta_baseline_ru_t00 vs mdeberta_originals_only_ru_t00 | 5 | +0.019 | +0.64 | 0.2270 | 0.3125  |
+| sc_3_intersection_together_llama33_70b_bg_t00 vs sc_3_together_llama33_70b_bg_t00 | 5 | +0.025 | +1.11 | 0.0684 | 0.1250  |
+| sc_3_intersection_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.073 | +2.12 | 0.0091 | 0.0625  |
+| sc_3_intersection_together_llama33_70b_en_t00 vs sc_3_together_llama33_70b_en_t00 | 5 | +0.033 | +2.31 | 0.0067 | 0.0625  |
+| sc_3_intersection_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.055 | +3.08 | 0.0023 | 0.0625  |
+| sc_3_intersection_together_llama33_70b_hi_t00 vs sc_3_together_llama33_70b_hi_t00 | 5 | -0.016 | -0.50 | 0.3259 | 0.4375  |
+| sc_3_intersection_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.020 | -0.84 | 0.1351 | 0.1875  |
+| sc_3_intersection_together_llama33_70b_pt_t00 vs sc_3_together_llama33_70b_pt_t00 | 5 | -0.018 | -3.02 | 0.0025 | 0.0625  |
+| sc_3_intersection_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | -0.005 | -0.21 | 0.6681 | 1.0000  |
+| sc_3_intersection_together_llama33_70b_ru_t00 vs sc_3_together_llama33_70b_ru_t00 | 5 | +0.029 | +1.67 | 0.0203 | 0.0625  |
+| sc_3_intersection_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.081 | +7.10 | 0.0001 | 0.0625  |
+| sc_3_together_llama33_70b_bg_t00 vs sc_3_union_together_llama33_70b_bg_t00 | 5 | +0.048 | +1.79 | 0.0162 | 0.0625  |
+| sc_3_together_llama33_70b_en_t00 vs sc_3_union_together_llama33_70b_en_t00 | 5 | +0.022 | +3.04 | 0.0024 | 0.0625  |
+| sc_3_together_llama33_70b_hi_t00 vs sc_3_union_together_llama33_70b_hi_t00 | 5 | -0.004 | -0.19 | 0.6972 | 0.8125  |
+| sc_3_together_llama33_70b_pt_t00 vs sc_3_union_together_llama33_70b_pt_t00 | 5 | +0.013 | +0.58 | 0.2630 | 0.1875  |
+| sc_3_together_llama33_70b_ru_t00 vs sc_3_union_together_llama33_70b_ru_t00 | 5 | +0.052 | +2.65 | 0.0041 | 0.0625  |
+
+## Top Confused Narrative Pairs (bistochastic TCM)
+
+The bistochastic normalisation removes class-frequency bias from the raw TCM, isolating purely structural confusion between narratives. Pairs are reported per language for the best-hF experiment in that language.
+
+### BG — agora_deepseek_bg_t00
+
+| Gold narrative | Predicted as | bis(TCM) mass | raw mass | same-domain |
+|---|---|---|---|---|
+| Negative Consequences for the West | Amplifying war-related fears | 0.5257 | 2.8343 | yes |
+| Criticism of climate movement | Criticism of climate policies | 0.4606 | 1.6677 | yes |
+| Blaming the war on others rather than the invader | Distrust towards Media | 0.4505 | 1.0010 | yes |
+| Discrediting the West, Diplomacy | Praise of Russia | 0.3521 | 1.4177 | yes |
+| Negative Consequences for the West | Blaming the war on others rather than the invader | 0.3277 | 1.8343 | yes |
+| Downplaying climate change | Controversy about green technologies | 0.3127 | 1.4177 | yes |
+| Amplifying war-related fears | Speculating war outcomes | 0.3028 | 1.6677 | yes |
+| Hidden plots by secret schemes of powerful groups | Green policies are geopolitical instruments | 0.2581 | 0.8510 | yes |
+
+### EN — baseline_p1_gpt5nano_en_t00
+
+| Gold narrative | Predicted as | bis(TCM) mass | raw mass | same-domain |
+|---|---|---|---|---|
+| Criticism of climate movement | Downplaying climate change | 0.5432 | 1.2510 | yes |
+| Negative Consequences for the West | Criticism of climate movement | 0.5072 | 0.3343 | no |
+| Criticism of climate policies | Hidden plots by secret schemes of powerful groups | 0.4316 | 0.7510 | yes |
+| Overpraising the West | Speculating war outcomes | 0.3875 | 0.5010 | yes |
+| Criticism of institutions and authorities | Amplifying Climate Fears | 0.3431 | 0.5010 | yes |
+| Hidden plots by secret schemes of powerful groups | Criticism of institutions and authorities | 0.2974 | 0.3343 | yes |
+| Questioning the measurements and science | Amplifying Climate Fears | 0.2916 | 0.5010 | yes |
+| Hidden plots by secret schemes of powerful groups | Criticism of climate policies | 0.2797 | 1.3343 | yes |
+
+### HI — agora_majority_gpt5nano_hi_t00
+
+| Gold narrative | Predicted as | bis(TCM) mass | raw mass | same-domain |
+|---|---|---|---|---|
+| Speculating war outcomes | Russia is the Victim | 0.5554 | 4.5010 | yes |
+| Hidden plots by secret schemes of powerful groups | Distrust towards Media | 0.3686 | 1.2510 | no |
+| Hidden plots by secret schemes of powerful groups | Negative Consequences for the West | 0.3608 | 1.7510 | no |
+| Blaming the war on others rather than the invader | Discrediting Ukraine | 0.2196 | 1.4010 | yes |
+| Amplifying Climate Fears | Questioning the measurements and science | 0.2154 | 1.0010 | yes |
+| Praise of Russia | Blaming the war on others rather than the invader | 0.2147 | 3.1677 | yes |
+| Discrediting the West, Diplomacy | Negative Consequences for the West | 0.2106 | 2.1677 | yes |
+| Amplifying war-related fears | Speculating war outcomes | 0.1656 | 13.2010 | yes |
+
+### PT — agora_majority_gpt5nano_pt_t00
+
+| Gold narrative | Predicted as | bis(TCM) mass | raw mass | same-domain |
+|---|---|---|---|---|
+| Russia is the Victim | Overpraising the West | 0.4468 | 2.0010 | yes |
+| Discrediting the West, Diplomacy | Praise of Russia | 0.4464 | 2.0010 | yes |
+| Criticism of climate policies | Criticism of institutions and authorities | 0.3572 | 2.5010 | yes |
+| Discrediting the West, Diplomacy | Negative Consequences for the West | 0.3291 | 0.8343 | yes |
+| Discrediting Ukraine | Discrediting the West, Diplomacy | 0.3117 | 2.5010 | yes |
+| Praise of Russia | Russia is the Victim | 0.2843 | 2.8343 | yes |
+| Praise of Russia | Discrediting the West, Diplomacy | 0.2518 | 4.8343 | yes |
+| Praise of Russia | Blaming the war on others rather than the invader | 0.2470 | 0.8343 | yes |
+
+### RU — agora_majority_gpt5nano_ru_t00
+
+| Gold narrative | Predicted as | bis(TCM) mass | raw mass | same-domain |
+|---|---|---|---|---|
+| Amplifying war-related fears | Speculating war outcomes | 0.3408 | 2.5010 | yes |
+| Speculating war outcomes | Blaming the war on others rather than the invader | 0.3346 | 1.0010 | yes |
+| Hidden plots by secret schemes of powerful groups | Distrust towards Media | 0.3080 | 0.7962 | no |
+| Speculating war outcomes | Discrediting the West, Diplomacy | 0.2564 | 1.3343 | yes |
+| Discrediting the West, Diplomacy | Negative Consequences for the West | 0.2500 | 2.3343 | yes |
+| Speculating war outcomes | Discrediting Ukraine | 0.2346 | 1.3343 | yes |
+| Praise of Russia | Discrediting the West, Diplomacy | 0.2259 | 12.9177 | yes |
+| Discrediting the West, Diplomacy | Speculating war outcomes | 0.2124 | 10.0010 | yes |

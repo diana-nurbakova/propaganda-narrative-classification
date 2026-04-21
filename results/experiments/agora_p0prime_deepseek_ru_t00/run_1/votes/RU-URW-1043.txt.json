@@ -1,0 +1,65 @@
+{
+  "file_id": "RU-URW-1043.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "The text presents an action by Ukrainian intelligence (GUR) as involving espionage and sabotage against Russian infrastructure, framing Ukraine's activities as illegitimate and hostile, which serves to undermine Ukraine's actions and intentions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "В результате совместных мероприятий УФСБ России по ДНР, МВД по ДНР и Росгвардии в Мариуполе выявлены иностранные граждане, незаконно пребывающие на территории РФ. 33 мигранта привлечены к административной ответственности, из них 24 выдворены за пределы России.",
+        "reasoning": "The text highlights the effective and lawful actions of Russian security services (FSB, MVD, Rosgvardiya) in identifying and deporting illegal migrants, portraying Russian state institutions as competent and maintaining order in the annexed territory."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "The text presents an action by Ukraine's military intelligence (GUR) as an illicit act of sabotage against Russian infrastructure, framing Ukraine as engaging in covert, destructive operations on Russian soil, which serves to undermine its legitimacy and actions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

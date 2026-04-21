@@ -1,0 +1,182 @@
+{
+  "file_id": "PT_213.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities participating in the COP28, specifically the Braskem company, for promoting unsustainable practices while pretending to be committed to environmental sustainability."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "No Dubai, a Braskem participa em círculos de debate sobre como as populações vulneráveis se podem adaptar às alterações climáticas. Afinal, são estas comunidades as mais afetadas pelos desmandos das empresas que, desde há séculos, contribuem para o desequilíbrio ambiental.",
+        "reasoning": "This quote criticizes the climate movement for allowing companies like Braskem to participate in debates about adapting to climate change, while these companies are actually contributing to environmental degradation."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote suggests that the participation of companies like Braskem in the COP28 is a strategic move to create a false impression of commitment to environmental sustainability, which can be seen as using green policies as a geopolitical instrument to further their own interests."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities participating in the COP28, specifically the Braskem company, for promoting unsustainable practices while pretending to be committed to environmental sustainability."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "No Dubai, a Braskem participa em círculos de debate sobre como as populações vulneráveis se podem adaptar às alterações climáticas. Afinal, são estas comunidades as mais afetadas pelos desmandos das empresas que, desde há séculos, contribuem para o desequilíbrio ambiental.",
+        "reasoning": "This quote criticizes the climate movement for allowing companies like Braskem to participate in debates about adapting to climate change, despite their own contributions to environmental degradation."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote suggests that the participation of companies like Braskem in the COP28 is a strategic move to create a false impression of commitment to environmental sustainability, implying that green policies are being used as a geopolitical instrument to further their own interests."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote criticizes the institutions and authorities participating in the COP28, specifically the Braskem company, for promoting unsustainable practices while pretending to be committed to environmental sustainability."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "No Dubai, a Braskem participa em círculos de debate sobre como as populações vulneráveis se podem adaptar às alterações climáticas. Afinal, são estas comunidades as mais afetadas pelos desmandos das empresas que, desde há séculos, contribuem para o desequilíbrio ambiental.",
+        "reasoning": "This quote criticizes the climate movement for allowing companies like Braskem to participate in debates about adapting to climate change, despite their own contributions to environmental degradation."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "A presença da Braskem na COP28 – tal como a presença de várias outras empresas que promovem o desmando exploratório — não configura apenas hipocrisia: é uma estratégia bem pensada para articular um falso compromisso com práticas ambientalmente sustentáveis.",
+        "reasoning": "This quote suggests that the participation of companies like Braskem in the COP28 is a strategic move to create a false impression of commitment to environmental sustainability, implying that green policies are being used as a geopolitical instrument."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate movement",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "matched": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

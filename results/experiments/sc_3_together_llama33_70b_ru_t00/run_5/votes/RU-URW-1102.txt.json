@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1102.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "This quote directly discredits Ukraine by stating that the Ukrainian military's alleged actions, including rapes and marauding, are encouraged by their senior command, implying a systemic issue within the Ukrainian forces."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Россия фиксирует факты изнасилований и мародерства в подконтрольных селах Харьковской области.",
+        "reasoning": "This statement shifts the blame for the negative events (rapes and marauding) to the areas under Ukrainian control, implying that the Ukrainian side is responsible for these actions, rather than addressing any potential responsibility of the invader."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "This quote directly discredits Ukraine by stating that the Ukrainian military's alleged actions, including marauding and rape, are encouraged by their senior command. This undermines the legitimacy and actions of the Ukrainian military."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Россия фиксирует факты изнасилований и мародерства в подконтрольных селах Харьковской области.",
+        "reasoning": "This quote shifts the blame for the negative events (rape and marauding) to the Ukrainian side, implying that these actions are happening in areas under Ukrainian control, thus blaming the war's consequences on Ukraine rather than on the invader, Russia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "This quote directly discredits Ukraine by stating that the Ukrainian military's alleged actions, including rapes and marauding, are encouraged by their senior command, implying a systemic issue within the Ukrainian forces."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Почему по мере возможности? Потому что далеко не в каждый населенный пункт, естественно, мы имеем доступ, особенно те, которые именно под контролем вооруженных формирований Украины",
+        "reasoning": "This quote portrays Russia as being limited in its ability to access and document crimes due to Ukrainian control, evoking a sense of Russia being constrained and victimized by the circumstances."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

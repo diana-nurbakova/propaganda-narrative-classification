@@ -1,0 +1,149 @@
+{
+  "file_id": "HI_4.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन संकट पर चीन की पीस पॉलिसी काबिले-तारीफ है और हमे उस पर अमल जरूर करना चाहिए।",
+        "reasoning": "The quote reports Putin's praise for China's peace policy regarding Ukraine. This is an explicit positive evaluation of an ally's actions, which aligns with the 'Praise of Russia' narrative as it highlights Russia's diplomatic stance and its alignment with a supportive power."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की। रूस का जिक्र करते हुए चीन ने इसे पूरी तरह से गलत करार दिया है। साथ ही अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया है।",
+        "reasoning": "This quote describes China's peace plan as condemning Western sanctions and intervention as 'completely wrong'. By presenting this content without counter-critique, the text amplifies a narrative that criticizes and discredits Western diplomatic and economic actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन संकट पर चीन की पीस पॉलिसी काबिले-तारीफ है और हमे उस पर अमल जरूर करना चाहिए।",
+        "reasoning": "The quote reports Putin's praise for China's peace policy, which is framed as supporting Russia's position. The article actively promotes this positive view by highlighting Putin's endorsement and presenting it as a credible stance."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की। रूस का जिक्र करते हुए चीन ने इसे पूरी तरह से गलत करार दिया है। साथ ही अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया है।",
+        "reasoning": "The text describes China's peace plan as condemning Western sanctions and intervention, framing Western actions as wrong. This actively promotes a narrative that discredits Western diplomatic and military involvement in the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन संकट पर चीन की पीस पॉलिसी काबिले-तारीफ है और हमे उस पर अमल जरूर करना चाहिए।",
+        "reasoning": "The quote reports Putin's praise for China's peace policy, which is framed as supporting Russia's position. The article actively promotes this positive view by highlighting Putin's endorsement and presenting it as a credible stance."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की। रूस का जिक्र करते हुए चीन ने इसे पूरी तरह से गलत करार दिया है। साथ ही अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया है।",
+        "reasoning": "The text describes China's peace plan as condemning Western sanctions and intervention, framing Western actions as wrong. This actively promotes a narrative that discredits Western diplomatic and military involvement in the conflict."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "पुतिन ने कहा, \"यूक्रेन संकट को हल करने के लिए चीन के दृष्टिकोण पर हम सकारात्मक हैं। बीजिंग ने वास्तव में इसके मूल कारणों और इसके वैश्विक भू-राजनीतिक अर्थ को समझा है।\"",
+        "reasoning": "This quote, by endorsing China's understanding of the 'root causes' and 'global geopolitical meaning' of the crisis, implicitly shifts focus away from Russia's invasion as the primary cause. It suggests the conflict has deeper origins for which others (the West, NATO expansion, etc.) might be responsible, aligning with the narrative of blaming others."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

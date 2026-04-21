@@ -1,0 +1,114 @@
+{
+  "file_id": "HI_51.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "“हम पोलैंड पर हमला क्यों करेंगे? हमें पोलैंड, लातविया या किसी अन्य देश में कोई दिलचस्पी नहीं है - यह सिर्फ धमकी देना है।”",
+        "reasoning": "This quote from Putin, presented without critical context, frames Russia's military posture as purely defensive and reactive to external threats ('just a threat'), implicitly shifting blame for tensions onto NATO expansion or Western actions rather than acknowledging Russia's role as the aggressor in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "यूक्रेन बनाम गाजा में नागरिकों की हत्या, अस्पतालों और स्कूलों पर बमबारी पर अमेरिका और यूरोप के दोहरे मानकों ने इसकी स्थिति को बाकी दुनिया के लिए असुरक्षित बना दिया है।",
+        "reasoning": "The text directly criticizes the US and Europe for their 'double standards' regarding civilian casualties, portraying Western diplomatic and moral positions as hypocritical and undermining their global standing."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "यूक्रेन बनाम गाजा में नागरिकों की हत्या, अस्पतालों और स्कूलों पर बमबारी पर अमेरिका और यूरोप के दोहरे मानकों ने इसकी स्थिति को बाकी दुनिया के लिए असुरक्षित बना दिया है।",
+        "reasoning": "This quote shifts focus and blame away from Russia's invasion by criticizing the 'double standards' of the US and Europe, implying their hypocrisy undermines their position and, by extension, the moral clarity of opposing Russia's actions. It frames the West's response as a primary problem, indirectly deflecting blame from the invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "यूक्रेन बनाम गाजा में नागरिकों की हत्या, अस्पतालों और स्कूलों पर बमबारी पर अमेरिका और यूरोप के दोहरे मानकों ने इसकी स्थिति को बाकी दुनिया के लिए असुरक्षित बना दिया है।",
+        "reasoning": "The text directly criticizes the US and Europe for their 'double standards,' portraying their diplomatic and moral stance as hypocritical and unreliable, which serves to discredit Western foreign policy and its legitimacy in the context of the war."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "यूक्रेन में युद्ध के दो साल बाद, रूस ने यूक्रेन के कुछ हिस्सों पर कब्ज़ा कर लिया है, जो इसके पश्चिमी किनारे पर एक बफर ज़ोन बनाते हैं, इसे उलटना असंभव लगता है",
+        "reasoning": "This statement makes a speculative prediction about the war's outcome, asserting that reversing Russia's territorial gains 'seems impossible,' which is a definitive claim about future military and political realities."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

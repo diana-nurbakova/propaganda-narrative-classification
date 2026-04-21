@@ -1,0 +1,136 @@
+{
+  "file_id": "EN_CC_200063.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The rationale for this type of proposal is baffling. The company’s board and its Environment, Safety and Public Policy Committee regularly engage with senior management on climate matters.",
+        "reasoning": "The text criticizes the climate movement by implying that their proposals are unfounded and that the company's board is already competent in handling climate matters, thus questioning the motives and integrity of the climate activists."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals.",
+        "reasoning": "The text criticizes the SEC's approach to shareholder proposals, implying that it is overreaching and not following the law, thus challenging the competence and integrity of the SEC as an institution."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The rationale for this type of proposal is baffling. The company’s board and its Environment, Safety and Public Policy Committee regularly engage with senior management on climate matters.",
+        "reasoning": "The text criticizes the climate movement by questioning the rationale behind the proposal submitted by climate activist investors, implying that the board is already competent in handling climate matters and that the proposal is unnecessary."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals.",
+        "reasoning": "The text criticizes the SEC's approach to shareholder proposals, characterizing it as 'permissive and arguably lawless', implying that the SEC is overreaching its authority and failing to properly regulate the process."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The rationale for this type of proposal is baffling. The company’s board and its Environment, Safety and Public Policy Committee regularly engage with senior management on climate matters.",
+        "reasoning": "The text criticizes the climate movement by questioning the rationale behind the proposal submitted by climate activist investors, implying that the board is already competent in handling climate matters and that the proposal is unnecessary."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals.",
+        "reasoning": "The text criticizes the SEC for its regulatory approach, implying that it is overreaching and not following the law, which challenges the competence and integrity of the institution."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

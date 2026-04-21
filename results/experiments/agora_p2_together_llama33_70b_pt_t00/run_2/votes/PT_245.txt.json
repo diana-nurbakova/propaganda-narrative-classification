@@ -1,0 +1,161 @@
+{
+  "file_id": "PT_245.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "As autoridades ucranianas têm pressionado os seus aliados ocidentais para que lhes permitam usar as suas armas mais sofisticadas para atacar alvos mais valiosos dentro do território russo.",
+        "reasoning": "A frase sugere que os aliados ocidentais da Ucrânia estão sendo pressionados para permitir o uso de armas mais sofisticadas, o que pode ser interpretado como uma crítica à hesitação ou falta de apoio dos países ocidentais."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "As forças de defesa continuam a tomar todas as medidas para minar o potencial militar e económico dos ocupantes russos e forçar a Federação Russa a pôr fim à sua agressão armada contra a Ucrânia",
+        "reasoning": "A frase coloca a responsabilidade da agressão armada sobre a Rússia, mas não explicita a causa do conflito, o que pode ser interpretado como uma tentativa de desviar a atenção da responsabilidade da Ucrânia."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "As tropas russas continuaram a ganhar terreno na província ucraniana de Donetsk e avançaram para oeste, em direção às cidades de Pokrovsk e Kurakhove.",
+        "reasoning": "A frase especula sobre o resultado da guerra, mencionando o avanço das tropas russas e a possibilidade de captura de cidades ucranianas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "As autoridades ucranianas têm pressionado os seus aliados ocidentais para que lhes permitam usar as suas armas mais sofisticadas para atacar alvos mais valiosos dentro do território russo.",
+        "reasoning": "A frase sugere que os aliados ocidentais da Ucrânia estão sendo pressionados para permitir o uso de armas mais sofisticadas, o que pode ser interpretado como uma crítica à hesitação ou falta de apoio dos países ocidentais."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "As forças de defesa continuam a tomar todas as medidas para minar o potencial militar e económico dos ocupantes russos e forçar a Federação Russa a pôr fim à sua agressão armada contra a Ucrânia",
+        "reasoning": "A frase coloca a responsabilidade da agressão armada sobre a Rússia, mas não explicita que a Rússia é a invasora, apenas se refere a 'ocupantes russos', o que pode ser visto como uma forma de desviar a culpa."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "As tropas russas continuaram a ganhar terreno na província ucraniana de Donetsk e avançaram para oeste, em direção às cidades de Pokrovsk e Kurakhove.",
+        "reasoning": "A frase especula sobre o resultado da guerra, mencionando que as tropas russas estão ganhando terreno e avançando em direção a cidades específicas, o que pode ser interpretado como uma previsão do desenrolar do conflito."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "As autoridades ucranianas têm pressionado os seus aliados ocidentais para que lhes permitam usar as suas armas mais sofisticadas para atacar alvos mais valiosos dentro do território russo.",
+        "reasoning": "A frase sugere que os aliados ocidentais da Ucrânia estão sendo pressionados para permitir que a Ucrânia use armas mais sofisticadas, o que pode ser interpretado como uma crítica à hesitação ou falta de apoio dos países ocidentais."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "As forças de defesa continuam a tomar todas as medidas para minar o potencial militar e económico dos ocupantes russos e forçar a Federação Russa a pôr fim à sua agressão armada contra a Ucrânia",
+        "reasoning": "A frase coloca a responsabilidade da agressão armada sobre a Rússia, mas não explicita que a Rússia é a invasora, apenas se refere à 'agressão armada', o que pode ser visto como uma forma de desviar a atenção da responsabilidade da Rússia como invasora."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "As tropas russas continuaram a ganhar terreno na província ucraniana de Donetsk e avançaram para oeste, em direção às cidades de Pokrovsk e Kurakhove.",
+        "reasoning": "A frase especula sobre o resultado da guerra, mencionando que as tropas russas estão ganhando terreno, o que pode influenciar a percepção do leitor sobre o desenrolar do conflito."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 89.36170212765957,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

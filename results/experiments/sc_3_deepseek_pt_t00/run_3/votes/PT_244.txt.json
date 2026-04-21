@@ -1,0 +1,141 @@
+{
+  "file_id": "PT_244.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que 'para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias'.",
+        "reasoning": "This quote directly criticizes the French leadership, accusing them of hypocrisy and failing to uphold stated values, which fits the definition of discrediting Western countries and their diplomatic principles."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A TASS informou que o levantamento das credenciais, essenciais para cobrir as modalidades desportivas e aceder à Aldeia Olímpica, foi 'completamente inesperado', uma vez que os jornalistas puderam entrar em França e assistir à abertura, na sexta-feira, e a outros eventos.",
+        "reasoning": "The framing of the credential withdrawal as 'completely unexpected' and the highlighting of prior access portrays the Russian journalists (and by extension, Russia) as being unfairly targeted or subjected to arbitrary actions, evoking a sense of victimization."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Zakharova disse ainda que a cerimónia de abertura, na sexta-feira, foi um 'grande fracasso', e a agência TASS destacou na sua cobertura uma série de 'situações estranhas', como a bandeira olímpica a ser hasteada de cabeça para baixo e o público a abandonar as bancadas cedo devido à chuva.",
+        "reasoning": "This statement criticizes and mocks the organization of the Olympic opening ceremony by the French hosts, aiming to discredit the competence and prestige of the Western-led event."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que 'para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias'.",
+        "reasoning": "The quote directly criticizes French leadership, accusing them of hypocrisy and empty rhetoric regarding press freedom and journalists' rights, which fits the definition of discrediting Western countries and their diplomatic principles."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A TASS informou que o levantamento das credenciais, essenciais para cobrir as modalidades desportivas e aceder à Aldeia Olímpica, foi 'completamente inesperado', uma vez que os jornalistas puderam entrar em França e assistir à abertura, na sexta-feira, e a outros eventos.",
+        "reasoning": "The text frames the credential revocation as an unexpected and unjust action against Russian journalists who had already been allowed to participate, portraying Russia (through its journalists) as being unfairly targeted by the event organizers."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A porta-voz da chancelaria russa, Maria Zakharova, declarou à agência estatal que 'para (o presidente Emmanuel) Macron e os seus arredores, respeitar os direitos dos jornalistas e garantir a liberdade de expressão são expressões vazias'.",
+        "reasoning": "This quote directly criticizes a Western leader (French President Macron) and his administration, accusing them of hypocrisy and of not genuinely upholding the values they profess, specifically regarding press freedom and journalists' rights."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A TASS informou que o levantamento das credenciais, essenciais para cobrir as modalidades desportivas e aceder à Aldeia Olímpica, foi 'completamente inesperado', uma vez que os jornalistas puderam entrar em França e assistir à abertura, na sexta-feira, e a outros eventos.",
+        "reasoning": "The framing of the credential withdrawal as 'completely unexpected' and the emphasis on the journalists having already been allowed to enter and attend events paints Russia (through its state media and journalists) as being unfairly and arbitrarily targeted by the Olympic organizers."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Zakharova disse ainda que a cerimónia de abertura, na sexta-feira, foi um 'grande fracasso', e a agência TASS destacou na sua cobertura uma série de 'situações estranhas', como a bandeira olímpica a ser hasteada de cabeça para baixo e o público a abandonar as bancadas cedo devido à chuva.",
+        "reasoning": "This statement actively criticizes and mocks the execution of a major Western-hosted international event (the Paris Olympics opening ceremony), portraying it as a failure and highlighting organizational mishaps to undermine the competence and prestige of the host nation."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

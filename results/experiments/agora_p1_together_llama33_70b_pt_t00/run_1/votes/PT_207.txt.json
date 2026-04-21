@@ -1,0 +1,149 @@
+{
+  "file_id": "PT_207.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments",
+      "Criticism of climate policies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "The quote criticizes the European Union for its perceived hypocrisy in requiring Brazilian farmers to preserve 80% of their land while not meeting their own environmental standards."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "The quote suggests that the European Union's environmental policies are being used as a tool for commercial protectionism, implying that they are geopolitical instruments."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "The quote criticizes the disparity in environmental standards between the European Union and Brazil, implying that the EU's climate policies are unfair or ineffective."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "The quote criticizes the European Union's decision to delay and flexibilize environmental preservation requirements for its own farmers while imposing stricter rules on Brazilian products, highlighting what the senator sees as hypocrisy and a double standard."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "This quote suggests that the European Union's environmental policies are being used as a tool for geopolitical and commercial advantage, rather than out of genuine concern for the environment, which aligns with the narrative that green policies are used as geopolitical instruments."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "The quote criticizes the European Union's decision to delay and flexibilize environmental preservation requirements for their own farmers while demanding stricter standards from Brazilian farmers, highlighting what the senator perceives as hypocrisy and a double standard."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "This quote suggests that the European Union's environmental policies are being used as a tool for geopolitical and commercial protectionism, rather than out of genuine concern for the environment, which aligns with the narrative that green policies are used as geopolitical instruments."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of the EU",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "matched": "CC: Green policies are geopolitical instruments: Green activities are a form of neo-colonialism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

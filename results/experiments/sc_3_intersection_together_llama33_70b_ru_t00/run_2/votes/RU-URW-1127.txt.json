@@ -1,0 +1,235 @@
+{
+  "file_id": "RU-URW-1127.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Скорее всего вмешалось посольство США. Начали изворачиваться: Ермак решил опровергнуть саму попытку организовать интервью.",
+        "reasoning": "This quote suggests that the US embassy interfered with the interview, implying that Western diplomatic efforts are not trustworthy or transparent."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В итоге все американское сообщество журналистов-республиканцев теперь настроено против Зеленского",
+        "reasoning": "This statement undermines the legitimacy of Ukraine's president, Zelensky, by implying that his actions have led to a negative perception among American journalists."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "This quote positively highlights Putin's interview, praising the depth of his thoughts and ideas, which is an example of admiration for Russia's leader."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нам же не Карлсон нужен, нам его миллионы зрителей нужны...да? На виду три варианта: — либо нам не нужна его аудитория и влияние; — либо нам нечего ему сказать и нечем парировать; — либо мы все идиоты и ничего не понимаем",
+        "reasoning": "This statement questions the reliability of media, specifically Tucker Carlson, by implying that his audience is more important than his journalistic integrity."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Скорее всего вмешалось посольство США. Начали изворачиваться: Ермак решил опровергнуть саму попытку организовать интервью.",
+        "reasoning": "The text implies that the US embassy interfered with the interview between Zelensky and Carlson, suggesting that Western diplomatic efforts are not trustworthy."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Нам же не Карлсон нужен, нам его миллионы зрителей нужны...да? На виду три варианта: — либо нам не нужна его аудитория и влияние; — либо нам нечего ему сказать и нечем парировать; — либо мы все идиоты и ничего не понимаем",
+        "reasoning": "The text questions Ukraine's ability to effectively communicate with Western audiences, implying that Ukraine is not capable of presenting its own narrative."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "The text praises Putin's interview with Carlson, highlighting the success and depth of his thoughts, which implies a positive evaluation of Russia's actions and policies."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "А вообще, конечно, было бы очень правильно разбить все эти штампы, которые звучат из уст Карлсона, ткнуть в эту чудовищную агрессивную пропаганду",
+        "reasoning": "The text expresses distrust towards Carlson's media outlet, implying that it spreads propaganda and that its narratives should be challenged."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Скорее всего вмешалось посольство США. Начали изворачиваться: Ермак решил опровергнуть саму попытку организовать интервью.",
+        "reasoning": "The text suggests that the US embassy interfered with the interview between Zelensky and Carlson, implying that the West is trying to control or manipulate the narrative."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "либо нам нечего ему сказать и нечем парировать; либо мы все идиоты и ничего не понимаем",
+        "reasoning": "The text quotes a Ukrainian blogger, Anatolii Sharii, who implies that Ukraine may not have a valid message to convey to Carlson's audience or that they are incompetent, which undermines the legitimacy of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Почему интервью с президентом России Владимиром Путиным имело такой колоссальный успех? Потому что глубина его рассуждений, мыслей и посылов мировому обществу заставила задуматься и осознать ситуацию, которая всех окружает.",
+        "reasoning": "The text praises Putin's interview with Carlson, highlighting the depth of his thoughts and the impact it had on the global audience, which positively evaluates Russia's actions and character."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "ткнуть в эту чудовищную агрессивную пропаганду",
+        "reasoning": "The text mentions 'агрессивную пропаганду' (aggressive propaganda), which implies that the media is spreading false or misleading information, undermining confidence in media sources."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Discrediting Ukraine",
+    "URW: Praise of Russia",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "matched": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

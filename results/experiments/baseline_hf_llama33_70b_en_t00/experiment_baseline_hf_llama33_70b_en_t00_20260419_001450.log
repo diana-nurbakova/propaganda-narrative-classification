@@ -1,0 +1,28 @@
+[Logging] Output will be saved to: results\experiments\baseline_hf_llama33_70b_en_t00\experiment_baseline_hf_llama33_70b_en_t00_20260419_001450.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_hf_llama33_70b_en_t00
+============================================================
+Base config: configs/experiments/generated/emnlp/baseline_hf_llama33_70b_en_t00.yaml
+Number of runs: 5
+Base seed: 42
+Output directory: results/experiments/baseline_hf_llama33_70b_en_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943, 1051802512, 958682846]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_hf_llama33_70b_en_t00_pk0lw78p\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_hf_llama33_70b_en_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_hf_llama33_70b_en_t00_pk0lw78p\run_1_config.yaml
+[Main] Building graph with configuration...
+[Main] Error during classification: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct.
+403 Client Error. (Request ID: Root=1-69e4028a-1d2f6e39344138db22b5a021;a74830d4-8983-44d6-b65e-fd290b7cb398)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/config.json.
+Access to model meta-llama/Llama-3.3-70B-Instruct is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct to ask for access.

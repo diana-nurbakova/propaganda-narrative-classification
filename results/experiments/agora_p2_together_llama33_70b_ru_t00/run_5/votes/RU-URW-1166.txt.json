@@ -1,0 +1,182 @@
+{
+  "file_id": "RU-URW-1166.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia has international support from a number of countries and people",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia has international support from a number of countries and people",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин провёл более 20 встреч с лидерами стран Европы, Азии, Африки, Латинской Америки и Ближнего Востока",
+        "reasoning": "Эта цитата показывает, что Путин имеет широкий круг международных контактов и поддержку со стороны многих стран, что противоречит попыткам Запада изолировать его"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин, не теряя времени, возобновил дружбу с председателем КНР Си Цзиньпином",
+        "reasoning": "Эта цитата подчеркивает активную дипломатическую деятельность Путина и его способность поддерживать дружеские отношения с ключевыми мировыми лидерами, что положительно характеризует Россию"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Попытка Запада изолировать Путина провалилась",
+        "reasoning": "Эта цитата прямо указывает на неудачу Запада в своих попытках изолировать Путина, что подразумевает, что дипломатические усилия Запада были неэффективными или неправильными"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia has international support from a number of countries and people",
+        "evidence_quote": "Путин провёл более 20 встреч с лидерами стран Европы, Азии, Африки, Латинской Америки и Ближнего Востока",
+        "reasoning": "Эта цитата показывает, что Путин имеет широкий круг международных контактов и поддержку со стороны многих стран, что противоречит попыткам Запада изолировать его"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин, не теряя времени, возобновил дружбу с председателем КНР Си Цзиньпином",
+        "reasoning": "Эта цитата подчеркивает активную дипломатическую деятельность Путина и его способность поддерживать дружеские отношения с другими мировыми лидерами, что можно рассматривать как положительную оценку России"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Попытка Запада изолировать Путина провалилась",
+        "reasoning": "Эта цитата подразумевает, что Запад не смог добиться своих целей в отношении России, что можно рассматривать как критику дипломатических усилий Запада"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia has international support from a number of countries and people",
+        "evidence_quote": "Путин провёл более 20 встреч с лидерами стран Европы, Азии, Африки, Латинской Америки и Ближнего Востока",
+        "reasoning": "Эта цитата показывает, что Путин имеет широкий круг международных контактов и поддержку со стороны многих стран, что противоречит попыткам Запада изолировать его"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин, не теряя времени, возобновил дружбу с председателем КНР Си Цзиньпином",
+        "reasoning": "Эта цитата подчеркивает активную дипломатическую деятельность Путина и его способность поддерживать дружеские отношения с другими мировыми лидерами, что можно рассматривать как положительную оценку России"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "попытки Запада представить его изолированным из-за спецоперации на Украине",
+        "reasoning": "Эта цитата критикует дипломатические усилия Запада, подразумевая, что они неэффективны и не могут изолировать Путина"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia",
+      "score": 80.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

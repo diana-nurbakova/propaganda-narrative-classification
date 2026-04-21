@@ -1,0 +1,103 @@
+{
+  "file_id": "EN_CC_200054.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that the ECB's true motive is not to combat climate change, but to promote its own interests and control over digital currencies, implying a lack of trust in the institution's intentions."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "The ECB is working on a digital euro precisely for these reasons.",
+        "reasoning": "This quote implies that the ECB's push for a digital euro is motivated by a desire to maintain monetary sovereignty and strategic autonomy, suggesting that environmental policies are being used as a tool for geopolitical power and influence."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that the ECB is hiding its true intentions behind a facade of environmental concern, implying a secret plot to promote its own interests and control over digital currencies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote suggests that the ECB's push for a ban on cryptocurrencies like Bitcoin under the guise of climate change is actually a geopolitical move to promote their own Central Bank Digital Currency and eliminate competition from non-government-controlled alternatives."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The Italian economist said that due to the European Union’s commitment to combatting climate change, those “crypto-assets deemed to have an excessive ecological footprint should be banned.”",
+        "reasoning": "This quote can be seen as criticism of the European Union's institutions and authorities, implying that they are using climate change as an excuse to exert control over the financial sector and promote their own interests."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote implies that there is a hidden plot by the ECB to use climate change as a pretext to achieve their goal of forming a Central Bank Digital Currency and eliminating competition, which suggests a secret scheme by a powerful group."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "The Italian economist said that due to the European Union’s commitment to combatting climate change, those “crypto-assets deemed to have an excessive ecological footprint should be banned.”",
+        "reasoning": "This quote suggests that the EU's climate change policies are being used as a tool to ban cryptocurrencies and promote Central Bank Digital Currencies, which can be seen as a geopolitical instrument to control the financial system."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "However, the environmental excuse appears to be a smokescreen for the real desired outcome by the ECB, namely the formation of a Central Bank Digital Currency (CBDC) and the elimination of non-government-controlled alternatives such as Bitcoin and Ethereum.",
+        "reasoning": "This quote implies that the ECB is using a false pretext (climate change) to achieve its true goal of promoting CBDCs and eliminating alternative currencies, which criticizes the institution's motives and actions."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "The dangers of a Central Bank Digital Currency were laid out by the Bank of England itself, which admitted last year that they could be made “programable” so that the government could decide how citizens are able to spend their own money.",
+        "reasoning": "This quote suggests that powerful groups (governments and central banks) are secretly plotting to control people's spending through programmable CBDCs, which implies a hidden agenda."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

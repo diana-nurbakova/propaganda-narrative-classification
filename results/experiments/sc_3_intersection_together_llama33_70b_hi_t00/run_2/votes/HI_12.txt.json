@@ -1,0 +1,111 @@
+{
+  "file_id": "HI_12.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Overpraising the West",
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने पीएम मोदी के रूस दौरे को लेकर कहा था कि भारत अपनी पुरानी दोस्ती के बल पर रूस-यूक्रेन संघर्ष रोक सकता है।",
+        "reasoning": "यह उद्धरण पश्चिमी देशों की क्षमता को कम आंकता है और भारत को रूस-यूक्रेन संघर्ष को रोकने में महत्वपूर्ण भूमिका निभाने के लिए प्रस्तुत करता है, जो पश्चिमी देशों की विदेश नीति और कूटनीति की प्रभावशीलता पर संदेह पैदा करता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "प्रधानमंत्री नरेन्द्र मोदी ने ऑस्ट्रिया की राजधानी विएना से स्पष्ट कर दिया है कि यूक्रेन-रूस संघर्ष का समाधान युद्धभूमि से नहीं निकलने वाला है।",
+        "reasoning": "यह उद्धरण युद्ध के परिणाम के बारे में अनुमान लगाता है और यह सुझाव देता है कि युद्ध क्षेत्र में समाधान नहीं निकलेगा, जो युद्ध के परिणामों के बारे में एक निश्चित दृष्टिकोण प्रस्तुत करता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो मीडिया की विश्वसनीयता पर संदेह पैदा करता हो।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो पश्चिमी देशों के लिए नकारात्मक परिणामों की भविष्यवाणी करता हो।"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो युद्ध से संबंधित भय को बढ़ावा देता हो।"
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो शक्तिशाली समूहों द्वारा गुप्त योजनाओं की ओर संकेत करता हो।"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो पश्चिमी देशों की प्रशंसा करता हो।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो रूस की प्रशंसा करता हो।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो रूस को पीड़ित के रूप में चित्रित करता हो।"
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो युद्ध के लिए आक्रमणकारी के बजाय अन्य लोगों को दोषी ठहराता हो।"
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "कोई उद्धरण नहीं मिला",
+        "reasoning": "कोई उद्धरण नहीं मिला जो यूक्रेन की विश्वसनीयता को कम आंकता है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 11
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

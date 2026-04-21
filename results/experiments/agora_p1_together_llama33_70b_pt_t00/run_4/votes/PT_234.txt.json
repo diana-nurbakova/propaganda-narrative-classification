@@ -1,0 +1,143 @@
+{
+  "file_id": "PT_234.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Estudo mostra que Amazónia pode chegar ao ponto de não retorno até 2050",
+        "reasoning": "The text presents a catastrophic scenario where the Amazon rainforest could reach a point of no return by 2050, emphasizing the urgent need for action to prevent this outcome."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "são necessários esforços locais — como redução de desflorestação e aumento da restauração —, combinados com esforços globais de redução de emissão de gases estufa",
+        "reasoning": "The text implies that current climate policies may not be sufficient to prevent the Amazon rainforest from reaching a point of no return, suggesting that more efforts are needed at both local and global levels."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Estudo mostra que Amazónia pode chegar ao ponto de não retorno até 2050",
+        "reasoning": "The text presents a catastrophic scenario where the Amazon rainforest could reach a point of no return by 2050, emphasizing the urgency and severity of climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "são necessários esforços locais — como redução de desflorestação e aumento da restauração —, combinados com esforços globais de redução de emissão de gases estufa",
+        "reasoning": "The text implies that current climate policies may not be sufficient to prevent the Amazon rainforest from reaching a point of no return, suggesting that more efforts are needed at both local and global levels."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Estudo mostra que Amazónia pode chegar ao ponto de não retorno até 2050",
+        "reasoning": "The text presents a catastrophic scenario where the Amazon rainforest could reach a point of no return by 2050, emphasizing the urgent need for action to prevent this outcome."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "são necessários esforços locais — como redução de desflorestação e aumento da restauração —, combinados com esforços globais de redução de emissão de gases estufa",
+        "reasoning": "The text implies that current climate policies may not be sufficient to prevent the Amazon's point of no return, suggesting that more efforts are needed at both local and global levels."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

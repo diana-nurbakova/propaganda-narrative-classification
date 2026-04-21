@@ -1,0 +1,141 @@
+{
+  "file_id": "BG_950.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of green technologies",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Този цитат показва, че авторът подиграва идеята за глобално затопляне, като предполага, че е нужно повече затопляне, за да могат електрическите автобуси да функционират правилно в студеното време, което е иронично и намеква, че климатичните промени не са толкова сериозни, колкото се твърди."
+      },
+      {
+        "narrative_name": "CC: Criticism of green technologies",
+        "evidence_quote": "Електрическите автобуси вероятно ще бъдат спрени от движение този следобед, защото им е много трудно да се затоплят, когато са в експлоатация…",
+        "reasoning": "Този цитат критикува електрическите автобуси, като показва, че те не са подходящи за студено време, което е критика към зелените технологии и тяхната ефективност в различни условия."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "На въпроса дали дизеловите автобуси могат да се справят с тези температури, тя отговори: „Да. Искам да кажа, че нито един автобус не може да издържи на тези температури за дълго…",
+        "reasoning": "Този цитат показва, че има контроверсия около зелените технологии, като сравнява електрическите автобуси с дизеловите и показва, че и двете имат недостатъци в студено време."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Този цитат показва, че авторът подиграва идеята за глобално затопляне, като подсказва, че електрическите автобуси в Швеция не могат да функционират при ниски температури и че им е нужно повече затопляне, за да работят правилно, което е иронично и намеква, че глобалното затопляне не е толкова сериозен проблем, както се представя."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Електрическите автобуси вероятно ще бъдат спрени от движение този следобед, защото им е много трудно да се затоплят, когато са в експлоатация…",
+        "reasoning": "Този цитат показва, че електрическите автобуси, които са представени като зелена технология, имат проблеми при ниски температури, което показва, че те не са толкова ефективни, както се представят, и създава контроверсия около тяхната полезност."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Този цитат показва, че авторът подиграва идеята за глобално затопляне, като подсказва, че електрическите автобуси не могат да функционират при ниски температури и че им е нужно повече затопляне, за да работят правилно, което е иронично и намеква, че глобалното затопляне не е толкова сериозен проблем, както се представя."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Електрическите автобуси вероятно ще бъдат спрени от движение този следобед, защото им е много трудно да се затоплят, когато са в експлоатация…",
+        "reasoning": "Този цитат показва, че електрическите автобуси имат технически проблеми при ниски температури, което поставя под въпрос ефективността и надеждността на тези зелени технологии."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "Този цитат показва, че авторът критикува климатичните политики и инвестициите в електрически автобуси, като ги представя като ненужни и неефективни, тъй като автобусите не могат да функционират при ниски температури."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Controversy about green technologies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+    "CC: Downplaying climate change: Other",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "matched": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

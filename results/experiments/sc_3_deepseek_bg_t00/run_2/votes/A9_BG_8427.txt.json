@@ -1,0 +1,114 @@
+{
+  "file_id": "A9_BG_8427.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Russia is the Victim",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "По думите му, те често са насочени срещу руската страна като цяло, а не конкретно против режима на Путин. Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "The quote presents the sanctions as unfairly targeting the Russian people as a whole rather than the regime, framing Russia as a collective victim of unjust Western actions."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Според него това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "This quote advances the idea that the West harbors hatred for Russians, reinforcing a narrative of Russia being victimized by Western prejudice."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Западните санкции възпират военната машина на Руската федерация.",
+        "reasoning": "This statement, while from a Ukrainian official, is presented in the context of reporting the call to weaken sanctions. The article's focus on the sanctions as a primary point of contention, rather than Russia's invasion, indirectly promotes a narrative where Western actions (sanctions) are framed as a key problem, potentially shifting focus from the invader's responsibility."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "По време на пресконференция опозиционерът Владимир Кара-Мурза направи критично изказване за западните санкции – по думите му, те често са насочени срещу руската страна като цяло, а не конкретно против режима на Путин. Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "The quote directly frames Western sanctions as unfairly targeting the Russian people as a whole rather than the Putin regime, portraying Russia as a collective victim of unjust punishment."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Друг освободен с усилията на Запада затворник - Андрей Пивоваров – подкрепи идеята за отслабване на санкциите срещу Русия. Според него това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "This quote promotes the idea that Russians are victims of Western hatred, a narrative that seeks to generate sympathy for the Russian populace and frames the sanctions as an act of prejudice against them."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "По време на пресконференция опозиционерът Владимир Кара-Мурза направи критично изказване за западните санкции – по думите му, те често са насочени срещу руската страна като цяло, а не конкретно против режима на Путин. Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "The quote directly frames Western sanctions as unfairly targeting the Russian people as a whole rather than the Putin regime, portraying Russia as a collective victim of unjust punitive measures."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Друг освободен с усилията на Запада затворник - Андрей Пивоваров – подкрепи идеята за отслабване на санкциите срещу Русия. Според него това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "The quote promotes the idea that the West harbors hatred for Russians, which is a myth that needs debunking. This portrays Russians as victims of Western prejudice, reinforcing the victim narrative."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "file_id": "PT_237.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar",
+        "reasoning": "O ministro dos Negócios Estrangeiros russo, Sergei Lavrov, elogia a posição de J.D. Vance sobre a Ucrânia, o que implica uma aprovação da postura russa na guerra."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Sob Trump, houve cada vez mais sanções a serem impostas, sanções económicas, sanções diplomáticas foram impostas, no entanto, naquela altura... o diálogo acontecia entre nós e Washington aos níveis mais elevados",
+        "reasoning": "A crítica às sanções impostas pelos EUA e a falta de diálogo com o governo de Biden sugere uma desconfiança na diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Agora, não há tal diálogo",
+        "reasoning": "A afirmação de que não há diálogo entre a Rússia e os EUA sugere que a Rússia está sendo isolada ou vitimizada pela falta de comunicação."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Não interferimos nos assuntos domésticos de outros países. Isto inclui os Estados Unidos",
+        "reasoning": "A negação da interferência russa nos assuntos domésticos dos EUA pode ser vista como uma tentativa de desacreditar as acusações feitas pela Inteligência Nacional dos EUA."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar",
+        "reasoning": "O ministro dos Negócios Estrangeiros russo, Sergei Lavrov, elogia a posição de J.D. Vance sobre a Ucrânia, o que implica um apoio às ações da Rússia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Sob Trump, houve cada vez mais sanções a serem impostas, sanções econômicas, sanções diplomáticas foram impostas, no entanto, naquela altura... o diálogo acontecia entre nós e Washington aos níveis mais elevados",
+        "reasoning": "A crítica às sanções impostas pelos EUA durante o governo de Trump e a falta de diálogo com o governo de Biden são apresentadas como exemplos de falhas da diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Vance, escolhido esta semana por Donald Trump como seu companheiro de candidatura, quer cortar o apoio militar norte-americano à Ucrânia na sua guerra contra a Rússia e tem dito que Kiev não tem hipóteses de recuperar todo o território tomado pela Rússia, desde que o país foi invadido em fevereiro de 2022",
+        "reasoning": "A responsabilidade pela guerra é atribuída às ações dos EUA e da Ucrânia, em vez de à Rússia, que é a nação que invadiu a Ucrânia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar",
+        "reasoning": "The quote shows Sergei Lavrov praising J.D. Vance's position on Ukraine, which aligns with Russia's interests and presents Russia as being in favor of peace."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Sob Trump, houve cada vez mais sanções a serem impostas, sanções económicas, sanções diplomáticas foram impostas, no entanto, naquela altura... o diálogo acontecia entre nós e Washington aos níveis mais elevados",
+        "reasoning": "The quote criticizes Western diplomatic efforts, specifically the imposition of sanctions under Trump, and implies that the current administration is not engaging in meaningful dialogue."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Uma avaliação publicada este mês pela direção da Inteligência Nacional dos Estados Unidos disse que a Rússia \"continua a ser a principal ameaça para as nossas eleições\", e \"agentes de influência russos\" não identificados têm planos secretos para \"influenciar a opinião pública\" em Estados-chave e para \"diminuir o apoio dos EUA à Ucrânia\". \"Não interferimos nos assuntos domésticos de outros países. Isto inclui os Estados Unidos\"",
+        "reasoning": "The quote questions the reliability of the US Intelligence assessment, implying that it may be biased or inaccurate, and thus undermines confidence in Western media sources."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar",
+        "reasoning": "The quote implies that the war would end if the US stopped providing military aid to Ukraine, shifting the blame for the continuation of the war from Russia to the US and its support for Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

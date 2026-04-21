@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "रूस द्वारा बनाई जा रही नफरत की दीवार को तोड़ना पड़ेगा",
+        "reasoning": "इस उद्धरण में, रूस की कार्रवाइयों को नकारात्मक रूप से चित्रित किया गया है, जो रूस की निंदा की ओर इशारा करता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "जर्मनी अभी भी रूस के खिलाफ कड़े प्रतिबंध लगाने से बच रहा है",
+        "reasoning": "इस उद्धरण में, जर्मनी की कार्रवाइयों की आलोचना की जा रही है, जो पश्चिमी देशों की निंदा की ओर इशारा करता है।"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "यूरोप को विभाजित करने वाली एक नफरत की दीवार तैयार की जा रही है",
+        "reasoning": "इस उद्धरण में, युद्ध से संबंधित भय को बढ़ावा दिया जा रहा है, जो यूरोप को विभाजित करने वाली एक दीवार की संभावना को दर्शाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

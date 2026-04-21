@@ -1,0 +1,147 @@
+{
+  "file_id": "EN_UA_DEV_215.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukraine was highly corrupt long before its even more corrupted neighbor invaded. It’s a given that foreign aid is lining someone’s pockets.",
+        "reasoning": "The text directly states that Ukraine was highly corrupt before the invasion, implying that the country has inherent issues with corruption, which undermines its legitimacy and actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it. It’s about the wider threat to Europe, and to NATO.",
+        "reasoning": "The text criticizes the Western motivation for providing aid to Ukraine, suggesting it is not for humanitarian reasons but for self-interest, which discredits the West's diplomatic efforts and portrays them as hypocritical."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "The even bigger concern is that the American public may soften its stance on defending Ukraine against Russia because of this. The more corruption and contract fraud comes to light, the less American taxpayers are willing to foot the bill, and their idolization of Zelensky begins to show cracks.",
+        "reasoning": "The text predicts negative consequences for the West, specifically that the American public may lose support for defending Ukraine due to corruption and contract fraud, which could lead to economic and social harm to Western countries."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukraine was highly corrupt long before its even more corrupted neighbor invaded. It’s a given that foreign aid is lining someone’s pockets.",
+        "reasoning": "The text directly states that Ukraine is corrupt, implying that the country has inherent issues with corruption, which undermines its legitimacy and actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it. It’s about the wider threat to Europe, and to NATO.",
+        "reasoning": "The text criticizes Western motivations for providing aid to Ukraine, suggesting that their actions are driven by self-interest rather than a genuine desire to help Ukraine, which discredits Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Pulitzer Prize-winning former New York Times journalist of Watergate fame, Seymour Hersh, is frequently accused of spreading Russian propaganda for thinly sourced claims related to the war in Ukraine.",
+        "reasoning": "The text questions the reliability of a journalist and implies that certain claims may be propaganda, which contributes to distrust towards media sources."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukraine was highly corrupt long before its even more corrupted neighbor invaded. It’s a given that foreign aid is lining someone’s pockets.",
+        "reasoning": "The text directly states that Ukraine is corrupt, implying that the country's government or institutions are not trustworthy or legitimate, which aligns with the narrative of discrediting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Pulitzer Prize-winning former New York Times journalist of Watergate fame, Seymour Hersh, is frequently accused of spreading Russian propaganda for thinly sourced claims related to the war in Ukraine.",
+        "reasoning": "The text questions the reliability of a journalist, Seymour Hersh, by implying that his claims are 'thinly sourced' and that he is 'spreading Russian propaganda', which suggests distrust towards media figures or outlets that report on the war in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it. It’s about the wider threat to Europe, and to NATO.",
+        "reasoning": "The text criticizes Western motivations for providing aid to Ukraine, suggesting that their actions are not driven by altruism but by self-interest, which aligns with the narrative of discrediting the West's diplomatic efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: West is tired of Ukraine"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "matched": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

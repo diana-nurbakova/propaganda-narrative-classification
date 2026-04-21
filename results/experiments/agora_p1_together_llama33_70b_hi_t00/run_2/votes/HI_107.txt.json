@@ -1,0 +1,175 @@
+{
+  "file_id": "HI_107.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-NATO तीसरे विश्व युद्ध से बस एक कदम दूर....",
+        "reasoning": "The text explicitly mentions the possibility of a third world war, which is a classic example of amplifying war-related fears. The quote suggests that a direct confrontation between Russia and NATO could lead to a catastrophic outcome, evoking fear and anxiety in the reader."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पुतिन ने कहा कि रूस को दोनों अंग्रेजी और फ्रेंच बोलने वाले भी युद्ध के मैदान में दिखे हैं.",
+        "reasoning": "The text portrays Russia as being unfairly targeted, with the implication that Western powers are involved in the conflict. This narrative is reinforced by Putin's statement, which suggests that Russia is being threatened by external forces."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई.",
+        "reasoning": "The text criticizes Western diplomacy, implying that NATO countries are not united and that France's statement was not supported by other powerful nations. This narrative is reinforced by the text's suggestion that Western countries are not taking a strong stance against Russia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-NATO तीसरे विश्व युद्ध से बस एक कदम दूर....",
+        "reasoning": "The text mentions the possibility of a third world war between Russia and NATO, which evokes fear and anxiety about potential threats and dangers."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पुतिन ने कहा, \"इसका अंदाजा सभी को है कि अगर ऐसा होता है तो यह पूर्ण पैमाने पर तीसरे विश्व युद्ध से बस एक कदम दूर होगा. मुझे लगता है कि शायद ही इसमें किसी की दिलचस्पी होगी.\"",
+        "reasoning": "The text portrays Russia as being unfairly targeted and victimized by the possibility of a third world war, and President Putin's statement expresses concern and warning about the potential consequences."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई.",
+        "reasoning": "The text criticizes Western countries, specifically France and NATO, for their actions and statements, implying that they are not taking a strong stance against the possibility of a third world war."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-NATO तीसरे विश्व युद्ध से बस एक कदम दूर....",
+        "reasoning": "The text explicitly mentions the possibility of a third world war between Russia and NATO, which is a classic example of amplifying war-related fears. The quote directly implies a severe and existential threat, which is a key characteristic of this narrative."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई.",
+        "reasoning": "The text criticizes Western diplomacy by implying that France's statement about potential military deployment in Ukraine is not supported by other powerful NATO countries. This criticism of Western diplomatic actions and the implication of disunity among NATO members aligns with the narrative of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पुतिन ने दावा किया नाटो के जवान पहले से ही यूक्रेन में तैनात थे.",
+        "reasoning": "The text portrays Russia as a victim by suggesting that NATO troops are already deployed in Ukraine, implying that Russia's actions are a response to Western aggression. This framing of Russia as being unfairly treated or threatened by NATO's actions aligns with the narrative of Russia being the victim."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

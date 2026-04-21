@@ -1,0 +1,883 @@
+{
+  "n_documents": 30,
+  "difficulty_table": [
+    {
+      "document": "EN_CC_200054.txt",
+      "mean_hf1": 0.13739918556675523,
+      "std_hf1": 0.24994654471818695,
+      "min_hf1": 0.0,
+      "max_hf1": 0.8,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.8626008144332448
+    },
+    {
+      "document": "EN_UA_DEV_100002.txt",
+      "mean_hf1": 0.21961364429770086,
+      "std_hf1": 0.11071206268743698,
+      "min_hf1": 0.0,
+      "max_hf1": 0.5714285714285715,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.7803863557022992
+    },
+    {
+      "document": "EN_UA_DEV_100033.txt",
+      "mean_hf1": 0.22582181357627212,
+      "std_hf1": 0.10193625621180694,
+      "min_hf1": 0.0,
+      "max_hf1": 0.47058823529411764,
+      "n_experiments": 21,
+      "n_runs": 81,
+      "difficulty": 0.7741781864237278
+    },
+    {
+      "document": "EN_UA_DEV_100026.txt",
+      "mean_hf1": 0.2534881633085883,
+      "std_hf1": 0.22469000950921808,
+      "min_hf1": 0.0,
+      "max_hf1": 0.8,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.7465118366914116
+    },
+    {
+      "document": "EN_UA_DEV_20.txt",
+      "mean_hf1": 0.2934944989590542,
+      "std_hf1": 0.0887796192331881,
+      "min_hf1": 0.15384615384615385,
+      "max_hf1": 0.47058823529411764,
+      "n_experiments": 21,
+      "n_runs": 81,
+      "difficulty": 0.7065055010409458
+    },
+    {
+      "document": "EN_CC_200035.txt",
+      "mean_hf1": 0.3299964088199382,
+      "std_hf1": 0.21942907273094064,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6153846153846153,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6700035911800618
+    },
+    {
+      "document": "EN_CC_200036.txt",
+      "mean_hf1": 0.3347485398447062,
+      "std_hf1": 0.11966062005190965,
+      "min_hf1": 0.0,
+      "max_hf1": 0.75,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6652514601552938
+    },
+    {
+      "document": "EN_UA_DEV_213.txt",
+      "mean_hf1": 0.33742190821374424,
+      "std_hf1": 0.057427792349974534,
+      "min_hf1": 0.16,
+      "max_hf1": 0.4210526315789474,
+      "n_experiments": 21,
+      "n_runs": 81,
+      "difficulty": 0.6625780917862558
+    },
+    {
+      "document": "EN_CC_200077.txt",
+      "mean_hf1": 0.33869524146584484,
+      "std_hf1": 0.1718514117878612,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6153846153846153,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6613047585341552
+    },
+    {
+      "document": "EN_CC_200033.txt",
+      "mean_hf1": 0.3416210472963569,
+      "std_hf1": 0.13538383349514974,
+      "min_hf1": 0.0,
+      "max_hf1": 0.5454545454545454,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6583789527036431
+    },
+    {
+      "document": "EN_CC_200071.txt",
+      "mean_hf1": 0.34812638455364775,
+      "std_hf1": 0.1430957705610137,
+      "min_hf1": 0.0,
+      "max_hf1": 0.5714285714285715,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6518736154463523
+    },
+    {
+      "document": "EN_UA_DEV_100005.txt",
+      "mean_hf1": 0.3506880861260024,
+      "std_hf1": 0.09469125666085441,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6,
+      "n_experiments": 20,
+      "n_runs": 79,
+      "difficulty": 0.6493119138739976
+    },
+    {
+      "document": "EN_UA_DEV_214.txt",
+      "mean_hf1": 0.36329639290284316,
+      "std_hf1": 0.05529322193762202,
+      "min_hf1": 0.2608695652173913,
+      "max_hf1": 0.5,
+      "n_experiments": 21,
+      "n_runs": 80,
+      "difficulty": 0.6367036070971568
+    },
+    {
+      "document": "EN_CC_200047.txt",
+      "mean_hf1": 0.3693105991016208,
+      "std_hf1": 0.16171566770689777,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6666666666666666,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6306894008983792
+    },
+    {
+      "document": "EN_CC_200034.txt",
+      "mean_hf1": 0.3767143354394667,
+      "std_hf1": 0.15058046857775376,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6666666666666666,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6232856645605334
+    },
+    {
+      "document": "EN_UA_DEV_22.txt",
+      "mean_hf1": 0.3801319855101474,
+      "std_hf1": 0.11211217268216456,
+      "min_hf1": 0.0,
+      "max_hf1": 0.5714285714285715,
+      "n_experiments": 21,
+      "n_runs": 80,
+      "difficulty": 0.6198680144898526
+    },
+    {
+      "document": "EN_UA_DEV_100013.txt",
+      "mean_hf1": 0.38589479523831394,
+      "std_hf1": 0.05352851186080326,
+      "min_hf1": 0.2857142857142857,
+      "max_hf1": 0.5454545454545454,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6141052047616861
+    },
+    {
+      "document": "EN_CC_200049.txt",
+      "mean_hf1": 0.3930591586561013,
+      "std_hf1": 0.18416376868315487,
+      "min_hf1": 0.0,
+      "max_hf1": 1.0,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.6069408413438987
+    },
+    {
+      "document": "EN_CC_200040.txt",
+      "mean_hf1": 0.4112732488100135,
+      "std_hf1": 0.14350113911059587,
+      "min_hf1": 0.0,
+      "max_hf1": 0.7499999999999999,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.5887267511899865
+    },
+    {
+      "document": "EN_UA_DEV_100029.txt",
+      "mean_hf1": 0.42484891147245263,
+      "std_hf1": 0.40439436438474363,
+      "min_hf1": 0.0,
+      "max_hf1": 1.0,
+      "n_experiments": 21,
+      "n_runs": 80,
+      "difficulty": 0.5751510885275474
+    },
+    {
+      "document": "EN_CC_200079.txt",
+      "mean_hf1": 0.4369465290957081,
+      "std_hf1": 0.1655311383464105,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6666666666666666,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.5630534709042919
+    },
+    {
+      "document": "EN_CC_200069.txt",
+      "mean_hf1": 0.45221043866264454,
+      "std_hf1": 0.19549416715761136,
+      "min_hf1": 0.0,
+      "max_hf1": 1.0,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.5477895613373555
+    },
+    {
+      "document": "EN_UA_DEV_100034.txt",
+      "mean_hf1": 0.4549450340847212,
+      "std_hf1": 0.24232899042920528,
+      "min_hf1": 0.0,
+      "max_hf1": 0.8,
+      "n_experiments": 21,
+      "n_runs": 80,
+      "difficulty": 0.5450549659152788
+    },
+    {
+      "document": "EN_CC_200065.txt",
+      "mean_hf1": 0.464354923971797,
+      "std_hf1": 0.18565721425804205,
+      "min_hf1": 0.0,
+      "max_hf1": 0.7272727272727273,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.535645076028203
+    },
+    {
+      "document": "EN_CC_200081.txt",
+      "mean_hf1": 0.47349290759120477,
+      "std_hf1": 0.12291348497724632,
+      "min_hf1": 0.0,
+      "max_hf1": 0.7272727272727273,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.5265070924087952
+    },
+    {
+      "document": "EN_CC_200070.txt",
+      "mean_hf1": 0.480502585434861,
+      "std_hf1": 0.20844909285974897,
+      "min_hf1": 0.0,
+      "max_hf1": 0.888888888888889,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.519497414565139
+    },
+    {
+      "document": "EN_CC_200046.txt",
+      "mean_hf1": 0.49022497669169507,
+      "std_hf1": 0.09594875221414356,
+      "min_hf1": 0.0,
+      "max_hf1": 0.6666666666666666,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.5097750233083049
+    },
+    {
+      "document": "EN_UA_DEV_100012.txt",
+      "mean_hf1": 0.49672741001688375,
+      "std_hf1": 0.14308810903612734,
+      "min_hf1": 0.0,
+      "max_hf1": 0.8,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.5032725899831163
+    },
+    {
+      "document": "EN_CC_200064.txt",
+      "mean_hf1": 0.5045054945054945,
+      "std_hf1": 0.21619742184315485,
+      "min_hf1": 0.0,
+      "max_hf1": 0.8571428571428571,
+      "n_experiments": 20,
+      "n_runs": 80,
+      "difficulty": 0.49549450549450547
+    },
+    {
+      "document": "EN_UA_DEV_215.txt",
+      "mean_hf1": 0.5749830050410546,
+      "std_hf1": 0.1204384724344303,
+      "min_hf1": 0.0,
+      "max_hf1": 0.888888888888889,
+      "n_experiments": 21,
+      "n_runs": 80,
+      "difficulty": 0.4250169949589454
+    }
+  ],
+  "characterization": {
+    "EN_CC_200054.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Hidden plots by secret schemes of powerful groups"
+      ],
+      "subnarratives": [
+        "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_100002.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Speculating war outcomes"
+      ],
+      "subnarratives": [
+        "URW: Speculating war outcomes: Ukrainian army is collapsing"
+      ],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_100033.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Speculating war outcomes"
+      ],
+      "subnarratives": [
+        "URW: Speculating war outcomes: Russian army is collapsing"
+      ],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_100026.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Negative Consequences for the West"
+      ],
+      "subnarratives": [
+        "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire"
+      ],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_20.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Discrediting Ukraine"
+      ],
+      "subnarratives": [
+        "URW: Discrediting Ukraine: Situation in Ukraine is hopeless"
+      ],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200035.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Criticism of institutions and authorities"
+      ],
+      "subnarratives": [
+        "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200036.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Criticism of climate movement"
+      ],
+      "subnarratives": [
+        "CC: Criticism of climate movement: Ad hominem attacks on key activists"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_213.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Blaming the war on others rather than the invader"
+      ],
+      "subnarratives": [
+        "URW: Blaming the war on others rather than the invader: The West are the aggressors"
+      ],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200077.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Criticism of climate policies"
+      ],
+      "subnarratives": [
+        "CC: Criticism of climate policies: Climate policies are only for profit"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200033.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 0,
+      "narratives": [
+        "Criticism of climate movement"
+      ],
+      "subnarratives": [],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200071.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Criticism of climate policies"
+      ],
+      "subnarratives": [
+        "CC: Criticism of climate policies: Climate policies have negative impact on the economy"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_100005.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 0,
+      "narratives": [
+        "Discrediting the West, Diplomacy"
+      ],
+      "subnarratives": [],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_UA_DEV_214.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Discrediting the West, Diplomacy"
+      ],
+      "subnarratives": [
+        "URW: Discrediting the West, Diplomacy: The West is weak"
+      ],
+      "domains": [
+        "URW"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200047.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Hidden plots by secret schemes of powerful groups"
+      ],
+      "subnarratives": [
+        "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    },
+    "EN_CC_200034.txt": {
+      "language": "EN",
+      "n_narratives": 1,
+      "n_subnarratives": 1,
+      "narratives": [
+        "Criticism of climate movement"
+      ],
+      "subnarratives": [
+        "CC: Criticism of climate movement: Climate movement is alarmist"
+      ],
+      "domains": [
+        "CC"
+      ],
+      "is_multi_label": false,
+      "is_other": false
+    }
+  },
+  "model_agreement": {
+    "models": [
+      "DeepSeek V3",
+      "GPT-5 Nano",
+      "Gemini 2.5 Flash",
+      "Llama 3.3 70B",
+      "Mistral Large"
+    ],
+    "correlation_matrix": [
+      [
+        1.0,
+        0.3846496106785317,
+        0.48209121245828696,
+        0.27697441601779754,
+        0.5568409343715239
+      ],
+      [
+        0.3846496106785317,
+        1.0,
+        0.7210233592880979,
+        0.16974416017797553,
+        0.21334816462736375
+      ],
+      [
+        0.48209121245828696,
+        0.7210233592880979,
+        1.0,
+        0.5563959955506118,
+        0.40734149054505003
+      ],
+      [
+        0.27697441601779754,
+        0.16974416017797553,
+        0.5563959955506118,
+        1.0,
+        0.657842046718576
+      ],
+      [
+        0.5568409343715239,
+        0.21334816462736375,
+        0.40734149054505003,
+        0.657842046718576,
+        1.0
+      ]
+    ]
+  },
+  "classification": {
+    "consistently_hard": [
+      {
+        "document": "EN_UA_DEV_100002.txt",
+        "mean_hf1": 0.21961364429770086,
+        "std_hf1": 0.11071206268743698,
+        "min_hf1": 0.0,
+        "max_hf1": 0.5714285714285715,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.7803863557022992,
+        "cross_model_std": 0.11041170680702339,
+        "per_model_means": {
+          "DeepSeek V3": 0.19795640063416342,
+          "Gemini 2.5 Flash": 0.19979654557747867,
+          "GPT-5 Nano": 0.41401769240391534,
+          "Mistral Large": 0.14521488728385282,
+          "Llama 3.3 70B": 0.1518185905103156
+        }
+      },
+      {
+        "document": "EN_UA_DEV_100033.txt",
+        "mean_hf1": 0.22582181357627212,
+        "std_hf1": 0.10193625621180694,
+        "min_hf1": 0.0,
+        "max_hf1": 0.47058823529411764,
+        "n_experiments": 21,
+        "n_runs": 81,
+        "difficulty": 0.7741781864237278,
+        "cross_model_std": 0.07893493763882872,
+        "per_model_means": {
+          "DeepSeek V3": 0.294383407183395,
+          "Gemini 2.5 Flash": 0.20706075533661739,
+          "GPT-5 Nano": 0.2960880067476682,
+          "Mistral Large": 0.11460287679799874,
+          "Llama 3.3 70B": 0.17121376998798302
+        }
+      },
+      {
+        "document": "EN_UA_DEV_100026.txt",
+        "mean_hf1": 0.2534881633085883,
+        "std_hf1": 0.22469000950921808,
+        "min_hf1": 0.0,
+        "max_hf1": 0.8,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.7465118366914116,
+        "cross_model_std": 0.1338786765904461,
+        "per_model_means": {
+          "DeepSeek V3": 0.30094253572514434,
+          "Gemini 2.5 Flash": 0.10210526315789474,
+          "GPT-5 Nano": 0.16154983163980843,
+          "Mistral Large": 0.44561403508771935,
+          "Llama 3.3 70B": 0.21441186940069698
+        }
+      },
+      {
+        "document": "EN_UA_DEV_20.txt",
+        "mean_hf1": 0.2934944989590542,
+        "std_hf1": 0.0887796192331881,
+        "min_hf1": 0.15384615384615385,
+        "max_hf1": 0.47058823529411764,
+        "n_experiments": 21,
+        "n_runs": 81,
+        "difficulty": 0.7065055010409458,
+        "cross_model_std": 0.062207039055757224,
+        "per_model_means": {
+          "DeepSeek V3": 0.3531232872044732,
+          "Gemini 2.5 Flash": 0.27201103322719933,
+          "GPT-5 Nano": 0.35935288589119857,
+          "Mistral Large": 0.2665920936888679,
+          "Llama 3.3 70B": 0.21347973623122363
+        }
+      },
+      {
+        "document": "EN_CC_200036.txt",
+        "mean_hf1": 0.3347485398447062,
+        "std_hf1": 0.11966062005190965,
+        "min_hf1": 0.0,
+        "max_hf1": 0.75,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.6652514601552938,
+        "cross_model_std": 0.06282080154808534,
+        "per_model_means": {
+          "DeepSeek V3": 0.3111301499100195,
+          "Gemini 2.5 Flash": 0.28644632506701473,
+          "GPT-5 Nano": 0.4025103125432073,
+          "Mistral Large": 0.24304627151789476,
+          "Llama 3.3 70B": 0.36311936507691267
+        }
+      },
+      {
+        "document": "EN_UA_DEV_213.txt",
+        "mean_hf1": 0.33742190821374424,
+        "std_hf1": 0.057427792349974534,
+        "min_hf1": 0.16,
+        "max_hf1": 0.4210526315789474,
+        "n_experiments": 21,
+        "n_runs": 81,
+        "difficulty": 0.6625780917862558,
+        "cross_model_std": 0.03391795653046048,
+        "per_model_means": {
+          "DeepSeek V3": 0.37061933721768564,
+          "Gemini 2.5 Flash": 0.2849698960043788,
+          "GPT-5 Nano": 0.31254707048185315,
+          "Mistral Large": 0.3093291893291894,
+          "Llama 3.3 70B": 0.34774944891798043
+        }
+      },
+      {
+        "document": "EN_CC_200077.txt",
+        "mean_hf1": 0.33869524146584484,
+        "std_hf1": 0.1718514117878612,
+        "min_hf1": 0.0,
+        "max_hf1": 0.6153846153846153,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.6613047585341552,
+        "cross_model_std": 0.09495109919273798,
+        "per_model_means": {
+          "DeepSeek V3": 0.20533195734434126,
+          "Gemini 2.5 Flash": 0.3674007152268022,
+          "GPT-5 Nano": 0.44945985226074237,
+          "Mistral Large": 0.3007725926386214,
+          "Llama 3.3 70B": 0.40144498268068063
+        }
+      },
+      {
+        "document": "EN_CC_200033.txt",
+        "mean_hf1": 0.3416210472963569,
+        "std_hf1": 0.13538383349514974,
+        "min_hf1": 0.0,
+        "max_hf1": 0.5454545454545454,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.6583789527036431,
+        "cross_model_std": 0.06397502903501527,
+        "per_model_means": {
+          "DeepSeek V3": 0.27320179820179824,
+          "Gemini 2.5 Flash": 0.3457142857142857,
+          "GPT-5 Nano": 0.4300289397135372,
+          "Mistral Large": 0.2870066208301502,
+          "Llama 3.3 70B": 0.3711974052779006
+        }
+      },
+      {
+        "document": "EN_CC_200071.txt",
+        "mean_hf1": 0.34812638455364775,
+        "std_hf1": 0.1430957705610137,
+        "min_hf1": 0.0,
+        "max_hf1": 0.5714285714285715,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.6518736154463523,
+        "cross_model_std": 0.06804569670705592,
+        "per_model_means": {
+          "DeepSeek V3": 0.24887118983228831,
+          "Gemini 2.5 Flash": 0.3590890269151139,
+          "GPT-5 Nano": 0.3492247125602893,
+          "Mistral Large": 0.33978290927997895,
+          "Llama 3.3 70B": 0.4402168344211688
+        }
+      },
+      {
+        "document": "EN_UA_DEV_100005.txt",
+        "mean_hf1": 0.3506880861260024,
+        "std_hf1": 0.09469125666085441,
+        "min_hf1": 0.0,
+        "max_hf1": 0.6,
+        "n_experiments": 20,
+        "n_runs": 79,
+        "difficulty": 0.6493119138739976,
+        "cross_model_std": 0.06845199197978247,
+        "per_model_means": {
+          "DeepSeek V3": 0.3540281329923274,
+          "Gemini 2.5 Flash": 0.3529824561403509,
+          "GPT-5 Nano": 0.41743516899766897,
+          "Mistral Large": 0.22944179192455055,
+          "Llama 3.3 70B": 0.35293675364882793
+        }
+      },
+      {
+        "document": "EN_UA_DEV_214.txt",
+        "mean_hf1": 0.36329639290284316,
+        "std_hf1": 0.05529322193762202,
+        "min_hf1": 0.2608695652173913,
+        "max_hf1": 0.5,
+        "n_experiments": 21,
+        "n_runs": 80,
+        "difficulty": 0.6367036070971568,
+        "cross_model_std": 0.03915867645540273,
+        "per_model_means": {
+          "DeepSeek V3": 0.32500955085772515,
+          "Gemini 2.5 Flash": 0.3335265700483092,
+          "GPT-5 Nano": 0.4016629343645093,
+          "Mistral Large": 0.327700754109368,
+          "Llama 3.3 70B": 0.39830720126156927
+        }
+      },
+      {
+        "document": "EN_CC_200034.txt",
+        "mean_hf1": 0.3767143354394667,
+        "std_hf1": 0.15058046857775376,
+        "min_hf1": 0.0,
+        "max_hf1": 0.6666666666666666,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.6232856645605334,
+        "cross_model_std": 0.08880802082383463,
+        "per_model_means": {
+          "DeepSeek V3": 0.24606254135654204,
+          "Gemini 2.5 Flash": 0.4549019607843138,
+          "GPT-5 Nano": 0.3968908679899392,
+          "Mistral Large": 0.37400976389950796,
+          "Llama 3.3 70B": 0.4695534915720675
+        }
+      },
+      {
+        "document": "EN_UA_DEV_22.txt",
+        "mean_hf1": 0.3801319855101474,
+        "std_hf1": 0.11211217268216456,
+        "min_hf1": 0.0,
+        "max_hf1": 0.5714285714285715,
+        "n_experiments": 21,
+        "n_runs": 80,
+        "difficulty": 0.6198680144898526,
+        "cross_model_std": 0.08940263982794916,
+        "per_model_means": {
+          "DeepSeek V3": 0.45402850690237956,
+          "Gemini 2.5 Flash": 0.3449328449328449,
+          "GPT-5 Nano": 0.4785904618257559,
+          "Mistral Large": 0.393772447023221,
+          "Llama 3.3 70B": 0.2555180907127287
+        }
+      },
+      {
+        "document": "EN_UA_DEV_100013.txt",
+        "mean_hf1": 0.38589479523831394,
+        "std_hf1": 0.05352851186080326,
+        "min_hf1": 0.2857142857142857,
+        "max_hf1": 0.5454545454545454,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.6141052047616861,
+        "cross_model_std": 0.047359376843404896,
+        "per_model_means": {
+          "DeepSeek V3": 0.43642375333047034,
+          "Gemini 2.5 Flash": 0.3158518518518519,
+          "GPT-5 Nano": 0.37812039568618516,
+          "Mistral Large": 0.40726609913212786,
+          "Llama 3.3 70B": 0.34898898447090665
+        }
+      }
+    ],
+    "model_specific": [
+      {
+        "document": "EN_UA_DEV_100029.txt",
+        "mean_hf1": 0.42484891147245263,
+        "std_hf1": 0.40439436438474363,
+        "min_hf1": 0.0,
+        "max_hf1": 1.0,
+        "n_experiments": 21,
+        "n_runs": 80,
+        "difficulty": 0.5751510885275474,
+        "cross_model_std": 0.4382750676389947,
+        "per_model_means": {
+          "DeepSeek V3": 0.3253268470659775,
+          "Gemini 2.5 Flash": 0.9666666666666667,
+          "GPT-5 Nano": 0.9722222222222222,
+          "Mistral Large": 0.05629629629629631,
+          "Llama 3.3 70B": 0.1834750766704083
+        }
+      },
+      {
+        "document": "EN_CC_200054.txt",
+        "mean_hf1": 0.13739918556675523,
+        "std_hf1": 0.24994654471818695,
+        "min_hf1": 0.0,
+        "max_hf1": 0.8,
+        "n_experiments": 20,
+        "n_runs": 80,
+        "difficulty": 0.8626008144332448,
+        "cross_model_std": 0.24296144190814192,
+        "per_model_means": {
+          "DeepSeek V3": 0.0,
+          "Gemini 2.5 Flash": 0.0,
+          "GPT-5 Nano": 0.5683191808191808,
+          "Mistral Large": 0.07880664227413453,
+          "Llama 3.3 70B": 0.0412781954887218
+        }
+      }
+    ]
+  }
+}

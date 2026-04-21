@@ -1,0 +1,141 @@
+{
+  "file_id": "PT_209.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities",
+      "Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+        "reasoning": "This quote emphasizes the urgency and importance of climate change, which aligns with the narrative of amplifying climate fears by highlighting the critical nature of the issue."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "O Brasil não tem um projeto de combate à crise climática",
+        "reasoning": "This statement criticizes the lack of action or planning by Brazilian institutions or authorities to combat the climate crisis, fitting the narrative of criticizing institutions for their handling of climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "A destruição da Terra é o resultado da voracidade do capitalismo",
+        "reasoning": "This quote indirectly criticizes current economic and possibly environmental policies by attributing the destruction of the Earth to capitalism, implying that a change in economic policies or practices is needed to address climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+        "reasoning": "This quote emphasizes the urgency and importance of climate change, which aligns with the narrative of amplifying climate fears by highlighting the critical nature of the issue."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "A destruição da Terra é o resultado da voracidade do capitalismo",
+        "reasoning": "This quote criticizes the capitalist system, implying that institutions and authorities driven by capitalist interests are responsible for environmental destruction, which fits the narrative of criticizing institutions and authorities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+        "reasoning": "This quote emphasizes the urgency and importance of climate change, which aligns with the narrative of amplifying climate fears by highlighting its significance and the need for immediate action."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "O Brasil não tem um projeto de combate à crise climática",
+        "reasoning": "This statement criticizes the lack of a project to combat the climate crisis in Brazil, implying a failure of institutions and authorities to address the issue."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "A destruição da Terra é o resultado da voracidade do capitalismo",
+        "reasoning": "This quote suggests that the destruction of the Earth is a result of the greed of capitalism, which can be interpreted as implying a hidden plot or scheme by powerful capitalist groups to prioritize their interests over the well-being of the planet."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

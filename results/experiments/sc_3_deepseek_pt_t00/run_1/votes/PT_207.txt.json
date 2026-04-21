@@ -1,0 +1,96 @@
+{
+  "file_id": "PT_207.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "O Brasil é um país soberano, que não se deve submeter a regras impostas por países que usam a preocupação com a sustentabilidade para encobrir um mecanismo de protecionismo comercial.",
+        "reasoning": "This quote directly claims that European environmental regulations are not genuine but are instead a tool ('protecionismo comercial') used to gain commercial advantage, fitting the definition of presenting green policies as geopolitical instruments."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "This statement directly challenges the integrity and motives of the European Parliament, accusing it of hypocrisy and unfairness in its environmental demands, which aligns with criticizing institutions and authorities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "O Brasil é um país soberano, que não se deve submeter a regras impostas por países que usam a preocupação com a sustentabilidade para encobrir um mecanismo de protecionismo comercial.",
+        "reasoning": "This quote directly claims that European sustainability concerns are a cover for commercial protectionism, framing environmental policies as tools for geopolitical and economic power rather than genuine environmental concern."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "This statement directly challenges the integrity and motives of the European Parliament, accusing it of hypocrisy and unfair imposition of rules, which fits the definition of criticizing institutions and authorities in the context of climate and environmental governance."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "O Brasil é um país soberano, que não se deve submeter a regras impostas por países que usam a preocupação com a sustentabilidade para encobrir um mecanismo de protecionismo comercial.",
+        "reasoning": "This quote directly claims that European environmental rules are not genuine but are instead a tool ('mecanismo de protecionismo comercial') used to disguise commercial protectionism, aligning with the narrative that green policies are instruments for geopolitical and economic power."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "This statement directly challenges the integrity and motives of the European Parliament, accusing it of hypocrisy and unfair imposition of rules, which fits the definition of criticizing institutions and authorities in the context of climate and environmental governance."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

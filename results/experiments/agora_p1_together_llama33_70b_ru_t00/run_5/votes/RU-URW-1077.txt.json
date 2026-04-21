@@ -1,0 +1,180 @@
+{
+  "file_id": "RU-URW-1077.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote suggests that NATO should reflect on its role in the underlying causes of the Ukrainian conflict, implying that the West, particularly NATO, bears some responsibility for the crisis, which is a form of discrediting the West's diplomacy."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "представитель СМИ обратился к дипломату с просьбой дать комментарий по поводу высказывания президента Финляндии Александера Стубба",
+        "reasoning": "The text does not directly support the narrative of distrust towards media, the initial analysis was incorrect. This narrative is not applicable based on the provided text."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote implies that the conflict's causes are more complex and possibly attributed to actions of other parties like NATO, which could indirectly suggest Russia is not solely to blame, but it does not directly portray Russia as a victim. The initial analysis was partially incorrect; this narrative is not strongly supported by the text."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct evidence in the text to support the narrative of hidden plots by secret schemes of powerful groups. The initial analysis was incorrect; this narrative is not applicable based on the provided text."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote suggests that NATO should reflect on its role in the underlying causes of the Ukrainian conflict, implying that the West, particularly NATO, bears some responsibility for the crisis, which is a form of discrediting Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "представитель СМИ обратился к дипломату с просьбой дать комментарий по поводу высказывания президента Финляндии Александера Стубба",
+        "reasoning": "The text does not directly support the narrative of distrust towards media, the initial analysis incorrectly identified this narrative. The correct narrative to focus on is the response to the statement made by the President of Finland, which relates more to the diplomatic and political stance rather than distrust in media."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "This narrative is not directly supported by the provided text. The focus is on the role of NATO and the relationship between Russia and China, rather than portraying Russia as a victim."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote implies that NATO has a role in the underlying causes of the conflict, which can be seen as shifting blame away from Russia, the invader, and onto other parties, in this case, NATO."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote suggests that NATO should reflect on its role in the Ukrainian conflict, implying that the alliance bears some responsibility for the crisis. This narrative discredits the West by questioning its actions and motives."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "представитель СМИ обратился к дипломату с просьбой дать комментарий по поводу высказывания президента Финляндии Александера Стубба",
+        "reasoning": "The text mentions a request from a Western journalist, which might imply that the media is seeking to provoke or misrepresent the situation, thus undermining trust in the media."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мао Нин также заявляла, что Североатлантическому альянсу необходимо задуматься о своей роли в коренных причинах украинского конфликта.",
+        "reasoning": "The quote implies that Russia is not the sole cause of the conflict, and that other parties, such as NATO, share responsibility. This narrative portrays Russia as a victim of circumstance, rather than the aggressor."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Distrust towards Media",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

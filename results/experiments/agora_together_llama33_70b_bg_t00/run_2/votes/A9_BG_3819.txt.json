@@ -1,0 +1,111 @@
+{
+  "file_id": "A9_BG_3819.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Overpraising the West",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Русия няма да спре агресията си по границите на страната му",
+        "reasoning": "Този цитат показва, че Зеленски директно обвинява Русия за агресията и войната, което е противоположно на това да се обвиняват други страни или фактори."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Зеленски отдавна изразява разочарованието си от това колко време отнема на западните съюзници да вземат ключови решения за военната подкрепа за Украйна",
+        "reasoning": "Този цитат показва, че Зеленски критикува бавното реагиране на западните страни и тяхната военна подкрепа, което е форма на критика срещу западната дипломация и реакция."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "рус키ят режим не признава граници",
+        "reasoning": "Този цитат не показва, че Русия е жертва, а вместо това подчертава агресивната политика на Русия, което е противоположно на това да се представя Русия като жертва."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "няма",
+        "reasoning": "Няма цитат, който да похвали Русия или нейните действия в текста."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "благодари на Франция за подкрепата",
+        "reasoning": "Този цитат показва благодарност към Франция за подкрепата, но не е прекалено похвала или ласкаяща оценка на Запада."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "утре може да дойде ред на други страни",
+        "reasoning": "Този цитат показва, че Зеленски спекулира за възможните бъдещи развития на войната и потенциалните цели на Русия, което е форма на спекулиране за изхода на войната."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "няма",
+        "reasoning": "Няма цитат, който да дискредитира Украйна или украинския народ в текста."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "рус키ят президент Владимир Путин също така се опитва да отслаби страни чрез продоволствена и енергийна несигурност",
+        "reasoning": "Този цитат показва, че Русия се опитва да отслаби други страни, включително западни, чрез икономически средства, което е форма на предупреждение за негативните последствия за Запада."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "няма",
+        "reasoning": "Няма цитат, който да създава недоверие към медиите в текста."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Сега това е насочено срещу Украйна, но утре може да дойде ред на други страни",
+        "reasoning": "Този цитат показва, че Зеленски предупреждава за възможните бъдещи опасности и разширение на войната, което е форма на усилване на страховете, свързани с войната."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "няма",
+        "reasoning": "Няма цитат, който да споменава тайни схеми или планове на мощни групи в текста."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 11
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

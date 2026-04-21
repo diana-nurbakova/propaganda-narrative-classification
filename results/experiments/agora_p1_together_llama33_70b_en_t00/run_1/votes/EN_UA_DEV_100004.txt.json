@@ -1,0 +1,111 @@
+{
+  "file_id": "EN_UA_DEV_100004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Overpraising the West",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian advance, suggesting that they may be able to cut off Ukrainian military supplies and surround the Ukrainian forces in the plant."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that discredits the West or its diplomacy, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant.",
+        "reasoning": "This quote praises the Russian forces for their successful advance and capture of facilities, highlighting their military strength and capabilities."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The Ukrainian military during the war in Donbass turned Avdeevka into a large stronghold",
+        "reasoning": "This quote can be seen as discrediting Ukraine by implying that they have militarized a town, but it is not a strong evidence as it is more of a factual report."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that portrays Russia as a victim, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that highlights negative consequences for the West, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that amplifies war-related fears, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that questions the reliability of media organizations, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that suggests hidden plots or secretive actions by powerful groups, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that excessively praises the West, so this narrative is not supported."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that blames the war on others rather than Russia, so this narrative is not supported."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 11
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

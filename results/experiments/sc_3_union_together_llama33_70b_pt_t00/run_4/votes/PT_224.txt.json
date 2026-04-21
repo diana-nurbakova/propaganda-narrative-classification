@@ -1,0 +1,196 @@
+{
+  "file_id": "PT_224.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote criticizes the Brazilian government for its inaction and lack of effective policies to address environmental issues, despite its rhetoric."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This quote emphasizes the severe consequences of climate change, such as increased temperatures leading to various health problems and even death, which amplifies fears about the impact of climate change."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "É uma solução que todos sabem ser a melhor e a menos dispendiosa. Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces. Isto não entra no cálculo do governo, que insiste na tese da exploração de petróleo na Foz do Amazonas, algo em contracorrente com a sensatez.",
+        "reasoning": "This quote criticizes the government's climate policies, specifically the decision to explore petroleum in the Amazon, which is seen as contrary to sensible and effective climate action."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote directly criticizes the Brazilian government for its inaction and lack of effective policies regarding environmental issues, specifically the crisis in the Pantanal region."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This statement emphasizes the severe consequences of climate change, such as increased temperatures leading to health issues and premature deaths, thereby amplifying fears about the impact of climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "São os combustíveis fósseis os maiores vilões do aquecimento global. Eles precisam de desaparecer. E o Brasil teria tudo para se tornar o campeão na descarbonização.",
+        "reasoning": "This quote criticizes the current reliance on fossil fuels and suggests that the Brazilian government's policies are inadequate, as the country has the potential to be a leader in decarbonization but is not taking sufficient action."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote criticizes the Brazilian government for its inaction and lack of effective policies to address environmental issues, despite its rhetoric."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This quote emphasizes the severe consequences of climate change, such as health problems and increased mortality, to raise awareness and concern about the issue."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "São os combustíveis fósseis os maiores vilões do aquecimento global. Eles precisam de desaparecer. E o Brasil teria tudo para se tornar o campeão na descarbonização.",
+        "reasoning": "This quote criticizes the current reliance on fossil fuels and argues that the Brazilian government should prioritize decarbonization and transition to cleaner energy sources."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

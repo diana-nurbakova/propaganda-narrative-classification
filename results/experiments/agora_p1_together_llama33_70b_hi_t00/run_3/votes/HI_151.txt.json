@@ -1,0 +1,77 @@
+{
+  "file_id": "HI_151.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस और उत्तर कोरिया के बीच संबंधों की जड़ें शीत युद्ध के समय पनपीं, जब तत्कालीन सोवियत संघ ने उत्तर कोरिया को आजादी दिलाने में मदद दी.",
+        "reasoning": "इस उद्धरण में रूस की भूमिका को उत्तर कोरिया की आजादी में मदद करने वाले के रूप में चित्रित किया गया है, जो रूस की सकारात्मक छवि को बढ़ावा देता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं, जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए।",
+        "reasoning": "इस उद्धरण में अमेरिका की नीतियों को नकारात्मक रूप से चित्रित किया गया है, जो पश्चिम की विदेश नीति की आलोचना को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "कथित तौर पर उत्तर कोरिया यूक्रेन युद्ध में अपनी भागीदारी बढ़ा रहा है, और रूस की मदद कर रहा है।",
+        "reasoning": "इस उद्धरण में एक गुप्त योजना का उल्लेख किया गया है जिसमें उत्तर कोरिया रूस की मदद कर रहा है, जो शक्तिशाली समूहों द्वारा गुप्त योजनाओं की ओर इशारा करता है।"
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस और उत्तर कोरिया के बीच संबंधों की जड़ें शीत युद्ध के समय पनपीं, जब तत्कालीन सोवियत संघ ने उत्तर कोरिया को आजादी दिलाने में मदद दी.",
+        "reasoning": "इस उद्धरण में रूस की भूमिका को उत्तर कोरिया की आजादी में मदद करने वाले के रूप में चित्रित किया गया है, जो रूस की सकारात्मक छवि को बढ़ावा देता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं, जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए।",
+        "reasoning": "इस उद्धरण में अमेरिका की नीतियों को नकारात्मक रूप से चित्रित किया गया है, जो पश्चिम की विदेश नीति की आलोचना को दर्शाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,140 @@
+{
+  "file_id": "A9_BG_2592.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "This quote directly attacks the legitimacy and morality of the Ukrainian state by labeling it a 'terrorist state' and accusing its government of criminal actions involving children, which fits the definition of undermining Ukraine as a nation."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "нелегитимният президент Зеленски",
+        "reasoning": "The text actively undermines the legitimacy of Ukraine's elected president by labeling him 'illegitimate', which is a direct attack on the Ukrainian leadership."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевският неонацистки режим",
+        "reasoning": "This phrase discredits the Ukrainian government by using the pejorative and propagandistic label 'neo-Nazi regime' to describe it, attacking its character and intentions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "This quote directly attacks the legitimacy and morality of the Ukrainian state and government, labeling it as 'terrorist' and accusing it of criminal actions against children, which fits the definition of undermining Ukraine's legitimacy and actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "нелегитимният президент Зеленски забрави, че децата са бъдещето и цветът на нацията, тъй като предпочита да печели пари от тях.",
+        "reasoning": "This statement directly undermines the legitimacy of Ukraine's president, Volodymyr Zelenskyy, by calling him 'illegitimate' and accusing him of profiting from children, which is a clear attack on Ukrainian leadership."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевският неонацистки режим привлича непълнолетни украинци да извършват диверсионна дейност, използвайки ги на втората и третата линия на отбрана като информатори и куриери.",
+        "reasoning": "This quote discredits the Ukrainian government by labeling it a 'neo-Nazi regime' and accusing it of exploiting minors for military activities, which attacks the intentions and actions of the Ukrainian state."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "This quote directly attacks the legitimacy and morality of the Ukrainian state and government, labeling it a 'terrorist state' and accusing it of criminal actions involving children, which fits the definition of undermining Ukraine's actions and intentions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевският неонацистки режим привлича непълнолетни украинци да извършват диверсионна дейност, използвайки ги на втората и третата линия на отбрана като информатори и куриери.",
+        "reasoning": "This statement discredits the Ukrainian leadership by calling it a 'neo-Nazi regime' and accuses it of exploiting minors for military purposes, which is a direct attack on the Ukrainian government's character and actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "нелегитимният президент Зеленски забрави, че децата са бъдещето и цветът на нацията, тъй като предпочита да печели пари от тях.",
+        "reasoning": "This quote discredits the Ukrainian President Volodymyr Zelenskyy by labeling him 'illegitimate' and accusing him of profiting from children, which undermines his legitimacy and personal integrity as a representative of Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting Ukraine: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

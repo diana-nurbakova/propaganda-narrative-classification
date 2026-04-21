@@ -1,0 +1,168 @@
+{
+  "file_id": "BG_950.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of green technologies",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "Downplaying climate change",
+      "Controversy about green technologies",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което е представено като доказателство, че глобалното затопляне не е толкова сериозен проблем, както се твърди, и че вместо затопляне, има студени температури."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "Текстът критикува електрическите автобуси, представяйки ги като технология, която не е подходяща за използване в студени климати, което е представено като недостатък на тази „зелена“ технология."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Според мен глобалното затъпяване ще ни затрие преди всякакви климатични промени!",
+        "reasoning": "Текстът поставя под въпросе научните прогнози и измервания, свързани с глобалното затопляне, като предполага, че вместо затопляне, има студени температури, което е представено като доказателство, че научните прогнози не са точни."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "The text uses sarcasm to imply that the current cold temperatures are evidence against the idea of global warming, downplaying its significance."
+      },
+      {
+        "narrative_name": "CC: Criticism of green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "The text criticizes the performance of electric buses in cold temperatures, implying that they are not a reliable green technology."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Според мен глобалното затъпяване ще ни затрие преди всякакви климатични промени!",
+        "reasoning": "The text questions the scientific consensus on climate change by implying that the current cold temperatures are evidence against it, and that the focus on global warming is misplaced."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "This quote downplays the significance of climate change by sarcastically suggesting that more global warming is needed for electric buses to function properly, implying that the current cold temperatures are more of an issue than the potential consequences of climate change."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "This quote expresses skepticism about the effectiveness of green technologies, specifically electric buses, by highlighting their inability to function in extremely cold temperatures, which raises questions about their practicality and reliability."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "This quote criticizes climate policies by implying that the investment in electric buses was a misguided attempt to 'save the climate', and that the focus on climate change led to the adoption of a technology that is not suitable for the local conditions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Controversy about green technologies",
+    "CC: Questioning the measurements and science"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Other",
+    "CC: Questioning the measurements and science: Data shows no temperature increase",
+    "CC: Questioning the measurements and science: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 77.19298245614036,
+      "type": "fuzzy"
+    },
+    {
+      "original": "CC: Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "matched": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "matched": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Other",
+      "matched": "CC: Questioning the measurements and science: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

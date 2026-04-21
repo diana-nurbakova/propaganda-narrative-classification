@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_76.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों ने जो सबसे पहले किया वो थे रूस पर प्रतिबंध लागू करना. अमेरिका से लेकर यूरोपीय यूनियन तक ने रूस पर कड़े प्रतिबंध लगाए, ताकि राष्ट्रपति पुतिन पर दबाव बनाया जा सके. हालांकि, फिर भी वे व्लादिमीर पुतिन को रोक पाने में विफल रहे और आज यह बात जहजाहिर है कि पश्चिमी और यूरोपीय प्रतिबंधों का रूस पर ज्यादा कुछ असर नहीं हुआ.",
+        "reasoning": "इस उद्धरण में पश्चिमी देशों की नीतियों और प्रतिबंधों की विफलता को उजागर किया गया है, जो रूस के प्रति उनकी कमजोरी को दर्शाता है और उनकी आलोचना करता है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "यूरोप में ऊर्जा संकट पैदा हुई. मसलन, शुरुआती दौर में देखा गया कि कई यूरोपीय देशों ने रूस पर दबाव बनाने के नजरिए से पश्चिमी खेमे में चले गए लेकिन तुरंत ही उन्हें ऊर्जा संकट ने घेर लिया.",
+        "reasoning": "इस उद्धरण में यूरोपीय देशों पर ऊर्जा संकट के नकारात्मक परिणामों को दर्शाया गया है, जो रूस-यूक्रेन युद्ध के कारण हुआ है और यह पश्चिमी देशों के लिए एक चुनौती को प्रस्तुत करता है।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "तकनीकी रूप से मजबूत, लंबी दूरी और अत्याधुनिक हथियारों से लैस रूसी सेना दो साल में भी यूक्रेन को 'निपटा' पाने में विफल रही.",
+        "reasoning": "इस उद्धरण में रूसी सेना की तकनीकी ताकत और हथियारों की अत्याधुनिकता को प्रस्तुत किया गया है, जो रूस की सैन्य क्षमता की प्रशंसा को दर्शाता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों ने जो सबसे पहले किया वो थे रूस पर प्रतिबंध लागू करना. अमेरिका से लेकर यूरोपीय यूनियन तक ने रूस पर कड़े प्रतिबंध लगाए, ताकि राष्ट्रपति पुतिन पर दबाव बनाया जा सके. हालांकि, फिर भी वे व्लादिमीर पुतिन को रोक पाने में विफल रहे",
+        "reasoning": "इस उद्धरण में पश्चिमी देशों की विफलता को उजागर किया गया है, जो उनकी नीतियों और कार्यों की आलोचना को दर्शाता है, जो 'URW: Discrediting the West, Diplomacy' के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "यूरोप में ऊर्जा संकट पैदा हुई. मसलन, शुरुआती दौर में देखा गया कि कई यूरोपीय देशों ने रूस पर दबाव बनाने के नजरिए से पश्चिमी खेमे में चले गए लेकिन तुरंत ही उन्हें ऊर्जा संकट ने घेर लिया",
+        "reasoning": "इस उद्धरण में यूरोपीय देशों को ऊर्जा संकट का सामना करना पड़ा, जो पश्चिमी देशों के लिए नकारात्मक परिणाम को दर्शाता है, जो 'URW: Negative Consequences for the West' के अनुरूप है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "मीडिया रिपोर्ट्स की मानें",
+        "reasoning": "इस उद्धरण में मीडिया रिपोर्ट्स की विश्वसनीयता पर संदेह व्यक्त किया गया है, जो 'URW: Distrust towards Media' के अनुरूप है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

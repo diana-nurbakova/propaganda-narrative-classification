@@ -1,0 +1,228 @@
+{
+  "file_id": "PT_259.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Não vemos atos. Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "This quote directly undermines the legitimacy and actions of the Ukrainian leader, Volodymyr Zelensky, by accusing him of massacring Ukrainian citizens, which is a severe attack on his character and the Ukrainian government's actions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "nada foi feito por ninguém em relação à Ucrânia, nem por Zelensky, nem pela sua administração ou por outros ramos do governo, nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+        "reasoning": "This statement shifts the blame for the lack of negotiation and resolution in the conflict from Russia to others, including Zelensky, his administration, and Western manipulators, implying they are responsible for not taking action to resolve the situation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Querem forçar literalmente todos, para envolver o maior número possível de países na sua discussão sob falsos pretextos",
+        "reasoning": "This quote portrays Russia as being unfairly treated and forced into a situation by Zelensky and his supporters, under false pretenses, which evokes sympathy for Russia's position and suggests it is a victim of manipulation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+        "reasoning": "This phrase criticizes Western countries for their alleged manipulation and failure to act in the interest of resolving the conflict, implying that their diplomatic efforts are either ineffective or insincere."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Não vemos atos. Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "This quote directly discredits Zelensky and, by extension, Ukraine, by accusing him of massacring Ukrainian citizens, which undermines the legitimacy and actions of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "nada foi feito por ninguém em relação à Ucrânia, nem por Zelensky, nem pela sua administração ou por outros ramos do governo, nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+        "reasoning": "This statement shifts the blame for the lack of negotiation and resolution in the conflict from Russia to Zelensky, the Ukrainian administration, and Western manipulators, implying they are responsible for the stalemate."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Querem forçar literalmente todos, para envolver o maior número possível de países na sua discussão sob falsos pretextos",
+        "reasoning": "This quote portrays Russia as being unfairly treated and forced into a situation by Zelensky and his supporters, evoking sympathy for Russia's position and suggesting it is a victim of false pretenses."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+        "reasoning": "This phrase discredits Western countries by implying they are manipulating events in Ukraine, specifically in relation to negotiations with Russia, which criticizes their diplomatic efforts and intentions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Não vemos atos. Zelensky continua a massacrar cidadãos ucranianos",
+        "reasoning": "This quote directly undermines the legitimacy and actions of the Ukrainian leader, Zelensky, by accusing him of massacring Ukrainian citizens, which is a severe attack on his character and the Ukrainian government's actions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "nada foi feito por ninguém em relação à Ucrânia, nem por Zelensky, nem pela sua administração ou por outros ramos do governo, nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+        "reasoning": "This statement shifts the blame for the lack of negotiation and resolution in the conflict from Russia to Ukraine and the West, implying that they are responsible for not taking action to revoke the law that prohibits Ukraine from negotiating with Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia",
+        "reasoning": "The term 'manipuladores ocidentais' (Western manipulators) criticizes Western countries for their alleged role in manipulating Ukraine's actions and decisions, implying that they are not acting in good faith or with genuine interest in resolving the conflict."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Querem forçar literalmente todos, para envolver o maior número possível de países na sua discussão sob falsos pretextos",
+        "reasoning": "This statement portrays Russia as being unfairly treated and forced into a situation by Zelensky and the West, who are allegedly using false pretenses to involve more countries in the discussion, thus evoking sympathy for Russia's position."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

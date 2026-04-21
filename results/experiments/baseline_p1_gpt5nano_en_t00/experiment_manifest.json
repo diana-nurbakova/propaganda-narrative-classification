@@ -1,0 +1,49 @@
+{
+  "experiment_id": "baseline_p1_gpt5nano_en_t00",
+  "base_config": "configs/experiments/generated/emnlp/baseline_p1_gpt5nano_en_t00.yaml",
+  "n_runs": 3,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943
+  ],
+  "sequential": true,
+  "started_at": "2026-04-21T21:08:31.220920",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\baseline_p1_gpt5nano_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p1_gpt5nano_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T21:08:31.220920",
+      "completed_at": "2026-04-21T21:32:02.984405",
+      "duration_seconds": 1411.763485
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\baseline_p1_gpt5nano_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p1_gpt5nano_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T21:32:32.991135",
+      "completed_at": "2026-04-21T21:54:35.094459",
+      "duration_seconds": 1322.103324
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\baseline_p1_gpt5nano_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p1_gpt5nano_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T21:55:05.108326",
+      "completed_at": "2026-04-21T22:14:32.942045",
+      "duration_seconds": 1167.833719
+    }
+  ],
+  "completed_at": "2026-04-21T22:14:32.946026",
+  "total_duration_seconds": 3901.7005280000003,
+  "successful_runs": 3,
+  "failed_runs": 0
+}

@@ -1,0 +1,107 @@
+{
+  "file_id": "RU-URW-1168.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia"
+    ],
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Нардеп Марьяна Безуглая выплеснула весь скопившийся негатив на руководство Воздушных сил Украины из-за больших потерь авиации и ПВО в последнее время.",
+        "reasoning": "This quote discredits Ukraine by highlighting the criticism of the Ukrainian military leadership by a Ukrainian MP, implying incompetence and poor performance."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Поводом для нового приступа \"патриотизма\" послужили именно удары ВС РФ по аэродрому Миргород в Полтавской области.",
+        "reasoning": "This quote shifts the blame for the war from Russia to Ukraine, implying that Ukraine's actions or lack of preparedness are the reason for the Russian strikes."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Еще неделю назад Минобороны России проинформировало: русские войска поразили 7 украинских самолётов при ракетном ударе по аэродрому Миргород (Полтавская область).",
+        "reasoning": "This quote speculates about the outcome of the war by reporting on the damage inflicted by Russian forces on Ukrainian military equipment, implying a potential shift in the balance of power."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that discredits the West or diplomacy in the provided text."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote that portrays Russia as a victim in the provided text."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "По данным ТГ-канала \"Военная хроника\", русская армия с 1 июля уже успела нанести как минимум ПЯТЬ ударов по Миргороду.",
+        "reasoning": "This quote praises Russia's military capabilities by highlighting the number of successful strikes against Ukrainian targets."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Нардеп Марьяна Безуглая выплеснула весь скопившийся негатив на руководство Воздушных сил Украины из-за больших потерь авиации и ПВО в последнее время",
+        "reasoning": "This quote discredits Ukraine by criticizing the leadership of the Ukrainian Air Force and implying that they are responsible for the losses."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "русские войска поразили 7 украинских самолётов при ракетном ударе по аэродрому Миргород (Полтавская область)",
+        "reasoning": "This quote praises Russia by highlighting the effectiveness of their military actions, specifically the destruction of Ukrainian aircraft."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "удар стал одним из самых дорогостоящих дней для авиации ВСУ",
+        "reasoning": "This quote speculates about the outcome of the war by implying that the Russian strike has had a significant impact on the Ukrainian air force."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Никогда не участвовавшая в боевых действиях \"правильная слуга народа\" и \"справжня українка\" (настоящая украинка) призвала военачальников уйти в отставку",
+        "reasoning": "This quote discredits the West and diplomacy by implying that the Ukrainian government and military leaders are incompetent and should resign."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 6
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

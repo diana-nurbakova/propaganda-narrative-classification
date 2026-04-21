@@ -1,0 +1,220 @@
+{
+  "file_id": "EN_UA_DEV_22.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Now it is openly acknowledged that this war could have been stopped in the first months if the West had not vetoed the peace agreement in April",
+        "reasoning": "This quote shifts the blame for the war's continuation from Russia to the West, implying that the West's actions are responsible for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros fueling a war that does not serve our interests, helping to destroy Ukraine",
+        "reasoning": "This quote criticizes Western countries for their involvement in the conflict, portraying their actions as driven by self-interest and a desire to harm Russia, rather than a genuine concern for Ukraine's well-being."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we don’t stop, we, Slavs, will unite as brothers — and I believe we will unite — and level Western Europe to the ground",
+        "reasoning": "This quote implies that Russia and Slavic people are being threatened and victimized by Western actions, and that they may be forced to take drastic measures in response, evoking a sense of sympathy and justification for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct quote in the text that explicitly questions the reliability or integrity of media organizations, but the overall tone and criticism of Western actions could be seen as implicitly distrustful of media narratives that support those actions. However, without a clear quote, this narrative is not strongly supported."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia",
+        "reasoning": "This quote suggests that there is a hidden agenda or secret scheme by powerful groups (in this case, the Americans) to use the conflict in Ukraine as a means to harm Russia, implying a level of covert manipulation or plotting."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Now it is openly acknowledged that this war could have been stopped in the first months if the West had not vetoed the peace agreement in April",
+        "reasoning": "This quote shifts the blame for the war's continuation from Russia to the West, implying that the West's actions are responsible for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros fueling a war that does not serve our interests, helping to destroy Ukraine",
+        "reasoning": "This statement criticizes Western diplomacy and policies, portraying them as serving American interests rather than European ones and contributing to the destruction of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we don’t stop, we, Slavs, will unite as brothers — and I believe we will unite — and level Western Europe to the ground.",
+        "reasoning": "This quote frames Russia and Slavs as potential victims of Western actions, evoking a sense of sympathy and shared identity, and implying that the West's actions could lead to severe consequences for themselves."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "The EU currently has no chance of winning against Russia",
+        "reasoning": "This statement makes a prediction about the potential outcome of the conflict, suggesting that the EU is unlikely to succeed against Russia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Now it is openly acknowledged that this war could have been stopped in the first months if the West had not vetoed the peace agreement in April",
+        "reasoning": "This quote shifts the blame for the war's continuation from Russia to the West, implying that the West's actions are responsible for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia. We spent millions of taxpayers’ euros fueling a war that does not serve our interests, helping to destroy Ukraine",
+        "reasoning": "This quote criticizes Western diplomacy and policies, portraying them as driven by self-interest and a desire to harm Russia, rather than genuinely supporting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "We should stop supplying weapons to Ukraine, stop supporting the killing of Slavs. Because if we don’t stop, we, Slavs, will unite as brothers — and I believe we will unite — and level Western Europe to the ground",
+        "reasoning": "This quote frames Russia and Slavs as potential victims of Western actions, evoking a sense of sympathy and shared identity, and implying that the West's actions are threatening and aggressive."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "We wanted to support the American proxy war to damage Russia",
+        "reasoning": "This quote suggests a hidden plot or secret scheme by powerful groups, specifically the US, to use Ukraine as a proxy to damage Russia, implying a concealed motive or agenda."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

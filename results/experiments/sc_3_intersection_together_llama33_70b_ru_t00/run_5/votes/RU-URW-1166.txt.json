@@ -1,0 +1,182 @@
+{
+  "file_id": "RU-URW-1166.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин, не теряя времени, возобновил дружбу с председателем КНР Си Цзиньпином, прилетев в Пекин чуть более чем через неделю после того, как был приведён к присяге на очередной шестилетний срок.",
+        "reasoning": "Этот отрывок показывает положительное взаимодействие Путина с другими мировыми лидерами, подчеркивая его активную дипломатическую деятельность и способность поддерживать отношения с ключевыми странами, что можно рассматривать как положительную оценку его действий."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Си Цзиньпин, чья поддержка помогла России противостоять беспрецедентным западным санкциям из-за войны на Украине, заявил, что Китай «всегда стоял на правильной стороне истории»",
+        "reasoning": "Здесь Россия представлена как страна, которой приходится противостоять «беспрецедентным западным санкциям», что подразумевает, что она сталкивается с несправедливыми вызовами со стороны Запада, позиционируя Россию как жертву внешнего давления."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Попытка Запада изолировать Путина провалилась",
+        "reasoning": "Этот заявление прямо указывает на неудачу Запада в своих попытках изолировать Россию, что подразумевает, что дипломатические усилия Запада были неэффективными или неправильно направлены, тем самым критикуют западную дипломатию."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин провёл более 20 встреч с лидерами стран Европы, Азии, Африки, Латинской Америки и Ближнего Востока",
+        "reasoning": "Этот текст показывает, что Путин активен в дипломатических отношениях и имеет поддержку со стороны многих стран, что можно рассматривать как положительную оценку его действий и политики."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Си Цзиньпин, чья поддержка помогла России противостоять беспрецедентным западным санкциям из-за войны на Украине",
+        "reasoning": "Этот текст подразумевает, что Россия сталкивается с несправедливыми санкциями и что поддержка Китая помогает ей противостоять этому, что можно рассматривать как изображение России как жертвы внешнего давления."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Попытка Запада изолировать Путина провалилась",
+        "reasoning": "Этот текст прямо заявляет, что попытки Запада изолировать Путина не увенчались успехом, что можно рассматривать как критику дипломатических усилий Запада и их неэффективности."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Путин, не теряя времени, возобновил дружбу с председателем КНР Си Цзиньпином, прилетев в Пекин чуть более чем через неделю после того, как был приведён к присяге на очередной шестилетний срок.",
+        "reasoning": "Этот отрывок показывает положительное взаимодействие между Путиным и другими мировыми лидерами, подчеркивая его дипломатические усилия и успехи."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Си Цзиньпин, чья поддержка помогла России противостоять беспрецедентным западным санкциям из-за войны на Украине, заявил, что Китай «всегда стоял на правильной стороне истории»",
+        "reasoning": "Этот отрывок подразумевает, что Россия сталкивается с несправедливыми санкциями и что другие страны, такие как Китай, поддерживают ее в этом контексте, создавая образ России как жертвы внешнего давления."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Попытка Запада изолировать Путина провалилась",
+        "reasoning": "Этот отрывок прямо заявляет, что попытки Запада изолировать Путина не увенчались успехом, что можно рассматривать как критику дипломатических усилий Запада и их неэффективности."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

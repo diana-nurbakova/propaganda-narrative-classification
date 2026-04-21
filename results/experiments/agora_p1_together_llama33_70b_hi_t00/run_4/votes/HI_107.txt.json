@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_107.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-NATO तीसरे विश्व युद्ध से बस एक कदम दूर....",
+        "reasoning": "The text explicitly mentions the possibility of a third world war, which is a classic example of amplifying war-related fears. The quote suggests that a direct confrontation between Russia and NATO could lead to a catastrophic outcome, evoking fear and anxiety in the reader."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पुतिन ने दावा किया नाटो के जवान पहले से ही यूक्रेन में तैनात थे.",
+        "reasoning": "The text portrays Russia as a victim by suggesting that NATO troops are already present in Ukraine, implying that Russia is being threatened or provoked. This narrative is often used to justify Russia's actions and shift the blame away from itself."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई.",
+        "reasoning": "The text criticizes Western diplomacy by highlighting the lack of unity among NATO member states. The quote suggests that France's statement was not supported by other powerful countries, implying that Western diplomacy is weak and ineffective."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-NATO तीसरे विश्व युद्ध से बस एक कदम दूर....",
+        "reasoning": "The text explicitly mentions the possibility of a third world war, which is a classic example of amplifying war-related fears. The quote suggests that a direct confrontation between Russia and NATO could lead to a catastrophic outcome, evoking fear and anxiety in the reader."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई.",
+        "reasoning": "The text criticizes Western diplomacy by implying that France's statement about potential military deployment in Ukraine was not supported by other powerful NATO countries. This suggests that Western countries are not united and are hesitant to take a strong stance, which is a form of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "व्लादिमीर पुतिन, रूस के पांचवीं बार राष्ट्रपति बने हैं. यूक्रेन के साथ जंग के बीच हुए चुनाव में जीत के तुरंत बाद उन्होंने पश्चिमी गठबंधन NATO को चेतावनी भी दी.",
+        "reasoning": "The text presents Vladimir Putin as a strong leader who has been re-elected as President of Russia for the fifth time, despite being in a state of war with Ukraine. This portrayal of Putin as a capable and powerful leader can be seen as praise of Russia."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

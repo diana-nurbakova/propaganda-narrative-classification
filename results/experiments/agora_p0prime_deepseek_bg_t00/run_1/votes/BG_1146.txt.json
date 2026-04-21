@@ -1,0 +1,83 @@
+{
+  "file_id": "BG_1146.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "По време на Олимпийските игри в Париж, които трябва да се проведат от 26 юли до 11 август тази година, има висок риск от катастрофални горещини.",
+        "reasoning": "The text opens by stating there is a 'high risk of catastrophic heat' during the Olympics, using strong, alarming language ('катастрофални') to emphasize the severity of the threat."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това може да бъде придружено от силна гореща вълна, която ще има сериозно въздействие върху околната среда и може да се отрази негативно на човешкото здраве.",
+        "reasoning": "The text actively promotes fear by predicting a heatwave with 'serious impact on the environment' and negative effects on human health, framing it as a direct consequence of the climatic conditions during the event."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "моделът, използван от учените, показа, че температурният рекорд от 2003 г. може да бъде надвишен с повече от 4°C до 2050 г.",
+        "reasoning": "This statement amplifies fears by projecting a specific and extreme temperature increase ('повече от 4°C') that would surpass a past deadly heatwave, highlighting a severe future risk due to global warming."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "По време на Олимпийските игри в Париж, които трябва да се проведат от 26 юли до 11 август тази година, има висок риск от катастрофални горещини.",
+        "reasoning": "The text actively promotes fear by describing a 'high risk of catastrophic heat' during a major public event, emphasizing severe and alarming consequences of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това може да бъде придружено от силна гореща вълна, която ще има сериозно въздействие върху околната среда и може да се отрази негативно на човешкото здраве.",
+        "reasoning": "The text amplifies fears by stating that a strong heatwave would have a 'serious impact on the environment' and could 'negatively affect human health', presenting a direct threat."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Съответно вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто, което според френски учени може да се нарече сравнително висока вероятност.",
+        "reasoning": "The text frames a 1 in 100 chance of an unprecedented heatwave as a 'relatively high probability', using statistical language to amplify concern about extreme climate impacts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

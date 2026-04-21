@@ -1,0 +1,141 @@
+{
+  "file_id": "RU-URW-1146.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "отношения со странами западного блока в целом ухудшились с 2020 года, когда страны западного мира были обвинены в поддержке протестов и массовых беспорядков с целью свержения белорусского правительства",
+        "reasoning": "Этот отрывок критически относится к странам западного блока, обвиняя их в поддержке протестов и попытках свержения белорусского правительства, что соответствует нарративу дискредитации Запада."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Учения китайских вооруженных сил в стране были истолкованы рядом аналитиков как направленные на то, чтобы послать сигнал государствам западного блока о поддержке Пекином Минских соглашений и, как следствие, для Москвы, если члены НАТО начнут эскалацию боевых действий в условиях растущих потерь на Украине",
+        "reasoning": "Этот отрывок вызывает страхи о потенциальной эскалации боевых действий и участии Китая и Белоруссии в конфликте, что соответствует нарративу усиления страхов, связанных с войной."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "отношения со странами западного блока в целом ухудшились с 2020 года, когда страны западного мира были обвинены в поддержке протестов и массовых беспорядков с целью свержения белорусского правительства",
+        "reasoning": "Этот отрывок подрывает легитимность и мотивы стран Запада, обвиняя их в поддержке протестов и попытках свергнуть правительство Белоруссии, тем самым дискредитируя Запад."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Учения китайских вооруженных сил в стране были истолкованы рядом аналитиков как направленные на то, чтобы послать сигнал государствам западного блока о поддержке Пекином Минских соглашений и, как следствие, для Москвы, если члены НАТО начнут эскалацию боевых действий в условиях растущих потерь на Украине",
+        "reasoning": "Этот отрывок усиливает страхи, связанные с войной, предполагая, что учения могут быть предупреждением для стран НАТО и что эскалация конфликта может привести к более серьезным последствиям."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Учения китайских вооруженных сил в стране были истолкованы рядом аналитиков как направленные на то, чтобы послать сигнал государствам западного блока о поддержке Пекином Минских соглашений и, как следствие, для Москвы",
+        "reasoning": "Этот отрывок можно рассматривать как косвенную похвалу России, поскольку поддержка Китаем Минских соглашений и, следовательно, Москвы, подразумевает сильную позицию и влияние России в регионе."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "отношения со странами западного блока в целом ухудшились с 2020 года, когда страны западного мира были обвинены в поддержке протестов и массовых беспорядков с целью свержения белорусского правительства",
+        "reasoning": "Этот текст критически относится к странам западного блока, обвиняя их в поддержке протестов и попытках свержения белорусского правительства, что соответствует нарративу 'Discrediting the West, Diplomacy'."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Учения китайских вооруженных сил в стране были истолкованы рядом аналитиков как направленные на то, чтобы послать сигнал государствам западного блока о поддержке Пекином Минских соглашений и, как следствие, для Москвы, если члены НАТО начнут эскалацию боевых действий в условиях растущих потерь на Украине",
+        "reasoning": "Этот текст вызывает страхи о потенциальной эскалации боевых действий и участии Китая и Белоруссии в конфликте, что соответствует нарративу 'Amplifying war-related fears'."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Учения проводились в Брестской области менее чем в 5 километрах от границ Польши одного из самых восточных членов НАТО",
+        "reasoning": "Этот текст подчеркивает географическую близость учений к границам НАТО, что может быть воспринято как потенциальная угроза безопасности западных стран, соответствуя нарративу 'Negative Consequences for the West'."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

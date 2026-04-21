@@ -1,0 +1,154 @@
+{
+  "file_id": "BG_950.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "The quote suggests that the current cold temperatures are evidence that global warming is not occurring, or at least not occurring at a significant enough rate to have a substantial impact. This downplays the significance of climate change by implying that it is not having the expected effects."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "The quote highlights a limitation of electric buses, which are a green technology, in extreme cold weather. This controversy surrounding the effectiveness of green technologies in certain conditions is a key aspect of this narrative."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Сега се съобщава, че човек, живеещ в Arjeplog, е отбелязал смразяващ студ -49,7C (това е -57,5 по Фаренхайт) на своя термометър, преди да спре да работи, когато достигне -50C.",
+        "reasoning": "The mention of a record-low temperature being reported by an individual, and the fact that the thermometer stopped working at -50C, could be seen as questioning the accuracy or reliability of temperature measurements, which is a key aspect of climate science."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "The quote suggests that the current cold temperatures are evidence that global warming is not occurring, or at least is not having a significant impact, which downplays the significance of climate change."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "The quote highlights a problem with electric buses, a green technology, in cold temperatures, which expresses skepticism about their effectiveness."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "The quote implies that the investment in electric buses as a climate policy is misguided or ineffective, given the buses' inability to operate in cold temperatures."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което се използва като пример за това, че глобалното затопляне не е толкова сериозен проблем, както се твърди, и че вместо затопляне, има много студено."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "Текстът критикува електрическите автобуси, като посочва, че те не са подходящи за ползване при ниски температури, което поставя под въпрос ефективността и практичността на тези „зелени“ технологии."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "В Швеция чакали „глобалното затопляне“ и в град Skellefteå управляващите либерасти са решили да „спасяват климата“, са инвестирали в електрически автобуси.",
+        "reasoning": "Текстът критикува инвестициите в електрически автобуси като част от климатичните политики, като предполага, че тези инвестиции са ненужни или не ефективни, тъй като автобусите не могат да функционират при студено време."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Controversy about green technologies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "matched": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "file_id": "PT_220.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "A seca tem favorecido a propagação das chamas, a maior parte delas resultado da ação humana. Desde o início do ano, segundo Rosa, foram detetados mais de 12 mil focos de incêndio no Pantanal, que se propagam facilmente na vegetação ressequida.",
+        "reasoning": "O texto apresenta cenários catastróficos sobre a escassez de água no Brasil, destacando a relação entre desflorestação e secas, e como isso afeta a agricultura e o abastecimento das cidades, ampliando medos sobre as consequências do aquecimento global."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A seca tem favorecido a propagação das chamas, a maior parte delas resultado da ação humana. Desde o início do ano, segundo Rosa, foram detetados mais de 12 mil focos de incêndio no Pantanal, que se propagam facilmente na vegetação ressequida.",
+        "reasoning": "This quote amplifies fears about the consequences of climate change, specifically the increase in wildfires and their propagation due to drought, which is a result of human actions."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "É necessário haver consciência em Brasília sobre a necessidade de preservar e plantar novas árvores para que, mesmo perante as alterações climáticas, o Brasil possa continuar a usufruir da abundância de água que sempre o distinguiu.",
+        "reasoning": "This quote criticizes the lack of awareness and action from the authorities in Brasília, implying that they are not doing enough to address the issue of deforestation and its impact on water scarcity."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A seca tem favorecido a propagação das chamas, a maior parte delas resultado da ação humana. Desde o início do ano, segundo Rosa, foram detetados mais de 12 mil focos de incêndio no Pantanal, que se propagam facilmente na vegetação ressequida.",
+        "reasoning": "Este trecho destaca a gravidade da seca e a propagação de incêndios no Pantanal, ampliando os medos sobre as consequências da desflorestação e do aquecimento global."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "É necessário haver consciência em Brasília sobre a necessidade de preservar e plantar novas árvores para que, mesmo perante as alterações climáticas, o Brasil possa continuar a usufruir da abundância de água que sempre o distinguiu.",
+        "reasoning": "Este trecho implica que as autoridades em Brasília não estão fazendo o suficiente para abordar a questão da desflorestação e da escassez de água, criticando a falta de ação e consciência sobre o problema."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

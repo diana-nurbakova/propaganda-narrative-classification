@@ -1,0 +1,172 @@
+{
+  "file_id": "PT_254.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A falha informática que afetou o mundo inteiro provou mais uma vez a correção da substituição total das importações de software na Rússia.",
+        "reasoning": "This quote suggests that Russia is being unfairly targeted by the global technical failure, but due to its own actions (substituting foreign software), it has managed to avoid the consequences, portraying Russia as a victim that has successfully protected itself."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de software estrangeiro e hoje continuam a voar sem problemas",
+        "reasoning": "This quote highlights Russia's achievement in switching to domestic software, implying that Russia's actions are superior and more resilient than those of other countries affected by the technical failure."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é muito mais rentável ser independente em tudo",
+        "reasoning": "This quote criticizes the West by implying that its dependence on foreign systems and software led to the technical failure, while Russia's independence has allowed it to thrive, thus discrediting Western approaches."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "a Rússia disse ter passado incólume graças às sanções internacionais impostas ao país por causa da guerra na Ucrânia",
+        "reasoning": "This quote shifts the blame for Russia's situation from its own actions in invading Ukraine to the international sanctions imposed as a result, implying that the sanctions (and thus the international community's response to the invasion) are what have 'saved' Russia from the technical failure."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A falha informática que afetou o mundo inteiro provou mais uma vez a correção da substituição total das importações de software na Rússia.",
+        "reasoning": "A Rússia está a ser retratada como uma vítima que se beneficiou das sanções internacionais, pois isso a levou a substituir as importações de software estrangeiro, tornando-a menos dependente e mais resiliente a falhas globais."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de software estrangeiro e hoje continuam a voar sem problemas",
+        "reasoning": "A citação elogia a capacidade da Rússia de se tornar independente em termos de software, destacando a sua resiliência e eficiência em face de desafios globais."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é muito mais rentável ser independente em tudo",
+        "reasoning": "A afirmação critica a dependência do Ocidente de tecnologias estrangeiras, sugerindo que a abordagem ocidental é falha e que a independência, como a adotada pela Rússia, é mais benéfica."
+      },
+      {
+        "narrative_name": "URW: URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A Rússia tem sido alvo de um número considerável de sanções internacionais, muitas destinadas ao fornecimento de tecnologias de chamada “dupla utilização”, que podem ser utilizadas de forma civil e em aplicações militares.",
+        "reasoning": "A menção às sanções internacionais implica que as ações da Rússia são uma resposta às medidas tomadas por outros, desviando a responsabilidade da invasão da Ucrânia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A falha informática que afetou o mundo inteiro provou mais uma vez a correção da substituição total das importações de software na Rússia.",
+        "reasoning": "A Rússia está a atribuir a sua capacidade de evitar o apagão cibernético global às sanções internacionais impostas devido à guerra na Ucrânia, em vez de reconhecer a responsabilidade pela guerra."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A situação com a Microsoft mostra, mais uma vez, a importância da substituição de importações de software estrangeiro, principalmente em instalações críticas de infraestruturas de informação",
+        "reasoning": "A Rússia está a se apresentar como vítima das sanções internacionais e da dependência de software estrangeiro, em vez de reconhecer a sua própria responsabilidade pela guerra e pelas consequências econômicas."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de software estrangeiro e hoje continuam a voar sem problemas",
+        "reasoning": "A Rússia está a se autopromover como um país capaz de se adaptar e superar as dificuldades, graças à sua capacidade de desenvolver software nacional."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é muito mais rentável ser independente em tudo",
+        "reasoning": "A Rússia está a criticar o Ocidente por sua dependência de software estrangeiro e está a promover a ideia de que a independência é mais rentável, o que é uma forma de desacreditar o modelo ocidental."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "file_id": "PT_221.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A lei europeia, que entrará em vigor no final de 2024, exige que os importadores de mercadorias como o café, o cacau, a carne de bovino, a soja, a borracha e o óleo de palma produzam uma declaração de diligência que prove que os seus produtos não estão a contribuir para a destruição das florestas",
+        "reasoning": "A lei é apresentada como uma exigência que pode ter impactos negativos nos agricultores de pequena escala, sugerindo que a política pode não ser eficaz ou justa."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "A Comissão solicitou à União Europeia e às empresas de café que garantam que tal não acontece, principalmente porque os agricultores desesperados podem ser forçados, neste cenário, a expandir-se para as áreas florestais para aumentar a produção de forma a sobreviver.",
+        "reasoning": "A Comissão é apresentada como uma instituição que pode não estar preparada para lidar com as consequências da lei, sugerindo que as instituições podem não ser eficazes ou competentes."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "A desflorestação é responsável por cerca de 10% das emissões globais de gases com efeito de estufa que impulsionam as alterações climáticas, e a lei tem como objetivo combater a contribuição da União Europeia no problema.",
+        "reasoning": "A desflorestação é apresentada como uma causa significativa das alterações climáticas, ampliando a preocupação com as consequências da destruição das florestas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A lei europeia, que entrará em vigor no final de 2024, exige que os importadores de mercadorias como o café, o cacau, a carne de bovino, a soja, a borracha e o óleo de palma produzam uma declaração de diligência que prove que os seus produtos não estão a contribuir para a destruição das florestas",
+        "reasoning": "A lei é apresentada como uma exigência que pode ter impactos negativos nos agricultores de pequena escala, sugerindo que a política pode não ser eficaz ou justa."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "A Comissão solicitou à União Europeia e às empresas de café que garantam que tal não acontece, principalmente porque os agricultores desesperados podem ser forçados, neste cenário, a expandir-se para as áreas florestais para aumentar a produção de forma a sobreviver.",
+        "reasoning": "A Comissão é apresentada como uma instituição que pode não estar preparada para lidar com as consequências da lei, sugerindo que as instituições podem não ser eficazes ou competentes."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "A desflorestação é responsável por cerca de 10% das emissões globais de gases com efeito de estufa que impulsionam as alterações climáticas, e a lei tem como objetivo combater a contribuição da União Europeia no problema.",
+        "reasoning": "A desflorestação é apresentada como uma causa significativa das alterações climáticas, ampliando a preocupação com as consequências do aquecimento global."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A lei europeia, que entrará em vigor no final de 2024, exige que os importadores de mercadorias como o café, o cacau, a carne de bovino, a soja, a borracha e o óleo de palma produzam uma declaração de diligência que prove que os seus produtos não estão a contribuir para a destruição das florestas",
+        "reasoning": "A lei é apresentada como uma exigência que pode ter impactos negativos nos agricultores de pequena escala, sugerindo que a política pode não ser eficaz ou justa."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "A Comissão solicitou à União Europeia e às empresas de café que garantam que tal não acontece, principalmente porque os agricultores desesperados podem ser forçados, neste cenário, a expandir-se para as áreas florestais para aumentar a produção de forma a sobreviver.",
+        "reasoning": "A instituição (União Europeia) é criticada por não considerar as consequências negativas da lei para os agricultores de pequena escala, sugerindo que a instituição não está agindo de forma responsável ou eficaz."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "A desflorestação é responsável por cerca de 10% das emissões globais de gases com efeito de estufa que impulsionam as alterações climáticas",
+        "reasoning": "A desflorestação é apresentada como uma causa significativa das alterações climáticas, ampliando a preocupação com as consequências negativas do aquecimento global."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of the EU",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

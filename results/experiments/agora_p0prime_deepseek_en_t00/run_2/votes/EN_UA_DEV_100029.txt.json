@@ -1,0 +1,71 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Overpraising the West"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Overpraising the West"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "“Russia remains isolated. Their military stocks are rapidly depleting, the soldiers are demoralized, untrained, unmotivated, conscripts, and convicts, and their leadership is failing them, having already failed in their strategic objectives,”",
+        "reasoning": "The quote directly predicts and makes assumptions about the negative state and future prospects of the Russian military, including depleting stocks and demoralized soldiers, which fits the definition of speculating on war outcomes."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "“That will be critical to Ukraine's ability to continue the fight,” Milley said, noting that long range fires would challenge Russia's ability to command and control, protect, and sustain their forces.",
+        "reasoning": "The statement praises the effectiveness and critical importance of Western military aid (tanks, artillery, etc.) provided to Ukraine, framing it as a decisive factor that will challenge Russia, which aligns with excessively lauding Western capabilities and support."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "“Russia remains isolated. Their military stocks are rapidly depleting, the soldiers are demoralized, untrained, unmotivated, conscripts, and convicts, and their leadership is failing them, having already failed in their strategic objectives,”",
+        "reasoning": "The quote directly predicts and makes assumptions about the negative state and future prospects of the Russian military, including depleting stocks and demoralized soldiers, which fits the definition of speculating on war outcomes."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "“That will be critical to Ukraine's ability to continue the fight,” Milley said, noting that long range fires would challenge Russia's ability to command and control, protect, and sustain their forces.",
+        "reasoning": "The statement praises the military contributions (like tanks and long-range fires) from Western allies as decisive and critical, highlighting their effectiveness in challenging Russia, which aligns with excessively lauding Western capabilities and support."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

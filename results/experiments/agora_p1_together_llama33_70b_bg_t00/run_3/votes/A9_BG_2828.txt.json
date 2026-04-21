@@ -1,0 +1,181 @@
+{
+  "file_id": "A9_BG_2828.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Текстът цитира Вячеслав Володин, който казва, че най-ефективният начин за прекратяване на конфликта в Украйна е да спре доставянето на оръжие на киевските нацисти, което имплицитно поставя вината за конфликта на страните, които доставят оръжие, а не на Русия."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевските нацисти",
+        "reasoning": "Текстът използва термина \"нацисти\" за да описе киевския режим, което е директна атака срещу легитимността и репутацията на Украйна като нация."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти",
+        "reasoning": "Текстът критикува политиката на САЩ и ЕС, казвайки, че е основана на лицемерие и двойни стандарти, което е директна критика срещу Западните страни и тяхната дипломация."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Текстът цитира Вячеслав Володин, който заявява, че най-ефективният начин за прекратяване на конфликта в Украйна е да спре доставката на оръжие на киевските нацисти, което имплицитно поставя вината за конфликта на страните, които доставят оръжие, а не на Русия."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевските нацисти",
+        "reasoning": "Текстът използва термина \"нацисти\" за да описе киевския режим, което е явна атака срещу легитимността и репутацията на украинското правителство."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти",
+        "reasoning": "Текстът цитира Вячеслав Володин, който критикува политиката на САЩ и ЕС, обвинявайки ги в лицемерие и двойни стандарти, което е директна атака срещу западните държави и тяхната дипломация."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Текстът цитира Вячеслав Володин, който казва, че най-ефективният начин за прекратяване на конфликта в Украйна е да спре доставката на оръжие на киевските нацисти, което имплицира, че конфликта е причинен от действията на други, а не от руската инвазия."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевските нацисти",
+        "reasoning": "Текстът използва термина \"нацисти\" за да опише киевския режим, което е подценка на легитимността и действията на украинското правителство и общество."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти",
+        "reasoning": "Текстът критикува политиката на САЩ и ЕС, казвайки, че е основана на лицемерие и двойни стандарти, което е критика на западните институции и политики."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "ВС на РФ в зоната на провеждане на СВО",
+        "reasoning": "Текстът споменава руските военни действия в зоната на специалната военна операция, което може да се разглежда като похвала на руската военна мощ и ефективност."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

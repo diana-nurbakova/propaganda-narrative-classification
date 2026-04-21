@@ -1,0 +1,160 @@
+{
+  "file_id": "A9_BG_2961.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Russia",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting Russia",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Praise of Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално, да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "This quote directly criticizes Russia's actions and intentions, implying that Russia aims to normalize terror and exploit Ukraine's vulnerabilities, which discredits Russia's behavior in the conflict."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "This part of the quote suggests that the war is partly due to the indecisiveness of Ukraine's partners, shifting some blame away from Russia, the invader."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "едва когато (руският му колега Владимир) Путин загуби способността си да атакува цивилни и гражданска инфраструктура, той ще бъде принуден да спре своя терор",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that once Putin loses the ability to attack civilians and infrastructure, he will be forced to stop his terror, which is a prediction about the future course of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "This quote criticizes the indecisiveness of Ukraine's partners (implied to be Western countries), suggesting that their lack of resolve is being exploited by Russia, which discredits the West's diplomatic efforts in supporting Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално, да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Тази цитата показва, че Русия е обвинена в терор и се опитва да нормализира това поведение, което е форма на дискредитация на Русия."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Пълната защита на украинското небе трябва да стане норма. За да разберат лудите в Кремъл, че терорът им е напразен",
+        "reasoning": "Тази цитата показва, че украинският президент обвинява Русия в терор и се опитва да я дискредитира, което е форма на обвинение на Русия за войната."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "едва когато (руският му колега Владимир) Путин загуби способността си да атакува цивилни и гражданска инфраструктура, той ще бъде принуден да спре своя терор",
+        "reasoning": "Тази цитата показва, че украинският президент спекулира за бъдещите резултати от войната и какво ще бъде необходимо, за да спре терора на Русия."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално",
+        "reasoning": "Тази цитата показва, че Русия е обвинена в терор и се опитва да нормализира това поведение, което е форма на дискредитация на Русия."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "да използва липсата на достатъчна противовъздушна отбрана на Украйна и да се възползва от нерешителността на партньорите на Украйна",
+        "reasoning": "Тази цитата показва, че Русия е обвинена в използване на слабостите на Украйна и нерешителността на партньорите ѝ, което е форма на прехвърляне на отговорността за войната от Русия към други страни."
+      },
+      {
+        "narrative_name": "URW: Praise of Ukraine",
+        "evidence_quote": "Пълната защита на украинското небе трябва да стане норма",
+        "reasoning": "Тази цитата показва, че Украинският президент Володимир Зеленски призова за пълна защита на украинското небе, което е форма на похвала и подкрепа за Украинската държава и нейните цели."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Russia",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 82.92682926829268,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

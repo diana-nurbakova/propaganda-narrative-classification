@@ -1,0 +1,142 @@
+{
+  "file_id": "EN_UA_DEV_215.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+        "reasoning": "This statement directly undermines the legitimacy and character of Ukraine by asserting widespread corruption as an inherent, pre-existing condition, which aligns with the definition of discrediting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it.",
+        "reasoning": "This quote criticizes the motives of Western (specifically American) aid, portraying it as self-interested and cynical rather than genuinely humanitarian or diplomatic, which fits the narrative of discrediting Western actions."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "The even bigger concern is that the American public may soften its stance on defending Ukraine against Russia because of this. The more corruption and contract fraud comes to light, the less American taxpayers are willing to foot the bill...",
+        "reasoning": "This statement predicts a negative outcome for Western (U.S.) support for Ukraine, suggesting that revelations of corruption will lead to reduced public willingness to fund the war effort, highlighting an adverse consequence for Western policy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+        "reasoning": "This statement directly undermines the legitimacy and character of Ukraine by asserting widespread, pre-existing corruption as a universally accepted fact, which aligns with the definition of discrediting the nation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it.",
+        "reasoning": "This quote criticizes the motives of Western (specifically American) aid, portraying it as self-interested and cynical rather than genuinely humanitarian or diplomatic, which discredits Western intentions and policy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "On this, pretty much everyone agrees: Ukraine was highly corrupt long before its even more corrupted neighbor invaded.",
+        "reasoning": "This statement directly undermines the legitimacy and character of Ukraine by asserting widespread, pre-existing corruption as a universally accepted fact, which aligns with the definition of discrediting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The American military aid to Ukraine is not about saving the Ukrainian people. There is nothing altruistic about it.",
+        "reasoning": "This quote criticizes the motives of Western (specifically American) aid, portraying it as self-interested and cynical rather than a genuine diplomatic or humanitarian effort, which fits the narrative of discrediting the West."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: West is tired of Ukraine"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "matched": "URW: Discrediting the West, Diplomacy: West is tired of Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "file_id": "A9_BG_8427.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West",
+      "URW: URW: Blaming the war on others rather than the invader"
+    ],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западните санкции възпират военната машина на Руската федерация. Докато продължава агресията, те не бива да бъдат отслабвани, както предлагат руските така наречени опозиционери.",
+        "reasoning": "Този цитат показва критика към западните санкции и опозиционерите, които ги подкрепят, което е характерно за нарътвата \"URW: Discrediting the West, Diplomacy\""
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Според него, това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\".",
+        "reasoning": "Този цитат показва, че Русия е представена като жертва на западните санкции и негативните настроения, което е характерно за нарътвата \"URW: Russia is the Victim\""
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора, коментира Ермак.",
+        "reasoning": "Този цитат показва, че санкциите имат положително влияние върху Русия, а не върху Запада, което е характерно за нарътвата \"URW: Negative Consequences for the West\""
+      },
+      {
+        "narrative_name": "URW: URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Обща цел за всички руснаци би трябвало да бъде освобождаването на Русия от безумния диктатор Путин и неговия режим, а не борбата със санкциите.",
+        "reasoning": "Този цитат показва, че отговорността за войната е пренасочена към Путин и неговия режим, а не към Русия като държава, което е характерно за нарътвата \"URW: Blaming the war on others rather than the invader\""
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западните санкции възпират военната машина на Руската федерация. Докато продължава агресията, те не бива да бъдат отслабвани, както предлагат руските така наречени опозиционери.",
+        "reasoning": "Този цитат показва критика към западните санкции и опозиционерите, които ги подкрепят, което е характерно за нарътвата \"URW: Discrediting the West, Diplomacy\""
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Според него, това е необходимо, за да се опровергае митът, че на Запад \"мразят руснаците\"",
+        "reasoning": "Този цитат показва, че Русия е представена като жертва на западните санкции и негативните настроения, което е характерно за нарътвата \"URW: Russia is the Victim\""
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора, коментира Ермак.",
+        "reasoning": "Този цитат показва, че санкциите са представени като причина за продължаването на войната, а не агресията на Русия, което е характерно за нарътвата \"URW: Blaming the war on others rather than the invader\""
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

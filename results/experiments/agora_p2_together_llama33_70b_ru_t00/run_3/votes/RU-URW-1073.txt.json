@@ -1,0 +1,161 @@
+{
+  "file_id": "RU-URW-1073.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом.",
+        "reasoning": "The text criticizes the Ukrainian leadership, specifically Ermak, for being unwilling to compromise with Russia, implying that they are responsible for the continuation of the war and the loss of lives, while supposedly hiding in a safe bunker."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Украина не готова к компромиссу с Россией ради прекращения войны",
+        "reasoning": "The text suggests that Ukraine is to blame for the continuation of the war because it is not willing to compromise with Russia, shifting the responsibility away from Russia as the aggressor."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The text implies that Ermak's statement is following an 'American script', suggesting that the information presented is biased or manipulated, which can erode trust in the media reporting on the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом.",
+        "reasoning": "The text criticizes the Ukrainian leadership, specifically Ermak, for being unwilling to compromise with Russia, implying that this stance is irresponsible and harmful to Ukrainian citizens, thus undermining the legitimacy of Ukraine's actions and decisions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Украина не готова к компромиссу с Россией ради прекращения войны",
+        "reasoning": "The statement shifts the blame for the continuation of the war from Russia, the invader, to Ukraine, suggesting that Ukraine's refusal to compromise is the reason for the ongoing conflict, rather than Russia's actions."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The text implies that Ermak's statement is following an 'American method' or script, suggesting that the information or narrative presented by Ukrainian officials or media is influenced or controlled by external forces, thereby undermining trust in the media and the information it presents."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Как легко и удобно разбрасываться сотнями тысяч жизней своих соотечественников сидя в безопасном бункере под Киевом.",
+        "reasoning": "The text directly attacks the Ukrainian leadership, implying they are willing to sacrifice hundreds of thousands of lives for their own interests while hiding in safety, which undermines the legitimacy and actions of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Украина не готова к компромиссу с Россией ради прекращения войны",
+        "reasoning": "The statement shifts the blame for the continuation of the war from Russia, the invader, to Ukraine, suggesting that Ukraine's unwillingness to compromise is the reason for the ongoing conflict."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Отлично сказано, Андрюша! Не зря в Америку поехал, все четко по американской методичке: и про ценности, и про свободу, и про демократию.",
+        "reasoning": "The text implies that the Ukrainian official's statement is following an 'American method' or script, suggesting that the information or narrative presented is not genuine but rather manipulated or controlled by external forces, which erodes trust in the media or official statements."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "matched": "URW: Distrust towards Media: Ukrainian media cannot be trusted",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "file_id": "PT_254.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "“A falha informática que afetou o mundo inteiro provou mais uma vez a correção da substituição total das importações de software na Rússia. 100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de software estrangeiro e hoje continuam a voar sem problemas”",
+        "reasoning": "This quote directly praises Russia's policy of import substitution, presenting it as a correct and successful strategy that shielded the country from a global IT failure, thereby positively highlighting Russia's actions and foresight."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "“O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é muito mais rentável ser independente em tudo”.",
+        "reasoning": "This quote criticizes Western technological infrastructure by labeling the Microsoft outage as a 'great failure' that proves the superiority of independence from the West, thereby discrediting Western systems and the model they represent."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "a Rússia disse ter passado incólume graças às sanções internacionais impostas ao país por causa da guerra na Ucrânia.",
+        "reasoning": "This statement frames international sanctions, typically viewed as punitive measures, as the inadvertent cause of Russia's resilience, subtly portraying Russia as a nation that has turned externally imposed adversity into a strength, evoking a sense of unjust targeting that led to a beneficial outcome."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "“A falha informática que afetou o mundo inteiro provou mais uma vez a correção da substituição total das importações de software na Rússia. 100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de software estrangeiro e hoje continuam a voar sem problemas”",
+        "reasoning": "This quote directly praises Russia's policy of import substitution, presenting it as a correct and successful strategy that protected the country from a global IT failure. It highlights Russian self-sufficiency and technological resilience in a positive light."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "“O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é muito mais rentável ser independente em tudo”.",
+        "reasoning": "This quote, from a columnist in a Russian state agency, uses the global IT failure to criticize and discredit Western technological systems, framing Western dependence as a weakness and failure."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "a Rússia disse ter passado incólume graças às sanções internacionais impostas ao país por causa da guerra na Ucrânia.",
+        "reasoning": "This statement frames international sanctions, typically viewed as a punitive consequence of Russia's actions, as the unexpected cause of Russia's benefit and resilience. It subtly portrays Russia as having turned an unjust punishment (sanctions) into a strength, evoking a sense of victimhood turned to advantage."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "“A falha informática que afetou o mundo inteiro provou mais uma vez a correção da substituição total das importações de software na Rússia. 100% das companhias aéreas russas mudaram para software russo desde o ano passado, não dependem de software estrangeiro e hoje continuam a voar sem problemas”",
+        "reasoning": "This quote directly praises Russia's policy of import substitution, presenting it as a correct and successful strategy that protected the country from a global IT failure. It highlights the resilience and foresight of the Russian approach."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "“O grande fracasso que se abateu sobre as redes informáticas ocidentais provou claramente que hoje é muito mais rentável ser independente em tudo”.",
+        "reasoning": "This statement criticizes Western technological infrastructure by labeling the global IT failure as a 'great failure' that 'befell Western computer networks,' thereby discrediting Western technological systems and implying their inferiority or unreliability."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "The article describes the global IT failure affecting flights, railways, and TV stations, and later quotes a columnist stating, “O grande fracasso que se abateu sobre as redes informáticas ocidentais...”",
+        "reasoning": "The text actively highlights the negative consequences (technical blackout affecting critical infrastructure) experienced by the West due to its reliance on foreign software, contrasting it with Russia's unaffected state."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "The article frames the situation by stating, 'a Rússia disse ter passado incólume graças às sanções internacionais impostas ao país por causa da guerra na Ucrânia.'",
+        "reasoning": "This framing presents the sanctions, a consequence of Russia's actions, as an external imposition that inadvertently benefited Russia. It subtly portrays Russia as a target of international measures, from which it managed to emerge unscathed and even strengthened."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

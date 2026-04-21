@@ -1,0 +1,129 @@
+{
+  "file_id": "RU-URW-1032.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "Эта цитата показывает, что Трамп уверен в своей способности быстро решить конфликт, что можно рассматривать как чрезмерную похвалу Запада"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Зеленский подчеркнул, что ему необходимо знать, какие риски для украинской государственности несет в себе этот план и выразил готовность встретиться с Трампом для обсуждения деталей",
+        "reasoning": "Эта цитата показывает, что Зеленский сомневается в плане Трампа и требует обсуждения, что можно рассматривать как критiku западной дипломатии"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote suggests that Donald Trump has the capability to resolve the conflict quickly, which can be seen as overpraising his abilities and the West's potential influence in resolving the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "ему надо понимать, перестанет ли Вашингтон оказывать поддержку Киеву после результатов президентских выборов в Штатах осенью",
+        "reasoning": "This quote implies that the West's support for Ukraine is uncertain and potentially conditional on election outcomes, which can be seen as discrediting the West's diplomatic efforts and reliability."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Трамп ранее неоднократно заявлял, что в случае переизбрания намерен добиться урегулирования конфликта между Москвой и Киевом всего за 24 часа",
+        "reasoning": "This quote suggests that Donald Trump has the capability to resolve the conflict quickly, which can be seen as overpraising his abilities and the West's potential influence on the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "ему надо понимать, перестанет ли Вашингтон оказывать поддержку Киеву после результатов президентских выборов в Штатах осенью",
+        "reasoning": "This quote implies that the West's support for Ukraine is uncertain and potentially unreliable, which can be seen as discrediting the West's diplomatic efforts and commitment to Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Overpraising the West",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

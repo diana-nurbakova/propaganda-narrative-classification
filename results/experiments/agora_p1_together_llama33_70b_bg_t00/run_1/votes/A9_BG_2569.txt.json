@@ -1,0 +1,167 @@
+{
+  "file_id": "A9_BG_2569.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма-Лавров",
+        "reasoning": "The text directly quotes Russian Foreign Minister Sergey Lavrov stating that Ukraine is experiencing a resurgence of Nazism, which is a clear attempt to discredit Ukraine by associating it with extremist ideologies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Там преобладава изразът \"русня\", а също така се казва, че нищо руско не трябва да има нито в Харков, нито в Николаев",
+        "reasoning": "This quote further discredits Ukraine by implying that the Ukrainian government and officials are promoting anti-Russian sentiment and seeking to eradicate Russian presence in certain cities."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация",
+        "reasoning": "The text criticizes Western organizations and countries for allegedly turning a blind eye to Nazism in Ukraine and implies that they are using Ukraine as a tool against Russia, which discredits Western diplomacy and intentions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма-Лавров",
+        "reasoning": "The text directly quotes Russian Foreign Minister Sergey Lavrov stating that Ukraine is experiencing a resurgence of Nazism, which is a clear attempt to discredit Ukraine by associating it with extremist ideologies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Там преобладава изразът \"русня\", а също така се казва, че нищо руско не трябва да има нито в Харков, нито в Николаев",
+        "reasoning": "This quote further discredits Ukraine by implying that the Ukrainian government and officials hold racist and discriminatory views against Russians, promoting a narrative of Ukrainian intolerance and extremism."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Международните организации не забелязват проявите на нацизма в Украйна.",
+        "reasoning": "The text suggests that international organizations are ignoring or downplaying the presence of Nazism in Ukraine, which implies a lack of trust in these organizations and their ability to report accurately on the situation, fitting the narrative of distrust towards media and international bodies."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация",
+        "reasoning": "This quote portrays Russia as a victim of Western hypocrisy and double standards, suggesting that the West is using Ukraine as a tool against Russia and ignoring or condoning Nazi elements in Ukraine, which fits the narrative of Russia being unfairly targeted and victimized."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма-Лавров",
+        "reasoning": "The text directly quotes Russian Foreign Minister Sergey Lavrov stating that Ukraine is experiencing a resurgence of Nazism, which is a clear attempt to discredit Ukraine by associating it with a highly negative ideology."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Тези страни са сред тези, които инициират най - русофобските позиции и действия на Евросъюза и Северноатлантическия алианс",
+        "reasoning": "The text criticizes Western countries, specifically the Baltic states, Poland, and the Czech Republic, for promoting anti-Russian positions and actions within the EU and NATO, which is a clear example of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация",
+        "reasoning": "The text portrays Russia as a victim of double standards and hypocrisy from international organizations and Western countries, which are allegedly turning a blind eye to Ukraine's alleged Nazism and instead focusing on criticizing Russia."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "file_id": "EN_CC_200065.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote suggests that the claims of climate alarmists are exaggerated or not supported by science, which aligns with the narrative of downplaying climate change."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Although sporadic attempts to measure temperature were made previously, “there are too few data before 1880 for scientists to estimate average temperatures for the entire planet,” NASA has concluded.",
+        "reasoning": "This quote raises doubts about the accuracy and reliability of temperature measurements, particularly before 1880, which questions the scientific consensus on climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather, asserting earth saw its hottest day on record this week and likely “the hottest day in thousands of years.”",
+        "reasoning": "The use of the term 'climate alarmists' implies that the climate movement is exaggerating or misrepresenting the facts, which challenges the motives and integrity of the movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote implies that climate alarmists are prioritizing sensationalism over scientific accuracy, which criticizes their approach to climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the once prestigious Lancet medical journal",
+        "reasoning": "The use of 'once prestigious' to describe the Lancet medical journal implies a loss of credibility, which challenges the institution's authority on climate issues."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Although sporadic attempts to measure temperature were made previously, “there are too few data before 1880 for scientists to estimate average temperatures for the entire planet,”",
+        "reasoning": "This quote highlights the limitations of temperature data collection, which can be seen as downplaying the significance of climate change by emphasizing the uncertainty of historical temperature records."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’”",
+        "reasoning": "This quote raises doubts about the scientific methods used to measure climate change, specifically the use of proxy records, which questions the accuracy of the science."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote implies that climate alarmists are prioritizing sensationalism over scientific accuracy, which criticizes their approach to climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the once prestigious Lancet medical journal",
+        "reasoning": "The use of 'once prestigious' to describe the Lancet medical journal implies a criticism of the institution's current credibility and authority on climate issues."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Although sporadic attempts to measure temperature were made previously, “there are too few data before 1880 for scientists to estimate average temperatures for the entire planet,”",
+        "reasoning": "This quote downplays the significance of current temperature records by highlighting the limitations of historical data, which undermines the urgency of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’”",
+        "reasoning": "This quote questions the validity of using proxy records to estimate historical temperatures, which raises doubts about the scientific methods used to study climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

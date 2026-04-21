@@ -1,0 +1,182 @@
+{
+  "file_id": "A9_BG_3964.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Западът отгледа \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "Текстът директно нарича Украйна \"терористична гадина\", което е ясен пример за подкопаване на легитимността и действията на Украйна като нация."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Световната общност на Запада трябва да разбере кого са възпитали – те са отгледали \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "Текстът премества отговорността за действията на Украйна към Запада, като го обвинява в „отглеждане“ на тази „терористична гадина“."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Тя унищожава и гражданското население вече безразборно: и своята, и прилежащите територии, гражданската инфраструктура, тя унищожава мирния живот като такъв.",
+        "reasoning": "Текстът представя Русия и прилежащите ѝ територии като жертви на агресията на Украйна, което е част от наративът, че Русия е жертва на агресията."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Западът отгледа \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "The quote directly discredits Ukraine by comparing it to a 'терористична гадина' (terrorist monster), implying that Ukraine is responsible for destructive and terrorist actions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Световната общност на Запада трябва да разбере кого са възпитали – те са отгледали \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "This quote shifts the blame for the conflict from Russia to the West, implying that the West is responsible for 'raising' or supporting the 'терористична гадина' (Ukraine), thus justifying Russia's actions as a response to Western-backed aggression."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Тя унищожава и гражданското население вече безразборно: и своята, и прилежащите територии, гражданската инфраструктура, тя унищожава мирния живот като такъв.",
+        "reasoning": "The quote portrays Russia (and the territories under its influence, like Luhansk) as the victim of Ukrainian aggression, emphasizing the destruction of civilian life and infrastructure, which evokes sympathy for Russia's position and justifies its actions as self-defense."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Западът отгледа \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "The quote directly discredits Ukraine by comparing it to a \"терористична гадина\" (terrorist monster), implying that Ukraine is responsible for destructive and terrorist actions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Световната общност на Запада трябва да разбере кого са възпитали – те са отгледали \"терористична гадина\", която унищожава всичко.",
+        "reasoning": "This quote shifts the blame for the conflict from Russia to the West, implying that the West is responsible for creating and supporting a \"терористична гадина\" (terrorist monster) in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Тя унищожава и гражданското население вече безразборно: и своята, и прилежащите територии, гражданската инфраструктура, тя унищожава мирния живот като такъв.",
+        "reasoning": "The quote portrays Russia as a victim by highlighting the destruction and harm caused to civilian populations and infrastructure, implying that Russia is suffering unfairly due to the actions of Ukraine and its Western supporters."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

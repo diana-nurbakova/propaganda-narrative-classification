@@ -1,0 +1,147 @@
+{
+  "file_id": "A9_BG_8427.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западните санкции възпират военната машина на Руската федерация. Докато продължава агресията, те не бива да бъдат отслабвани, както предлагат руските така наречени опозиционери.",
+        "reasoning": "Текстът представя критика към западните санкции и опозиционерите, които ги подкрепят, което е характерно за наративите, които дискредитират западната дипломация и политики."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора",
+        "reasoning": "Текстът подчертава положителните последствия от санкциите за Русия, което е противоположно на наративите, които подчертават негативните последствия за Запада."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Обща цел за всички руснаци би трябвало да бъде освобождаването на Русия от безумния диктатор Путин и неговия режим, а не борбата със санкциите.",
+        "reasoning": "Текстът не съдържа директна похвала към Русия или нейния режим, но изразява подкрепа за освобождаването на Русия от режима на Путин, което може да бъде интерпретирано като похвала към руските опозиционери и техните усилия."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Текстът представя критика към западните санкции, които според руските опозиционери са насочени срещу руската страна като цяло, а не конкретно против режима на Путин, което е типичен аргумент, използван за дискредитиране на западната дипломация и политика."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Санкциите спъват военната машина на режима на Путин и му пречат да убива хора, коментира Ермак.",
+        "reasoning": "Текстът споменава, че санкциите имат негативни последствия за Русия, което е типичен аргумент, използван за подчертаване на негативните последствия от санкциите за западните страни, в този случай Русия."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Мария Кучеренко – анализатор от Фондация \"Върни се жив\", отбеляза, че руските опозиционери фактически преповтарят тезите на Кремъл: първо ни направете отстъпка, а после ще се види.",
+        "reasoning": "Текстът представя критика към руските опозиционери, които според анализатора преповтарят тезите на Кремъл, което може да бъде интерпретирано като дискредитиране на медиите и информационните източници, които разпространяват тези тези."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западните санкции възпират военната машина на Руската федерация. Докато продължава агресията, те не бива да бъдат отслабвани, както предлагат руските така наречени опозиционери.",
+        "reasoning": "Текстът представя критика към западните санкции и предлага да бъдат отслабени, което е характерно за нарратива \"Discrediting the West, Diplomacy\"."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Според него, това е \"несправедливо и контрапродуктивно\".",
+        "reasoning": "Текстът споменава, че санкциите са насочени срещу руската страна като цяло, а не конкретно против режима на Путин, което предполага, че санкциите имат негативни последствия за руснаците, което е характерно за нарратива \"Negative Consequences for the West\"."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Обща цел за всички руснаци би трябвало да бъде освобождаването на Русия от безумния диктатор Путин и неговия режим, а не борбата със санкциите.",
+        "reasoning": "Текстът не съдържа директна похвала към Русия, но споменава за необходимостта от освобождаване на Русия от режима на Путин, което може да се интерпретира като похвала към руската страна и нейните граждани, което е характерно за нарратива \"Praise of Russia\"."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "file_id": "HI_114.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध?",
+        "reasoning": "The headline poses a direct question suggesting that Russia's actions could trigger a world war. This is not a neutral report but an active framing that evokes fear about the conflict escalating to a global scale."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "आगबबूला हुआ अमेरिका; फ्रांस ने भी कहा- अब खैर नहीं",
+        "reasoning": "The text describes the US as 'आगबबूला हुआ' (enraged/furious) and France as saying 'अब खैर नहीं' (now there is no peace/good). This language portrays Western nations as emotionally reactive and escalatory, undermining their diplomatic posture."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस का दावा है कि रूस इस गैस से दुश्मन खेमे की सेना पर काबू पाकर युद्ध के रणनीतिक क्षेत्र में अपना योगदान दे रहा है।",
+        "reasoning": "This quote presents Russia's justification for using chemical agents as a legitimate strategic contribution to the war, framing its actions as a necessary response to the 'enemy camp' rather than acknowledging its role as the aggressor. It actively promotes the narrative that Russia's actions are defensive or tactical responses, shifting blame."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध?",
+        "reasoning": "The headline directly poses a question about whether Russia's actions could trigger a world war, which is designed to evoke fear and anxiety about an escalation to a global conflict."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस का दावा है कि रूस इस गैस से दुश्मन खेमे की सेना पर काबू पाकर युद्ध के रणनीतिक क्षेत्र में अपना योगदान दे रहा है।",
+        "reasoning": "This quote presents Russia's justification for using chemical weapons as a legitimate military contribution to control the enemy, implicitly framing its aggressive actions as a necessary response to the conflict situation, thereby shifting blame away from Russia as the invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस के राष्ट्रपति इमैनुएल मैक्रॉन ने धमकी दी है कि अगर रूस ने ताकत दिखाई और यूक्रेन ने कहा तो फ्रांस अपनी जमीनी सेना उतार देगा।",
+        "reasoning": "The text frames the French President's statement about potential troop deployment as a 'threat' (धमकी), portraying Western diplomatic and military posturing in a negative and aggressive light."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध?",
+        "reasoning": "The headline directly poses a question about whether Russia's actions could trigger a world war, which is designed to evoke fear and anxiety about an escalation to a global conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "आगबबूला हुआ अमेरिका; फ्रांस ने भी कहा- अब खैर नहीं",
+        "reasoning": "The text describes the US and France as 'enraged' and implying things are not well ('अब खैर नहीं'), portraying Western diplomatic reactions as emotional and unstable rather than measured."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

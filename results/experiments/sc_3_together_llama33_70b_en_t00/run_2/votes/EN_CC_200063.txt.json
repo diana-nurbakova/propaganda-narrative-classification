@@ -1,0 +1,188 @@
+{
+  "file_id": "EN_CC_200063.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The shareholder proposal process has gone too far. How else to interpret the proposal recently sponsored by the climate activist investors Arjuna Capital and Follow This at ExxonMobil, which called on the oil giant to reduce further its carbon footprint?",
+        "reasoning": "This quote criticizes the shareholder proposal process, specifically targeting climate activist investors' proposal for ExxonMobil to reduce its carbon footprint, implying that such policies are excessive or misguided."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the troubling manner in which the SEC oversees its shareholder-proposal process",
+        "reasoning": "This quote expresses criticism towards the SEC's oversight of the shareholder-proposal process, suggesting that the SEC's approach is flawed or inappropriate."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "To accomplish such an aggressive timetable, ExxonMobil would probably have to give up its planned $60 billion acquisition of Pioneer Natural Resources, and severely contract current operations",
+        "reasoning": "This quote downplays the importance of reducing GHG emissions by highlighting the potential economic costs and operational disruptions, implying that addressing climate change is not a priority or is too burdensome."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals",
+        "reasoning": "This quote criticizes the climate movement by implying that the proposal is a result of the SEC's permissive approach, suggesting that the movement is taking advantage of this approach to push its agenda."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "The shareholder proposal process has gone too far. How else to interpret the proposal recently sponsored by the climate activist investors Arjuna Capital and Follow This at ExxonMobil, which called on the oil giant to reduce further its carbon footprint?",
+        "reasoning": "This quote criticizes the shareholder proposal process, specifically targeting climate activist investors and their proposal for ExxonMobil to reduce its carbon footprint, implying that such policies are excessive or misguided."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the troubling manner in which the SEC oversees its shareholder-proposal process",
+        "reasoning": "This quote expresses criticism towards the SEC's oversight of the shareholder proposal process, suggesting that the SEC's approach is flawed or inappropriate."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals",
+        "reasoning": "This quote criticizes the climate movement by implying that the proposal submitted by climate activists is a result of the SEC's overly permissive approach, suggesting that the movement is taking advantage of this approach to push its agenda."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "The shareholder proposal process has gone too far. How else to interpret the proposal recently sponsored by the climate activist investors Arjuna Capital and Follow This at ExxonMobil, which called on the oil giant to reduce further its carbon footprint?",
+        "reasoning": "This quote criticizes the shareholder proposal process, specifically targeting climate activist investors' proposal for ExxonMobil to reduce its carbon footprint, implying that such policies are excessive or misguided."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the troubling manner in which the SEC oversees its shareholder-proposal process",
+        "reasoning": "This quote criticizes the SEC's oversight of the shareholder-proposal process, implying that the SEC is overreaching or failing in its regulatory duties."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals",
+        "reasoning": "This quote criticizes the climate movement by implying that the SEC's permissive approach to shareholder proposals is 'lawless' and that the proposal submitted by climate activists is an example of this issue."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate movement"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

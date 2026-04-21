@@ -1,0 +1,122 @@
+{
+  "file_id": "A9_BG_4026.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Тези промени в политиката на Запада, както и плановете на френския президент Еманюел Макрон да изпрати френски войски, които да обучават украински войници и може би дори да участват в бойни действия, засилиха опасенията, че Русия може да прибегне до ядрени оръжия като ответна стъпка.",
+        "reasoning": "The quote directly states that Western policy changes and plans to send troops have heightened fears that Russia may resort to nuclear weapons as a countermeasure. This actively promotes anxiety about a severe escalation and nuclear conflict."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Тези промени в политиката на Запада, както и плановете на френския президент Еманюел Макрон да изпрати френски войски, които да обучават украински войници и може би дори да участват в бойни действия, засилиха опасенията, че Русия може да прибегне до ядрени оръжия като ответна стъпка.",
+        "reasoning": "The text frames the potential Russian nuclear response as a consequence of Western actions (policy changes, plans to send troops), thereby shifting the causal responsibility for escalation away from Russia's initial invasion and onto the West's support for Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Тези промени в политиката на Запада, както и плановете на френския президент Еманюел Макрон да изпрати френски войски, които да обучават украински войници и може би дори да участват в бойни действия, засилиха опасенията, че Русия може да прибегне до ядрени оръжия като ответна стъпка.",
+        "reasoning": "The text directly states that Western policy changes and plans have heightened fears that Russia may resort to nuclear weapons as a retaliatory step. This is not a neutral report but an active amplification of the fear of nuclear escalation."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Тези промени в политиката на Запада, както и плановете на френския президент Еманюел Макрон да изпрати френски войски... засилиха опасенията, че Русия може да прибегне до ядрени оръжия като ответна стъпка.",
+        "reasoning": "The text frames the potential Russian nuclear response as a consequence of Western actions (policy changes, troop deployment plans), implicitly shifting the causal responsibility for escalation away from Russia's initial invasion and onto the West's support for Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Тези промени в политиката на Запада, както и плановете на френския президент Еманюел Макрон да изпрати френски войски, които да обучават украински войници и може би дори да участват в бойни действия, засилиха опасенията, че Русия може да прибегне до ядрени оръжия като ответна стъпка.",
+        "reasoning": "The quote directly states that Western policy changes and plans have heightened fears that Russia may resort to nuclear weapons as a retaliatory step. This actively promotes anxiety about a severe escalation and nuclear threat, fitting the definition of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Тези промени в политиката на Запада, както и плановете на френския президент Еманюел Макрон да изпрати френски войски, които да обучават украински войници и може би дори да участват в бойни действия, засилиха опасенията, че Русия може да прибегне до ядрени оръжия като ответна стъпка.",
+        "reasoning": "The text frames the potential Russian nuclear escalation as a 'response' or 'retaliatory step' to Western actions (policy changes, troop deployment plans). This implicitly shifts responsibility for the escalation away from Russia, the invader, and onto the West, suggesting their actions are provoking a dangerous Russian reaction."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

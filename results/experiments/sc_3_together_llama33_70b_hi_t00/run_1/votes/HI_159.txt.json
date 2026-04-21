@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_159.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस की तरफ से दावा किया गया है कि उसने डोनेट्स्क के पूर्वी यूक्रेनी क्षेत्र में एक महत्वपूर्ण लॉजिस्टिक हब के पास एक गांव पर कब्जा कर लिया है।",
+        "reasoning": "इस उद्धरण में रूस की सैन्य सफलता को प्रस्तुत किया गया है, जो रूस की क्षमता और शक्ति को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन के हमलों में अपनी जमीन गंवाने के बाद भी रूस ने अपना कड़ा रुख नहीं बदला है।",
+        "reasoning": "इस उद्धरण में यूक्रेन की सैन्य कार्रवाइयों को कमजोर और अप्रभावी दिखाया गया है, जो यूक्रेन की विश्वसनीयता को कम करता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "हमला करके यूक्रेन ने भले ही रूसी कुर्स्क क्षेत्र में बढ़त हासिल कर रखी हो लेकिन इन हमलों ने रूस का मनोबल तोड़ने की जगह उसे और भी ज्यादा हमलावर बना दिया है।",
+        "reasoning": "इस उद्धरण में यूक्रेन के हमलों को रूस के प्रति एक आक्रामक कार्रवाई के रूप में चित्रित किया गया है, जो रूस को एक पीड़ित के रूप में दिखाता है।"
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

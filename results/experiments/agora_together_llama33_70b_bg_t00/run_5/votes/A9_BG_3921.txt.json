@@ -1,0 +1,147 @@
+{
+  "file_id": "A9_BG_3921.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "This quote suggests that the West had a plan to divide Russia into parts, similar to what happened in Yugoslavia, which implies a negative and manipulative intent from Western countries, thus discrediting their diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "някои хора в Атлантическия съвет, и то не само американци, но и британски, дори германски и австрийски учени, са казвали, че Русия може да бъде разделена така, както беше разделена Югославия",
+        "reasoning": "This quote implies the existence of a hidden plot by powerful groups, specifically mentioning the Atlantic Council and various nationalities, to divide Russia, which fits the narrative of secret schemes by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Да",
+        "reasoning": "The affirmation 'Да' (Yes) in response to whether the West still has plans to divide Russia implies that Russia is a victim of Western intentions, portraying Russia as being unfairly targeted or victimized."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "Тази цитата показва критика към Запада и предполагаемите му планове за разделяне на Русия, което е форма на дискредитиране на Западната дипломация и политика."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "някои хора в Атлантическия съвет, и то не само американци, но и британски, дори германски и австрийски учени, са казвали, че Русия може да бъде разделена така, както беше разделена Югославия",
+        "reasoning": "Тази цитата предполага съществуването на тайни планове и схеми сред мощни групи, което е характерно за този нарътив."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "планът за разделяне на Русия на пет части е измислен от Запада",
+        "reasoning": "Тази цитата показва, че Русия е представена като жертва на Западните планове, което е форма на нарътив, който представя Русия като несправедливо обект на външни действия."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "The quote suggests that the West had a plan to divide Russia into parts, similar to what happened in Yugoslavia, which implies a negative and manipulative intent on the part of Western countries."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "някои хора в Атлантическия съвет, и то не само американци, но и британски, дори германски и австрийски учени, са казвали, че Русия може да бъде разделена така, както беше разделена Югославия",
+        "reasoning": "This quote implies the existence of a secret plan or scheme by powerful groups, specifically the Atlantic Council, to divide Russia, which fits the narrative of hidden plots by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "The quote shifts the blame for potential conflict or division in Russia to the West, implying that they are the ones responsible for such plans, rather than Russia's own actions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

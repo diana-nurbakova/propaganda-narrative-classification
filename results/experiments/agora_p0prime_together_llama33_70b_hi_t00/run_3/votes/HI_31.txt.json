@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_31.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों ने कथित तौर पर उन्हें धोखा दिया और रूस पहुंचने पर उन्हें यूक्रेन के खिलाफ युद्ध में भेज दिया गया.",
+        "reasoning": "इस उद्धरण में एजेंटों की धोखाधड़ी का उल्लेख है, जो पश्चिमी देशों की विदेश नीति या कार्यों की आलोचना नहीं करता है, लेकिन यह युद्ध में शामिल होने के लिए भारतीय नागरिकों को धोखा देने वाले एजेंटों की आलोचना करता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "मैं बहुत खुश हूं. मुझे लगता है कि मैं जिंदा घर पहुंच पाऊंगा.",
+        "reasoning": "इस उद्धरण में युद्ध के परिणाम के बारे में अनुमान लगाया गया है, जिसमें यह कहा गया है कि तमांग को लगता है कि वह जीवित घर पहुंच पाएगा।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "हिन्दुस्तान टाइम्स उस वीडियो की सत्यता का दावा नहीं करता है.",
+        "reasoning": "इस उद्धरण में मीडिया की विश्वसनीयता पर संदेह व्यक्त किया गया है, जिसमें यह कहा गया है कि हिन्दुस्तान टाइम्स वीडियो की सत्यता का दावा नहीं करता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,146 @@
+{
+  "file_id": "RU-URW-1120.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Служба внешней разведки (СВР) России сообщила, что США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "This quote suggests that the US is actively seeking to replace the Ukrainian president, implying that the US is interfering in Ukraine's internal affairs and undermining the legitimacy of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "За ночь над Россией уничтожили пять дронов",
+        "reasoning": "This quote portrays Russia as being under attack, with drones being destroyed over its territory, evoking a sense of Russia being a victim of external aggression."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Российская система ПВО сбила ракету реактивной системы залпового огня HIMARS",
+        "reasoning": "This quote highlights the effectiveness of Russia's air defense system, implying that Russia has strong military capabilities and is capable of defending itself against external threats."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Служба внешней разведки (СВР) России сообщила, что США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "This quote suggests that the US is actively seeking to replace the Ukrainian president, implying that the US is interfering in Ukraine's internal affairs and undermining the legitimacy of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Российская система ПВО сбила ракету реактивной системы залпового огня HIMARS, снаряд практически полностью уцелел и упал на востоке Донецка оперативные службы ДНР",
+        "reasoning": "This quote portrays Russia as being under attack and successfully defending itself, evoking a sense of victimhood and highlighting Russia's military capabilities."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны",
+        "reasoning": "This quote implies that the Ukrainian president is dependent on external financing and that his position is tied to the continuation of the war, undermining the legitimacy of the Ukrainian government and its leadership."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Альтернативу подыскивают на случай резкого ухудшения на фронте",
+        "reasoning": "This quote suggests that the West is preparing for a potential worsening of the situation on the front, implying that the West is concerned about the consequences of the war and is seeking to mitigate its potential negative outcomes."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Служба внешней разведки (СВР) России сообщила, что США активизировали поиски альтернативы украинскому президенту Владимиру Зеленскому",
+        "reasoning": "This quote suggests that the US is actively seeking to replace the Ukrainian president, implying that the US is interfering in Ukraine's internal affairs and undermining the legitimacy of the Ukrainian government."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "За ночь над Россией уничтожили пять дронов",
+        "reasoning": "This quote portrays Russia as being under attack, with drones being destroyed over its territory, evoking a sense of Russia being a victim of external aggression."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Российская система ПВО сбила ракету реактивной системы залпового огня HIMARS",
+        "reasoning": "This quote highlights the effectiveness of Russia's air defense system, implying that Russia has strong military capabilities and is capable of defending itself against external threats."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "file_id": "PT_253.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Hoje transferimos 1,5 mil milhões de euros em receitas de ativos russos imobilizados para a defesa e reconstrução da Ucrânia. Não há melhor símbolo ou utilidade para o dinheiro do Kremlin do que tornar a Ucrânia e toda a Europa um lugar mais seguro para se viver",
+        "reasoning": "A declaração da presidente da Comissão Europeia, Ursula von der Leyen, destaca a ação da UE como um esforço para tornar a Ucrânia e a Europa mais seguras, o que pode ser visto como uma forma de elogiar as ações da UE e do Ocidente."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Tais medidas da Comissão Europeia não ficarão sem resposta",
+        "reasoning": "A ameaça do porta-voz do Kremlin, Dmitry Peskov, implica que a Rússia tomará medidas contra a UE, o que pode ter consequências negativas para o Ocidente."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "classificou o envio dos bens russos congelados para a Ucrânia como \"ilegal\"",
+        "reasoning": "A declaração do porta-voz do Kremlin, Dmitry Peskov, questiona a legalidade da ação da UE, o que pode ser visto como uma forma de desacreditar as ações da UE e do Ocidente."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Hoje transferimos 1,5 mil milhões de euros em receitas de ativos russos imobilizados para a defesa e reconstrução da Ucrânia. Não há melhor símbolo ou utilidade para o dinheiro do Kremlin do que tornar a Ucrânia e toda a Europa um lugar mais seguro para se viver",
+        "reasoning": "A presidente da Comissão Europeia, Ursula von der Leyen, destaca a ação da UE como um símbolo de tornar a Ucrânia e a Europa mais seguras, o que implica uma postura positiva e de liderança da UE na questão."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Tais medidas da Comissão Europeia não ficarão sem resposta",
+        "reasoning": "A ameaça de retaliação por parte da Rússia implica que a UE pode enfrentar consequências negativas por sua ação, o que é um exemplo de como as medidas tomadas pelo Ocidente podem ter impactos adversos."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "o porta-voz do Kremlin, Dmitry Peskov, classificou o envio dos bens russos congelados para a Ucrânia como \"ilegal\"",
+        "reasoning": "A classificação da ação da UE como ilegal por parte do Kremlin visa desacreditar a legitimidade das ações do Ocidente, questionando sua legalidade e moralidade."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "o porta-voz do Kremlin, Dmitry Peskov, classificou o envio dos bens russos congelados para a Ucrânia como \"ilegal\" e afirmou que a Rússia iria tomar \"ações bem pensadas\" em resposta.",
+        "reasoning": "A Rússia está a criticar a decisão da UE, classificando-a como \"ilegal\", o que implica que a UE está a agir de forma injusta ou ilegítima."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "o presidente russo, Vladimir Putin, afirmou que a utilização destes bens é \"um roubo que não ficará impune\"",
+        "reasoning": "A Rússia está a ser retratada como vítima de um \"roubo\", o que sugere que está a ser tratada de forma injusta pela UE."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Tais medidas da Comissão Europeia não ficarão sem resposta",
+        "reasoning": "A Rússia está a ameaçar com retaliação contra a UE, o que implica que a UE pode enfrentar consequências negativas por sua decisão."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Negative Consequences for the West",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

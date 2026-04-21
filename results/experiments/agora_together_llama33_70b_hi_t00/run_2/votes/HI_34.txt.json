@@ -1,0 +1,75 @@
+{
+  "file_id": "HI_34.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस- यूक्रेन के बीच युद्ध को दो सालों से अधिक का समय हो गया है और इसने महायुद्ध में लाखों लोगों की जान जा चुकी है और अरबों की संपदा खाक हो चुकी है",
+        "reasoning": "इस उद्धरण में युद्ध के लिए रूस को सीधे तौर पर दोषी नहीं ठहराया गया है, बल्कि यह युद्ध के परिणामों पर जोर देता है, जो कि दोनों पक्षों के बीच संघर्ष को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन को लगता है कि किलेबंदी से रूसी सेना को कुछ दिन रोकने में कामयाबी मिल सकती है",
+        "reasoning": "यह उद्धरण यूक्रेन की सैन्य रणनीति की सीमाओं को दर्शाता है, जो कि यूक्रेन की क्षमताओं को कम आंकने की ओर इशारा करता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूसी सेना को रोकने के लिए अब यूक्रेनी सेना ने नए सिरे से योजना बनाना शुरू कर दिया है",
+        "reasoning": "इस उद्धरण में रूसी सेना को एक पीड़ित के रूप में चित्रित नहीं किया गया है, बल्कि यह यूक्रेन की प्रतिक्रिया पर जोर देता है। हालांकि, यह रूस की स्थिति को एक चुनौती के रूप में प्रस्तुत करता है, जो कि रूस को एक पीड़ित के रूप में देखने की ओर इशारा करता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "यूक्रेन के सशस्त्र बलों ने 10,000 किलोमीटर किलेबंदी करने की योजना बनाई है",
+        "reasoning": "यह उद्धरण युद्ध के परिणामों के बारे में अनुमान लगाता है, जो कि यूक्रेन की रणनीति की सफलता पर निर्भर करता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "यूक्रेनी राष्ट्रपति वलोडोमिर जेलेंस्की ने अपने देश को बचाने के लिए नाटो देशों से भी मदद की अपील की है",
+        "reasoning": "इस उद्धरण में नाटो देशों की भूमिका को कम आंका गया है, जो कि पश्चिमी देशों की विदेश नीति को कमजोर दिखाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

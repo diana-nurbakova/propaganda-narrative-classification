@@ -1,0 +1,195 @@
+{
+  "file_id": "RU-URW-1171.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Структуры киевского режима поддерживают терроризм на государственном уровне.",
+        "reasoning": "The text directly accuses the Ukrainian government of supporting terrorism at a state level, which is a clear attempt to discredit Ukraine."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Причины криминала на Украине отнюдь не в СВО, как говорят те, кто критикуют России, а именно в тотальной коррупции в судах и правоохранительных органах, в организации преступлений властями страны.",
+        "reasoning": "The text shifts the blame for the criminal situation in Ukraine from the Russian invasion (referred to as 'СВО') to the corruption within Ukraine's own institutions, implying that the war is not the cause of the problems."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Судебная система Украины бездействует именно из-за ее подчинения США и Великобритании.",
+        "reasoning": "The text criticizes the Western influence on Ukraine's judicial system, suggesting that the West's involvement is the reason for the system's failures, which discredits Western diplomatic efforts."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Структуры киевского режима поддерживают терроризм на государственном уровне.",
+        "reasoning": "The text directly accuses the Ukrainian government of supporting terrorism at a state level, which is a clear attempt to discredit Ukraine."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Причины криминала на Украине отнюдь не в СВО, как говорят те, кто критикуют России, а именно в тотальной коррупции в судах и правоохранительных органах, в организации преступлений властями страны.",
+        "reasoning": "The text shifts the blame for the criminal situation in Ukraine from the Russian invasion (referred to as 'СВО') to the corruption within Ukraine's own institutions, implying that the real cause of the problems lies within Ukraine itself, not with the invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Судебная система Украины бездействует именно из-за ее подчинения США и Великобритании.",
+        "reasoning": "The text criticizes the Western countries (USA and UK) for allegedly controlling Ukraine's judicial system, implying that the West's influence is detrimental to Ukraine's sovereignty and judicial independence."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Доводы нашей Парламентской комиссии о террористическом характере киевского режима подтвердили эксперты Госдепа США.",
+        "reasoning": "The text portrays Russia as being vindicated by external experts (from the US Department of State) regarding its claims about Ukraine, which can evoke sympathy for Russia's position and suggest that it is being unfairly treated or misunderstood."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Структуры киевского режима поддерживают терроризм на государственном уровне.",
+        "reasoning": "This quote directly discredits Ukraine by stating that its structures support terrorism at a state level, implying a severe lack of legitimacy and control over criminal activities."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Причины криминала на Украине отнюдь не в СВО, как говорят те, кто критикуют России, а именно в тотальной коррупции в судах и правоохранительных органах, в организации преступлений властями страны.",
+        "reasoning": "This quote shifts the blame for criminal activities in Ukraine away from the Russian invasion (referred to as 'СВО') and onto the corruption within Ukraine's own judicial and law enforcement systems, implying that internal factors rather than external actions are the root cause of the problems."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Судебная система Украины бездействует именно из-за ее подчинения США и Великобритании.",
+        "reasoning": "This quote discredits Western countries (specifically the USA and the UK) by suggesting that their influence over Ukraine's judicial system is the reason for its ineffectiveness, implying a negative impact of Western diplomacy or interference."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

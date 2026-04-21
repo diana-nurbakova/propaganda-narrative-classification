@@ -1,0 +1,257 @@
+{
+  "file_id": "BG_979.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "От първия момент на съществуване на Земята нейният климат постоянно се променя.",
+        "reasoning": "Този цитат показва, че авторът намеква, че климатичните промени са естествен процес, което е типично за нарратива на намаляване на значимостта на климатичните промени."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Движението за изменение на климата също не е без апокалиптични пророчества.",
+        "reasoning": "Този цитат показва, че авторът критикува движението за изменение на климата за апокалиптичните си пророчества, което е типично за нарратива на критика към климатичното движение."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "Този цитат показва, че авторът поставя под въпрос научните данни и тълкуванията на Междуправителствения панел на ООН по изменението на климата, което е типично за нарратива на поставяне под въпрос на научните методи и данни."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Правителствата често налагат нови налози с необичайна лекота и е неизбежно изменението на климата да не доведе до появата на цял нов клас принудителни десятъци.",
+        "reasoning": "Този цитат показва, че авторът критикува правителствата за налагането на нови налози и данъци в името на борбата с изменението на климата, което е типично за нарратива на критика към институциите и властите."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Ето два цитата от съвременни американски политици: „Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”",
+        "reasoning": "Този цитат показва, че авторът цитира политици, които предупреждават за апокалиптичните последствия от изменението на климата, което е типично за нарратива на усилване на климатичните страхове."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "В Канада въглеродният данък добавя около 12 цента към цената на всеки литър бензин, увеличава цената на въглищата със 100%, а на природния газ със 75%.",
+        "reasoning": "Текстът критикува климатичните политики, като посочва, че въглеродният данък в Канада увеличава цените на бензин, въглища и природен газ, което може да се разглежда като негативно последствие от тези политики."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "От първия момент на съществуване на Земята нейният климат постоянно се променя.",
+        "reasoning": "Текстът намеква, че климатичните промени са естествен процес, който се случва от началото на съществуването на Земята, което може да се разглежда като минимизиране на значението на човешката дейност върху климата."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Движението за изменение на климата също не е без апокалиптични пророчества.",
+        "reasoning": "Текстът критикува движението за изменение на климата, като посочва, че то съдържа апокалиптични пророчества, което може да се разглежда като критика на мотивите или методите на движението."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "Текстът не директно критикува научните методи или данните, но поставя под въпрос тълкуването на резултатите от Междуправителствения панел на ООН, което може да се разглежда като критика на научната основа на климатичните политики."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Criticism of climate movement",
+    "CC: Questioning the measurements and science",
+    "CC: Criticism of institutions and authorities",
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Climate cycles are natural",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other",
+    "CC: Questioning the measurements and science: Scientific community is unreliable",
+    "CC: Questioning the measurements and science: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Climate cycles are natural",
+      "matched": "CC: Downplaying climate change: Climate cycles are natural",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "matched": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Other",
+      "matched": "CC: Questioning the measurements and science: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

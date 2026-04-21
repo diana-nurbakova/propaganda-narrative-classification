@@ -1,0 +1,71 @@
+{
+  "experiment_id": "baseline_p0prime_together_llama33_70b_hi_t00",
+  "base_config": "configs/experiments/generated/emnlp/baseline_p0prime_together_llama33_70b_hi_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-04-19T12:02:22.725342",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T12:02:22.725342",
+      "completed_at": "2026-04-19T12:05:07.903422",
+      "duration_seconds": 165.17808
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T12:05:37.920753",
+      "completed_at": "2026-04-19T12:07:40.766883",
+      "duration_seconds": 122.84613
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T12:08:10.778709",
+      "completed_at": "2026-04-19T12:10:30.954192",
+      "duration_seconds": 140.175483
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T12:11:00.964045",
+      "completed_at": "2026-04-19T12:13:21.456734",
+      "duration_seconds": 140.492689
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\baseline_p0prime_together_llama33_70b_hi_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T12:13:51.470810",
+      "completed_at": "2026-04-19T12:16:40.335209",
+      "duration_seconds": 168.864399
+    }
+  ],
+  "completed_at": "2026-04-19T12:16:40.339207",
+  "total_duration_seconds": 737.556781,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

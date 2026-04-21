@@ -1,0 +1,103 @@
+{
+  "file_id": "PT_204.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "enquanto o planeta \"pode estar a aproximar-se de um ponto de rutura\"",
+        "reasoning": "O texto apresenta um cenário catastrófico sobre as consequências da crise climática, reforçando a urgência da ação climática."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "fez um apelo aos políticos hesitantes e aos negacionistas das alterações climáticas para que mudem de posição",
+        "reasoning": "O texto critica as instituições e autoridades que não estão tomando medidas suficientes para combater a crise climática, destacando a necessidade de mudança."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "enquanto o planeta 'pode estar a aproximar-se de um ponto de rutura'",
+        "reasoning": "O texto apresenta a crise climática como uma questão urgente que requer ação imediata, com o Papa Francisco afirmando que o planeta pode estar se aproximando de um ponto de rutura, o que amplifica os medos sobre as consequências do aquecimento global."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "enquanto o planeta \"pode estar a aproximar-se de um ponto de rutura\"",
+        "reasoning": "O texto apresenta um cenário catastrófico sobre as consequçncias das alterações climáticas, com o Papa Francisco afirmando que o planeta pode estar se aproximando de um ponto de rutura, o que é um exemplo clássico de amplificação de medos climáticos."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

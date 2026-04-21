@@ -1,0 +1,107 @@
+{
+  "file_id": "EN_UA_DEV_214.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Nato barbarians are expanding and gathering at the gate of Asia",
+        "reasoning": "The text criticizes NATO and the West, portraying them as aggressive and expansionist, which aligns with the narrative of discrediting Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "But if the Western allies can’t win over there in eastern Europe, well, just drag it out and turn it into a war of attrition, then expand it to Asia.",
+        "reasoning": "The text speculates about the potential expansion of the conflict to Asia, which is a prediction about the outcome of the war."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "That’s what people more conventionally call, starting a world war. A third one.",
+        "reasoning": "The text evokes fear about the potential for a global conflict, which aligns with the narrative of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "America may be destroying trade globalisation. But make no mistake, it is globalising the war.",
+        "reasoning": "The text criticizes the West, specifically the US, for its role in globalizing the war, which aligns with the narrative of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Well, just blame China. So while the West has been pouring massive military hardware into the conflict to the extent of emptying their own weapons warehouses – and still not winning",
+        "reasoning": "The text highlights the negative consequences of the West's actions, including the depletion of their military resources and the potential for blame-shifting, which aligns with the narrative of negative consequences for the West."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Nato barbarians are expanding and gathering at the gate of Asia",
+        "reasoning": "The text criticizes Western countries, specifically NATO, by using the term 'barbarians', implying that their actions are uncivilized and aggressive, which is a clear example of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Well, just drag it out and turn it into a war of attrition, then expand it to Asia",
+        "reasoning": "The text speculates about the potential expansion of the conflict to Asia, which is a prediction about the possible outcomes of the war."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "That’s what people more conventionally call, starting a world war. A third one",
+        "reasoning": "The text evokes fear about the potential consequences of the conflict, specifically the risk of a third world war, which is a clear example of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "few people outside Western capitals – more especially, their corridors of power and mainstream newsrooms – believe in all that nonsense",
+        "reasoning": "The text questions the reliability of mainstream media, implying that they are spreading false information, which is a clear example of distrust towards media."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Messed up your proxy war in Ukraine? Well, just blame China",
+        "reasoning": "The text shifts the blame for the war in Ukraine from Russia to China and the West, which is a clear example of blaming the war on others rather than the invader."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

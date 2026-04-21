@@ -1,0 +1,205 @@
+{
+  "file_id": "EN_UA_DEV_20.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "officials from the United Kingdom and the United States convinced the Ukrainians to walk away from the deal and fight",
+        "reasoning": "This quote suggests that the war could have been avoided if not for the actions of Western officials, shifting the blame from Russia to the West."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "officials from the United Kingdom and the United States convinced the Ukrainians to walk away from the deal and fight",
+        "reasoning": "This quote criticizes Western officials for convincing Ukraine to reject a potential peace deal, implying that Western diplomacy is flawed or self-serving."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Russia’s minefields, artillery, and punishing glide bombs have not only kept Ukrainian forces from advancing but left them struggling to hold their positions along the current front line",
+        "reasoning": "This quote portrays Russia as being forced to defend itself against Ukrainian aggression, framing Russia as a victim of the conflict."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukraine’s leverage over Russia has only diminished. Many Ukrainians have been killed or maimed as the war has devolved into a brutal trench-style artillery war",
+        "reasoning": "This quote predicts a negative outcome for Ukraine, suggesting that the war is unlikely to end in their favor."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "All these escalations do is prolong the Ukrainian people’s suffering while nudging the world closer to a catastrophic nuclear accident",
+        "reasoning": "This quote evokes fear of a potential nuclear catastrophe, amplifying the risks and dangers of the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "One month after Russia invaded in early 2022, both sides reached an agreement where Russia would pull back to preinvasion boundaries and, in return, Ukraine would agree to not seek NATO membership. But, according to senior negotiators on both sides and high-level mediators from the various countries facilitating the talks, officials from the United Kingdom and the United States convinced the Ukrainians to walk away from the deal and fight.",
+        "reasoning": "This quote suggests that the war could have been avoided if not for the actions of Western countries, specifically the UK and US, convincing Ukraine to reject a peace deal with Russia. This shifts the blame for the continuation of the war from Russia, the invader, to the Western countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "But rather than take this opportunity, the Ukrainian government and its backers in Europe and the United States have instead decided to escalate the conflict with risky, strategically pointless provocations.",
+        "reasoning": "This quote criticizes the West, specifically Europe and the US, for escalating the conflict and choosing not to pursue a peaceful resolution, implying that their diplomatic efforts are ineffective or misguided."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Even with its extensive conscription laws, Ukraine does not have enough soldiers to break through Russia’s now heavily fortified lines, much less to drive Russian forces out of all the territory claimed by Kyiv.",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Ukraine lacks the military capability to defeat Russia, which implies a prediction about the future course of the conflict."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "All these escalations do is prolong the Ukrainian people’s suffering while nudging the world closer to a catastrophic nuclear accident.",
+        "reasoning": "This quote amplifies fears about the potential consequences of the war, specifically the risk of a catastrophic nuclear accident, which evokes fear and concern about severe consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "officials from the United Kingdom and the United States convinced the Ukrainians to walk away from the deal and fight.",
+        "reasoning": "This quote suggests that the war could have been avoided if not for the influence of Western officials, shifting the blame from Russia to the West."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "officials from the United Kingdom and the United States convinced the Ukrainians to walk away from the deal and fight.",
+        "reasoning": "This quote criticizes Western officials for convincing Ukraine to reject a peace deal, implying that their actions are counterproductive and harmful."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Putin is showing this interest even though the Russian military is in a strong position that seems likely to get even stronger.",
+        "reasoning": "This quote portrays Russia as being in a position of strength, yet still seeking to negotiate, which could evoke sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukraine’s leverage over Russia has only diminished. Many Ukrainians have been killed or maimed as the war has devolved into a brutal trench-style artillery war.",
+        "reasoning": "This quote predicts a negative outcome for Ukraine, speculating that their situation will continue to deteriorate."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "All these escalations do is prolong the Ukrainian people’s suffering while nudging the world closer to a catastrophic nuclear accident.",
+        "reasoning": "This quote highlights the potential negative consequences of continued escalation, including the risk of a catastrophic nuclear accident, which could have severe consequences for the West."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

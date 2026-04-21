@@ -1,0 +1,48 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "agora_p2_together_llama33_70b_ru_t00",
+    "run_id": 1
+  },
+  "narrative_matching": {
+    "total": 1,
+    "matched": 1,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "RU-URW-1166.txt",
+      "label_type": "narrative",
+      "original_label": "URW: Russia has international support from a number of countries and people",
+      "matched_label": "URW: Praise of Russia",
+      "score": 80.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 2,
+    "matched": 2,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "RU-URW-1061.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is responsible for the conflict",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "RU-URW-1152.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Amplifying war-related fears: \u041a\u0438\u0442\u0430\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0420\u043e\u0441\u0441\u0438\u044e \u0432 \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0435 \u0441 \u0423\u043a\u0440\u0430\u0438\u043d\u043e\u0439 \u0438 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0443\u0433\u0440\u043e\u0437\u0443 \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438",
+      "matched_label": "URW: Amplifying war-related fears: Other",
+      "score": 91.89189189189189,
+      "matched": true
+    }
+  ]
+}

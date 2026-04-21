@@ -1,0 +1,97 @@
+{
+  "file_id": "HI_38.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "This quote suggests that Russia is giving priority to its relationship with India over China, which is a positive portrayal of Russia's actions and intentions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "This quote suggests that Russia is giving priority to its relationship with India over China, which is a positive portrayal of Russia's actions and intentions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "This quote suggests that Russia is giving priority to its relationship with India over China, which is a positive portrayal of Russia's actions and intentions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

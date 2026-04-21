@@ -1,0 +1,107 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Overpraising the West",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Overpraising the West"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote suggests that the war is not going in Russia's favor and that their objectives are no longer achievable, which is a speculation about the outcome of the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Russia remains isolated",
+        "reasoning": "This quote implies that Russia is being isolated by the West, which could be seen as a criticism of Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "There is no praise of Russia in the text, instead, the Russian military is described as depleted, demoralized, and poorly led."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "The Ukrainian troops are 'capable and trained'",
+        "reasoning": "This quote praises the Ukrainian troops, which are supported by the West, and implies that they are more capable than the Russian forces."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "There is no discrediting of Ukraine in the text, instead, the Ukrainian troops are described as capable and trained."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the narrative of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Russia remains isolated",
+        "reasoning": "This quote discredits Russia's position and implies that the West is united against them, which can be seen as a form of discrediting the West's adversary, but in this context, it's more about Russia's isolation."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "There is no praise of Russia in the text, instead, it highlights their weaknesses and failures."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "There is no discrediting of Ukraine in the text, instead, it praises Ukraine's military capabilities and defenses."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Nine countries pledged to send over 150 Leopard tanks to Ukraine",
+        "reasoning": "This quote highlights the West's support for Ukraine, which can be seen as overpraising the West's capabilities and commitment to helping Ukraine."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

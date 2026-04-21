@@ -1,0 +1,63 @@
+{
+  "file_id": "A9_BG_2707.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West",
+      "URW: Speculating war outcomes"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика.",
+        "reasoning": "Текстът предлага страхотна и апокалиптична картина на световната икономика и политика, ако Русия завладее Украйна, което е типично за наръчника на Amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "Текстът предлага негативна прогноза за последствията от руската инвазия в Украйна за Запада, което е типично за наръчника на Negative Consequences for the West."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Газовото изнудване на Русия след пълномащабна инвазия е добър индикатор за това какво ще се случи, ако Путин постигне своето.",
+        "reasoning": "Текстът предлага прогноза за последствията от руската инвазия в Украйна, което е типично за наръчника на Speculating war outcomes."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

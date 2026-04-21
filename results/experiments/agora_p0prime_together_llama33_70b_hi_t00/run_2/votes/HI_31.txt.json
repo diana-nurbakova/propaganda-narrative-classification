@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_31.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों ने कथित तौर पर उन्हें धोखा दिया और रूस पहुंचने पर उन्हें यूक्रेन के खिलाफ युद्ध में भेज दिया गया.",
+        "reasoning": "इस उद्धरण में एजेंटों की गतिविधियों की आलोचना की जा रही है, जो पश्चिमी देशों से जुड़े हो सकते हैं, जो युद्ध में धोखे से शामिल होने के लिए भारतीय नागरिकों को धोखा दे रहे हैं।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "मुझे लगता है कि मैं जिंदा घर पहुंच पाऊंगा.",
+        "reasoning": "इस उद्धरण में युद्ध के परिणाम के बारे में अनुमान लगाया जा रहा है, जिसमें यह उम्मीद जताई जा रही है कि तमांग जीवित घर पहुंच पाएंगे।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "हिन्दुस्तान टाइम्स उस वीडियो की सत्यता का दावा नहीं करता है.",
+        "reasoning": "इस उद्धरण में मीडिया की विश्वसनीयता पर संदेह व्यक्त किया जा रहा है, जो वीडियो की सत्यता का दावा नहीं कर रहा है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,129 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर रुस आपके आस्तित्व से जुडे खतरे का सामना करेगा, तो ही वह परमाणु हथियार का उपयोग करेगा",
+        "reasoning": "क्रेमलिन के प्रवक्ता दिमित्री पेसकोव के बयान से स्पष्त होता है कि रुस आपके आस्तित्व से जुडे खतरे का सामना करेगा, तो ही वह परमाणु हथियार का उपयोग करेगा"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रुस-उक्रेन युद्ध में परमाणु हथियारों के आस्तित्व का उपयोग",
+        "reasoning": "रुस-उक्रेन युद्ध में परमाणु हथियारों के आस्तित्व का उपयोग के संबंध में गर्म हो रहे हैं, जो लोगों में दर सामना विवाद हो रहा है"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पान्टागाई के प्रवक्ता जोन किरबी के बयान से स्पष्त होता है कि रुस के परमाणु हथियार के संबंध में गर्म हो रहे हैं",
+        "reasoning": "पान्टागाई के प्रवक्ता जोन किरबी के बयान से स्पष्त होता है कि रुस के परमाणु हथियार के संबंध में गर्म हो रहे हैं, जो लोगों में दर सामना विवाद हो रहा है"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर रुस 'आस्तित्व से जुडे कहटरे' का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा",
+        "reasoning": "रुस के प्रवक्ता दिमित्री पेसकोव का कहना है कि रुस के आस्तित्व के विश्व कहटरे से जुडे कहतरे सामना करता है, तो ही वह परमऺणु हथियार का उपयोग करेगा"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim",
+    "URW: Amplifying war-related fears",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

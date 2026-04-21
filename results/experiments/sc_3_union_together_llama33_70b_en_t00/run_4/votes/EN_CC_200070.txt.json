@@ -1,0 +1,360 @@
+{
+  "file_id": "EN_CC_200070.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies",
+      "Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Garcetti’s 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race.",
+        "reasoning": "This quote criticizes Garcetti's climate policy, the 'Green New Deal', by mentioning its opposition from public works unions and its loss in an electoral challenge, implying that the policy may not be effective or widely supported."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The C40 Cities Climate Leadership Group is an international network of nearly 100 of the world’s largest cities committed to concrete action to combat climate change. Mayor Garcetti served as Chair of C40 from 2019 to 2021, and was succeeded by London Mayor Sadiq Khan.",
+        "reasoning": "This quote is not directly criticizing, however the context of the article implies criticism of institutions by highlighting the perceived hypocrisy of Mayor Garcetti attending the summit in person, thus contributing to carbon emissions, while being part of a group committed to combating climate change."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "According to the ICAO Carbon Emissions Calculator, Garcetti’s trip would have burned 1275.6 kg of carbon if he flew economy class, and twice as much if he flew business or “premium” class (assuming a stop in Atlanta).",
+        "reasoning": "The article does not directly downplay climate change, but by focusing on the carbon emissions from Garcetti's trip, it implies that individual actions, such as flying to a climate summit, may be more significant than the collective efforts to combat climate change, thus indirectly downplaying the importance of the summit and the climate crisis."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "This quote criticizes Mayor Garcetti's decision to attend the climate summit in person, implying that his actions are hypocritical and that he is not truly committed to reducing carbon emissions, thus criticizing the climate movement by proxy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "This quote criticizes Mayor Garcetti's decision to attend a climate summit in person, implying that his actions are hypocritical and ineffective in addressing climate change"
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "This quote challenges the competence of the Los Angeles government, led by Mayor Garcetti, in managing the city's infrastructure, which is relevant to climate change mitigation efforts"
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard",
+        "reasoning": "This quote expresses skepticism about the feasibility and effectiveness of green transportation technologies, such as high-speed rail, which are often promoted as solutions to climate change"
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Garcetti's 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race",
+        "reasoning": "This quote criticizes the climate movement's policies, specifically the Green New Deal, and highlights the opposition it has faced from various groups, implying that the movement is not universally supported or effective"
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "It is not clear why the conference could not be held remotely",
+        "reasoning": "This quote downplays the urgency of climate change by questioning the need for in-person conferences, implying that the issue is not significant enough to require drastic measures"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "This quote criticizes Mayor Garcetti's decision to attend a climate summit in person, implying that his actions are hypocritical and ineffective in reducing carbon emissions."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "This quote challenges the competence of the Los Angeles city government, led by Mayor Garcetti, in managing its infrastructure, implying that they are not effective in their roles."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Garcetti's 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions",
+        "reasoning": "This quote expresses skepticism about Garcetti's green policies, highlighting opposition from public works unions and implying that the policies may not be practical or effective."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "it is not clear why the conference could not be held remotely",
+        "reasoning": "This quote downplays the urgency of climate change by questioning the need for in-person attendance at a climate summit, implying that the issue is not significant enough to require drastic measures."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Downplaying climate change",
+    "CC: Criticism of climate movement",
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Controversy about green technologies",
+    "CC: Criticism of climate movement",
+    "CC: Downplaying climate change"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Downplaying climate change: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

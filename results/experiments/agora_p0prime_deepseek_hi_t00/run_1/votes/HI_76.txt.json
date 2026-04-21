@@ -1,0 +1,182 @@
+{
+  "file_id": "HI_76.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन में मिलिट्री इक्वीपमेंट्स की खरीद-फरोख्त में बड़ी धांधली हुई है.",
+        "reasoning": "The text directly accuses Ukraine of large-scale corruption in military equipment procurement, which undermines the legitimacy and effectiveness of its war effort."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "आज यह बात जहजाहिर है कि पश्चिमी और यूरोपीय प्रतिबंधों का रूस पर ज्यादा कुछ असर नहीं हुआ.",
+        "reasoning": "This statement declares Western and European sanctions as largely ineffective, directly criticizing and discrediting a key diplomatic and economic policy tool of the West."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "यूरोपीय देशों के रूसी एनर्जी पर निर्भरता ने यूरोपीय देशों को बड़ा झटका दिया.",
+        "reasoning": "The text highlights the negative impact (a 'big shock') on European countries due to their energy dependence on Russia, framing it as a consequence of the war and Western alignment."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन में मिलिट्री इक्वीपमेंट्स की खरीद-फरोख्त में बड़ी धांधली हुई है.",
+        "reasoning": "This quote directly accuses Ukraine of large-scale corruption in military procurement, which undermines the legitimacy and effectiveness of its government and military actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "आज यह बात जहजाहिर है कि पश्चिमी और यूरोपीय प्रतिबंधों का रूस पर ज्यादा कुछ असर नहीं हुआ.",
+        "reasoning": "This statement declares that Western and European sanctions have been largely ineffective, directly criticizing and discrediting a key diplomatic and economic policy tool of the West."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "रूस यूक्रेन युद्ध की वजह से 2022 में यूरोप में ऊर्जा संकट पैदा हुई.",
+        "reasoning": "This statement highlights a specific adverse outcome (energy crisis) for European countries as a direct consequence of the war and the West's stance, fitting the narrative of negative consequences for the West."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "यूक्रेन में मिलिट्री इक्वीपमेंट्स की खरीद-फरोख्त में बड़ी धांधली हुई है.",
+        "reasoning": "The text directly accuses Ukraine of large-scale corruption in military equipment procurement, which undermines the legitimacy and effectiveness of its war effort."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी और यूरोपीय प्रतिबंधों का रूस पर ज्यादा कुछ असर नहीं हुआ.",
+        "reasoning": "This statement directly criticizes and dismisses the effectiveness of Western and European sanctions, portraying their diplomatic and economic efforts as a failure."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "यूरोपीय देशों के रूसी एनर्जी पर निर्भरता ने यूरोपीय देशों को बड़ा झटका दिया.",
+        "reasoning": "The text highlights a specific negative outcome (energy crisis) for European countries as a direct consequence of their actions and dependencies related to the war."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

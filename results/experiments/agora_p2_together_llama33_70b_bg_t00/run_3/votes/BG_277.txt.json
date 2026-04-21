@@ -1,0 +1,175 @@
+{
+  "file_id": "BG_277.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of climate policies",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate policies",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate policies",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите имат скрита програма за ограничаване на животновъдството и насочване към химически заместители на традиционните продукти, което е част от по-голяма схема за контрол над хранителната индустрия и обществото."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "огромния административен натиск от Брюксел и десетките непеота, финансирани по линия на Давос",
+        "reasoning": "Текстът критикува административния натиск и финансирането на климатични политики, което предполага, че авторът възприема тези политики като неправилни или чрезмерни."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите използват климатичните политики като инструмент за геополитически влияние, а не като истинска забота за околната среда."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите имат скрита програма за ограничаване на животновъдството и промяната на хранителните навици, което е част от по-голяма теория на заговора."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "огромния административен натиск от Брюксел и десетките непеота, финансирани по линия на Давос",
+        "reasoning": "Текстът критикува климатичните политики и административния натиск от Брюксел и Давос, което показва, че авторът е скептичен към мотивите и методите на тези институции."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите използват климатичните политики като инструмент за геополитическо влияние, което е част от по-голяма теория на заговора."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите имат скрита програма за ограничаване на животновъдството и промяната на хранителните навици, което е част от по-голяма теория на заговора."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "огромния административен натиск от Брюксел и десетките непеота, финансирани по линия на Давос",
+        "reasoning": "Текстът критикува климатичните политики и административния натиск от Брюксел и Давос, което показва, че авторът е скептичен към мотивите и методите на тези институции."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че зелените политики са инструмент за геополитическо влияние, а не искрена забота за околната среда, което е ключов елемент на тази нарративна линия."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of climate policies",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

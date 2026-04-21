@@ -1,0 +1,174 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленскому не очень понравилась идея о временном прекращении огня",
+        "reasoning": "The quote suggests that Zelensky is not interested in a peaceful resolution, which could be seen as discrediting Ukraine's willingness to negotiate and find a peaceful solution."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "This quote implies that Ukraine's past experiences with ceasefires have been negative, which could be seen as shifting the blame for the war from Russia to Ukraine's past actions or decisions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Орбан добавил, что старается представлять интересы Европы справедливо и честно",
+        "reasoning": "The quote suggests that Orban is acting as a neutral and fair representative of European interests, which could be seen as praising Russia's position in the conflict by implying that they are being treated unfairly."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленскому не очень понравилась идея о временном прекращении огня",
+        "reasoning": "The text presents Zelensky as being opposed to a ceasefire, which could be seen as discrediting Ukraine's willingness to negotiate and find a peaceful solution."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "The text implies that Zelensky's past experiences with ceasefires have been negative, which could be seen as shifting the blame for the war from Russia to Ukraine's past actions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Орбан добавил, что старается представлять интересы Европы справедливо и честно",
+        "reasoning": "The text presents Orban as a neutral and fair mediator, which could be seen as praising Russia's position in the conflict by implying that Europe's interests are aligned with Russia's."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленскому не очень понравилась идея о временном прекращении огня",
+        "reasoning": "The text implies that Zelensky is not interested in a ceasefire, which could be seen as shifting the blame for the continuation of the war from Russia to Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "This quote suggests that Zelensky has made mistakes in the past and that his decisions have harmed Ukraine, which could be seen as discrediting Ukraine's leadership."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Орбан добавил, что старается представлять интересы Европы справедливо и честно",
+        "reasoning": "While not directly praising Russia, Orban's statement implies that he is taking a neutral and fair stance, which could be seen as indirectly praising Russia's position."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Орбан предложил украинскому лидеру рассмотреть возможность прекращения огня для начала переговоров с Россией",
+        "reasoning": "This quote suggests that Orban is taking a more diplomatic approach than the West, implying that the West is not doing enough to promote peace."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

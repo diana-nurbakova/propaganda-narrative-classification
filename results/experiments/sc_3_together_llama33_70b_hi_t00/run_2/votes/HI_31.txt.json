@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_31.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों ने कथित तौर पर उन्हें धोखा दिया और रूस पहुंचने पर उन्हें यूक्रेन के खिलाफ युद्ध में भेज दिया गया.",
+        "reasoning": "इस उद्धरण में एजेंटों की धोखाधड़ी का उल्लेख है, जो पश्चिमी देशों की विदेश नीति या कार्यों की आलोचना नहीं करता है, लेकिन यह युद्ध में शामिल होने के लिए धोखे से भर्ती किए जाने की समस्या को उजागर करता है। हालांकि, यह पश्चिमी देशों की आलोचना नहीं करता है, इसलिए यह पूरी तरह से इस श्रेणी में फिट नहीं होता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "हिन्दुस्तान टाइम्स उस वीडियो की सत्यता का दावा नहीं करता है.",
+        "reasoning": "इस उद्धरण में मीडिया द्वारा वीडियो की सत्यता का दावा नहीं करने का उल्लेख है, जो मीडिया की विश्वसनीयता पर संदेह पैदा कर सकता है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "सुरक्षाकर्मी की नौकरी का वादा करके तमांग को रूस भेजने वाले एजेंटों ने उससे 6 लाख रुपये लिए थे. उन्होंने उसे धोखा दिया और यूक्रेन के खिलाफ युद्ध में रूस की तरफ से लड़ने के लिए मजबूर किया.",
+        "reasoning": "इस उद्धरण में एजेंटों द्वारा धोखाधड़ी और पैसे लेने का उल्लेख है, लेकिन यह सीधे तौर पर पश्चिमी देशों के लिए नकारात्मक परिणामों की बात नहीं करता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

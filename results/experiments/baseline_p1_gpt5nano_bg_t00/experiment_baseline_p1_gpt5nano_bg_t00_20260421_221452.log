@@ -1,0 +1,1192 @@
+[Logging] Output will be saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\experiment_baseline_p1_gpt5nano_bg_t00_20260421_221452.log
+
+============================================================
+MULTI-RUN EXPERIMENT: baseline_p1_gpt5nano_bg_t00
+============================================================
+Base config: configs/experiments/generated/emnlp/baseline_p1_gpt5nano_bg_t00.yaml
+Number of runs: 3
+Base seed: 42
+Output directory: results/experiments/baseline_p1_gpt5nano_bg_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_gpt5nano_bg_t00_aaj9iur4\run_1_config.yaml
+[Run 1] Output: results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_gpt5nano_bg_t00_aaj9iur4\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: openai:gpt-5-nano
+  Input: data/dev-documents_4_December/BG/subtask-2-documents/
+  Output: results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=16384, seed=478163327
+  Experiment: id=baseline_p1_gpt5nano_bg_t00, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: gpt-5-nano
+  Category classification: gpt-5-nano
+  Category validation: gpt-5-nano
+  Narratives classification: gpt-5-nano
+  Narratives validation: gpt-5-nano
+  Subnarratives classification: gpt-5-nano
+  Subnarratives validation: gpt-5-nano
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/BG/subtask-2-documents/
+[utils] Output file results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: A9_BG_2569.txt, A9_BG_2592.txt, A9_BG_2663.txt, A9_BG_2707.txt, A9_BG_2756.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node[graph] Starting category classification node
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Ukraine is associated with nazism', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2663.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2592.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2569.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_2820.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2756.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2707.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2961.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_3921.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2828.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3819.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3964.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_4026.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Amplifying war-related fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4039.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3970.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Discrediting the West, Diplomacy', 'Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_4110.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4076.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1091.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_8427.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1146.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1169.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1178.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_125.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4093.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1378.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1856.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1455.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_212.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Hidden plots by secret schemes of powerful groups', 'CC: Controversy about green technologies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Hidden plots by secret schemes of powerful groups', 'CC: Controversy about green technologies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_245.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_63.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_877.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_73.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file BG_909.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_277.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Controversy about green technologies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate policies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_950.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_979.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_1\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.0420, 779.90s
+
+[Multi-Run] Waiting 30s before run 2 to avoid rate limits...
+
+[Run 2] Starting with seed=107420369
+[Run 2] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_gpt5nano_bg_t00_dol2zp8y\run_2_config.yaml
+[Run 2] Output: results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_gpt5nano_bg_t00_dol2zp8y\run_2_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: openai:gpt-5-nano
+  Input: data/dev-documents_4_December/BG/subtask-2-documents/
+  Output: results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=16384, seed=107420369
+  Experiment: id=baseline_p1_gpt5nano_bg_t00, run=2
+[GraphBuilder] Model assignments:
+  Cleaning classification: gpt-5-nano
+  Category classification: gpt-5-nano
+  Category validation: gpt-5-nano
+  Narratives classification: gpt-5-nano
+  Narratives validation: gpt-5-nano
+  Subnarratives classification: gpt-5-nano
+  Subnarratives validation: gpt-5-nano
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/BG/subtask-2-documents/
+[utils] Output file results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: A9_BG_2569.txt, A9_BG_2592.txt, A9_BG_2663.txt, A9_BG_2707.txt, A9_BG_2756.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Blaming the war on others rather than the invader'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2663.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2592.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2569.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_2820.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2756.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_2961.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Ukraine is associated with nazism', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2707.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2828.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3819.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3921.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_4026.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3964.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Amplifying war-related fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3970.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Praise of Russia'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4039.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4110.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4076.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1091.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1146.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1169.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Completed sequential LLM invocation for subnarratives.[graph] Writing results for file A9_BG_8427.txt
+
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4093.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1378.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_125.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1856.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_1178.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1455.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_212.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_63.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Controversy about green technologies', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Green policies are geopolitical instruments']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Controversy about green technologies', 'CC: Hidden plots by secret schemes of powerful groups', 'CC: Green policies are geopolitical instruments'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_73.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_245.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_877.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file BG_909.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Climate change is beneficial', 'CC: Amplifying Climate Fears', 'CC: Controversy about green technologies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Climate change is beneficial', 'CC: Amplifying Climate Fears', 'CC: Controversy about green technologies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate policies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_277.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_950.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_979.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_2\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.0420, 662.06s
+
+[Multi-Run] Waiting 30s before run 3 to avoid rate limits...
+
+[Run 3] Starting with seed=1181241943
+[Run 3] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_gpt5nano_bg_t00_t9lsc8p2\run_3_config.yaml
+[Run 3] Output: results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_baseline_p1_gpt5nano_bg_t00_t9lsc8p2\run_3_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: openai:gpt-5-nano
+  Input: data/dev-documents_4_December/BG/subtask-2-documents/
+  Output: results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 1 agents with union aggregation
+  Multi-agent subnarratives: 1 agents with union aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=16384, seed=1181241943
+  Experiment: id=baseline_p1_gpt5nano_bg_t00, run=3
+[GraphBuilder] Model assignments:
+  Cleaning classification: gpt-5-nano
+  Category classification: gpt-5-nano
+  Category validation: gpt-5-nano
+  Narratives classification: gpt-5-nano
+  Narratives validation: gpt-5-nano
+  Subnarratives classification: gpt-5-nano
+  Subnarratives validation: gpt-5-nano
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 1 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: union
+  - Subnarrative aggregation method: union
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/BG/subtask-2-documents/
+[utils] Output file results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: A9_BG_2569.txt, A9_BG_2592.txt, A9_BG_2663.txt, A9_BG_2707.txt, A9_BG_2756.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2663.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2592.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2569.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_2820.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['Praise of Russia', 'Speculating war outcomes', 'Negative Consequences for the West', 'Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_2707.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_2961.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2756.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3819.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_2828.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['URW: Hidden plots by secret schemes of powerful groups', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Hidden plots by secret schemes of powerful groups', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3964.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3921.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_3970.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4026.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4039.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Hidden plots by secret schemes of powerful groups'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4110.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting narratives classification node for category URW (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file A9_BG_8427.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1091.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4076.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1169.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1146.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file A9_BG_4093.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_125.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1178.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1856.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1378.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_1455.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears', 'CC: Criticism of institutions and authorities'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_212.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Controversy about green technologies', 'CC: Green policies are geopolitical instruments', 'CC: Criticism of climate movement'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_245.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_63.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file BG_877.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file BG_909.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Narratives classification complete -> ['CC: Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Amplifying Climate Fears'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Criticism of climate policies', 'CC: Controversy about green technologies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate policies', 'CC: Controversy about green technologies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_73.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting narratives classification node for category CC (prompt=P1)
+[graph] Narratives classification complete -> ['CC: Criticism of climate movement', 'CC: Criticism of climate policies']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['CC: Criticism of climate movement', 'CC: Criticism of climate policies'] (prompt=P1)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives[graph] Completed sequential LLM invocation for subnarratives.
+
+[graph] Cleaning subnarratives[graph] Writing results for file BG_950.txt
+
+[graph] Writing results for file BG_277.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file BG_979.txt
+[graph] Results written to results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\results.txt
+[Main] Cost metrics saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\run_3\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.0420, 588.20s
+
+============================================================
+EXPERIMENT COMPLETED: baseline_p1_gpt5nano_bg_t00
+============================================================
+Total runs: 3
+Successful: 3
+Failed: 0
+Total duration: 2033.74 seconds
+Manifest saved to: results\experiments\baseline_p1_gpt5nano_bg_t00\experiment_manifest.json
+============================================================
+

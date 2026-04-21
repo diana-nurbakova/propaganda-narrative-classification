@@ -1,0 +1,113 @@
+{
+  "file_id": "EN_UA_DEV_100002.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukrainian nationalism, Ukrainian patriotism will be their downfall.",
+        "reasoning": "The text directly attacks Ukrainian nationalism and patriotism, implying these are negative traits that will lead to Ukraine's downfall, which fits the definition of discrediting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "The only country that doesn’t want Ukraine destroyed is the country that is destroying it.",
+        "reasoning": "This quote shifts the blame for the war and Ukraine's destruction from Russia to imply that the West or Ukraine itself is responsible, fitting the narrative of blaming others."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Russia is at war with pure evil.",
+        "reasoning": "The text portrays Russia as fighting against 'pure evil', implying that Russia is the victim or the righteous party in the conflict, which aligns with the narrative of Russia being the victim."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The West wants Ukraine destroyed. There’s no sugar coating it.",
+        "reasoning": "This statement directly criticizes the West, implying that Western countries have malicious intentions towards Ukraine, which fits the narrative of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The only way is to destroy NATO itself before it destroys the world.",
+        "reasoning": "The text amplifies fear by suggesting that NATO poses an existential threat to the world, which needs to be stopped to prevent global destruction, fitting the narrative of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "They have numerous targets. Indeed they have the entire world as their target.",
+        "reasoning": "This implies a hidden or secret plot by powerful groups (NATO or the West) to target not just Ukraine but the entire world, fitting the narrative of hidden plots."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukrainian nationalism, Ukrainian patriotism will be their downfall.",
+        "reasoning": "This quote directly undermines the legitimacy and values of Ukraine by suggesting that its nationalism and patriotism are weaknesses that will lead to its downfall."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "The only country that doesn’t want Ukraine destroyed is the country that is destroying it.",
+        "reasoning": "This statement shifts the blame for the destruction of Ukraine away from Russia, implying that Russia does not want Ukraine destroyed, and instead suggests that other countries, like those in NATO, are responsible for the destruction."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Russia is at war with pure evil.",
+        "reasoning": "This quote portrays Russia as a victim fighting against an evil force, evoking sympathy and justifying its actions as a necessary response to evil."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The West wants Ukraine destroyed. There’s no sugar coating it.",
+        "reasoning": "This statement directly criticizes Western countries, suggesting they have malicious intentions towards Ukraine, which discredits their diplomatic efforts and motives."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The only way is to destroy NATO itself before it destroys the world.",
+        "reasoning": "This quote amplifies fear by suggesting that NATO poses an existential threat to the world, implying that if NATO is not stopped, it will lead to global destruction."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 6
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

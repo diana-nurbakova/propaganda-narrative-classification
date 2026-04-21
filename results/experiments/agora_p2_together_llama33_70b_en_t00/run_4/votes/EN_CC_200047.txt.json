@@ -1,0 +1,189 @@
+{
+  "file_id": "EN_CC_200047.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American elites” support the tyrannical “climate” policies of the World Economic Forum (WEF).",
+        "reasoning": "The text criticizes climate policies by describing them as 'tyrannical', implying that they are overly restrictive and oppressive."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "nearly 60 percent of such people believe there’s too much liberty in America even though, objectively speaking, we’re less free than ever.",
+        "reasoning": "The text challenges the competence and intentions of the 'American elites' and the WEF, suggesting that they are out of touch with average Americans and seeking to restrict their freedoms."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "The text implies that the WEF and 'American elites' have a secret agenda to restrict the public's quality of life under the guise of fighting climate change, suggesting a hidden plot."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American elites” support the tyrannical “climate” policies of the World Economic Forum (WEF).",
+        "reasoning": "The text criticizes climate policies by describing them as 'tyrannical', implying that they are overly restrictive and oppressive."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "89% of ‘American Elites’ Back WEF’s Plan to Ration Meat, Gas, Electricity for General Public",
+        "reasoning": "The text challenges the integrity of the World Economic Forum (WEF) and 'American elites' by implying that their support for rationing policies is out of touch with the general public."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "According to a report from the Committee to Unleash Prosperity (CUP), America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "The text suggests that the WEF and 'American elites' have a secret agenda to impose restrictive policies on the general public under the guise of fighting climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American elites” support the tyrannical “climate” policies of the World Economic Forum (WEF).",
+        "reasoning": "The text criticizes climate policies by describing them as 'tyrannical', implying that they are overly restrictive and oppressive."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "nearly 60 percent of such people believe there’s too much liberty in America even though, objectively speaking, we’re less free than ever.",
+        "reasoning": "The text challenges the views of 'American elites' and implies that they are out of touch with the general public, suggesting that institutions and authorities are not serving the people's interests."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "According to a report from the Committee to Unleash Prosperity (CUP), America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "The text implies that the WEF and 'American elites' have a secret plan to restrict the public's quality of life under the guise of fighting climate change, suggesting a hidden agenda."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

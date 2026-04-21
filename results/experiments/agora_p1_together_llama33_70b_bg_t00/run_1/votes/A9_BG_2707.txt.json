@@ -1,0 +1,135 @@
+{
+  "file_id": "A9_BG_2707.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "С ресурсите на Украйна Путин би бил неудържим",
+        "reasoning": "The text speculates about the potential outcomes of the war, specifically that if Putin gains control of Ukraine, he will become nearly unstoppable, and this will have far-reaching consequences for the world economy."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика",
+        "reasoning": "The text highlights the potential negative consequences for the West, including economic chaos and loss of control, if Russia gains control of Ukraine's resources."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Русия и нейните приятели могат да продават оръжия и части от тях на нечестни хора по света. И ако искат да го използват срещу НАТО, те също ще имат такъв вариант",
+        "reasoning": "The text implies that the West, specifically NATO, is weak and unable to prevent Russia from selling weapons to other countries, which could be used against them."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "С ресурсите на Украйна Путин би бил неудържим",
+        "reasoning": "The text speculates about the potential outcomes of the war, specifically stating that with Ukraine's resources, Putin would be unstoppable, implying a prediction about the consequences of Russia gaining control over Ukraine."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика",
+        "reasoning": "The text highlights the potential negative consequences for the West, including economic chaos, if Russia were to gain control over Ukraine's resources."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "С ресурсите на Украйна Путин би бил неудържим",
+        "reasoning": "The text speculates about the potential outcomes of the war, specifically stating that with Ukraine's resources, Putin would be unstoppable, implying a prediction about the consequences of Russia gaining control over Ukraine."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика",
+        "reasoning": "The text highlights the potential negative consequences for the West, including economic chaos, if Russia were to gain control over Ukraine's resources."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

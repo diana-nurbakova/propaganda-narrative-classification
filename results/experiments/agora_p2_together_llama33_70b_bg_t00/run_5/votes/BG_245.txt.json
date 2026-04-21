@@ -1,0 +1,136 @@
+{
+  "file_id": "BG_245.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "Текстът представя страховити прогнози за бъдещето на планетата, включително катастрофални последици и антиутопично бъдеще, което съответства на дефиницията на Amplifying Climate Fears като наратив, който подчертава страха и тревогата за последствията от климатичните промени."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Много експерти посочват, че се чувстват отчаяни и ядосани от нежеланието на световните правителства да работят в посока охлаждане на климата.",
+        "reasoning": "Текстът критикува институциите и властите за това, че не взимат достатъчно мерки за справяне с климатичните промени, което съответства на дефиницията на Criticism of institutions and authorities като наратив, който критикува институциите и властите за тяхната роля в справянето с климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "Текстът представя страховити прогнози за бъдещето на планетата, включително катастрофални последици и антиутопично бъдеще, което съответства на дефиницията на Amplifying Climate Fears като нарътв, който подчертава страха и тревогата за климатичните промени."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Много експерти посочват, че се чувстват отчаяни и ядосани от нежеланието на световните правителства да работят в посока охлаждане на климата.",
+        "reasoning": "Текстът критикува институциите и властите за това, че не взимат достатъчно мерки за справяне с климатичните промени, което съответства на дефиницията на Criticism of institutions and authorities като нарътв, който критикува институциите и властите за тяхната роля в климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Почти 80% от участниците в проучването на Intergovernmental Panel on Climate Change са посочили, че ще задминем границата на затопляне. Повече от половината очакват температури с най-малко 3 градуса по Целзий.",
+        "reasoning": "Текстът представя катастрофални прогнози и последици от климатичните промени, което съответства на нарътива за усилване на климатичните страхове."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Много експерти посочват, че се чувстват отчаяни и ядосани от нежеланието на световните правителства да работят в посока охлаждане на климата.",
+        "reasoning": "Текстът критикува институциите и властите за това, че не работят достатъчно за решаване на климатичните промени."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

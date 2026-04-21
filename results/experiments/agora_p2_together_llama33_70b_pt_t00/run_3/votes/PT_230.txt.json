@@ -1,0 +1,143 @@
+{
+  "file_id": "PT_230.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção às alterações climáticas como causa do calorão e a associação a eventos extremos em todo o território nacional serve para amplificar os medos sobre as consequências das mudanças climáticas."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "As altas temperaturas provocadas pela onda de calor podem causar riscos para a saúde, segundo o INMET.",
+        "reasoning": "A ênfase nos riscos para a saúde causados pelas altas temperaturas reforça a ideia de que as mudanças climáticas têm consequências graves e imediatas para a população."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção às alterações climáticas como causa do calorão e a descrição de eventos extremos em todo o território nacional servem para amplificar os medos sobre as consequências das mudanças climáticas."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As altas temperaturas provocadas pela onda de calor podem causar riscos para a saúde, segundo o INMET.",
+        "reasoning": "A ênfase nos riscos para a saúde causados pelas altas temperaturas reforça a ideia de que as mudanças climáticas têm consequências graves e imediatas para a população."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção às alterações climáticas e eventos extremos como o calorão e catástrofes naturais, como o ciclone e a seca, serve para amplificar os medos sobre as consequências das mudanças climáticas."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As altas temperaturas provocadas pela onda de calor podem causar riscos para a saúde, segundo o INMET.",
+        "reasoning": "A ênfase nos riscos para a saúde, especialmente para grupos vulneráveis, reforça a ideia de que as consequências das mudanças climáticas são graves e imediatas."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

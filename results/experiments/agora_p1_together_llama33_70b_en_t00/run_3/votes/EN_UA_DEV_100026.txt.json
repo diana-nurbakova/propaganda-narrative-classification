@@ -1,0 +1,179 @@
+{
+  "file_id": "EN_UA_DEV_100026.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "the sanctions regime imposed on Russia by the United States and the West",
+        "reasoning": "The text criticizes Western diplomatic efforts, specifically the sanctions regime imposed on Russia, implying that it has had a negative impact on Germany's economy."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Germany is now the sick man of Europe, and misguided energy policy is largely to blame",
+        "reasoning": "The text highlights the negative economic consequences for Germany, a Western country, as a result of its energy policy and the sanctions regime."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "green politicians and evangelists of a looming climate apocalypse",
+        "reasoning": "The text implies that the media and politicians have exaggerated the climate crisis, creating a sense of distrust towards their narratives."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "virtue-signaling their way to perdition",
+        "reasoning": "The text suggests that German leaders are following a hidden agenda, prioritizing climate goals over the country's economic well-being, implying a secret scheme."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Germany has just recorded its third consecutive quarter of recession, marked by negative gross domestic product (GDP) growth. The central bank expects the rest of the year to be no better. Germany has recently experienced its highest rate of inflation in a quarter of a century.",
+        "reasoning": "The text implies that the economic struggles of Germany are a result of the sanctions regime imposed on Russia by the United States and the West, rather than acknowledging Russia's role in the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The sanctions regime imposed on Russia by the United States and the West",
+        "reasoning": "The text criticizes the Western countries for imposing sanctions on Russia, implying that this decision has led to negative consequences for Germany's economy."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Germany’s electricity prices are now among the highest on the planet. The only countries paying more per kilowatt hour anywhere in the world are Denmark and Italy.",
+        "reasoning": "The text highlights the negative economic consequences for Germany, a Western country, as a result of the sanctions regime and the disruption of Russian gas supplies."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Germany has been forced to find alternative sources of emergency fuel stock to keep its lights on and its citizens from freezing.",
+        "reasoning": "The text evokes fear about the potential consequences of the war, such as Germany's citizens freezing due to a lack of energy supplies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "The sanctions regime imposed on Russia by the United States and the West, and the sabotage of the Nord Stream pipelines, Germany has been forced to find alternative sources of emergency fuel stock to keep its lights on and its citizens from freezing.",
+        "reasoning": "The text implies that the economic hardship faced by Germany is a result of the sanctions imposed by the US and the West, and the sabotage of the Nord Stream pipelines, rather than Russia's actions in the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The sanctions regime imposed on Russia by the United States and the West",
+        "reasoning": "The text criticizes the Western countries for imposing sanctions on Russia, implying that this decision has had negative consequences for Germany."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Germany is now the sick man of Europe, and misguided energy policy is largely to blame. Germany has just recorded its third consecutive quarter of recession, marked by negative gross domestic product (GDP) growth.",
+        "reasoning": "The text highlights the negative economic consequences for Germany, a Western country, as a result of its energy policy and the sanctions regime."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Germany has been forced to find alternative sources of emergency fuel stock to keep its lights on and its citizens from freezing.",
+        "reasoning": "The text evokes fear about the potential consequences of the war, such as Germany's citizens freezing due to a lack of energy."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

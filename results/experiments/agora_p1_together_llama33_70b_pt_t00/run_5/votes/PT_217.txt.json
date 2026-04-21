@@ -1,0 +1,151 @@
+{
+  "file_id": "PT_217.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Climate change is beneficial",
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Controversy about green technologies",
+      "Hidden plots by secret schemes of powerful groups",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "As ondas de calor tornaram-se mais frequentes nas últimas décadas em virtude das alterações climáticas. Só este ano, o Brasil já passou por oito, sendo a atual a mais intensa.",
+        "reasoning": "A menção às ondas de calor mais frequentes e intensas devido às alterações climáticas serve como evidência para a amplificação de medos relacionados às mudanças climáticas, destacando a gravidade e o aumento desses eventos extremos."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As ondas de calor tornaram-se mais frequentes nas últimas décadas em virtude das alterações climáticas. Só este ano, o Brasil já passou por oito, sendo a atual a mais intensa.",
+        "reasoning": "A menção às ondas de calor mais frequentes e intensas devido às alterações climáticas serve para amplificar os medos relacionados às mudanças climáticas, destacando a gravidade e a tendência de aumento desses eventos extremos."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "",
+        "reasoning": null
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "",
+        "reasoning": null
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As ondas de calor tornaram-se mais frequentes nas últimas décadas em virtude das alterações climáticas. Só este ano, o Brasil já passou por oito, sendo a atual a mais intensa.",
+        "reasoning": "A menção às ondas de calor mais frequentes e intensas devido às alterações climáticas serve como evidência para a amplificação de medos relacionados às mudanças climáticas, destacando o aumento da frequência e intensidade desses eventos extremos."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 10
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "file_id": "A9_BG_2828.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Този цитат показва, че Володин смята, че конфликта в Украйна може да бъде прекратен, ако спре доставката на оръжие на киевския режим, което имплицитно поставя вината за продължаването на конфликта на САЩ и ЕС, които доставят оръжие."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Все повече страни са убедени, че политиката на Вашингтон и Брюксел се основава на лицемерие и двойни стандарти",
+        "reasoning": "Този цитат показва, че Володин критикува политиката на САЩ и ЕС, като я нарича „лицемерна“ и „с двойни стандарти“, което е типично за наративите, които дискредитират Запада."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "дават разрешение на киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация",
+        "reasoning": "Този цитат показва, че Русия е представена като жертва на агресията на киевския режим, което е типично за наративите, които представят Русия като жертва."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Докато най-ефективният и бърз начин за прекратяване на конфликта в Украйна е да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Този цитат показва, че Володин поставя вината за продължаването на конфликта в Украйна на доставката на оръжие на киевския режим, а не на руската инвазия."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "САЩ и ЕС се опитват да завлекат държавите на конференцията в Швейцария, лъжат за своя стремеж към мирно урегулиране",
+        "reasoning": "Този цитат показва, че Володин критикува политиката на САЩ и ЕС, обвинявайки ги в лицемерие и двойни стандарти, което е типично за наративите, които дискредитират Запада."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "дават разрешение на киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация",
+        "reasoning": "Този цитат показва, че руската федерация е представена като жертва на агресията на киевския режим, което е типично за наративите, които представят Русия като жертва."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "САЩ и ЕС се опитват да завлекат държавите на конференцията в Швейцария, лъжат за своя стремеж към мирно урегулиране, а от друга — дават разрешение на киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация",
+        "reasoning": "Текстът посочва, че САЩ и ЕС са отговорни за продължаването на конфликта в Украйна, като дават разрешение на киевския режим да нанася удари по територията на Руската федерация, което е директно обвинение срещу тези страни за ескалацията на конфликта."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевския режим да нанася удари с използване на своето въоръжение по територията на Руската федерация",
+        "reasoning": "Текстът описва киевския режим като агресор, който нанася удари по територията на Руската федерация, което е форма на дискредитация на украинското правителство и подчертава агресивните действия на Украйна."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "да спрем да доставяме оръжие на киевските нацисти",
+        "reasoning": "Текстът представя Русия като жертва на агресията, като се посочва, че доставката на оръжие на киевския режим е основната причина за продължаването на конфликта, което създава образа на Русия като страна, която е подложена на неправомерни действия от страна на Украйна и нейните поддръжници."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

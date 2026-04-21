@@ -1,0 +1,135 @@
+{
+  "file_id": "HI_35.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Distrust towards Media",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Distrust towards Media",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Distrust towards Media",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "रूसी प्रॉसिक्यूटर जनरल के कार्यालय ने देश की सेना को बदनाम करने का आरोप लगाते हुए 10 को जुलाई को रूस में वेबसाइट को ब्लॉक करने का आदेश जारी किया.",
+        "reasoning": "यह रूसी सरकार द्वारा मीडिया पर नियंत्रण को दर्शाता है, जो मीडिया की स्वतंत्रता पर संदेह पैदा करता है और इसकी विश्वसनीयता को कमजोर करता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "नवंबर 2023 में द मॉस्को टाइम्स को ‘विदेशी एजेंटों’ की सूची में डाला गया था.",
+        "reasoning": "यह रूसी सरकार द्वारा पश्चिमी देशों के प्रभाव को कमजोर करने और अपने निर्णयों को सही ठहराने के प्रयास को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूसी प्रॉसिक्यूटर जनरल के कार्यालय ने कहा है कि द मॉस्को टाइम्स पर प्रतिबंध आवश्यक था क्योंकि यह ऐसे मीडिया के साथ सहयोग करता था.",
+        "reasoning": "यह रूसी सरकार द्वारा अपने कार्यों को न्यायसंगत ठहराने और खुद को शिकार के रूप में प्रस्तुत करने का प्रयास है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "रूसी प्रॉसिक्यूटर जनरल के कार्यालय ने देश की सेना को बदनाम करने का आरोप लगाते हुए 10 को जुलाई को रूस में वेबसाइट को ब्लॉक करने का आदेश जारी किया.",
+        "reasoning": "यह उद्धरण रूसी सरकार द्वारा 'द मॉस्को टाइम्स' पर लगाए गए प्रतिबंध को दर्शाता है, जो मीडिया पर सरकार के नियंत्रण और स्वतंत्र मीडिया के प्रति अविश्वास को प्रकट करता है"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "नवंबर 2023 में द मॉस्को टाइम्स को ‘विदेशी एजेंटों’ की सूची में डाला गया था.",
+        "reasoning": "यह उद्धरण रूसी सरकार द्वारा 'द मॉस्को टाइम्स' को 'विदेशी एजेंट' के रूप में चिह्नित करने को दर्शाता है, जो पश्चिमी देशों के प्रति अविश्वास और उनकी नीतियों की आलोचना को प्रकट करता है"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "रूसी प्रॉसिक्यूटर जनरल के कार्यालय ने देश की सेना को बदनाम करने का आरोप लगाते हुए 10 को जुलाई को रूस में वेबसाइट को ब्लॉक करने का आदेश जारी किया.",
+        "reasoning": "यह रूसी सरकार द्वारा मीडिया पर नियंत्रण को दर्शाता है और स्वतंत्र मीडिया को दबाने का प्रयास है."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "नवंबर 2023 में द मॉस्को टाइम्स को ‘विदेशी एजेंटों’ की सूची में डाला गया था.",
+        "reasoning": "यह रूसी सरकार द्वारा पश्चिमी देशों के प्रभाव को कम करने और अपने नियंत्रण को मजबूत करने का प्रयास है."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Distrust towards Media",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

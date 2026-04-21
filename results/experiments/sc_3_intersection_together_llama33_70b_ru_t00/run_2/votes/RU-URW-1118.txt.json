@@ -1,0 +1,140 @@
+{
+  "file_id": "RU-URW-1118.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Шар на стороне бывших партнёров. Пусть думают, пусть чешут себе разные места. Не захотят — мы свои задачи выполним, а у них времени на раздумья осталось не так много, как и способности размышлять",
+        "reasoning": "This quote implies that the responsibility for the conflict's resolution lies with the West, rather than Russia, by stating that the 'ball is on the side of former partners' and that they should think and reflect on their actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимир Зеленский же стал нелегитимной фигурой, и что бы он ни \"квакал\", слушать его никто не будет",
+        "reasoning": "This quote directly discredits Ukraine's leader, Vladimir Zelensky, by calling him an 'illegitimate figure' and implying that his words are meaningless and will not be listened to."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Россия сделала свои предложения по урегулированию конфликта на Украине, и теперь дело за Западом",
+        "reasoning": "This quote portrays Russia as a peaceful and reasonable party that has made proposals for conflict resolution, implying that Russia is being unfairly targeted or victimized by the West's lack of response."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Шар на стороне бывших партнёров. Пусть думают, пусть чешут себе разные места. Не захотят — мы свои задачи выполним, а у них времени на раздумья осталось не так много, как и способности размышлять",
+        "reasoning": "This quote implies that the responsibility for the conflict's resolution lies with the West, rather than Russia, by stating that the 'ball is on the side of former partners' and that they should think and reflect on their actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимир Зеленский же стал нелегитимной фигурой, и что бы он ни \"квакал\", слушать его никто не будет",
+        "reasoning": "This quote directly discredits Ukraine's leader, Vladimir Zelensky, by calling him an 'illegitimate figure' and implying that his words are meaningless and will not be listened to."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Россия сделала свои предложения по урегулированию конфликта на Украине, и теперь дело за Западом",
+        "reasoning": "This quote portrays Russia as a peaceful and reasonable party that has made proposals for conflict resolution, implying that Russia is being unfairly targeted or victimized by the West's lack of response."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Шар на стороне бывших партнёров. Пусть думают, пусть чешут себе разные места. Не захотят — мы свои задачи выполним, а у них времени на раздумья осталось не так много, как и способности размышлять",
+        "reasoning": "This quote implies that the responsibility for the conflict's resolution lies with the West, rather than Russia, by stating that the 'ball is on the side of former partners' and that they should think and reflect on their actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Владимир Зеленский же стал нелегитимной фигурой, и что бы он ни \"квакал\", слушать его никто не будет",
+        "reasoning": "This quote directly discredits Ukraine's leader, Vladimir Zelensky, by calling him an 'illegitimate figure' and implying that his words are meaningless and will not be listened to."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Россия сделала свои предложения по урегулированию конфликта на Украине, и теперь дело за Западом",
+        "reasoning": "This quote portrays Russia as a peaceful and proactive party in the conflict, having made proposals for a resolution, and shifts the focus to the West, implying that Russia is waiting for a response and is being unfairly pressured or delayed."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting Ukraine",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

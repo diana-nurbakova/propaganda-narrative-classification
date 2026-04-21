@@ -1,0 +1,127 @@
+{
+  "file_id": "EN_CC_200036.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Climate cultists push bizarre scare language about weather: \"rain bombs\" and \"boiling oceans\"",
+        "reasoning": "The text criticizes the climate movement for using exaggerated language to scare people, implying that they are alarmist and dishonest."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "They have been losing their minds for decades. I have been hearing about these end of the world scenarios since I was a kid. And not one of their predictions has come true.",
+        "reasoning": "The text downplays the significance of climate change by pointing out that past predictions have not come true, implying that the current warnings are also exaggerated or false."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "A few years ago, someone (John Nolte?) listed all of their bigger predictions and their track record was 0-47",
+        "reasoning": "The text questions the accuracy of climate predictions and the science behind them by highlighting the failed predictions and implying that the climate movement is not credible."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Gore would know about fossil fuel use, seeing as how he uses lots and lots of it – much more than the average person, in fact – to power his lavish, sprawling estates and fuel his private jets.",
+        "reasoning": "The text criticizes Al Gore, a prominent figure in the climate movement, for his perceived hypocrisy and excessive use of fossil fuels, implying that he is not a credible authority on the issue."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate cultists push bizarre scare language about weather: \"rain bombs\" and \"boiling oceans\"",
+        "reasoning": "The text criticizes the climate movement for using alarming language to describe weather events, implying that they are exaggerating or manipulating the truth to advance their agenda."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Al Gore, Bill Clinton's former vice president, condemned \"greenhouse gas pollution\" for \"boiling the oceans\" and causing \"rain bombs,\" whatever those are supposed to be.",
+        "reasoning": "The text criticizes Al Gore, a prominent figure in the climate movement, for making what it sees as outlandish claims about the effects of climate change, implying that he and other authorities are not credible or trustworthy."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "They have been losing their minds for decades. I have been hearing about these end of the world scenarios since I was a kid. And not one of their predictions has come true.",
+        "reasoning": "The text downplays the significance of climate change by pointing out that past predictions of catastrophic consequences have not come true, implying that the current warnings are also exaggerated or unfounded."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "A few years ago, someone (John Nolte?) listed all of their bigger predictions and their track record was 0-47",
+        "reasoning": "The text questions the accuracy of climate science by highlighting the alleged failure of past predictions, implying that the scientific methods or data used to make these predictions are flawed or unreliable."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate cultists push bizarre scare language about weather: \"rain bombs\" and \"boiling oceans\"",
+        "reasoning": "The text criticizes the climate movement for using exaggerated language to scare people, implying that they are alarmist and dishonest."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Al Gore, Bill Clinton's former vice president, condemned \"greenhouse gas pollution\" for \"boiling the oceans\" and causing \"rain bombs,\" whatever those are supposed to be.",
+        "reasoning": "The text criticizes Al Gore, a prominent figure in the climate movement, for making exaggerated claims, implying that he is incompetent or dishonest."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "They have been losing their minds for decades. I have been hearing about these end of the world scenarios since I was a kid. And not one of their predictions has come true.",
+        "reasoning": "The text downplays the significance of climate change by pointing out that past predictions have not come true, implying that the issue is not as serious as claimed."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "A few years ago, someone (John Nolte?) listed all of their bigger predictions and their track record was 0-47",
+        "reasoning": "The text questions the accuracy of climate predictions and the science behind them, implying that the data is flawed or unreliable."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Cheap and abundant oil and natural gas have to go, Gore says – for poor people, anyway – in order for the planet to stop warming.",
+        "reasoning": "The text expresses skepticism about the feasibility and fairness of transitioning to renewable energy sources, implying that it may harm poor people or the economy."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

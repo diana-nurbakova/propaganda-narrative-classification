@@ -1,0 +1,189 @@
+{
+  "file_id": "A9_BG_3921.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "Тази цитата показва критика към Запада, като се твърди, че те имат план да разделят Русия, което е негативно и подозрително поведение."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "някои хора в Атлантическия съвет, и то не само американци, но и британски, дори германски и австрийски учени, са казвали, че Русия може да бъде разделена така, както беше разделена Югославия",
+        "reasoning": "Тази цитата предполага, че има скрити планове и тайни схеми сред мощни групи, които целят да разделят Русия, което е типично за този нарът."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Западът имаше план за разделяне на Русия по подобие на Югославия",
+        "reasoning": "Тази цитата премества отговорността за конфликта от Русия към Запада, като се твърди, че те имат план да разделят Русия, което е типично за този нарът."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Карин Кнайсъл: Истина е, че Западът имаше план за разделяне на Русия по подобие на Югославия",
+        "reasoning": "Тази цитата показва, че Карин Кнайсъл споменава за план на Запада да раздели Русия, което е пример за скрит заговор или тайна схема на мощни групи."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Запитана дали според нея Западът има подобни планове и към днешна дата, тя отговори: \"Да\"",
+        "reasoning": "Тази цитата показва, че Карин Кнайсъл вярва, че Западът има планове да раздели Русия, което е критика към западната дипломация и политика."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Милорад Додик: Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "Тази цитата показва, че Милорад Додик обвинява Запада за плановете да раздели Русия, което е пример за пренасяне на отговорността за конфликта от Русия към други страни."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Карин Кнайсъл: Истина е, че Западът имаше план за разделяне на Русия по подобие на Югославия",
+        "reasoning": "Тази цитата показва, че Карин Кнайсъл твърди, че Западът има план за разделяне на Русия, което е пример за скрит заговор или тайна схема на мощни групи."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Запитана дали според нея Западът има подобни планове и към днешна дата, тя отговори: \"Да\"",
+        "reasoning": "Тази цитата показва, че Карин Кнайсъл вярва, че Западът има планове за разделяне на Русия и до днес, което е критика към Западната дипломация и политика."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "руският президент Владимир Путин разбира тенденциите и застава начело на борбата за националните интереси на страната си",
+        "reasoning": "Тази цитата показва, че руският президент Владимир Путин е представен като жертва, която се бори за националните интереси на страната си срещу плановете на Запада, което е пример за нарътвив, който представя Русия като жертва."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Hidden plots by secret schemes of powerful groups",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

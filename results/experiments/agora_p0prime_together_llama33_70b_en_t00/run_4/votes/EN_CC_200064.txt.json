@@ -1,0 +1,168 @@
+{
+  "file_id": "EN_CC_200064.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of climate movement",
+      "Downplaying climate change",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of climate movement",
+      "Downplaying climate change",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The three activists jumped onto the stage, stood in front of the studio camera, released yellow paint powder, and unfurled a large banner with the name of the eco-warrior group “Restore Wetlands” on it, as Kalla and her partner continued to dance in the background.",
+        "reasoning": "This quote supports the narrative of Criticism of climate movement because it portrays the activists' actions as disruptive and inappropriate, implying that their methods are not effective or respectful."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The reason: The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "This quote does not actually downplay climate change, it amplifies the fears. However, the context of the article focuses on the radical actions of the activists rather than the climate change issue itself, which could be seen as downplaying the significance of the issue by shifting the attention to the activists' behavior."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "This quote supports the narrative of Amplifying Climate Fears because it emphasizes the severity and urgency of the climate change issue, using words like 'threatened', 'collapse', and 'devastating consequences' to create a sense of alarm."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The three activists jumped onto the stage, stood in front of the studio camera, released yellow paint powder, and unfurled a large banner with the name of the eco-warrior group \"Restore Wetlands\" on it, as Kalla and her partner continued to dance in the background.",
+        "reasoning": "This quote supports the narrative of Criticism of climate movement because it portrays the activists' actions as disruptive and inappropriate, implying that their methods are not effective or respectful."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "The reason: The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "This quote does not actually downplay climate change, it amplifies the fears. However, the context of the article focuses more on the criticism of the climate movement's methods rather than the climate change itself, which could be seen as downplaying the importance of the issue by shifting the focus to the activists' behavior."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "This quote supports the narrative of Amplifying Climate Fears because it emphasizes the severity and urgency of the climate crisis, suggesting that the world is at risk of collapse with devastating consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The three activists jumped onto the stage, stood in front of the studio camera, released yellow paint powder, and unfurled a large banner with the name of the eco-warrior group \"Restore Wetlands\" on it, as Kalla and her partner continued to dance in the background.",
+        "reasoning": "This quote supports the narrative of Criticism of climate movement because it portrays the activists' actions as disruptive and potentially harmful, especially considering the pregnant participant. The tone implies that the activists' methods are inappropriate and excessive."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "The reason: The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "This quote does not actually downplay climate change, it amplifies the fears. However, the context of the article focuses more on the criticism of the climate movement's actions rather than the climate change itself. The narrative that is actually present is Criticism of climate movement."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "The whole world is threatened by climate and societal collapse with devastating consequences.",
+        "reasoning": "This quote supports the narrative of Amplifying Climate Fears because it emphasizes the severity and urgency of the climate crisis, suggesting that the entire world is at risk of collapse with devastating consequences."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Downplaying climate change",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other",
+    "CC: Downplaying climate change: Other",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

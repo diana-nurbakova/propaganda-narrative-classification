@@ -1,0 +1,169 @@
+{
+  "file_id": "BG_1169.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Climate change is beneficial",
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Controversy about green technologies",
+      "Hidden plots by secret schemes of powerful groups",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Questioning the measurements and science"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Нова ледникова епоха чука на вратата",
+        "reasoning": "Текстът представя страхотна и катастрофална ситуация, която може да доведе до радикални промени в климата по света, което е типично за Amplifying Climate Fears."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "",
+        "reasoning": "Няма достатъчно доказателства в текста, които да подкрепят тази нарътвия."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нова ледникова епоха чука на вратата",
+        "reasoning": "Текстът представя страхотна и катастрофална ситуация, която може да доведе до радикални промени в климата по света, което е типично за Amplifying Climate Fears."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "евентуален колапс на AMOC може да влоши ситуацията",
+        "reasoning": "Текстът представя възможността за колапс на AMOC като потенциално влошаваща ситуацията, което е типично за Amplifying Climate Fears."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Метеорологичната служба също отбелязва, че AMOC отслабва поради нарастващите емисии на парникови газове, но мащабна промяна в системата се счита за малко вероятна",
+        "reasoning": "Текстът представя различни мнения и оценки относно промяната в AMOC, което показва, че научната общност не е единна в своите заключения, което е типично за Questioning the measurements and science."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нова ледникова епоха чука на вратата",
+        "reasoning": "Текстът представя предупреждение за възможен колапс на Атлантическата меридионална циркулация (AMOC), който би могъл да доведе до радикални промени в климата по света, включително спад на температурите в Европа, Северна Америка и части от Азия, което създава страх от глобално замръзване и опустошителни последици."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Метеорологичната служба също отбелязва, че AMOC отслабва поради нарастващите емисии на парникови газове",
+        "reasoning": "Текстът споменава, че нарастващите емисии на парникови газове са причина за отслабването на AMOC, което може да се тълкува като критика към климатичните политики, които не успяват да ограничат тези емисии."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 10
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

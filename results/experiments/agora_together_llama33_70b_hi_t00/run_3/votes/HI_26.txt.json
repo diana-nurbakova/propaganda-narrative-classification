@@ -1,0 +1,143 @@
+{
+  "file_id": "HI_26.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा, 'आपका हार्दिक स्वागत है। आपको देखकर बहुत खुशी हो रही है। हमारे बीच औपचारिक बातचीत कल होने वाली है। आज अनौपचारिक रूप से हम घर के वातावरण में उन्हीं मामलों पर बातचीत कर सकते हैं।'",
+        "reasoning": "This quote shows praise and admiration for Russia as it highlights the warm welcome and hospitality extended by President Putin to PM Modi, indicating a positive and respectful relationship between the two leaders and their countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मोदी का रूस दौरा उस वक्त हो रहा है जब अमेरिका में NATO समिट शुरू होने जा रहा है। विदेश मंत्रालय को बयान जारी कर सफाई देनी पड़ी कि मोदी के रूस दौरे का नाटो समिट से कोई मतलब नहीं है।",
+        "reasoning": "This quote implies that the West, particularly through the NATO summit, might be trying to influence or undermine India's diplomatic efforts with Russia, suggesting a narrative that discredits Western diplomatic efforts or intentions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूसी राष्ट्रपति पुतिन ने पीएम मोदी के लिए खुद गोल्फ कार्ट ड्राइव की। इस दौरान दोनों पार्क में टहलते हुए भी दिखे।",
+        "reasoning": "This quote shows a positive and respectful interaction between Putin and PM Modi, highlighting Russia's hospitality and friendship."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मोदी का रूस दौरा उस वक्त हो रहा है जब अमेरिका में NATO समिट शुरू होने जा रहा है। विदेश मंत्रालय को बयान जारी कर सफाई देनी पड़ी कि मोदी के रूस दौरे का नाटो समिट से कोई मतलब नहीं है।",
+        "reasoning": "This quote implies that the West, specifically NATO, is being critical or suspicious of PM Modi's visit to Russia, which could be seen as discrediting Western diplomacy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूसी राष्ट्रपति पुतिन ने पीएम मोदी के लिए खुद गोल्फ कार्ट ड्राइव की। इस दौरान दोनों पार्क में टहलते हुए भी दिखे।",
+        "reasoning": "This quote shows a positive interaction between Putin and PM Modi, highlighting Putin's hospitality and friendship, which can be seen as praise for Russia's actions and character."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मोदी का रूस दौरा उस वक्त हो रहा है जब अमेरिका में NATO समिट शुरू होने जा रहा है। विदेश मंत्रालय को बयान जारी कर सफाई देनी पड़ी कि मोदी के रूस दौरे का नाटो समिट से कोई मतलब नहीं है।",
+        "reasoning": "This quote implies that the West (NATO) might be trying to exert influence or pressure, and India's foreign ministry has to clarify its position, which can be seen as discrediting Western diplomatic efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अगर रूस 'अस्तित्व से जुड़े खतरे' का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा।",
+        "reasoning": "The quote directly reports the Kremlin's statement on the potential use of nuclear weapons, which is a classic fear-amplifying tactic. By specifying the condition ('existential threat'), it actively evokes anxiety about nuclear escalation, fitting the definition of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "उन्होंने कहा, 'तो अगर हमारे देश के अस्तित्व के लिए खतरा आया, तो हमारे कॉन्सेप्ट के हिसाब इसे इनका उपयोग किया जा सकता है।'",
+        "reasoning": "This quote frames Russia's potential nuclear use as a defensive response to an existential threat, portraying Russia as a nation forced to consider extreme measures to protect itself. This aligns with the 'Russia is the Victim' narrative by suggesting Russia is reacting to external dangers."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "प्रवक्ता ने कहा कि 'कार्रवाई' का मुख्य उद्देश्य 'यूक्रेन की सैन्य ताकतों से छुटकारा पाना है।'",
+        "reasoning": "This statement presents Russia's military action as a necessary operation to neutralize Ukraine's military forces, implicitly framing Ukraine's military as a problem that needs to be 'gotten rid of.' This undermines the legitimacy of Ukraine's defense and advances the narrative of discrediting Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस-यूक्रेन युद्ध में परमाणु हथियारों के इस्तेमाल की संभावनाओं को लेकर चिंताएं जारी हैं। इसी बीच क्रेमलिन ने कहा है कि अगर रूस 'अस्तित्व से जुड़े खतरे' का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा।",
+        "reasoning": "The text actively reports on and highlights Kremlin statements about the potential use of nuclear weapons, framing it as an ongoing concern and specifying a condition ('existential threat') under which Russia would use them. This directly evokes fear and anxiety about nuclear escalation."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "मॉस्को की तरफ से यह चेतावनी भी जारी का जा चुकी है कि अगर अमेरिका और NATO सहयोगी यूक्रेन को लड़ाकू विमान मुहैया कराते हैं, तो वह युद्ध को तेज और इसका विस्तार कर सकता है।",
+        "reasoning": "This quote presents a Russian warning that escalation of the war would be a consequence of actions by the US and NATO (providing fighter jets to Ukraine), thereby shifting responsibility for potential future negative developments away from Russia, the invading party."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अगर रूस 'अस्तित्व से जुड़े खतरे' का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा।",
+        "reasoning": "The quote directly reports the Kremlin's statement on the potential use of nuclear weapons, framing it as a conditional response to an 'existential threat'. By highlighting this specific, severe threat and its potential trigger, the text actively amplifies fears about nuclear escalation in the context of the war."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

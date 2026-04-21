@@ -1,0 +1,57 @@
+{
+  "file_id": "HI_26.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूसी राष्ट्रपति पुतिन ने मोदी को तीसरे कार्यकाल के लिए बधाई दी। पुतिन ने कहा- मैं आपको फिर से प्रधानमंत्री चुने जाने पर बधाई देना चाहता हूं। यह आपके कई वर्षों के काम का परिणाम है। आप बहुत ऊर्जावान व्यक्ति हैं, आप जानते हैं कि भारत और वहां के लोगों को लाभ पहुंचाने के लिए कैसे काम किया जाए। इसका परिणाम भी दिखा है। आज भारत दुनिया की तीसरी सबसे बड़ी अर्थव्यवस्था है।",
+        "reasoning": "This quote shows praise for Russia as it highlights the positive relationship between Russia and India, and Putin's appreciation for Modi's leadership."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मोदी का रूस दौरा उस वक्त हो रहा है जब अमेरिका में NATO समिट शुरू होने जा रहा है। विदेश मंत्रालय को बयान जारी कर सफाई देनी पड़ी कि मोदी के रूस दौरे का नाटो समिट से कोई मतलब नहीं है। दरअसल, यूक्रेन जंग शुरू होने के बाद से रूस यूरोप में अलग-थलग पड़ गया। इस बीच उसे चीन और भारत का साथ मिला है।",
+        "reasoning": "This quote discredits Western diplomacy by implying that the West, particularly NATO, is trying to isolate Russia, while India and China are providing support."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

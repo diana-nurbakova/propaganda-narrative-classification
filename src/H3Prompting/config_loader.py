@@ -286,8 +286,11 @@ class ClassificationConfig:
                 m2 = re.search(r"/(en|bg|hi|pt|ru)/", self.input_folder.lower())
                 if m2:
                     self.language = m2.group(1).upper()
-        if self.prompt_level not in ("P0", "P1", "P2"):
+        if self.prompt_level not in ("P0", "P0'", "P0T", "P1", "P2"):
             self.prompt_level = "P0"
+        # P0T requires ToM Stage 1 (like P2, but without P1 enhancements).
+        if self.prompt_level == "P0T":
+            self.enable_tom_stage1 = True
 
     def validate(self) -> None:
         """Validate the configuration values."""

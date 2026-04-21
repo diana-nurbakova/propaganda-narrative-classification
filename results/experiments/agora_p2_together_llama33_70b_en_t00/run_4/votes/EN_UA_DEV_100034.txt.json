@@ -1,0 +1,193 @@
+{
+  "file_id": "EN_UA_DEV_100034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This quote suggests that the West, as part of the 'free world', is inherently on the side of democracy and justice, implying a positive evaluation of Western values and actions in the context of the war in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights the potential negative consequences for Western countries if Ukraine does not prevail in the war, emphasizing the risk of Russian aggression extending beyond Ukraine's borders."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "According to the current International Monetary Fund-supported program (Q2, 2023 – Q1, 2027), Ukraine’s need for external financial assistance is estimated at $122 billion. However, over two years of the full-scale war, partners have already disbursed $100 billion annually.",
+        "reasoning": "This quote can be seen as critiquing the adequacy and effectiveness of Western diplomatic and financial support for Ukraine, suggesting that the estimated need for assistance is underestimated and that more substantial support is required."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This quote suggests that the West, as part of the 'free world', is inherently on the side of democracy and justice, implying a moral superiority and strength in their support for Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Some believe that since Ukraine receives large amounts of international aid, it can be used to settle with bondholders.",
+        "reasoning": "This quote implies criticism of Western diplomacy by suggesting that the international community might expect Ukraine to use aid for debt settlement, rather than supporting Ukraine's war efforts and economic recovery."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights potential negative consequences for Western countries if Ukraine does not prevail, emphasizing the risk of Russian aggression extending beyond Ukraine's borders."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct praise of Russia in the text; instead, Russia is portrayed as an aggressor."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to prevail and protect the civilized world from Russian military invasion.",
+        "reasoning": "This quote speculates about the outcome of the war, suggesting that Ukraine's ability to resist aggression will determine the war's outcome and the protection of the 'civilized world'."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This quote suggests that the West, as part of the 'free world', is inherently on the side of democracy and justice, implying a positive evaluation of Western values and their role in the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Some suggest rolling over bond repayments mentioned in this article for another two years. I categorically oppose this!",
+        "reasoning": "This quote implies criticism of Western diplomatic efforts or suggestions that do not align with the author's view of what is necessary for Ukraine's victory, potentially discrediting the effectiveness or commitment of Western diplomacy."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote highlights potential negative consequences for Western countries if Ukraine does not prevail, emphasizing the risk of Russian aggression extending beyond Ukraine's borders."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to prevail and protect the civilized world from Russian military invasion.",
+        "reasoning": "This quote speculates about the outcome of the war, suggesting that Ukraine's ability to resist and potentially prevail is tied to its economic and military support, making a prediction about the consequences of different levels of support."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Overpraising the West",
+    "URW: Negative Consequences for the West",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is weak"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "file_id": "HI_38.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है",
+        "reasoning": "This quote suggests that Russia is giving priority to its relationship with India over China, which can be seen as a positive aspect of Russia's foreign policy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता",
+        "reasoning": "This quote implies that Western countries may be relying too heavily on military solutions, whereas India and Russia are emphasizing the importance of diplomacy and dialogue."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

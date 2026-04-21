@@ -1,0 +1,132 @@
+{
+  "file_id": "BG_212.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "The headline and the article's opening statement use dramatic language ('on the edge of a climate abyss') to emphasize the severity and imminent danger of the climate situation, which aligns with amplifying fears about the consequences of climate change."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Това би означавало катастрофално ниво на затопляне",
+        "reasoning": "The text directly labels the projected temperature increase as 'catastrophic,' which is a strong, fear-amplifying descriptor of the impact of climate change."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "This quote lists a series of severe, large-scale negative consequences (famine, conflict, mass migration) caused by extreme weather events, actively painting a dire and fearful picture of the future due to climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "The headline and the article's core message use dramatic language ('on the edge of a climate abyss') to emphasize the extreme severity and imminent danger of climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Това би означавало катастрофално ниво на затопляне",
+        "reasoning": "The text directly characterizes the predicted temperature increase as 'catastrophic,' which amplifies fear about the consequences."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "This quote lists a series of severe, large-scale societal catastrophes (famine, conflict, mass migration) caused by extreme weather, actively painting a fearful picture of the future to underscore the urgency of the crisis."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Светът е на ръба на климатична пропаст",
+        "reasoning": "The phrase 'на ръба на климатична пропаст' (on the edge of a climate abyss) is a dramatic and fear-amplifying statement about the consequences of climate change, setting the tone for the entire article."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Това би означавало катастрофално ниво на затопляне",
+        "reasoning": "The text directly labels the projected temperature increase as leading to a 'catastrophic level of warming', which actively amplifies fears about the impact."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Много от специалистите очакват бъдеще, в което има глад, конфликти и масова миграция, причинени от топлинни вълни, горски пожари, наводнения и бури с интензитет и честота много по-големи от това, на което сме ставали свидетели.",
+        "reasoning": "This quote lists severe future consequences (famine, conflict, mass migration) caused by extreme weather events, explicitly amplifying fears about the dire outcomes of climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

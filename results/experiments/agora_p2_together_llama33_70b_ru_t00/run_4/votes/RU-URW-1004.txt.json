@@ -1,0 +1,141 @@
+{
+  "file_id": "RU-URW-1004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "This quote suggests that Ukraine's past experiences with ceasefires have been negative, implying that Ukraine's actions or decisions may have been harmful to itself, which can be seen as undermining the legitimacy of Ukraine's actions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Орбан добавил, что старается представлять интересы Европы справедливо и честно. Своей целью он назвал сделать доклад в Евросовете о возможности мирного урегулирования",
+        "reasoning": "This quote implies that there is a possibility of a peaceful resolution to the conflict, which can be seen as speculating about the outcome of the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру",
+        "reasoning": "This quote suggests that Western countries, in this case, Hungary, are taking a more proactive and peaceful approach to resolving the conflict, which can be seen as discrediting the diplomatic efforts of other Western countries."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "This quote suggests that Ukraine's past experiences with ceasefires have been negative, implying that Ukraine's actions or decisions may have been harmful to itself, which can be seen as undermining the legitimacy of Ukraine's actions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Орбан добавил, что старается представлять интересы Европы справедливо и честно. Своей целью он назвал сделать доклад в Евросовете о возможности мирного урегулирования",
+        "reasoning": "This quote implies that there is a possibility of a peaceful resolution to the conflict, which can be seen as speculating about the outcome of the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру",
+        "reasoning": "This quote suggests that the West (in this case, Budapest) is taking a more proactive and peaceful approach to resolving the conflict, which can be seen as discrediting the diplomatic efforts of other Western countries."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Зеленский сказал ему, что в прошлом у него был отрицательный опыт с перемириями, которые он \"интерпретировал как вредящие Украине\"",
+        "reasoning": "The quote suggests that Zelensky has had negative experiences with ceasefires in the past, implying that Ukraine may not be capable of negotiating effectively or that its leaders are not trustworthy."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Он напомнил, что Будапешт хочет как можно скорее прекратить боевые действия и прийти к миру. Орбан добавил, что старается представлять интересы Европы справедливо и честно.",
+        "reasoning": "The quote implies that Western countries, including Hungary, are more interested in achieving peace than Ukraine, which may be seen as discrediting Ukraine's position and emphasizing the West's role in promoting diplomacy."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The EU is divided"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

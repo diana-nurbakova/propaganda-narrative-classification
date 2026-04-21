@@ -1,0 +1,175 @@
+{
+  "file_id": "RU-URW-1135.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад \"предпринял жесткие действия в отношении фрондирующих руководителей государств\"",
+        "reasoning": "The quote suggests that the West is taking strong actions against leaders who oppose it, implying a negative portrayal of Western diplomacy and its treatment of dissenting voices."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "This quote implies that Russia is being pressured or threatened by the 'Global West', portraying Russia as a victim of Western actions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Раньше для этого использовали Макрона, еще раньше Меркель, Шольца, Эрдогана, сейчас Орбана, который будет пытаться уговорить Россию как минимум заключить перемирие и зафиксировать ситуацию по линии боестолкновения",
+        "reasoning": "The quote speculates about the potential outcome of the conflict, suggesting that Orban may try to persuade Russia to agree to a ceasefire or settlement, implying a prediction about the future course of the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад \"предпринял жесткие действия в отношении фрондирующих руководителей государств\"",
+        "reasoning": "The text implies that the West is taking strong actions against leaders who oppose it, suggesting a critique of Western diplomacy and its treatment of dissenting voices."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "This quote suggests that Russia is being pressured by the Global West, implying that Russia is a victim of Western actions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Раньше для этого использовали Макрона, еще раньше Меркель, Шольца, Эрдогана, сейчас Орбана, который будет пытаться уговорить Россию как минимум заключить перемирие и зафиксировать ситуацию по линии боестолкновения",
+        "reasoning": "The text speculates about the potential outcomes of the conflict, including the possibility of a ceasefire and the fixation of the situation on the line of contact, which is a prediction about the future of the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад \"предпринял жесткие действия в отношении фрондирующих руководителей государств\"",
+        "reasoning": "The text implies that the West is taking harsh actions against leaders who oppose it, which discredits the West's diplomatic efforts and portrays them as aggressive and coercive."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "The text suggests that Orban has realized it's not worth opposing the Global West, implying that Russia is being unfairly targeted or victimized by the West's collective actions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Раньше для этого использовали Макрона, еще раньше Меркель, Шольца, Эрдогана, сейчас Орбана, который будет пытаться уговорить Россию как минимум заключить перемирие и зафиксировать ситуацию по линии боестолкновения",
+        "reasoning": "The text speculates about the potential outcome of the conflict, predicting that Orban will try to persuade Russia to agree to a ceasefire and fix the situation on the line of contact."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

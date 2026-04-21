@@ -1,0 +1,143 @@
+{
+  "file_id": "PT_220.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "A água que chega ao Pantanal provém das chuvas na cabeceira dos rios do Semiárido, que inundam gradualmente a região plana. A cada ano a inundação tem sido menor, diz Rosa.",
+        "reasoning": "This quote supports the narrative of Amplifying Climate Fears because it emphasizes the decreasing water levels in the Pantanal region, which is a consequence of climate change, and implies a catastrophic scenario if the trend continues."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "É necessário haver consciência em Brasília sobre a necessidade de preservar e plantar novas árvores para que, mesmo perante as alterações climáticas, o Brasil possa continuar a usufruir da abundância de água que sempre o distinguiu.",
+        "reasoning": "This quote supports the narrative of Criticism of institutions and authorities because it implies that the government in Brasília is not doing enough to address the issue of deforestation and its impact on water scarcity, suggesting a lack of awareness or action from the authorities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A água que chega ao Pantanal provém das chuvas na cabeceira dos rios do Semiárido, que inundam gradualmente a região plana. A cada ano a inundação tem sido menor, diz Rosa.",
+        "reasoning": "This quote supports the narrative of Amplifying Climate Fears because it emphasizes the decreasing water levels in the Pantanal region, which is a consequence of climate change, and implies a sense of urgency and alarm."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "É necessário haver consciência em Brasília sobre a necessidade de preservar e plantar novas árvores para que, mesmo perante as alterações climáticas, o Brasil possa continuar a usufruir da abundância de água que sempre o distinguiu.",
+        "reasoning": "This quote supports the narrative of Criticism of institutions and authorities because it implies that the government in Brasília is not doing enough to address the issue of deforestation and water scarcity, and that they need to take action to preserve and plant new trees."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A água que chega ao Pantanal provém das chuvas na cabeceira dos rios do Semiárido, que inundam gradualmente a região plana. A cada ano a inundação tem sido menor, diz Rosa.",
+        "reasoning": "This quote supports the narrative of Amplifying Climate Fears because it emphasizes the decreasing water levels in the Pantanal region, which is a consequence of climate change, and implies a sense of urgency and alarm."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "É necessário haver consciência em Brasília sobre a necessidade de preservar e plantar novas árvores para que, mesmo perante as alterações climáticas, o Brasil possa continuar a usufruir da abundância de água que sempre o distinguiu.",
+        "reasoning": "This quote supports the narrative of Criticism of institutions and authorities because it implies that the government in Brasília is not doing enough to address the issue of deforestation and water scarcity, and that they need to take action to preserve and plant new trees."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

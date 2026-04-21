@@ -1,0 +1,83 @@
+{
+  "file_id": "EN_CC_200053.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ],
+    [],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "the world have to be on a “war-like footing” over climate change",
+        "reasoning": "This quote amplifies the urgency and severity of climate change by comparing it to a war-like situation, emphasizing the need for immediate and drastic action."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Sunak has been sending mixed signals about his government’s energy and climate policies",
+        "reasoning": "This statement criticizes the inconsistency in the government's climate policies, implying that the current approach may not be effective or reliable."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The U-turn comes after Sunak came under pressure from climate activists, opposition parties, and some Conservative MPs",
+        "reasoning": "This quote suggests that the Prime Minister's initial decision was flawed and that he was pressured into changing it, implying a lack of confidence in his leadership and the institution's ability to make decisions without external influence."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "the world have to be on a “war-like footing” over climate change",
+        "reasoning": "This quote amplifies the urgency and severity of climate change by using the metaphor of a 'war-like footing', implying a state of emergency and extreme action required."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Sunak has been sending mixed signals about his government’s energy and climate policies",
+        "reasoning": "This sentence criticizes the UK government's climate policies by highlighting the inconsistency and uncertainty in their approach, implying a lack of clear direction or commitment."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The U-turn comes after Sunak came under pressure from climate activists, opposition parties, and some Conservative MPs",
+        "reasoning": "This sentence implies that the Prime Minister's initial decision was flawed and that he was forced to change it due to external pressure, questioning the competence of the institution (the government) in making decisions on climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

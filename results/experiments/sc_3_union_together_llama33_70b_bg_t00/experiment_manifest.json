@@ -1,0 +1,71 @@
+{
+  "experiment_id": "sc_3_union_together_llama33_70b_bg_t00",
+  "base_config": "configs/experiments/generated/emnlp/sc_3_union_together_llama33_70b_bg_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-04-19T20:30:29.155328",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T20:30:29.155328",
+      "completed_at": "2026-04-19T20:35:00.573483",
+      "duration_seconds": 271.418155
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T20:35:30.595718",
+      "completed_at": "2026-04-19T20:40:03.014168",
+      "duration_seconds": 272.41845
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T20:40:33.023695",
+      "completed_at": "2026-04-19T20:44:54.279807",
+      "duration_seconds": 261.256112
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T20:45:24.300859",
+      "completed_at": "2026-04-19T20:49:25.873359",
+      "duration_seconds": 241.5725
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_union_together_llama33_70b_bg_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T20:49:55.881316",
+      "completed_at": "2026-04-19T20:54:01.054525",
+      "duration_seconds": 245.173209
+    }
+  ],
+  "completed_at": "2026-04-19T20:54:01.057538",
+  "total_duration_seconds": 1291.838426,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

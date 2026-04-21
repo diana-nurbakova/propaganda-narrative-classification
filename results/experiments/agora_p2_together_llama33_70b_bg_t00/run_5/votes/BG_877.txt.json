@@ -1,0 +1,59 @@
+{
+  "file_id": "BG_877.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "удължаването на живота на съществуващите атомни електроцентрали може да помогне за постигане на целите, свързани с изменението на климата",
+        "reasoning": "Текстът представя удължаването на живота на ядрените централи като важен шаг към постигането на целите, свързани с изменението на климата, което показва, че авторът набляга на важността на този шаг за справяне с климатичните предизвикателства."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Удължаването на живота на съществуващите атомни електроцентрали може да помогне за постигане на целите, свързани с изменението на климата",
+        "reasoning": "Текстът представя удължаването на живота на ядрените централи като важен шаг към постигането на целите, свързани с изменението на климата, което показва, че авторът набляга на важността на този шаг за справяне с климатичните предизвикателства."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

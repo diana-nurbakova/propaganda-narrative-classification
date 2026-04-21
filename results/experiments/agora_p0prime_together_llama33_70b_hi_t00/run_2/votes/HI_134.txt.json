@@ -1,0 +1,59 @@
+{
+  "file_id": "HI_134.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "शीत के बाद सीधा आ रही गर्मी",
+        "reasoning": "देसा में जलवायु परिवर्तन के कारन सर्दी के बाद से सीधा आ रही गर्मी के बीच विवाद हो रहा है"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "शीत के बाद सीधा आ रही गर्मी, आञिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "The text emphasizes the consequences of climate change, such as the disappearance of the spring season, and highlights the rapid increase in temperature, which amplifies fears about the impact of climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

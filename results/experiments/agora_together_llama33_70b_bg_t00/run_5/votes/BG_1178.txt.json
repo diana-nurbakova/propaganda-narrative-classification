@@ -1,0 +1,158 @@
+{
+  "file_id": "BG_1178.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Downplaying climate change",
+      "Controversy about green technologies",
+      "Criticism of climate movement",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Climate change is beneficial",
+      "Green policies are geopolitical instruments",
+      "Hidden plots by secret schemes of powerful groups",
+      "Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "В случай на най-песимистичния сценарий, последствията ще бъдат още по-изразени. Районите на Аляска, Амазонка и Южнокитайско море също ще поставят рекордни температури, с пикове с 2,4°C над средното за Аляска.",
+        "reasoning": "Текстът подчертава потенциалните катастрофални последствия от климатичните промени, като споменава рекордни температури и риск от екстремни метеорологични явления, което съответства на нарътвата за усилване на климатичните страхове."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "В случай на най-песимистичния сценарий, последствията ще бъдат още по-изразени. Районите на Аляска, Амазонка и Южнокитайско море също ще поставят рекордни температури, с пикове с 2,4°C над средното за Аляска.",
+        "reasoning": "Текстът използва изрази като \"ужасяващи карти\", \"изпепелени от рекордни горещини\" и \"по-голям риск от екстремни метеорологични явления\", които създават усещане за страх и безпокойство относно последствията от климатичните изменения."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Повече от жегата се страшно всичко живо",
+        "reasoning": "The text emphasizes the extreme heat and its consequences, such as record-breaking temperatures and the potential for devastating effects on the environment and human populations, which serves to amplify fears about climate change."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "",
+        "reasoning": ""
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 10
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

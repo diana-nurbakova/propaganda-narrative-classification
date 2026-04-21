@@ -1,0 +1,182 @@
+{
+  "file_id": "EN_CC_200081.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Controversy about green technologies",
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Controversy about green technologies",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Controversy about green technologies",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "The mining process for such minerals can often have catastrophic consequences for local people, with villagers in the Chinese town of Dalahai previously recounting that their teeth began to fall out, they began suffering from skin and respiratory conditions, cancer rates shot up, and children were born with soft bones after a neodymium mine was opened up nearby.",
+        "reasoning": "This quote supports the narrative by expressing skepticism and criticism of environmentally friendly technologies, specifically wind turbines, due to the negative consequences of mining rare earth minerals required for their operation."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Most people will be astonished to see the number of trees cut down to make way for wind farms",
+        "reasoning": "This quote supports the narrative by questioning the effectiveness of climate policies, specifically the decision to cut down millions of trees to make way for wind farms, implying that the policy may not be as environmentally friendly as claimed."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in order to make way for supposedly ‘green energy’ wind turbines.",
+        "reasoning": "This quote supports the narrative by challenging the integrity and decisions of the Scottish government, implying that their actions may not be genuinely motivated by environmental concerns, but rather by political ideology."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "The mining process for such minerals can often have catastrophic consequences for local people, with villagers in the Chinese town of Dalahai previously recounting that their teeth began to fall out, they began suffering from skin and respiratory conditions, cancer rates shot up, and children were born with soft bones after a neodymium mine was opened up nearby.",
+        "reasoning": "This quote highlights the negative consequences of mining rare earth minerals used in wind turbines, which is a key component of green technologies, thus expressing skepticism and criticism of these technologies."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Most people will be astonished to see the number of trees cut down to make way for wind farms",
+        "reasoning": "This quote criticizes the policy of cutting down trees for wind farms, implying that the policy has significant and perhaps unforeseen environmental costs, thus questioning the effectiveness of the climate policy."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in order to make way for supposedly ‘green energy’ wind turbines.",
+        "reasoning": "This quote challenges the integrity and decision-making of the Scottish government by implying that their actions are contradictory to their 'green energy' goals, thus criticizing the institution."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "The mining process for such minerals can often have catastrophic consequences for local people, with villagers in the Chinese town of Dalahai previously recounting that their teeth began to fall out, they began suffering from skin and respiratory conditions, cancer rates shot up, and children were born with soft bones after a neodymium mine was opened up nearby.",
+        "reasoning": "This quote highlights the negative consequences of mining rare earth minerals used in wind turbines, thus expressing skepticism and criticism of green technologies."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Most people will be astonished to see the number of trees cut down to make way for wind farms",
+        "reasoning": "This quote questions the effectiveness of climate policies by highlighting the significant environmental cost of cutting down millions of trees to make way for wind farms, implying that the policy may not be as 'green' as claimed."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The leftist government of Scotland has admitted to felling nearly 16 million trees on public land in order to make way for supposedly ‘green energy’ wind turbines.",
+        "reasoning": "This quote challenges the integrity and decision-making of the Scottish government by implying that their 'green energy' policies are actually harmful to the environment, thus criticizing the institution."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Controversy about green technologies",
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Renewable energy is dangerous",
+    "CC: Controversy about green technologies: Other",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is dangerous",
+      "matched": "CC: Controversy about green technologies: Renewable energy is dangerous",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

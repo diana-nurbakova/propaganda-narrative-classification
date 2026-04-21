@@ -1,0 +1,57 @@
+{
+  "file_id": "HI_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "इसी वजह से स्थिति सुधरने के बजाय और ज्यादा बिगड़ती जा रही है.",
+        "reasoning": "The quote attributes the worsening situation to Ukraine's refusal of Russia's 'neutral country' proposal, shifting blame for the continued conflict away from Russia's invasion and onto Ukraine's diplomatic stance."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "रूस की तरफ से न्यूट्रल देश वाला प्रस्ताव जरूर रखा गया है, लेकिन यूक्रेन ने इसे मानने से साफ मना कर दिया है.",
+        "reasoning": "This statement frames Ukraine as the unreasonable party rejecting a peace proposal ('neutral country' proposal) from Russia, thereby undermining Ukraine's position in negotiations and portraying it as an obstacle to de-escalation."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

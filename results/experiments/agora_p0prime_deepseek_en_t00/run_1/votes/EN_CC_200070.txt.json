@@ -1,0 +1,120 @@
+{
+  "file_id": "EN_CC_200070.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The text directly criticizes the mayor's action of flying to a climate summit as hypocritical and ineffective, questioning the practical impact and wisdom of the policy action (attending in person) in relation to its stated goal."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "though L.A.’s infrastructure is not widely considered “high-quality.” A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard.",
+        "reasoning": "This quote challenges the competence and effectiveness of the mayor and his administration by highlighting failures in local transportation infrastructure, undermining the authority's credibility on climate and urban policy."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Garcetti’s “Green New Deal” calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race.",
+        "reasoning": "The text presents the mayor's climate policy as politically unpopular and opposed by key groups, framing the climate movement's specific policy push as flawed and lacking broad support."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The text directly criticizes the mayor's action of flying to a climate summit as hypocritical and ineffective, questioning the practical impact and wisdom of the policy-driven travel."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "though L.A.’s infrastructure is not widely considered “high-quality.” A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard.",
+        "reasoning": "This quote challenges the competence and effectiveness of the mayor and his administration by highlighting failures in local infrastructure and transportation projects, undermining the authority's claims and actions."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Garcetti’s “Green New Deal” calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race.",
+        "reasoning": "The text presents the mayor's climate policy as politically unpopular and opposed by key groups, framing the climate movement's specific policy push as flawed and lacking support."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The text directly criticizes the mayor's action of flying to a climate summit, framing it as hypocritical and questioning the effectiveness and priorities of his climate policy engagement by highlighting the carbon cost and neglect of local problems."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "though L.A.’s infrastructure is not widely considered “high-quality.” A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard.",
+        "reasoning": "This quote challenges the competence and credibility of Mayor Garcetti and his administration by contrasting their presentation on 'high-quality urban transportation infrastructure' with cited failures and problems in Los Angeles's actual infrastructure."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "It is not clear why the conference could not be held remotely.",
+        "reasoning": "This statement implicitly challenges the integrity and practical judgment of the climate movement (represented by the C40 summit and its attendees) by suggesting their chosen method of meeting is unnecessary and contradicts their stated goals, thereby questioning their motives or effectiveness."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

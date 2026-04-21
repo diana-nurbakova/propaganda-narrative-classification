@@ -1,0 +1,210 @@
+{
+  "file_id": "PT_233.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "A tragédia ambiental da Amazónia, dada a relevância quase mítica deste pedaço de Brasil, íman de interesse global, foi símbolo de um 2023 marcado por extremos climáticos em todo o mundo.",
+        "reasoning": "A citação destaca a tragédia ambiental na Amazônia como um símbolo de extremos climáticos globais, ampliando a preocupação com as consequências do aquecimento global."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Os estragos dos últimos meses servem de alerta, iluminam a urgência. A humanidade precisa de zelar pelo presente, de olhos postos no futuro. Não há outra saída.",
+        "reasoning": "A citação enfatiza a urgência da situação, destacando a necessidade de ação para evitar consequências catastróficas, o que amplifica a preocupação com as mudanças climáticas."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Pela primeira vez, a variação da temperatura global ultrapassou os 2 graus acima dos níveis anteriores à Revolução Industrial. A preocupação é que aquele registo seja o prenúncio de outros recordes assustadores.",
+        "reasoning": "A citação apresenta um recorde assustador de temperatura global, aumentando a preocupação com as consequências do aquecimento global e ampliando a sensação de urgência."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A tragédia ambiental da Amazónia, dada a relevância quase mítica deste pedaço de Brasil, íman de interesse global, foi símbolo de um 2023 marcado por extremos climáticos em todo o mundo.",
+        "reasoning": "A menção à 'tragédia ambiental da Amazónia' e ao 'símbolo de um 2023 marcado por extremos climáticos em todo o mundo' serve como evidência para amplificar os medos sobre as consequências do aquecimento global."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Os estragos dos últimos meses servem de alerta, iluminam a urgência. A humanidade precisa de zelar pelo presente, de olhos postos no futuro. Não há outra saída.",
+        "reasoning": "A afirmação de que 'os estragos dos últimos meses servem de alerta' e a ênfase na 'urgência' reforçam a ideia de que o aquecimento global é uma ameaça iminente e que a humanidade precisa agir rapidamente."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pela primeira vez, a variação da temperatura global ultrapassou os 2 graus acima dos níveis anteriores à Revolução Industrial. A preocupação é que aquele registo seja o prenúncio de outros recordes assustadores.",
+        "reasoning": "A menção ao fato de que a variação da temperatura global ultrapassou os 2 graus e a preocupação com 'outros recordes assustadores' serve para amplificar os medos sobre as consequências do aquecimento global."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A tragédia ambiental da Amazónia, dada a relevância quase mítica deste pedaço de Brasil, íman de interesse global, foi símbolo de um 2023 marcado por extremos climáticos em todo o mundo.",
+        "reasoning": "A menção à 'tragédia ambiental da Amazónia' e à ocorrência de 'extremos climáticos em todo o mundo' serve para amplificar os medos sobre as consequências do aquecimento global."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Os estragos dos últimos meses servem de alerta, iluminam a urgência.",
+        "reasoning": "A afirmação de que 'os estragos dos últimos meses servem de alerta' reforça a ideia de que as consequências do aquecimento global são iminentes e graves, ampliando os medos sobre o futuro."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "A variação da temperatura global ultrapassou os 2 graus acima dos níveis anteriores à Revolução Industrial.",
+        "reasoning": "A menção ao ultrapassar da variação da temperatura global em 2 graus acima dos níveis anteriores à Revolução Industrial é uma evidência que reforça a gravidade da situação e amplifica os medos sobre as consequências do aquecimento global."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Amplifying Climate Fears",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

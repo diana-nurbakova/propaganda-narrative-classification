@@ -1,0 +1,97 @@
+{
+  "file_id": "BG_245.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повечето от участниците в прочуването прогнозират антиутопично бъдеще за планетата ни, която ще стане място на постоянен глад, конфликти и масова миграция, причинени от постоянните топлинни вълни, пожари и наводнения.",
+        "reasoning": "This quote directly emphasizes and amplifies fears about catastrophic consequences of climate change, including famine, conflict, and mass migration, which aligns with the definition of amplifying climate fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повечето от участниците в прочуването прогнозират антиутопично бъдеще за планетата ни, която ще стане място на постоянен глад, конфликти и масова миграция, причинени от постоянните топлинни вълни, пожари и наводнения.",
+        "reasoning": "This quote directly amplifies fears by describing an 'anti-utopian future' of constant famine, conflict, and mass migration caused by climate disasters, which aligns with the definition of emphasizing and amplifying fears about the consequences of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повечето от участниците в прочуването прогнозират антиутопично бъдеще за планетата ни, която ще стане място на постоянен глад, конфликти и масова миграция, причинени от постоянните топлинни вълни, пожари и наводнения.",
+        "reasoning": "This quote directly emphasizes and amplifies fears about catastrophic consequences of climate change, describing an 'anti-utopian future' of constant famine, conflict, and mass migration, which aligns with the definition of amplifying climate fears."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

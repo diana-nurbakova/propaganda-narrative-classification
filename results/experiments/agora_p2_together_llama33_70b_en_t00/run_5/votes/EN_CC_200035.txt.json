@@ -1,0 +1,194 @@
+{
+  "file_id": "EN_CC_200035.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "Controversy about green technologies",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Controversy about green technologies",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-duty vehicles and 2040 for medium and heavy-duty vehicles remains unknown.",
+        "reasoning": "This quote suggests that the transition to electric vehicles may have significant economic costs, which is a criticism of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments featuring Chinese corporations with direct ties to the Chinese Communist Party (CCP).",
+        "reasoning": "This quote implies that Governor Whitmer's administration is making questionable decisions by involving Chinese corporations with ties to the CCP, which is a criticism of institutions and authorities."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "The plant is so unpopular with locals that voters in the region recently ousted six elected Republicans who signed off on providing Gotion with taxpayer subsidies to build the plant in their backyard.",
+        "reasoning": "This quote highlights the controversy surrounding the construction of an EV battery plant, which is a green technology, and the use of taxpayer subsidies, which suggests that there are concerns about the implementation of these technologies."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Whitmer has worked with Ford Motor Co. to bring an EV battery plant to Michigan that would include involvement with Contemporary Amperex Technology Co. (CATL) — China’s premiere battery supplier with deep ties to the CCP.",
+        "reasoning": "This quote suggests that green policies, such as the promotion of EV battery plants, may be used as geopolitical instruments, as they involve cooperation with Chinese corporations with ties to the CCP."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-duty vehicles and 2040 for medium and heavy-duty vehicles remains unknown.",
+        "reasoning": "This quote suggests that the transition to electric vehicles may have significant economic costs, which is a criticism of climate policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments featuring Chinese corporations with direct ties to the Chinese Communist Party (CCP).",
+        "reasoning": "This quote implies that Governor Whitmer's administration is making questionable decisions by involving Chinese corporations with ties to the CCP, which is a criticism of institutions and authorities."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Whitmer has worked with Ford Motor Co. to bring an EV battery plant to Michigan that would include involvement with Contemporary Amperex Technology Co. (CATL) — China’s premiere battery supplier with deep ties to the CCP.",
+        "reasoning": "This quote suggests that green policies, such as the promotion of electric vehicles, are being used as a means to further geopolitical interests, in this case, involving Chinese corporations with ties to the CCP."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-duty vehicles and 2040 for medium and heavy-duty vehicles remains unknown.",
+        "reasoning": "This quote suggests that the transition to electric vehicles may have significant and uncertain costs for taxpayers, implying that the policy may not be economically viable or may impose a burden on the state's finances."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments featuring Chinese corporations with direct ties to the Chinese Communist Party (CCP).",
+        "reasoning": "This quote criticizes Governor Whitmer's administration for its involvement with Chinese corporations tied to the CCP, implying that the administration's actions may be influenced by or beholden to foreign interests."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "The plant is so unpopular with locals that voters in the region recently ousted six elected Republicans who signed off on providing Gotion with taxpayer subsidies to build the plant in their backyard.",
+        "reasoning": "This quote highlights controversy surrounding the construction of an EV battery plant, suggesting that the development of green technologies may not always be welcomed or supported by local communities, and may involve significant costs or subsidies."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Whitmer has worked with Ford Motor Co. to bring an EV battery plant to Michigan that would include involvement with Contemporary Amperex Technology Co. (CATL) — China’s premiere battery supplier with deep ties to the CCP.",
+        "reasoning": "This quote implies that green policies, such as the development of EV battery plants, may be used as a means to advance geopolitical interests or to facilitate cooperation with foreign entities, in this case, Chinese corporations tied to the CCP."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

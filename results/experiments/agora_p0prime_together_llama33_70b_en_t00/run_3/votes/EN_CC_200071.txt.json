@@ -1,0 +1,247 @@
+{
+  "file_id": "EN_CC_200071.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Controversy about green technologies",
+      "CC: Downplaying climate change",
+      "CC: Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Biden's green policies are making housing no longer affordable for the average American",
+        "reasoning": "The text directly criticizes Biden's green policies, stating they are making housing unaffordable, which questions the effectiveness of these policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Biden's Department of Energy has announced a $400 million program meant to go to state and local governments to incentivize them to implement new building codes that 'lower greenhouse gas emissions' and fight the so-called 'climate crisis.'",
+        "reasoning": "The text criticizes the Biden administration's Department of Energy for implementing policies that are perceived as harmful, challenging the authority's intentions and competence."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "To allegedly save us all from a 'climate crisis,' development and use of oil, natural gas and coal is being halted",
+        "reasoning": "The use of 'allegedly' when referring to the 'climate crisis' downplays the significance of climate change, implying it may not be as severe as claimed."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "newer energy sources will come from more inefficient and expensive wind, solar and biomass energy generation. These are far more destructive to the environment, require the extraction and importing of more raw materials for their construction and maintenance",
+        "reasoning": "The text expresses skepticism and criticism of green technologies, such as wind, solar, and biomass energy, highlighting their inefficiencies and environmental drawbacks."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "the consequences of Biden's 'globalist green agenda'",
+        "reasoning": "The text suggests that green policies are part of a 'globalist' agenda, implying they are used as tools for geopolitical power and influence rather than genuine environmental concern."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Biden’s green policies are making housing no longer affordable for the average American",
+        "reasoning": "This quote directly criticizes Biden's green policies, stating they are making housing unaffordable, which aligns with the definition of criticizing the effectiveness or economic impact of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Biden's Department of Energy has announced a $400 million program meant to go to state and local governments to incentivize them to implement new building codes that 'lower greenhouse gas emissions' and fight the so-called 'climate crisis.'",
+        "reasoning": "This quote criticizes the Biden administration's Department of Energy for implementing policies that allegedly fight climate change but have negative consequences, challenging the authority's intentions and competence."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "the so-called 'climate crisis'",
+        "reasoning": "The use of 'so-called' when referring to the 'climate crisis' downplays the significance of climate change, implying it may not be as severe or real as claimed."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "These are far more destructive to the environment, require the extraction and importing of more raw materials for their construction and maintenance 'and cannot possibly deliver the amount of energy the nation – or the world – requires to prosper.'",
+        "reasoning": "This quote expresses skepticism and criticism towards green technologies like wind, solar, and biomass energy, stating they are destructive and inefficient, which aligns with the narrative of controversy about green technologies."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "To allegedly save us all from a 'climate crisis,' development and use of oil, natural gas and coal is being halted",
+        "reasoning": "This quote implies that the true motive behind halting the development and use of oil, natural gas, and coal might not be environmental concern but rather a geopolitical strategy, suggesting green policies are used as tools for geopolitical power and influence."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Biden's green policies are making housing no longer affordable for the average American",
+        "reasoning": "This quote directly criticizes Biden's green policies, stating they are making housing unaffordable, which aligns with the definition of criticizing the effectiveness or economic impact of climate policies."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "newer energy sources will come from more inefficient and expensive wind, solar and biomass energy generation. These are far more destructive to the environment, require the extraction and importing of more raw materials for their construction and maintenance",
+        "reasoning": "This quote expresses skepticism and criticism of green technologies, specifically mentioning their inefficiency, expense, and environmental destructiveness, which fits the narrative of controversy about green technologies."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "To allegedly save us all from a 'climate crisis,'",
+        "reasoning": "The use of 'allegedly' when referring to the 'climate crisis' downplays the significance of climate change, implying it may not be as serious as claimed."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Biden's 'globalist green agenda'",
+        "reasoning": "This phrase suggests that green policies are being used as part of a broader geopolitical strategy, implying they serve interests beyond environmental concern."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Downplaying climate change",
+    "CC: Controversy about green technologies",
+    "CC: Green policies are geopolitical instruments"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Downplaying climate change: Other",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Renewable energy is dangerous",
+    "CC: Controversy about green technologies: Other",
+    "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+    "CC: Green policies are geopolitical instruments: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments",
+      "matched": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is dangerous",
+      "matched": "CC: Controversy about green technologies: Renewable energy is dangerous",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "matched": "CC: Green policies are geopolitical instruments: Climate-related international relations are abusive/exploitative",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Green policies are geopolitical instruments: Other",
+      "matched": "CC: Green policies are geopolitical instruments: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

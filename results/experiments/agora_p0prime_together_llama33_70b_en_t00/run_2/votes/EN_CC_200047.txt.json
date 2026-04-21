@@ -1,0 +1,201 @@
+{
+  "file_id": "EN_CC_200047.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the WEF has a secret plan to control the general public by rationing essential resources, implying a hidden agenda behind their climate change policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "the tyrannical “climate” policies of the World Economic Forum (WEF)",
+        "reasoning": "The use of the word 'tyrannical' to describe the WEF's policies implies a strong criticism of the institution and its authority, challenging its intentions and competence in relation to climate change."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "the so-called “climate crisis”",
+        "reasoning": "The use of 'so-called' to describe the climate crisis implies skepticism and criticism of the climate movement, questioning its motives and integrity."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change”",
+        "reasoning": "This quote suggests that the WEF's climate policies are being used as a tool for geopolitical power and influence, rather than a genuine concern for the environment."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the WEF has a secret plan to control the general public by rationing essential resources, implying a hidden agenda."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the tyrannical “climate” policies of the World Economic Forum (WEF)",
+        "reasoning": "The use of the word 'tyrannical' to describe the WEF's policies implies a strong criticism of the institution and its authority."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "the so-called “climate crisis”",
+        "reasoning": "The use of 'so-called' to describe the climate crisis implies skepticism and criticism of the climate movement and its claims."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change”",
+        "reasoning": "This quote implies that the WEF's plan is not genuinely about fighting climate change, but rather a tool for exerting control or influence over the general public, suggesting that green policies are being used as geopolitical instruments."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the WEF has a secret plan to control the general public by rationing essential resources, implying a hidden agenda behind their climate change policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the tyrannical “climate” policies of the World Economic Forum (WEF)",
+        "reasoning": "The use of the word 'tyrannical' to describe the WEF's policies implies a strong criticism of the institution and its authority, challenging its intentions and competence in relation to climate change."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "climate change ‘is clearly an obsession of the very rich and highly educated’",
+        "reasoning": "This quote implies that the climate movement is driven by the interests of the wealthy and highly educated, rather than a genuine concern for the environment, challenging the motives and integrity of the movement."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate movement"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

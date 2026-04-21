@@ -1,0 +1,136 @@
+{
+  "file_id": "HI_140.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "जलवायु परिवर्तन के कारण अर्थव्यवस्था पर प्रभाव: हर साल 38 ट्रिलियन ...",
+        "reasoning": "यह अनुमान गहराई को रेखांकित करता है ग्लोबल वार्मिंग का प्रभाव विभिन्न क्षेत्रों पर."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "वार्मिंग को इस सीमा के भीतर सीमित करने के लिए आवश्यक अनुमानित $6 ट्रिलियन की लागत",
+        "reasoning": "यह जलवायु कार्रवाई को आक्रामक रूप से आगे बढ़ाने के लिए राष्ट्रों के लिए एक महत्वपूर्ण आर्थिक प्रोत्साहन पर प्रकाश डालता है"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "जलवायु परिवर्तन से आर्थिक विकास धीमा हो जाएगा। इसके अलावा, यह हो सकता है सदी के मध्य तक वैश्विक सकल घरेलू उत्पाद में 17% की कमी।",
+        "reasoning": "यह उद्धरण जलवायु परिवर्तन के गंभीर आर्थिक परिणामों पर प्रकाश डालता है, जो जलवायु भय को बढ़ाने की श्रेणी में आता है।"
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "वार्मिंग को इस सीमा के भीतर सीमित करने के लिए आवश्यक अनुमानित $6 ट्रिलियन की लागत, यदि वार्मिंग इस महत्वपूर्ण बिंदु से अधिक हो जाती है, तो नुकसान के विशाल $38 ट्रिलियन मूल्य टैग की तुलना में कम है।",
+        "reasoning": "यह उद्धरण जलवायु नीतियों की प्रभावशीलता और लागत की तुलना में जलवायु परिवर्तन के परिणामों की आलोचना करता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "जलवायु परिवर्तन के कारण अर्थव्यवस्था पर प्रभाव: हर साल 38 ट्रिलियन ...",
+        "reasoning": "यह अनुमान गहराई को रेखांकित करता है ग्लोबल वार्मिंग का प्रभाव विभिन्न क्षेत्रों पर, जो जलवायु परिवर्तन के प्रभावों को बढ़ा-चढ़ाकर पेश करता है।"
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "वार्मिंग को इस सीमा के भीतर सीमित करने के लिए आवश्यक अनुमानित $6 ट्रिलियन की लागत, यदि वार्मिंग इस महत्वपूर्ण बिंदु से अधिक हो जाती है, तो नुकसान के विशाल $38 ट्रिलियन मूल्य टैग की तुलना में कम है।",
+        "reasoning": "यह जलवायु कार्रवाई को आक्रामक रूप से आगे बढ़ाने के लिए राष्ट्रों के लिए एक महत्वपूर्ण आर्थिक प्रोत्साहन पर प्रकाश डालता है, जो जलवायु नीतियों की आलोचना को दर्शाता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "matched": "CC: Amplifying Climate Fears: Whatever we do it is already too late",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

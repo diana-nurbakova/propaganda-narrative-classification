@@ -1,0 +1,141 @@
+{
+  "file_id": "RU-URW-1152.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "При этом в декларации говорится, что Китай создаёт системные вызовы евроатлантической безопасности, в том числе посредством киберактивности, дезинформации и разработки противокосмических систем.",
+        "reasoning": "The text presents NATO's declaration, which criticizes China for actions like 'disinformation' and creating 'systemic challenges' to Euro-Atlantic security. By reporting this as a statement from NATO, the text is relaying and thereby amplifying the West's critical stance, framing China (and by extension, its partner Russia) as a destabilizing actor, which serves to discredit Western diplomatic and security assessments."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "В последние годы европейские столицы по примеру Берлина, Лондона, Праги и Вильнюса ужесточают свою позицию по Китаю. Причины тому лежат далеко за пределами военного конфликта на Украине. Речь идёт о постепенном осознании Западом неизбежности столкновения цивилизационного плана, последствия которого будут иметь глобальный характер.",
+        "reasoning": "This passage frames Western nations as collectively and progressively realizing a profound, inevitable 'civilizational' conflict with global consequences. It portrays their actions (hardening their stance) as a unified, strategic, and far-sighted response to a grand historical challenge, which constitutes an excessive and unduly laudatory depiction of Western geopolitical awareness and unity."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "При этом в декларации говорится, что Китай создаёт системные вызовы евроатлантической безопасности, в том числе посредством киберактивности, дезинформации и разработки противокосмических систем.",
+        "reasoning": "The text presents NATO's declaration, which accuses China of creating systemic challenges to Euro-Atlantic security through cyber activity, disinformation, and anti-space systems. This framing portrays Western diplomatic and security assessments as accusatory and confrontational, implicitly criticizing the West's stance and actions."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "В последние годы европейские столицы по примеру Берлина, Лондона, Праги и Вильнюса ужесточают свою позицию по Китаю. Речь идёт о постепенном осознании Западом неизбежности столкновения цивилизационного плана, последствия которого будут иметь глобальный характер.",
+        "reasoning": "The text describes European capitals as taking a firm stance against China, framing this as a 'gradual realization by the West of the inevitability of a civilizational clash.' This language elevates the West's actions to a level of profound historical and civilizational significance, portraying its geopolitical positioning as a necessary and enlightened response to a global threat."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Речь идёт о постепенном осознании Западом неизбежности столкновения цивилизационного плана, последствия которого будут иметь глобальный характер.",
+        "reasoning": "The statement about the 'inevitability of a civilizational clash' with 'global consequences' evokes fear and anxiety about a large-scale, existential conflict that extends far beyond the war in Ukraine, amplifying fears of a broader, world-altering confrontation."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "При этом в декларации говорится, что Китай создаёт системные вызовы евроатлантической безопасности, в том числе посредством киберактивности, дезинформации и разработки противокосмических систем.",
+        "reasoning": "The text presents NATO's declaration, which accuses China of creating systemic challenges to Euro-Atlantic security through cyber activity, disinformation, and anti-space systems. This framing portrays Western diplomatic and security assessments as accusatory and potentially aggressive, implicitly criticizing the West's stance and framing of the situation."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "В последние годы европейские столицы по примеру Берлина, Лондона, Праги и Вильнюса ужесточают свою позицию по Китаю. Речь идёт о постепенном осознании Западом неизбежности столкновения цивилизационного плана, последствия которого будут иметь глобальный характер.",
+        "reasoning": "The text describes European capitals as taking a firm stance against China and frames the West as collectively reaching an awareness of an inevitable 'civilizational' clash with global consequences. This language elevates the West's geopolitical posture to a level of profound historical and civilizational significance, which aligns with the definition of excessively lauding Western actions and moral positioning."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Речь идёт о постепенном осознании Западом неизбежности столкновения цивилизационного плана, последствия которого будут иметь глобальный характер.",
+        "reasoning": "The statement predicts an 'inevitable civilizational clash' with 'global consequences.' This language is designed to evoke fear and anxiety about a large-scale, existential conflict that extends far beyond the current war in Ukraine, actively amplifying fears about the future."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Overpraising the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Overpraising the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: Other",
+      "matched": "URW: Overpraising the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

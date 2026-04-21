@@ -1,0 +1,155 @@
+{
+  "file_id": "HI_4.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन संकट पर चीन की पीस पॉलिसी काबिले-तारीफ है और हमे उस पर अमल जरूर करना चाहिए।",
+        "reasoning": "The quote reports Putin's praise for China's peace policy, which is framed as commendable ('काबिले-तारीफ') and worthy of implementation. This is an explicit positive evaluation of an action (China's diplomatic stance) that aligns with and supports Russia's position, thus praising a key ally of Russia in the context of the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की। रूस का जिक्र करते हुए चीन ने इसे पूरी तरह से गलत करार दिया है। साथ ही अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया है।",
+        "reasoning": "This quote describes China's peace plan as condemning Western sanctions against Russia and criticizing Western intervention in the war as 'गलत' (wrong). By presenting this content without counter-argument, the text amplifies a narrative that discredits Western diplomatic and economic actions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "पुतिन ने कहा कि बीजिंग को इस बात की पूरी समझ है कि संकट के पीछे क्या छिपा है?",
+        "reasoning": "This quote, referencing Putin's statement, implies that the 'crisis' (the war) has hidden root causes. In the context of the article, which details China's plan that criticizes the West and does not call for Russian withdrawal, this suggests an understanding that shifts blame away from Russia's invasion towards other, unspecified factors, aligning with a narrative of blaming others."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन संकट पर चीन की पीस पॉलिसी काबिले-तारीफ है और हमे उस पर अमल जरूर करना चाहिए।",
+        "reasoning": "The quote reports Putin's praise for China's peace policy, which is framed as supporting Russia's position. By highlighting and endorsing this praise, the text positively evaluates an action (China's diplomatic stance) that aligns with and supports Russia's narrative and interests in the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की। रूस का जिक्र करते हुए चीन ने इसे पूरी तरह से गलत करार दिया है। साथ ही अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया है।",
+        "reasoning": "This quote directly presents China's peace plan as condemning Western sanctions and intervention as 'completely wrong'. By reporting this without counterpoint and framing it as part of a 'peace plan', the text actively promotes a narrative that criticizes and discredits the actions and diplomacy of the US and Western nations."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "पुतिन ने कहा कि बीजिंग को इस बात की पूरी समझ है कि संकट के पीछे क्या छिपा है?",
+        "reasoning": "This quote, referencing Putin's statement, implies there are hidden causes behind the Ukraine crisis. By presenting this without challenge and in the context of praising China's understanding, it subtly advances the narrative that the root cause of the war lies not with Russia's invasion but with other, implied factors (potentially Western actions), thus shifting blame away from Russia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पुतिन ने कहा कि यूक्रेन संकट पर चीन की पीस पॉलिसी काबिले-तारीफ है और हमे उस पर अमल जरूर करना चाहिए।",
+        "reasoning": "The quote reports Russian President Putin praising China's peace policy regarding Ukraine. This is a positive evaluation of an ally's diplomatic stance, which aligns with the definition of praising actions or policies favorable to Russia's position."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "चीन ने अपने पीस प्लान में अमेरिका और पश्चिमी देशों द्वारा अकेले एक राष्ट्र पर प्रतिबंधों की निंदा की। रूस का जिक्र करते हुए चीन ने इसे पूरी तरह से गलत करार दिया है। साथ ही अमेरिका और पश्चिमी देशों का रूस और यूक्रेन युद्ध में दखल को भी गलत करार दिया है।",
+        "reasoning": "This quote describes China's peace plan as condemning Western sanctions and intervention as 'completely wrong'. This directly criticizes and discredits the actions and policies of Western countries in the context of the war."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

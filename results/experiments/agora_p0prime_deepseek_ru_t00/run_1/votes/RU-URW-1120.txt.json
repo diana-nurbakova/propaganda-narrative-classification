@@ -1,0 +1,154 @@
+{
+  "file_id": "RU-URW-1120.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The quote directly implies that President Zelenskyy's tenure is sustained not by democratic mandate or national interest, but by corrupt 'schemes' for war financing, thereby undermining the legitimacy and integrity of the Ukrainian leadership."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The statement shifts the focus and implied responsibility for the continuation of the war away from Russia's invasion and onto Western financial support for Ukraine, framing the conflict as being fueled by external 'schemes' rather than Russian aggression."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The text criticizes Western (US and European) policy by alleging their support for Zelenskyy is tied to opaque financial 'schemes,' portraying their diplomatic and military support as corrupt and self-interested rather than principled."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The quote directly implies that President Zelenskyy's role is primarily tied to corrupt financial schemes ('схемы финансирования войны'), which undermines the legitimacy of his leadership and portrays the Ukrainian government as engaged in illicit activities."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The statement attributes the continuation of the war to Western financial schemes tied to Zelenskyy, shifting the focus and blame away from Russia's role as the invader and onto the West and Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The phrase criticizes Western (American and European) policy by alleging it is based on corrupt financial schemes to fund the war, portraying Western involvement as morally compromised and self-interested rather than principled."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The quote directly implies that President Zelensky's role is primarily tied to financial schemes for the war, which undermines his legitimacy and portrays the Ukrainian leadership as corrupt and self-serving."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The statement shifts responsibility for the continuation of the war away from Russia by suggesting the conflict is sustained by Western financial schemes tied to Zelensky, implying the West and Ukraine are the primary drivers of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Пока, однако, американцы и европейцы хотели бы, чтобы Зеленский оставался на посту, так как на него завязаны схемы финансирования войны.",
+        "reasoning": "The quote criticizes Western (American and European) actors by alleging they are involved in corrupt financial schemes to fund the war, thereby discrediting their intentions and diplomatic role."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

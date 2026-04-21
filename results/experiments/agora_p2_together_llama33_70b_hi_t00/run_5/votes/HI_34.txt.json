@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_34.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West"
+    ],
+    [],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "यूक्रेन को लगता है कि किलेबंदी से रूसी सेना को कुछ दिन रोकने में कामयाबी मिल सकती है।",
+        "reasoning": "This quote suggests that Ukraine is planning to build a 10,000 km long fortification to stop the Russian army, implying a prediction about the potential outcome of the conflict."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने यूक्रेन के लिए हथियारों की मंजूरी तो दे दी है लेकिन, अभी तक हथियारों की खेप यूक्रेन तक नहीं पहुंच पाई है।",
+        "reasoning": "This quote criticizes the West, specifically the US, for not providing timely support to Ukraine, implying a lack of effective diplomacy or commitment to helping Ukraine."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "यूक्रेनी राष्ट्रपति वलोडोमिर जेलेंस्की ने अपने देश को बचाने के लिए नाटो देशों से भी मदद की अपील की है।",
+        "reasoning": "This quote shows Ukraine seeking help from NATO countries, implying a level of trust and expectation of support from the West, which can be seen as overpraising their potential role or capabilities in the conflict."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "यूक्रेन को लगता है कि किलेबंदी से रूसी सेना को कुछ दिन रोकने में कामयाबी मिल सकती है",
+        "reasoning": "This quote speculates about the potential outcome of the war, specifically that Ukraine's fortification plan might be able to stop the Russian army for a few days."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने यूक्रेन के लिए हथियारों की मंजूरी तो दे दी है लेकिन, अभी तक हथियारों की खेप यूक्रेन तक नहीं पहुंच पाई है",
+        "reasoning": "This quote criticizes Western diplomacy by highlighting the delay in delivering weapons to Ukraine, implying incompetence or lack of urgency."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "यूक्रेनी राष्ट्रपति वलोडोमिर जेलेंस्की ने अपने देश को बचाने के लिए नाटो देशों से भी मदद की अपील की है",
+        "reasoning": "This quote shows Ukraine seeking help from NATO countries, implying that the West is seen as a source of salvation or strength, thus overpraising their potential role."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

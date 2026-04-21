@@ -1,0 +1,103 @@
+{
+  "file_id": "EN_CC_200047.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Criticism of climate policies"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American elites” support the tyrannical “climate” policies of the World Economic Forum (WEF).",
+        "reasoning": "The text criticizes climate policies as 'tyrannical', indicating a negative view of the policies and their potential impact on the general public."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "nearly 60 percent of such people believe there’s too much liberty in America even though, objectively speaking, we’re less free than ever.",
+        "reasoning": "The text challenges the views of 'American elites' and implies that they are out of touch with average Americans, criticizing their support for restrictive policies."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "According to a report from the Committee to Unleash Prosperity (CUP), America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "The text implies that the WEF and 'American elites' have a secret plan to restrict the public's quality of life under the guise of fighting climate change, suggesting a hidden agenda."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "This quote suggests that the wealthy elite are secretly plotting to restrict the general public's access to essential resources under the guise of fighting climate change, implying a hidden agenda."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "nearly 60 percent of such people believe there’s too much liberty in America even though, objectively speaking, we’re less free than ever.",
+        "reasoning": "This quote criticizes the institutions and authorities for allegedly restricting individual freedoms, implying that they are out of touch with the average American's values and priorities."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American elites” support the tyrannical “climate” policies of the World Economic Forum (WEF).",
+        "reasoning": "This quote criticizes the climate policies supported by the American elites, labeling them as 'tyrannical', implying that these policies are overly restrictive and harmful to the general public."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "A disturbing new report has emerged revealing that an overwhelming number of so-called “American elites” support the tyrannical “climate” policies of the World Economic Forum (WEF).",
+        "reasoning": "The text criticizes climate policies as 'tyrannical', indicating a negative view of the policies and their potential impact on the general public."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "nearly 60 percent of such people believe there’s too much liberty in America even though, objectively speaking, we’re less free than ever.",
+        "reasoning": "The text implies that the 'American elites' and the WEF are out of touch with average Americans and are pushing for policies that restrict individual freedoms, criticizing their competence and intentions."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "According to a report from the Committee to Unleash Prosperity (CUP), America’s wealthiest citizens fully support the WEF’s plan to ration gas, electricity, and meat and dairy products for the general public in order to allegedly “fight climate change.”",
+        "reasoning": "The text suggests that the WEF and 'American elites' have a secret plan to impose strict rationing on the general public under the guise of 'fighting climate change', implying a hidden agenda."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

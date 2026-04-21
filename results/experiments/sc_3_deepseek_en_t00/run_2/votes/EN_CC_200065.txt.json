@@ -1,0 +1,138 @@
+{
+  "file_id": "EN_CC_200065.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "These are astonishing contentions considering that temperature data collection only began in the 19th century.",
+        "reasoning": "The quote directly raises doubt about the scientific basis of the claims by pointing out the limited historical scope of direct temperature data, challenging the validity of the long-term comparisons made in the article."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’” NASA revealed.",
+        "reasoning": "This quote cites NASA to highlight a methodological distinction between proxy and direct data, implicitly casting doubt on the scientific practice of combining or comparing these records to support claims about historical temperatures."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather, asserting earth saw its hottest day on record this week and likely “the hottest day in thousands of years.”",
+        "reasoning": "The term 'climate alarmists' is a pejorative label that challenges the credibility and motives of those raising climate concerns, framing their assertions as exaggerated or alarmist."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "The piece echoes claims by the once prestigious Lancet medical journal, which has averred that 2023 saw “the highest global temperatures in over 100,000 years.”",
+        "reasoning": "The phrase 'once prestigious' undermines the current authority and integrity of The Lancet, suggesting it has declined in credibility, which is a direct criticism of an institutional source cited in climate discussions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "These are astonishing contentions considering that temperature data collection only began in the 19th century.",
+        "reasoning": "The quote directly raises doubt about the scientific basis of the claims by pointing out the limited historical scope of direct temperature measurement, thereby challenging the validity of the 'hottest day in thousands of years' assertion."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’” NASA revealed.",
+        "reasoning": "This quote cites NASA to highlight a methodological distinction between proxy and direct data, implicitly casting doubt on the scientific practice of combining or comparing these records to make long-term claims."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather",
+        "reasoning": "The term 'alarmists' is a pejorative label that challenges the credibility and motives of those raising climate concerns, framing their warnings as exaggerated or hysterical."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the once prestigious Lancet medical journal",
+        "reasoning": "The phrase 'once prestigious' is used to undermine the current authority and integrity of The Lancet, suggesting it has declined in credibility, specifically in the context of its climate-related claims."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "These are astonishing contentions considering that temperature data collection only began in the 19th century.",
+        "reasoning": "The quote directly raises doubt about the scientific basis of the claims by pointing out the limited historical scope of direct temperature measurement, challenging the validity of the 'hottest day in thousands of years' assertion."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’” NASA revealed.",
+        "reasoning": "This quote cites NASA to highlight a fundamental methodological difference and limitation of paleoclimate data, casting skepticism on the scientific methods used to make the long-term historical claims."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather... Not content with these extravagant claims...",
+        "reasoning": "The use of the pejorative term 'alarmists' and the description of their claims as 'extravagant' directly challenges the motives and credibility of those raising climate concerns, fitting the definition of criticizing the climate movement."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This concluding rhetorical question frames the preceding scientific claims about record heat as merely a 'good story' rather than a serious scientific finding, thereby minimizing the significance and factual basis of climate change concerns."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Questioning the measurements and science",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

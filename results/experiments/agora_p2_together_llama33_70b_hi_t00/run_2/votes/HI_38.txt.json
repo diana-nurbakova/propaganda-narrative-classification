@@ -1,0 +1,136 @@
+{
+  "file_id": "HI_38.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "इस उद्धरण में रूस की भारत के प्रति प्राथमिकता को दर्शाया गया है, जो रूस की सकारात्मक छवि को बढ़ावा देता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता।",
+        "reasoning": "इस उद्धरण में रूस-यूक्रेन युद्ध के संदर्भ में भारत का स्टैंड दर्शाया गया है, जो रूस को एक पीड़ित के रूप में प्रस्तुत करता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "इस उद्धरण में रूस की भारत के प्रति प्राथमिकता को दर्शाया गया है, जो रूस की सकारात्मक छवि को बढ़ावा देता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता।",
+        "reasoning": "इस उद्धरण में रूस-यूक्रेन युद्ध के संदर्भ में भारत का स्टैंड दर्शाया गया है, जो रूस को एक पीड़ित के रूप में प्रस्तुत करता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "रूस ने चीन का के राष्ट्रपति शी जिनपिंग के स्वागत के लिए अपने डिप्टी प्राइम मिनिस्टर को भेजा था। ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "इस उद्धरण में रूस की ओर से प्रधानमंत्री मोदी के प्रति विशेष सम्मान और प्राथमिकता का उल्लेख किया गया है, जो रूस के प्रति सकारात्मक दृष्टिकोण को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता।",
+        "reasoning": "इस उद्धरण में रूस-यूक्रेन युद्ध के संदर्भ में भारत के रुख का उल्लेख किया गया है, जिसमें सैन्य समाधान की असफलता को रेखांकित किया गया है, जो रूस को एक पीड़ित के रूप में चित्रित करता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

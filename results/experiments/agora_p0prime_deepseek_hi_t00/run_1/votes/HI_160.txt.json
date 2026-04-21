@@ -1,0 +1,136 @@
+{
+  "file_id": "HI_160.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "नतीजा यह है कि यूक्रेन नाटो-रूस सैन्य लड़ाई के लिए युद्ध का मैदान बन गया है।",
+        "reasoning": "This quote frames the war in Ukraine as a battlefield for a 'NATO-Russia military fight', implicitly shifting the cause of the conflict away from Russia's invasion and onto a broader geopolitical struggle involving NATO, thereby blaming others (NATO) for the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा।",
+        "reasoning": "This statement portrays NATO, a Western military alliance, as 'American-dominated' and being 'tested' by Russia to reignite the Cold War, which criticizes and discredits the nature and role of the Western alliance."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "नतीजा यह है कि यूक्रेन नाटो-रूस सैन्य लड़ाई के लिए युद्ध का मैदान बन गया है।",
+        "reasoning": "This quote frames the war in Ukraine as a battlefield for a 'NATO-Russia military fight', implicitly shifting the cause and responsibility for the conflict away from Russia's invasion and onto a broader geopolitical struggle involving NATO."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा।",
+        "reasoning": "This statement portrays NATO, a Western alliance, as an 'American-dominated military alliance' that is testing Russia and reigniting the Cold War, which is a critical portrayal of Western military and diplomatic structures."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "नतीजा यह है कि यूक्रेन नाटो-रूस सैन्य लड़ाई के लिए युद्ध का मैदान बन गया है।",
+        "reasoning": "This quote frames the war as a 'NATO-Russia military battle' for which Ukraine has become the 'battleground'. This actively shifts the focus and implied responsibility away from Russia's invasion and onto a conflict between NATO and Russia, thereby blaming the war on others (NATO's actions/expansion) rather than the invader (Russia)."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा।",
+        "reasoning": "This statement portrays NATO, a Western alliance, as an 'American-dominated' entity that is testing Russia and reigniting the Cold War. This is a critical portrayal that discredits the West's military alliance by suggesting it is provocatively challenging Russia."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

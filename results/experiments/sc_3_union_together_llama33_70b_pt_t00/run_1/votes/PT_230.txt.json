@@ -1,0 +1,103 @@
+{
+  "file_id": "PT_230.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que tém provocado eventos extremos em todo o território nacional.",
+        "reasoning": "This quote amplifies fears about climate change by stating that it is causing extreme events throughout the country, implying a significant and widespread impact."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que tém provocado eventos extremos em todo o território nacional.",
+        "reasoning": "This quote amplifies fears about climate change by stating that it is causing extreme events throughout the country, implying a significant and widespread impact."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O aquecimento global tem acentuado a ocorrência de catástrofes naturais.",
+        "reasoning": "This quote further amplifies climate fears by directly linking global warming to an increase in natural disasters, creating a sense of urgency and danger."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têmm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção ao calorão e às alterações climáticas como causa de eventos extremos amplifica os medos sobre as consequçncias das mudanças climáticas."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "experiment_id": "sc_3_intersection_together_llama33_70b_en_t00",
+  "base_config": "configs/experiments/generated/emnlp/sc_3_intersection_together_llama33_70b_en_t00.yaml",
+  "n_runs": 5,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943,
+    1051802512,
+    958682846
+  ],
+  "sequential": true,
+  "started_at": "2026-04-19T18:17:14.403345",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T18:17:14.403345",
+      "completed_at": "2026-04-19T18:21:53.435639",
+      "duration_seconds": 279.032294
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T18:22:23.431494",
+      "completed_at": "2026-04-19T18:26:51.006508",
+      "duration_seconds": 267.575014
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T18:27:21.010877",
+      "completed_at": "2026-04-19T18:31:15.084576",
+      "duration_seconds": 234.073699
+    },
+    {
+      "run_id": 4,
+      "seed": 1051802512,
+      "output_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_4\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_4\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T18:31:45.085442",
+      "completed_at": "2026-04-19T18:38:01.915205",
+      "duration_seconds": 376.829763
+    },
+    {
+      "run_id": 5,
+      "seed": 958682846,
+      "output_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_5\\results.txt",
+      "cost_metrics_file": "results\\experiments\\sc_3_intersection_together_llama33_70b_en_t00\\run_5\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-19T18:38:31.922785",
+      "completed_at": "2026-04-19T18:43:05.282475",
+      "duration_seconds": 273.35969
+    }
+  ],
+  "completed_at": "2026-04-19T18:43:05.286490",
+  "total_duration_seconds": 1430.87046,
+  "successful_runs": 5,
+  "failed_runs": 0
+}

@@ -1,0 +1,103 @@
+{
+  "file_id": "RU-URW-1085.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ведение войны в современных условиях – есть применение новейших техник и технологий. Предприятия Дальнего Востока активно включились в помощь СВО. Мы создали новую оболочку – ТОР «Патриотическая». Благодаря этому модернизируются и запускаются производства. Это производство беспилотных летательных аппаратов, вездеходов, прицельных комплексов, оборудования по очистке воды и медицинских препаратов – все то, что востребовано на передовой и позволяет нашим бойцам успешнее работать, отстаивать интересы нашего государства",
+        "reasoning": "Открытие позитивной оценки действий Российской армии и ее производителей дальневосточного региона"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий. Предприятия Дальнего Востока активно включились в помощь СВО. Мы создали новую оболочку – ТОР «Патриотическая». Благодаря этому модернизируются и запускаются производства, идэт его переоборудование. Это производство беспилотных летательных аппаратов, вездеходов, прицельных комплексов, оборудования по очистке воды и медицинских препаратов – всэ то, что востребовано на передовой и позволяет нашим бойцам успешнее работать, отстаивать интересы нашего государства",
+        "reasoning": "Открытие поддержки Российской Армии и ее действий в зоне СВО, показывает позитивное отношение России к своим войнам"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий.",
+        "reasoning": "The quote highlights the modern and advanced technology used by Russia in the war, emphasizing the country's capabilities and the effectiveness of its military equipment."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Мы создали новую оболочку – ТОР «Патриотическая». Благодаря этому модернизируются и запускаются производства.",
+        "reasoning": "The quote praises the creation of a new economic zone, TOR 'Patrioticheskaya', which helps to modernize and launch productions, demonstrating Russia's ability to adapt and support its military efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russian invasion has strong national support"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

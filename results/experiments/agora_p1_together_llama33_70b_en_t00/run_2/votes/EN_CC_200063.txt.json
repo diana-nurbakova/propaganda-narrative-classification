@@ -1,0 +1,97 @@
+{
+  "file_id": "EN_CC_200063.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The shareholder proposal process has gone too far. How else to interpret the proposal recently sponsored by the climate activist investors Arjuna Capital and Follow This at ExxonMobil, which called on the oil giant to reduce further its carbon footprint?",
+        "reasoning": "The text criticizes the climate movement by implying that their proposal is an overreach, and that the SEC's permissive approach to shareholder proposals is 'lawless'. This suggests that the climate movement is being overly aggressive and that their actions are not in line with corporate law."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals",
+        "reasoning": "The text criticizes the SEC for its regulatory approach, implying that it is not following the law and is being too permissive. This suggests that the institution is not functioning properly and that its actions are having negative consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The shareholder proposal process has gone too far. How else to interpret the proposal recently sponsored by the climate activist investors Arjuna Capital and Follow This at ExxonMobil, which called on the oil giant to reduce further its carbon footprint?",
+        "reasoning": "The text criticizes the shareholder proposal process, specifically targeting climate activist investors and their proposal for ExxonMobil to reduce its carbon footprint, indicating a criticism of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "The submission of this proposal is a direct result of the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals.",
+        "reasoning": "The text challenges the competence and regulatory approach of the SEC, implying that the institution is overreaching and not following the law, which is a criticism of institutions and authorities."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The rationale for this type of proposal is baffling. The company’s board and its Environment, Safety and Public Policy Committee regularly engage with senior management on climate matters.",
+        "reasoning": "The text questions the motives and actions of climate activists, implying that their proposal is unfounded and that the company is already adequately addressing climate matters, which criticizes the climate movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "The company in response took the extraordinary measure of filing suit in federal court seeking a declaratory judgment permitting it to exclude the proposal from its proxy statement and not present it for a vote at the annual meeting. Soon after, the sponsors withdrew their proposal.",
+        "reasoning": "This quote suggests that the climate activist investors are overstepping their bounds, and the company is pushing back against their proposal, implying that the climate movement is being too aggressive and intrusive in its demands."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "the SEC’s increasingly permissive and arguably lawless regulatory approach to shareholder proposals",
+        "reasoning": "This quote directly criticizes the SEC for its handling of shareholder proposals, implying that the institution is not following the law and is being too lenient, which undermines its authority and competence."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "To accomplish such an aggressive timetable, ExxonMobil would probably have to give up its planned $60 billion acquisition of Pioneer Natural Resources, and severely contract current operations",
+        "reasoning": "This quote downplays the significance of reducing emissions by implying that it would have severe economic consequences, suggesting that the impact of climate change is not as important as economic considerations."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

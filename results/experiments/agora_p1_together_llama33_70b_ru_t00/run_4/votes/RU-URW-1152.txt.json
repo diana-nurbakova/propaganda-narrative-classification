@@ -1,0 +1,180 @@
+{
+  "file_id": "RU-URW-1152.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Лидеры НАТО выступили с самой жёсткой в истории альянса риторикой, осудив поддержку Китаем России",
+        "reasoning": "The text criticizes Western diplomacy by highlighting the harsh rhetoric from NATO leaders towards China's support for Russia, implying Western incompetence or hypocrisy in handling the situation."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Китай создаёт системные вызовы евроатлантической безопасности, в том числе посредством киберактивности, дезинформации и разработки противокосмических систем",
+        "reasoning": "The text predicts negative consequences for Western countries by mentioning the systemic challenges China poses to Euro-Atlantic security, including through cyber activities, disinformation, and the development of anti-space systems."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ещё в мае бывший министр обороны Великобритании Грант Шэппс спровоцировал размолвку с Вашингтоном, когда предположил, что Китай работает над предоставлением России летальной помощи",
+        "reasoning": "The text amplifies fears of war escalation by discussing the possibility of China providing lethal aid to Russia, which could lead to a significant increase in conflict intensity and potentially draw in more countries."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Советник по национальной безопасности США Джейк Салливан буквально на следующий день заявил, что США не сталкивались с тем, чтобы Китай поставлял оружие напрямую России",
+        "reasoning": "The text may imply distrust towards media by presenting conflicting information and statements from different sources, such as the US National Security Advisor, which could lead readers to question the reliability of the information provided."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Лидеры НАТО выступили с самой жёсткой в истории альянса риторикой, осудив поддержку Китаем России",
+        "reasoning": "The text criticizes Western diplomacy by highlighting the harsh rhetoric of NATO leaders towards China's support for Russia, implying that the West is taking an aggressive stance."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Как отмечают представители США, это будет означать беспрецедентную эскалацию и почти наверняка повлечёт более жёсткие меры например, санкции против второй по величине экономики мира",
+        "reasoning": "The text mentions potential negative consequences for the West, specifically the possibility of sanctions against China, which could have significant economic implications."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ещё в мае бывший министр обороны Великобритании Грант Шэппс спровоцировал размолвку с Вашингтоном, когда предположил, что Китай работает над предоставлением России летальной помощи",
+        "reasoning": "The text amplifies fears about the potential escalation of the conflict by mentioning the possibility of China providing lethal aid to Russia, which could lead to further violence and instability."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Советник по национальной безопасности США Джейк Салливан буквально на следующий день заявил, что США не сталкивались с тем, чтобы Китай поставлял оружие напрямую России",
+        "reasoning": "The text implies that the media may be spreading misinformation or that officials are not being truthful, as it mentions a contradiction between the statements of a former UK defense minister and a US national security advisor."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Лидеры НАТО выступили с самой жёсткой в истории альянса риторикой, осудив поддержку Китаем России",
+        "reasoning": "The text criticizes Western diplomacy, specifically NATO's reaction to China's support for Russia, implying that the West is taking an overly aggressive stance."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Это будет означать беспрецедентную эскалацию и почти наверняка повлечёт более жёсткие меры например, санкции против второй по величине экономики мира",
+        "reasoning": "The text mentions potential negative consequences for the West, such as sanctions against China, which could have significant economic and geopolitical implications."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Ещё в мае бывший министр обороны Великобритании Грант Шэппс спровоцировал размолвку с Вашингтоном, когда предположил, что Китай работает над предоставлением России летальной помощи",
+        "reasoning": "The text amplifies fears about the potential escalation of the conflict, including the possibility of China providing lethal aid to Russia, which could lead to a wider war."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

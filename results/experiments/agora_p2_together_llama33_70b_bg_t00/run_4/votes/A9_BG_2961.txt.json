@@ -1,0 +1,187 @@
+{
+  "file_id": "A9_BG_2961.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Overpraising the West",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да не се превърне в норма, е бързо да бъдат взети ефективни решения",
+        "reasoning": "Текстът предполагя, че нерешителността на партньорите на Украйна е проблем, което е критика към Запада и тяхната дипломация."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Увереност, че \"партньорите (на Украйна) знаят какво точно е необходимо за това\"",
+        "reasoning": "Текстът показва доверие в способността на партньорите на Украйна да предоставят необходимата помощ, което е похвала към Запада."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Русия постоянно воюва... Основната цел на Русия е да превърне терора в нещо нормално",
+        "reasoning": "Текстът подчертава, че Русия ще продължи терора, ако Западът не вземе мерки, което е предупреждение за негативните последствия за Запада, ако не помогне на Украйна."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "да не се превърне в норма, е бързо да бъдат взети ефективни решения",
+        "reasoning": "Текстът създава страх от възможните последствия, ако не се вземат мерки срещу руските атаки, което е призив за действие, основан на страх."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да не се превърне в норма, е бързо да бъдат взети ефективни решения",
+        "reasoning": "Текстът предполага, че нерешителността на партньорите на Украйна е проблем, което е критика към Запада и тяхната дипломация."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Основната цел на Русия е да превърне терора в нещо нормално",
+        "reasoning": "Текстът евохира страх от потенциални последствия и опасения, че терорът може да стане норма, което е страх от военни действия и последствия."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Путин предупреди Запада да не позволява на Украйна да използва оръжията, които й предоставя, за удари по руска територия",
+        "reasoning": "Текстът споменава предупреждението на Путин към Запада, което предполага, че Западът би могъл да изпитва негативни последствия, ако не спази условията на Путин."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "да не се превърне в норма, е бързо да бъдат взети ефективни решения",
+        "reasoning": "Текстът критикува нерешителността на партньорите на Украйна, което е форма на дискредитиране на Запада и неговата дипломация."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Увереност, че партньорите знаят какво точно е необходимо за това",
+        "reasoning": "Текстът изразява увереност в способността на партньорите на Украйна да предоставят необходимата помощ, което е форма на похвала към Запада."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Русия постоянно воюва... Основната цел на Русия е да превърне терора в нещо нормално",
+        "reasoning": "Текстът подчертава, че Русия ще продължи да воюва и ще има негативни последствия за Запада, ако не бъдат взети ефективни решения."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Терорът им е напразен",
+        "reasoning": "Текстът цели да предизвика страх и тревога относно възможните последствия от руските атаки и необходимостта от пълна защита на украинското небе."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: NATO should/will directly intervene",
+    "URW: Amplifying war-related fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "matched": "URW: Amplifying war-related fears: NATO should/will directly intervene",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Other",
+      "matched": "URW: Amplifying war-related fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

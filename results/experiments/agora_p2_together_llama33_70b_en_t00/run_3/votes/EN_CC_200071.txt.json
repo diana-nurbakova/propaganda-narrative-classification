@@ -1,0 +1,221 @@
+{
+  "file_id": "EN_CC_200071.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Controversy about green technologies",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Controversy about green technologies",
+      "CC: Downplaying climate change"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Controversy about green technologies",
+      "CC: Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Biden’s green policies are making housing no longer affordable for the average American",
+        "reasoning": "The text directly criticizes Biden's green policies, stating they are the primary reason for unaffordable housing, which aligns with the definition of criticizing climate policies for their economic impact."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Biden's Department of Energy has announced a $400 million program meant to go to state and local governments to incentivize them to implement new building codes that 'lower greenhouse gas emissions' and fight the so-called 'climate crisis.'",
+        "reasoning": "The text criticizes the Biden administration's actions through the Department of Energy, challenging their competence and intentions in implementing policies that allegedly fight climate change but have negative economic consequences."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "newer energy sources will come from more inefficient and expensive wind, solar and biomass energy generation. These are far more destructive to the environment, require the extraction and importing of more raw materials for their construction and maintenance",
+        "reasoning": "The text expresses skepticism and criticism towards green technologies like wind, solar, and biomass energy, highlighting their inefficiencies, environmental impact, and the need for more raw materials, which fits the narrative of controversy about green technologies."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "the so-called 'climate crisis'",
+        "reasoning": "The use of 'so-called' before 'climate crisis' downplays the significance of climate change, implying it may not be as severe or real as claimed, which aligns with the narrative of downplaying climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Biden’s green policies are making housing no longer affordable for the average American",
+        "reasoning": "The text directly criticizes Biden's green policies, stating they are the cause of unaffordable housing for average Americans, which aligns with the definition of criticizing climate policies for their economic impact."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Biden's Department of Energy has announced a $400 million program meant to go to state and local governments to incentivize them to implement new building codes that 'lower greenhouse gas emissions' and fight the so-called 'climate crisis.'",
+        "reasoning": "The text criticizes the Biden administration's Department of Energy for implementing policies that allegedly harm Americans, specifically by making housing less affordable, which challenges the competence and intentions of the institution."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "newer energy sources will come from more inefficient and expensive wind, solar and biomass energy generation. These are far more destructive to the environment, require the extraction and importing of more raw materials for their construction and maintenance 'and cannot possibly deliver the amount of energy the nation – or the world – requires to prosper.'",
+        "reasoning": "The text expresses skepticism and criticism towards green technologies like wind, solar, and biomass energy, highlighting their inefficiencies, environmental impact, and inability to meet energy demands, which aligns with controversy about green technologies."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "the so-called 'climate crisis'",
+        "reasoning": "The text uses quotation marks around 'climate crisis,' which implies a level of skepticism or doubt about the severity or existence of climate change, downplaying its significance."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Biden’s green policies are making housing no longer affordable for the average American",
+        "reasoning": "The text directly criticizes Biden's green policies, stating they are the cause of unaffordable housing for average Americans, which aligns with the definition of criticizing climate policies for their economic impact."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Biden's Department of Energy has announced a $400 million program meant to go to state and local governments to incentivize them to implement new building codes that 'lower greenhouse gas emissions' and fight the so-called 'climate crisis.'",
+        "reasoning": "The text criticizes the Biden administration's Department of Energy for implementing policies that allegedly harm Americans, specifically by making housing less affordable, which challenges the competence and intentions of the institution."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "newer energy sources will come from more inefficient and expensive wind, solar and biomass energy generation. These are far more destructive to the environment, require the extraction and importing of more raw materials for their construction and maintenance",
+        "reasoning": "The text expresses skepticism and criticism towards green technologies like wind, solar, and biomass energy, highlighting their inefficiencies, environmental destructiveness, and the need for more raw materials, which aligns with controversy about green technologies."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "To allegedly save us all from a 'climate crisis,'",
+        "reasoning": "The use of 'allegedly' when referring to the 'climate crisis' implies a level of skepticism or doubt about the significance or existence of climate change, which aligns with downplaying its impact."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Controversy about green technologies",
+    "CC: Downplaying climate change"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Other",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

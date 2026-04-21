@@ -1,0 +1,175 @@
+{
+  "file_id": "HI_107.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस और नाटो के बीच सीधा टकराव तीसरे विश्व युद्ध की तरफ पहला कदम होगा",
+        "reasoning": "यह बयान तीसरे विश्व युद्ध की संभावना को बढ़ावा देता है, जो एक भयावह परिणाम है और पाठकों को डराता है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस को दोनों अंग्रेजी और फ्रेंच बोलने वाले भी युद्ध के मैदान में दिखे हैं",
+        "reasoning": "यह बयान रूस को एक पीड़ित के रूप में चित्रित करता है, जो विदेशी ताकतों द्वारा हमला किया जा रहा है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई",
+        "reasoning": "यह बयान पश्चिमी देशों की विदेश नीति और नाटो गठबंधन की एकता को कमजोर दिखाता है, जो उनकी आलोचना को बढ़ावा देता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस और नाटो के बीच सीधा टकराव तीसरे विश्व युद्ध की तरफ पहला कदम होगा",
+        "reasoning": "यह बयान तीसरे विश्व युद्ध की संभावना को बढ़ावा देता है, जो युद्ध से संबंधित भय को बढ़ाने वाला है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस को दोनों अंग्रेजी और फ्रेंच बोलने वाले भी युद्ध के मैदान में दिखे हैं",
+        "reasoning": "यह बयान रूस को एक पीड़ित के रूप में चित्रित करता है, जो अन्य देशों के सैनिकों द्वारा हमला किया जा रहा है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई",
+        "reasoning": "यह बयान पश्चिमी देशों की विदेश नीति और नाटो गठबंधन की एकता को कमजोर दिखाता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस और नाटो के बीच सीधा टकराव तीसरे विश्व युद्ध की तरफ पहला कदम होगा",
+        "reasoning": "यह बयान तीसरे विश्व युद्ध की संभावना को बढ़ावा देता है, जो युद्ध से संबंधित भय को बढ़ाने वाला है।"
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रूस को दोनों अंग्रेजी और फ्रेंच बोलने वाले भी युद्ध के मैदान में दिखे हैं",
+        "reasoning": "यह बयान रूस को एक पीड़ित के रूप में चित्रित करता है, जो अन्य देशों के सैनिकों द्वारा हमला किया जा रहा है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "फ्रांस नाटो गठबंधन का हिस्सा है लेकिन गठबंधन के लगभग ताकतवर मुल्कों ने मैक्रों के बयान से दूरी बनाई",
+        "reasoning": "यह बयान पश्चिमी देशों की विदेश नीति और कूटनीति की आलोचना करता है, जो उनकी प्रतिष्ठा को कम करने वाला है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Russia is the Victim",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

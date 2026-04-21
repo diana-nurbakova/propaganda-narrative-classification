@@ -1,0 +1,59 @@
+{
+  "file_id": "PT_230.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears"
+    ],
+    [],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O calorão, segundo os especialistas, deve-se à intensificação das alterações climáticas, que têmm provocado eventos extremos em todo o território nacional.",
+        "reasoning": "A menção ao \"calorão\" e sua relação com as alterações climáticas, bem como a menção a eventos extremos, sugere um cenário de medo e alarme em relação às conseqüências do aquecimento global."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O aquecimento global tem acentuado a ocorréncia de catástrofes naturais. No mês passado, um ciclone atingiu o Sul do País deixando mortos e desaparecidos. Já no Norte, uma seca sem precedentes atinge a Amazónia, provocando mortalidade de animais e escassez nas cidades.",
+        "reasoning": "A quote que destaca o aumento das catástrofes naturais devido ao aquecimento global, como ciclones e secas, é usada para amplificar os medos sobre as consequçncias do clima."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

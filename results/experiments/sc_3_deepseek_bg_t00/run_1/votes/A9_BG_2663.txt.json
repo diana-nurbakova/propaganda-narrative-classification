@@ -1,0 +1,168 @@
+{
+  "file_id": "A9_BG_2663.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Според думите на офицера ударите на въоръжените сили на Украйна по руска територия могат да принудят Москва да предприеме решителни действия, включително в областта на използването на ядрени оръжия.",
+        "reasoning": "The quote directly evokes fear by suggesting that Ukrainian strikes on Russian territory could lead to Russia's use of nuclear weapons, which is a classic example of amplifying fears about severe escalation and catastrophic consequences."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Немският полковник Рихтер: не бива да се позволява на Украйна да ескалира конфликта",
+        "reasoning": "The headline and statement frame Ukraine as the potential escalator of the conflict, shifting focus and implied blame away from Russia's role as the initial invader and onto Ukraine's defensive actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Освен това той нарече опасни разсъжденията на политиците в САЩ и Европа за вероятността от ядрена война.",
+        "reasoning": "This quote, attributed to the Kremlin spokesperson, criticizes Western politicians by labeling their discussions as 'dangerous', thereby discrediting their diplomatic stance and judgment."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Според думите на офицера ударите на въоръжените сили на Украйна по руска територия могат да принудят Москва да предприеме решителни действия, включително в областта на използването на ядрени оръжия.",
+        "reasoning": "The quote directly evokes fear by suggesting that Ukrainian actions could lead to Russia's use of nuclear weapons, which is a classic example of amplifying fears about severe escalation and catastrophic consequences."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Немският полковник Рихтер: не бива да се позволява на Украйна да ескалира конфликта",
+        "reasoning": "The headline and statement frame Ukraine as the potential escalator of the conflict, shifting focus and potential blame away from Russia, the invading party, and onto Ukraine's defensive actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Освен това той нарече опасни разсъжденията на политиците в САЩ и Европа за вероятността от ядрена война.",
+        "reasoning": "This quote criticizes Western politicians, portraying their discussions as reckless and dangerous, thereby discrediting their diplomatic stance and judgment."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Според думите на офицера ударите на въоръжените сили на Украйна по руска територия могат да принудят Москва да предприеме решителни действия, включително в областта на използването на ядрени оръжия.",
+        "reasoning": "The quote directly evokes fear by suggesting that Ukrainian actions could lead to Russia's use of nuclear weapons, which is a classic example of amplifying fears about severe escalation and catastrophic consequences."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Немският полковник Рихтер: не бива да се позволява на Украйна да ескалира конфликта",
+        "reasoning": "The headline and statement frame Ukraine as the potential escalator of the conflict, shifting focus and implied blame away from Russia, the initial invader, and onto Ukraine's defensive actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Освен това той нарече опасни разсъжденията на политиците в САЩ и Европа за вероятността от ядрена война.",
+        "reasoning": "This quote criticizes Western politicians by labeling their discussions as 'dangerous', portraying them as irresponsible and contributing to instability, which discredits Western diplomatic discourse."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

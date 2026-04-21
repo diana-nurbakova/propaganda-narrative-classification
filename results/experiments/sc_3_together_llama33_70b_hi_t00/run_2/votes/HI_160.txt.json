@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_160.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा",
+        "reasoning": "यह बयान पश्चिमी देशों की विदेश नीति और नाटो की भूमिका की आलोचना करता है, जो शीत युद्ध की लौ जलाने के लिए जिम्मेदार ठहराया जा रहा है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "नाटो ने यूक्रेन-रूस संकट में हस्तक्षेप किया है",
+        "reasoning": "यह बयान नाटो के हस्तक्षेप को यूक्रेन-रूस संकट में एक नकारात्मक परिणाम के रूप में प्रस्तुत करता है, जो पश्चिमी देशों के लिए नकारात्मक परिणामों की ओर इशारा करता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "नाटो यूक्रेन में रूसी आक्रमण को अपने सहयोगी के लिए एक खतरे के रूप में देख रहा है",
+        "reasoning": "यह बयान मीडिया की विश्वसनीयता पर संदेह पैदा करता है, क्योंकि यह नाटो के दृष्टिकोण को प्रस्तुत करता है जो रूसी आक्रमण को एक खतरे के रूप में देखता है, जो मीडिया की रिपोर्टिंग को प्रभावित कर सकता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

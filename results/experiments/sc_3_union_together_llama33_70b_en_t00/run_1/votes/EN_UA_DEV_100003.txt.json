@@ -1,0 +1,242 @@
+{
+  "file_id": "EN_UA_DEV_100003.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Medvedev said Russia also wanted to take the Black Sea port of Odesa, which it calls Odessa. \"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,\" Medvedev said.",
+        "reasoning": "This quote shows praise for Russia's historical claims and cultural ties, implying a sense of rightful ownership and belonging, which is a form of positive evaluation of Russia's actions and policies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on the battlefield after the weekend fall of the town of Avdiivka where he said Ukrainian troops had been forced to flee in chaos.",
+        "reasoning": "This quote undermines the legitimacy and effectiveness of Ukraine's military by portraying them as fleeing in chaos, which attacks the competence and actions of the Ukrainian forces."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.",
+        "reasoning": "This quote speculates about the potential outcomes of the conflict, predicting that Russian troops might push on to Kyiv, which makes an assumption about the future results of the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Putin's suggestion of a ceasefire in Ukraine to freeze the war was rejected by the United States after contacts between intermediaries, Reuters reported exclusively earlier this month.",
+        "reasoning": "This quote implies that the West, specifically the United States, is not interested in finding a peaceful solution, which criticizes Western diplomacy and suggests a lack of willingness to negotiate."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Medvedev said Russia also wanted to take the Black Sea port of Odesa, which it calls Odessa. \"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,\" Medvedev said.",
+        "reasoning": "This quote shows praise for Russia's historical claims and cultural ties, implying a sense of rightful ownership and belonging, which is a form of positive evaluation of Russia's actions and policies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on the battlefield after the weekend fall of the town of Avdiivka where he said Ukrainian troops had been forced to flee in chaos.",
+        "reasoning": "This quote undermines the legitimacy and effectiveness of Ukraine's military by portraying them as fleeing in chaos, which attacks the competence and actions of the Ukrainian forces."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.",
+        "reasoning": "This quote speculates about the potential outcomes of the conflict, predicting that Russian troops might push on to Kyiv, which makes assumptions about the future results of the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Putin's suggestion of a ceasefire in Ukraine to freeze the war was rejected by the United States after contacts between intermediaries, Reuters reported exclusively earlier this month.",
+        "reasoning": "This quote implies that the West, specifically the United States, is not interested in finding a peaceful solution, which criticizes Western diplomacy and suggests a lack of willingness to negotiate."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Medvedev said Russia also wanted to take the Black Sea port of Odesa, which it calls Odessa. \"Odessa, come home. We have been waiting for Odessa in the Russian Federation because of the history of this city, what kind of people live there, what language they speak. It is our Russian, Russian city,\" Medvedev said.",
+        "reasoning": "This quote shows praise for Russia's historical claims and cultural ties, implying a sense of rightful ownership and belonging, which is a form of positive evaluation of Russia's actions and policies."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Putin said Tuesday that Russian troops would push further into Ukraine to build on their success on the battlefield after the weekend fall of the town of Avdiivka where he said Ukrainian troops had been forced to flee in chaos.",
+        "reasoning": "This quote undermines the legitimacy and effectiveness of Ukraine's military by highlighting their defeat and chaotic retreat, which is a direct attack on Ukraine's actions and intentions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Will it be Kyiv? Yes, it probably should be Kyiv. If not now, then after some time, maybe in some other phase of the development of this conflict.",
+        "reasoning": "This quote predicts or makes assumptions about the potential results or consequences of the conflict, specifically the possibility of Russian troops reaching Kyiv, which is a form of speculation about war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Putin's suggestion of a ceasefire in Ukraine to freeze the war was rejected by the United States after contacts between intermediaries, Reuters reported exclusively earlier this month.",
+        "reasoning": "This quote implies that the West, specifically the United States, is not interested in finding a peaceful solution to the conflict, which is a criticism of Western diplomacy and policies."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting Ukraine",
+    "URW: Speculating war outcomes",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russian invasion has strong national support",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+    "URW: Speculating war outcomes: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "matched": "URW: Praise of Russia: Praise of Russian President Vladimir Putin",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "matched": "URW: Speculating war outcomes: Russian army will lose all the occupied territories",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

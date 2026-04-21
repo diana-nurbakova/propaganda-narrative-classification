@@ -1,0 +1,103 @@
+{
+  "file_id": "BG_63.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears",
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "The opening line uses dramatic and fear-inducing language ('something terrible and unseen is approaching, there will be destruction') to set a tone of alarm about the upcoming hurricane season."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Необходима е само една буря, за да опустоши дадена общност.\"",
+        "reasoning": "This quote from an official emphasizes the devastating potential of a single storm, amplifying fears about the destructive impact of hurricanes."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Изпълненият със забавления летен сезон все повече се превръща във време на страх от опасностите, които ни очакват\", каза тя.",
+        "reasoning": "This quote from a climate scientist explicitly frames the summer season as a 'time of fear' about impending dangers, directly amplifying climate-related fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "The opening line uses dramatic and fear-inducing language ('страшно и невиждано', 'ще има разрушения') to set a tone of impending catastrophe, actively amplifying fears about the consequences of climate-related weather events."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Необходима е само една буря, за да опустоши дадена общност.\"",
+        "reasoning": "This quote from an official emphasizes the devastating potential of a single storm, framing the threat as severe and imminent, which serves to amplify public fear and concern about climate impacts."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "\"Изпълненият със забавления летен сезон все повече се превръща във време на страх от опасностите, които ни очакват\", каза тя.",
+        "reasoning": "This statement from a climate scientist explicitly frames the summer season as a 'time of fear' due to impending dangers, directly amplifying climate-related anxieties among the public."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Нещо страшно и невиждано се задава до дни, ще има разрушения",
+        "reasoning": "The opening line uses dramatic and fear-inducing language ('something terrible and unseen is approaching, there will be destruction') to set a tone of alarm and impending catastrophe related to the hurricane season."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "\"Изпълненият със забавления летен сезон все повече се превръща във време на страх от опасностите, които ни очакват\", каза тя.",
+        "reasoning": "This quote from a climate scientist explicitly frames the summer season as 'a time of fear of the dangers that await us,' actively promoting a narrative of fear and anxiety about climate impacts."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "\"Необходима е само една буря, за да опустоши дадена общност.\"",
+        "reasoning": "This statement emphasizes the devastating potential of a single storm, amplifying fears about the destructive power and community-level impact of hurricanes, which are linked to climate conditions in the article."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

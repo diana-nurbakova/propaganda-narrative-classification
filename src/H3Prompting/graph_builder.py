@@ -3,8 +3,8 @@ Dynamic graph builder for the LangGraph classification system.
 Creates graphs based on configuration settings.
 """
 
-from typing import Any, Dict, List, NotRequired
-from typing_extensions import TypedDict
+from typing import Any, Dict, List
+from typing_extensions import NotRequired, TypedDict
 from langchain.chat_models import init_chat_model
 from langgraph.graph import StateGraph, START, END
 
@@ -111,10 +111,11 @@ class ConfigurableGraphBuilder:
         """Print model assignments for each node."""
         print("[GraphBuilder] Model assignments:")
         for key, llm in self.llms.items():
-            node_type, operation = key.split('_', 1)
+            parts = key.split('_', 1)
+            label = f"{parts[0].capitalize()} {parts[1]}" if len(parts) == 2 else key.capitalize()
             # Different LLM classes have different attribute names for the model
             model_name = getattr(llm, 'model_name', getattr(llm, 'model', str(llm)))
-            print(f"  {node_type.capitalize()} {operation}: {model_name}")
+            print(f"  {label}: {model_name}")
     
     def _create_clean_text_node(self):
         """Create text cleaning node wrapper."""

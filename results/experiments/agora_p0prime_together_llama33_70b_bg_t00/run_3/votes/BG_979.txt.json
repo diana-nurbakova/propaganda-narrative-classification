@@ -1,0 +1,207 @@
+{
+  "file_id": "BG_979.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science",
+      "CC: Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "От първия момент на съществуване на Земята нейният климат постоянно се променя.",
+        "reasoning": "Този цитат намеква, че климатичните промени са естествен процес и не са причинени изключително от човешката дейност, което е характерно за нарратива, който намалява значимостта на климатичните промени."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Движението за изменение на климата също не е без апокалиптични пророчества.",
+        "reasoning": "Този цитат критикува движението за изменение на климата за апокалиптичните пророчества, което е характерно за нарратива, който критикува мотивите, честността или влиянието на климатичното движение."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Светът ще се срине след 12 години, ако не решим проблема с изменението на климата",
+        "reasoning": "Този цитат подчертава страховете от последствията на климатичните промени, което е характерно за нарратива, който подчертава и увеличава страховете от климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "От първия момент на съществуване на Земята нейният климат постоянно се променя.",
+        "reasoning": "Този цитат показва, че авторът намеква, че климатичните промени са естествен процес, което е типично за нарратива на намаляване на значимостта на климатичните промени."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Движението за изменение на климата също не е без апокалиптични пророчества.",
+        "reasoning": "Този цитат показва, че авторът критикува движението за изменение на климата за апокалиптичните пророчества, което е типично за нарратива на критика на климатичното движение."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "Този цитат не е достатъчен, за да се потвърди този нарратив, но контекстът на целия текст показва, че авторът поставя под въпрос научните данни и тълкуванията на климатичните промени."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "Този цитат показва, че авторът критикува институциите и властите за тълкуването на научните данни, което е типично за нарратива на критика на институциите и властите."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Ето два цитата от съвременни американски политици: „Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”",
+        "reasoning": "Този цитат показва, че авторът цитира примери, които показват, че някои политици увеличават страховете за климатичните промени, което е типично за нарратива на увеличаване на страховете за климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "От първия момент на съществуване на Земята нейният климат постоянно се променя.",
+        "reasoning": "Този цитат показва, че авторът намалява значението на климатичните промени, като посочва, че климатът на Земята винаги се е променял."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Движението за изменение на климата също не е без апокалиптични пророчества.",
+        "reasoning": "Този цитат показва, че авторът критикува движението за изменение на климата, като го обвинява в апокалиптични пророчества и преувеличения."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "Този цитат показва, че авторът поставя под въпрос научните данни и тълкуванията на Междуправителствения панел на ООН по изменението на климата."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Ето два цитата от съвременни американски политици: „Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”",
+        "reasoning": "Този цитат показва, че авторът цитира примери, които показват, че някои политици преувеличават страховете от климатичните промени."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Criticism of climate movement",
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Climate cycles are natural",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Climate cycles are natural",
+      "matched": "CC: Downplaying climate change: Climate cycles are natural",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

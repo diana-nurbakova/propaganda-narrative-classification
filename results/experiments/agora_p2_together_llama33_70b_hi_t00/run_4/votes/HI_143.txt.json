@@ -1,0 +1,103 @@
+{
+  "file_id": "HI_143.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "जलवायु परिवर्तन से महिलाओं, दिव्यांगों और मूल निवासियों के लिए खतरा बढ़ रहा है",
+        "reasoning": "इस उद्धरण में जलवायु परिवर्तन के प्रभावों को बढ़ा-चढ़ाकर प्रस्तुत किया गया है, जो कि जलवायु परिवर्तन के प्रति भय को बढ़ाने की एक रणनीति है।"
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "जलवायु परिवर्तन मौजूदा असमानताओं को बढ़ाता है और इसे मानवाधिकारों के मुद्दे में बदल देता है",
+        "reasoning": "इस उद्धरण में यह बताया गया है कि जलवायु परिवर्तन के कारण मानवाधिकारों का हनन हो रहा है, जो कि संस्थानों और अधिकारियों की आलोचना की एक रणनीति है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "जलवायु परिवर्तन से महिलाओं, दिव्यांगों और मूल निवासियों के लिए खतरा बढ़ रहा है",
+        "reasoning": "यह उद्धरण जलवायु परिवर्तन के प्रभावों को बढ़ा-चढ़ाकर प्रस्तुत करता है, जो एक गंभीर खतरा है जिसका सामना विशेष रूप से महिलाओं, दिव्यांगों और मूल निवासियों को करना पड़ रहा है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "जलवायु परिवर्तन से महिलाओं, दिव्यांगों और मूल निवासियों के लिए खतरा बढ़ रहा है",
+        "reasoning": "यह उद्धरण जलवायु परिवर्तन के प्रभावों को बढ़ा-चढ़ाकर प्रस्तुत करता है, जो एक विशिष्ट समूह के लिए खतरा बढ़ रहा है, जिससे जलवायु परिवर्तन के प्रति भय और चिंता को बढ़ावा मिलता है"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

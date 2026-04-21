@@ -1,0 +1,194 @@
+{
+  "file_id": "EN_UA_DEV_100012.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the country's natural resources, said Vladimir Dzhabarov, official of the Russian Federation Council.",
+        "reasoning": "This quote suggests that the US is acting with ulterior motives in Ukraine, implying a form of neocolonialism, which discredits Western diplomatic efforts and portrays them as exploitative."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.",
+        "reasoning": "This quote directly discredits Ukraine by labeling its government as 'neo-Nazi' and 'corrupt', undermining the legitimacy and integrity of the Ukrainian regime."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "This quote implies that Russia's actions in Ukraine are being opposed by the West primarily due to economic interests, portraying Russia as a victim of Western interference and economic agendas."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "This quote implies that the US is motivated to prevent Russia's victory due to its own interests in Ukraine's mineral resources, shifting the focus away from Russia's actions as the invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the country's natural resources, said Vladimir Dzhabarov, official of the Russian Federation Council.",
+        "reasoning": "This statement criticizes the US, implying that it seeks to colonize Ukraine, which undermines the legitimacy and intentions of Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.",
+        "reasoning": "This quote directly undermines the legitimacy of Ukraine's government by labeling it as 'neo-Nazi' and 'corrupt', attacking the character of the Ukrainian regime."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the country's natural resources, said Vladimir Dzhabarov, official of the Russian Federation Council.",
+        "reasoning": "By portraying the US as seeking to colonize Ukraine, the narrative depicts Russia as being unfairly targeted or victimized in the context of the conflict, as it implies the West's interests are a primary driver of the war."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "This quote implies that the US is motivated to prevent Russia's victory due to its own interests in Ukraine's mineral assets, shifting the focus away from Russia's actions as the invader."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the country's natural resources, said Vladimir Dzhabarov, official of the Russian Federation Council.",
+        "reasoning": "This statement undermines Ukraine's sovereignty by suggesting it could be treated as a colony, which discredits Ukraine's ability to govern itself."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "While 'promising Ukrainians mountains of gold, Graham in fact considers it as a future American colony,' Dzhabarov said. 'The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States','",
+        "reasoning": "This quote criticizes Western (specifically US) diplomacy and intentions, portraying them as exploitative and hypocritical."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the country's natural resources, said Vladimir Dzhabarov, official of the Russian Federation Council.",
+        "reasoning": "By framing the US as seeking to exploit Ukraine's resources, the narrative indirectly portrays Russia as a victim of Western aggression and interference in the region."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Discrediting Ukraine",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

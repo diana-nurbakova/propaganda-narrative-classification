@@ -1,0 +1,162 @@
+{
+  "file_id": "PT_259.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"Zelensky continua a massacrar cidadãos ucranianos\"",
+        "reasoning": "This direct quote from the Russian spokesperson portrays the Ukrainian leader as actively killing his own citizens, which is a severe accusation that undermines the legitimacy and morality of Ukraine's leadership, fitting the definition of discrediting Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia\"",
+        "reasoning": "The term 'manipuladores ocidentais' (Western manipulators) directly criticizes and portrays Western actors as deceitful and controlling, which discredits Western diplomatic influence and intentions."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"atirando literalmente o povo da Ucrânia para um altar de sacrifício\"",
+        "reasoning": "This statement shifts the blame for Ukrainian suffering away from Russia's invasion and onto President Zelensky, accusing him of sacrificing his own people, thereby attributing responsibility for negative outcomes to Ukrainian leadership rather than the invader."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"Ouvimos muitas palavras, mas basicamente não vemos quaisquer atos. Bem, exceto o facto de Zelensky continuar a massacrar cidadãos ucranianos\"",
+        "reasoning": "The quote directly accuses Ukrainian President Zelensky of massacring his own citizens, which is a severe attack intended to undermine his legitimacy and portray the Ukrainian leadership as criminal and harmful to its own people."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Por detrás disto está o desejo de impor a 'fórmula Zelensky', que é um beco sem saída, a um vasto leque de países\"",
+        "reasoning": "The text refers to Western powers as 'manipuladores ocidentais' (Western manipulators) and characterizes their diplomatic efforts (the 'Zelensky formula') as a 'dead end' imposed on other countries, actively discrediting Western diplomatic intentions and actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"Zelensky continua a massacrar cidadãos ucranianos\"",
+        "reasoning": "The quote directly accuses the Ukrainian leader of killing his own citizens, which is a severe attack on the legitimacy and actions of the Ukrainian government, undermining it as a nation."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"nem pelos manipuladores ocidentais para revogar a lei que proíbe a Ucrânia de negociar com a Rússia\"",
+        "reasoning": "The term 'manipuladores ocidentais' (Western manipulators) criticizes and portrays Western actors as controlling and deceitful in the context of diplomatic efforts related to the war."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"atirando literalmente o povo da Ucrânia para um altar de sacrifício\"",
+        "reasoning": "This statement shifts blame for the suffering in Ukraine away from Russia by portraying Zelensky as the one sacrificing his own people, implying the conflict's continuation is his fault."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Other",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

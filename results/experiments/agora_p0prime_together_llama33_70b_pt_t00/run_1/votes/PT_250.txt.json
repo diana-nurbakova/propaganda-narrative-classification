@@ -1,0 +1,148 @@
+{
+  "file_id": "PT_250.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. [...] A estabilidade nas exportações de petróleo tiveram um papel importante na garantia do desempenho da economia do país nos últimos anos.",
+        "reasoning": "A menção à estabilidade nas exportações de petróleo como fator importante para o desempenho da economia russa nos últimos anos, apesar das sanções, pode ser vista como um elogio à resiliência e capacidade da Rússia de manter sua economia estável diante de adversidades."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de que os países ocidentais sobrestimaram a eficácia da pressão sobre a Rússia implica que as ações e estratégias dos países ocidentais foram ineficazes, o que pode ser visto como uma crítica à diplomacia e às políticas ocidentais."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022.",
+        "reasoning": "A menção às sanções internacionais como algo que a Rússia 'sofreu' pode evocar uma imagem de vítima, sugerindo que a Rússia está sendo injustamente penalizada ou atacada por outras nações."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia",
+        "reasoning": "A afirmação de Igor Sechin sugere que a Rússia está sendo injustamente pressionada pelos países ocidentais, o que evoca uma imagem de vítima"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "a estabilidade nas exportações de petróleo tiveram um papel importante na garantia do desempenho da economia do país nos últimos anos",
+        "reasoning": "A menção à estabilidade das exportações de petróleo como um fator importante para o desempenho econômico da Rússia pode ser vista como um elogio à resiliência e capacidade do país de manter sua economia estável diante de pressões externas"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia",
+        "reasoning": "A afirmação implica que os países ocidentais falharam em sua abordagem para pressionar a Rússia, o que pode ser interpretado como uma crítica à eficácia da diplomacia ocidental"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Segundo ele, os países ocidentais sobrestimaram a eficácia da pressão que conseguiriam fazer sobre a Rússia.",
+        "reasoning": "A afirmação de Sechin implica que a Rússia está sendo injustamente pressionada pelos países ocidentais, o que evoca uma sensação de vitimização."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A Rússia passou a sofrer sanções internacionais, sobretudo dos Estados Unidos e Europa, depois da invasão à Ucrânia em fevereiro de 2022. O cenário consolidou a China como a principal compradora do petróleo russo no mercado internacional.",
+        "reasoning": "A menção à Rússia como um importante fornecedor de petróleo e gás para a China, apesar das sanções, pode ser vista como um elogio à resiliência e capacidade da Rússia de manter suas exportações."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

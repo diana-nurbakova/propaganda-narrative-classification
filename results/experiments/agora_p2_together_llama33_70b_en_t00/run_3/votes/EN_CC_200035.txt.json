@@ -1,0 +1,109 @@
+{
+  "file_id": "EN_CC_200035.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-duty vehicles and 2040 for medium and heavy-duty vehicles remains unknown.",
+        "reasoning": "This quote implies that the transition to electric vehicles may have significant and uncertain costs, which could be seen as a criticism of the climate policy."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments featuring Chinese corporations with direct ties to the Chinese Communist Party (CCP).",
+        "reasoning": "This quote suggests that Governor Whitmer's administration is involved with questionable entities, which could be seen as a criticism of the institution and its leadership."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Whitmer has worked with Ford Motor Co. to bring an EV battery plant to Michigan that would include involvement with Contemporary Amperex Technology Co. (CATL) — China’s premiere battery supplier with deep ties to the CCP.",
+        "reasoning": "This quote implies that the green policy of promoting electric vehicles is being used as a tool for geopolitical influence, as it involves cooperation with Chinese companies tied to the CCP."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-duty vehicles and 2040 for medium and heavy-duty vehicles remains unknown.",
+        "reasoning": "This quote implies that the transition to electric vehicles may have significant, unknown costs for taxpayers, which could be seen as criticizing the climate policy of transitioning to electric vehicles."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments featuring Chinese corporations with direct ties to the Chinese Communist Party (CCP).",
+        "reasoning": "This quote criticizes Governor Whitmer's administration for its involvement with Chinese corporations tied to the CCP, implying a lack of integrity or questionable motives in their decision-making."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Whitmer has worked with Ford Motor Co. to bring an EV battery plant to Michigan that would include involvement with Contemporary Amperex Technology Co. (CATL) — China’s premiere battery supplier with deep ties to the CCP.",
+        "reasoning": "This quote suggests that environmental policies, specifically the promotion of electric vehicles and battery plants, are being used as tools for geopolitical influence, as they involve collaborations with Chinese companies tied to the CCP."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "The plant is so unpopular with locals that voters in the region recently ousted six elected Republicans who signed off on providing Gotion with taxpayer subsidies to build the plant in their backyard.",
+        "reasoning": "This quote indicates controversy surrounding green technologies, specifically the construction of an EV battery plant, due to local opposition and concerns about taxpayer subsidies."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "The cost to state taxpayers to transition all of those to electric vehicles (EVs) by 2033 for light-duty vehicles and 2040 for medium and heavy-duty vehicles remains unknown.",
+        "reasoning": "This quote implies that the transition to electric vehicles may have significant, unknown costs for taxpayers, which could be seen as a criticism of the climate policy."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Whitmer’s directive comes as her administration has entangled the state of Michigan in investments featuring Chinese corporations with direct ties to the Chinese Communist Party (CCP).",
+        "reasoning": "This quote criticizes Governor Whitmer's administration for its involvement with Chinese corporations tied to the CCP, implying a lack of integrity or questionable motives."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Whitmer has worked with Ford Motor Co. to bring an EV battery plant to Michigan that would include involvement with Contemporary Amperex Technology Co. (CATL) — China’s premiere battery supplier with deep ties to the CCP.",
+        "reasoning": "This quote suggests that environmental policies, such as the promotion of electric vehicles, are being used as tools for geopolitical power and influence, particularly in relation to China."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

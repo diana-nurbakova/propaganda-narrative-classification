@@ -1,0 +1,126 @@
+{
+  "file_id": "RU-URW-1102.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Distrust towards Media",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Россия фиксирует факты изнасилований и мародерства в подконтрольных селах Харьковской области",
+        "reasoning": "The text directly accuses Ukrainian forces of committing atrocities such as rape and marauding, which undermines the legitimacy and actions of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России",
+        "reasoning": "The text implies that the information about Ukrainian forces' atrocities comes from local residents who escaped to Russia, suggesting that the Ukrainian media or official sources might not be trustworthy or are hiding the truth."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "сейчас под контролем Вооруженных сил России находятся 52 населенных пункта в области",
+        "reasoning": "The text highlights the control and presence of Russian forces in the region, implying a sense of stability and security provided by Russia, which can be seen as praising Russia's actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Россия фиксирует факты изнасилований и мародерства в подконтрольных селах Харьковской области",
+        "reasoning": "The text directly accuses Ukrainian forces of committing atrocities such as rape and marauding, which undermines the legitimacy and actions of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "такие действия украинских военных поощряются старшим командованием формирований ВСУ",
+        "reasoning": "The statement implies that the Ukrainian military's alleged actions are condoned or encouraged by their senior command, which could be seen as criticizing the Western-backed Ukrainian government and its military leadership."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "сейчас под контролем Вооруженных сил России находятся 52 населенных пункта в области",
+        "reasoning": "The text highlights the control and presence of Russian forces in the region, which can be seen as positively presenting Russia's military capabilities and influence."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "This quote directly discredits Ukraine by stating that Ukrainian military actions, including alleged crimes such as marauding and rape, are encouraged by their senior command. This undermines the legitimacy and actions of Ukraine and its military."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Россия фиксирует факты изнасилований и мародерства в подконтрольных селах Харьковской области.",
+        "reasoning": "This quote shifts the blame for the conflict and its consequences to Ukraine, implying that the Ukrainian side is responsible for the crimes committed in the areas under their control, thus deflecting responsibility from Russia's actions in the war."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "None directly provided, but the implication of the report suggests that only through alternative means (local residents fleeing to Russia) is the truth about Ukrainian actions being revealed, potentially implying that other sources (like mainstream media) are not reporting these crimes accurately or at all.",
+        "reasoning": "While not directly stated, the narrative implies that the information about Ukrainian military's alleged crimes is only coming to light through specific channels (locals fleeing to Russia), which could suggest distrust in the media's ability or willingness to report on these issues accurately."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

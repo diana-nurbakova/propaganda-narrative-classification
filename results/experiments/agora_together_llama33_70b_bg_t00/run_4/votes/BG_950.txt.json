@@ -1,0 +1,120 @@
+{
+  "file_id": "BG_950.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Controversy about green technologies",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of green technologies"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Criticism of green technologies",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което се използва като пример за това, че глобалното затопляне не е толкова сериозен проблем, както се представя, и че текущите климатични условия са по-екстремални от очакваното."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "Електрическите автобуси вероятно ще бъдат спрени от движение този следобед, защото им е много трудно да се затоплят, когато са в експлоатация…",
+        "reasoning": "Текстът показва, че електрическите автобуси, които се считат за зелена технология, имат трудности при ниски температури, което поставя под въпрос ефективността и надеждността на тези технологии в определени условия."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "На шведите още през 2006 г. медиите им обещаха, че до 2026 г. ще са забравили как да карат ски заради липсата на сняг…",
+        "reasoning": "Текстът критикува прогнозите и обещанията на медиите и потенциално на научните изследвания, които не се оправдават от реалните събития, което създава съмнения в точността на климатичните прогнози и научните данни."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Този цитат показва, че авторът подиграва идеята за глобално затопляне, като предполага, че е нужно повече затопляне, за да могат електрическите автобуси да функционират правилно в студените температури, което имплицитно намеква, че текущите студени температури противоречат на идеята за глобално затопляне."
+      },
+      {
+        "narrative_name": "CC: Criticism of green technologies",
+        "evidence_quote": "Електрическите автобуси вероятно ще бъдат спрени от движение този следобед, защото им е много трудно да се затоплят, когато са в експлоатация…",
+        "reasoning": "Този цитат критикува електрическите автобуси, като показва, че те не могат да функционират правилно в студени температури, което имплицитно поставя под въпрос ефективността и надеждността на тези „зелени“ технологии."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Може би е нужно още малко глобално затопляне, за да могат тези електрически автобуси да работят правилно…?",
+        "reasoning": "Текстът представя ситуация, в която електрическите автобуси в Швеция не могат да функционират при ниски температури, което се използва като пример за това, че глобалното затопляне не е толкова сериозен проблем, както се представя, и че текущите температури са по-студени, отколкото би трябвало да бъдат според климатичните прогнози."
+      },
+      {
+        "narrative_name": "CC: Criticism of green technologies",
+        "evidence_quote": "На 7 януари не щеш ли са регистрирали -34C и автобусите са били спрени, защото видите ли те не могат да се движат в такова студено време и трябва да бъдат паркарини на закрито за да се стоплят.",
+        "reasoning": "Текстът критикува електрическите автобуси като технология, която не е подходяща за ползване в студени климатични условия, което показва, че тази „зелена“ технология не е толкова ефективна, както се твърди."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "Според мен глобалното затъпяване ще ни затрие преди всякакви климатични промени!",
+        "reasoning": "Текстът поставя под въпросе научните прогнози и измервания, свързани с глобалното затопляне, като предполага, че текущите температури и климатични условия не съответстват на предсказаните от климатичните модели и че има противоречия в представянето на информацията за климатичните промени."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+    "CC: Downplaying climate change: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "matched": "CC: Downplaying climate change: Weather suggests the trend is global cooling",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

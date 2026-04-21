@@ -1,0 +1,83 @@
+{
+  "file_id": "EN_UA_DEV_100004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian advance, suggesting that they may be able to surround the Ukrainian military and disrupt their supply lines."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant.",
+        "reasoning": "This quote presents the Russian military's actions in a positive light, highlighting their ability to capture key facilities and advance on the battlefield."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The local sources are hiding any information about the damage, but some supposed that another facility used for accommodation of Ukrainian servicemen was hit.",
+        "reasoning": "This quote implies that Ukrainian sources are not transparent about the damage, which could be seen as discrediting Ukraine's ability to provide accurate information."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "This quote speculates about the potential outcome of the Russian advance, suggesting that they may be able to cut off Ukrainian military supplies and surround the Ukrainian forces in the plant."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant.",
+        "reasoning": "This quote positively highlights the Russian military's actions and successes, implying effective strategy and control."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The Ukrainian military during the war in Donbass",
+        "reasoning": "This quote implies that Ukraine has been involved in a long and potentially controversial conflict, which could be used to undermine the legitimacy of the Ukrainian military."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

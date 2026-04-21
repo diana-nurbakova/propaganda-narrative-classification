@@ -1,0 +1,200 @@
+{
+  "file_id": "RU-URW-1135.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Distrust towards Media",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад предпринял жесткие действия в отношении фрондирующих руководителей государств",
+        "reasoning": "The quote suggests that the West is taking harsh actions against leaders who oppose it, implying a negative and coercive approach to diplomacy."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "покушении на премьер-министра Роберта Фицо и загадочной гибели президента Ирана Ибрахима Раиси",
+        "reasoning": "The mention of mysterious events and unexplained deaths implies the existence of hidden plots and secret schemes by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "о котором еще недавно никто не слышал",
+        "reasoning": "The phrase implies that the media may not be reporting on certain individuals or events, or that the information is being suppressed, which can contribute to distrust towards the media."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "The quote portrays Russia as being bullied or intimidated by the 'Global West', which depicts Russia as a victim of Western aggression."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад предпринял жесткие действия в отношении фрондирующих руководителей государств",
+        "reasoning": "The quote suggests that the West is taking harsh actions against leaders who oppose it, implying a negative and coercive approach to diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "The quote portrays Russia as being bullied or intimidated by the 'Global West', evoking a sense of victimhood and sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "покушение на премьер-министра Роберта Фицо и загадочной гибели президента Ирана Ибрахима Раиси",
+        "reasoning": "The quote implies that there are mysterious and potentially sinister forces at play, suggesting a hidden plot or secret scheme by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "о котором еще недавно никто не слышал",
+        "reasoning": "The quote implies that the media may not be reporting on certain individuals or events, or that the information is being suppressed, which can contribute to distrust towards the media."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад предпринял жесткие действия в отношении фрондирующих руководителей государств",
+        "reasoning": "The quote suggests that the West is taking harsh actions against leaders who oppose it, implying a negative and coercive approach to diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "The quote portrays Russia as being at a disadvantage against the 'Global West', implying that Russia is a victim of Western pressure and dominance."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "о котором еще недавно никто не слышал",
+        "reasoning": "The quote implies that the media may not have been reporting on certain events or figures, suggesting a lack of trust in the media's ability to provide accurate information."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "покушение на премьер-министра Роберта Фицо и загадочной гибели президента Ирана Ибрахима Раиси",
+        "reasoning": "The quote suggests that there may be secret plots or clandestine activities at play, implying that powerful groups are involved in mysterious and potentially sinister events."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Hidden plots by secret schemes of powerful groups",
+    "URW: Distrust towards Media",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "file_id": "PT_224.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ],
+    [],
+    [
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote directly criticizes the Brazilian government for its inaction and lack of effective policies regarding environmental issues, specifically the crisis in the Pantanal region."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This statement amplifies fears about the consequences of climate change by listing severe health impacts, emphasizing the dire effects of rising temperatures."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "São os combustíveis fósseis os maiores vilões do aquecimento global. Eles precisam de desaparecer. E o Brasil teria tudo para se tornar o campeão na descarbonização.",
+        "reasoning": "This quote criticizes current climate policies by implying that they are not doing enough to address the issue of fossil fuels, which are seen as a major contributor to global warming, and suggests that Brazil could be doing more to lead in descarbonization."
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote directly criticizes the Brazilian government for its inaction and lack of effective policies to address environmental issues, despite its rhetoric."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This quote emphasizes the severe health consequences of climate change, amplifying fears about its impacts on human health and well-being."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "E o Brasil teria tudo para se tornar o campeão na descarbonização. Eis que possui vasto território, muito sol, muito vento, condições para fabricar combustível a partir da biomassa, produzir o hidrogénio verde e exportar para o restante do planeta.",
+        "reasoning": "This quote implies that current climate policies are insufficient, as it highlights the potential for Brazil to be a leader in descarbonization but does not seem to be taking adequate action."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

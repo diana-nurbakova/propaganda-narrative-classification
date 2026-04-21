@@ -1,0 +1,161 @@
+{
+  "file_id": "PT_209.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+        "reasoning": "The quote emphasizes the importance and urgency of climate change, which aligns with the narrative of amplifying climate fears by highlighting its significance and the need for immediate action."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "O Brasil não tem um projeto de combate à crise climática",
+        "reasoning": "This quote criticizes the lack of a project to combat the climate crisis in Brazil, implying a failure of institutions and authorities to address the issue."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "A destruição da Terra é o resultado da voracidade do capitalismo",
+        "reasoning": "The quote suggests that the destruction of the Earth is a result of the voracity of capitalism, implying a hidden plot or scheme by powerful groups (in this case, capitalist entities) that prioritizes profit over environmental and social well-being."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+        "reasoning": "This quote emphasizes the urgency and importance of climate change, which aligns with the narrative of amplifying climate fears by highlighting the critical nature of the issue."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "O Brasil não tem um projeto de combate à crise climática",
+        "reasoning": "This statement criticizes the lack of action or project by the Brazilian government or institutions to combat the climate crisis, which fits the narrative of criticizing institutions and authorities for their handling of climate change."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "A destruição da Terra é o resultado da voracidade do capitalismo",
+        "reasoning": "This quote suggests that the destruction of the Earth is a result of the greed of capitalism, implying a hidden plot or scheme by powerful capitalist groups, which aligns with the narrative of hidden plots by secret schemes of powerful groups."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O tema das alterações climáticas é de extrema importância e de urgência temporal",
+        "reasoning": "This quote emphasizes the urgency and importance of climate change, which aligns with the narrative of amplifying climate fears by highlighting the critical nature of the issue."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "O Brasil não tem um projeto de combate à crise climática",
+        "reasoning": "This statement criticizes the lack of action or planning by Brazilian institutions or authorities to combat the climate crisis, fitting the narrative of criticizing institutions for their handling of climate change."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "A destruição da Terra é o resultado da voracidade do capitalismo",
+        "reasoning": "This quote suggests that the destruction of the Earth is a result of the greed of capitalism, implying a hidden plot or scheme by powerful capitalist groups, which aligns with the narrative of hidden plots by powerful groups."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities",
+    "CC: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

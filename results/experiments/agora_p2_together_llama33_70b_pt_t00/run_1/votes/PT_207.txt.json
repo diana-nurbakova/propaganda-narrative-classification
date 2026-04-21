@@ -1,0 +1,85 @@
+{
+  "file_id": "PT_207.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Green policies are geopolitical instruments"
+    ],
+    [
+      "Green policies are geopolitical instruments",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "A quote criticising the EU's decision and highlighting the difference in environmental preservation requirements between the EU and Brazil, implying hypocrisy from the EU."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "The text suggests that the EU's environmental policies are used as a tool for commercial protectionism, implying that the true motive behind these policies is not environmental concern but rather geopolitical and economic gain."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Como a hipocrisia é alguma coisa que não podemos compreender com esta turma. Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "A quote criticizes the EU's decision as hypocritical, challenging the competence and intentions of the EU in relation to climate change and environmental preservation."
+      },
+      {
+        "narrative_name": "CC: Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "The text claims that the EU's environmental policies are used as tools for geopolitical power and influence rather than genuine environmental concern, specifically as a mechanism for commercial protectionism."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Para o senador, a decisão do Parlamento Europeu é um mecanismo de protecionismo comercial que deveria ser impedido pela Organização Mundial do Comércio (OMC).",
+        "reasoning": "A quote suggests that the EU's environmental policies are being used as a tool for protectionism, implying that their true intention is not environmental concern but rather to impose trade restrictions."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não querem cumprir 4%, mas exigem que os brasileiros reservem 80% para a preservação ambiental.",
+        "reasoning": "This quote criticizes the EU for hypocrisy, implying that they are not practicing what they preach and are instead imposing stricter environmental standards on Brazil."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

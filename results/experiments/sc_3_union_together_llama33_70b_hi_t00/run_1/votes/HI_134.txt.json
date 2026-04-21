@@ -1,0 +1,165 @@
+{
+  "file_id": "HI_134.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "अगर वर्तमान पर जलवायु परिवर्तन के प्रबाव पद्द है तो सिद्हे सरदी के बाद से सिद्हे वसंत का मौसम गायब सा हो रहा है",
+        "reasoning": "The text emphasizes the consequences of climate change, stating that the spring season seems to have disappeared in many parts of India, and the temperature is rising rapidly, which amplifies fears about the impact of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "पर्यावरण में हो रहे बदलाव का दुष्प्रभाव अब किसी से छुपा नहीं है",
+        "reasoning": "इस उद्धरण में जलवायु परिवर्तन के प्रभावों को बढ़ा-चढ़ाकर पेश किया गया है, जो जलवायु संबंधी चिंताओं को बढ़ावा देने की ओर इशारा करता है"
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "सर्दी के बाद सीधे आ रही गर्मी, आखिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "इस प्रश्न में जलवायु परिवर्तन के प्रभावों को कम करके आंका जा रहा है, जैसे कि बसंत के मौसम का गायब होना एक असामान्य घटना है"
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "क्लाइमेट सेंट्रल की इस रिपोर्ट का उद्देश्य भारत को जलवायु परिवर्तन के वैश्विक रुझानों के संदर्भ में परखना और यहां आ रहे परिवर्तनों का अध्ययन करना है",
+        "reasoning": "इस उद्धरण में जलवायु परिवर्तन के विज्ञान और मापदंडों पर प्रश्नचिन्ह लगाया जा रहा है, जो विज्ञान और मापदंडों की विश्वसनीयता पर संदेह पैदा करता है"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "शीत के बाद सीधे आ रही गरमी, आञिर कैसे गायब हो गया बसंत का मौसम?",
+        "reasoning": "The text emphasizes the consequences of climate change, such as the disappearance of the spring season, and highlights the rapid increase in temperature, which amplifies fears about the impact of climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "union",
+  "subnarrative_aggregation_method": "union",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Downplaying climate change",
+    "CC: Questioning the measurements and science"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Downplaying climate change: Climate cycles are natural",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Other",
+    "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+    "CC: Questioning the measurements and science: Data shows no temperature increase",
+    "CC: Questioning the measurements and science: Scientific community is unreliable"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Climate cycles are natural",
+      "matched": "CC: Downplaying climate change: Climate cycles are natural",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "matched": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "matched": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "matched": "CC: Questioning the measurements and science: Scientific community is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

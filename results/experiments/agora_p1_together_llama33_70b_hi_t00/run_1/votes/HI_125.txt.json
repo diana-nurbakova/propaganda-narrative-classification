@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_125.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस द्वारा बनाई जा रही नफरत की दीवार",
+        "reasoning": "The text implies that Russia is responsible for creating a wall of hatred, which suggests that the war is being blamed on Russia's actions rather than on the actions of others."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "जर्मनी अभी भी रूस के खिलाफ कड़े प्रतिबंध लगाने से बच रहा है",
+        "reasoning": "The text criticizes Germany for not imposing tough sanctions on Russia, which suggests that the West is being discredited for its diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "यूरोप को विभाजित करने वाली एक नफरत की दीवार तैयार की जा रही है",
+        "reasoning": "The text evokes fear about the potential consequences of the war, specifically the creation of a wall of hatred that could divide Europe."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

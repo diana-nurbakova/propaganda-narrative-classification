@@ -1,0 +1,144 @@
+{
+  "file_id": "EN_CC_200065.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Downplaying climate change"
+    ],
+    [
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Criticism of climate movement"
+    ],
+    [
+      "Questioning the measurements and science",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "These are astonishing contentions considering that temperature data collection only began in the 19th century.",
+        "reasoning": "The text directly questions the scientific basis for claims about historical temperatures by highlighting the short duration of instrumental data collection, casting doubt on the methods used to make long-term comparisons."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’” NASA revealed. But who wants to let science get in the way of a good story?",
+        "reasoning": "This quote explicitly casts skepticism on the use of paleoclimate proxy data, framing it as incompatible with direct measurement science and implying the claims are driven by narrative rather than scientific rigor."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather, asserting earth saw its hottest day on record this week and likely “the hottest day in thousands of years.”",
+        "reasoning": "The term 'climate alarmists' is a pejorative label that challenges the credibility and motives of those raising climate concerns, fitting the definition of criticizing the climate movement."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "Not content with these extravagant claims, the article goes on to assert that 2024 is “the planet’s hottest year yet since at least the pre-industrial era, and likely for at least 100,000 years before that” (emphasis added).",
+        "reasoning": "By describing the claims as 'extravagant' and using skeptical framing, the text minimizes the significance and validity of the reported climate milestones, thereby downplaying the issue of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "These are astonishing contentions considering that temperature data collection only began in the 19th century.",
+        "reasoning": "The quote directly challenges the scientific basis of the claims about historical temperatures by pointing out the limited timeframe of direct data collection, casting doubt on the methods used to make long-term comparisons."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’” NASA revealed.",
+        "reasoning": "This quote is used to highlight a perceived flaw or inconsistency in the scientific methodology, specifically questioning the validity of combining proxy data with instrumental records to support the 'hottest day' claim."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This rhetorical question sarcastically implies that the claims made by 'climate alarmists' are driven by narrative rather than scientific rigor, actively promoting skepticism about the scientific process behind the reported findings."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather...",
+        "reasoning": "The use of the pejorative term 'alarmists' to label those making the claims challenges the credibility and motives of the climate movement, framing their concerns as exaggerated or unfounded."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Not content with these extravagant claims...",
+        "reasoning": "Describing the claims as 'extravagant' is a direct criticism that questions the validity and seriousness of the climate movement's messaging, portraying it as overblown."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "These are astonishing contentions considering that temperature data collection only began in the 19th century.",
+        "reasoning": "The text directly raises doubt about the scientific claims of 'hottest day in thousands of years' by pointing out the limited historical scope of instrumental temperature data, challenging the methodology behind the claims."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "Moreover, because proxy records from things like tree rings, pollen counts, and ice cores differ fundamentally from direct measurements, “scientists typically do not include them on the same charts as the instrumental record,’” NASA revealed.",
+        "reasoning": "This quote cites NASA to highlight a fundamental difference between proxy and direct measurements, implicitly casting doubt on the validity of combining them to make long-term historical claims, which aligns with questioning the scientific methods used."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Climate alarmists are lamenting July’s warm weather... Not content with these extravagant claims...",
+        "reasoning": "The text uses the pejorative term 'alarmists' and describes the claims as 'extravagant,' which challenges the credibility and motives of those raising climate concerns, fitting the definition of criticizing the climate movement."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "But who wants to let science get in the way of a good story?",
+        "reasoning": "This concluding rhetorical question sarcastically suggests the alarming climate claims are merely a 'good story' rather than being based on solid science, thereby minimizing the significance and validity of the reported climate change impacts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Questioning the measurements and science",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Downplaying climate change",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

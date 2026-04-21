@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_12.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पीएम मोदी ने कहा, “मैंने और चांसलर नेहमर ने विश्व में चल रहे विवादों, रूस-यूक्रेन और पश्चिमी एशिया की स्थिति पर विस्तार से चर्चा की है। मैंने पहले भी कहा है कि यह युद्ध का समय नहीं है। समस्याओं का समाधान रणभूमि में नहीं हो सकता है। कहीं भी मासूम लोगों की जान की हानि स्वीकार्य नहीं है।”",
+        "reasoning": "इस उद्धरण में, पीएम मोदी युद्ध के समय को नकारते हैं और समस्याओं का समाधान रणभूमि में नहीं हो सकता है, यह दर्शाता है कि रूस को युद्ध के लिए जिम्मेदार नहीं ठहराया जा सकता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने पीएम मोदी के रूस दौरे को लेकर कहा था कि भारत अपनी पुरानी दोस्ती के बल पर रूस-यूक्रेन संघर्ष रोक सकता है।",
+        "reasoning": "इस उद्धरण में, अमेरिका की टिप्पणी से पता चलता है कि पश्चिमी देशों की विदेश नीति में कमजोरी है और वे रूस-यूक्रेन संघर्ष को रोकने में असमर्थ हैं।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "पीएम मोदी ने कहा ऑस्ट्रिया और भारत शांति की बहाली चाहते हैं और इसके लिए हर प्रकार का सहयोग देने के लिए तैयार हैं।",
+        "reasoning": "इस उद्धरण में, पीएम मोदी रूस के साथ शांति की बहाली के लिए सहयोग की बात करते हैं, जो रूस कीpeaceful इच्छा को दर्शाता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "पीएम मोदी ने कहा, “मैंने और चांसलर नेहमर ने विश्व में चल रहे विवादों, रूस-यूक्रेन और पश्चिमी एशिया की स्थिति पर विस्तार से चर्चा की है। मैंने पहले भी कहा है कि यह युद्ध का समय नहीं है। समस्याओं का समाधान रणभूमि में नहीं हो सकता है। कहीं भी मासूम लोगों की जान की हानि स्वीकार्य नहीं है।”",
+        "reasoning": "इस उद्धरण में, पीएम मोदी युद्ध के समय को नकारते हैं और समस्याओं का समाधान रणभूमि में नहीं हो सकता है, यह दर्शाता है कि रूस को युद्ध के लिए जिम्मेदार नहीं ठहराया जा सकता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पीएम मोदी ने कहा ऑस्ट्रिया और भारत शांति की बहाली चाहते हैं और इसके लिए हर प्रकार का सहयोग देने के लिए तैयार हैं।",
+        "reasoning": "इस उद्धरण में, पीएम मोदी पश्चिमी देशों की आलोचना नहीं करते हैं, लेकिन यह दर्शाते हैं कि भारत और ऑस्ट्रिया शांति की बहाली के लिए सहयोग करने के लिए तैयार हैं, जो पश्चिमी देशों की विदेश नीति की आलोचना के रूप में देखा जा सकता है।"
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "अमेरिका ने पीएम मोदी के रूस दौरे को लेकर कहा था कि भारत अपनी पुरानी दोस्ती के बल पर रूस-यूक्रेन संघर्ष रोक सकता है।",
+        "reasoning": "इस उद्धरण में, अमेरिका पीएम मोदी के रूस दौरे को लेकर कहता है कि भारत अपनी पुरानी दोस्ती के बल पर रूस-यूक्रेन संघर्ष रोक सकता है, जो रूस के प्रति सकारात्मक दृष्टिकोण को दर्शाता है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

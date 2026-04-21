@@ -1,0 +1,144 @@
+{
+  "file_id": "BG_1169.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Green policies are geopolitical instruments",
+      "Hidden plots by secret schemes of powerful groups",
+      "Climate change is beneficial",
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Questioning the measurements and science",
+      "Criticism of climate movement",
+      "Controversy about green technologies"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Учените са използвали минали данни и компютърни модели, за да създадат системата за ранно предупреждение AMOC. Въпреки че точната дата на колапса все още не е известна, изследователите изтъкват, че повратната точка може да настъпи през следващите години.",
+        "reasoning": "Текстът представя потенциалния колапс на Атлантическата меридионална циркулация като предупредителен знак за възможно \"глобално замръзване\" и радикални промени в климата, което създава тревога и загриженост относно бъдещето на климата."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Climate change is beneficial",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "",
+        "reasoning": ""
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "",
+        "reasoning": ""
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Учените са използвали минали данни и компютърни модели, за да създадат системата за ранно предупреждение AMOC. Въпреки че точната дата на колапса все още не е известна, изследователите изтъкват, че повратната точка може да настъпи през следващите години.",
+        "reasoning": "Текстът представя потенциалния колапс на Атлантическата меридионална циркулация като предупредителен знак за възможно глобално замръзване, което би имало радикални последици за климата и потенциално опустошителни последствия, което съответства на дефиницията на Amplifying Climate Fears като нарътив, който цели да предизвика тревога и загриженост относно климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Учените са използвали минали данни и компютърни модели, за да създадат системата за ранно предупреждение AMOC. Въпреки че точната дата на колапса все още не е известна, изследователите изтъкват, че повратната точка може да настъпи през следващите години.",
+        "reasoning": "Текстът представя потенциалния колапс на Атлантическата меридионална циркулация като предупреждение за радикални промени в климата и възможно глобално замръзване, което създава тревога и загриженост относно бъдещето на климата."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 10
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

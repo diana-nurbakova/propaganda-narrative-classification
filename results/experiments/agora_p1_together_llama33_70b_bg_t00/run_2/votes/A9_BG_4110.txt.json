@@ -1,0 +1,139 @@
+{
+  "file_id": "A9_BG_4110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "русофобската политика“ на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът представя Русия като жертва на русофобска политика, което е типично за наративите, които изобразяват Русия като несправедливо таргетирана или виктимизирана."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "русофобската политика“ на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът критикува американското правителство за русофобска политика, което е пример за наратив, който дискредитира Запада и неговите дипломатически усилия."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда.",
+        "reasoning": "Текстът предполага, че има някаква скрита сила, която манипулира информацията и влиза на младите хора, което е типично за наративите, които създават недоверие към медиите и информационните източници."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "русофобската политика на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът представя Русия като жертва на русофобска политика, което е типично за тази нарратива."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда. Подготвя ги за разгръщане на бойното поле в Източна Европа, а може би и за други гангстерски изцепки.",
+        "reasoning": "Текстът критикува западната политика и предполага, че те подкрепят или пропагандират екстремистки действия, което е характерно за тази нарратива."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Нищо обаче не се прави, въпреки очевидните рискове",
+        "reasoning": "Текстът показва недоверие към способността на властите или медиите да разкрият или предотвратят потенциални рискове, което е свързано с тази нарратива, макар и не директно."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда.",
+        "reasoning": "Текстът предполага съществуването на тайни планове или схеми, които целят да манипулират или да вредят, което е характерно за тази нарратива."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Мога да потвърдя, че почти ежедневно се получават съобщения със заплахи например срещу руското посолство.",
+        "reasoning": "Текстът представя Русия като жертва, като споменава заплахи срещу руското посолство в САЩ, което е в съответствие с нарътивата \"Русия е жертва\"."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "русофобската политика\" на американското правителство само допринася за разрастването на екстремистките тенденции",
+        "reasoning": "Текстът критикува американското правителство за \"русофобска политика\", което е в съответствие с нарътивата \"Дискредитиране на Запада\"."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Някой отглежда, култивира и влива в младите хора отровна пропаганда.",
+        "reasoning": "Текстът предполага, че има скрити планове и тайни схеми, които целят да манипулират младите хора и да ги подготвят за участие в конфликти, което е в съответствие с нарътивата \"Скрити планове на мощни групи\"."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

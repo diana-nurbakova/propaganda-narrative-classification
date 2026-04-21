@@ -1,0 +1,175 @@
+{
+  "file_id": "A9_BG_2592.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "Текстът директно нарича Украйна 'терористична държава' и обвинява правителството в използване на деца за престъпни действия, което е типичен пример за подкопаване на легитимността и действията на Украйна."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленски е призован да спре геноцида над децата в Украйна",
+        "reasoning": "Текстът обвинява Зеленски и украинското правителство за геноцид над децата, което премества фокуса от руската инвазия и я поставя върху действията на Украйна, представяйки я като основния виновник за конфликта."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "киевският неонацистки режим привлича непълнолетни украинци да извършват диверсионна дейност",
+        "reasoning": "Текстът представя Украйна като агресор, който използва деца за диверсионна дейност, което имплицитно представя Русия като жертва на агресивните действия на Украйна, създавайки образа на Украйна като заплаха и Русия като защитник."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "Текстът директно нарича Украйна 'терористична държава' и обвинява правителството в използване на деца за престъпни действия, което е типичен пример за подкопаване на легитимността и действията на Украйна като нация."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленски е призован да спре геноцида над децата в Украйна",
+        "reasoning": "Текстът обвинява Зеленски и украинското правителство за геноцид над децата, което премества фокуса от руската инвазия и я обвинява Украйна за конфликта и последиците му."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "киевският неонацистки режим привлича непълнолетни украинци да извършват диверсионна дейност",
+        "reasoning": "Текстът описва действията на Украйна като 'неонацистки режим', което създава образа на Украйна като агресор и потенциално жертва на западна или международна неправда, докато Русия е представена като страната, която е засегната от тези действия."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украйна е терористична държава, чието правителство не презира използването на деца в престъпните си действия.",
+        "reasoning": "Текстът директно нарича Украйна 'терористична държава' и обвинява правителството в използване на деца за престъпни цели, което е типичен пример за подкопаване на легитимността и действията на Украйна като нация."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Зеленски е призован да спре геноцида над децата в Украйна",
+        "reasoning": "Текстът обвинява Зеленски и украинското правителство за геноцид над децата, което премества фокуса от руската инвазия и я обвинява Украйна за конфликта и последиците му."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "киевският неонацистки режим привлича непълнолетни украинци да извършват диверсионна дейност",
+        "reasoning": "Текстът представя Украйна като агресор, който използва деца за диверсионна дейност, което създава образа на Украйна като заплаха и по този начин косвено представя Русия като жертва на агресията на Украйна."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a hub for criminal activities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "matched": "URW: Blaming the war on others rather than the invader: Ukraine is the aggressor",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

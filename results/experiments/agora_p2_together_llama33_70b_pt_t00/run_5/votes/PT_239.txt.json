@@ -1,0 +1,187 @@
+{
+  "file_id": "PT_239.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "Esta frase sugere que a China está a atribuir parte da responsabilidade pela guerra à NATO, em vez de apenas à Rússia, o que se enquadra na narrativa de culpar outros pela guerra."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "Esta frase critica a NATO, uma organização ocidental, por não considerar as preocupações de segurança da Rússia, o que se enquadra na narrativa de desacreditar a diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "Esta frase sugere que a Rússia é vítima de ações da NATO, o que se enquadra na narrativa de que a Rússia é a vítima."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A China está a desviar a responsabilidade da guerra para a NATO, sugerindo que a organização não considerou as preocupações de segurança da Rússia, em vez de culpar a Rússia pela invasão."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A China está a criticar a NATO, uma organização ocidental, por não considerar as preocupações de segurança da Rússia, o que implica que a diplomacia ocidental é falha ou insuficiente."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A China está a apresentar a Rússia como vítima, sugerindo que as ações da NATO não consideraram as suas preocupações de segurança, o que implica que a Rússia está a ser tratada de forma injusta."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A China é um importante aliado da Rússia e tenta posicionar-se como mediador entre Moscovo e Kiev.",
+        "reasoning": "A China está a ser apresentada como um aliado importante da Rússia, o que implica que a Rússia tem um papel significativo e positivo na região."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Para negociar a paz, o Kremlin pede à Ucrânia que lhe ceda o conjunto de territórios que Moscovo reivindica e que renuncie a integrar a Organização do Tratado do Atlântico Norte (NATO).",
+        "reasoning": "A Ucrânia está a ser apresentada como uma parte que precisa ceder territórios e renunciar à sua soberania, o que implica que a Ucrânia é fraca ou incapaz de defender seus interesses."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "Esta frase sugere que a China está a atribuir parte da responsabilidade pela guerra à NATO, em vez de apenas à Rússia, o que se enquadra na narrativa de culpar outros pela guerra."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "Esta frase critica a NATO, uma organização ocidental, por não considerar as preocupações de segurança da Rússia, o que se enquadra na narrativa de desacreditar a diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "Esta frase sugere que a Rússia é vítima de ações da NATO, o que se enquadra na narrativa de que a Rússia é a vítima."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "file_id": "PT_239.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A acusação da China à NATO implica que a organização não está considerando as preocupações de segurança da Rússia, o que pode ser visto como uma crítica à diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A menção às preocupações de segurança de Moscovo sugere que a Rússia está sendo tratada de forma injusta ou que suas necessidades não estão sendo atendidas, o que pode ser interpretado como uma vitimização da Rússia."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Nenhum",
+        "reasoning": "Não há menção explícita à desconfiança na mídia no texto fornecido."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Nenhum",
+        "reasoning": "Não há elogios diretos à Rússia ou às suas ações no texto fornecido."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Wang Yi enfatizou que a crise na Ucrânia entrou no seu terceiro ano, que o conflito continua e que existe um risco de escalada",
+        "reasoning": "A menção ao risco de escalada e ao prolongamento do conflito implica uma especulação sobre os resultados da guerra."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A China está a criticar a NATO, uma organização ocidental, por não considerar as preocupações de segurança da Rússia, o que implica que a diplomacia ocidental é falha ou insuficiente."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A China está a apresentar a Rússia como vítima de ações ocidentais, sugerindo que a NATO não está a considerar as preocupações de segurança da Rússia, o que pode ser visto como uma injustiça contra a Rússia."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "A China é um importante aliado da Rússia e tenta posicionar-se como mediador entre Moscovo e Kiev.",
+        "reasoning": "A China está a ser apresentada como um aliado importante da Rússia, o que pode ser visto como um elogio à capacidade da Rússia de manter alianças fortes."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Para negociar a paz, o Kremlin pede à Ucrânia que lhe ceda o conjunto de territórios que Moscovo reivindica e que renuncie a integrar a Organização do Tratado do Atlântico Norte (NATO).",
+        "reasoning": "A Ucrânia está a ser apresentada como uma nação que precisa ceder territórios e renunciar à sua soberania para satisfazer as exigências da Rússia, o que pode ser visto como uma descreditação da Ucrânia como uma nação soberana."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A acusação da China à NATO implica que a organização não está considerando as preocupações de segurança da Rússia, o que pode ser visto como uma crítica à diplomacia ocidental."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "A China acusa a NATO de não ter em conta as preocupações de segurança de Moscovo.",
+        "reasoning": "A menção às preocupações de segurança da Rússia sugere que a Rússia está sendo tratada de forma injusta ou ameaçada, o que é um tema comum na narrativa de que a Rússia é a vítima."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "Pequim nunca condenou a invasão russa da antiga república soviética.",
+        "reasoning": "A falta de condenação da China à invasão russa pode ser vista como uma indicação de que a China não confia na narrativa ocidental sobre a guerra, o que pode ser relacionado à desconfiança em relação à mídia."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

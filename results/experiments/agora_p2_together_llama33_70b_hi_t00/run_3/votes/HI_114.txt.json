@@ -1,0 +1,160 @@
+{
+  "file_id": "HI_114.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Distrust towards Media"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध? आगबबूला हुआ अमेरिका; फ्रांस ने भी कहा- अब खैर नहीं",
+        "reasoning": "The text evokes fear about the potential consequences of Russia's actions, suggesting that it could lead to a world war, which is a classic example of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका का दावा है कि युद्ध के मैदान में रूस क्लोरोपिक्रिन का इस्तेमाल कर रहा है।",
+        "reasoning": "The text criticizes Western diplomacy by implying that the US is making accusations against Russia without sufficient evidence, which is a form of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "रूस पर आरोप है कि रूसी सेना इस गैस का इस्तेमाल यूक्रेनी सेना को तितर-बितर करने के लिए कर रही है।",
+        "reasoning": "The text shifts the blame for the war from Russia to Ukraine by suggesting that Ukraine is being targeted by Russia, which is a form of blaming the war on others."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध?",
+        "reasoning": "The text suggests that Russia's actions could lead to a global war, which evokes fear and anxiety about potential threats and dangers."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका का दावा है कि युद्ध के मैदान में रूस क्लोरोपिक्रिन का इस्तेमाल कर रहा है",
+        "reasoning": "The text criticizes Western diplomacy by implying that the US is making accusations against Russia without sufficient evidence, which undermines the credibility of Western diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "अमेरिका और फ्रांस बौखला उठे हैं",
+        "reasoning": "The text highlights the negative consequences of Russia's actions for Western countries, specifically the US and France, which are portrayed as being outraged and concerned about the situation."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "रूस ने अपने ऊपर लगे इन आरोपों को निराधार बताते हुए खारिज कर दिया",
+        "reasoning": "The text implies that the media may be biased or unreliable in reporting on Russia's actions, as Russia denies the allegations and the text presents this denial as a credible perspective."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रूस की इस हरकत से छिड़ जाएगा विश्व युद्ध? आगबबूला हुआ अमेरिका; फ्रांस ने भी कहा- अब खैर नहीं",
+        "reasoning": "The text evokes fear about the potential consequences of Russia's actions, suggesting that it could lead to a world war, which is a classic example of amplifying war-related fears."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका का दावा है कि युद्ध के मैदान में रूस क्लोरोपिक्रिन का इस्तेमाल कर रहा है।",
+        "reasoning": "The text criticizes Western diplomacy by implying that the US is making unfounded claims about Russia's actions, which is a form of discrediting the West."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "अमेरिका का दावा है कि व्लादिमीर पुतिन का देश युद्ध में इन रासायनिक हथियारों का इस्तेमाल करके रासायनिक हथियार सम्मेलन (सीडब्ल्यूसी) की शर्तों का उल्लंघन कर रहा है।",
+        "reasoning": "The text highlights the potential negative consequences for the West, specifically the US, if Russia continues to use chemical weapons, which could lead to a violation of international agreements."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

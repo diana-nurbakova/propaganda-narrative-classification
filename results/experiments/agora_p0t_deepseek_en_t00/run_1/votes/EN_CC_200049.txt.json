@@ -1,0 +1,175 @@
+{
+  "file_id": "EN_CC_200049.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Climate change is beneficial"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Climate change is beneficial"
+    ],
+    [
+      "CC: Downplaying climate change",
+      "CC: Questioning the measurements and science",
+      "CC: Climate change is beneficial"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "This quote uses selective data to argue that cold is a greater cause of death than heat, directly challenging the article's premise about the dangers of heat waves and thereby minimizing the significance and impact of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This statement directly disputes a scientific claim made in the cited article, raising doubts about the validity of the data and consensus regarding climate change impacts."
+      },
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "It added that over the past 20 years, the death rate from heat has slightly increased due to global warming (+0.21 percent), but that the death rate from the cold decreased by more than twice as much (-0.51 percent) during the same period.",
+        "reasoning": "This quote presents an argument that global warming has led to a net reduction in temperature-related mortality by decreasing cold deaths more than it increases heat deaths, framing climate change as having a positive effect."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "This quote uses selective data to argue that cold is a greater cause of death than heat, directly challenging the article's premise about the dangers of heat waves and thereby minimizing the significance and perceived threat of climate change."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths 'are caused by heat' does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This statement directly disputes a scientific claim made in the cited article, framing it as flawed and not supported by evidence, which aligns with the narrative of raising doubts about scientific data and consensus on climate impacts."
+      },
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "It added that over the past 20 years, the death rate from heat has slightly increased due to global warming (+0.21 percent), but that the death rate from the cold decreased by more than twice as much (-0.51 percent) during the same period.",
+        "reasoning": "This quote presents a specific argument that global warming has led to a net reduction in temperature-related mortality by decreasing cold deaths more than it increases heat deaths, thereby framing a potential positive effect of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "According to data published by the Environmental Protection Agency (EPA), over the past twenty years annual heat-related deaths in the U.S. have ranged between 0.9 and 3.6 per million people whereas cold-related deaths have ranged between 3.6 and 5.9 per million people.",
+        "reasoning": "This quote uses selective data to argue that cold is a greater cause of death than heat, directly challenging the significance and urgency of climate change impacts presented in the article's opening paragraphs."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "The group’s assertion that in the U.S. most weather-related deaths “are caused by heat” does not stand up to scrutiny, however, since the majority of weather-related deaths come from cold, not heat.",
+        "reasoning": "This statement directly disputes a scientific claim made in the cited article, framing it as incorrect upon scrutiny and thereby casting doubt on the reliability of the scientific information being presented about climate impacts."
+      },
+      {
+        "narrative_name": "CC: Climate change is beneficial",
+        "evidence_quote": "It added that over the past 20 years, the death rate from heat has slightly increased due to global warming (+0.21 percent), but that the death rate from the cold decreased by more than twice as much (-0.51 percent) during the same period.",
+        "reasoning": "This quote presents data suggesting a net reduction in temperature-related mortality, implying that global warming (a consequence of climate change) has a beneficial effect by reducing cold-related deaths more than it increases heat-related ones."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Downplaying climate change",
+    "CC: Questioning the measurements and science",
+    "CC: Climate change is beneficial"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other",
+    "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+    "CC: Questioning the measurements and science: Data shows no temperature increase",
+    "CC: Questioning the measurements and science: Other",
+    "CC: Climate change is beneficial: Temperature increase is beneficial",
+    "CC: Climate change is beneficial: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science",
+      "matched": "CC: Questioning the measurements and science",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Climate change is beneficial",
+      "matched": "CC: Climate change is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "matched": "CC: Questioning the measurements and science: Methodologies/metrics used are unreliable/faulty",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "matched": "CC: Questioning the measurements and science: Data shows no temperature increase",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Questioning the measurements and science: Other",
+      "matched": "CC: Questioning the measurements and science: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Climate change is beneficial: Temperature increase is beneficial",
+      "matched": "CC: Climate change is beneficial: Temperature increase is beneficial",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Climate change is beneficial: Other",
+      "matched": "CC: Climate change is beneficial: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

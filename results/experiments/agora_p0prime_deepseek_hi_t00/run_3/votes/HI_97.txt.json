@@ -1,0 +1,108 @@
+{
+  "file_id": "HI_97.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Negative Consequences for the West",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Negative Consequences for the West",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Negative Consequences for the West",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं। इन वजहों से रूस की हालत खस्ता हुई है",
+        "reasoning": "The text explicitly links Russia's 'खस्ता' (deteriorated) condition to the sanctions imposed by Western countries, highlighting the negative impact of Western actions on Russia."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है",
+        "reasoning": "The phrase 'प्रतिबंध झेल रहा है' (is bearing/suffering sanctions) portrays Russia as enduring punitive measures from the West, framing it in a passive, victimized light."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं। इन वजहों से रूस की हालत खस्ता हुई है",
+        "reasoning": "The text explicitly links Russia's 'खस्ता' (deteriorated) condition to the sanctions imposed by Western countries, thereby highlighting the negative consequences (economic and strategic decline) that Russia is facing as a result of Western actions."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "माना जा रहा है कि रूस ने पिछले दो सालों में सैन्य शक्ति मजबूत करने के लिए रक्षा क्षेत्र पर अधिक खर्च किया है और इस कोशिश में कई पैमानों पर पिछड़ गया है।",
+        "reasoning": "This statement speculates on the outcome of Russia's war effort, suggesting that its focus on military strength has caused it to lag behind in other metrics, implying a negative consequence of its war strategy."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है, जिसमें आर्थिक प्रतिबंध भी शामिल हैं। इन वजहों से रूस की हालत खस्ता हुई है",
+        "reasoning": "The text explicitly links Russia's 'खस्ता' (deteriorated) condition to Western sanctions, implying that the sanctions are the cause of Russia's decline. This highlights adverse outcomes (Russia's decline) for Western actions, fitting the narrative of predicting or reporting negative consequences stemming from Western policies."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "इस दौरान रूस पश्चिमी देशों के कई तरह के प्रतिबंध झेल रहा है",
+        "reasoning": "The phrase 'झेल रहा है' (is enduring/suffering) portrays Russia as passively bearing the burden of Western sanctions, evoking a sense of victimhood and unjust targeting by the West."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Negative Consequences for the West"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

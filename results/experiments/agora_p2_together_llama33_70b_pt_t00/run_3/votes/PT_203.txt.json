@@ -1,0 +1,136 @@
+{
+  "file_id": "PT_203.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-geral do ato Levante pela Terra, Kretã Kaingang, stating that what happened in the South is a catastrophe and will occur throughout the country, amplifies the fear of climate change consequences."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "The statement from Kretã Kaingang that the lack of access to affirmative policies is due to racism against indigenous peoples in municipalities and states, criticizes the institutions and authorities for their alleged racism and inaction."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-geral do ato Levante pela Terra, Kretã Kaingang, emphasizes the catastrophic nature of the climate-related events in the South and warns that it will happen throughout the country, amplifying fears about the consequences of climate change."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não tivemos acesso a qualquer política afirmativa. Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "The quote criticizes the lack of access to affirmative policies for indigenous peoples, attributing it to racism, which challenges the competence and intentions of institutions and authorities in addressing the needs of indigenous communities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "O que aconteceu no Sul é uma catástrofe. E vai ocorrer no país inteiro.",
+        "reasoning": "A quote from the coordinator-geral do ato Levante pela Terra, Kretã Kaingang, stating that what happened in the South is a catastrophe and will occur throughout the country, amplifies fears about the consequences of climate change."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Isto ocorre devido ao racismo que existe contra os povos indígenas nos municípios e nos estados.",
+        "reasoning": "The statement from Kretã Kaingang that the situation occurs due to racism against indigenous peoples in municipalities and states criticizes the institutions and authorities for their alleged racism and lack of support."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

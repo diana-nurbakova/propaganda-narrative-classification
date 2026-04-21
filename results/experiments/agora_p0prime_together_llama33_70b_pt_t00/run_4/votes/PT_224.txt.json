@@ -1,0 +1,83 @@
+{
+  "file_id": "PT_224.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Não é culpar \"El Niño\", mas o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável.",
+        "reasoning": "This quote criticizes the Brazilian government for its inaction and lack of effective policies to address environmental issues, despite its rhetoric."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Pois o calor produzido pelo aquecimento da temperatura provoca enfermidades, internamentos, agravamento de comorbilidades, abortos espontâneos e mortes precoces.",
+        "reasoning": "This quote emphasizes the severe consequences of climate change, such as health problems and increased mortality, to raise awareness and concern about the issue."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "E o Brasil teria tudo para se tornar o campeão na descarbonização. Eis que possui vasto território, muito sol, muito vento, condições para fabricar combustível a partir da biomassa, produzir o hidrogénio verde e exportar para o restante do planeta.",
+        "reasoning": "This quote criticizes the current climate policies by implying that the government is not taking advantage of the country's potential to become a leader in decarbonization and instead prioritizes fossil fuels."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável",
+        "reasoning": "This quote criticizes the Brazilian government's climate policies, stating that their actions do not match their words, implying that their policies are ineffective or inadequate."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "o dolo está na omissão do governo brasileiro, que tem um discurso edificante, mas uma prática miserável",
+        "reasoning": "This quote directly challenges the competence and integrity of the Brazilian government, suggesting that they are responsible for the environmental crisis due to their inaction and lack of effective policies."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Quando faltar água em todo o Brasil, o que se pretende fazer? Dessalinizar? Uma técnica viável, mas caríssima",
+        "reasoning": "This quote emphasizes the potential consequences of climate change, such as water scarcity, and highlights the costly solutions that might be needed, thereby amplifying fears about the future."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

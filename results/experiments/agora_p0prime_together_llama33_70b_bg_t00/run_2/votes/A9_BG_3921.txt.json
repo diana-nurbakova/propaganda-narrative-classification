@@ -1,0 +1,147 @@
+{
+  "file_id": "A9_BG_3921.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Карин Кнайсъл: Истина е, че Западът имаше план за разделяне на Русия по подобие на Югославия",
+        "reasoning": "The quote suggests that there is a hidden plan by the West to divide Russia, similar to what happened in Yugoslavia, which implies a secret scheme by powerful groups."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Запитана дали според нея Западът има подобни планове и към днешна дата, тя отговори: \"Да\"",
+        "reasoning": "The quote implies that the West has plans to divide Russia, which discredits the West's diplomatic efforts and suggests that they have ulterior motives."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Милорад Додик: Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "The quote portrays Russia as a potential victim of the West's plans, which evokes sympathy for Russia's position and suggests that they are being unfairly targeted."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Карин Кнайсъл: Истина е, че Западът имаше план за разделяне на Русия по подобие на Югославия",
+        "reasoning": "The quote suggests that there is a hidden plan by the West to divide Russia, similar to what happened in Yugoslavia. This implies a secretive and coordinated effort by powerful groups, which is a key characteristic of the 'Hidden plots by secret schemes of powerful groups' narrative."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Запитана дали според нея Западът има подобни планове и към днешна дата, тя отговори: \"Да\"",
+        "reasoning": "The quote implies that the West has plans to divide Russia, which discredits the West's diplomatic efforts and suggests that they have ulterior motives. This is an example of the 'Discrediting the West, Diplomacy' narrative."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "руският президент Владимир Путин разбира тенденциите и застава начело на борбата за националните интереси на страната си",
+        "reasoning": "The quote portrays Russia as a victim of Western plans, and President Putin as a leader who is fighting to protect his country's national interests. This evokes sympathy for Russia's position and suggests that they are being unfairly targeted, which is a key characteristic of the 'Russia is the Victim' narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Карин Кнайсъл: Истина е, че Западът имаше план за разделяне на Русия по подобие на Югославия",
+        "reasoning": "Тази цитата показва, че Карин Кнайсъл споменава за план на Запада да раздели Русия, което е пример за скрит заговор или тайна схема на мощни групи."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Запитана дали според нея Западът има подобни планове и към днешна дата, тя отговори: \"Да\"",
+        "reasoning": "Тази цитата показва, че Карин Кнайсъл критикува Запада за имането на планове да раздели Русия, което е пример за критика на Западните страни и тяхната дипломация."
+      },
+      {
+        "narrative_name": "URW: URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Милорад Додик: Западът имаше план да раздели Русия на пет части, в Югославия просто тренираше",
+        "reasoning": "Тази цитата показва, че Милорад Додик обвинява Запада за имането на план да раздели Русия, което е пример за пренасяне на отговорността за конфликта от Русия към други страни."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Hidden plots by secret schemes of powerful groups",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Hidden plots by secret schemes of powerful groups: Other",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

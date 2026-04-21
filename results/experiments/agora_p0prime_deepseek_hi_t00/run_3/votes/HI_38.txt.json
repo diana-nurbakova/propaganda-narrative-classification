@@ -1,0 +1,114 @@
+{
+  "file_id": "HI_38.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Praise of Russia",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "The text actively praises Russia's diplomatic gesture, interpreting the seniority of the welcoming official as a sign that Russia prioritizes India over China, which is a positive evaluation of Russia's foreign policy and its regard for India."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता। बकौल भारत, ‘ग्लोबल साउथ’ का भाी मानना है कि कूटनीति व बातचीत से ही समस्या का समाधान निकलेगा, युद्धक्षेत्र में नहीं।",
+        "reasoning": "The text presents India's stance that a solution cannot be found through military means alone, implying criticism of the Western-led approach that emphasizes military support for Ukraine. It promotes diplomacy and dialogue as the only solution, which indirectly discredits the current Western-supported strategy in the conflict."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "The text actively praises Russia's diplomatic gesture, interpreting the seniority of the welcoming official as a sign that Russia prioritizes India over China, which is a positive evaluation of Russia's foreign policy and its regard for India."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "मंटुरोव ने न सिर्फ पीएम मोदी का एयरपोर्ट पर स्वागत किया, बल्कि उनके साथ एक ही कार में बैठ कर होटल तक भी उन्हें छोड़ने गए।",
+        "reasoning": "This detail is presented to highlight the exceptional warmth and personal respect shown by the Russian official, which serves to positively portray Russian hospitality and the strength of the bilateral relationship."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "❗️Indian Tricolour Lights Up Moscow's Ostankino Tower – The Tallest Free-Standing Structure In Europe – In Tribute To PM Modi's State Visit",
+        "reasoning": "The inclusion of this social media post and the description of the tower being lit in Indian colors is presented as a grand, respectful tribute by Russia, actively promoting a positive image of Russia's efforts to honor the Indian Prime Minister."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "ऐसे में उसने पीएम मोदी का स्वागत करने के लिए उनसे वरिष्ठ पद पर बैठे राजनेता को भेजा है, जो दिखाता है कि रूस अपन संबंधों में भारत को चीन से अधिक प्राथमिकता देता है।",
+        "reasoning": "The text actively praises Russia's diplomatic gesture, interpreting the level of the welcoming official as a sign that Russia prioritizes India over China, which is a positive evaluation of Russia's foreign policy and its regard for India."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "भारत ने इस दौरान रूस-यूक्रेन युद्ध को लेकर अपना ये स्टैंड कायम रखा है कि केवल सैन्य माध्यमों से समाधान नहीं निकाला जा सकता। बकौल भारत, ‘ग्लोबल साउथ’ का भाी मानना है कि कूटनीति व बातचीत से ही समस्या का समाधान निकलेगा, युद्धक्षेत्र में नहीं।",
+        "reasoning": "The text presents India's (and by extension, the 'Global South's') stance that diplomacy and dialogue are the only solution, implicitly criticizing the Western approach which is often associated with military support for Ukraine. This discredits the Western-led diplomatic and military strategy in the conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia has international support from a number of countries and people",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "matched": "URW: Praise of Russia: Russia has international support from a number of countries and people",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

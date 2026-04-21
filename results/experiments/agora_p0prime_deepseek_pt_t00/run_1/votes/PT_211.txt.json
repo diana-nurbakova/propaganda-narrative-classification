@@ -1,0 +1,84 @@
+{
+  "file_id": "PT_211.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Um terço da população global viverá em condições perigosamente quentes até ao ano 2080, se o mundo continuar na sua trajectória actual. Caso esta tendência se mantenha, países inteiros da África Ocidental e do Golfo Pérsico entrarão numa zona de calor extremo",
+        "reasoning": "The text actively promotes fear by stating a large portion of the global population will face dangerously hot conditions and entire countries will enter an extreme heat zone, emphasizing severe future consequences of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Um terço da população global viverá em condições perigosamente quentes até ao ano 2080, se o mundo continuar na sua trajectória actual. Caso esta tendência se mantenha, países inteiros da África Ocidental e do Golfo Pérsico entrarão numa zona de calor extremo",
+        "reasoning": "The text actively promotes fear by stating that one-third of the global population will live in dangerously hot conditions, and entire countries will enter an extreme heat zone, emphasizing severe future consequences of climate change."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As temperaturas mais elevadas levarão a mais mortes relacionadas com o calor, reduzirão a produtividade e resultarão num menor rendimento das culturas, no aumento da migração e na propagação de doenças infecciosas.",
+        "reasoning": "This quote lists multiple catastrophic outcomes (deaths, reduced productivity, lower crop yields, increased migration, disease spread) directly linked to higher temperatures, amplifying fears about the impacts of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Um terço da população global viverá em condições perigosamente quentes até ao ano 2080, se o mundo continuar na sua trajectória actual. Caso esta tendência se mantenha, países inteiros da África Ocidental e do Golfo Pérsico entrarão numa zona de calor extremo",
+        "reasoning": "The text actively promotes fear by stating that one-third of the global population will live in dangerously hot conditions, and entire countries will enter an extreme heat zone, emphasizing severe future consequences of climate change."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "As temperaturas mais elevadas levarão a mais mortes relacionadas com o calor, reduzirão a produtividade e resultarão num menor rendimento das culturas, no aumento da migração e na propagação de doenças infecciosas.",
+        "reasoning": "This quote lists multiple catastrophic outcomes (deaths, reduced productivity, lower crop yields, increased migration, disease spread) directly linked to higher temperatures, amplifying fears about the impacts of climate change."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

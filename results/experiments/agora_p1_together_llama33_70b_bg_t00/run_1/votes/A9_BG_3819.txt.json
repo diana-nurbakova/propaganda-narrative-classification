@@ -1,0 +1,75 @@
+{
+  "file_id": "A9_BG_3819.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "URW: Discrediting the West",
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Overpraising the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "Сега това е насочено срещу Украйна, но утре може да дойде ред на други страни, и вече ясно виждаме посоката на агресията - балтийските републики, Полша, Балканите",
+        "reasoning": "Този цитат показва, че Зеленски се опитва да обвини Русия за агресия и да я представи като заплаха не само за Украйна, но и за други страни в Европа, което е част от наративите за дискредитиране на Русия и представяне на Запада като жертва."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "рус키ят режим не признава граници",
+        "reasoning": "Този цитат показва, че Зеленски се опитва да представи Русия като агресор и заплаха, но не съдържа похвала или положителна оценка на Русия, а напротив критикува руските действия. Този наратив не е подходящ за този цитат."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "няма",
+        "reasoning": "Няма цитат, който да подкрепя този наратив, тъй като текстът представя Зеленски като защитник на Украйна и не съдържа критика или отрицателна оценка на страната или нейните действия."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Сега това е насочено срещу Украйна, но утре може да дойде ред на други страни",
+        "reasoning": "Този цитат показва, че Зеленски се опитва да предскаже бъдещи действия на Русия и да обвини страната в агресия, което е част от наративите за спекулиране на военните резултати и представяне на Русия като агресор."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "благодари на Франция за подкрепата",
+        "reasoning": "Този цитат показва, че Зеленски изразява благодарност към Франция за подкрепата, което е част от наративите за похвала на Запада и представяне на страната като положителен актьор в конфликта."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

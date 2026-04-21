@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रुस के पास परमाणु हथियारों का सबसे बडा विवाद है",
+        "reasoning": "This quote suggests that Russia is being threatened and is considering using nuclear weapons only in response to an existential threat, portraying Russia as a victim that needs to defend itself."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रुस-उक्रेन युद्ध में परमाणु हथियारों के आवश्यक सबसे बडा विवाद है",
+        "reasoning": "This quote amplifies fears related to the use of nuclear weapons in the Russia-Ukraine war, evoking anxiety about severe consequences."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पास्चव के बयान पर पेंटागॉं के प्रवक्ता जॉन किरबी ने कहा है कि वह विवाद है",
+        "reasoning": "This quote criticizes Western diplomacy, suggesting that the Pentagon's spokesperson is being hypocritical or dishonest, which discredits the West's diplomatic efforts."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर रुस आपके आस्तित्व से जुडे जरा का सामना करेगा, तो ही वह परमाणु हथियार का उपयोग करेगा",
+        "reasoning": "क्रेमलिन के प्रवक्ता दिमित्री पेसकोव के बयान से स्पष्त होता है कि रुस आपके आस्तित्व से जुडे जरा का सामना करेगा, तो ही वह परमऺणु हथियार का उपयोग करेगा"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "रुस-उक्रेन युद्ध में परमऺणु हथियारों के आस्तित्व का उपयोग",
+        "reasoning": "रुस-उक्रेन युद्ध में परमऺणु हथियारों के आस्तित्व का उपयोग के संबन्ध में गर्म सुनी सूचना हो रही है"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "",
+        "reasoning": ""
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

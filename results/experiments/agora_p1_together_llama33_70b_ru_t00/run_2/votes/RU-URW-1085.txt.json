@@ -1,0 +1,153 @@
+{
+  "file_id": "RU-URW-1085.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Russia is the Victim",
+      "URW: Discrediting Ukraine",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Предприятия Дальнего Востока активно включились в помощь СВО. Мы создали новую оболочку – ТОР «Патриотическая». Благодаря этому модернизируются и запускаются производства, идёт их переоборудование.",
+        "reasoning": "The text highlights the active involvement of Far Eastern enterprises in supporting the Special Military Operation (SVO) and the creation of a new framework, TOR 'Patrioticheskaya', which modernizes and launches productions, demonstrating Russia's capabilities and strengths in supporting its military efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий.",
+        "reasoning": "The quote implies that Russia is engaged in a war that requires the use of modern techniques and technologies, suggesting that Russia is responding to the challenges of the war rather than being the aggressor, thus portraying Russia as a victim of circumstances."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий. Предприятия Дальнего Востока активно включились в помощь СВО.",
+        "reasoning": "The text highlights the active participation of Russian enterprises in supporting the Special Military Operation, emphasizing the use of modern techniques and technologies, which can be seen as praising Russia's capabilities and efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Такая поддержка будет продолжаться и дальше – до нашей Победы",
+        "reasoning": "The phrase 'до нашей Победы' implies that Russia is fighting for a victory, which might suggest that Russia is portrayed as a victim or a party that needs to achieve victory, potentially framing the conflict as a defensive or justified action."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct or implied statement in the text that undermines the legitimacy, actions, or intentions of Ukraine or Ukrainians as a nation. The text focuses on the support provided by the Distant East to the Russian army and does not contain any discrediting information about Ukraine."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "None",
+        "reasoning": "There is no statement in the text that attributes responsibility or fault to entities other than Russia in the context of Russia’s invasion of Ukraine. The text does not mention the cause of the war or shift blame to other parties."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "Ведение войны в современных условиях – это, прежде всего применение новейших техник и технологий. Предприятия Дальнего Востока активно включились в помощь СВО.",
+        "reasoning": "The text highlights the active participation of Russian enterprises in supporting the Special Military Operation, emphasizing the use of modern techniques and technologies, which can be seen as praising Russia's capabilities and efforts."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Такая поддержка будет продолжаться и дальше – до нашей Победы",
+        "reasoning": "The phrase 'до нашей Победы' implies that Russia is fighting for a just cause and is determined to achieve victory, which can be interpreted as portraying Russia as a victim that needs to defend itself."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct or implied statement that undermines the legitimacy, actions, or intentions of Ukraine or Ukrainians as a nation in the provided text."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "None",
+        "reasoning": "There is no statement that attributes responsibility or fault to entities other than Russia in the context of Russia’s invasion of Ukraine in the provided text."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russian invasion has strong national support",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

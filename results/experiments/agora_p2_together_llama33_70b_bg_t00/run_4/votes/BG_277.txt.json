@@ -1,0 +1,119 @@
+{
+  "file_id": "BG_277.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Hidden plots by secret schemes of powerful groups",
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate policies",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate movement",
+      "Green policies are geopolitical instruments"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите имат скрита програма за ограничаване на животновъдството и промяната на хранителните навици, което е част от по-голяма теория на заговора."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "спасяване на планетата",
+        "reasoning": "Текстът използва фрази, които подсилват страховете за климатичните промени и необходимостта от спешни действия за спасяване на планетата."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "огромния административен натиск от Брюксел",
+        "reasoning": "Текстът критикува институциите и властите в Брюксел за тяхната политика и натиск върху хранителните вериги."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите, включително Бил Гейтс, имат скрита програма за ограничаване на животновъдството и промяната на хранителните навици на хората чрез химически заместители, което може да се интерпретира като част от по-голяма конспирация."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "огромния административен натиск от Брюксел и десетките непеота, финансирани по линия на Давос",
+        "reasoning": "Текстът критикува административния натиск и финансирането на климатични политики, което предполага, че авторът възприема тези политики като неправилни или чрезмерни."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "спасяване на планетата",
+        "reasoning": "Текстът използва фрази, които подсилват страховете за климатичните промени и необходимостта от спешни действия за спасяване на планетата, което е характерно за наративите, които целят да увеличат тревогата и чувството за срочност около климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите имат скрита програма за ограничаване на животновъдството и насочване към химически заместители на традиционните продукти, което е част от по-голяма теория на заговора."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът критикува климатичното движение, представено от либерал-глобалистите, които се опитват да ограничат животновъдството и насочват хората към химически заместители на традиционните продукти."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "огромния административен натиск от Брюксел и десетките непеота, финансирани по линия на Давос",
+        "reasoning": "Текстът предполага, че зелените политики са инструменти на геополитическа власт, използвани от институции като Брюксел и Давос за влияние върху хранителните пазари и насочване към определени продукти."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "file_id": "BG_277.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът споменава за либерал-глобалистите и тяхната роля в определянето на животновъдството като основен източник на парникови газове, което може да се интерпретира като част от скрита схема или заговор на мощни групи."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "огромния административен натиск от Брюксел",
+        "reasoning": "Текстът споменава за административния натиск от Брюксел, което може да се интерпретира като критика към институциите и властите."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът споменава за либерал-глобалистите и тяхната роля в определянето на животновъдството като основен източник на парникови газове, което може да се интерпретира като част от геополитическа инструментализация на зелените политики."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобализма",
+        "reasoning": "Текстът споменава за участие на либерал-глобализма и на Бил Гейтс в промоцията на химически заместители на традиционните масла и мазнини, което може да се интерпретира като част от скрит план за контрол над хранителната индустрия и насочване на хората към определени продукти."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "огромния административен натиск от Брюксел",
+        "reasoning": "Текстът споменава за административен натиск от Брюксел, което може да се интерпретира като критика към институциите и властите в ЕС."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "либерал-глобализма",
+        "reasoning": "Текстът споменава за либерал-глобализма и за участие на Бил Гейтс в промоцията на химически заместители на традиционните масла и мазнини, което може да се интерпретира като част от геополитическа стратегия за контрол над хранителната индустрия и насочване на хората към определени продукти."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "либерал-глобалистите сочат като основен източник на парникови газове",
+        "reasoning": "Текстът предполага, че либерал-глобалистите имат скрита програма за ограничаване на животновъдството и промяната на хранителните навици на хората, което е типичен пример за теория на заговора."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

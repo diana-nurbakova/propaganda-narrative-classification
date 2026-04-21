@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_12.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "अमेरिका ने पीएम मोदी के रूस दौरे को लेकर कहा था कि भारत अपनी पुरानी दोस्ती के बल पर रूस-यूक्रेन संघर्ष रोक सकता है।",
+        "reasoning": "यह बयान पश्चिमी देशों की क्षमता को कम आंकता है और भारत को रूस-यूक्रेन संघर्ष को रोकने में महत्वपूर्ण भूमिका देता है, जो कि पश्चिमी देशों की कमजोरी को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "प्रधानमंत्री नरेन्द्र मोदी ने ऑस्ट्रिया की राजधानी विएना से स्पष्ट कर दिया है कि यूक्रेन-रूस संघर्ष का समाधान युद्धभूमि से नहीं निकलने वाला है।",
+        "reasoning": "यह बयान युद्ध के परिणाम के बारे में अनुमान लगाता है और यह सुझाव देता है कि युद्ध का समाधान युद्धभूमि से नहीं निकलेगा।"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "पीएम मोदी ने कहा, “मैंने और चांसलर नेहमर ने विश्व में चल रहे विवादों, रूस-यूक्रेन और पश्चिमी एशिया की स्थिति पर विस्तार से चर्चा की है। मैंने पहले भी कहा है कि यह युद्ध का समय नहीं है। समस्याओं का समाधान रणभूमि में नहीं हो सकता है। कहीं भी मासूम लोगों की जान की हानि स्वीकार्य नहीं है।”",
+        "reasoning": "यह बयान युद्ध से संबंधित डर को बढ़ावा देता है और यह सुझाव देता है कि युद्ध का समय नहीं है और मासूम लोगों की जान की हानि स्वीकार्य नहीं है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

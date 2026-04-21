@@ -1,0 +1,288 @@
+{
+  "file_id": "EN_UA_DEV_100026.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Criticism of climate movement",
+      "Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Downplaying climate change",
+      "Criticism of climate movement",
+      "Controversy about green technologies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Germany has just recorded its third consecutive quarter of recession, marked by negative gross domestic product (GDP) growth. The central bank expects the rest of the year to be no better.",
+        "reasoning": "The text argues that Germany's economic downturn is a result of its climate policies, specifically the pursuit of 'green' energy, which led to a dependence on Russian gas and ultimately to economic hardship."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Germany’s leaders have been willing to bankrupt its economy, impoverish its people, and plunge the nation into darkness for a rounding error.",
+        "reasoning": "The text criticizes German leaders for their handling of climate policy, implying that they are incompetent and willing to sacrifice the economy and the people's well-being for ideological reasons."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "According to ClimateWatch, just three countries—China, India, and the United States—produce 42.6 percent of global greenhouse gas (GHG) emissions. On the other hand, Germany produces 1.75 percent of global GHG emissions.",
+        "reasoning": "The text downplays the significance of Germany's contribution to global greenhouse gas emissions, implying that the country's efforts to reduce emissions are unnecessary and overly costly."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Virtue-Signaling Straight Into the Abyss",
+        "reasoning": "The text criticizes the climate movement and German leaders for 'virtue-signaling' and prioritizing climate goals over economic and energy security, implying that they are more concerned with appearances than actual results."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "These near-sighted and self-sabotaging policies effectively destroyed Germany’s highly efficient and inexpensive domestic energy production capacity derived from world-class coal and nuclear power.",
+        "reasoning": "The text expresses skepticism and criticism of green energy policies, arguing that they have led to the destruction of Germany's domestic energy production capacity and have had severe economic consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Germany has just recorded its third consecutive quarter of recession, marked by negative gross domestic product (GDP) growth. The central bank expects the rest of the year to be no better.",
+        "reasoning": "The text argues that Germany's economic downturn is largely due to its misguided energy policy, which is a criticism of climate policies."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Germany’s leaders have been willing to bankrupt its economy, impoverish its people, and plunge the nation into darkness for a rounding error.",
+        "reasoning": "The text criticizes German leaders for their handling of climate policy, implying that they are incompetent and prioritizing virtue signaling over the well-being of their citizens."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to ClimateWatch, just three countries—China, India, and the United States—produce 42.6 percent of global greenhouse gas (GHG) emissions. On the other hand, Germany produces 1.75 percent of global GHG emissions.",
+        "reasoning": "The text downplays the significance of Germany's contribution to global greenhouse gas emissions, implying that the country's efforts to reduce emissions are unnecessary or ineffective."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Virtue-Signaling Straight Into the Abyss",
+        "reasoning": "The text criticizes the climate movement for prioritizing symbolic gestures over practical solutions, implying that the movement is more focused on appearances than actual results."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "Germany’s coal plants were among the most modern and efficient in the world. Low-carbon nuclear energy produced a substantial portion of Germany’s power needs. But all of this was forsaken in the quixotic pursuit of a utopian vision of zero-carbon green energy.",
+        "reasoning": "The text expresses skepticism about the effectiveness and practicality of green technologies, arguing that they are not a viable replacement for traditional energy sources."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "Germany has just recorded its third consecutive quarter of recession, marked by negative gross domestic product (GDP) growth. The central bank expects the rest of the year to be no better.",
+        "reasoning": "The text argues that Germany's economic downturn is a result of its climate policies, specifically the pursuit of 'green' energy, which led to a dependence on Russian gas and ultimately to economic hardship."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Germany’s leaders have been willing to bankrupt its economy, impoverish its people, and plunge the nation into darkness for a rounding error.",
+        "reasoning": "The text criticizes German leaders for their handling of climate policy, implying that they are incompetent and willing to sacrifice the economy and the people's well-being for ideological reasons."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "According to ClimateWatch, just three countries—China, India, and the United States—produce 42.6 percent of global greenhouse gas (GHG) emissions. On the other hand, Germany produces 1.75 percent of global GHG emissions.",
+        "reasoning": "The text downplays the significance of Germany's contribution to global greenhouse gas emissions, implying that the country's efforts to reduce emissions are unnecessary and overly costly."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Virtue-Signaling Straight Into the Abyss",
+        "reasoning": "The text criticizes the climate movement and German leaders for 'virtue-signaling' and prioritizing ideological goals over economic and social realities."
+      },
+      {
+        "narrative_name": "Controversy about green technologies",
+        "evidence_quote": "These near-sighted and self-sabotaging policies effectively destroyed Germany’s highly efficient and inexpensive domestic energy production capacity derived from world-class coal and nuclear power.",
+        "reasoning": "The text expresses skepticism and criticism of green energy policies, arguing that they have led to the destruction of Germany's domestic energy production capacity and economic hardship."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Downplaying climate change",
+    "CC: Criticism of climate movement",
+    "CC: Controversy about green technologies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Criticism of the EU",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Other",
+    "CC: Controversy about green technologies: Renewable energy is costly",
+    "CC: Controversy about green technologies: Renewable energy is unreliable",
+    "CC: Controversy about green technologies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Controversy about green technologies",
+      "matched": "CC: Controversy about green technologies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is costly",
+      "matched": "CC: Controversy about green technologies: Renewable energy is costly",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "matched": "CC: Controversy about green technologies: Renewable energy is unreliable",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Controversy about green technologies: Other",
+      "matched": "CC: Controversy about green technologies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

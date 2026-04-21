@@ -197,7 +197,9 @@ async def run_classification(config_path: str, cost_tracker: Optional[CostTracke
         return cost_tracker
 
     except Exception as e:
+        import traceback
         print(f"[Main] Error during classification: {e}")
+        traceback.print_exc()
         sys.exit(1)
 
 

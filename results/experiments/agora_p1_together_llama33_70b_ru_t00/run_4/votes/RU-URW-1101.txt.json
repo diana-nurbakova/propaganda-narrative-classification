@@ -1,0 +1,226 @@
+{
+  "file_id": "RU-URW-1101.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевские нацисты",
+        "reasoning": "The text directly discredits Ukraine by referring to its government and supporters as 'нацисты' (fascists), which is a negative and derogatory term."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "киевские нацисты пойдут на всё, что угодно, подпишут любые бумаги и прикинуться невинными овечками. Чтобы потом через 10, 20, 30 лет снова убивать русских людей",
+        "reasoning": "The text portrays Russia as a victim by suggesting that Ukraine's government and supporters are deceitful and intent on harming Russian people, evoking sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "у нашего руководства хватит сил, решимости и авторитета не сойти с выбранного пути и закончить войну победой",
+        "reasoning": "The text expresses admiration for Russia's leadership, suggesting they have the strength, determination, and authority to achieve victory, which is a positive evaluation of Russia's actions and character."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "наступает критический, самый опасный для России момент с начала СВО",
+        "reasoning": "The text makes a prediction about the potential outcome of the conflict, suggesting that a critical moment has arrived for Russia, which speculates about the consequences of the war."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "киевские нацисты пойдут на всё, что угодно... Чтобы потом через 10, 20, 30 лет снова убивать русских людей",
+        "reasoning": "The text evokes fear about potential threats and dangers, specifically the threat of Ukrainian nationalists killing Russian people in the future, which amplifies war-related fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевские нацисты",
+        "reasoning": "The text directly attacks the Ukrainian government and people by labeling them as 'нацисты' (Nazis), which is a clear attempt to undermine their legitimacy and credibility."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "потом через 10, 20, 30 лет снова убивать русских людей",
+        "reasoning": "The text portrays Russia as a victim by suggesting that Ukrainians will continue to kill Russian people in the future, evoking sympathy and a sense of injustice towards Russia."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "у нашего руководства хватит сил, решимости и авторитета не сойти с выбранного пути и закончить войну победой",
+        "reasoning": "The text expresses admiration and support for Russia's leadership, implying that they have the strength, determination, and authority to achieve victory in the war."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "Иначе через какое-то время нас снова ждёт война",
+        "reasoning": "The text amplifies fears of future conflict by suggesting that if Russia does not achieve victory now, another war will inevitably occur, creating a sense of urgency and danger."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "киевские нацисты",
+        "reasoning": "The text refers to individuals in Kyiv as 'нацисты' (fascists), which is a direct attack on the legitimacy and character of the Ukrainian government and society."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "потом через 10, 20, 30 лет снова убивать русских людей",
+        "reasoning": "The text portrays Russia as a potential victim of future violence from Ukraine, evoking sympathy for Russia's position and suggesting that Ukraine poses an existential threat to Russians."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "у нашего руководства хватит сил, решимости и авторитета не сойти с выбранного пути и закончить войну победой",
+        "reasoning": "The text expresses admiration for Russia's leadership, suggesting they have the strength, determination, and authority to achieve victory, which is a positive evaluation of Russia's actions and character."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "закончить войну победой, освободив если не всю, то хотя бы русскую часть нынешней Украины",
+        "reasoning": "The text predicts a potential outcome of the war, where Russia achieves victory and liberates part of Ukraine, which is a speculation about the future results of the conflict."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "риторика Зеленского и \"приближенных к нему экспертов\"",
+        "reasoning": "The text implies that the information and rhetoric coming from Zelensky and his associated experts might be misleading or untrustworthy, which undermines confidence in media sources and information about the conflict."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Russia is the Victim",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Russian invasion has strong national support",
+    "URW: Praise of Russia: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 5
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian nation and society",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russian invasion has strong national support",
+      "matched": "URW: Praise of Russia: Russian invasion has strong national support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

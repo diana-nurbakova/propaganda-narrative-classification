@@ -1,0 +1,83 @@
+{
+  "file_id": "RU-URW-1093.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украинские боевики нанесли удары бомбами по двум селам в Херсонской области – Подо-Калиновка и Великие Копани, повреждены два дома",
+        "reasoning": "The term 'боевики' (militants/combatants) is used to describe Ukrainian forces, which carries a negative connotation of illegitimacy or criminality, rather than neutral terms like 'военные' (military). The statement actively portrays Ukrainian forces as attacking civilian villages, thereby undermining their legitimacy and actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украинские боевики нанесли удары бомбами по двум селам в Херсонской области – Подо-Калиновка и Великие Копани, повреждены два дома",
+        "reasoning": "The term 'боевики' (militants/combatants) is used to describe Ukrainian forces, which carries a negative connotation of illegitimacy or criminality, framing their actions as attacks on civilian villages, thereby undermining the legitimacy of Ukraine's military actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Украинские боевики нанесли удары бомбами по двум селам в Херсонской области – Подо-Калиновка и Великие Копани, повреждены два дома",
+        "reasoning": "The term 'боевики' (militants/combatants) is used to describe Ukrainian forces, which carries a negative connotation, framing them as illegitimate actors attacking civilian areas (villages and houses). This actively undermines the legitimacy of Ukraine's military actions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "file_id": "PT_241.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "A UE apoia a Ucrânia. Hoje transferimos 1,5 mil milhões de euros provenientes de ativos russos mobilizados para a defesa e reconstrução da Ucrânia",
+        "reasoning": "A declaração da presidente da Comissão Europeia, Ursula von der Leyen, destaca o apoio da UE à Ucrânia, o que pode ser visto como uma forma de elogiar as ações da UE."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "A Rússia classificou a medida como 'ilegal'. 'Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia'",
+        "reasoning": "A reação da Rússia à medida da UE pode ser vista como uma ameaça de retaliação, o que implica em consequências negativas para a UE."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A Rússia classificou a medida como 'ilegal'",
+        "reasoning": "A classificação da medida como 'ilegal' pela Rússia pode ser vista como uma forma de desacreditar as ações da UE."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "A UE apoia a Ucrânia. Hoje transferimos 1,5 mil milhões de euros provenientes de ativos russos mobilizados para a defesa e reconstrução da Ucrânia",
+        "reasoning": "A declaração da presidente da Comissão Europeia, Ursula von der Leyen, destaca o apoio da UE à Ucrânia, enfatizando a transferência de fundos para a defesa e reconstrução do país, o que pode ser visto como uma forma de elogiar as ações da UE."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A Rússia classificou a medida como 'ilegal'. 'Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia'",
+        "reasoning": "A declaração do porta-voz do Presidente russo, Dmitri Peskov, critica a medida da UE como ilegal, o que pode ser visto como uma forma de desacreditar as ações da UE."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "A Rússia classificou a medida como 'ilegal'. 'Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia'",
+        "reasoning": "A declaração do porta-voz do Presidente russo, Dmitri Peskov, implica que a Rússia pode tomar medidas em resposta às ações da UE, o que pode ter consequências negativas para a UE."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "A UE apoia a Ucrânia. Hoje transferimos 1,5 mil milhões de euros provenientes de ativos russos mobilizados para a defesa e reconstrução da Ucrânia",
+        "reasoning": "A declaração da presidente da Comissão Europeia, Ursula von der Leyen, destaca o apoio da UE à Ucrânia, enfatizando a transferência de fundos para a defesa e reconstrução do país, o que pode ser visto como uma demonstração de força e solidariedade da UE."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "A Rússia classificou a medida como 'ilegal'. 'Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia'",
+        "reasoning": "A reação da Rússia à medida da UE é apresentada como uma crítica à legalidade e legitimidade das ações da UE, o que pode ser visto como uma tentativa de desacreditar a diplomacia e as decisões da UE."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "A Rússia classificou a medida como 'ilegal'. 'Esta é uma razão para tomar medidas em resposta às decisões ilegais como esta, que são implementadas pela União Europeia'",
+        "reasoning": "A ameaça de retaliação da Rússia em resposta às ações da UE pode ser vista como uma previsão de consequências negativas para a UE, o que se enquadra na narrativa de consequências negativas para o Ocidente."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Overpraising the West",
+    "URW: Negative Consequences for the West",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

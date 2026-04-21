@@ -1,0 +1,1699 @@
+[Logging] Output will be saved to: results\experiments\sc_3_deepseek_hi_t00\experiment_sc_3_deepseek_hi_t00_20260421_110211.log
+
+============================================================
+MULTI-RUN EXPERIMENT: sc_3_deepseek_hi_t00
+============================================================
+Base config: configs/experiments/generated/emnlp/sc_3_deepseek_hi_t00.yaml
+Number of runs: 3
+Base seed: 42
+Output directory: results/experiments/sc_3_deepseek_hi_t00/
+Execution mode: sequential
+Cost tracking: enabled
+Resume mode: disabled
+============================================================
+
+Generated seeds: [478163327, 107420369, 1181241943]
+
+
+[Run 1] Starting with seed=478163327
+[Run 1] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_sc_3_deepseek_hi_t00_c72mhwog\run_1_config.yaml
+[Run 1] Output: results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_sc_3_deepseek_hi_t00_c72mhwog\run_1_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/HI/subtask-2-documents/
+  Output: results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 3 agents with majority aggregation
+  Multi-agent subnarratives: 1 agents with majority aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=478163327
+  Experiment: id=sc_3_deepseek_hi_t00, run=1
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 3 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: majority
+  - Subnarrative aggregation method: majority
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/HI/subtask-2-documents/
+[utils] Output file results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: HI_10.txt, HI_107.txt, HI_11.txt, HI_110.txt, HI_114.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_10.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_11.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_110.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_107.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: []
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_12.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_114.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_125.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file HI_139.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_134.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears']
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears']
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_143.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_126.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_140.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_151.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Discrediting Ukraine'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_152.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_156.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Agent 2 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_154.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_159.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_17.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_19.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_26.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_158.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: []
+[graph] Agent 1 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_28.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_31.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_34.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_35.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_160.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Overpraising the West']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_38.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_4.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_5.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_51.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_75.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_76.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_71.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Agent 1 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_95.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[graph] Agent 2 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Agent 3 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Negative Consequences for the West', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_97.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\sc_3_deepseek_hi_t00\run_1\results.txt
+[Main] Cost metrics saved to: results\experiments\sc_3_deepseek_hi_t00\run_1\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.0735, 914.97s
+
+[Multi-Run] Waiting 30s before run 2 to avoid rate limits...
+
+[Run 2] Starting with seed=107420369
+[Run 2] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_sc_3_deepseek_hi_t00_6yzbi5sw\run_2_config.yaml
+[Run 2] Output: results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_sc_3_deepseek_hi_t00_6yzbi5sw\run_2_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/HI/subtask-2-documents/
+  Output: results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 3 agents with majority aggregation
+  Multi-agent subnarratives: 1 agents with majority aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=107420369
+  Experiment: id=sc_3_deepseek_hi_t00, run=2
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 3 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: majority
+  - Subnarrative aggregation method: majority
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/HI/subtask-2-documents/
+[utils] Output file results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: HI_10.txt, HI_107.txt, HI_11.txt, HI_110.txt, HI_114.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_10.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_11.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_110.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_107.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_12.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_125.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Agent 1 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_114.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file HI_139.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_134.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears']
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears']
+[graph] Agent 3 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_143.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Agent 3 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Russia is the Victim']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_151.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_140.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_126.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting Ukraine', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_152.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_156.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Agent 2 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Agent 3 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_154.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_159.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_17.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_158.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 1 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: []
+[graph] Agent 1 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_19.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_26.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: []
+[graph] Agent 1 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_28.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_31.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: []
+[graph] Agent 1 classified narratives: []
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_34.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_35.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_160.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Overpraising the West']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_38.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_4.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Speculating war outcomes'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_5.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: []
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_51.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_75.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Praise of Russia']
+[graph] Agent 2 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Negative Consequences for the West', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_76.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_71.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Agent 1 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Agent 2 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_95.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[graph] Agent 3 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Negative Consequences for the West', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_97.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\sc_3_deepseek_hi_t00\run_2\results.txt
+[Main] Cost metrics saved to: results\experiments\sc_3_deepseek_hi_t00\run_2\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.0735, 900.16s
+
+[Multi-Run] Waiting 30s before run 3 to avoid rate limits...
+
+[Run 3] Starting with seed=1181241943
+[Run 3] Config: C:\Users\dnurb\AppData\Local\Temp\experiment_sc_3_deepseek_hi_t00_66_huu7c\run_3_config.yaml
+[Run 3] Output: results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[Main] Loading configuration from: C:\Users\dnurb\AppData\Local\Temp\experiment_sc_3_deepseek_hi_t00_66_huu7c\run_3_config.yaml
+[Main] Building graph with configuration...
+[GraphBuilder] Initialized with config:
+  Default Model: deepseek:deepseek-chat
+  Input: data/dev-documents_4_December/HI/subtask-2-documents/
+  Output: results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+  Global Validation: False
+  Narrative Validation: False
+  Subnarrative Validation: False
+  Label Cleaning: True
+  Fuzzy Matching: False (threshold=70.0)
+  Text Cleaning: False
+  Multi-agent narratives: 3 agents with majority aggregation
+  Multi-agent subnarratives: 1 agents with majority aggregation
+  Model params: temperature=0.0, top_p=1.0, max_tokens=8192, seed=1181241943
+  Experiment: id=sc_3_deepseek_hi_t00, run=3
+[GraphBuilder] Model assignments:
+  Cleaning classification: deepseek-chat
+  Category classification: deepseek-chat
+  Category validation: deepseek-chat
+  Narratives classification: deepseek-chat
+  Narratives validation: deepseek-chat
+  Subnarratives classification: deepseek-chat
+  Subnarratives validation: deepseek-chat
+[GraphBuilder] Building classification graph...
+[GraphBuilder] Adding cleaning nodes
+[GraphBuilder] Graph flow configured:
+  - Narrative validation: False
+  - Subnarrative validation: False
+  - Cleaning enabled: True
+  - Multi-agent narratives: 3 agents
+  - Multi-agent subnarratives: 1 agents
+  - Narrative aggregation method: majority
+  - Subnarrative aggregation method: majority
+[GraphBuilder] Graph compiled successfully
+[Main] Graph compiled successfully
+[Main] Cost tracking enabled
+[Main] Loading texts from: data/dev-documents_4_December/HI/subtask-2-documents/
+[utils] Output file results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt does not exist, processing all files
+[utils] Total files: 35, Already processed: 0, To process: 35
+[utils] Files to process: HI_10.txt, HI_107.txt, HI_11.txt, HI_110.txt, HI_114.txt...
+[Main] Processing 35 files...
+[Main] Output will be appended to: results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node[graph] Starting category classification node[graph] Starting category classification node
+
+
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_10.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_11.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_110.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_12.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_107.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_125.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Agent 1 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_114.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> Other
+[graph] Category is 'Other', taking shortcut.
+[graph] Writing results for file HI_139.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_134.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> CC
+[graph] Starting multi-agent narratives classification with 3 agents for category CC (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears']
+[graph] Agent 1 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears']
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_143.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: ['URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['Amplifying Climate Fears', 'Amplifying Climate Fears', 'Amplifying Climate Fears']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['Amplifying Climate Fears']
+[graph] Cleaning narratives
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_140.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_151.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_126.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Praise of Russia']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Praise of Russia'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_152.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_156.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Agent 3 classified narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim', 'URW: Blaming the war on others rather than the invader']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting Ukraine', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_158.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_154.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting Ukraine']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting Ukraine'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_17.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_19.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_159.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_26.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_28.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_31.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_34.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_35.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_160.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 2 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Praise of Russia', 'URW: Praise of Russia']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy', 'URW: Blaming the war on others rather than the invader']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_38.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_4.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Speculating war outcomes'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_5.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: []
+[graph] Agent 2 classified narratives: []
+[graph] Agent 3 classified narratives: []
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: []
+[graph] No narratives to clean. Skipping.
+[graph] No narratives classified, setting empty subnarratives.
+[graph] Writing results for file HI_75.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_51.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 2 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Agent 1 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Praise of Russia', 'URW: Discrediting the West, Diplomacy'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 2 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Agent 3 classified narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Amplifying war-related fears', 'URW: Negative Consequences for the West']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Amplifying war-related fears', 'URW: Speculating war outcomes', 'URW: Praise of Russia', 'URW: Negative Consequences for the West'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_76.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Starting category classification node
+[graph] Category classification complete -> URW
+[graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0')
+[graph] Agent 1 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Agent 2 classified narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_71.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_95.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[graph] Agent 3 classified narratives: ['URW: Negative Consequences for the West', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using majority method
+[graph] Aggregated narratives: ['URW: Negative Consequences for the West', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Negative Consequences for the West', 'URW: Russia is the Victim'] (prompt=P0')
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Completed sequential LLM invocation for subnarratives.
+[graph] Cleaning subnarratives
+[graph] Writing results for file HI_97.txt
+[graph] Results written to results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[Main] Classification completed successfully!
+[Main] Results saved to: results\experiments\sc_3_deepseek_hi_t00\run_3\results.txt
+[Main] Cost metrics saved to: results\experiments\sc_3_deepseek_hi_t00\run_3\cost_metrics.json
+[Main] Cost summary: 35 calls, $0.0735, 856.52s
+
+============================================================
+EXPERIMENT COMPLETED: sc_3_deepseek_hi_t00
+============================================================
+Total runs: 3
+Successful: 3
+Failed: 0
+Total duration: 2676.30 seconds
+Manifest saved to: results\experiments\sc_3_deepseek_hi_t00\experiment_manifest.json
+============================================================
+

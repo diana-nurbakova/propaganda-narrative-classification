@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Russia is the Victim",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर हम 'अस्तित्व से जुड़े खतरे' का सामना करेंगे, तो ही परमाणु हथियारों का इस्तेमाल करेंगे",
+        "reasoning": "इस बयान में रूस को एक पीड़ित के रूप में चित्रित किया गया है, जो अपने अस्तित्व के लिए खतरे का सामना कर रहा है और इसलिए परमाणु हथियारों का उपयोग करने के लिए मजबूर हो सकता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पश्चिमी देशों के रक्षा अधिकारियों का कहना है कि पुतिन की तरफ से फरवरी में हुई घोषणा के बाद उन्होंने रूस की परमाणु बलों को जुटाने से जुड़ी गतिविधियां नहीं देखी हैं",
+        "reasoning": "इस बयान में पश्चिमी देशों की आलोचना की जा रही है कि वे रूस की परमाणु गतिविधियों को समझने में असफल रहे हैं, जो उनकी अक्षमता और अविश्वास को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "मॉस्को की तरफ से यह चेतावनी भी जारी का जा चुकी है कि अगर अमेरिका और NATO सहयोगी यूक्रेन को लड़ाकू विमान मुहैया कराते हैं, तो वह युद्ध को तेज और इसका विस्तार कर सकता है",
+        "reasoning": "इस बयान में युद्ध के विस्तार और तेज होने की संभावना को बढ़ावा दिया जा रहा है, जो लोगों में डर और चिंता पैदा कर सकता है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर हम 'अस्तित्व से जुड़े खतरे' का सामना करेंगे, तो ही परमाणु हथियारों का इस्तेमाल करेंगे",
+        "reasoning": "इस बयान में रूस को एक पीड़ित के रूप में चित्रित किया गया है, जो केवल अपने अस्तित्व की रक्षा के लिए परमाणु हथियारों का उपयोग करेगा।"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "पुतिन पश्चिमी देशों को यूक्रेन आक्रमण से दूर रखने के लिए परमाणु 'ब्लैकमेल' का इस्तेमाल कर रहे हैं",
+        "reasoning": "इस बयान में परमाणु हथियारों के उपयोग की संभावना को लेकर भय और चिंता को बढ़ावा दिया जा रहा है, जो युद्ध से जुड़ी आशंकाओं को बढ़ाता है।"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "मॉस्को की तरफ से यह चेतावनी भी जारी का जा चुकी है कि अगर अमेरिका और NATO सहयोगी यूक्रेन को लड़ाकू विमान मुहैया कराते हैं, तो वह युद्ध को तेज और इसका विस्तार कर सकता है",
+        "reasoning": "इस बयान में पश्चिमी देशों और NATO की कार्रवाइयों को युद्ध को बढ़ावा देने वाला बताया जा रहा है, जो उनकी विदेश नीति और कूटनीति की विश्वसनीयता को कम करता है।"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

@@ -1,0 +1,189 @@
+{
+  "file_id": "A9_BG_2569.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма-Лавров",
+        "reasoning": "The quote directly discredits Ukraine by stating that the revival of Nazism is most pronounced in Ukraine, implying that Ukraine has a significant problem with Nazism."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Международните организации не забелязват проявите на нацизма в Украйна",
+        "reasoning": "This quote discredits the West and international organizations by suggesting that they are ignoring or downplaying the presence of Nazism in Ukraine, implying a lack of neutrality or effectiveness in addressing the issue."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Русия от своя страна поиска специални разследвания от ОССЕ, Съвета на Европа и Комитета за премахване на расовата дискриминация на ООН",
+        "reasoning": "The quote portrays Russia as a victim by highlighting its efforts to seek investigations into alleged discrimination and Nazism in Ukraine, while international organizations allegedly fail to act, thus framing Russia as being unfairly treated."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма-Лавров",
+        "reasoning": "Текстът цитира руския външен министър Сергей Лавров, който заявява, че в Украйна се наблюдава възраждане на нацизма, което е директна атака срещу легитимността и действията на Украйна като нация."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Международните организации не забелязват проявите на нацизма в Украйна",
+        "reasoning": "Текстът критикува международните организации за това, че не забелязват или не реагират адекватно на предполагаемите прояви на нацизма в Украйна, което имплицира, че тези организации са некомпетентни или предвзети в полза на Украйна и срещу Русия."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Русия от своя страна поиска специални разследвания от ОССЕ, Съвета на Европа и Комитета за премахване на расовата дискриминация на ООН",
+        "reasoning": "Текстът представя Русия като жертва, тъй като тя търси разследвания и реакции от международни организации, но не получава адекватен отговор, което създава впечатление, че Русия е несправедливо третирана и е в положение на жертва на международната ситуация."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "В Украйна най-ярко се прояви възраждането на нацизма-Лавров",
+        "reasoning": "The quote directly discredits Ukraine by stating that the revival of Nazism is most pronounced there, implying that Ukraine has a significant problem with Nazism."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Международните организации не забелязват проявите на нацизма в Украйна",
+        "reasoning": "This quote discredits international organizations and, by extension, the West, for not noticing or addressing the alleged Nazism in Ukraine, implying a lack of neutrality or effectiveness in their actions."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Двуличието и снизходителността към своите подопечни, опрощаването на всичко и всичко, включително тези откровени действия по въвеждането на нацистката теория и практика, станаха обичайни само защото тези хора уреждат Запада и САЩ като инструмент в борбата срещу Руската федерация",
+        "reasoning": "This quote portrays Russia as a victim by suggesting that international organizations and the West are biased against Russia, using double standards and ignoring Nazism in Ukraine, implying that Russia is unfairly targeted."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: The West is overreacting",
+    "URW: Russia is the Victim: UA is anti-RU extremists",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is overreacting",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "matched": "URW: Russia is the Victim: UA is anti-RU extremists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

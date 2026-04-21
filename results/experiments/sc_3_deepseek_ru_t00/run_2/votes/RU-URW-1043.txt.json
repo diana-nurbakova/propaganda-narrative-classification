@@ -1,0 +1,66 @@
+{
+  "file_id": "RU-URW-1043.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "The text reports an arrest for espionage, directly attributing the act to the Ukrainian intelligence service (Главному управлению разведки Украины). This frames Ukraine as engaging in covert, destructive operations on Russian soil, undermining its legitimacy and actions."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "ФСБ задержала жителя Приморского края, который передавал сведения об уязвимых местах и способах выведения из строя объектов железнодорожного транспорта Главному управлению разведки Украины.",
+        "reasoning": "The text presents an action by Ukrainian intelligence (GUR) as involving sabotage of Russian infrastructure, framing Ukraine as engaging in covert, destructive operations on Russian soil, which undermines its legitimacy and actions."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

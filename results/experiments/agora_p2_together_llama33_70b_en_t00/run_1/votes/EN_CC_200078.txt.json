@@ -1,0 +1,148 @@
+{
+  "file_id": "EN_CC_200078.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "expanding the coal mine would contribute to the climate crisis and be counterproductive to Germany’s commitments to reduce greenhouse gas emissions",
+        "reasoning": "This quote criticizes Germany's decision to expand the coal mine, implying that it contradicts their climate policy commitments, thus questioning the effectiveness of their climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Germany is really embarrassing itself right now",
+        "reasoning": "This quote directly criticizes the German government's actions, implying that their decisions on coal mine expansion are embarrassing and potentially incompetent, challenging their integrity and intentions in relation to climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "expanding the coal mine would contribute to the climate crisis",
+        "reasoning": "This quote amplifies fears about the consequences of climate change by highlighting the potential negative impact of the coal mine expansion on the climate crisis, emphasizing the urgency and severity of the issue."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "expanding the coal mine would contribute to the climate crisis and be counterproductive to Germany’s commitments to reduce greenhouse gas emissions",
+        "reasoning": "This quote criticizes Germany's decision to expand the coal mine, implying that it contradicts their climate policy commitments, thus questioning the effectiveness of their climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Germany is really embarrassing itself right now",
+        "reasoning": "This quote directly criticizes the German government's actions, implying that their decisions on coal mine expansion are embarrassing and potentially incompetent, challenging their integrity and intentions in relation to climate change."
+      },
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "expanding the coal mine would contribute to the climate crisis",
+        "reasoning": "This quote amplifies fears about the consequences of climate change by highlighting the potential negative impact of the coal mine expansion on the climate crisis, emphasizing the severity of the situation."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "expanding the coal mine would contribute to the climate crisis and be counterproductive to Germany’s commitments to reduce greenhouse gas emissions",
+        "reasoning": "The text criticizes Germany's decision to expand the coal mine, arguing it goes against their climate commitments, implying the policy is ineffective or misguided."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Germany is really embarrassing itself right now",
+        "reasoning": "Greta Thunberg's statement directly criticizes Germany's actions, implying the government is acting in a way that is embarrassing or shameful, challenging their competence or integrity in handling climate issues."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

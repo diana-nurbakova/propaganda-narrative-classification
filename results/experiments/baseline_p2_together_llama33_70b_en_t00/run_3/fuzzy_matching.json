@@ -1,0 +1,112 @@
+{
+  "config": {
+    "model_name": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "fuzzy_threshold": 70.0,
+    "experiment_id": "baseline_p2_together_llama33_70b_en_t00",
+    "run_id": 3
+  },
+  "narrative_matching": {
+    "total": 3,
+    "matched": 3,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "narrative_matches": [
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "narrative",
+      "original_label": "Hidden plots by secret schemes of powerful groups",
+      "matched_label": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "narrative",
+      "original_label": "Criticism of institutions and authorities",
+      "matched_label": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "narrative",
+      "original_label": "Green policies are geopolitical instruments",
+      "matched_label": "CC: Green policies are geopolitical instruments",
+      "score": 100.0,
+      "matched": true
+    }
+  ],
+  "subnarrative_matching": {
+    "total": 8,
+    "matched": 8,
+    "unmatched": 0,
+    "match_rate": 1.0
+  },
+  "subnarrative_matches": [
+    {
+      "file_id": "EN_CC_200054.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of institutions and authorities: Criticism of institutions and authorities: Other",
+      "matched_label": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is radical and disruptive",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200064.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate activists are violent or disruptive",
+      "matched_label": "CC: Criticism of climate movement: Other",
+      "score": 91.89189189189189,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200069.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate policies",
+      "matched_label": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200070.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Criticism of climate movement: Climate movement is hypocritical",
+      "matched_label": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 92.0,
+      "matched": true
+    },
+    {
+      "file_id": "EN_CC_200077.txt",
+      "label_type": "subnarrative",
+      "original_label": "CC: Controversy about green technologies: Renewable energy is a scam",
+      "matched_label": "CC: Controversy about green technologies: Renewable energy is dangerous",
+      "score": 94.57364341085271,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Discrediting the West, Diplomacy: The West is aggressive",
+      "matched_label": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 94.84536082474227,
+      "matched": true
+    },
+    {
+      "file_id": "EN_UA_DEV_214.txt",
+      "label_type": "subnarrative",
+      "original_label": "URW: Negative Consequences for the West: Nato's expansion into Asia is a threat to global stability",
+      "matched_label": "URW: Negative Consequences for the West: Other",
+      "score": 93.02325581395348,
+      "matched": true
+    }
+  ]
+}

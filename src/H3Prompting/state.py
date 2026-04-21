@@ -1,4 +1,5 @@
-from typing import Any, Dict, List, NotRequired, TypedDict
+from typing import Any, Dict, List
+from typing_extensions import NotRequired, TypedDict
 
 
 class ClassificationState(TypedDict):

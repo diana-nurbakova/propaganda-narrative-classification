@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_156.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Russia is the Victim",
+      "URW: Amplifying war-related fears",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अगर रुस आपके आस्तित्व से जुडे का सामना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा",
+        "reasoning": "रुस अपने आस्तित्व से जुडे का सामम करता है, उस्से रुस को विक्त दिकारा जा रहा है"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "परमाणु हथियार का उपयोग करने से जुडे का सामम करता है",
+        "reasoning": "रुस के परमाणु हथियार का उपयोग करने से जुडे का सामम करता है, उस्से रुस को विक्त दिकारा जा रहा है"
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "परदिप पुतिन के परमऺणु हथियार का उपयोग करने से जुडे का सामम करता है",
+        "reasoning": "रुस के परमऺणु हथियार का उपयोग करने से जुडे का सामम करता है, उस्से रुस को विक्त दिकारा जा रहा है"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "रुस आपसी अस्तित्व से जुडे का समना करता है, तो ही वह परमाणु हथियार का उपयोग करेगा",
+        "reasoning": "रुस अपसी अस्तित्व से जुडे का समना करता है, तो ही वह परमाणु हथियाश का उपयोग करेगा विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है"
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "परमाणु हथियाश का उपयोग करेगा",
+        "reasoning": "परमाणु हथियाश का उपयोग करेगा विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है",
+        "reasoning": "विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है विदे रुस को अपसी अस्तित्व से जुडे का समना करता है"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

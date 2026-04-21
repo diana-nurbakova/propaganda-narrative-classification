@@ -1,0 +1,168 @@
+{
+  "file_id": "PT_237.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "The quote presents Russia's position (as articulated by Lavrov) as the reasonable, peace-seeking one, praising the stance of cutting support to Ukraine. It frames Russia's desired outcome (ending weapon supplies) as the solution to end the war, which implicitly praises Russia's approach and casts it in a positive light."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden, acrescentando que desde que a guerra da Rússia com a Ucrânia começou em 2022, os contactos de alto nível entre Washington e Moscovo terminaram.",
+        "reasoning": "This statement directly criticizes the current US administration (Biden) for the absence of high-level dialogue, portraying Western (specifically US) diplomacy under Biden as ineffective or non-existent compared to the past, thereby discrediting current Western diplomatic engagement."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "The quote shifts the responsibility for the continuation of the war away from Russia (the invader) and onto the West's provision of weapons to Ukraine. It implies that the war persists because Ukraine is being 'filled with weapons,' not because of Russia's initial and ongoing invasion."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "The quote presents Russia's position (to stop arming Ukraine) as the peaceful and necessary solution, actively praising the stance that aligns with Russian objectives and framing it as the path to end the war."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden, acrescentando que desde que a guerra da Rússia com a Ucrânia começou em 2022, os contactos de alto nível entre Washington e Moscovo terminaram.",
+        "reasoning": "This statement criticizes the current US administration (Biden) for a lack of high-level dialogue, directly discrediting Western diplomatic efforts by contrasting them unfavorably with the past (under Trump)."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"...só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\"",
+        "reasoning": "The quote implies that the continuation of the war is due to Western (specifically US) military support for Ukraine, shifting blame away from Russia's role as the invader and onto those providing defensive aid."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "The quote presents Russia's position (to stop arming Ukraine) as the path to peace, actively praising and endorsing a stance that aligns with Russian strategic goals, thereby casting Russia's approach in a positive light."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"Agora, não há tal diálogo\", disse sobre o governo de Biden, acrescentando que desde que a guerra da Rússia com a Ucrânia começou em 2022, os contactos de alto nível entre Washington e Moscovo terminaram.",
+        "reasoning": "This statement criticizes the current US administration (Biden) for a lack of high-level dialogue, directly discrediting Western diplomatic engagement by contrasting it unfavorably with the past (under Trump)."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "\"Ele é a favor da paz, a favor de terminar com o apoio que está a ser oferecido e só podemos elogiar esta postura porque é o que precisamos - parar de encher a Ucrânia com armas e, então, a guerra vai acabar\", disse Lavrov para repórteres.",
+        "reasoning": "The quote implies that the continuation of the war is due to Western (specifically US) military support to Ukraine, shifting blame away from Russia's invasion by framing the provision of weapons as the primary obstacle to peace."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Praise of Russia",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+    "URW: Praise of Russia: Other",
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Other",
+      "matched": "URW: Praise of Russia: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

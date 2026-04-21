@@ -1,0 +1,63 @@
+{
+  "file_id": "PT_253.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Overpraising the West"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Tais medidas da Comissão Europeia não ficarão sem resposta",
+        "reasoning": "A Rússia está a criticar a decisão da UE de transferir ativos russos congelados para a Ucrânia, classificando-a como 'ilegal' e ameaçando com retaliação, o que implica que a UE está a agir de forma injusta ou hipócrita."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "um roubo que não ficará impune",
+        "reasoning": "A Rússia está a apresentar-se como vítima, afirmando que a utilização dos seus bens congelados é um 'roubo' e que não ficará impune, o que evoca simpatia e sugere que a Rússia está a ser tratada de forma injusta."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Não há melhor símbolo ou utilidade para o dinheiro do Kremlin do que tornar a Ucrânia e toda a Europa um lugar mais seguro para se viver",
+        "reasoning": "A UE está a ser elogiada por transferir ativos russos congelados para a Ucrânia, o que é apresentado como um ato de solidariedade e apoio à Ucrânia, e que contribui para tornar a Europa um lugar mais seguro."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

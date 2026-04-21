@@ -1,0 +1,193 @@
+{
+  "file_id": "A9_BG_4076.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Вашингтон отново се опита да прекара Европа",
+        "reasoning": "The text implies that Washington is trying to manipulate or deceive Europe, which suggests a negative portrayal of Western diplomacy and intentions."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Военната и финансова подкрепа на Украйна нанесе стратегически удар на Съединените щати",
+        "reasoning": "The text states that the military and financial support for Ukraine will have a strategic impact on the United States, implying negative consequences for the West."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Съединените щати вече заприличаха на лидер на някаква международна организация, която се защитава от все по-обединените си противници",
+        "reasoning": "The text portrays the United States as a leader that is being challenged by its opponents, implying a loss of influence and credibility for the West."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "по-голямата част от финансите щяха да \"остават\" в американския ВПК",
+        "reasoning": "The text suggests that there is a hidden plot or scheme by powerful groups, in this case, the American military-industrial complex, to benefit from the situation."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Вашингтон отново се опита да прекара Европа",
+        "reasoning": "This quote suggests that Washington is trying to manipulate or take advantage of Europe, which discredits the West's diplomatic efforts and implies a lack of genuine cooperation or respect for European autonomy."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Военната и финансова подкрепа на Украйна нанесе стратегически удар на Съединените щати",
+        "reasoning": "This statement predicts negative consequences for the United States due to their involvement in supporting Ukraine, implying that their actions will backfire or lead to strategic losses."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Съединените щати вече заприличаха на лидер на някаква международна организация, която се защитава от все по-обединените си противници",
+        "reasoning": "This quote portrays the United States as a leader that is being challenged and defended against, implying a loss of influence and credibility on the international stage, which discredits their diplomatic efforts."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "по-голямата част от финансите щяха да \"остават\" в американския ВПК",
+        "reasoning": "This statement implies a hidden plot or secretive action by powerful groups, suggesting that the financial support for Ukraine is actually a means to benefit the American military-industrial complex, which lacks transparent and credible evidence."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Вашингтон отново се опита да прекара Европа",
+        "reasoning": "This quote suggests that the US is trying to manipulate or take advantage of Europe, which discredits Western diplomacy and implies that the US is acting in its own interests rather than in the interests of the international community."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Военната и финансова подкрепа на Украйна нанесе стратегически удар на Съединените щати",
+        "reasoning": "This quote implies that the US's support for Ukraine will have negative consequences for the US itself, which fits the narrative of highlighting adverse outcomes for Western countries."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Съединените щати вече заприличаха на лидер на някаква международна организация, която се защитава от все по-обединените си противници",
+        "reasoning": "This quote portrays the US as a leader that is being challenged and opposed by others, which discredits the US's position and influence in the world."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "по-голямата част от финансите щяха да \"остават\" в американския ВПК",
+        "reasoning": "This quote implies that there is a hidden plot or scheme by powerful groups (in this case, the US military-industrial complex) to benefit from the situation, which fits the narrative of suggesting clandestine activities or secret agendas."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Negative Consequences for the West",
+    "URW: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

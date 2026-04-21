@@ -1,0 +1,132 @@
+{
+  "file_id": "EN_UA_DEV_100029.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is present but not in the list, however URW: Praise of Ukraine can be considered as the opposite of Discrediting Ukraine",
+      "URW: Discrediting Russia"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is implied, however the task does not include this narrative, so it is not included in the response",
+      "URW: Praise of Ukraine's military",
+      "URW: Overpraising the West"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is present but not in the list, however URW: Praise of Ukraine can be considered as the opposite of Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy is NOT present, however URW: Overpraising the West can be considered as the opposite of Discrediting the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is present but not in the list, however URW: Praise of Ukraine can be considered as the opposite of Discrediting Ukraine",
+        "evidence_quote": "Ukrainian troops are 'capable and trained'",
+        "reasoning": "Although 'Praise of Ukraine' is not in the list, the opposite of 'Discrediting Ukraine' is present, which could be seen as praising Ukraine. However, since 'Praise of Ukraine' is not an option, this should not be counted. Instead, the focus should be on the available narratives. The correct interpretation is that 'URW: Discrediting Ukraine' is not present, and the text actually presents a positive view of Ukraine, but this does not fit any of the provided narratives directly."
+      },
+      {
+        "narrative_name": "URW: Discrediting Russia",
+        "evidence_quote": "The severely undertrained, poorly led, poorly equipped Russian forces are conducting mindless frontal attacks and sacrificing hundreds per day",
+        "reasoning": "Although 'Discrediting Russia' is not in the list, this quote directly discredits the Russian military, which is the opposite of 'Praise of Russia'. Since 'Discrediting Russia' is not an option, the correct approach is to identify if any of the provided narratives are present. The provided quote actually supports the 'Speculating war outcomes' narrative and also shows a negative view of Russia's military, but since 'Discrediting Russia' is not in the list, it should not be counted as a separate narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is implied, however the task does not include this narrative, so it is not included in the response",
+        "evidence_quote": "None",
+        "reasoning": "None"
+      },
+      {
+        "narrative_name": "URW: Praise of Ukraine's military",
+        "evidence_quote": "The Ukrainian troops are 'capable and trained'",
+        "reasoning": "This quote praises the Ukrainian military, highlighting their capabilities and training, which is the opposite of discrediting Ukraine and instead presents a positive view of Ukraine's military."
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Nine countries pledged to send over 150 Leopard tanks to Ukraine",
+        "reasoning": "This quote highlights the Western countries' contributions to Ukraine, which could be seen as overpraising the West, especially in the context of international relations and military aid."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "It's obvious to the world and it should be obvious to Putin that these objectives are no longer achievable by continuing this war",
+        "reasoning": "This quote speculates about the potential outcome of the war, suggesting that Russia's objectives are no longer achievable, which aligns with the definition of speculating war outcomes."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine is NOT present, instead URW: Discrediting Russia is present but not in the list, however URW: Praise of Ukraine can be considered as the opposite of Discrediting Ukraine",
+        "evidence_quote": "Ukraine holds back the Russian troops due to robust defenses. ... The Ukrainian troops are 'capable and trained'",
+        "reasoning": "Although 'Praise of Ukraine' is not in the list, the opposite of 'Discrediting Ukraine' is present, which could be seen as praising Ukraine's military capabilities and defenses."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy is NOT present, however URW: Overpraising the West can be considered as the opposite of Discrediting the West",
+        "evidence_quote": "nine countries pledged to send over 150 Leopard tanks to Ukraine",
+        "reasoning": "Although 'Overpraising the West' is in the list, the quote shows a form of praise towards the Western countries' efforts to support Ukraine, which could be seen as overpraising their contributions."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

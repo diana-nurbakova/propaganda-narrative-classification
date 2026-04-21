@@ -1,0 +1,196 @@
+{
+  "file_id": "BG_909.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of institutions and authorities",
+      "CC: Hidden plots by secret schemes of powerful groups",
+      "CC: Criticism of climate policies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate policies"
+    ],
+    [
+      "Criticism of institutions and authorities",
+      "Hidden plots by secret schemes of powerful groups",
+      "Criticism of climate policies"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Лакърдиите на управляващите за вдигането на доходите са ясни, обаче се вдигат и цените.",
+        "reasoning": "The text criticizes the institutions and authorities for their handling of income and prices, implying that they are not working in the best interest of the people."
+      },
+      {
+        "narrative_name": "CC: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Всичките ала-бала за еко, меко и климатични промени, разбира се, са пак съвсем празни приказки, криещи цялостната задача на новите малтусианци за мачкане и намаляване на човешката популация.",
+        "reasoning": "The text suggests that there is a hidden plot by powerful groups to reduce the human population, using environmental concerns as a cover."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "ПОРЕДНАТА СТЪПКА КЪМ НОВИЯ ФЕОДАЛИЗЪМ - В БРЮКСЕЛ ОБМИСЛЯТ ЗАДЪЛЖИТЕЛНО БРАКУВАНЕ НА АВТОМОБИЛИТЕ НА НАД 15 ГОД.",
+        "reasoning": "The text criticizes the climate policies of the European Commission, specifically the proposal to ban the repair and sale of cars over 15 years old, implying that it is a step towards a new feudalism."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Лакърдиите на управляващите за вдигането на доходите са ясни, обаче се вдигат и цените.",
+        "reasoning": "Текстът критикува институциите и властите за това, че не успяват да повишат доходите на хората, а само повишават цените."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Всичките ала-бала за еко, меко и климатични промени, разбира се, са пак съвсем празни приказки, криещи цялостната задача на новите малтусианци за мачкане и намаляване на човешката популация.",
+        "reasoning": "Текстът предполага, че има скрита заговор за контрол на населението и че екологичните и климатичните промени са просто приказки, които крият истинските цели на властите."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "ПОРЕДНАТА СТЪПКА КЪМ НОВИЯ ФЕОДАЛИЗЪМ - В БРЮКСЕЛ ОБМИСЛЯТ ЗАДЪЛЖИТЕЛНО БРАКУВАНЕ НА АВТОМОБИЛИТЕ НА НАД 15 ГОД.",
+        "reasoning": "Текстът критикува климатичните политики и мерките, които се взимат за намаляване на емисиите, като ги нарича „поредната стъпка към новия феодализъм“."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Лакърдиите на управляващите за вдигането на доходите са ясни, обаче се вдигат и цените.",
+        "reasoning": "The text criticizes the institutions and authorities for their handling of income and prices, implying that they are not working in the best interest of the people."
+      },
+      {
+        "narrative_name": "Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "Всичките ала-бала за еко, меко и климатични промени, разбира се, са пак съвсем празни приказки, криещи цялостната задача на новите малтусианци за мачкане и намаляване на човешката популация.",
+        "reasoning": "The text suggests that there is a hidden plot by powerful groups to reduce the human population, using environmental concerns as a cover for their true intentions."
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "ПОРЕДНАТА СТЪПКА КЪМ НОВИЯ ФЕОДАЛИЗЪМ - В БРЮКСЕЛ ОБМИСЛЯТ ЗАДЪЛЖИТЕЛНО БРАКУВАНЕ НА АВТОМОБИЛИТЕ НА НАД 15 ГОД.",
+        "reasoning": "The text criticizes the climate policies of the European Commission, specifically the proposal to ban the repair and sale of cars over 15 years old, implying that this policy is part of a larger effort to restrict individual freedom and impose a new feudalism."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of institutions and authorities",
+    "CC: Hidden plots by secret schemes of powerful groups",
+    "CC: Criticism of climate policies"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of institutions and authorities: Criticism of the EU",
+    "CC: Criticism of institutions and authorities: Criticism of national governments",
+    "CC: Criticism of institutions and authorities: Criticism of international entities",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+    "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+    "CC: Hidden plots by secret schemes of powerful groups: Other",
+    "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+    "CC: Criticism of climate policies: Climate policies are only for profit",
+    "CC: Criticism of climate policies: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Hidden plots by secret schemes of powerful groups",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "fuzzy"
+    },
+    {
+      "original": "Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of the EU",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of national governments",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of international entities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Blaming global elites",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Climate agenda has hidden motives",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "CC: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "matched": "CC: Criticism of climate policies: Climate policies have negative impact on the economy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "matched": "CC: Criticism of climate policies: Climate policies are only for profit",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

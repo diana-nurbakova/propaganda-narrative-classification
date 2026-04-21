@@ -1,0 +1,179 @@
+{
+  "file_id": "RU-URW-1135.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Distrust towards Media",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад предпринял жесткие действия в отношении фрондирующих руководителей государств",
+        "reasoning": "The quote suggests that the collective West is taking harsh actions against leaders who defy it, implying a negative portrayal of Western diplomacy and its treatment of non-compliant nations."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "None",
+        "reasoning": "There is no direct or implied statement that undermines the legitimacy, actions, or intentions of Ukraine or Ukrainians as a nation in the provided text."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "The quote implies that Russia is being pressured or threatened by the 'Global West', portraying Russia as being in a vulnerable position and potentially eliciting sympathy for its situation."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "покушение на премьер-министра Роберта Фицо и загадочной гибели президента Ирана Ибрахима Раиси",
+        "reasoning": "The mention of unexplained events like the attempted assassination and mysterious death suggests the presence of hidden plots or secretive actions by powerful groups, which is a characteristic of this narrative."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад“ предпринял жесткие действия в отношении фрондирующих руководителей государств”",
+        "reasoning": "The quote suggests that the West is taking harsh actions against leaders who oppose it, implying a negative and coercive approach to diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "This quote portrays Russia as being at a disadvantage against the powerful 'Глобального Запада' (Global West), implying that Russia is a victim of Western pressure."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "о котором еще недавно никто не слышал",
+        "reasoning": "The mention of a person 'о котором еще недавно никто не слышал' (about whom nobody had heard until recently) implies that the media may not be trustworthy or transparent in reporting on certain individuals or events."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "покушении на премьер-министра Роберта Фицо и загадочной гибели президента Ирана Ибрахима Раиси",
+        "reasoning": "The mention of mysterious events such as the attempted assassination of a prime minister and the unexplained death of a president implies the existence of hidden plots or secret schemes by powerful groups."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "коллективный Запад \"предпринял жесткие действия в отношении фрондирующих руководителей государств\"",
+        "reasoning": "The quote suggests that the West is taking harsh actions against leaders who oppose it, implying a negative and coercive approach to diplomacy."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Орбан, как человек прагматичный, понял, что не надо лаять на слона в виде Глобального Запада",
+        "reasoning": "The quote portrays Russia as being bullied or intimidated by the 'Global West', evoking sympathy for Russia's position."
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "о котором еще недавно никто не слышал",
+        "reasoning": "The quote implies that the media may not have been reporting on certain individuals or events, suggesting a lack of trust in the media's ability to provide accurate or comprehensive information."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "покушении на премьер-министра Роберта Фицо и загадочной гибели президента Ирана Ибрахима Раиси",
+        "reasoning": "The quote mentions unexplained events and assassinations, hinting at the presence of hidden plots or secretive actions by powerful groups."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Russia is the Victim",
+    "URW: Hidden plots by secret schemes of powerful groups"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The EU is divided",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Russia is the Victim: The West is russophobic",
+    "URW: Russia is the Victim: Other",
+    "URW: Hidden plots by secret schemes of powerful groups: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "matched": "URW: Discrediting the West, Diplomacy: The EU is divided",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: The West is russophobic",
+      "matched": "URW: Russia is the Victim: The West is russophobic",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "matched": "URW: Hidden plots by secret schemes of powerful groups: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

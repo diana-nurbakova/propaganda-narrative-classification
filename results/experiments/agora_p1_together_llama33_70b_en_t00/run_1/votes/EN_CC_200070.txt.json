@@ -1,0 +1,127 @@
+{
+  "file_id": "EN_CC_200070.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Controversy about green technologies"
+    ],
+    [
+      "Criticism of climate policies",
+      "Criticism of institutions and authorities",
+      "Criticism of climate movement",
+      "Downplaying climate change"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "The text criticizes Mayor Garcetti's decision to fly to Argentina for a climate change summit, highlighting the hypocrisy of contributing to carbon emissions while advocating for climate action."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "The text challenges the competence of Los Angeles' government, specifically Mayor Garcetti, by questioning the quality of the city's infrastructure despite his claims of advancing climate action."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "Garcetti's trip would have burned 1275.6 kg of carbon if he flew economy class, and twice as much if he flew business or 'premium' class",
+        "reasoning": "The text implies that the carbon emissions from Garcetti's flight are significant, but the tone and context suggest that the author is downplaying the importance of climate change by focusing on the perceived hypocrisy of the mayor's actions rather than the severity of the climate crisis itself."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Garcetti's 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race",
+        "reasoning": "The text criticizes the climate movement by highlighting the opposition to Garcetti's 'Green New Deal' and implying that it is not widely supported, thus challenging the motives and impact of the climate movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Garcetti joined a U.S. Department of Transportation presentation on “high-quality urban transportation infrastructure,” though L.A.’s infrastructure is not widely considered “high-quality.”",
+        "reasoning": "The text criticizes Garcetti's involvement in a presentation on high-quality urban transportation infrastructure, implying that Los Angeles' own infrastructure is not up to par, thus questioning the effectiveness of Garcetti's climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that have come to define his legacy, as well as a crisis in the City Council triggered by racist comments from City Council members within Garcetti’s party.",
+        "reasoning": "The text criticizes Garcetti's leadership and the state of Los Angeles under his administration, implying that he and the institutions he is part of are incompetent or ineffective in addressing pressing issues."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "According to the ICAO Carbon Emissions Calculator, Garcetti’s trip would have burned 1275.6 kg of carbon if he flew economy class, and twice as much if he flew business or “premium” class (assuming a stop in Atlanta).",
+        "reasoning": "The text highlights the carbon emissions from Garcetti's flight, which could be seen as downplaying the significance of climate change by implying that individual actions (like flying) have a negligible impact on the overall problem."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "Garcetti’s “Green New Deal” calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race.",
+        "reasoning": "The text criticizes Garcetti's Green New Deal and its reception, implying that the climate movement is out of touch with the needs and concerns of the general public, such as public works unions."
+      },
+      {
+        "narrative_name": "CC: Controversy about green technologies",
+        "evidence_quote": "A proposed high-speed rail between L.A. and San Francisco has been largely canceled, and current passenger rail service from L.A. to San Diego has been suspended because of a potential landslide hazard.",
+        "reasoning": "The text mentions the cancellation and suspension of rail services, which could be seen as expressing skepticism about the feasibility or effectiveness of green technologies, such as high-speed rail."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home",
+        "reasoning": "The text criticizes Mayor Garcetti's decision to fly to Argentina for a climate change summit, highlighting the hypocrisy of contributing to carbon emissions while advocating for climate action."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "L.A.'s infrastructure is not widely considered 'high-quality'",
+        "reasoning": "The text challenges the competence of Mayor Garcetti and the City of Los Angeles in managing their infrastructure, implying that they are not effective in addressing local issues."
+      },
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "Garcetti's 'Green New Deal' calls for shuttering natural gas plants; it has been opposed by public works unions, and lost the only serious electoral challenge it faced in a 2019 city council race",
+        "reasoning": "The text criticizes Mayor Garcetti's climate policies, specifically the 'Green New Deal', and notes that it has faced opposition from public works unions and failed to gain electoral support, implying that the climate movement is not universally accepted or effective."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "The C40 World Mayors Summit is more than just another chance to recognize the magnitude of this make-or-break decade for climate action",
+        "reasoning": "The text does not directly downplay climate change, but the quote from Mayor Garcetti is presented in a way that implies the summit is more focused on political action than addressing the actual climate crisis, which could be seen as downplaying the urgency of the issue."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 5
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

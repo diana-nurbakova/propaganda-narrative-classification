@@ -1,0 +1,181 @@
+{
+  "file_id": "HI_110.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Russia is the Victim"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अमेरिका और ब्रिटेन पर होगा परमाणु हमला",
+        "reasoning": "The headline and repeated statements in the text explicitly evoke fear of a nuclear attack on the US and UK, which is designed to elicit anxiety about severe consequences and escalation."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+        "reasoning": "This statement frames Ukraine as the aggressor conducting attacks with Western help, shifting blame for the conflict away from Russia, the initial invader."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "यूक्रेन को रूस पर हमले के लिए पश्चिमी देशों द्वारा आपूर्ति किए गए हथियारों का उपयोग करने की इजाजत देने का मतलब होगा कि रूस और नाटो के बीच युद्ध चल रहा है.",
+        "reasoning": "This portrays Russia as being forced into a conflict with NATO due to Western actions, framing Russia as a party reacting to external provocation and victimization."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अमेरिका और ब्रिटेन पर होगा परमाणु हमला",
+        "reasoning": "The headline directly states a nuclear attack will happen on the US and UK, which is a clear statement designed to evoke fear and anxiety about severe consequences and escalation of the conflict."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "इस हालात में रूस कर सकता है परमाणु हमले",
+        "reasoning": "This statement explicitly outlines a scenario in which Russia could use nuclear weapons, amplifying fears about nuclear escalation and the catastrophic potential of the war."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+        "reasoning": "This quote frames Ukraine as the aggressor ('aggressive mood') and highlights Western support for attacks on Russia, shifting blame for the conflict's violence away from Russia, the invading nation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "यूक्रेन को रूस पर हमले के लिए पश्चिमी देशों द्वारा आपूर्ति किए गए हथियारों का उपयोग करने की इजाजत देने का मतलब होगा कि रूस और नाटो के बीच युद्ध चल रहा है.",
+        "reasoning": "This presents Russia's position as one where it is being forced into a broader conflict with NATO due to Western actions (supplying weapons), portraying Russia as reacting to external provocation and victim of Western escalation."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "अमेरिका और ब्रिटेन पर होगा परमाणु हमला",
+        "reasoning": "The headline and repeated statements about a potential nuclear attack on the US and UK are designed to evoke fear and anxiety about an escalation to nuclear conflict."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "यूक्रेन आक्रामक मूड में है और अमेरिका और ब्रिटेन की मदद से रूस पर ड्रोन हमले कर रहा है.",
+        "reasoning": "This statement frames Ukraine as the aggressor ('aggressive mood') and highlights Western support for attacks, shifting blame for the conflict's continuation away from Russia, the initial invader."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "यूक्रेन को रूस पर हमले के लिए पश्चिमी देशों द्वारा आपूर्ति किए गए हथियारों का उपयोग करने की इजाजत देने का मतलब होगा कि रूस और नाटो के बीच युद्ध चल रहा है.",
+        "reasoning": "This portrays Russia as being forced into a conflict with NATO due to Western actions (supplying weapons), framing Russia as reacting to external provocation and victimization by the West."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "matched": "URW: Amplifying war-related fears: There is a real possibility that nuclear weapons will be employed",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

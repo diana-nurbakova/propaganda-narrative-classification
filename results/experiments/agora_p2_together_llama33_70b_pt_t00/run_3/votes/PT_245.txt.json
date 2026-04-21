@@ -1,0 +1,147 @@
+{
+  "file_id": "PT_245.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting the West",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "As autoridades ucranianas têm pressionado os seus aliados ocidentais para que lhes permitam usar as suas armas mais sofisticadas para atacar alvos mais valiosos dentro do território russo.",
+        "reasoning": "A frase sugere que os aliados ocidentais da Ucrânia estão sendo pressionados para permitir que a Ucrânia use armas mais sofisticadas, o que implica que os aliados ocidentais estão sendo criticados por não fornecer apoio suficiente à Ucrânia."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "As forças de defesa continuam a tomar todas as medidas para minar o potencial militar e económico dos ocupantes russos e forçar a Federação Russa a pôr fim à sua agressão armada contra a Ucrânia",
+        "reasoning": "A frase sugere que a Ucrânia está tomando medidas para minar o potencial militar e económico da Rússia, o que implica que a Ucrânia está tentando influenciar o resultado da guerra."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "As tropas russas continuaram a ganhar terreno na província ucraniana de Donetsk e avançaram para oeste, em direção às cidades de Pokrovsk e Kurakhove.",
+        "reasoning": "A frase sugere que as tropas russas estão ganhando terreno na Ucrânia, o que implica que a Ucrânia está sendo enfraquecida ou derrotada."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West",
+        "evidence_quote": "As autoridades ucranianas têm pressionado os seus aliados ocidentais para que lhes permitam usar as suas armas mais sofisticadas para atacar alvos mais valiosos dentro do território russo.",
+        "reasoning": "A frase sugere que os aliados ocidentais da Ucrânia estão sendo pressionados para permitir que a Ucrânia use armas mais sofisticadas, o que pode ser interpretado como uma crítica à hesitação ou falta de apoio dos países ocidentais."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "As forças de defesa continuam a tomar todas as medidas para minar o potencial militar e económico dos ocupantes russos e forçar a Federação Russa a pôr fim à sua agressão armada contra a Ucrânia",
+        "reasoning": "A frase sugere que a Ucrânia está tomando medidas para enfraquecer a Rússia e forçá-la a parar a agressão, o que implica uma previsão ou especulação sobre o resultado da guerra."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "As tropas russas continuaram a ganhar terreno na província ucraniana de Donetsk e avançaram para oeste, em direção às cidades de Pokrovsk e Kurakhove.",
+        "reasoning": "A frase sugere que as forças ucranianas estão perdendo terreno e sendo derrotadas pelas tropas russas, o que pode ser interpretado como uma crítica à capacidade militar da Ucrânia."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "As autoridades ucranianas têm pressionado os seus aliados ocidentais para que lhes permitam usar as suas armas mais sofisticadas para atacar alvos mais valiosos dentro do território russo.",
+        "reasoning": "A frase sugere que os aliados ocidentais da Ucrânia estão sendo pressionados para permitir que a Ucrânia use armas mais sofisticadas, o que pode ser interpretado como uma crítica à política ocidental em relação à Ucrânia."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "As forças de defesa continuam a tomar todas as medidas para minar o potencial militar e económico dos ocupantes russos e forçar a Federação Russa a pôr fim à sua agressão armada contra a Ucrânia",
+        "reasoning": "A frase sugere que a Ucrânia está tomando medidas para minar o potencial militar russo e forçar a Rússia a parar a agressão, o que implica uma previsão sobre o resultado da guerra."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "As tropas russas continuaram a ganhar terreno na província ucraniana de Donetsk e avançaram para oeste, em direção às cidades de Pokrovsk e Kurakhove.",
+        "reasoning": "A frase sugere que as tropas russas estão ganhando terreno na Ucrânia, o que pode ser interpretado como uma crítica à capacidade militar ucraniana."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Speculating war outcomes",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

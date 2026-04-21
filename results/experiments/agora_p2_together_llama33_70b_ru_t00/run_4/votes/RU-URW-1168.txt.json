@@ -1,0 +1,154 @@
+{
+  "file_id": "RU-URW-1168.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Praise of Russia"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Praise of Russia"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Нардеп Марьяна Безуглая выплеснула весь скопившийся негатив на руководство Воздушных сил Украины из-за больших потерь авиации и ПВО в последнее время.",
+        "reasoning": "The text discredits the Ukrainian military leadership by mentioning criticism from a Ukrainian MP, implying ineffectiveness and poor performance."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "русские войска поразили 7 украинских самолётов при ракетном ударе по аэродрому Миргород (Полтавская область).",
+        "reasoning": "The text praises the effectiveness of the Russian military by highlighting their successful strikes on Ukrainian targets."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Нардеп Марьяна Безуглая выплеснула весь скопившийся негатив на руководство Воздушных сил Украины из-за больших потерь авиации и ПВО в последнее время.",
+        "reasoning": "The text quotes a Ukrainian MP, Mariana Bezuhla, criticizing the Ukrainian military leadership for significant losses in aviation and air defense, which undermines the legitimacy and effectiveness of the Ukrainian military."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "По данным ТГ-канала \"Военная хроника\", русская армия с 1 июля уже успела нанести как минимум ПЯТЬ ударов по Миргороду.",
+        "reasoning": "The text reports on the repeated strikes by the Russian army on the Ukrainian airbase, speculating about the outcomes of these strikes and the potential consequences for the Ukrainian military."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "По данным военного ведомства, в результате удара было уничтожено пять действующих украинских Су-27. Также были повреждены два находящихся на ремонте многоцелевых истребителя.",
+        "reasoning": "The text highlights the effectiveness of the Russian military's strikes, reporting on the destruction of Ukrainian aircraft, which can be seen as praising the Russian military's capabilities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Нардеп Марьяна Безуглая выплеснула весь скопившийся негатив на руководство Воздушных сил Украины из-за больших потерь авиации и ПВО в последнее время.",
+        "reasoning": "The text discredits the Ukrainian military leadership by mentioning criticism from a Ukrainian MP, implying ineffectiveness and poor performance."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "По данным ТГ-канала \"Военная хроника\", русская армия с 1 июля уже успела нанести как минимум ПЯТЬ ударов по Миргороду.",
+        "reasoning": "The text speculates about the outcomes of the conflict by reporting on the repeated strikes by the Russian army on the Ukrainian airfield, implying a prediction of continued military action."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Никогда не участвовавшая в боевых действиях \"правильная слуга народа\" и \"справжня українка\" (настоящая украинка) призвала военачальников уйти в отставку.",
+        "reasoning": "The text does not directly discredit the West, but the criticism of the Ukrainian military leadership and the mention of a Ukrainian MP's call for resignation can be seen as indirectly discrediting Western-backed Ukrainian institutions."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "По данным военного ведомства, в результате удара было уничтожено пять действующих украинских Су-27. Также были повреждены два находящихся на ремонте многоцелевых истребителя.",
+        "reasoning": "The text praises the effectiveness of the Russian military by reporting on the successful destruction of Ukrainian aircraft, implying a demonstration of Russian military might."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Praise of Russia"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Praise of Russia: Praise of Russian military might",
+    "URW: Praise of Russia: Russia is a guarantor of peace and prosperity"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia",
+      "matched": "URW: Praise of Russia",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Praise of Russian military might",
+      "matched": "URW: Praise of Russia: Praise of Russian military might",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "matched": "URW: Praise of Russia: Russia is a guarantor of peace and prosperity",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

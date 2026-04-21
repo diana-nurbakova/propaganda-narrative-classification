@@ -1,0 +1,115 @@
+{
+  "file_id": "EN_CC_200034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate movement",
+      "Downplaying climate change",
+      "Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Downplaying climate change",
+      "CC: Criticism of climate movement",
+      "CC: Questioning the measurements and science"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "If we \"just stop oil\" like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by presenting their demands as unrealistic and potentially catastrophic, implying that they are unaware of the devastating consequences of their actions."
+      },
+      {
+        "narrative_name": "Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more \"greenhouse gases\" like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in climate change by comparing it to natural sources of greenhouse gases, implying that human impact is less significant than claimed by 'climate fanatics'."
+      },
+      {
+        "narrative_name": "Questioning the measurements and science",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is \"no science\" to back the \"green\" phase-out of earth-based \"fossil\" fuel use.",
+        "reasoning": "The text questions the scientific consensus on climate change by citing a statement from a prominent figure that there is 'no science' to support the phase-out of fossil fuels, implying that the scientific basis for climate policies is lacking."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' policy by highlighting its potential catastrophic consequences, implying that such a policy is unrealistic and harmful."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in climate change by comparing it to natural environmental factors like volcanoes, suggesting that human impact is less significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The answer, in part, is propaganda. ... member of groups like Just Stop Oil have been deluded – or perhaps deluded themselves – into believing that they must appease the climate gods by making all sorts of changes to the existing industrial world order.",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by implying that they are deluded and driven by propaganda rather than factual understanding."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "(Related: According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.)",
+        "reasoning": "The text questions the scientific basis of climate policies by citing a statement from a notable figure claiming there is 'no science' to support certain 'green' initiatives."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement's policy by highlighting the catastrophic consequences of stopping oil production, implying that such a policy is unrealistic and harmful."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the impact of human activity on climate change by comparing it to natural sources of greenhouse gases, suggesting that human activity is not the primary cause of climate change."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "The answer, in part, is propaganda. ... member of groups like Just Stop Oil have been deluded – or perhaps deluded themselves – into believing that they must appease the climate gods by making all sorts of changes to the existing industrial world order.",
+        "reasoning": "The text criticizes the climate movement, specifically the 'Just Stop Oil' group, by implying that they are deluded and driven by propaganda, rather than a genuine concern for the environment."
+      },
+      {
+        "narrative_name": "CC: Questioning the measurements and science",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text questions the scientific consensus on climate change by citing a statement from a prominent figure that there is no scientific basis for phasing out fossil fuels."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

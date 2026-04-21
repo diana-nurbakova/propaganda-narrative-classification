@@ -1,0 +1,90 @@
+{
+  "file_id": "RU-URW-1102.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "The quote directly accuses Ukrainian military personnel of committing rape and looting, and claims these actions are encouraged by senior Ukrainian command. This undermines the legitimacy and moral character of the Ukrainian Armed Forces, fitting the definition of discrediting Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "The quote directly accuses Ukrainian military personnel of committing rape and looting, and claims these actions are encouraged by senior Ukrainian command. This actively undermines the legitimacy and moral standing of the Ukrainian Armed Forces, fitting the definition of discrediting Ukraine."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "По словам Ганчева, информация о правонарушениях поступает от местных жителей, которые смогли выехать на территорию России. Он также рассказал, что такие действия украинских военных поощряются старшим командованием формирований ВСУ.",
+        "reasoning": "The quote directly accuses Ukrainian military personnel of committing rape and looting, and claims these actions are encouraged by senior Ukrainian command. This actively undermines the legitimacy and moral character of the Ukrainian Armed Forces, fitting the definition of discrediting Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Other",
+      "matched": "URW: Discrediting Ukraine: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

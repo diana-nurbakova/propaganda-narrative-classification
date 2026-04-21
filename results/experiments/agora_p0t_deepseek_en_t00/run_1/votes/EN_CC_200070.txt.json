@@ -1,0 +1,175 @@
+{
+  "file_id": "EN_CC_200070.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement"
+    ],
+    [
+      "CC: Criticism of climate policies",
+      "CC: Criticism of institutions and authorities",
+      "CC: Criticism of climate movement"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Los Angeles Mayor Eric Garcetti joined a “global coalition of mayors” at a summit on climate change this week in Buenos Aires, Argentina, burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The quote directly questions the effectiveness and logic of Garcetti's climate action by highlighting the contradiction of burning fossil fuels to attend a climate summit, thereby criticizing the practical implementation and impact of the policy."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Garcetti joined a U.S. Department of Transportation presentation on “high-quality urban transportation infrastructure,” though L.A.’s infrastructure is not widely considered “high-quality.”",
+        "reasoning": "This statement challenges the competence and integrity of Mayor Garcetti and his administration by pointing out a perceived hypocrisy or failure in their own infrastructure, undermining their authority on the topic they are presenting."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that have come to define his legacy, as well as a crisis in the City Council triggered by racist comments from City Council members within Garcetti’s party.",
+        "reasoning": "The text criticizes the climate movement's priorities by juxtaposing the mayor's international climate trip with severe, unresolved domestic problems, implying the movement and its leaders are out of touch or negligent regarding more immediate local issues."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Los Angeles Mayor Eric Garcetti joined a “global coalition of mayors” at a summit on climate change this week in Buenos Aires, Argentina, burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The quote directly questions the effectiveness and logic of Garcetti's climate action by highlighting the contradiction of burning fossil fuels to attend a climate summit, thereby criticizing the practical implementation of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Garcetti joined a U.S. Department of Transportation presentation on “high-quality urban transportation infrastructure,” though L.A.’s infrastructure is not widely considered “high-quality.”",
+        "reasoning": "This statement challenges the competence and integrity of Mayor Garcetti and his administration by pointing out a perceived hypocrisy or failure in their claims about infrastructure quality versus reality."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that have come to define his legacy, as well as a crisis in the City Council triggered by racist comments from City Council members within Garcetti’s party.",
+        "reasoning": "The text criticizes the climate movement's priorities by juxtaposing Garcetti's international climate engagement with pressing domestic problems, implying the movement and its leaders are out of touch or negligent regarding more immediate local issues."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate policies",
+        "evidence_quote": "Los Angeles Mayor Eric Garcetti joined a “global coalition of mayors” at a summit on climate change this week in Buenos Aires, Argentina, burning fossil fuels on an international flight rather than attending remotely and attending to pressing issues at home.",
+        "reasoning": "The quote directly questions the effectiveness and logic of Garcetti's climate action by highlighting the contradiction of burning fossil fuels to attend a climate summit, thereby criticizing the practical implementation of climate policies."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "Garcetti joined a U.S. Department of Transportation presentation on “high-quality urban transportation infrastructure,” though L.A.’s infrastructure is not widely considered “high-quality.”",
+        "reasoning": "This statement challenges the competence and integrity of Mayor Garcetti and the institutions he represents by pointing out a perceived hypocrisy between his participation in a presentation and the poor state of his city's infrastructure."
+      },
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "White Garcetti was away, Los Angeles continued to struggle with the high crime and homelessness that have come to define his legacy, as well as a crisis in the City Council triggered by racist comments from City Council members within Garcetti’s party.",
+        "reasoning": "The text criticizes the climate movement and its representatives by suggesting that attending a climate summit is a neglect of more pressing domestic issues (crime, homelessness), thereby challenging the priorities and impact of the climate-focused leadership."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate policies",
+    "CC: Criticism of institutions and authorities",
+    "CC: Criticism of climate movement"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate policies: Climate policies are ineffective",
+    "CC: Criticism of climate policies: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other",
+    "CC: Criticism of climate movement: Climate movement is corrupt",
+    "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+    "CC: Criticism of climate movement: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies",
+      "matched": "CC: Criticism of climate policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "matched": "CC: Criticism of climate policies: Climate policies are ineffective",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate policies: Other",
+      "matched": "CC: Criticism of climate policies: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "matched": "CC: Criticism of climate movement: Climate movement is corrupt",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "matched": "CC: Criticism of climate movement: Ad hominem attacks on key activists",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

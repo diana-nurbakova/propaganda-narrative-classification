@@ -1,0 +1,182 @@
+{
+  "file_id": "EN_CC_200034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Criticism of institutions and authorities"
+    ],
+    [
+      "CC: Criticism of climate movement",
+      "CC: Downplaying climate change",
+      "CC: Criticism of institutions and authorities"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement by presenting a catastrophic scenario where stopping oil use would lead to the death of six billion people, implying that the movement's goals are misguided and dangerous."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in climate change by comparing it to natural sources of greenhouse gases, implying that human impact is less significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text criticizes institutions and authorities by quoting a statement from the president of COP28 that challenges the scientific basis for phasing out fossil fuels, implying that these institutions are misguided or lacking in scientific credibility."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement by presenting a catastrophic scenario where stopping oil use would lead to the death of six billion people, implying that the movement's goals are misguided and dangerous."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in climate change by comparing it to natural environmental factors like volcanoes, suggesting that human impact is less significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text criticizes institutions and authorities by quoting a statement from the president of COP28 that challenges the scientific basis for transitioning away from fossil fuels, implying that these institutions are misguided or lacking in scientific rigor."
+      }
+    ],
+    [
+      {
+        "narrative_name": "CC: Criticism of climate movement",
+        "evidence_quote": "If we “just stop oil” like climate protesters want, six BILLION people could die",
+        "reasoning": "The text criticizes the 'Just Stop Oil' movement by presenting a catastrophic scenario where stopping oil use would lead to the death of six billion people, implying that the movement's goals are misguided and dangerous."
+      },
+      {
+        "narrative_name": "CC: Downplaying climate change",
+        "evidence_quote": "The theory that climate fanatics have adopted as to why this is all happening blames human activity and industry, even though the environment itself, i.e., volcanoes, is emitting far more 'greenhouse gases' like carbon dioxide than the tailpipes on cars or the flatulence from cattle.",
+        "reasoning": "The text downplays the significance of human activity in climate change by comparing it to natural sources of greenhouse gases, implying that human impact is less significant."
+      },
+      {
+        "narrative_name": "CC: Criticism of institutions and authorities",
+        "evidence_quote": "According to Sultan Al Jaber, the president of COP28, there is 'no science' to back the 'green' phase-out of earth-based 'fossil' fuel use.",
+        "reasoning": "The text criticizes institutions and authorities by quoting a statement from the president of COP28 that challenges the scientific basis for phasing out fossil fuels, implying that these institutions are misguided or lacking in scientific credibility."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Criticism of climate movement",
+    "CC: Downplaying climate change",
+    "CC: Criticism of institutions and authorities"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Criticism of climate movement: Climate movement is alarmist",
+    "CC: Criticism of climate movement: Other",
+    "CC: Downplaying climate change: Human activities do not impact climate change",
+    "CC: Downplaying climate change: Temperature increase does not have significant impact",
+    "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+    "CC: Downplaying climate change: Other",
+    "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+    "CC: Criticism of institutions and authorities: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement",
+      "matched": "CC: Criticism of climate movement",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change",
+      "matched": "CC: Downplaying climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities",
+      "matched": "CC: Criticism of institutions and authorities",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "matched": "CC: Criticism of climate movement: Climate movement is alarmist",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of climate movement: Other",
+      "matched": "CC: Criticism of climate movement: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "matched": "CC: Downplaying climate change: Human activities do not impact climate change",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "matched": "CC: Downplaying climate change: Temperature increase does not have significant impact",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "matched": "CC: Downplaying climate change: Humans and nature will adapt to the changes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Downplaying climate change: Other",
+      "matched": "CC: Downplaying climate change: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "matched": "CC: Criticism of institutions and authorities: Criticism of political organizations and figures",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Criticism of institutions and authorities: Other",
+      "matched": "CC: Criticism of institutions and authorities: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "file_id": "EN_UA_DEV_100012.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "The text frames the US motivation for involvement in the war as securing access to Ukraine's mineral wealth, implying the conflict is driven by Western resource greed rather than Russia's act of invasion. This shifts blame for the war's continuation and nature away from Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States',\" he warned. \"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "The quote directly criticizes and portrays US intentions as colonialist and exploitative, and labels the Ukrainian government as a 'corrupt top of the neo-Nazi regime'. This discredits both Western (US) motives and the Ukrainian leadership supported by the West."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "The text frames the US motivation for involvement in the war as securing access to Ukraine's mineral wealth, implying the conflict is driven by Western resource greed rather than Russia's act of invasion. This shifts blame for the war's continuation and nature away from Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States',\" he warned. \"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "This quote directly criticizes and portrays US intentions and actions as colonialist and exploitative, and labels the Ukrainian government as a 'corrupt top of the neo-Nazi regime'. This serves to discredit both Western (US) motives and the Ukrainian leadership supported by the West."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "The text frames the US/West's involvement as being driven by a desire to control Ukraine's mineral resources, implying the conflict is about Western economic interests rather than Russia's invasion, thus shifting blame away from Russia's actions."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States',\" he warned. \"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "This quote directly criticizes and portrays US intentions as colonialist and exploitative, and labels the Ukrainian government as a 'corrupt top of the neo-Nazi regime', which discredits both Western motives and the Ukrainian leadership."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

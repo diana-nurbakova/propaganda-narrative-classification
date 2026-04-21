@@ -1,0 +1,90 @@
+{
+  "file_id": "BG_1146.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто",
+        "reasoning": "Текстът подчертава високия риск от катастрофални горещини през лятото, което създава чувство на страх и тревога сред читателите, което е характерно за Amplifying Climate Fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто",
+        "reasoning": "Текстът подчерта сериозния риск от катастрофални горещини през лятото, особено в контекста на Олимпийските игри в Париж, и споменава възможността температурният рекорд от 2003 г. да бъде надвишен с повече от 4°C до 2050 г., което създава усещане за повишена опасност и страх от последствията на климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Вероятността от рекордна гореща вълна по време на Олимпиадата в Париж, която ще надхвърли всичко, наблюдавано досега, е един шанс на сто",
+        "reasoning": "Текстът подчертава високия риск от катастрофални горещини през лятото, което създава страх сред читателите и привлича вниманието към негативните последствия от изменението на климата."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

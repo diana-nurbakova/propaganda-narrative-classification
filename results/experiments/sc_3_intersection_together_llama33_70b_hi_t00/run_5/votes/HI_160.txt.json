@@ -1,0 +1,83 @@
+{
+  "file_id": "HI_160.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West",
+      "URW: Overpraising the West"
+    ],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Distrust towards Media",
+      "URW: Overpraising the West"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा",
+        "reasoning": "यह कथन पश्चिमी देशों की विदेश नीति की आलोचना करता है, जो रूस के साथ उनके संबंधों में तनाव को बढ़ावा दे रही है।"
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "नाटो ने यूक्रेन के रूसी युद्ध से लड़ने का फैसला किया है",
+        "reasoning": "यह कथन नाटो के फैसले को रूस के साथ संघर्ष में जाने के रूप में चित्रित करता है, जो पश्चिमी देशों के लिए नकारात्मक परिणामों की ओर इशारा करता है।"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "नाटो यूक्रेन में रूसी आक्रमण को अपने सहयोगी के लिए एक खतरे के रूप में देख रहा है",
+        "reasoning": "यह कथन नाटो को एक मजबूत और सुरक्षित संगठन के रूप में चित्रित करता है, जो अपने सहयोगियों की रक्षा के लिए तैयार है।"
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "रूस शीत युद्ध की लौ जलाने के लिए अमेरिकी-प्रभुत्व वाले सैन्य गठबंधन का परीक्षण करता रहा",
+        "reasoning": "यह कथन पश्चिमी देशों की विदेश नीति की आलोचना करता है और उन्हें शीत युद्ध की लौ जलाने के लिए जिम्मेदार ठहराता है, जो पश्चिमी देशों की आलोचना को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "नाटो यूक्रेन में रूसी आक्रमण को अपने सहयोगी के लिए एक खतरे के रूप में देख रहा है",
+        "reasoning": "यह कथन मीडिया की विश्वसनीयता पर संदेह पैदा करता है और नाटो के दृष्टिकोण को प्रस्तुत करता है, जो मीडिया की आलोचना को दर्शाता है।"
+      },
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "नाटो ने पहली बार सैन्य कार्रवाई के लिए अनुच्छेद 5 को 2001 में संयुक्त राज्य अमेरिका पर 9/11 के आतंकवादी हमलों के बाद लागू किया था",
+        "reasoning": "यह कथन नाटो की कार्रवाई को प्रशंसा करता है और उनकी सैन्य शक्ति को दर्शाता है, जो पश्चिमी देशों की प्रशंसा को दर्शाता है।"
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

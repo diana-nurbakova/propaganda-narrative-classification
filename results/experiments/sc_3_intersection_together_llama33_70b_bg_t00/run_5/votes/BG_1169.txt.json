@@ -1,0 +1,51 @@
+{
+  "file_id": "BG_1169.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Учените са използвали минали данни и компютърни модели, за да създадат системата за ранно предупреждение AMOC. Въпреки че точната дата на колапса все още не е известна, изследователите изтъкват, че повратната точка може да настъпи през следващите години.",
+        "reasoning": "Текстът подчертава възможността за радикални промени в климата и потенциалния колапс на Атлантическата меридионална циркулация (AMOC), което би могло да доведе до спад на температурите в Европа, Северна Америка и части от Азия, и увеличение на глобалното затопляне."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

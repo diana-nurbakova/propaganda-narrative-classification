@@ -1,0 +1,148 @@
+{
+  "file_id": "HI_31.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media"
+    ],
+    [],
+    [
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Speculating war outcomes",
+      "URW: Distrust towards Media"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों ने कथित तौर पर उन्हें धोखा दिया और रूस पहुंचने पर उन्हें यूक्रेन के खिलाफ युद्ध में भेज दिया गया.",
+        "reasoning": "इस उद्धरण में एजेंटों की धोखाधड़ी का वर्णन किया गया है, जो पश्चिमी देशों की विदेश नीति या कार्यों की आलोचना नहीं करता है, लेकिन यह युद्ध में शामिल होने के लिए धोखे से भर्ती किए जाने की समस्या को उजागर करता है। हालांकि, यह पश्चिमी देशों की आलोचना नहीं करता है, इसलिए यह वास्तव में 'URW: Discrediting the West, Diplomacy' के तहत नहीं आता है।"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "मैं बहुत खुश हूं. मुझे लगता है कि मैं जिंदा घर पहुंच पाऊंगा.",
+        "reasoning": "इस उद्धरण में युद्ध के परिणाम के बारे में अनुमान लगाया गया है, जिसमें तमांग को लगता है कि वह जीवित घर पहुंच पाएगा।"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "हिन्दुस्तान टाइम्स उस वीडियो की सत्यता का दावा नहीं करता है.",
+        "reasoning": "इस उद्धरण में मीडिया की विश्वसनीयता पर संदेह व्यक्त किया गया है, जिसमें हिन्दुस्तान टाइम्स वीडियो की सत्यता का दावा नहीं करता है।"
+      }
+    ],
+    [],
+    [
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "कुछ एजेंटों ने उनसे रूस में सुरक्षाकर्मी की नौकरी देने का वादा करके उन्हें रूस भिजवाया. उन एजेंटों ने कथित तौर पर उन्हें धोखा दिया और रूस पहुंचने पर उन्हें यूक्रेन के खिलाफ युद्ध में भेज दिया गया.",
+        "reasoning": "इस उद्धरण में यह बताया गया है कि कुछ एजेंटों ने तमांग को धोखा दिया और उन्हें युद्ध में शामिल होने के लिए मजबूर किया, जो पश्चिमी देशों की विदेश नीति और उनके द्वारा की जाने वाली गतिविधियों की आलोचना को दर्शाता है"
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "मैं बहुत खुश हूं. मुझे लगता है कि मैं जिंदा घर पहुंच पाऊंगा.",
+        "reasoning": "इस उद्धरण में तमांग अपनी सुरक्षित घर वापसी की उम्मीद जता रहे हैं, जो युद्ध के परिणामों के बारे में अनुमान लगाने को दर्शाता है"
+      },
+      {
+        "narrative_name": "URW: Distrust towards Media",
+        "evidence_quote": "हिन्दुस्तान टाइम्स उस वीडियो की सत्यता का दावा नहीं करता है.",
+        "reasoning": "इस उद्धरण में मीडिया संस्थान हिन्दुस्तान टाइम्स वीडियो की सत्यता का दावा नहीं कर रहा है, जो मीडिया की विश्वसनीयता पर संदेह पैदा करता है"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Speculating war outcomes",
+    "URW: Distrust towards Media"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+    "URW: Speculating war outcomes: Russian army is collapsing",
+    "URW: Speculating war outcomes: Other",
+    "URW: Distrust towards Media: Western media is an instrument of propaganda",
+    "URW: Distrust towards Media: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media",
+      "matched": "URW: Distrust towards Media",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "matched": "URW: Discrediting the West, Diplomacy: Diplomacy does/will not work",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Russian army is collapsing",
+      "matched": "URW: Speculating war outcomes: Russian army is collapsing",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "matched": "URW: Distrust towards Media: Western media is an instrument of propaganda",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Distrust towards Media: Other",
+      "matched": "URW: Distrust towards Media: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

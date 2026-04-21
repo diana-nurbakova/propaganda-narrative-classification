@@ -1,0 +1,109 @@
+{
+  "file_id": "PT_210.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of climate policies"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "tragédias humanas consequentes do modelo de desenvolvimento negligente às dinâmicas naturais de cheias e secas dos corpos de água nos seus territórios municipais",
+        "reasoning": "A frase destaca as consequências trágicas das alterações climáticas, enfatizando a urgência da adaptação para evitar tragédias humanas"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "tragédias humanas consequentes do modelo de desenvolvimento negligente às dinâmicas naturais de cheias e secas dos corpos de água nos seus territórios municipais",
+        "reasoning": "A frase destaca as consequçncias trágicas das alterações climáticas, enfatizando a urgência de adaptação para evitar futuras tragédias"
+      },
+      {
+        "narrative_name": "Criticism of climate policies",
+        "evidence_quote": "modelo de desenvolvimento negligente às dinâmicas naturais de cheias e secas dos corpos de água nos seus territórios municipais",
+        "reasoning": "A crítica ao modelo de desenvolvimento atual implica que as políticas climáticas atuais são inadequadas para lidar com as alterações climáticas"
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "tragédias humanas consequentes do modelo de desenvolvimento negligente às dinâmicas naturais de cheias e secas dos corpos de água nos seus territórios municipais",
+        "reasoning": "A quote que destaca as tragédias humanas como consequência das alterações climáticas, induzindo um senso de urgência e necessidade de ação para a adaptação às alterações climáticas"
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "intensificando o impacto e o agravamento sobre a ocorrência e consequências dos eventos climáticos hidrológicos extremos",
+        "reasoning": "A frase que destaca o agravamento dos eventos climáticos extremos, reforçando a ideia de que é necessário tomar medidas para mitigar esses efeitos"
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

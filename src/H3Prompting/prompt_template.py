@@ -16,7 +16,7 @@ from label_info import load_narrative_definitions, load_taxonomy, load_subnarrat
 
 DATA_ROOT = Path(__file__).resolve().parents[2] / "data"
 
-PROMPT_LEVELS = ("P0", "P1", "P2")
+PROMPT_LEVELS = ("P0", "P0'", "P0T", "P1", "P2")
 
 
 @lru_cache(maxsize=1)
@@ -204,8 +204,10 @@ def create_narrative_system_prompt(
     # Load taxonomy and definitions
     taxonomy = load_taxonomy()
     definitions = load_narrative_definitions(definitions_path)
-    rules = load_annotation_guideline_rules(annotation_rules_path) if prompt_level != "P0" else {}
-    bert_kw = load_bertopic_keywords(bertopic_keywords_path) if prompt_level != "P0" else {}
+    # P1/P2 load annotation rules + BERTopic keywords; P0/P0' do not.
+    _p1_plus = prompt_level in ("P1", "P2")
+    rules = load_annotation_guideline_rules(annotation_rules_path) if _p1_plus else {}
+    bert_kw = load_bertopic_keywords(bertopic_keywords_path) if _p1_plus else {}
 
     narratives = []
     if category in taxonomy:
@@ -214,21 +216,27 @@ def create_narrative_system_prompt(
     prefixed_narratives = [(n, f"{category}: {n}") for n in narratives]
 
     prompt_template = ""
-    if prompt_level == "P2":
+    # P0T and P2 prepend the cached ToM Stage 1 analysis.
+    if prompt_level in ("P0T", "P2"):
         prompt_template += _format_tom_block(tom_analysis)
-    if prompt_level != "P0":
+    if _p1_plus:
         prompt_template += _format_general_principles(rules)
 
     prompt_template += (
         "You are an expert propaganda narrative analyst with extensive experience in identifying and classifying manipulative communication patterns.\n"
         "Your task is to analyze the given text and identify which specific propaganda narratives are ACTIVELY PROMOTED.\n\n"
-        "CRITICAL RULE: A narrative is present ONLY if the text actively promotes, presents, or advances it. "
-        "Merely MENTIONING a topic is NOT sufficient. For example, an article that reports on climate fears "
-        "without amplifying them should NOT be labelled 'Amplifying Climate Fears'. An article that mentions "
-        "Russia's military without praising it should NOT be labelled 'Praise of Russia'. "
-        "Be conservative — it is better to miss a borderline narrative than to over-predict.\n\n"
-        "AVAILABLE NARRATIVES:\n\n"
     )
+    # P0' and above add the anti-over-prediction instruction (spec S6.1).
+    # P0 and P0T (original prompt + ToM only) omit it to measure the effect.
+    if prompt_level not in ("P0", "P0T"):
+        prompt_template += (
+            "CRITICAL RULE: A narrative is present ONLY if the text actively promotes, presents, or advances it. "
+            "Merely MENTIONING a topic is NOT sufficient. For example, an article that reports on climate fears "
+            "without amplifying them should NOT be labelled 'Amplifying Climate Fears'. An article that mentions "
+            "Russia's military without praising it should NOT be labelled 'Praise of Russia'. "
+            "Be conservative — it is better to miss a borderline narrative than to over-predict.\n\n"
+        )
+    prompt_template += "AVAILABLE NARRATIVES:\n\n"
 
     for narr_name, prefixed in prefixed_narratives:
         prompt_template += f"- {prefixed}\n"
@@ -240,13 +248,13 @@ def create_narrative_system_prompt(
             prompt_template += f"  Example: {example}\n"
         if instruction:
             prompt_template += f"  Instruction: {instruction}\n"
-        if prompt_level != "P0":
+        if _p1_plus:
             prompt_template += _narrative_decision_rule(rules, category, narr_name)
             if language:
                 prompt_template += _bertopic_keywords_for(bert_kw, language, narr_name)
         prompt_template += "\n"
 
-    if prompt_level != "P0":
+    if _p1_plus:
         prompt_template += _confused_pair_block(rules, category)
 
     prompt_template += """
@@ -312,8 +320,10 @@ def create_subnarrative_system_prompt(
 
     taxonomy = load_taxonomy()
     definitions = load_subnarrative_definitions(definitions_path)
-    rules = load_annotation_guideline_rules(annotation_rules_path) if prompt_level != "P0" else {}
-    bert_kw = load_bertopic_keywords(bertopic_keywords_path) if prompt_level != "P0" else {}
+    # P1/P2 load annotation rules + BERTopic keywords; P0/P0' do not.
+    _p1_plus = prompt_level in ("P1", "P2")
+    rules = load_annotation_guideline_rules(annotation_rules_path) if _p1_plus else {}
+    bert_kw = load_bertopic_keywords(bertopic_keywords_path) if _p1_plus else {}
 
     parts = narrative.split(": ", 1)
     if len(parts) != 2:
@@ -329,9 +339,9 @@ def create_subnarrative_system_prompt(
     ]
 
     prompt_template = ""
-    if prompt_level == "P2":
+    if prompt_level in ("P0T", "P2"):
         prompt_template += _format_tom_block(tom_analysis)
-    if prompt_level != "P0":
+    if _p1_plus:
         prompt_template += _format_general_principles(rules)
 
     prompt_template += (
@@ -339,11 +349,16 @@ def create_subnarrative_system_prompt(
         "This text is known to contain the narrative: "
         f"{narrative}\n"
         "Your task is to identify which specific propaganda subnarratives are ACTIVELY PROMOTED in the text.\n\n"
-        "CRITICAL RULE: A subnarrative is present ONLY if the text actively promotes or advances it. "
-        "Merely touching on a related topic is NOT sufficient. The evidence must be specific, direct, "
-        "and clearly support the subnarrative definition — not require a stretch of interpretation.\n\n"
-        "AVAILABLE SUBNARRATIVES:\n\n"
     )
+    # P0' and above add anti-over-prediction for subnarratives too.
+    # P0 and P0T omit it.
+    if prompt_level not in ("P0", "P0T"):
+        prompt_template += (
+            "CRITICAL RULE: A subnarrative is present ONLY if the text actively promotes or advances it. "
+            "Merely touching on a related topic is NOT sufficient. The evidence must be specific, direct, "
+            "and clearly support the subnarrative definition — not require a stretch of interpretation.\n\n"
+        )
+    prompt_template += "AVAILABLE SUBNARRATIVES:\n\n"
 
     for sub_name, prefixed in prefixed_subnarratives:
         prompt_template += f"- {prefixed}\n"
@@ -355,7 +370,7 @@ def create_subnarrative_system_prompt(
             prompt_template += f"  Example: {example}\n"
         if instruction:
             prompt_template += f"  Instruction: {instruction}\n"
-        if prompt_level != "P0":
+        if _p1_plus:
             prompt_template += _subnarrative_decision_rule(
                 rules, category, narrative_name, sub_name
             )

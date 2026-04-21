@@ -1,0 +1,122 @@
+{
+  "file_id": "BG_73.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears",
+      "Criticism of institutions and authorities",
+      "Green policies are geopolitical instruments"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Criticism of institutions and authorities"
+    ],
+    [
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Нуждаем се от изходна рампа от магистралата към \"климатичния ад\". Битката за 1,5 градуса по Целзий ще бъде спечелена или загубена през настоящото десетилетие",
+        "reasoning": "Текстът цитира генералния секретар на ООН Антониу Гутериш, който използва израза \"климатичния ад\", за да опише сериозността на климатичната ситуация и да подчертае необходимостта от бързи действия."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "взимащите решения в глобален план \"играят на руска рулетка с нашата планета\"",
+        "reasoning": "Текстът критикува институциите и властите, които взимат решения на глобално ниво, като ги обвинява в игране на „руска рулетка“ с планетата, което показва липса на доверие в тяхната способност да управляват климатичните въпроси."
+      },
+      {
+        "narrative_name": "Green policies are geopolitical instruments",
+        "evidence_quote": "Нуждаем се от изходна рампа от магистралата към \"климатичния ад\". Битката за 1,5 градуса по Целзий ще бъде спечелена или загубена през настоящото десетилетие",
+        "reasoning": "Текстът не предоставя директна връзка между зелените политики и геополитическите инструменти, но контекстът на речта на Гутериш показва, че климатичните действия са свързани с глобалното управление и взимането на решения, което може да се тълкува като намек за геополитическа инструментализация."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нуждаем се от изходна рампа от магистралата към \"климатичния ад\". Битката за 1,5 градуса по Целзий ще бъде спечелена или загубена през настоящото десетилетие",
+        "reasoning": "Текстът цитира генералния секретар на ООН Антониу Гутериш, който използва изрази като \"климатичния ад\", за да опише сериозността на климатичната ситуация и да подчертае необходимостта от бързи действия, което е типично за наративите, които усилват страховете за климата."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "взимащите решения в глобален план \"играят на руска рулетка с нашата планета\"",
+        "reasoning": "Текстът критикува институциите и властите, които взимат решения на глобално ниво, като ги обвинява в рисковано поведение по отношение на климатичните промени, което е характерно за наративите, които критикуват институциите и властите в контекста на климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Нуждаем се от изходна рампа от магистралата към \"климатичния ад\". Битката за 1,5 градуса по Целзий ще бъде спечелена или загубена през настоящото десетилетие",
+        "reasoning": "Текстът цитира генералния секретар на ООН Антониу Гутериш, който използва изрази като \"климатичния ад\", за да опише сериозността на климатичните промени и да подчертае необходимостта от бързи действия, което е типично за наративите, които усилват климатичните страхове."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 1
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

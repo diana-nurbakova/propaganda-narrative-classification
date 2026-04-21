@@ -1,0 +1,142 @@
+{
+  "file_id": "HI_158.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim"
+    ],
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Russia is the Victim",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "रूसी राष्ट्रपति व्लादिमीर पुतिन ने कहा कि यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+        "reasoning": "This quote directly portrays Ukraine as an aggressor attempting to destabilize Russia, undermining its actions and intentions as a nation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This statement frames the conflict as something that was taken to other countries by Moscow and is now unfairly returning to Russia, portraying Russia as a victim of the war's consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "रूसी राष्ट्रपति व्लादिमीर पुतिन ने कहा कि यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+        "reasoning": "This quote directly portrays Ukraine as an aggressor attempting to destabilize Russia, undermining its actions and intentions as a nation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This statement frames the conflict as something that was taken to other countries by Moscow and is now unfairly returning to Russia, portraying Russia as a victim of the war's consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "रूसी राष्ट्रपति व्लादिमीर पुतिन ने कहा कि यूक्रेन देश के दक्षिण में अपनी घुसपैठ के साथ रूसी स्थिरता को कमजोर करने की कोशिश कर रहा है.",
+        "reasoning": "This quote directly portrays Ukraine as an aggressor attempting to destabilize Russia, undermining its actions and intentions as a nation."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This statement frames the conflict as something that was taken to other countries by Moscow and is now unfairly returning to Russia, portraying Russia as a victim of the war's consequences."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "अपने रात्रिकालीन संबोधन में राष्ट्रपति ने कहा कि मॉस्को की ओर से अन्य देशों में लड़ाई को ले जाने के बाद अब युद्ध रूस में वापस आ रहा है.",
+        "reasoning": "This quote implies the war was initially taken to other countries (presumably by Russia), but shifts the focus to the conflict 'returning' to Russia, subtly blaming Ukraine's current actions for bringing the war to Russian soil rather than acknowledging Russia's role as the initial invader."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Discrediting Ukraine",
+    "URW: Russia is the Victim"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+    "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+    "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+    "URW: Russia is the Victim: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim",
+      "matched": "URW: Russia is the Victim",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian military",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "matched": "URW: Discrediting Ukraine: Situation in Ukraine is hopeless",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "matched": "URW: Russia is the Victim: Russia actions in Ukraine are only self-defence",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Russia is the Victim: Other",
+      "matched": "URW: Russia is the Victim: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "file_id": "BG_1178.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "CC: Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "CC: Amplifying Climate Fears",
+        "evidence_quote": "Повече от жегата земята буде изпепелени от рекордни горещини тази година",
+        "reasoning": "The quote emphasizes the extreme heat and its consequences, which aligns with the narrative of amplifying climate fears by highlighting the severity and potential dangers of climate change."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Пъкълът на Земята: На тези три места всичко живо ще бъде изпечено от жегата тази година",
+        "reasoning": "Текстът използва изрази като \"Пъкълът на Земята\" и \"всичко живо ще бъде изпечено от жегата\", които създават чувство на паника и страх сред читателите, което е характерно за нарътвата \"Amplifying Climate Fears\"."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Резултатите от проучването показват, че Бенгалският залив, Филипините и Карибско море вероятно ще изпитат рекордни горещини до юни тази година.",
+        "reasoning": "Текстът подчертава потенциалните рекордни горещини в определени региони, което допълнително усилва страха и тревогата сред читателите относно последствията от климатичните промени."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "В случай на най-песимистичния сценарий, последствията ще бъдат още по-изразени.",
+        "reasoning": "Текстът споменава за възможността от още по-лоши последствия в бъдеще, което допълнително увеличава страха и тревогата сред читателите относно климатичните промени."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Пъкълът на Земята: На тези три места всичко живо ще бъде изпечено от жегата тази година",
+        "reasoning": "Текстът използва изрази като \"Пъкълът на Земята\" и \"всичко живо ще бъде изпечено от жегата\", които създават чувство на паника и страх, че климатичните промени ще имат катастрофални последствия."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "Резултатите от проучването показват, че Бенгалският залив, Филипините и Карибско море вероятно ще изпитат рекордни горещини до юни тази година.",
+        "reasoning": "Текстът подчертава, че някои региони ще бъдат засегнати от рекордни горещини, което създава чувство на непосредствена опасност и повишава страха от климатичните промени."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "В случай на най-песимистичния сценарий, последствията ще бъдат още по-изразени.",
+        "reasoning": "Текстът споменава за „най-песимистичния сценарий“, което означава, че авторите се опитват да представят най-лошия възможен изход, което допълнително увеличава страха и тревогата за климатичните промени."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "CC: Amplifying Climate Fears"
+  ],
+  "aggregated_subnarratives": [
+    "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+    "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+    "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+    "CC: Amplifying Climate Fears: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 1
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": "CC: Amplifying Climate Fears",
+      "score": 100.0,
+      "type": "fuzzy"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "matched": "CC: Amplifying Climate Fears: Earth will be uninhabitable soon",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "matched": "CC: Amplifying Climate Fears: Amplifying existing fears of global warming",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "matched": "CC: Amplifying Climate Fears: Doomsday scenarios for humans",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "CC: Amplifying Climate Fears: Other",
+      "matched": "CC: Amplifying Climate Fears: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

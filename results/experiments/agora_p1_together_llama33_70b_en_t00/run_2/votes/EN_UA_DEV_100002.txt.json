@@ -1,0 +1,81 @@
+{
+  "file_id": "EN_UA_DEV_100002.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Russia is the Victim",
+      "URW: Praise of Russia",
+      "URW: Amplifying war-related fears",
+      "URW: Hidden plots by secret schemes of powerful groups"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "Ukrainian nationalism, Ukrainian patriotism will be their downfall.",
+        "reasoning": "This quote directly undermines the legitimacy and values of Ukraine by suggesting that its nationalism and patriotism are weaknesses that will lead to its downfall."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "The West wants Ukraine destroyed. There’s no sugar coating it.",
+        "reasoning": "This statement criticizes Western countries, implying they have malicious intentions towards Ukraine, which aligns with discrediting the West's diplomacy and motives."
+      },
+      {
+        "narrative_name": "URW: Russia is the Victim",
+        "evidence_quote": "Russia is at war with pure evil.",
+        "reasoning": "This quote portrays Russia as fighting against an absolute evil, implying that Russia's actions are justified and that it is the victim of circumstance, forced to defend itself against malevolent forces."
+      },
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "The only country that doesn’t want Ukraine destroyed is the country that is destroying it.",
+        "reasoning": "Although this statement seems counterintuitive, in the context of the entire text, it suggests that Russia's actions, despite being destructive, are somehow less malicious than those of the West, implying a twisted form of praise or justification for Russia's actions."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "The only way is to destroy NATO itself before it destroys the world.",
+        "reasoning": "This quote amplifies fear by suggesting that NATO poses an existential threat not just to countries but to the world itself, implying a catastrophic outcome if NATO's alleged destructive path is not stopped."
+      },
+      {
+        "narrative_name": "URW: Hidden plots by secret schemes of powerful groups",
+        "evidence_quote": "They have numerous targets. Indeed they have the entire world as their target.",
+        "reasoning": "This statement implies the existence of a grand, secretive scheme by powerful groups (in this context, NATO or the West) to target and presumably control or destroy the world, which fits the narrative of hidden plots."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 6
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

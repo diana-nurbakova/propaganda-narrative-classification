@@ -1,0 +1,63 @@
+{
+  "file_id": "HI_151.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Negative Consequences for the West"
+    ],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "अमेरिका जहां पूंजीवाद की बात करता था, वहीं रूस साम्यवाद की. उत्तर कोरिया भी मॉस्को की सोच रखता, लिहाजा अमेरिका उनका कॉमन दुश्मन बन गया.",
+        "reasoning": "This quote frames the geopolitical alignment, including Russia's position in the Ukraine war, as a defensive reaction against a common enemy (America), implicitly shifting blame for the conflict away from Russia's invasion and onto American/Western ideological opposition."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "पाबंदियों ने भी दोनों को कनेक्ट करने का काम किया. अमेरिका ने रूस और उत्तर कोरिया दोनों पर कई प्रतिबंध लगा रखे हैं, जिनके पीछे सुरक्षा और मानवाधिकार जैसे कारण दिए गए.",
+        "reasoning": "The text presents US sanctions as a connecting force for Russia and North Korea, implicitly criticizing the Western-led sanctions regime by suggesting it is a tool that unites its targets against the West, rather than a legitimate diplomatic response."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "पाबंदियों ने भी दोनों को कनेक्ट करने का काम किया.",
+        "reasoning": "This statement suggests that Western sanctions, intended to isolate Russia and North Korea, have had the counterproductive effect of strengthening their alliance, highlighting a negative and unintended consequence of Western policy."
+      }
+    ],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}

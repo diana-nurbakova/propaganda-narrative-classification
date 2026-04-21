@@ -1,0 +1,154 @@
+{
+  "file_id": "A9_BG_2707.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ],
+    [
+      "URW: Speculating war outcomes",
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Negative Consequences for the West",
+      "URW: Amplifying war-related fears",
+      "URW: Speculating war outcomes"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика.",
+        "reasoning": "The quote directly predicts severe, long-term negative economic consequences for the West and the global economy as a result of a Russian victory in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "този нов, по-богат и по-могъщ Кремъл ще бъде добре оборудван за бъдеща агресия и икономическо изнудване на Запада",
+        "reasoning": "The statement evokes fear by predicting that a victorious Russia will be empowered to commit future aggression and engage in economic blackmail against the West."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "The text actively speculates on the long-term outcomes and global consequences of a hypothetical Russian victory in the war."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Според нея завземането на Украйна ще обогати неимоверно Русия, защото \"този нов, по-богат и по-могъщ Кремъл ще бъде добре оборудван за бъдеща агресия и икономическо изнудване на Запада“.",
+        "reasoning": "The quote makes a direct prediction about the outcome of the war (Russia's conquest of Ukraine) and its future consequences, specifically speculating that it would make Russia richer, more powerful, and better equipped for future aggression and economic blackmail against the West."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "\"Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика“",
+        "reasoning": "The statement highlights and predicts severe adverse outcomes for the West and the global economy, specifically chaos and long-term negative shocks resulting from full Russian control of Ukraine."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "\"Русия и нейните приятели могат да продават оръжия и части от тях на нечестни хора по света. И ако искат да го използват срещу НАТО, те също ще имат такъв вариант“",
+        "reasoning": "This quote evokes fear by suggesting a direct threat to NATO, implying that a victorious Russia could arm malicious actors globally and potentially use these arms against the alliance itself."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Въздействието на претрупаната Русия ще се разпространи в продължение на десетилетия, докосвайки всяко кътче на земята и причинявайки хаос на световната икономика.",
+        "reasoning": "The quote directly predicts severe, long-term negative economic consequences for the West and the global economy as a result of a Russian victory in Ukraine."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "този нов, по-богат и по-могъщ Кремъл ще бъде добре оборудван за бъдеща агресия и икономическо изнудване на Запада",
+        "reasoning": "The statement evokes fear by predicting that a victorious Russia will be empowered to commit future aggression and engage in economic blackmail against the West, implying a direct and escalating threat."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "Шоковите вълни на пълния руски контрол над Украйна няма да се усетят веднага. Те ще се развият през годините и десетилетията , докосвайки всяко кътче на земята и внасяйки хаос в световната икономика",
+        "reasoning": "The text actively speculates on the long-term outcomes and consequences of a potential Russian victory, detailing a chain of events that would unfold over decades."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [
+    "URW: Negative Consequences for the West",
+    "URW: Amplifying war-related fears",
+    "URW: Speculating war outcomes"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+    "URW: Negative Consequences for the West: Other",
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Speculating war outcomes: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Negative Consequences for the West",
+      "matched": "URW: Negative Consequences for the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes",
+      "matched": "URW: Speculating war outcomes",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "matched": "URW: Negative Consequences for the West: Sanctions imposed by Western countries will backfire",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Negative Consequences for the West: Other",
+      "matched": "URW: Negative Consequences for the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Speculating war outcomes: Other",
+      "matched": "URW: Speculating war outcomes: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

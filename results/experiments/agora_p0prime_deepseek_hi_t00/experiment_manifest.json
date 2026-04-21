@@ -1,0 +1,49 @@
+{
+  "experiment_id": "agora_p0prime_deepseek_hi_t00",
+  "base_config": "configs/experiments/generated/emnlp/agora_p0prime_deepseek_hi_t00.yaml",
+  "n_runs": 3,
+  "base_seed": 42,
+  "seeds": [
+    478163327,
+    107420369,
+    1181241943
+  ],
+  "sequential": true,
+  "started_at": "2026-04-21T16:41:47.643007",
+  "runs": [
+    {
+      "run_id": 1,
+      "seed": 478163327,
+      "output_file": "results\\experiments\\agora_p0prime_deepseek_hi_t00\\run_1\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p0prime_deepseek_hi_t00\\run_1\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T16:41:47.643007",
+      "completed_at": "2026-04-21T16:54:58.567975",
+      "duration_seconds": 790.924968
+    },
+    {
+      "run_id": 2,
+      "seed": 107420369,
+      "output_file": "results\\experiments\\agora_p0prime_deepseek_hi_t00\\run_2\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p0prime_deepseek_hi_t00\\run_2\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T16:55:28.582463",
+      "completed_at": "2026-04-21T17:08:43.098358",
+      "duration_seconds": 794.515895
+    },
+    {
+      "run_id": 3,
+      "seed": 1181241943,
+      "output_file": "results\\experiments\\agora_p0prime_deepseek_hi_t00\\run_3\\results.txt",
+      "cost_metrics_file": "results\\experiments\\agora_p0prime_deepseek_hi_t00\\run_3\\cost_metrics.json",
+      "status": "success",
+      "started_at": "2026-04-21T17:09:13.121699",
+      "completed_at": "2026-04-21T17:23:11.313319",
+      "duration_seconds": 838.19162
+    }
+  ],
+  "completed_at": "2026-04-21T17:23:11.320339",
+  "total_duration_seconds": 2423.632483,
+  "successful_runs": 3,
+  "failed_runs": 0
+}

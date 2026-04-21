@@ -1,0 +1,175 @@
+{
+  "file_id": "EN_UA_DEV_100034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Amplifying war-related fears",
+      "URW: Discrediting the West, Diplomacy"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants. The formula for victory is well known: the strength of the Ukrainian army, the unity of the free world, unwavering long-term military and financial support for Ukraine, and, first and foremost, Ukraine's membership in NATO.",
+        "reasoning": "The text actively promotes the narrative by lauding the 'free world' and presenting its unity and support as a cornerstone of victory, while explicitly framing NATO membership as the foremost requirement for success."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "However, over two years of the full-scale war, partners have already disbursed $100 billion annually. Therefore, the $122 billion figure over almost four years is misleading compared to Ukraine's real funding needs. At least $400 billion is needed to avoid loss.",
+        "reasoning": "The text criticizes the current level of Western financial assistance as insufficient and misleading, implying that the international support program (backed by the IMF) is inadequate and failing to meet Ukraine's real needs."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "This enhances Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to prevail and protect the civilized world from Russian military invasion. It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "The text actively evokes fear by predicting that if Ukraine is not adequately supported, Russian military aggression will directly threaten Western European capitals, specifying the destruction of hospitals in major cities."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "The statement explicitly frames Ukraine's victory as a victory for the 'entire free world', attributing moral superiority and a collective triumph to Western-aligned nations against 'dictators and tyrants', which is an excessive and unduly laudatory characterization of the West's role."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Some believe that since Ukraine receives large amounts of international aid, it can be used to settle with bondholders. However, over two-thirds of financial assistance arrives as loans to be redeemed.",
+        "reasoning": "This statement criticizes a perspective held by some (implied to be creditors or Western actors) as misguided or unfair, suggesting that the structure of Western financial aid (as loans) is not as supportive as it appears, thereby casting a negative light on the nature of the assistance provided."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This quote evokes fear by graphically predicting potential future Russian attacks on civilian infrastructure in major Western European cities, explicitly stating the risk to heighten anxiety about the war spreading to the West."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants. The formula for victory is well known: the strength of the Ukrainian army, the unity of the free world, unwavering long-term military and financial support for Ukraine, and, first and foremost, Ukraine's membership in NATO.",
+        "reasoning": "The text actively promotes the narrative by lauding the 'free world' and presenting its unity and support as a fundamental, unwavering pillar of victory, while also explicitly stating that Ukraine's membership in NATO is the foremost element of the victory formula."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "This enhances Ukraine’s ability to resist armed aggression, making it more likely for Ukraine to prevail and protect the civilized world from Russian military invasion. It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "The text actively promotes fear by predicting a direct threat to Western civilian infrastructure (hospitals in European capitals) if Ukraine does not prevail, thereby evoking anxiety about the war spreading and causing severe consequences for the 'civilized world'."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "However, over two years of the full-scale war, partners have already disbursed $100 billion annually. Therefore, the $122 billion figure over almost four years is misleading compared to Ukraine's real funding needs. At least $400 billion is needed to avoid loss.",
+        "reasoning": "The text criticizes the current international financial assessment (supported by the IMF) as 'misleading' and insufficient, implying incompetence or a failure by Western/international partners to adequately understand or meet Ukraine's real needs, which discredits the diplomatic and financial planning efforts."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Overpraising the West",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Overpraising the West: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: The West is weak",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Amplifying war-related fears: Russia will also attack other countries"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: Other",
+      "matched": "URW: Overpraising the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "matched": "URW: Discrediting the West, Diplomacy: The West is weak",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

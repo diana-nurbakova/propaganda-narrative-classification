@@ -1,0 +1,120 @@
+{
+  "file_id": "BG_979.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears"
+    ],
+    [
+      "Criticism of climate movement",
+      "Criticism of institutions and authorities",
+      "Amplifying Climate Fears"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "До толкова човечеството е „обсебено“ от този проблем, че той се изражда се в нещо подобно на религия.",
+        "reasoning": "The text directly frames the fight against climate change as a fanatical, quasi-religious obsession, challenging the movement's motives and integrity by comparing it to a cult or faith."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Подобно на свещеници, епископи и теолози, които четат Свещеното писание и обясняват значението му на миряните, Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "This quote compares the UN's IPCC to religious clergy interpreting scripture, implicitly challenging its authority and suggesting its scientific assessments are akin to dogmatic pronouncements rather than objective analysis."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "„Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”; „Учените са единодушни - остават ни не повече от 12 години, за да предприемем решителни действия в тази посока.”",
+        "reasoning": "The text actively presents and repeats specific, dire apocalyptic predictions about climate change (world collapse within 12 years), which serves to emphasize and amplify fears about its consequences."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "До толкова човечеството е „обсебено“ от този проблем, че той се изражда се в нещо подобно на религия.",
+        "reasoning": "The text frames the fight against climate change as a fanatical, quasi-religious obsession, directly challenging the movement's rationality and portraying it as a dogmatic belief system rather than a scientific or political issue."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Подобно на свещеници, епископи и теолози, които четат Свещеното писание и обясняват значението му на миряните, Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "This quote directly compares the UN's IPCC to religious clergy interpreting scripture, implying its role is not objective scientific assessment but rather dogmatic interpretation, thereby challenging the institution's competence and integrity."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "„Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”; „Учените са единодушни - остават ни не повече от 12 години, за да предприемем решителни действия в тази посока.”",
+        "reasoning": "The text actively presents and repeats specific, dire apocalyptic predictions about climate change (world collapse within 12 years), which serves to emphasize and amplify fears about its consequences, even if the overall article is critical of the movement."
+      }
+    ],
+    [
+      {
+        "narrative_name": "Criticism of climate movement",
+        "evidence_quote": "До толкова човечеството е „обсебено“ от този проблем, че той се изражда се в нещо подобно на религия.",
+        "reasoning": "The text frames the fight against climate change as a fanatical, quasi-religious obsession, directly challenging the movement's motives and portraying it as irrational zealotry rather than a rational response."
+      },
+      {
+        "narrative_name": "Criticism of institutions and authorities",
+        "evidence_quote": "Подобно на свещеници, епископи и теолози, които четат Свещеното писание и обясняват значението му на миряните, Междуправителственият панел на ООН по изменението на климата провежда изследвания на глобалното затопляне и след това тълкува резултатите за световната общност.",
+        "reasoning": "This quote directly compares the UN's IPCC to religious clergy interpreting scripture, implying its scientific assessments are not objective facts but dogmatic interpretations, thereby challenging the institution's authority and integrity."
+      },
+      {
+        "narrative_name": "Amplifying Climate Fears",
+        "evidence_quote": "„Светът ще се срине след 12 години, ако не решим проблема с изменението на климата”; „Учените са единодушни - остават ни не повече от 12 години, за да предприемем решителни действия в тази посока.”",
+        "reasoning": "The text actively presents and repeats specific, dire apocalyptic predictions about climate change (world collapse within 12 years), which serves to highlight and amplify fears about its consequences, even if the overall tone of the article is critical of the movement making these claims."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "majority",
+  "subnarrative_aggregation_method": "majority",
+  "aggregated_narratives": [],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "Criticism of climate movement",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Criticism of institutions and authorities",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    },
+    {
+      "original": "Amplifying Climate Fears",
+      "matched": null,
+      "score": 0.0,
+      "type": "unmatched"
+    }
+  ],
+  "subnarrative_fuzzy_matches": []
+}

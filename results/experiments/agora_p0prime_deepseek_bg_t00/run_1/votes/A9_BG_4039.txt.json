@@ -1,0 +1,129 @@
+{
+  "file_id": "A9_BG_4039.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ],
+    [
+      "URW: Amplifying war-related fears",
+      "URW: Blaming the war on others rather than the invader"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "С този ход Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "The quote explicitly states that Ukraine's actions could draw other countries into the war and make them legitimate targets for Russia, directly evoking fear about the conflict escalating and spreading to NATO member states."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "С този ход Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "The statement frames the potential escalation and targeting of other countries as a consequence of Ukraine's actions (storing F-16s abroad), thereby shifting responsibility for negative outcomes away from Russia, the initial aggressor."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "С този ход Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "The quote explicitly frames Ukraine's potential use of foreign bases as an action that could 'drag these countries into the war' and make them 'legitimate targets for Russia', directly evoking fear of conflict escalation and drawing in NATO members."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "С този ход Украйна може да въвлече и тези държави във войната...",
+        "reasoning": "The statement shifts the potential responsibility for escalating the conflict and drawing other nations into the war away from Russia (the invader) and onto Ukraine's defensive actions regarding the F-16 aircraft."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "С този ход Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "The quote explicitly frames the potential stationing of F-16s in NATO countries as an action that could 'drag these countries into the war' and make them 'legitimate targets for Russia', directly evoking fear of an expanded conflict and severe consequences."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "С този ход Украйна може да въвлече и тези държави във войната и да ги направи легитимни цели на Русия, за което Путин предупреди.",
+        "reasoning": "The statement shifts the potential cause for an escalation (making countries targets) onto Ukraine's actions ('With this move Ukraine could...'), rather than on Russia's decision to invade or its threats, thereby attributing responsibility for negative outcomes to Ukraine and its allies."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Amplifying war-related fears",
+    "URW: Blaming the war on others rather than the invader"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+    "URW: Amplifying war-related fears: Russia will also attack other countries",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 2
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 2
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "matched": "URW: Amplifying war-related fears: By continuing the war we risk WWIII",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

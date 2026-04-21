@@ -1,0 +1,69 @@
+{
+  "file_id": "EN_UA_DEV_100004.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Praise of Russia",
+      "URW: Discrediting Ukraine",
+      "URW: Discrediting Ukraine",
+      "URW: Speculating war outcomes"
+    ],
+    [],
+    []
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Praise of Russia",
+        "evidence_quote": "According to preliminary reports from the front, Russian forces managed to advance from the recently captured ash dump and take control of the facilities on the northern outskirts of the large Coke and Chemical Plant. They reportedly captured water treatment facilities located there.",
+        "reasoning": "The text actively highlights and frames Russian military actions as successful and effective, using terms like 'managed to advance' and 'take control' to positively depict their operational progress."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "The local sources are hiding any information about the damage, but some supposed that another facility used for accommodation of Ukrainian servicemen was hit.",
+        "reasoning": "This statement implies Ukrainian authorities are deceitfully withholding information, undermining their transparency and legitimacy."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "In their turn, Ukrainian forces attempted to reach Russian territory with UAVs. Overnight, two Ukrainian drones were destroyed over the Bryansk region, three more over the Black Sea off the coast of Crimea, the Russian Defense Ministry said.",
+        "reasoning": "The phrasing 'attempted to reach' followed by the report of all drones being destroyed frames Ukrainian military actions as ineffective and unsuccessful, discrediting their capabilities."
+      },
+      {
+        "narrative_name": "URW: Speculating war outcomes",
+        "evidence_quote": "In the case of their further advance, Russian forces may cut an important road used for Ukrainian military supplies and partially surround the Ukrainian grouping in the plant from the east.",
+        "reasoning": "The text makes a predictive assumption about a potential future military outcome (cutting a supply road, partial encirclement) based on the current situation."
+      }
+    ],
+    [],
+    []
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "Other"
+  ],
+  "aggregated_subnarratives": [],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 4
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 0
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 0
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [],
+  "subnarrative_fuzzy_matches": []
+}
