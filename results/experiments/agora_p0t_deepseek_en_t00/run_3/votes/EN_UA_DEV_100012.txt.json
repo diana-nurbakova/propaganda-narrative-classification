@@ -1,0 +1,182 @@
+{
+  "file_id": "EN_UA_DEV_100012.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine"
+    ],
+    [
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Discrediting the West, Diplomacy",
+      "URW: Discrediting Ukraine"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "This quote frames the US as the primary actor with a material interest in continuing the war, shifting the focus and blame for the conflict's continuation away from Russia's invasion and onto Western economic motives."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States',\" he warned. \"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "This statement directly criticizes and discredits Western (specifically US) intentions, portraying them as colonialist and exploitative, and labels the Ukrainian government as a 'corrupt top of the neo-Nazi regime', which is a common discrediting trope."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "This quote attacks the legitimacy and character of the Ukrainian government by labeling it as both 'corrupt' and 'neo-Nazi', which are standard narratives used to undermine Ukraine's sovereignty and moral standing."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "This quote frames the US as the primary actor with a material interest in continuing the war, shifting the focus and blame for the conflict's continuation away from Russia's invasion and onto Western economic motives."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "\"The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States',\" he warned. \"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "This statement directly criticizes and portrays US intentions as colonialist and exploitative, and labels the Ukrainian government as a corrupt 'neo-Nazi regime', which discredits both Western policy and the Ukrainian leadership supported by the West."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "The quote explicitly labels Ukraine's government as both 'corrupt' and 'neo-Nazi', which is a direct attack intended to undermine the legitimacy and moral standing of the Ukrainian state."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "Washington “cannot afford” to allow Russia to achieve victory in the Ukraine conflict as this would mean losing direct access to vast mineral assets.",
+        "reasoning": "The text frames the US motivation for involvement in the war as securing access to resources, implying the conflict is driven by Western greed rather than Russia's act of invasion, thereby shifting blame away from Russia."
+      },
+      {
+        "narrative_name": "URW: Discrediting the West, Diplomacy",
+        "evidence_quote": "Graham is treating Ukraine as a future colony of the US with his comments on the ownership of the country's natural resources... 'The fate of the colonies is always the same: the Americans will scoop up all the natural resources of Ukraine in exchange for 'the great honor of being a friend of the United States''",
+        "reasoning": "The text, through the Russian official's statement, directly criticizes and portrays US foreign policy as colonialist and exploitative, aiming to discredit Western intentions and diplomacy."
+      },
+      {
+        "narrative_name": "URW: Discrediting Ukraine",
+        "evidence_quote": "\"Well, they will feed the corrupt top of the neo-Nazi regime in Kiev at the same time.\"",
+        "reasoning": "This quote directly attacks the legitimacy of Ukraine's leadership by labeling it as both 'corrupt' and a 'neo-Nazi regime', which aligns with the narrative of discrediting Ukraine."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Discrediting the West, Diplomacy",
+    "URW: Discrediting Ukraine"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+    "URW: Discrediting the West, Diplomacy: Other",
+    "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+    "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+    "URW: Discrediting Ukraine: Ukraine is associated with nazism"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 3
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy",
+      "matched": "URW: Discrediting the West, Diplomacy",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine",
+      "matched": "URW: Discrediting Ukraine",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "matched": "URW: Discrediting the West, Diplomacy: The West does not care about Ukraine, only about its interests",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting the West, Diplomacy: Other",
+      "matched": "URW: Discrediting the West, Diplomacy: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "matched": "URW: Discrediting Ukraine: Ukraine is a puppet of the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "matched": "URW: Discrediting Ukraine: Discrediting Ukrainian government and officials and policies",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "matched": "URW: Discrediting Ukraine: Ukraine is associated with nazism",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}

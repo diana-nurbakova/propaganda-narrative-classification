@@ -1,0 +1,174 @@
+{
+  "file_id": "EN_UA_DEV_100034.txt",
+  "num_narrative_agents": 3,
+  "num_subnarrative_agents": 1,
+  "narrative_votes": [
+    [
+      "URW: Overpraising the West",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Amplifying war-related fears"
+    ],
+    [
+      "URW: Overpraising the West",
+      "URW: Blaming the war on others rather than the invader",
+      "URW: Amplifying war-related fears",
+      "URW: Negative Consequences for the West"
+    ]
+  ],
+  "narrative_votes_with_evidence": [
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "The statement explicitly frames Ukraine's struggle as a victory for the 'entire free world,' attributing a morally superior, collective purpose to Western support and portraying it as a battle against absolute evil ('dictators and tyrants'), which aligns with the definition of excessively lauding the West's virtues and moral position."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "In 2015, due to Russia’s initial invasion of Ukraine and the poor policies of then-Ukrainian President Viktor Yanukovych, Ukraine was on the brink of default.",
+        "reasoning": "While acknowledging Russia's invasion, the quote directly attributes part of the cause for Ukraine's 2015 financial crisis to the 'poor policies' of a former Ukrainian president. This shifts a portion of the blame for negative consequences (economic distress) away from the invader (Russia) and onto Ukrainian leadership, fitting the narrative of blaming others."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This statement evokes fear by predicting a direct, catastrophic threat to Western civilian infrastructure (hospitals in major European capitals) if Ukraine is not sufficiently supported. It is designed to elicit anxiety about the war spreading and causing severe consequences for the West, which aligns with amplifying war-related fears."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This statement excessively lauds the 'free world' (a term often synonymous with the West) by framing its support for Ukraine as a moral crusade against tyranny, attributing a superior, civilizing role to Western-aligned forces."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "In 2015, due to Russia’s initial invasion of Ukraine and the poor policies of then-Ukrainian President Viktor Yanukovych, Ukraine was on the brink of default.",
+        "reasoning": "While correctly citing Russia's invasion, the statement also attributes blame for Ukraine's 2015 financial crisis to the 'poor policies' of a former Ukrainian president, shifting partial responsibility for negative consequences away from the invader (Russia) and onto a Ukrainian leader."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This statement evokes fear by speculating about direct, catastrophic attacks on civilian infrastructure in major Western European capitals, suggesting the war will inevitably spread to the West if Ukraine is not fully supported."
+      }
+    ],
+    [
+      {
+        "narrative_name": "URW: Overpraising the West",
+        "evidence_quote": "Ukraine's victory is the victory of the entire free world over dictators and tyrants.",
+        "reasoning": "This statement excessively lauds the 'free world' (a term often synonymous with the West) by framing its support for Ukraine as a moral crusade against tyranny, attributing a superior, victorious role to it."
+      },
+      {
+        "narrative_name": "URW: Blaming the war on others rather than the invader",
+        "evidence_quote": "In 2015, due to Russia’s initial invasion of Ukraine and the poor policies of then-Ukrainian President Viktor Yanukovych, Ukraine was on the brink of default.",
+        "reasoning": "While acknowledging Russia's invasion, the quote explicitly adds the 'poor policies' of a former Ukrainian president as a contributing cause to Ukraine's financial crisis, partially shifting blame for negative consequences away from the sole responsibility of the invader."
+      },
+      {
+        "narrative_name": "URW: Amplifying war-related fears",
+        "evidence_quote": "It reduces the risk of Russian missiles destroying children’s hospitals in Amsterdam or Warsaw and maternity hospitals in Berlin or Prague.",
+        "reasoning": "This statement evokes fear by speculating about direct, catastrophic attacks on civilian infrastructure in major Western European capitals, suggesting the war will inevitably spread to the West if Ukraine is not supported."
+      },
+      {
+        "narrative_name": "URW: Negative Consequences for the West",
+        "evidence_quote": "Democracy and a just world order are the pillars of global economic sustainability, ensuring investment safety and security and investor profits worldwide.",
+        "reasoning": "This implies that failure to support Ukraine (and thus democracy) would lead to negative global economic consequences, including threats to investment safety and profits, which directly impacts Western financial interests."
+      }
+    ]
+  ],
+  "subnarrative_votes_flat": [],
+  "subnarrative_votes_flat_with_evidence": [],
+  "narrative_aggregation_method": "intersection",
+  "subnarrative_aggregation_method": "intersection",
+  "aggregated_narratives": [
+    "URW: Overpraising the West",
+    "URW: Blaming the war on others rather than the invader",
+    "URW: Amplifying war-related fears"
+  ],
+  "aggregated_subnarratives": [
+    "URW: Overpraising the West: The West belongs in the right side of history",
+    "URW: Overpraising the West: The West has the strongest international support",
+    "URW: Overpraising the West: Other",
+    "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+    "URW: Blaming the war on others rather than the invader: Other",
+    "URW: Amplifying war-related fears: Russia will also attack other countries"
+  ],
+  "narrative_agent_metadata": [
+    {
+      "agent_id": 1,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 2,
+      "status": "success",
+      "n_labels": 3
+    },
+    {
+      "agent_id": 3,
+      "status": "success",
+      "n_labels": 4
+    }
+  ],
+  "subnarrative_agent_metadata": [],
+  "narrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West",
+      "matched": "URW: Overpraising the West",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader",
+      "matched": "URW: Blaming the war on others rather than the invader",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears",
+      "matched": "URW: Amplifying war-related fears",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ],
+  "subnarrative_fuzzy_matches": [
+    {
+      "original": "URW: Overpraising the West: The West belongs in the right side of history",
+      "matched": "URW: Overpraising the West: The West belongs in the right side of history",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: The West has the strongest international support",
+      "matched": "URW: Overpraising the West: The West has the strongest international support",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Overpraising the West: Other",
+      "matched": "URW: Overpraising the West: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "matched": "URW: Blaming the war on others rather than the invader: The West are the aggressors",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Blaming the war on others rather than the invader: Other",
+      "matched": "URW: Blaming the war on others rather than the invader: Other",
+      "score": 100.0,
+      "type": "exact"
+    },
+    {
+      "original": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "matched": "URW: Amplifying war-related fears: Russia will also attack other countries",
+      "score": 100.0,
+      "type": "exact"
+    }
+  ]
+}
