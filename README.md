@@ -15,7 +15,7 @@ Once obtained, extract the data into the `data/` directory following the structu
 
 The fine-tuned mDeBERTa v3 model weights (~1.1 GB) will be made available upon paper acceptance via Zenodo with a permanent DOI. During the review period, the weights can be downloaded from:
 
-> **[Download model weights](https://example.com/PLACEHOLDER)**
+> **[Download model weights](https://e.pcloud.link/publink/show?code=kZ4k53ZIA8O37x6H6RchsQfFpUz08nffvb7)**
 
 To use the pre-trained model, download and extract the weights into:
 
@@ -359,6 +359,35 @@ Auto-discovers all experiments (including mDeBERTa baseline), evaluates all runs
 - Mean +/- std with bootstrap 95% confidence intervals across runs
 - Cross-method and cross-model comparisons
 - Pairwise significance tests (Wilcoxon + paired t-test)
+
+### Ensemble Size Ablation Study
+
+```bash
+cd src/analysis
+python ensemble_ablation_report.py \
+    --experiments-dir ../../results/experiments/ \
+    --output ../../results/analysis/ensemble_ablation.md
+
+# Restrict to a specific temperature
+python ensemble_ablation_report.py \
+    --experiments-dir ../../results/experiments/ \
+    --temps 0.7 \
+    --output ../../results/analysis/ensemble_ablation_t07.md
+```
+
+Evaluates Agora experiments with varying numbers of agents (1, 3, 5, 7) on a single model and language, producing narrative- and subnarrative-level metrics with pairwise significance tests. Used to determine the optimal ensemble size for the multi-agent voting framework.
+
+### Voting Failure Analysis
+
+```bash
+cd src/analysis
+python voting_failure_analysis.py \
+    --experiments-dir ../../results/experiments/ \
+    --ground-truth-dir ../../data/dev-documents_4_December/ \
+    --output ../../results/analysis/voting_failure_report.md
+```
+
+Diagnoses failure modes in multi-agent voting: per-document error classification (false positives, false negatives, "Other" inflation), cross-run consensus to identify systematic failures across seeds, cross-aggregation comparison (intersection vs majority vs union on the same model), and cross-model consensus to surface inherently hard documents. When vote-level data is available, also analyses unanimous-wrong votes, agreement entropy, and per-agent reliability.
 
 ### Dataset Statistics
 
