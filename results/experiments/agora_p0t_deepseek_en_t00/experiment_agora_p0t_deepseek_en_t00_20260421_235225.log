@@ -2123,3 +2123,18 @@ Generated seeds: [478163327, 107420369, 1181241943]
 [graph] Starting multi-agent narratives classification with 3 agents for category URW (prompt=P0T)
 [graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
 [graph] Agent 1 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Hidden plots by secret schemes of powerful groups', 'URW: Russia is the Victim', 'URW: Negative Consequences for the West']
+[graph] Agent 2 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Russia is the Victim', 'URW: Amplifying war-related fears']
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears', 'URW: Speculating war outcomes']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using intersection method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting Ukraine', 'URW: Discrediting the West, Diplomacy', 'URW: Amplifying war-related fears'] (prompt=P0T)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
+[graph] Agent 3 classified narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim', 'URW: Hidden plots by secret schemes of powerful groups']
+[graph] Multi-agent narratives classification complete
+[graph] Aggregating multi-agent narrative results using intersection method
+[graph] Aggregated narratives: ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim']
+[graph] Cleaning narratives
+[graph] Starting subnarratives classification node for narratives ['URW: Blaming the war on others rather than the invader', 'URW: Discrediting the West, Diplomacy', 'URW: Distrust towards Media', 'URW: Amplifying war-related fears', 'URW: Russia is the Victim'] (prompt=P0T)
+[graph] Starting sequential LLM invocation for subnarratives (with retry)...
