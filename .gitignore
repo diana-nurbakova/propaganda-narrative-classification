@@ -16,6 +16,20 @@ testset/
 # Model weights (hosted on Zenodo)
 models/
 
+# Training artifacts & checkpoints (kept local, never push)
+results_hierarchical/
+results_originals_only/
+mdeberta_artifacts/
+mdeberta_artifacts_hierarchical/
+**/checkpoint-*/
+*.safetensors
+*.bin
+optimizer.pt
+
+# Raw dataset archives
+data.zip
+data_folder.zip
+
 # Build/cache artifacts
 **/__pycache__/
 *.pyc
