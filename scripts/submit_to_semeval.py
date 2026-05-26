@@ -13,9 +13,11 @@ import time
 
 # Configuration
 BASE_URL = "https://propaganda.math.unipd.it/semeval2025task10"
-TEAM_PAGE_URL = f"{BASE_URL}/teampage.php?passcode=33919dec6bb13d9ba70150aca9519aac"
+PASSCODE = os.environ.get("SEMEVAL_PASSCODE")
+if not PASSCODE:
+    sys.exit("SEMEVAL_PASSCODE environment variable is required.")
+TEAM_PAGE_URL = f"{BASE_URL}/teampage.php?passcode={PASSCODE}"
 UPLOAD_URL = f"{BASE_URL}/upload.php"
-PASSCODE = "33919dec6bb13d9ba70150aca9519aac"
 
 def submit_file(file_path: Path, session: requests.Session, output_dir: Path):
     """
@@ -162,8 +164,10 @@ def process_results_folder(folder_path: str, output_dir: str = "evaluation_resul
     # Create a session to maintain cookies
     session = requests.Session()
     
-    # Add the visitor tracking cookie
-    session.cookies.set('sc_is_visitor_unique', 'rx11864198.1760649262.F0BE9B4DBF304992B60F5D9C300BBF0F.40.32.27.22.19.14.8.6.1')
+    # Add the visitor tracking cookie (set via env var to avoid hard-coding identifiers)
+    visitor_cookie = os.environ.get("SEMEVAL_VISITOR_COOKIE")
+    if visitor_cookie:
+        session.cookies.set('sc_is_visitor_unique', visitor_cookie)
     
     # First, visit the team page to establish session
     print("\nEstablishing session with server...")
@@ -269,7 +273,9 @@ def main():
         output_path.mkdir(exist_ok=True)
         
         session = requests.Session()
-        session.cookies.set('sc_is_visitor_unique', 'rx11864198.1760649262.F0BE9B4DBF304992B60F5D9C300BBF0F.40.32.27.22.19.14.8.6.1')
+        visitor_cookie = os.environ.get("SEMEVAL_VISITOR_COOKIE")
+        if visitor_cookie:
+            session.cookies.set('sc_is_visitor_unique', visitor_cookie)
         session.get(TEAM_PAGE_URL, timeout=10)
         
         success, result = submit_file(file_path, session, output_path)
