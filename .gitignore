@@ -42,3 +42,11 @@ Thumbs.db
 unsloth*/
 src_old/
 narrative_model_artifacts/
+
+specs/
+
+# Submission artifacts: keep .txt prediction files; ignore screenshots, HTML responses, asset folders, and identifying score tracking
+results/testset_submissions/**/*.png
+results/testset_submissions/**/*.html
+results/testset_submissions/**/*_files/
+results/testset_submissions/official_scores.md
