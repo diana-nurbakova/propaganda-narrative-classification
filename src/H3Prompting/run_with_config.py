@@ -115,10 +115,19 @@ async def run_classification(config_path: str, cost_tracker: Optional[CostTracke
         if cost_tracker:
             # Estimate API calls based on config
             calls_per_doc = 1  # category
+            if config.enable_tom_stage1:
+                calls_per_doc += 1  # ToM Stage 1 cached analysis
             calls_per_doc += max(1, config.num_narrative_agents)  # narratives
             calls_per_doc += max(1, config.num_subnarrative_agents)  # subnarratives
             if config.enable_validation:
                 calls_per_doc += 2  # validation calls
+            if config.enable_tom_arbitration and config.num_narrative_agents > 1:
+                # Arbitration only fires on disagreement; assume ~50% rate.
+                calls_per_doc += 0.5
+            if config.enable_disambiguation:
+                # One disambiguation re-prompt per confused predicted label;
+                # empirical baseline: ~1 per doc on average.
+                calls_per_doc += 1
 
             for file_id in file_names:
                 cost_tracker.start_document(file_id)
@@ -188,7 +197,9 @@ async def run_classification(config_path: str, cost_tracker: Optional[CostTracke
         return cost_tracker
 
     except Exception as e:
+        import traceback
         print(f"[Main] Error during classification: {e}")
+        traceback.print_exc()
         sys.exit(1)
 
 

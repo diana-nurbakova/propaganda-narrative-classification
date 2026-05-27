@@ -155,7 +155,13 @@ def handle_other_category_node(state) -> dict:
     }
 
 
-def classify_narratives_node(state, llm, model_name: str = "") -> dict:
+def classify_narratives_node(
+    state,
+    llm,
+    model_name: str = "",
+    prompt_level: str = "P0",
+    language: str = None,
+) -> dict:
     """
     Node function that classifies text into narratives for a given category.
 
@@ -163,6 +169,10 @@ def classify_narratives_node(state, llm, model_name: str = "") -> dict:
         state: Current state containing text and category
         llm: The language model instance
         model_name: The model name for structured output handling
+        prompt_level: Prompt enhancement level (P0/P1/P2). At P2, the cached
+            ToM Stage 1 analysis from ``state["tom_analysis"]`` is prepended
+            to the prompt.
+        language: Language code (used by P1+ for BERTopic keyword lookup).
 
     Returns:
         Dictionary with the narrative classification results
@@ -171,10 +181,16 @@ def classify_narratives_node(state, llm, model_name: str = "") -> dict:
     category = state["category"]
     retry_count = state.get("narrative_retry_count", 0)
     feedback = state.get("narrative_validation_feedback", "")
+    tom_analysis = state.get("tom_analysis") if prompt_level == "P2" else None
 
-    print(f"[graph] Starting narratives classification node for category {category}")
+    print(f"[graph] Starting narratives classification node for category {category} (prompt={prompt_level})")
 
-    base_system_prompt = create_narrative_system_prompt(category)
+    base_system_prompt = create_narrative_system_prompt(
+        category,
+        prompt_level=prompt_level,
+        tom_analysis=tom_analysis,
+        language=language,
+    )
 
     if feedback and feedback != "approved":
         system_prompt = create_narrative_refinement_prompt(base_system_prompt, feedback)
@@ -321,7 +337,13 @@ def clean_narratives_node(state, flat_narratives, enable_fuzzy: bool = True,
     }
 
 
-async def classify_subnarratives_node(state, llm, model_name: str = "") -> dict:
+async def classify_subnarratives_node(
+    state,
+    llm,
+    model_name: str = "",
+    prompt_level: str = "P0",
+    language: str = None,
+) -> dict:
     """
     Node function that classifies text into subnarratives for given narratives.
     Uses batch processing for efficiency.
@@ -330,6 +352,8 @@ async def classify_subnarratives_node(state, llm, model_name: str = "") -> dict:
         state: Current state containing text and narratives
         llm: The language model instance
         model_name: The model name for structured output handling
+        prompt_level: Prompt enhancement level (P0/P1/P2).
+        language: Language code (used by P1+ for BERTopic keyword lookup).
 
     Returns:
         Dictionary with the subnarrative classification results
@@ -338,17 +362,21 @@ async def classify_subnarratives_node(state, llm, model_name: str = "") -> dict:
     narratives = state["narratives"]
     retry_count = state.get("subnarrative_retry_count", 0)
     feedback = state.get("subnarrative_validation_feedback", "")
+    tom_analysis = state.get("tom_analysis") if prompt_level == "P2" else None
 
     valid_parent_narratives = [
         n for n in narratives if n.narrative_name != "Other"
     ]
 
     narrative_names = [n.narrative_name for n in valid_parent_narratives]
-    print(f"[graph] Starting subnarratives classification node for narratives {narrative_names}")
+    print(f"[graph] Starting subnarratives classification node for narratives {narrative_names} (prompt={prompt_level})")
 
 
     structured_llm = get_structured_llm(llm, SubnarrativeClassificationOutput, model_name)
-    all_messages = _prepare_subnarrative_messages(narratives, text, feedback)
+    all_messages = _prepare_subnarrative_messages(
+        narratives, text, feedback,
+        prompt_level=prompt_level, tom_analysis=tom_analysis, language=language,
+    )
 
     print("[graph] Starting sequential LLM invocation for subnarratives (with retry)...")
     # Run sequentially with retry to avoid rate limiting
@@ -545,26 +573,47 @@ def write_results_node(
     return None
 
 
-async def multi_agent_classify_narratives_node(state, llm, num_agents: int, model_name: str = "") -> dict:
+async def multi_agent_classify_narratives_node(
+    state,
+    llm,
+    num_agents: int,
+    model_name: str = "",
+    prompt_level: str = "P0",
+    language: str = None,
+) -> dict:
     """
-    Node function that runs n agents in parallel to classify narratives.
+    Node function that runs n agents to classify narratives.
+
+    Used both for the original Agora multi-agent voting (n parallel agent
+    instances) and for the Self-Consistency baseline (k repeated samples
+    from a single agent). At t=0 both produce variation due to floating
+    point non-determinism, and the downstream aggregation is identical.
 
     Args:
         state: Current state containing text and category
         llm: The language model instance
-        num_agents: Number of agents to run in parallel
+        num_agents: Number of agents (or SC samples) to run
         model_name: The model name for structured output handling
+        prompt_level: Prompt enhancement level (P0/P1/P2). At P2 the cached
+            ToM Stage 1 analysis is prepended to each agent prompt.
+        language: Language code for BERTopic keyword lookup.
 
     Returns:
         Dictionary with multi-agent narrative classification results
     """
     text = state.get("cleaned_text", state["text"])
     category = state["category"]
+    tom_analysis = state.get("tom_analysis") if prompt_level == "P2" else None
 
-    print(f"[graph] Starting multi-agent narratives classification with {num_agents} agents for category {category}")
+    print(f"[graph] Starting multi-agent narratives classification with {num_agents} agents for category {category} (prompt={prompt_level})")
 
     # Prepare the same prompt for all agents
-    system_prompt = create_narrative_system_prompt(category)
+    system_prompt = create_narrative_system_prompt(
+        category,
+        prompt_level=prompt_level,
+        tom_analysis=tom_analysis,
+        language=language,
+    )
     structured_llm = get_structured_llm(llm, NarrativeClassificationOutput, model_name)
 
     messages = [
@@ -605,21 +654,31 @@ async def multi_agent_classify_narratives_node(state, llm, num_agents: int, mode
     }
 
 
-async def multi_agent_classify_subnarratives_node(state, llm, num_agents: int, model_name: str = "") -> dict:
+async def multi_agent_classify_subnarratives_node(
+    state,
+    llm,
+    num_agents: int,
+    model_name: str = "",
+    prompt_level: str = "P0",
+    language: str = None,
+) -> dict:
     """
-    Node function that runs n agents in parallel to classify subnarratives.
+    Node function that runs n agents to classify subnarratives.
 
     Args:
         state: Current state containing text and narratives
         llm: The language model instance
-        num_agents: Number of agents to run in parallel
+        num_agents: Number of agents to run
         model_name: The model name for structured output handling
+        prompt_level: Prompt enhancement level (P0/P1/P2).
+        language: Language code (used by P1+ for BERTopic keyword lookup).
 
     Returns:
         Dictionary with multi-agent subnarrative classification results
     """
     text = state.get("cleaned_text", state["text"])
     narratives = state["narratives"]
+    tom_analysis = state.get("tom_analysis") if prompt_level == "P2" else None
 
     valid_parent_narratives = [
         n for n in narratives if n.narrative_name != "Other"
@@ -639,7 +698,13 @@ async def multi_agent_classify_subnarratives_node(state, llm, num_agents: int, m
     agent_metadata = []
 
     for narrative in valid_parent_narratives:
-        system_prompt = create_subnarrative_system_prompt(narrative.narrative_name)
+        # narrative.narrative_name is like "URW: Discrediting Ukraine"
+        system_prompt = create_subnarrative_system_prompt(
+            narrative.narrative_name,
+            prompt_level=prompt_level,
+            tom_analysis=tom_analysis,
+            language=language,
+        )
         messages = [
             SystemMessage(content=system_prompt),
             HumanMessage(content=text)
@@ -682,31 +747,46 @@ async def multi_agent_classify_subnarratives_node(state, llm, num_agents: int, m
 def aggregate_multi_agent_narratives(state, method: str) -> dict:
     """
     Aggregates multi-agent narrative classification results.
-    
+
     Args:
         state: Current state containing multi-agent narrative results
         method: Aggregation strategy
             - "intersection": narratives appearing in ALL agents
             - "union": narratives appearing in ANY agent
             - "majority": narratives appearing in > 50% of agents
-        
+
     Returns:
-        Dictionary with aggregated narratives
+        Dictionary with aggregated narratives. Also sets
+        ``narrative_disagreement_detected`` and
+        ``narrative_disagreement_labels`` for the ToM-arbitration router.
     """
     print(f"[graph] Aggregating multi-agent narrative results using {method} method")
-    
+
     # Aggregate narratives
     multi_agent_narratives = state.get("multi_agent_narratives", [])
     if multi_agent_narratives:
         aggregated_narratives = _aggregate_narratives(multi_agent_narratives, method)
     else:
         aggregated_narratives = state.get("narratives", [])
-    
+
     narrative_names = [n.narrative_name for n in aggregated_narratives]
     print(f"[graph] Aggregated narratives: {narrative_names}")
-    
+
+    # Detect disagreement: any label predicted by some but not ALL agents
+    disagreed: List[str] = []
+    if multi_agent_narratives and len(multi_agent_narratives) > 1:
+        agent_sets = [
+            {n.narrative_name for n in agent_results}
+            for agent_results in multi_agent_narratives
+        ]
+        union_set = set().union(*agent_sets)
+        intersection_set = set.intersection(*agent_sets) if agent_sets else set()
+        disagreed = sorted(union_set - intersection_set)
+
     return {
-        "narratives": aggregated_narratives
+        "narratives": aggregated_narratives,
+        "narrative_disagreement_detected": bool(disagreed),
+        "narrative_disagreement_labels": disagreed,
     }
 
 
@@ -878,12 +958,22 @@ def _aggregate_subnarratives(multi_agent_results, method: str, num_agents: int):
 
 # Private helper functions
 
-def _prepare_subnarrative_messages(narratives, text, feedback):
+def _prepare_subnarrative_messages(
+    narratives, text, feedback,
+    prompt_level: str = "P0",
+    tom_analysis=None,
+    language: str = None,
+):
     """Prepare batch messages for subnarrative classification."""
     all_messages = []
     for narrative in narratives:
-        base_system_prompt = create_subnarrative_system_prompt(narrative.narrative_name)
-        
+        base_system_prompt = create_subnarrative_system_prompt(
+            narrative.narrative_name,
+            prompt_level=prompt_level,
+            tom_analysis=tom_analysis,
+            language=language,
+        )
+
         if feedback and feedback != "approved":
             print("[graph] ACTOR: This is a retry for subnarratives. Incorporating feedback.")
             system_prompt = create_subnarrative_refinement_prompt(base_system_prompt, feedback)
@@ -910,4 +1000,277 @@ def _process_subnarrative_responses(narratives, responses):
         # Placeholder logic moved to write_results_node via _add_other_placeholders_if_needed
 
     return all_subnarratives_with_details
+
+
+# ===========================================================================
+# EMNLP revision nodes (specs/agora_emnlp_spec.md)
+# ===========================================================================
+
+async def tom_analyze_node(state, llm) -> dict:
+    """ToM Stage 1 (cached per-document analysis).
+
+    Runs once per document and stores the result in ``state["tom_analysis"]``.
+    Downstream classification, arbitration and disambiguation nodes read from
+    this single cached value, so the LLM call only happens once even for
+    multi-agent or actor-critic configurations. See spec \u00a75.2.
+    """
+    from prompt_template import create_tom_analysis_prompt
+
+    text = state.get("cleaned_text", state["text"])
+    print("[graph] Starting ToM Stage 1 analysis")
+
+    system_prompt = create_tom_analysis_prompt()
+    messages = [
+        SystemMessage(content=system_prompt),
+        HumanMessage(content=text),
+    ]
+    try:
+        response = await invoke_with_retry(llm, messages, "ToM-S1: ")
+        raw = (response.content or "").strip()
+    except Exception as e:
+        print(f"[graph] ToM Stage 1 failed: {e} \u2014 falling back to empty analysis")
+        return {"tom_analysis": {}}
+
+    parsed: dict = {}
+    # Try to parse JSON object out of the response. The prompt asks for raw
+    # JSON but some models still wrap it in code fences.
+    import re
+    candidates = []
+    fence = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw, re.DOTALL)
+    if fence:
+        candidates.append(fence.group(1))
+    obj = re.search(r"(\{[\s\S]*\})", raw)
+    if obj:
+        candidates.append(obj.group(1))
+    candidates.append(raw)
+    for cand in candidates:
+        try:
+            parsed = json.loads(cand)
+            if isinstance(parsed, dict):
+                break
+        except Exception:
+            continue
+
+    if not isinstance(parsed, dict):
+        parsed = {}
+    # Normalise keys
+    out = {
+        "presuppositions": parsed.get("presuppositions") or [],
+        "intent": parsed.get("intent") or "",
+        "target_belief_change": parsed.get("target_belief_change") or "",
+        "primary_mechanism": parsed.get("primary_mechanism") or "",
+    }
+    print(
+        f"[graph] ToM Stage 1 complete: mechanism={out['primary_mechanism']!r}"
+    )
+    return {"tom_analysis": out}
+
+
+async def tom_arbitrate_narratives_node(
+    state,
+    llm,
+    model_name: str = "",
+    prompt_level: str = "P2",
+) -> dict:
+    """ToM-informed arbitration over disagreed narrative labels.
+
+    Activated by the routing function only when
+    ``state["narrative_disagreement_detected"]`` is True. Resolves the
+    disagreement by re-prompting a single LLM with the cached ToM analysis
+    plus all per-agent predictions, then producing a final narrative set.
+    See spec \u00a75.3.
+    """
+    from prompt_template import create_tom_arbitration_prompt
+
+    multi_agent = state.get("multi_agent_narratives") or []
+    disagreed = state.get("narrative_disagreement_labels") or []
+    if not multi_agent or not disagreed:
+        # Nothing to arbitrate \u2014 keep aggregated narratives as-is.
+        return {}
+
+    text = state.get("cleaned_text", state["text"])
+    category = state.get("category", "")
+    tom_analysis = state.get("tom_analysis") or {}
+    agent_predictions = [
+        [n.narrative_name for n in agent_results] for agent_results in multi_agent
+    ]
+    print(
+        f"[graph] ToM arbitration: {len(disagreed)} disagreed labels from "
+        f"{len(agent_predictions)} agents"
+    )
+
+    system_prompt = create_tom_arbitration_prompt(
+        category, agent_predictions, disagreed, tom_analysis=tom_analysis
+    )
+    structured_llm = get_structured_llm(
+        llm, NarrativeClassificationOutput, model_name
+    )
+    messages = [
+        SystemMessage(content=system_prompt),
+        HumanMessage(
+            content=(
+                f"ORIGINAL TEXT:\n---\n{text}\n---\n\n"
+                f"Return the FINAL narrative classification as JSON."
+            )
+        ),
+    ]
+
+    try:
+        response = await invoke_with_retry(structured_llm, messages, "ToM-arb: ")
+    except Exception as e:
+        print(f"[graph] ToM arbitration failed: {e} \u2014 keeping aggregated narratives")
+        return {}
+
+    final_narratives = response.narratives if response and response.narratives else []
+    final_names = [n.narrative_name for n in final_narratives]
+    print(f"[graph] ToM arbitration complete: {final_names}")
+    if not final_narratives:
+        # Defensive: if arbiter returned nothing, fall back to aggregated set
+        return {}
+    return {
+        "narratives": final_narratives,
+        # Reset disagreement flags so downstream stages don't re-trigger
+        "narrative_disagreement_detected": False,
+        "narrative_disagreement_labels": [],
+    }
+
+
+async def disambiguate_narratives_node(
+    state,
+    llm,
+    model_name: str = "",
+    confused_pairs_path: str = "data/disambiguation_pairs.json",
+) -> dict:
+    """Confusion-aware disambiguation re-prompting (spec \u00a77.3).
+
+    For every aggregated narrative that participates in a known confused
+    pair (loaded from ``confused_pairs_path``), re-prompt the LLM with
+    contrastive examples and the annotation-guideline decision rule. The
+    LLM is asked to keep / drop the label.
+
+    The pairs file is produced offline by
+    ``src.analysis.confusion_retrieval`` from the bistochastic-TCM output of
+    ``enhanced_experiment_report.py``. If the file is missing the node is a
+    no-op.
+    """
+    from pathlib import Path
+    from prompt_template import create_disambiguation_prompt
+
+    cp_path = Path(confused_pairs_path)
+    if not cp_path.exists():
+        print(f"[graph] disambiguation: no pairs file at {cp_path}, skipping")
+        return {}
+    try:
+        with open(cp_path, "r", encoding="utf-8") as f:
+            pairs_data = json.load(f)
+    except Exception as e:
+        print(f"[graph] disambiguation: failed to load pairs ({e}), skipping")
+        return {}
+
+    pairs: List[dict] = pairs_data.get("pairs", []) if isinstance(pairs_data, dict) else pairs_data
+    if not pairs:
+        return {}
+
+    narratives = state.get("narratives") or []
+    if not narratives:
+        return {}
+    pred_names = {n.narrative_name for n in narratives}
+    text = state.get("cleaned_text", state["text"])
+
+    decisions: List[Dict[str, Any]] = []
+    keep_set = set(pred_names)
+
+    for pair in pairs:
+        label_a = pair.get("label_a") or pair.get("a") or ""
+        label_b = pair.get("label_b") or pair.get("b") or ""
+        if not (label_a and label_b):
+            continue
+        if label_a not in pred_names and label_b not in pred_names:
+            continue
+
+        examples_a = pair.get("hard_negatives_a", []) or []
+        examples_b = pair.get("hard_negatives_b", []) or []
+        rule = pair.get("decision_rule", "")
+        # Always prompt with the predicted label as A so the model is asked
+        # to defend the prediction it just made.
+        if label_a in pred_names:
+            primary, secondary = label_a, label_b
+            ex_p, ex_s = examples_a, examples_b
+        else:
+            primary, secondary = label_b, label_a
+            ex_p, ex_s = examples_b, examples_a
+
+        system_prompt = create_disambiguation_prompt(
+            primary, secondary, ex_p, ex_s, decision_rule=rule
+        )
+        messages = [
+            SystemMessage(content=system_prompt),
+            HumanMessage(content=text),
+        ]
+        try:
+            response = await invoke_with_retry(llm, messages, "Disambig: ")
+            raw = (response.content or "").strip()
+        except Exception as e:
+            print(f"[graph] disambiguation LLM call failed: {e}")
+            continue
+
+        # Parse JSON {keep_a, keep_b, reasoning}
+        import re
+        parsed = None
+        for cand in (
+            re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw, re.DOTALL),
+            re.search(r"(\{[\s\S]*\})", raw),
+        ):
+            if not cand:
+                continue
+            try:
+                parsed = json.loads(cand.group(1))
+                break
+            except Exception:
+                continue
+        if not isinstance(parsed, dict):
+            continue
+
+        keep_primary = bool(parsed.get("keep_a", True))
+        keep_secondary = bool(parsed.get("keep_b", False))
+
+        decisions.append(
+            {
+                "primary": primary,
+                "secondary": secondary,
+                "keep_primary": keep_primary,
+                "keep_secondary": keep_secondary,
+                "reasoning": parsed.get("reasoning", ""),
+            }
+        )
+
+        if not keep_primary:
+            keep_set.discard(primary)
+        if keep_secondary and secondary not in keep_set:
+            keep_set.add(secondary)
+
+    # Reconstruct narrative list with only kept labels. Synthesise minimal
+    # Narrative objects for newly added secondary labels.
+    new_narratives = []
+    for n in narratives:
+        if n.narrative_name in keep_set:
+            new_narratives.append(n)
+    existing_names = {n.narrative_name for n in new_narratives}
+    for added_name in keep_set - existing_names:
+        new_narratives.append(
+            type(narratives[0])(
+                narrative_name=added_name,
+                evidence_quote="",
+                reasoning="Added by confusion-aware disambiguation step.",
+            )
+        )
+
+    print(
+        f"[graph] disambiguation: {len(decisions)} pair re-evaluations, "
+        f"final={[n.narrative_name for n in new_narratives]}"
+    )
+    return {
+        "narratives": new_narratives,
+        "disambiguation_decisions": decisions,
+    }
 

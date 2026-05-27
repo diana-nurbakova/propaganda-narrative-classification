@@ -3,8 +3,8 @@ Dynamic graph builder for the LangGraph classification system.
 Creates graphs based on configuration settings.
 """
 
-from typing import Any, Dict, List, NotRequired
-from typing_extensions import TypedDict
+from typing import Any, Dict, List
+from typing_extensions import NotRequired, TypedDict
 from langchain.chat_models import init_chat_model
 from langgraph.graph import StateGraph, START, END
 
@@ -26,7 +26,10 @@ from graph_nodes import (
     multi_agent_classify_narratives_node,
     multi_agent_classify_subnarratives_node,
     aggregate_multi_agent_narratives,
-    aggregate_multi_agent_subnarratives
+    aggregate_multi_agent_subnarratives,
+    tom_analyze_node,
+    tom_arbitrate_narratives_node,
+    disambiguate_narratives_node,
 )
 
 
@@ -94,16 +97,25 @@ class ConfigurableGraphBuilder:
         llms['subnarratives_classification'] = init_llm_with_params('subnarratives', 'classification')
         llms['subnarratives_validation'] = init_llm_with_params('subnarratives', 'validation')
 
+        # EMNLP revision: ToM Stage 1 + arbitration + disambiguation share
+        # the default model. They reuse the narrative-classification LLM if
+        # no per-node override is set.
+        if config.enable_tom_stage1 or config.enable_tom_arbitration or config.enable_disambiguation:
+            llms['tom_analysis'] = init_llm_with_params('narratives', 'classification')
+            llms['tom_arbitration'] = init_llm_with_params('narratives', 'classification')
+            llms['disambiguation'] = init_llm_with_params('narratives', 'classification')
+
         return llms
     
     def _print_model_assignments(self):
         """Print model assignments for each node."""
         print("[GraphBuilder] Model assignments:")
         for key, llm in self.llms.items():
-            node_type, operation = key.split('_', 1)
+            parts = key.split('_', 1)
+            label = f"{parts[0].capitalize()} {parts[1]}" if len(parts) == 2 else key.capitalize()
             # Different LLM classes have different attribute names for the model
             model_name = getattr(llm, 'model_name', getattr(llm, 'model', str(llm)))
-            print(f"  {node_type.capitalize()} {operation}: {model_name}")
+            print(f"  {label}: {model_name}")
     
     def _create_clean_text_node(self):
         """Create text cleaning node wrapper."""
@@ -131,19 +143,25 @@ class ConfigurableGraphBuilder:
     
     def _create_narratives_node(self):
         """Create narratives classification node wrapper."""
+        prompt_level = self.config.prompt_level
+        language = self.config.language
         if self.config.num_narrative_agents > 1:
             async def _multi_agent_classify_narratives_node(state: ClassificationState) -> dict:
                 return await multi_agent_classify_narratives_node(
                     state, self.llms['narratives_classification'],
                     self.config.num_narrative_agents,
-                    self.model_names.get('narratives_classification', '')
+                    self.model_names.get('narratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
                 )
             return _multi_agent_classify_narratives_node
         else:
             def _classify_narratives_node(state: ClassificationState) -> dict:
                 return classify_narratives_node(
                     state, self.llms['narratives_classification'],
-                    self.model_names.get('narratives_classification', '')
+                    self.model_names.get('narratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
                 )
             return _classify_narratives_node
     
@@ -168,19 +186,25 @@ class ConfigurableGraphBuilder:
     
     def _create_subnarratives_node(self):
         """Create subnarratives classification node wrapper."""
+        prompt_level = self.config.prompt_level
+        language = self.config.language
         if self.config.num_subnarrative_agents > 1:
             async def _multi_agent_classify_subnarratives_node(state: ClassificationState) -> dict:
                 return await multi_agent_classify_subnarratives_node(
                     state, self.llms['subnarratives_classification'],
                     self.config.num_subnarrative_agents,
-                    self.model_names.get('subnarratives_classification', '')
+                    self.model_names.get('subnarratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
                 )
             return _multi_agent_classify_subnarratives_node
         else:
             async def _classify_subnarratives_node(state: ClassificationState) -> dict:
                 return await classify_subnarratives_node(
                     state, self.llms['subnarratives_classification'],
-                    self.model_names.get('subnarratives_classification', '')
+                    self.model_names.get('subnarratives_classification', ''),
+                    prompt_level=prompt_level,
+                    language=language,
                 )
             return _classify_subnarratives_node
     
@@ -215,6 +239,34 @@ class ConfigurableGraphBuilder:
             return aggregate_multi_agent_subnarratives(state, self.config.subnarrative_aggregation_method)
         return _aggregate_multi_agent_subnarratives
     
+    def _create_tom_analyze_node(self):
+        """Create the ToM Stage 1 analysis node wrapper (cached per doc)."""
+        async def _tom_analyze(state: ClassificationState) -> dict:
+            return await tom_analyze_node(state, self.llms['tom_analysis'])
+        return _tom_analyze
+
+    def _create_tom_arbitrate_node(self):
+        """Create the ToM-informed arbitration node wrapper."""
+        prompt_level = self.config.prompt_level
+        async def _tom_arbitrate(state: ClassificationState) -> dict:
+            return await tom_arbitrate_narratives_node(
+                state, self.llms['tom_arbitration'],
+                self.model_names.get('narratives_classification', ''),
+                prompt_level=prompt_level,
+            )
+        return _tom_arbitrate
+
+    def _create_disambiguate_node(self):
+        """Create the confusion-aware disambiguation node wrapper."""
+        captured_path = self.config.disambiguation_pairs_path or "data/disambiguation_pairs.json"
+        async def _disambiguate(state: ClassificationState) -> dict:
+            return await disambiguate_narratives_node(
+                state, self.llms['disambiguation'],
+                self.model_names.get('narratives_classification', ''),
+                confused_pairs_path=captured_path,
+            )
+        return _disambiguate
+
     def _create_results_node(self):
         """Create results writing node wrapper."""
         # Capture output_file at closure creation time, not execution time
@@ -236,12 +288,52 @@ class ConfigurableGraphBuilder:
     
     def _create_routing_functions(self):
         """Create routing functions for the graph."""
+        tom_stage1_enabled = self.config.enable_tom_stage1
+        tom_arb_enabled = (
+            self.config.enable_tom_arbitration
+            and self.config.num_narrative_agents > 1
+        )
+        disambig_enabled = self.config.enable_disambiguation
+
         def route_after_category_with_config(state: ClassificationState) -> str:
             category = state.get("category")
             if category == "Other":
                 return "handle_other_category"
-            else:
-                return "narratives"
+            if tom_stage1_enabled:
+                return "tom_analyze"
+            return "narratives"
+
+        def route_after_narrative_aggregation_with_arb(state: ClassificationState) -> str:
+            if tom_arb_enabled and state.get("narrative_disagreement_detected"):
+                return "tom_arbitrate"
+            if self.config.enable_cleaning:
+                return "clean_narratives"
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            return "subnarratives"
+
+        def route_after_tom_arbitration(state: ClassificationState) -> str:
+            if self.config.enable_cleaning:
+                return "clean_narratives"
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            return "subnarratives"
+
+        def route_after_clean_narratives_with_disambig(state: ClassificationState) -> str:
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            if disambig_enabled:
+                return "disambiguate_narratives"
+            return "subnarratives"
+
+        def route_after_disambiguate(state: ClassificationState) -> str:
+            narratives = state.get("narratives", [])
+            if not narratives or all(n.narrative_name == "Other" for n in narratives):
+                return "handle_empty_narratives"
+            return "subnarratives"
         
         def route_after_narrative_validation(state: ClassificationState) -> str:
             """Route based on narrative validation feedback."""
@@ -303,9 +395,12 @@ class ConfigurableGraphBuilder:
             "route_after_category": route_after_category_with_config,
             "route_after_narrative_validation": route_after_narrative_validation,
             "route_after_subnarrative_validation": route_after_subnarrative_validation,
-            "route_after_clean_narratives": route_after_clean_narratives,
-            "route_after_narrative_aggregation": route_after_narrative_aggregation,
-            "route_after_subnarrative_aggregation": route_after_subnarrative_aggregation
+            # ToM/disambiguation overrides
+            "route_after_clean_narratives": route_after_clean_narratives_with_disambig,
+            "route_after_narrative_aggregation": route_after_narrative_aggregation_with_arb,
+            "route_after_subnarrative_aggregation": route_after_subnarrative_aggregation,
+            "route_after_tom_arbitration": route_after_tom_arbitration,
+            "route_after_disambiguate": route_after_disambiguate,
         }
     
     def build_graph(self):
@@ -326,7 +421,16 @@ class ConfigurableGraphBuilder:
         builder.add_node("categories", self._create_category_node())
         builder.add_node("handle_other_category", self._create_other_category_node())
         builder.add_node("handle_empty_narratives", self._create_empty_narratives_node())
+        if self.config.enable_tom_stage1:
+            print("[GraphBuilder] Adding ToM Stage 1 (cached per-doc) node")
+            builder.add_node("tom_analyze", self._create_tom_analyze_node())
         builder.add_node("narratives", self._create_narratives_node())
+        if self.config.enable_tom_arbitration and self.config.num_narrative_agents > 1:
+            print("[GraphBuilder] Adding ToM arbitration node")
+            builder.add_node("tom_arbitrate", self._create_tom_arbitrate_node())
+        if self.config.enable_disambiguation:
+            print("[GraphBuilder] Adding disambiguation node")
+            builder.add_node("disambiguate_narratives", self._create_disambiguate_node())
         builder.add_node("subnarratives", self._create_subnarratives_node())
         builder.add_node("write_results", self._create_results_node())
         
@@ -367,9 +471,14 @@ class ConfigurableGraphBuilder:
         else:
             builder.add_edge(START, "categories")
         builder.add_conditional_edges("categories", routing_functions["route_after_category"])
-        
+
+        # ToM Stage 1 sits between categories and narratives so that the
+        # cached analysis is available before the first classification call.
+        if self.config.enable_tom_stage1:
+            builder.add_edge("tom_analyze", "narratives")
+
         builder.add_edge("handle_other_category", "write_results")
-        
+
         builder.add_edge("handle_empty_narratives", "write_results")
         
         # Build narrative flow based on granular configuration
@@ -395,10 +504,26 @@ class ConfigurableGraphBuilder:
             builder.add_conditional_edges("aggregate_narratives", routing_functions["route_after_narrative_aggregation"])
         if self.config.num_subnarrative_agents > 1:
             builder.add_conditional_edges("aggregate_subnarratives", routing_functions["route_after_subnarrative_aggregation"])
-        
+
+        # ToM arbitration node — emitted by route_after_narrative_aggregation
+        # when disagreement is detected. Routes to clean_narratives or
+        # subnarratives via route_after_tom_arbitration.
+        if self.config.enable_tom_arbitration and self.config.num_narrative_agents > 1:
+            builder.add_conditional_edges(
+                "tom_arbitrate", routing_functions["route_after_tom_arbitration"]
+            )
+
         # Clean narratives flow (if enabled)
         if cleaning:
             builder.add_conditional_edges("clean_narratives", routing_functions["route_after_clean_narratives"])
+
+        # Disambiguation node — emitted by route_after_clean_narratives_with_disambig
+        # when enable_disambiguation is set. Routes to subnarratives via
+        # route_after_disambiguate.
+        if self.config.enable_disambiguation:
+            builder.add_conditional_edges(
+                "disambiguate_narratives", routing_functions["route_after_disambiguate"]
+            )
         
         # Subnarrative flow
         if subnarrative_validation:

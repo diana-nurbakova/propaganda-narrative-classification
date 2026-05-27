@@ -69,8 +69,30 @@ MODELS = {
     },
 
     # === Llama via Cloud API ===
-    # Requires: pip install langchain-together (or langchain-groq)
-    # Set TOGETHER_API_KEY or GROQ_API_KEY env var
+
+    # HuggingFace Inference API (default for Llama)
+    # Requires: pip install langchain-huggingface
+    # Set HF_TOKEN env var
+    'hf_llama33_70b': {
+        'model_name': 'huggingface:meta-llama/Llama-3.3-70B-Instruct',
+        'display_name': 'Llama 3.3 70B (HuggingFace)',
+        'max_tokens': 8192,
+        'max_concurrency': 3,
+        'enable_fuzzy_matching': True,
+        'fuzzy_threshold': 70.0,
+    },
+    'hf_llama31_70b': {
+        'model_name': 'huggingface:meta-llama/Llama-3.1-70B-Instruct',
+        'display_name': 'Llama 3.1 70B (HuggingFace)',
+        'max_tokens': 8192,
+        'max_concurrency': 3,
+        'enable_fuzzy_matching': True,
+        'fuzzy_threshold': 70.0,
+    },
+
+    # Together AI
+    # Requires: pip install langchain-together
+    # Set TOGETHER_API_KEY env var
     'together_llama33_70b': {
         'model_name': 'together:meta-llama/Llama-3.3-70B-Instruct-Turbo',
         'display_name': 'Llama 3.3 70B (Together AI)',
@@ -215,9 +237,53 @@ METHODS = {
         'enable_subnarrative_validation': False,
         'enable_retrieval': False,
     },
+    'agora_5_majority': {
+        'display_name': 'Agora (5-agent majority)',
+        'num_narrative_agents': 5,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'majority',
+        'subnarrative_aggregation_method': 'majority',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+    },
+    'agora_7_majority': {
+        'display_name': 'Agora (7-agent majority)',
+        'num_narrative_agents': 7,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'majority',
+        'subnarrative_aggregation_method': 'majority',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+    },
     'agora_union': {
         'display_name': 'Agora (3-agent union)',
         'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+    },
+    'agora_5_union': {
+        'display_name': 'Agora (5-agent union)',
+        'num_narrative_agents': 5,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+    },
+    'agora_7_union': {
+        'display_name': 'Agora (7-agent union)',
+        'num_narrative_agents': 7,
         'num_subnarrative_agents': 1,
         'narrative_aggregation_method': 'union',
         'subnarrative_aggregation_method': 'union',
@@ -287,6 +353,206 @@ METHODS = {
             'google_genai:gemini-2.5-flash',
             'anthropic:claude-3-haiku-20240307',
         ],
+    },
+    # ------------------------------------------------------------------
+    # EMNLP revision (specs/agora_emnlp_spec.md)
+    # ------------------------------------------------------------------
+    'sc_3': {
+        'display_name': 'Self-Consistency baseline (k=3, majority)',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'majority',
+        'subnarrative_aggregation_method': 'majority',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'enable_self_consistency': True,
+        'self_consistency_k': 3,
+        'prompt_level': "P0'",
+    },
+    'sc_3_intersection': {
+        'display_name': 'Self-Consistency baseline (k=3, intersection)',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'enable_self_consistency': True,
+        'self_consistency_k': 3,
+        'prompt_level': "P0'",
+    },
+    'sc_3_union': {
+        'display_name': 'Self-Consistency baseline (k=3, union)',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'enable_self_consistency': True,
+        'self_consistency_k': 3,
+        'prompt_level': "P0'",
+    },
+    'sc_5': {
+        'display_name': 'Self-Consistency baseline (k=5, majority)',
+        'num_narrative_agents': 5,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'majority',
+        'subnarrative_aggregation_method': 'majority',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'enable_self_consistency': True,
+        'self_consistency_k': 5,
+        'prompt_level': "P0'",
+    },
+    'baseline_p0prime': {
+        'display_name': "Baseline + P0' (anti-over-prediction)",
+        'num_narrative_agents': 1,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': "P0'",
+    },
+    'baseline_p0t': {
+        'display_name': 'Baseline + P0T (P0 + ToM, no P1 enhancements)',
+        'num_narrative_agents': 1,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P0T',
+        'enable_tom_stage1': True,
+    },
+    'agora_p0t': {
+        'display_name': 'Agora (3-agent intersection) + P0T (P0 + ToM)',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P0T',
+        'enable_tom_stage1': True,
+    },
+    'baseline_p1': {
+        'display_name': 'Baseline + P1 (annotation-guideline rules + BERTopic)',
+        'num_narrative_agents': 1,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P1',
+    },
+    'baseline_p2': {
+        'display_name': 'Baseline + P2 (P1 + ToM Stage 1)',
+        'num_narrative_agents': 1,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'union',
+        'subnarrative_aggregation_method': 'union',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P2',
+        'enable_tom_stage1': True,
+    },
+    'agora_p0prime': {
+        'display_name': "Agora (3-agent intersection) + P0'",
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': "P0'",
+    },
+    'agora_p1': {
+        'display_name': 'Agora (3-agent intersection) + P1',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P1',
+    },
+    'agora_p2': {
+        'display_name': 'Agora (3-agent intersection) + P2 (ToM)',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P2',
+        'enable_tom_stage1': True,
+    },
+    'agora_tom_arb': {
+        'display_name': 'Agora + ToM Stage 1 + ToM arbitration',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P2',
+        'enable_tom_stage1': True,
+        'enable_tom_arbitration': True,
+    },
+    'agora_disambig': {
+        'display_name': 'Agora + confusion-aware disambiguation',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'enable_disambiguation': True,
+    },
+    'agora_full': {
+        'display_name': 'Agora + P2 + ToM arbitration + disambiguation',
+        'num_narrative_agents': 3,
+        'num_subnarrative_agents': 1,
+        'narrative_aggregation_method': 'intersection',
+        'subnarrative_aggregation_method': 'intersection',
+        'enable_validation': False,
+        'enable_narrative_validation': False,
+        'enable_subnarrative_validation': False,
+        'enable_retrieval': False,
+        'prompt_level': 'P2',
+        'enable_tom_stage1': True,
+        'enable_tom_arbitration': True,
+        'enable_disambiguation': True,
     },
     'heterogeneous_local': {
         'display_name': 'Heterogeneous Local Ensemble (Llama + DeepSeek + Mistral via Ollama)',
@@ -479,6 +745,20 @@ def generate_config(
     # Add retrieval settings if enabled
     if method.get('enable_retrieval'):
         config['retrieval_top_k'] = method.get('retrieval_top_k', 10)
+
+    # EMNLP revision: prompt level / ToM / SC / disambiguation flags
+    if method.get('prompt_level'):
+        config['prompt_level'] = method['prompt_level']
+    if method.get('enable_tom_stage1'):
+        config['enable_tom_stage1'] = True
+    if method.get('enable_tom_arbitration'):
+        config['enable_tom_arbitration'] = True
+    if method.get('enable_self_consistency'):
+        config['enable_self_consistency'] = True
+        config['self_consistency_k'] = method.get('self_consistency_k', 3)
+    if method.get('enable_disambiguation'):
+        config['enable_disambiguation'] = True
+        config['disambiguation_pairs_path'] = 'data/disambiguation_pairs.json'
 
     # Add heterogeneous ensemble models if specified
     if 'narrative_agent_models' in method:

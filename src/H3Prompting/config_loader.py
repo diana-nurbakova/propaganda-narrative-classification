@@ -77,6 +77,49 @@ class ClassificationConfig:
     # Vote saving (for post-hoc voting failure analysis)
     enable_vote_saving: bool = False  # Save per-agent votes before aggregation
 
+    # ------------------------------------------------------------------
+    # EMNLP revision (specs/agora_emnlp_spec.md): prompt enhancement,
+    # ToM reasoning chain, ToM-informed arbitration, Self-Consistency,
+    # confusion-aware disambiguation.
+    # ------------------------------------------------------------------
+
+    # Prompt enhancement level injected into narrative / sub-narrative
+    # classification prompts:
+    #   "P0" \u2014 baseline (current behaviour)
+    #   "P1" \u2014 baseline + general principles + per-narrative
+    #            decision rules + BERTopic keywords + confused-pair notes
+    #   "P2" \u2014 P1 + cached ToM Stage 1 analysis prepended to the prompt
+    prompt_level: str = "P0"
+    # Optional language hint for BERTopic keyword lookup. Auto-derived from
+    # input_folder if not set.
+    language: Optional[str] = None
+    # Override paths for the BERTopic keywords / annotation rules / ToM
+    # taxonomy files (defaults: data/...).
+    bertopic_keywords_path: Optional[str] = None
+    annotation_rules_path: Optional[str] = None
+    tom_taxonomy_path: Optional[str] = None
+
+    # ToM Stage 1 cached per-document analysis. When enabled, a single LLM
+    # call per document produces a {presuppositions, intent, target_belief
+    # _change, primary_mechanism} record consumed by downstream nodes.
+    enable_tom_stage1: bool = False
+    # ToM-informed arbitration over disagreed labels (only meaningful when
+    # ``num_narrative_agents > 1``). Implies enable_tom_stage1.
+    enable_tom_arbitration: bool = False
+
+    # Self-Consistency baseline: k repeated samples of a single agent then
+    # aggregated identically to Agora. Just an alias for the existing
+    # multi-agent path with a distinct method label \u2014 ``num_narrative_agents``
+    # is set to ``self_consistency_k`` if this flag is true.
+    enable_self_consistency: bool = False
+    self_consistency_k: int = 3
+
+    # Confusion-aware disambiguation. Path to a JSON file produced by
+    # ``src.analysis.confusion_retrieval`` that contains hard-negative
+    # examples per confused narrative pair.
+    enable_disambiguation: bool = False
+    disambiguation_pairs_path: Optional[str] = None
+
     # Ollama-specific settings (for self-hosted/authenticated Ollama endpoints)
     ollama_base_url: Optional[str] = None  # Custom Ollama base URL (e.g., https://ollama-ui.example.com/ollama)
     ollama_api_key: Optional[str] = None  # Bearer token for authenticated Ollama endpoints
@@ -205,8 +248,50 @@ class ClassificationConfig:
             # Ollama-specific settings
             ollama_base_url=yaml_data.get('ollama_base_url'),
             ollama_api_key=yaml_data.get('ollama_api_key'),
+            # EMNLP revision: prompt enhancement / ToM / SC / disambiguation
+            prompt_level=yaml_data.get('prompt_level', 'P0'),
+            language=yaml_data.get('language'),
+            bertopic_keywords_path=yaml_data.get('bertopic_keywords_path'),
+            annotation_rules_path=yaml_data.get('annotation_rules_path'),
+            tom_taxonomy_path=yaml_data.get('tom_taxonomy_path'),
+            enable_tom_stage1=yaml_data.get('enable_tom_stage1', False),
+            enable_tom_arbitration=yaml_data.get('enable_tom_arbitration', False),
+            enable_self_consistency=yaml_data.get('enable_self_consistency', False),
+            self_consistency_k=yaml_data.get('self_consistency_k', 3),
+            enable_disambiguation=yaml_data.get('enable_disambiguation', False),
+            disambiguation_pairs_path=yaml_data.get('disambiguation_pairs_path'),
         )
     
+    def __post_init__(self) -> None:
+        """Apply EMNLP-revision defaults and dependent flags."""
+        # ToM arbitration requires ToM Stage 1 (the arbiter reads the cached
+        # analysis from state).
+        if self.enable_tom_arbitration:
+            self.enable_tom_stage1 = True
+        # Prompt level P2 requires ToM Stage 1.
+        if self.prompt_level == "P2":
+            self.enable_tom_stage1 = True
+        # Self-consistency: route k samples through the multi-agent path.
+        if self.enable_self_consistency:
+            if self.num_narrative_agents <= 1:
+                self.num_narrative_agents = max(2, self.self_consistency_k)
+        # Auto-derive language from input_folder if not set, e.g.
+        # data/dev-documents_4_December/EN/subtask-2-documents/ -> EN
+        if not self.language and self.input_folder:
+            import re
+            m = re.search(r"/([A-Z]{2})/", self.input_folder)
+            if m:
+                self.language = m.group(1)
+            else:
+                m2 = re.search(r"/(en|bg|hi|pt|ru)/", self.input_folder.lower())
+                if m2:
+                    self.language = m2.group(1).upper()
+        if self.prompt_level not in ("P0", "P0'", "P0T", "P1", "P2"):
+            self.prompt_level = "P0"
+        # P0T requires ToM Stage 1 (like P2, but without P1 enhancements).
+        if self.prompt_level == "P0T":
+            self.enable_tom_stage1 = True
+
     def validate(self) -> None:
         """Validate the configuration values."""
         if not self.model_name.strip():
@@ -273,7 +358,7 @@ class ClassificationConfig:
             if provider in seed_supported_providers:
                 params['seed'] = self.seed
 
-        # Add Ollama-specific parameters for authenticated/custom endpoints
+        # Add provider-specific parameters
         # Check config first, then fall back to environment variables
         import os
         provider = self.model_name.split(':')[0].lower() if ':' in self.model_name else ''
@@ -289,6 +374,12 @@ class ClassificationConfig:
                         'Authorization': f'Bearer {api_key}'
                     }
                 }
+        elif provider == 'huggingface':
+            # HuggingFace Inference API uses HF_TOKEN env var (auto-detected by langchain-huggingface)
+            # but we can also pass it explicitly via huggingfacehub_api_token
+            hf_token = os.environ.get('HF_TOKEN') or os.environ.get('HUGGINGFACEHUB_API_TOKEN')
+            if hf_token:
+                params['huggingfacehub_api_token'] = hf_token
 
         # Check for per-node parameter overrides
         if node_type:

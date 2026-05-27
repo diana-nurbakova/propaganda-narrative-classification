@@ -28,3 +28,4 @@ enable_text_cleaning: false
 max_concurrency: 3
 enable_cost_tracking: true
 cost_metrics_path: results/experiments/agora_7_deepseek_en_t07/run_{run_id}/cost_metrics.json
+enable_vote_saving: true
