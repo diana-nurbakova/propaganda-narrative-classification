@@ -78,6 +78,15 @@ The Agora method is configured via YAML as `agora` (intersection), `agora_majori
 
 **Important**: Intersection aggregation requires all agents to return valid predictions. If any agent returns an empty set (e.g., due to parsing failure), the intersection is empty and the document is labelled "Other". This makes intersection unreliable for weaker models; use `majority` or `union` instead.
 
+### Self-Consistency (sc_3)
+
+A single-model Self-Consistency baseline that samples the same model `k=3` times at a non-zero temperature and aggregates the predictions. Conceptually similar to Agora but with a single model identity replicated across runs rather than three independent agents.
+
+- 3 narrative samples, 1 subnarrative sample
+- Aggregation strategy controls precision/recall, same as Agora
+- Configured via YAML as `sc_3` (majority, default), `sc_3_intersection`, or `sc_3_union`
+- Sampling temperature is set per config (typically 0.7 for sc_3 variants)
+
 ### mDeBERTa Baseline (Fine-tuned Transformer)
 
 A fine-tuned [mDeBERTa v3 base](https://huggingface.co/microsoft/mdeberta-v3-base) model serving as a non-LLM baseline. Uses a **hierarchical multi-head architecture**: a shared DeBERTa encoder feeds into a parent (narrative) classification head and separate child (subnarrative) classification heads for each narrative.
@@ -110,6 +119,34 @@ python src/mDeberta/run_all_languages.py --inference-only
 python src/mDeberta/run_all_languages.py --threshold 0.3
 ```
 
+## Prompt Engineering Variants
+
+We evaluate five prompt levels, defined in `src/H3Prompting/prompt_template.py` as `PROMPT_LEVELS = ("P0", "P0'", "P0T", "P1", "P2")`. Each level adds further context to the narrative and subnarrative classification prompts.
+
+| Level | Components | Purpose |
+|-------|-----------|---------|
+| **P0** | Original baseline prompt (definitions + examples only) | Reference point; no additional instructions |
+| **P0'** (`p0prime`) | P0 + anti-over-prediction rule | Adds a CRITICAL RULE instructing the model that a narrative is present only if the text *actively promotes* it (mere mention is not sufficient). Measures the effect of conservative-prediction guidance. |
+| **P0T** (`p0t`) | P0 + ToM Stage 1 analysis | Prepends a cached Theory-of-Mind analysis of the document. Isolates the effect of audience-modelling context independently of the conservative-prediction rule. |
+| **P1** | P0' + annotation-guideline decision rules + BERTopic keywords + confused-pair disambiguation | Adds per-narrative decision rules extracted from the annotation guidelines, per-language BERTopic keywords for each narrative, and a confused-pair block listing pairs that are commonly mislabelled together. |
+| **P2** | P1 + ToM Stage 1 analysis | Full prompt: combines the structured guideline context from P1 with the Theory-of-Mind analysis from P0T/P2. |
+
+### Prompt Components
+
+- **Theory-of-Mind (ToM) analysis** — a separate LLM call (`create_tom_analysis_prompt`) produces a Stage 1 analysis identifying the document's intended audience, beliefs the author takes for granted, and persuasive intent. Cached results are prepended at P0T and P2.
+- **Annotation-guideline decision rules** — per-narrative and per-subnarrative rules extracted from the SemEval-2025 Task 10 annotation guidelines, exposed to the model alongside each label's definition.
+- **BERTopic keywords** — per-language, per-narrative keyword sets surfaced from BERTopic topic modelling on the training corpus, attached to each narrative at P1/P2.
+- **Confused-pair disambiguation** — pairs of narratives that are frequently confused (from the organisers' acknowledged confused pairs) are explicitly listed in the prompt with disambiguation guidance.
+- **Disambiguation step** — an optional second-pass prompt (`create_disambiguation_prompt`) reasoning over confused pairs when the initial prediction triggers a known confusion.
+
+### Method × Prompt-Level Variants
+
+The full experimental matrix combines each classification method with each prompt level — config filenames encode this as `<method>_<prompt-level>_<model>_<lang>_t<temp>.yaml`. Example:
+
+- `agora_p2_gpt5nano_en_t00.yaml` — Agora (3-agent intersection), P2 prompt, GPT-5 Nano, English, temperature 0.0
+- `sc_3_p1_deepseek_ru_t00.yaml` — Self-Consistency (k=3), P1 prompt, DeepSeek, Russian, temperature 0.0
+- `baseline_p0prime_hf_llama33_70b_bg_t00.yaml` — Single-agent baseline, P0' prompt, Llama 3.3 70B (HF), Bulgarian, temperature 0.0
+
 ## Backbone Models
 
 The following LLM backends were used in our experiments:
@@ -120,6 +157,8 @@ The following LLM backends were used in our experiments:
 | `deepseek` | DeepSeek | `deepseek:deepseek-chat` | Prompt-based JSON extraction. Most reliable model in our experiments. |
 | `mistral` | Mistral AI | `mistral:mistral-large-latest` | Prompt-based JSON extraction. **Fuzzy label matching** enabled (threshold 70) because Mistral returns semantically equivalent but not exact label names. |
 | `together_llama33_70b` | Together AI | `together_ai:meta-llama/Llama-3.3-70B-Instruct` | Prompt-based JSON extraction. **Fuzzy matching** enabled. Requires **JSON key normalisation** (`_normalize_json_keys`) because Llama returns `{"narratives": [...]}` instead of `{"subnarratives": [...]}` for subnarrative classification. |
+| `hf_llama33_70b` | Hugging Face | `huggingface:meta-llama/Llama-3.3-70B-Instruct` | Same model as `together_llama33_70b` but served via Hugging Face Inference. **Fuzzy matching** enabled. Useful for budget-free batch runs via HF Pro. |
+| `deepinfra` | DeepInfra | Llama 3.3 70B Instruct | Alternative serving for Llama 3.3 70B. Used for self-consistency × P1/P2 exploratory runs (see `run_sc_p1p2_deepinfra.ps1`). |
 | `gemini` | Google | `google_genai:gemini-2.5-flash` | Native structured output. Prone to rate-limit crashes; `max_tokens` must be kept at 8192 (higher values cause reasoning timeouts). |
 
 ### Structured Output Handling
@@ -283,6 +322,7 @@ Model-specific experiment runners that auto-skip completed experiments:
 .\run_experiments_mistral.ps1              # All Mistral experiments
 .\run_experiments_gpt5nano.ps1             # All GPT-5-nano experiments
 .\run_experiments_together.ps1             # All Together AI Llama experiments
+.\run_experiments_deepseek.ps1             # All DeepSeek experiments
 
 # Regenerate configs before running:
 .\run_experiments_mistral.ps1 -Generate
@@ -290,6 +330,42 @@ Model-specific experiment runners that auto-skip completed experiments:
 # Clean incomplete experiments first (GPT-5-nano only):
 .\run_experiments_gpt5nano.ps1 -Clean
 ```
+
+#### EMNLP Experiment Matrix
+
+The full EMNLP matrix (5 languages × multiple methods × P0–P2 prompts) runs through per-model orchestrators:
+
+```powershell
+.\run_experiments_deepseek_emnlp.ps1       # DeepSeek across the full EMNLP matrix
+.\run_experiments_gpt5nano_emnlp.ps1       # GPT-5-nano across the full EMNLP matrix
+.\run_experiments_llama_emnlp.ps1          # Llama 3.3 70B (Together / HF) across the full matrix
+```
+
+#### Targeted Sweeps and Ablations
+
+```powershell
+.\run_ablation_majority_union.ps1          # Aggregation-strategy ablation (intersection vs majority vs union)
+.\run_aggregation_sweep_gpt5nano.ps1       # Aggregation sweep on GPT-5-nano
+.\run_experiments_p0t.ps1                  # P0T (ToM-only) variants
+.\run_p1nc_p2nc_deepseek.ps1               # P1nc / P2nc variants on DeepSeek
+.\run_p1nc_p2nc_gpt5nano.ps1               # P1nc / P2nc variants on GPT-5-nano
+.\run_sc_p1p2_deepseek.ps1                 # Self-Consistency × P1/P2 on DeepSeek
+.\run_sc_p1p2_gpt5nano.ps1                 # Self-Consistency × P1/P2 on GPT-5-nano
+.\run_sc_p1p2_deepinfra.ps1                # Self-Consistency × P1/P2 on Llama via DeepInfra
+.\run_experiments_mdeberta_originals.ps1   # mDeBERTa baseline restricted to original (non-augmented) texts
+.\run_remaining_experiments.ps1            # Resume / fill-in incomplete experiments
+```
+
+#### Reproduction and Test-Set Workflow
+
+```powershell
+.\run_dev_replicate_original.ps1           # Reproduce original Agora setup on the dev set
+.\run_testset_replicate_original.ps1       # Reproduce original setup on the held-out test set
+.\run_testset_submission.ps1               # Generate primary test-set submission files
+.\run_testset_submission_alternative.ps1   # Generate alternative test-set submission (offline re-aggregation)
+```
+
+The test-set submission scripts produce SemEval-formatted `.txt` files under `results/testset_submissions/`. Uploading to the SemEval evaluation server is handled by `scripts/submit_to_semeval.py` (requires `SEMEVAL_PASSCODE` env var).
 
 ### Generating Configs
 
